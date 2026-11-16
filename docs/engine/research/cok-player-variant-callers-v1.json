@@ -1,0 +1,485 @@
+{
+  "schema": "cok-player-variant-callers-v1",
+  "sourceIdentity": {
+    "startExeSha256": "e51d88ecef07cffe4a14036de3dbdc6ce7e7ff0db7482f3771d6f99eb7bbb956",
+    "gameOvrSha256": "c3f448c391ea860f97dec99ce88b0b8b0a4a7e807cf3b1f5a8f1515e2a7a0529",
+    "completeLoadImageBytes": 65568,
+    "completeLoadImageSha256": "1bd9c6700b6ce55445649cf25a1991010896d1cfb044f2fb57c9cc90faf6a7e5",
+    "unpacker": "tools/exepack_unpack.py:unpack_complete_load_image",
+    "unpackedFirstDecompressedOffset": 909
+  },
+  "stubRoutes": {
+    "playerVariantWrapper": {
+      "selector": {
+        "segment": 278,
+        "offset": 87
+      },
+      "completeImageDescriptorHeaderOffset": 4448,
+      "completeImageStubArrayOffset": 4480,
+      "completeImageStubOffset": 4535,
+      "stubIndex": 11,
+      "stubBytesHex": "cd3fd80a00",
+      "stubSha256": "fc9916d0d4b298ca83981e96e68365f7fdc7d1ce9664515eacf3a3b0e7e0d527",
+      "descriptorIndex": 31,
+      "descriptorOvrFileOffset": 258832,
+      "procedureOffset": 2776,
+      "procedureOvrFileOffset": 261608
+    },
+    "frameRenderer": {
+      "selector": {
+        "segment": 287,
+        "offset": 57
+      },
+      "completeImageDescriptorHeaderOffset": 4592,
+      "completeImageStubArrayOffset": 4624,
+      "completeImageStubOffset": 4649,
+      "stubIndex": 5,
+      "stubBytesHex": "cd3fb00400",
+      "stubSha256": "340491adb82ea846c2339a740ee8cbcbb9b4869dcd01d986be70964f6e988f93",
+      "descriptorIndex": 32,
+      "descriptorOvrFileOffset": 263834,
+      "procedureOffset": 1200,
+      "procedureOvrFileOffset": 265034
+    }
+  },
+  "wrapper": {
+    "gameOvrFileOffset": 261608,
+    "length": 243,
+    "sha256": "8267f2f613b4d427d9cacdfd64919a8932e161a77a015786f1483cfe6e00ade2",
+    "drawGateSpans": {
+      "rendererFlagGate": {
+        "offset": 261764,
+        "length": 6,
+        "bytesHex": "807e0600754b",
+        "sha256": "c7592f5497927428cc03168ae80707b64ad513b0f8bec9e371eb574fd001def7"
+      },
+      "predicateCall": {
+        "offset": 261770,
+        "length": 13,
+        "bytesHex": "ff760eff760cb000500ee868fb",
+        "sha256": "8948cabd197181b8c1d2492d821150af8c012989dbc05ea71339753a7d7578ae"
+      },
+      "predicateResultGate": {
+        "offset": 261783,
+        "length": 4,
+        "bytesHex": "08c0743a",
+        "sha256": "171a57ec5f1d5bd8119cdd2f3041271f466134fa734c54257806a30bbc595872"
+      },
+      "enableByteGate": {
+        "offset": 261787,
+        "length": 7,
+        "bytesHex": "803ead71007433",
+        "sha256": "b71b44e308deb7451af54a120dda91a1899c17ee7c559492201c77df31703eea"
+      },
+      "rendererCall": {
+        "offset": 261835,
+        "length": 5,
+        "bytesHex": "9a39001f01",
+        "sha256": "fa9d66088a6e52a4ba960c1f345c0bfa57f20e9fdc1f2c54c3235275e440fb7e"
+      }
+    },
+    "drawContract": {
+      "finalArgument": "byte [BP+6]",
+      "nonzeroFlag": "draw is skipped by JNE 0x3FED5",
+      "zeroFlagRequirements": [
+        "predicate 0x3F9FF(record, mode=0) returns nonzero",
+        "DS:0x71AD != 0"
+      ],
+      "meaningOfPredicateAndEnableByte": "unresolved",
+      "rendererCallOffset": 261835,
+      "drawIsNotRuntimeObservation": true
+    }
+  },
+  "counts": {
+    "directCallCount": 13,
+    "ownerDescriptorOrdinals": {
+      "8": 1,
+      "9": 1,
+      "13": 4,
+      "22": 7
+    },
+    "conditionalDrawCallCount": 11,
+    "flagSuppressedCallCount": 2,
+    "runtimeObservedDrawCount": 0
+  },
+  "limitations": [
+    "The 13 rows are direct source calls, not 13 observed or successful retail draws.",
+    "Eleven documented indirect FF/3 call paths remain unresolved and are outside this direct-call roster.",
+    "Variant values, pointer-table slot, caller control byte and final renderer flag are separate arguments.",
+    "No variant is classified as idle, attack, movement, direction or temporal animation.",
+    "The generic selector resolver's unresolved result is not used as a substitute for the exact complete-image stub and owner fixup joins recorded here."
+  ],
+  "callers": [
+    {
+      "callSiteFileOffset": 48224,
+      "ownerDescriptorOrdinal": 8,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 0,
+        "movAlOffset": 48218,
+        "pushAxOffset": 48220
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 48221,
+        "pushAxOffset": 48223
+      },
+      "fixup": {
+        "codeOffset": 3852,
+        "instructionCodeOffset": 3849,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 53702,
+      "ownerDescriptorOrdinal": 9,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 0,
+        "movAlOffset": 53696,
+        "pushAxOffset": 53698
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 53699,
+        "pushAxOffset": 53701
+      },
+      "fixup": {
+        "codeOffset": 3234,
+        "instructionCodeOffset": 3231,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 92276,
+      "ownerDescriptorOrdinal": 13,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 0,
+        "movAlOffset": 92270,
+        "pushAxOffset": 92272
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 92273,
+        "pushAxOffset": 92275
+      },
+      "fixup": {
+        "codeOffset": 6925,
+        "instructionCodeOffset": 6922,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 92328,
+      "ownerDescriptorOrdinal": 13,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 1,
+        "movAlOffset": 92322,
+        "pushAxOffset": 92324
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 92325,
+        "pushAxOffset": 92327
+      },
+      "fixup": {
+        "codeOffset": 6977,
+        "instructionCodeOffset": 6974,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 92957,
+      "ownerDescriptorOrdinal": 13,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 1,
+        "movAlOffset": 92951,
+        "pushAxOffset": 92953
+      },
+      "rendererFlag": {
+        "value": 1,
+        "movAlOffset": 92954,
+        "pushAxOffset": 92956
+      },
+      "fixup": {
+        "codeOffset": 7606,
+        "instructionCodeOffset": 7603,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "suppressed-by-nonzero-renderer-flag",
+      "drawPredicates": [],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 92987,
+      "ownerDescriptorOrdinal": 13,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 0,
+        "movAlOffset": 92981,
+        "pushAxOffset": 92983
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 92984,
+        "pushAxOffset": 92986
+      },
+      "fixup": {
+        "codeOffset": 7636,
+        "instructionCodeOffset": 7633,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 193103,
+      "ownerDescriptorOrdinal": 22,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 1,
+        "movAlOffset": 193097,
+        "pushAxOffset": 193099
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 193100,
+        "pushAxOffset": 193102
+      },
+      "fixup": {
+        "codeOffset": 5703,
+        "instructionCodeOffset": 5700,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 193224,
+      "ownerDescriptorOrdinal": 22,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 1,
+        "movAlOffset": 193218,
+        "pushAxOffset": 193220
+      },
+      "rendererFlag": {
+        "value": 1,
+        "movAlOffset": 193221,
+        "pushAxOffset": 193223
+      },
+      "fixup": {
+        "codeOffset": 5824,
+        "instructionCodeOffset": 5821,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "suppressed-by-nonzero-renderer-flag",
+      "drawPredicates": [],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 193254,
+      "ownerDescriptorOrdinal": 22,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 0,
+        "movAlOffset": 193248,
+        "pushAxOffset": 193250
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 193251,
+        "pushAxOffset": 193253
+      },
+      "fixup": {
+        "codeOffset": 5854,
+        "instructionCodeOffset": 5851,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 207837,
+      "ownerDescriptorOrdinal": 22,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 1,
+        "movAlOffset": 207831,
+        "pushAxOffset": 207833
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 207834,
+        "pushAxOffset": 207836
+      },
+      "fixup": {
+        "codeOffset": 20437,
+        "instructionCodeOffset": 20434,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 208287,
+      "ownerDescriptorOrdinal": 22,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 1,
+        "movAlOffset": 208281,
+        "pushAxOffset": 208283
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 208284,
+        "pushAxOffset": 208286
+      },
+      "fixup": {
+        "codeOffset": 20887,
+        "instructionCodeOffset": 20884,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 208754,
+      "ownerDescriptorOrdinal": 22,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 1,
+        "movAlOffset": 208748,
+        "pushAxOffset": 208750
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 208751,
+        "pushAxOffset": 208753
+      },
+      "fixup": {
+        "codeOffset": 21354,
+        "instructionCodeOffset": 21351,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    },
+    {
+      "callSiteFileOffset": 209472,
+      "ownerDescriptorOrdinal": 22,
+      "callBytesHex": "9a57001601",
+      "callBytesSha256": "cffa3407ebae1f64e9fc0495090a6efc88d59afcc3a9f5f906e840af579b971e",
+      "variant": {
+        "value": 1,
+        "movAlOffset": 209466,
+        "pushAxOffset": 209468
+      },
+      "rendererFlag": {
+        "value": 0,
+        "movAlOffset": 209469,
+        "pushAxOffset": 209471
+      },
+      "fixup": {
+        "codeOffset": 22072,
+        "instructionCodeOffset": 22069,
+        "originalSegment": 278,
+        "context": "lcall_segment"
+      },
+      "drawEligibility": "conditional",
+      "drawPredicates": [
+        "descriptor31 wrapper predicate 0x3F9FF(record, mode=0) must return nonzero",
+        "DS:0x71AD must be nonzero"
+      ],
+      "retailMeaning": "unresolved",
+      "runtimeObserved": false
+    }
+  ]
+}

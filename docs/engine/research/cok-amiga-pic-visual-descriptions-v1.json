@@ -1,0 +1,1555 @@
+{
+  "version": 1,
+  "scope": "Cautious visible-appearance descriptions for all 119 decoded Amiga PIC1/PIC2 archive locator/frame rows. Duplicate pixels retain separate source identities. No subject identity, game use, selector, or playback semantics are inferred.",
+  "evidenceImagePathPattern": "apps/web/dist-app-cok57/restyle/cok-generated/images/{decodedFileSha256}.png",
+  "pixelHashField": "pixelSha256 from cok-graphics-identity-registry-v1.json (logical decoded pixels)",
+  "assets": [
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/57/frame/0",
+      "pixelSha256": "5d2430bfd1b250418006179dcd1221634712fe85bf14f13320d8af2993ea4dee",
+      "visualDescription": "Long white-haired, bearded figure in white-teal armor with a large round gold ornament at the chest.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8ab8df9a6866bbc84353ffb15bbab70659954b466315c9f89f01c4e41eb0a981.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8ab8df9a6866bbc84353ffb15bbab70659954b466315c9f89f01c4e41eb0a981"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/14/frame/0",
+      "pixelSha256": "c48d5e2105ecce844b0612437b0f3aa4602a2c6cee9200d655e027087a1e6ab6",
+      "visualDescription": "Orange scaled head in profile with a green eye, pale teeth or horn, gray scaled neck and a diagonal pale object at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/19feb1ab6d7b1ae735dd2435adfe42bf526102bc537b24802563b1beb59c793b.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "19feb1ab6d7b1ae735dd2435adfe42bf526102bc537b24802563b1beb59c793b"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/14/frame/1",
+      "pixelSha256": "0c2a864aad546d96b8989a0c5f3dbe77dc0864ee02cfe086addb708dd554465b",
+      "visualDescription": "Orange scaled head in profile with a green eye, pale teeth or horn, gray scaled neck and a diagonal pale object at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/66e21a84e8acd12cbf14b9ab3b1a44d98803a9958aa891759081b580e0cb8ecb.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "66e21a84e8acd12cbf14b9ab3b1a44d98803a9958aa891759081b580e0cb8ecb"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/14/frame/2",
+      "pixelSha256": "d7d27e5c7917aeb259b8f4d75f53c514c1aa1172eb5263ae1c146d2e6ffe4d85",
+      "visualDescription": "Orange scaled head in profile with a green eye, pale teeth or horn, gray scaled neck and a diagonal pale object at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3676b619cfe8e8450c36b00548f74c0c01f7d88fcbda1f26667a783d04f3870b.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "3676b619cfe8e8450c36b00548f74c0c01f7d88fcbda1f26667a783d04f3870b"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/14/frame/3",
+      "pixelSha256": "e3236ea6e9956853cf900f1524bfb05012878782ec17f757dc89da23e07b0bbd",
+      "visualDescription": "Orange scaled head in profile with a green eye, pale teeth or horn, gray scaled neck and a diagonal pale object at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3f7361ad6a1ab63c94fdfcc87c14baf743fe7ffbf30d21a9d0617a267e0dd0fb.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "3f7361ad6a1ab63c94fdfcc87c14baf743fe7ffbf30d21a9d0617a267e0dd0fb"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/14/frame/4",
+      "pixelSha256": "ea3b08bc49d8de95b5d3637bbd16fd0fa31196a55a017cb8c4dca2b1f92382cd",
+      "visualDescription": "Orange scaled head in profile with a green eye, pale teeth or horn, gray scaled neck and a diagonal pale object at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d4e3ff79a85be203491ab38e2e55d956ccf4710197a5ab811858532b19c6b93d.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "d4e3ff79a85be203491ab38e2e55d956ccf4710197a5ab811858532b19c6b93d"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/5/frame/0",
+      "pixelSha256": "b81b3f0b6084f82d9186fc23fe8f1a9afa9e59c4aa7236135ca73938dc8e9164",
+      "visualDescription": "Long dark segmented creature with many legs and gray, purple and cyan highlights on patterned gray ground.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/38ef0799b86de37fd1c8deeeb8640a24e7a08e9062f462dc2671c36b00ceb6dd.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "38ef0799b86de37fd1c8deeeb8640a24e7a08e9062f462dc2671c36b00ceb6dd"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/6/frame/0",
+      "pixelSha256": "c3ad0a4a50a416b8f658194d23544ee19eb0e48815c07a0cfa320b2e76c4e4b1",
+      "visualDescription": "Pale crouching figure beside a tall gray rectangular slab against a rough gray background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5907dcc005ce73c5a2cab0a9c707cde5c7d912898b2877f66a8adb9a7213da44.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "5907dcc005ce73c5a2cab0a9c707cde5c7d912898b2877f66a8adb9a7213da44"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/6/frame/1",
+      "pixelSha256": "672e937f03cb5e95197d533c4c31914854f008f6707de29507643c8989b4a7ba",
+      "visualDescription": "Pale crouching figure beside a tall gray rectangular slab against a rough gray background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/2e9d66d4a4131ba86d64e50b03f5ac796eaa6586fc644163d26b4a41f54afd3a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "2e9d66d4a4131ba86d64e50b03f5ac796eaa6586fc644163d26b4a41f54afd3a"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/6/frame/2",
+      "pixelSha256": "23b9298b2714d9ededa2577a967c25385ad8cf1e7d31192fdbf5a1a3d45e54c8",
+      "visualDescription": "Pale crouching figure beside a tall gray rectangular slab against a rough gray background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/886510c9d837878d7b623bfb39809d4a5f2117579a5928c8d1fc5f72a3e7af59.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "886510c9d837878d7b623bfb39809d4a5f2117579a5928c8d1fc5f72a3e7af59"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/6/frame/3",
+      "pixelSha256": "7f4ce5e9c73e52303b9a7164bf61f1e1559a0785ccac35b1a111654e33a15ae2",
+      "visualDescription": "Pale crouching figure beside a tall gray rectangular slab against a rough gray background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c9eef0432b32262725ddfe12fd9ba3d9c4709b89e66ddcd0112a0a83194135dc.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "c9eef0432b32262725ddfe12fd9ba3d9c4709b89e66ddcd0112a0a83194135dc"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/2/frame/0",
+      "pixelSha256": "7ffe382028cc7a00adc95dd5f492bbc2b50ee4c86bbfe157f10298bc8f3ba667",
+      "visualDescription": "Dark green-black scaled head in profile, with a red mouth and yellow-orange background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9a89bacd168ff80dc1d96bf31e4ffc1d0552f67aa425166579c99b4020e8369b.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "9a89bacd168ff80dc1d96bf31e4ffc1d0552f67aa425166579c99b4020e8369b"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/58/frame/0",
+      "pixelSha256": "0d7ef33ac2e488a796e98fc95b878333df18603ec6057a35b7aef7116776494a",
+      "visualDescription": "Small settlement with several roofs beside a dirt lane, green foreground and orange-brown ridge beneath blue sky.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/091283b9116588014c6995c04a21f05f9aa74f029b144a72d1e8ab345ebb54e1.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "091283b9116588014c6995c04a21f05f9aa74f029b144a72d1e8ab345ebb54e1"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/34/frame/0",
+      "pixelSha256": "79c0ee058a264d9540ae827a0ba65e6d3993a8d76df3b5d4faf9debef02c2907",
+      "visualDescription": "Close-up of a long red-brown-haired, bearded face with pale shoulder armor and a blue-teal collar.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/69c91683320af51d5d280ef19305740ccf4460cb1e41f364e32710cc5c5c4f3a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "69c91683320af51d5d280ef19305740ccf4460cb1e41f364e32710cc5c5c4f3a"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/18/frame/0",
+      "pixelSha256": "4ca1c0cda42ea2db62ef390e643b7777a59fcd4ec3ae68373ac13cf4c2ec3e24",
+      "visualDescription": "Close-up orange-yellow face with pink eyes, pale horns and a red-and-white patterned neck.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/84bdaea39e7ad3d7d27fa69d6bf8627da39c26d42982bfefdd54744c1b52f2a6.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "84bdaea39e7ad3d7d27fa69d6bf8627da39c26d42982bfefdd54744c1b52f2a6"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/59/frame/0",
+      "pixelSha256": "39aff2ba7a991291a1664ec33f6d341b896022315fb94eb78015246c96c95dc2",
+      "visualDescription": "Bright orange-yellow fire amid green vegetation beneath a dark blue sky; a diagonal silver object and brown hand or arm are at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a3a4c34e9af49ccc0fc873275a1eab6bccef523173ea27ac3dd9b702656fa7ea.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "a3a4c34e9af49ccc0fc873275a1eab6bccef523173ea27ac3dd9b702656fa7ea"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/59/frame/1",
+      "pixelSha256": "23d2c9e8a7628961633480dd56e7ab9ad33891f25d3e75aefecdf3233d2ee8dc",
+      "visualDescription": "Bright orange-yellow fire amid green vegetation beneath a dark blue sky; a diagonal silver object and brown hand or arm are at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/86e0f98b5c3f1d5c603d61676b9d56e0b37cfb43c6394fed21919e960ece9104.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "86e0f98b5c3f1d5c603d61676b9d56e0b37cfb43c6394fed21919e960ece9104"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/59/frame/2",
+      "pixelSha256": "a1e2b5355b9c660de927e2c8ba8e7e702c084627fc9d368e4d6a24d68eb8e038",
+      "visualDescription": "Bright orange-yellow fire amid green vegetation beneath a dark blue sky; a diagonal silver object and brown hand or arm are at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9faeafee17f0aa6ceb3d9a1c538c5c3d9465b94fcba00c2b3279402f361dd2b1.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "9faeafee17f0aa6ceb3d9a1c538c5c3d9465b94fcba00c2b3279402f361dd2b1"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/59/frame/3",
+      "pixelSha256": "8d1c644f7b6258a7dff436774f15bb9d9e296875f3f149e2e470fd2115f17017",
+      "visualDescription": "Bright orange-yellow fire amid green vegetation beneath a dark blue sky; a diagonal silver object and brown hand or arm are at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8a52c36bb7320418baeca264194006948e06f2ac2953646fdfa4930af08d8b04.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8a52c36bb7320418baeca264194006948e06f2ac2953646fdfa4930af08d8b04"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/60/frame/0",
+      "pixelSha256": "80b220ae30b451d9bd256af724cbb8b129bb0c821c9e86bc73126a9be27babe0",
+      "visualDescription": "Cropped orange-gold figure beside a bright pink-purple arch and pale cyan oval panel, on a purple patterned background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b22a31cdd8a6510bb535510abcb8d4f2c219ab877c55334eef166641f267f7f3.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "b22a31cdd8a6510bb535510abcb8d4f2c219ab877c55334eef166641f267f7f3"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/1/frame/0",
+      "pixelSha256": "53cdf244b265dafaebad128f09915509d4b2f0590a10ac9499ee339e12b0762b",
+      "visualDescription": "Close-up of an orange-yellow scaled head with a bright blue eye and a curved pale horn or tusk at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d5bfaa858d028edb257cd26b120c7f357db49db9b459c81ddfac4692335a43d8.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "d5bfaa858d028edb257cd26b120c7f357db49db9b459c81ddfac4692335a43d8"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/8/frame/0",
+      "pixelSha256": "dbe2f160322b0a27d83944efd7c55f4f8f55e4972748781c0bd9e222a229c485",
+      "visualDescription": "Brown, pointed-snouted quadruped on a bright green textured field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/43a62b266fc83a962d34a2af8feae4f87a8f73b3f861485b7faa8cfe365f111e.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "43a62b266fc83a962d34a2af8feae4f87a8f73b3f861485b7faa8cfe365f111e"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/15/frame/0",
+      "pixelSha256": "dddaca69b91f21c86d490ba356719424d9249ac1fbf840d9a88fdfb222b6f551",
+      "visualDescription": "Long blond-haired upper-body figure in blue sleeves and a brown vest, holding a tall brown staff.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b1c4f12e915af0eee0c4189c4c272a96be2bbe69c174d045bd971d95c1554dda.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "b1c4f12e915af0eee0c4189c4c272a96be2bbe69c174d045bd971d95c1554dda"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/35/frame/0",
+      "pixelSha256": "3b535d796f9e1387e9efe8fea3daf01be553ba103d8f631b3a38c38f16f7b6e2",
+      "visualDescription": "Side-turned brown-haired head and upper body in gray-teal striped clothing; a hand or long ochre object is visible at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e7dad1965c10890f6df88a9ee8b56630994f2e715080b284b063d0fdff892832.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "e7dad1965c10890f6df88a9ee8b56630994f2e715080b284b063d0fdff892832"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/44/frame/0",
+      "pixelSha256": "686119880eed838387bf2fc3e4b8e4b04be429a8fc222676c588014f222079f7",
+      "visualDescription": "Curly blond-haired figure in dark green-black armor, holding a pale diagonal object; a gold ring or orb is near the upper right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/46dc5d9c202ce882c53a3801181578882e4150191fad9e7626acb5be835a35d6.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "46dc5d9c202ce882c53a3801181578882e4150191fad9e7626acb5be835a35d6"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/48/frame/0",
+      "pixelSha256": "9470d3daeebb5bd11be34e3eac2e8493c570d07b3d4a67298fd8e4ac7a0b5773",
+      "visualDescription": "Blond-haired upper-body figure in purple, holding a silver blade diagonally across the body.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/27d4b68a6d4c2da733dadf270a6c7d54d7e7e0f3bdee14ce6574c0a01a522f2d.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "27d4b68a6d4c2da733dadf270a6c7d54d7e7e0f3bdee14ce6574c0a01a522f2d"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/51/frame/0",
+      "pixelSha256": "780fe97bdd29ed668786495ca41caf19c9a2524e911c51b50149e8a2fc6610e8",
+      "visualDescription": "White-haired figure in silver-gray armor with a red neck detail, holding a dark object across the chest.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e607f65dc5ea479306a2dc23ba653e8c4d24a32b1df158c4485f99cd01a6d620.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "e607f65dc5ea479306a2dc23ba653e8c4d24a32b1df158c4485f99cd01a6d620"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/54/frame/0",
+      "pixelSha256": "e4bd842aa28e55529ff0a50452ce653051c3355293b3917ec4595e2d70524c4e",
+      "visualDescription": "Blond-haired upper-body figure in a brown garment and dark sleeves, holding a curved dark-gold object at waist level.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/0fd779820b431b12c63b4053a877744ebb7de216ff6c658d39296df0a0651fe5.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "0fd779820b431b12c63b4053a877744ebb7de216ff6c658d39296df0a0651fe5"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/67/frame/0",
+      "pixelSha256": "a7800b8cd82f3da4c8249dd842ac0b9923e38b4709b23ef12fdda9d2ecaaf371",
+      "visualDescription": "Mustached figure in purple behind a brown table, holding a dark rectangular object; green bottle at left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/86dd5554453efeb1c2ef8d4e697e4d7b6b2ad16ba272213d6b2412e1c67b5019.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "86dd5554453efeb1c2ef8d4e697e4d7b6b2ad16ba272213d6b2412e1c67b5019"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/41/frame/0",
+      "pixelSha256": "ed04064ae7934fe3dd96b9cbc220892012ef63b8d88417f4c4d6a64c7fe23b9a",
+      "visualDescription": "Older bald, white-haired figure with a white beard and a blue-purple sleeveless garment with dark textured shoulders.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4a6f45ed913da2db4dfb9c6966e8df93095d14e878ba79b5acf1d915b0d463b7.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "4a6f45ed913da2db4dfb9c6966e8df93095d14e878ba79b5acf1d915b0d463b7"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/61/frame/0",
+      "pixelSha256": "1bb64976960362c83f75bfe3f7a5913cc521f2193fe1b7bb1275ca8dfbcaebd8",
+      "visualDescription": "Orange scaled winged creature with white-blue armor details and a small armored figure above or behind it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/db029bf6fb9ffdcc55d47ba25e06dfeecc8ff39b5640d766e98af0710d93fb53.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "db029bf6fb9ffdcc55d47ba25e06dfeecc8ff39b5640d766e98af0710d93fb53"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/62/frame/0",
+      "pixelSha256": "477d846c4d82371cbf6c8b122dceef4011fbd659615d501b1283b78039d5ef09",
+      "visualDescription": "Close-up bald face with open mouth, blue-purple collar and a visible hand, against gray brickwork.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/eb237288736ae9b2f88443ca5e5d553cc15706988e388af55a5e9d27b320fc2b.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "eb237288736ae9b2f88443ca5e5d553cc15706988e388af55a5e9d27b320fc2b"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/63/frame/0",
+      "pixelSha256": "6cfa12b6bfc0688e2db33ebec5d6ad8e389b01e16a8c6fe2bd8f5563e04bd44f",
+      "visualDescription": "Brown-haired upper-body figure with one forearm raised over the head and red marks across gray-green clothing, against stone texture.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f8f8bd911618cc38cb4d1bfcc8adecbf4ff08cc8372afa6db0bce8713b2d0c06.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "f8f8bd911618cc38cb4d1bfcc8adecbf4ff08cc8372afa6db0bce8713b2d0c06"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/23/frame/0",
+      "pixelSha256": "786cdb06606c51f381c34f572f1c59daf730791078d9a5a65946f1881ed998bb",
+      "visualDescription": "Pale face framed by long curly white hair, blue eyes open, and blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/23/frame/1",
+      "pixelSha256": "e1192326e1dec978078790fea220f03a6bc283112d14d10997dbe7fb02d599c8",
+      "visualDescription": "Pale face framed by long curly white hair; the eyes appear closed, above a blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f499130e4df54362e58d955ea700c76194bfd25b6ecffd8e4848b739004ba8a9.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "f499130e4df54362e58d955ea700c76194bfd25b6ecffd8e4848b739004ba8a9"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/23/frame/2",
+      "pixelSha256": "e3a4a0b2a3f02d0be42c4eeac2eca8aa68ec7fcee0575ff0c57269619ad8f51f",
+      "visualDescription": "Pale face framed by long curly white hair, blue eyes open, and blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/88fd53920deb7d835fe8e8dd292fef3590a38bec4307f402214d7bf2a44e69b7.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "88fd53920deb7d835fe8e8dd292fef3590a38bec4307f402214d7bf2a44e69b7"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/23/frame/3",
+      "pixelSha256": "786cdb06606c51f381c34f572f1c59daf730791078d9a5a65946f1881ed998bb",
+      "visualDescription": "Pale face framed by long curly white hair, blue eyes open, and blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/23/frame/4",
+      "pixelSha256": "e1192326e1dec978078790fea220f03a6bc283112d14d10997dbe7fb02d599c8",
+      "visualDescription": "Pale face framed by long curly white hair; the eyes appear closed, above a blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f499130e4df54362e58d955ea700c76194bfd25b6ecffd8e4848b739004ba8a9.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "f499130e4df54362e58d955ea700c76194bfd25b6ecffd8e4848b739004ba8a9"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/23/frame/5",
+      "pixelSha256": "786cdb06606c51f381c34f572f1c59daf730791078d9a5a65946f1881ed998bb",
+      "visualDescription": "Pale face framed by long curly white hair, blue eyes open, and blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/30/frame/0",
+      "pixelSha256": "e02a479e6aee05607cba94eba079fdc2f55258eaa3382fa46591d38c94fde77a",
+      "visualDescription": "Blue-and-white horned figure in segmented armor, with a bent arm and a sword-like object angled down-left against blue.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a9ca379755b2310750d28adb789da47bfa4e2a5dfaf2643989ba463d4fd198b8.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "a9ca379755b2310750d28adb789da47bfa4e2a5dfaf2643989ba463d4fd198b8"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/30/frame/1",
+      "pixelSha256": "9e85d40d03a61eeb2e73089bff8f3add5744d4678d39ab1288c1f3d9ac62c8dc",
+      "visualDescription": "Blue-and-white horned figure in segmented armor, with a bent arm and a sword-like object angled down-left against blue.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e4dd064cfbdd2e4c9fba789266d1012bc32ce9186707e12230def90080fdb69e.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "e4dd064cfbdd2e4c9fba789266d1012bc32ce9186707e12230def90080fdb69e"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/30/frame/2",
+      "pixelSha256": "61c5139dbc16d3b664da29243b18bc0271f0c9412a586c922e8a2dd09e40fc12",
+      "visualDescription": "Blue-and-white horned figure in segmented armor, with a bent arm and a sword-like object angled down-left against blue.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fa929984a8af8d96cdd42536add3117f4637293d8f27373170337ceb7f67a85a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "fa929984a8af8d96cdd42536add3117f4637293d8f27373170337ceb7f67a85a"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/30/frame/3",
+      "pixelSha256": "0542eab4ed1af2c941113346ad4c521d90e9313826d0a0503c5766a19915ef86",
+      "visualDescription": "Blue-and-white horned figure in segmented armor, with a bent arm and a sword-like object angled down-left against blue.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/298c710bfcc53a95c55361886fee782134afae1eb57de86a548e0764edc19e76.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "298c710bfcc53a95c55361886fee782134afae1eb57de86a548e0764edc19e76"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/19/frame/0",
+      "pixelSha256": "c6bd46bf12f28bed7060aec010526de2751ecb74b7684c0889ba67ba57cce521",
+      "visualDescription": "Muscular dark-skinned figure with a raised bent arm, spotted yellow garment and pale diagonal weapon against a rocky, bright background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/119f35acd99020b914b2b65a4b921745f00c33f5d053309ae38f61d2711aaf79.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "119f35acd99020b914b2b65a4b921745f00c33f5d053309ae38f61d2711aaf79"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/19/frame/1",
+      "pixelSha256": "5785e7c426b05261de1fe34e97ddade1eaf2cad0e9bbe0a95a209c47490430ec",
+      "visualDescription": "Muscular dark-skinned figure with a raised bent arm, spotted yellow garment and pale diagonal weapon against a rocky, bright background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/506e95f3a246f3965d9d103e0dc5d0f690d17829ffbe34c2e9ccdcd6f4270578.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "506e95f3a246f3965d9d103e0dc5d0f690d17829ffbe34c2e9ccdcd6f4270578"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/19/frame/2",
+      "pixelSha256": "937cf6db2a45561b708dd1c4bda1173febcc6bd9d11f08152490de354eb276b4",
+      "visualDescription": "Muscular dark-skinned figure with a raised bent arm, spotted yellow garment and pale diagonal weapon against a rocky, bright background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c94b1ffd3cab813d6a0d3faf74d9ea89cc2af4e26a77853c73e3c49603825a5d.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "c94b1ffd3cab813d6a0d3faf74d9ea89cc2af4e26a77853c73e3c49603825a5d"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/12/frame/0",
+      "pixelSha256": "c5519ddda54eb81d21e2a76127436de73fd0e35630316f79d3a56015edb40562",
+      "visualDescription": "Red-faced upper-body figure wearing pale blue-white armor and headgear, beside a tall silver spiked object; lime and yellow background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/72468ab282dfdaad683ce57529f92d8228b9e437f65b286c6da6c0ea0b05eb43.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "72468ab282dfdaad683ce57529f92d8228b9e437f65b286c6da6c0ea0b05eb43"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/12/frame/1",
+      "pixelSha256": "63875b1d89faac0d1c1da764a68a5504f54b29f309c2521e6d17c87f32faf42b",
+      "visualDescription": "Red-faced upper-body figure wearing pale blue-white armor and headgear, beside a tall silver spiked object; lime and yellow background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1485570cf7f4a1b3dbcaf5dc071cf900d96a28578a942004aa5afa704f693b58.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "1485570cf7f4a1b3dbcaf5dc071cf900d96a28578a942004aa5afa704f693b58"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/12/frame/2",
+      "pixelSha256": "c4250d6bddcdc6ac8ccd4f755c4e182dbb8fb13f1335c4ea7bf62c57d3bb8b59",
+      "visualDescription": "Red-faced upper-body figure wearing pale blue-white armor and headgear, beside a tall silver spiked object; lime and yellow background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3c2741ffcd795594f38efdb0f95ace6f2e54e9a39e0f7a22873dc44d273ed49a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "3c2741ffcd795594f38efdb0f95ace6f2e54e9a39e0f7a22873dc44d273ed49a"
+    },
+    {
+      "assetId": "cok/amiga/disk2/pic1.daa/block/12/frame/3",
+      "pixelSha256": "65c5674978da49c6a8374bd4437bc5a5f6634d85f344379cf9206e0d4ba1e22c",
+      "visualDescription": "Red-faced upper-body figure wearing pale blue-white armor and headgear, beside a tall silver spiked object; lime and yellow background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5691b73596ba161491fe76fa0fffd6c0a61ff62467337f45597447c19850e204.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "5691b73596ba161491fe76fa0fffd6c0a61ff62467337f45597447c19850e204"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/3/frame/0",
+      "pixelSha256": "6f0c71dbab42fba1f403ad7c3e6524765e871e3e73e5aee1aaabec5766f49f31",
+      "visualDescription": "Purple-blue-green spiny head and neck in profile, with an open mouth.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bbc58f3e06ceaddc375111fad25bdd0d287f27c6ce152b3252bed9318445ed86.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "bbc58f3e06ceaddc375111fad25bdd0d287f27c6ce152b3252bed9318445ed86"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/5/frame/0",
+      "pixelSha256": "b81b3f0b6084f82d9186fc23fe8f1a9afa9e59c4aa7236135ca73938dc8e9164",
+      "visualDescription": "Long dark segmented creature with many legs and gray, purple and cyan highlights on patterned gray ground.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/38ef0799b86de37fd1c8deeeb8640a24e7a08e9062f462dc2671c36b00ceb6dd.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "38ef0799b86de37fd1c8deeeb8640a24e7a08e9062f462dc2671c36b00ceb6dd"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/16/frame/0",
+      "pixelSha256": "2840a5edef6e80925403933fcb0756f25578644a42876a2f40a2fcf59502569b",
+      "visualDescription": "Brown-orange scaled upper body with a green eye, cyan-white armor details, diagonal dark band and hands near the chest.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e98d3b16b1200756ef9b1e8f12df7f345e404414ea239325f2533896c17eb882.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "e98d3b16b1200756ef9b1e8f12df7f345e404414ea239325f2533896c17eb882"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/16/frame/1",
+      "pixelSha256": "03b531ba000274b745049fa6bc0f257bfb44a14db3c30434fd8e5a5908df8fd9",
+      "visualDescription": "Brown-orange scaled upper body with a green eye, cyan-white armor details, diagonal dark band and hands near the chest.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/79a28b297ce6669e2d9478dfec494cefacf9f809408578585b2e7a6f80cfa2c0.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "79a28b297ce6669e2d9478dfec494cefacf9f809408578585b2e7a6f80cfa2c0"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/17/frame/0",
+      "pixelSha256": "6bd5be9b880bcaf286f94114a87ae6bf68f8cbe11cfeec1b9354a5d93761d0f4",
+      "visualDescription": "Abstract dark blue-black image with jagged white and light-blue bands around a dark central shape; red and blue outlines are visible.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/19228d9830e95308871edf34a688b83f8786071769083b8fbcc0f5d54b898d15.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "19228d9830e95308871edf34a688b83f8786071769083b8fbcc0f5d54b898d15"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/17/frame/1",
+      "pixelSha256": "8e23bce29ccaebf33d7ff8de910b619e9138ba6fb861525a464328b22f4a56f2",
+      "visualDescription": "Abstract dark blue-black image with jagged white and light-blue bands around a dark central shape; red and blue outlines are visible.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/10157b9b8ef37fd31e5c4373f17ac40927a2335fa7b1df956dbd79e4065ae0ec.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "10157b9b8ef37fd31e5c4373f17ac40927a2335fa7b1df956dbd79e4065ae0ec"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/17/frame/2",
+      "pixelSha256": "7ec3dee42dfaaf9e28a6266e670332018f3d2867bfb69904f913bc979aa53699",
+      "visualDescription": "Abstract dark blue-black image with jagged white and light-blue bands around a dark central shape; red and blue outlines are visible.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8291e5a1f24158a6acf1508e01bdd6f31926ff941b1dd9d2ec258c8116408bc0.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8291e5a1f24158a6acf1508e01bdd6f31926ff941b1dd9d2ec258c8116408bc0"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/24/frame/0",
+      "pixelSha256": "3f8dd83615782a6fbb487c71928bd2d05a57a8c3c3dadbd69160a1302f03e400",
+      "visualDescription": "Frontal golden skull-like face with red eyes and broad grin, ornate gray-cyan headgear and armored shoulders.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/80222f6e4d253ce2654246b47d6161d784128020f9ead16824a6332f08ad906a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "80222f6e4d253ce2654246b47d6161d784128020f9ead16824a6332f08ad906a"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/24/frame/1",
+      "pixelSha256": "fb2e8fe122c46193a1049e4ecd823c1d50677088288826fff0c7ef9b440fdb85",
+      "visualDescription": "Frontal golden skull-like face with red eyes and broad grin, ornate gray-cyan headgear and armored shoulders.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c4760759c7872f909b5761af861361fdd277f60f8a42dfca28b4c932eb176fe9.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "c4760759c7872f909b5761af861361fdd277f60f8a42dfca28b4c932eb176fe9"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/24/frame/2",
+      "pixelSha256": "9ec7357d6b7c896690d7bb8249195b2d924b7f8620b9a2c3387071188b83cc54",
+      "visualDescription": "Frontal golden skull-like face with red eyes and broad grin, ornate gray-cyan headgear and armored shoulders.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/254869cf70640155bc18e7d893727baac2ffceb0ae3495f8653b291a5fffc082.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "254869cf70640155bc18e7d893727baac2ffceb0ae3495f8653b291a5fffc082"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/24/frame/3",
+      "pixelSha256": "24ce81362dd0b7fa7c129ac7d420bf2ee5d0ac6f206b286f7dfd1d9bf1516775",
+      "visualDescription": "Frontal golden skull-like face with red eyes and broad grin, ornate gray-cyan headgear and armored shoulders.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3351fe94f6139a38a98a461d02ff0c4b91070a523b69048d018be4f8d142cfc5.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "3351fe94f6139a38a98a461d02ff0c4b91070a523b69048d018be4f8d142cfc5"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/25/frame/0",
+      "pixelSha256": "84082d5c3e721a852132ef5ab4a3e535e56844dcbfcbd05327f857cde34cb011",
+      "visualDescription": "Cyan-white-green armored scaled head and upper body in profile against a blue-green patterned background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4d849489bcec3e28f9319db030f04262e79c8413917488f78be441a8fe19ffa3.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "4d849489bcec3e28f9319db030f04262e79c8413917488f78be441a8fe19ffa3"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/26/frame/0",
+      "pixelSha256": "fcce395d7bff7135a4d83f1e8a153833033d30b9e12036ab16fffd37d7057253",
+      "visualDescription": "Skeletal upper body with brown-gold ribs, gray helmet, round gray-green shield and pale blue diagonal sword.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e216eb8edf151db7985ceea31ad06ef23f49b379488fe88ed11a44f82f4ece74.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "e216eb8edf151db7985ceea31ad06ef23f49b379488fe88ed11a44f82f4ece74"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/26/frame/1",
+      "pixelSha256": "a434fee2d6ec3941e2490552d16efdc094e2c16a92d7cdb77ce5d5588fd9a518",
+      "visualDescription": "Skeletal upper body with brown-gold ribs, gray helmet, round gray-green shield and pale blue diagonal sword.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1ae429b5ac0cae5ab2e28d069a6dacbbe5acc097bb604db2e28245d6a3f16e1c.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "1ae429b5ac0cae5ab2e28d069a6dacbbe5acc097bb604db2e28245d6a3f16e1c"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/26/frame/2",
+      "pixelSha256": "ec7e3ec9f5acfdb486ba88d60df639b9b994abaf2e8ccc51765a8f92214611e0",
+      "visualDescription": "Skeletal upper body with brown-gold ribs, gray helmet, round gray-green shield and pale blue diagonal sword.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ad1f1fd10c309c479ac2839102fd0fac4be7e8e150861ffae30523f840185718.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "ad1f1fd10c309c479ac2839102fd0fac4be7e8e150861ffae30523f840185718"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/26/frame/3",
+      "pixelSha256": "d26d9233bf98e1f4a4cc0ec35b46cbcc9562b68ad2c3300a55f03141f418f942",
+      "visualDescription": "Skeletal upper body with brown-gold ribs, gray helmet, round gray-green shield and pale blue diagonal sword.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4e27789c61acd2a47517ecab3ab7cc37d28e4d5510c51da654bcdac9c3cfed10.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "4e27789c61acd2a47517ecab3ab7cc37d28e4d5510c51da654bcdac9c3cfed10"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/35/frame/0",
+      "pixelSha256": "3b535d796f9e1387e9efe8fea3daf01be553ba103d8f631b3a38c38f16f7b6e2",
+      "visualDescription": "Side-turned brown-haired head and upper body in gray-teal striped clothing; a hand or long ochre object is visible at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e7dad1965c10890f6df88a9ee8b56630994f2e715080b284b063d0fdff892832.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "e7dad1965c10890f6df88a9ee8b56630994f2e715080b284b063d0fdff892832"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/44/frame/0",
+      "pixelSha256": "686119880eed838387bf2fc3e4b8e4b04be429a8fc222676c588014f222079f7",
+      "visualDescription": "Curly blond-haired figure in dark green-black armor, holding a pale diagonal object; a gold ring or orb is near the upper right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/46dc5d9c202ce882c53a3801181578882e4150191fad9e7626acb5be835a35d6.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "46dc5d9c202ce882c53a3801181578882e4150191fad9e7626acb5be835a35d6"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/48/frame/0",
+      "pixelSha256": "9470d3daeebb5bd11be34e3eac2e8493c570d07b3d4a67298fd8e4ac7a0b5773",
+      "visualDescription": "Blond-haired upper-body figure in purple, holding a silver blade diagonally across the body.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/27d4b68a6d4c2da733dadf270a6c7d54d7e7e0f3bdee14ce6574c0a01a522f2d.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "27d4b68a6d4c2da733dadf270a6c7d54d7e7e0f3bdee14ce6574c0a01a522f2d"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/67/frame/0",
+      "pixelSha256": "a7800b8cd82f3da4c8249dd842ac0b9923e38b4709b23ef12fdda9d2ecaaf371",
+      "visualDescription": "Mustached figure in purple behind a brown table, holding a dark rectangular object; green bottle at left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/86dd5554453efeb1c2ef8d4e697e4d7b6b2ad16ba272213d6b2412e1c67b5019.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "86dd5554453efeb1c2ef8d4e697e4d7b6b2ad16ba272213d6b2412e1c67b5019"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/72/frame/0",
+      "pixelSha256": "ae427f95213c0335b195564ded7af24dbcc9d1efdb2c4d5bc1f8c16e92a781fa",
+      "visualDescription": "Bald, mustached bare-chested figure with dark straps, holding a silver sword diagonally.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b41bcc0b54832eb4f71c011887e0a3eeaa554f4ae908fff1d709412be5d3d806.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "b41bcc0b54832eb4f71c011887e0a3eeaa554f4ae908fff1d709412be5d3d806"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/73/frame/0",
+      "pixelSha256": "bad46767830d4844579d791eb6a6a1b74040f95d3774fe4b3dec9d5ff2095203",
+      "visualDescription": "Close-up orange-gold furry head with a dark eye and rounded snout; a curved orange form borders the side, with gray stone texture behind.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/2e335002be9253ba84f5fe3254f405083b7ce4ad4421bcb8d2b5f620dd2ea54d.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "2e335002be9253ba84f5fe3254f405083b7ce4ad4421bcb8d2b5f620dd2ea54d"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/59/frame/0",
+      "pixelSha256": "39aff2ba7a991291a1664ec33f6d341b896022315fb94eb78015246c96c95dc2",
+      "visualDescription": "Bright orange-yellow fire amid green vegetation beneath a dark blue sky; a diagonal silver object and brown hand or arm are at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a3a4c34e9af49ccc0fc873275a1eab6bccef523173ea27ac3dd9b702656fa7ea.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "a3a4c34e9af49ccc0fc873275a1eab6bccef523173ea27ac3dd9b702656fa7ea"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/59/frame/1",
+      "pixelSha256": "23d2c9e8a7628961633480dd56e7ab9ad33891f25d3e75aefecdf3233d2ee8dc",
+      "visualDescription": "Bright orange-yellow fire amid green vegetation beneath a dark blue sky; a diagonal silver object and brown hand or arm are at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/86e0f98b5c3f1d5c603d61676b9d56e0b37cfb43c6394fed21919e960ece9104.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "86e0f98b5c3f1d5c603d61676b9d56e0b37cfb43c6394fed21919e960ece9104"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/59/frame/2",
+      "pixelSha256": "a1e2b5355b9c660de927e2c8ba8e7e702c084627fc9d368e4d6a24d68eb8e038",
+      "visualDescription": "Bright orange-yellow fire amid green vegetation beneath a dark blue sky; a diagonal silver object and brown hand or arm are at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9faeafee17f0aa6ceb3d9a1c538c5c3d9465b94fcba00c2b3279402f361dd2b1.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "9faeafee17f0aa6ceb3d9a1c538c5c3d9465b94fcba00c2b3279402f361dd2b1"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/59/frame/3",
+      "pixelSha256": "8d1c644f7b6258a7dff436774f15bb9d9e296875f3f149e2e470fd2115f17017",
+      "visualDescription": "Bright orange-yellow fire amid green vegetation beneath a dark blue sky; a diagonal silver object and brown hand or arm are at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8a52c36bb7320418baeca264194006948e06f2ac2953646fdfa4930af08d8b04.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8a52c36bb7320418baeca264194006948e06f2ac2953646fdfa4930af08d8b04"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/60/frame/0",
+      "pixelSha256": "80b220ae30b451d9bd256af724cbb8b129bb0c821c9e86bc73126a9be27babe0",
+      "visualDescription": "Cropped orange-gold figure beside a bright pink-purple arch and pale cyan oval panel, on a purple patterned background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b22a31cdd8a6510bb535510abcb8d4f2c219ab877c55334eef166641f267f7f3.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "b22a31cdd8a6510bb535510abcb8d4f2c219ab877c55334eef166641f267f7f3"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/0/frame/0",
+      "pixelSha256": "c6c5e77a48af62a424ac11605dd559c90bba06e5451d74092977424f2af7dcdc",
+      "visualDescription": "Close-up orange-gold scaled head with a blue eye and curved horn.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/35acff9bd75c949ac0427cd37408f33f32b5d2a8924e37656628638802cb62d6.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "35acff9bd75c949ac0427cd37408f33f32b5d2a8924e37656628638802cb62d6"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/4/frame/0",
+      "pixelSha256": "8887e7d2c7fc52ec7f129ffaadb01d60a69c41220c08c69377d4d05c36bc2202",
+      "visualDescription": "Brown-gold mask or helmet with two eye openings, purple drape and a silver blade at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4425e2699bb576ea51c43c39bc20823e37bdb2637f861b6dfc1f4d3ca6f10f3a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "4425e2699bb576ea51c43c39bc20823e37bdb2637f861b6dfc1f4d3ca6f10f3a"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/18/frame/0",
+      "pixelSha256": "4ca1c0cda42ea2db62ef390e643b7777a59fcd4ec3ae68373ac13cf4c2ec3e24",
+      "visualDescription": "Close-up orange-yellow face with pink eyes, pale horns and a red-and-white patterned neck.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/84bdaea39e7ad3d7d27fa69d6bf8627da39c26d42982bfefdd54744c1b52f2a6.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "84bdaea39e7ad3d7d27fa69d6bf8627da39c26d42982bfefdd54744c1b52f2a6"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/19/frame/0",
+      "pixelSha256": "c6bd46bf12f28bed7060aec010526de2751ecb74b7684c0889ba67ba57cce521",
+      "visualDescription": "Muscular dark-skinned figure with a raised bent arm, spotted yellow garment and pale diagonal weapon against a rocky, bright background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/119f35acd99020b914b2b65a4b921745f00c33f5d053309ae38f61d2711aaf79.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "119f35acd99020b914b2b65a4b921745f00c33f5d053309ae38f61d2711aaf79"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/19/frame/1",
+      "pixelSha256": "5785e7c426b05261de1fe34e97ddade1eaf2cad0e9bbe0a95a209c47490430ec",
+      "visualDescription": "Muscular dark-skinned figure with a raised bent arm, spotted yellow garment and pale diagonal weapon against a rocky, bright background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/506e95f3a246f3965d9d103e0dc5d0f690d17829ffbe34c2e9ccdcd6f4270578.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "506e95f3a246f3965d9d103e0dc5d0f690d17829ffbe34c2e9ccdcd6f4270578"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/19/frame/2",
+      "pixelSha256": "937cf6db2a45561b708dd1c4bda1173febcc6bd9d11f08152490de354eb276b4",
+      "visualDescription": "Muscular dark-skinned figure with a raised bent arm, spotted yellow garment and pale diagonal weapon against a rocky, bright background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c94b1ffd3cab813d6a0d3faf74d9ea89cc2af4e26a77853c73e3c49603825a5d.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "c94b1ffd3cab813d6a0d3faf74d9ea89cc2af4e26a77853c73e3c49603825a5d"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/22/frame/0",
+      "pixelSha256": "2b722094ce4513fa5b3b53c309823a3791fdc9eee093b66b51f856b2fc7fea3d",
+      "visualDescription": "Red-orange head in profile with a green eye and open, tooth-lined mouth against red brick-like texture.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4971e7682c03988edf2e75815d208390edbf969bef821d75b6bc131888e251de.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "4971e7682c03988edf2e75815d208390edbf969bef821d75b6bc131888e251de"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/22/frame/1",
+      "pixelSha256": "eead6a67b51137821d37722ba18ac8d713e5a865fcf3a5f2da3cd38eda638b1a",
+      "visualDescription": "Red-orange head in profile with a green eye and open, tooth-lined mouth against red brick-like texture.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d4779b3aeb3e05e7dfbbbb7526a03020e330ebb31f0cc964128ee29330c961a3.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "d4779b3aeb3e05e7dfbbbb7526a03020e330ebb31f0cc964128ee29330c961a3"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/22/frame/2",
+      "pixelSha256": "27c6bc30b1fc5b87d2c4db3bfa63e2c2aab277c3b09a7f9a2a198b1e960236d9",
+      "visualDescription": "Red-orange head in profile with a green eye and open, tooth-lined mouth against red brick-like texture.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/00e3708a5aeec63c5e063ecb62c3b778e54e5aa83dea1cb64706232a85a86e86.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "00e3708a5aeec63c5e063ecb62c3b778e54e5aa83dea1cb64706232a85a86e86"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/22/frame/3",
+      "pixelSha256": "c550e91cf0e3a683754795f98a5dab71cd0f79b42123d0f8d87fad0a664ef822",
+      "visualDescription": "Red-orange head in profile with a green eye and open, tooth-lined mouth against red brick-like texture.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6975cba20be0285fef9db03c9a7731fc824d1a0f5377c1fc8f9e24f41dc7a5d1.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "6975cba20be0285fef9db03c9a7731fc824d1a0f5377c1fc8f9e24f41dc7a5d1"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/22/frame/4",
+      "pixelSha256": "832b46935ff74b8e2341d647ce169e78ec6b5d33ed47f19e77467eff7ff72487",
+      "visualDescription": "Red-orange head in profile with a green eye and open, tooth-lined mouth against red brick-like texture.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/aa26af45d523d85a9f965f2624be52f977ec146fff45b5d4ebfde7c6f24c9a2e.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "aa26af45d523d85a9f965f2624be52f977ec146fff45b5d4ebfde7c6f24c9a2e"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/22/frame/5",
+      "pixelSha256": "c6824e561539d297431dbcc75574ea889cbefd8db6a305f3102286b9149783ea",
+      "visualDescription": "Red-orange head in profile with a green eye and open, tooth-lined mouth against red brick-like texture.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ad989f1c6bf4c81de0033556bfb26cad339ee2cd1a3848aea9d806de4f9706d6.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "ad989f1c6bf4c81de0033556bfb26cad339ee2cd1a3848aea9d806de4f9706d6"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/32/frame/0",
+      "pixelSha256": "34714f36ccdef2a77b7886a1752ae55bd36dc6644505c6239ed4c4a9d3a50607",
+      "visualDescription": "Small brown-clad figure at left holding a pale blade or implement, beside a large red-orange scaled or winged form at right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bd29ed611c5a376497b9432f31296f7c9a42814d063b7cd1b7a09732fb529500.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "bd29ed611c5a376497b9432f31296f7c9a42814d063b7cd1b7a09732fb529500"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/64/frame/0",
+      "pixelSha256": "5cc8d5e237939ade425af7051526df15e8ede4cf23ffb7bfbedb46e4d3a1350a",
+      "visualDescription": "Two floating rocky landforms with gray structures and a tall red-orange tower at right, above a green strip.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/989b6621e519b9aae8878b9e6c006d8e82dcbf25f9da333de46df2bb1121520f.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "989b6621e519b9aae8878b9e6c006d8e82dcbf25f9da333de46df2bb1121520f"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/65/frame/0",
+      "pixelSha256": "3688342cd90821ad9ca659e3890ecbd01633106d7bc5a364c0ef243bc614da9a",
+      "visualDescription": "Small brown-haired figure in green and brown clothing with one arm raised, within a gray stone doorway with side lights.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/2007986b58c36fe3d7edd0ddc56479a6a570bd730fddc4db0ceca2b834b4404a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "2007986b58c36fe3d7edd0ddc56479a6a570bd730fddc4db0ceca2b834b4404a"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/71/frame/0",
+      "pixelSha256": "e05bcc77e068b1f33035bf18bddcdfb5d09b55d2df889b91c9f66537ee9dbfbe",
+      "visualDescription": "Auburn-haired face angled down, green clothing, and hands near a small ochre object against a dark background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed77d4740a6561ee68478ab6be9ae8fe745b50743e6cd04e3d75fca6c1a24087.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "ed77d4740a6561ee68478ab6be9ae8fe745b50743e6cd04e3d75fca6c1a24087"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/66/frame/0",
+      "pixelSha256": "4ed448571c5dee5ec996fb1d168bfe44eada130a497d4ef1221481361ca0cd17",
+      "visualDescription": "Brown-haired figure in green and brown clothing with both arms extended, in a gray stone room with vertical side lights.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1667c8f360953fe52114b48071f11fee8426d18fba66fe82ee21496c8058b664.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "1667c8f360953fe52114b48071f11fee8426d18fba66fe82ee21496c8058b664"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/1/frame/0",
+      "pixelSha256": "53cdf244b265dafaebad128f09915509d4b2f0590a10ac9499ee339e12b0762b",
+      "visualDescription": "Close-up of an orange-yellow scaled head with a bright blue eye and a curved pale horn or tusk at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d5bfaa858d028edb257cd26b120c7f357db49db9b459c81ddfac4692335a43d8.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "d5bfaa858d028edb257cd26b120c7f357db49db9b459c81ddfac4692335a43d8"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/8/frame/0",
+      "pixelSha256": "dbe2f160322b0a27d83944efd7c55f4f8f55e4972748781c0bd9e222a229c485",
+      "visualDescription": "Brown, pointed-snouted quadruped on a bright green textured field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/43a62b266fc83a962d34a2af8feae4f87a8f73b3f861485b7faa8cfe365f111e.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "43a62b266fc83a962d34a2af8feae4f87a8f73b3f861485b7faa8cfe365f111e"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/14/frame/0",
+      "pixelSha256": "c48d5e2105ecce844b0612437b0f3aa4602a2c6cee9200d655e027087a1e6ab6",
+      "visualDescription": "Orange scaled head in profile with a green eye, pale teeth or horn, gray scaled neck and a diagonal pale object at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/19feb1ab6d7b1ae735dd2435adfe42bf526102bc537b24802563b1beb59c793b.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "19feb1ab6d7b1ae735dd2435adfe42bf526102bc537b24802563b1beb59c793b"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/14/frame/1",
+      "pixelSha256": "0c2a864aad546d96b8989a0c5f3dbe77dc0864ee02cfe086addb708dd554465b",
+      "visualDescription": "Orange scaled head in profile with a green eye, pale teeth or horn, gray scaled neck and a diagonal pale object at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/66e21a84e8acd12cbf14b9ab3b1a44d98803a9958aa891759081b580e0cb8ecb.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "66e21a84e8acd12cbf14b9ab3b1a44d98803a9958aa891759081b580e0cb8ecb"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/14/frame/2",
+      "pixelSha256": "d7d27e5c7917aeb259b8f4d75f53c514c1aa1172eb5263ae1c146d2e6ffe4d85",
+      "visualDescription": "Orange scaled head in profile with a green eye, pale teeth or horn, gray scaled neck and a diagonal pale object at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3676b619cfe8e8450c36b00548f74c0c01f7d88fcbda1f26667a783d04f3870b.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "3676b619cfe8e8450c36b00548f74c0c01f7d88fcbda1f26667a783d04f3870b"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/14/frame/3",
+      "pixelSha256": "e3236ea6e9956853cf900f1524bfb05012878782ec17f757dc89da23e07b0bbd",
+      "visualDescription": "Orange scaled head in profile with a green eye, pale teeth or horn, gray scaled neck and a diagonal pale object at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3f7361ad6a1ab63c94fdfcc87c14baf743fe7ffbf30d21a9d0617a267e0dd0fb.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "3f7361ad6a1ab63c94fdfcc87c14baf743fe7ffbf30d21a9d0617a267e0dd0fb"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/14/frame/4",
+      "pixelSha256": "ea3b08bc49d8de95b5d3637bbd16fd0fa31196a55a017cb8c4dca2b1f92382cd",
+      "visualDescription": "Orange scaled head in profile with a green eye, pale teeth or horn, gray scaled neck and a diagonal pale object at lower left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d4e3ff79a85be203491ab38e2e55d956ccf4710197a5ab811858532b19c6b93d.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "d4e3ff79a85be203491ab38e2e55d956ccf4710197a5ab811858532b19c6b93d"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/41/frame/0",
+      "pixelSha256": "ed04064ae7934fe3dd96b9cbc220892012ef63b8d88417f4c4d6a64c7fe23b9a",
+      "visualDescription": "Older bald, white-haired figure with a white beard and a blue-purple sleeveless garment with dark textured shoulders.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4a6f45ed913da2db4dfb9c6966e8df93095d14e878ba79b5acf1d915b0d463b7.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "4a6f45ed913da2db4dfb9c6966e8df93095d14e878ba79b5acf1d915b0d463b7"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/10/frame/0",
+      "pixelSha256": "415e425b091f16937d927548a05a13b77225eb7d8756a20c74b008dc56801b0e",
+      "visualDescription": "Bright green horned head in profile with a magenta eye, pale spines and teeth; a cyan-white patch is visible near the lower right in some images in this block.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b10a7f03e0c3186789e480913512ca0113d10af86f1206876da69ad391d27d61.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "b10a7f03e0c3186789e480913512ca0113d10af86f1206876da69ad391d27d61"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/10/frame/1",
+      "pixelSha256": "48a22bd00811153a48f188a7556f9dc45a281de695f65951de7d55605d4d6377",
+      "visualDescription": "Bright green horned head in profile with a magenta eye, pale spines and teeth; a cyan-white patch is visible near the lower right in some images in this block.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fb37beecdaf7706a2ccf845a520d44222c6748395d9fadcc01e7015cc7231bad.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "fb37beecdaf7706a2ccf845a520d44222c6748395d9fadcc01e7015cc7231bad"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/10/frame/2",
+      "pixelSha256": "79b4701b65084f6bb7ea5a94f08efc77984c376c569de9c410d438649399b176",
+      "visualDescription": "Bright green horned head in profile with a magenta eye, pale spines and teeth; a cyan-white patch is visible near the lower right in some images in this block.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/31ad1fcbb45fab3745edcb8bcc1d97a05b288996739f7a20ec5dc89355efba62.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "31ad1fcbb45fab3745edcb8bcc1d97a05b288996739f7a20ec5dc89355efba62"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/10/frame/3",
+      "pixelSha256": "a46b2353d59e4ca8e3cb39f0ff335bf4636ef05edb105f8e18acdddc09494c14",
+      "visualDescription": "Bright green horned head in profile with a magenta eye, pale spines and teeth; a cyan-white patch is visible near the lower right in some images in this block.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/515966cbfcfe8785537d55dd054a00bde087ac4495fc066542a095c576bacaf7.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "515966cbfcfe8785537d55dd054a00bde087ac4495fc066542a095c576bacaf7"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/10/frame/4",
+      "pixelSha256": "adbd2da17c712ca66753f4d00978b4ce167ceb41acfc39e246b19bd7816d5587",
+      "visualDescription": "Bright green horned head in profile with a magenta eye, pale spines and teeth; a cyan-white patch is visible near the lower right in some images in this block.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8cd5ebfd8ca30890f3bf38da509effae2793797d3ce8b135d3b7955f7ccfbcaa.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8cd5ebfd8ca30890f3bf38da509effae2793797d3ce8b135d3b7955f7ccfbcaa"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/10/frame/5",
+      "pixelSha256": "600fa463cc65cff66fd87ca2708d5313a5f425fa1a3c1ebc462964b4ce24dd0c",
+      "visualDescription": "Bright green horned head in profile with a magenta eye, pale spines and teeth; a cyan-white patch is visible near the lower right in some images in this block.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5600425908db013812f91a1450f55ff0e6916e9f3061327d471f94516913943f.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "5600425908db013812f91a1450f55ff0e6916e9f3061327d471f94516913943f"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/23/frame/0",
+      "pixelSha256": "786cdb06606c51f381c34f572f1c59daf730791078d9a5a65946f1881ed998bb",
+      "visualDescription": "Pale face framed by long curly white hair, blue eyes open, and blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/23/frame/1",
+      "pixelSha256": "e1192326e1dec978078790fea220f03a6bc283112d14d10997dbe7fb02d599c8",
+      "visualDescription": "Pale face framed by long curly white hair; the eyes appear closed, above a blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f499130e4df54362e58d955ea700c76194bfd25b6ecffd8e4848b739004ba8a9.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "f499130e4df54362e58d955ea700c76194bfd25b6ecffd8e4848b739004ba8a9"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/23/frame/2",
+      "pixelSha256": "e3a4a0b2a3f02d0be42c4eeac2eca8aa68ec7fcee0575ff0c57269619ad8f51f",
+      "visualDescription": "Pale face framed by long curly white hair, blue eyes open, and blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/88fd53920deb7d835fe8e8dd292fef3590a38bec4307f402214d7bf2a44e69b7.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "88fd53920deb7d835fe8e8dd292fef3590a38bec4307f402214d7bf2a44e69b7"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/23/frame/3",
+      "pixelSha256": "786cdb06606c51f381c34f572f1c59daf730791078d9a5a65946f1881ed998bb",
+      "visualDescription": "Pale face framed by long curly white hair, blue eyes open, and blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/23/frame/4",
+      "pixelSha256": "e1192326e1dec978078790fea220f03a6bc283112d14d10997dbe7fb02d599c8",
+      "visualDescription": "Pale face framed by long curly white hair; the eyes appear closed, above a blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f499130e4df54362e58d955ea700c76194bfd25b6ecffd8e4848b739004ba8a9.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "f499130e4df54362e58d955ea700c76194bfd25b6ecffd8e4848b739004ba8a9"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/23/frame/5",
+      "pixelSha256": "786cdb06606c51f381c34f572f1c59daf730791078d9a5a65946f1881ed998bb",
+      "visualDescription": "Pale face framed by long curly white hair, blue eyes open, and blue patterned neckline on a cyan-pale background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/28/frame/0",
+      "pixelSha256": "f112830c1b64e2930a671819e42a1d667c440ab3b22a0a2c6d049a3999d4a11d",
+      "visualDescription": "Blue-cyan close-up of a long-haired, bearded face with open mouth against a teal rectangular background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/830ac9a521de97343ca236b695a2bb6dc1eb1fe1c7abce906542d235b1fda8f1.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "830ac9a521de97343ca236b695a2bb6dc1eb1fe1c7abce906542d235b1fda8f1"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/28/frame/1",
+      "pixelSha256": "ba4eaef8b350f373ffec1751ffdd3809b82e782c89f766fc9365b3c16920126c",
+      "visualDescription": "Blue-cyan close-up of a long-haired, bearded face with open mouth against a teal rectangular background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f7beff4580d29aa1669f18f07b13801ac476a7d2e02746fac051b41844216310.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "f7beff4580d29aa1669f18f07b13801ac476a7d2e02746fac051b41844216310"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/33/frame/0",
+      "pixelSha256": "c0012acfd4c64656e4c00042a931298d8d9cab452ee90a29dda1ceef457a106a",
+      "visualDescription": "Frontal reddish face with dark eyes and open mouth, ornate white-gray-gold headpiece and dark red background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/62721ec4c9622311e96d57183c57f8c7aa5e3e35cc07922940638620e0b04223.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "62721ec4c9622311e96d57183c57f8c7aa5e3e35cc07922940638620e0b04223"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/56/frame/0",
+      "pixelSha256": "b5af769b612dfca2ff286a74e92ca4782540222ba668b06a66e4d9d33bd9038d",
+      "visualDescription": "Frontal skeletal face and upper body with red eyes, yellow-gray bones and broad dark red wing-like forms.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/7c5a4861a428505108df79be30f8726db2efda9850fc7b24d74535e1cdf49eb0.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "7c5a4861a428505108df79be30f8726db2efda9850fc7b24d74535e1cdf49eb0"
+    },
+    {
+      "assetId": "cok/amiga/disk3/pic2.daa/block/70/frame/0",
+      "pixelSha256": "32bcb9052dd97eae7aa650dfffd23d52035e36430eae4cd9e07f0d786ead934f",
+      "visualDescription": "Red-orange-haired and bearded figure with green headband, dark blue-green clothing, pale shoulder details and round gold chest ornament.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/87b3e43189be75265589b6fbc4400c98499809d6c4329f15777146c7ec73ff53.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ],
+      "sourceSha256": "87b3e43189be75265589b6fbc4400c98499809d6c4329f15777146c7ec73ff53"
+    }
+  ]
+}

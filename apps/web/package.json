@@ -1,0 +1,49 @@
+{
+  "name": "@goldbox/web",
+  "version": "0.1.0",
+  "description": "Gold Box / Greybox web shell — Vite SPA asset viewer over the @goldbox/engine core.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "vite",
+    "preview": "vite preview",
+    "build:app": "node scripts/build-app.mjs",
+    "build:local-restyle-pack": "node scripts/build-local-restyle-pack.mjs",
+    "test:local-restyle-pack": "node --test test/build-local-restyle-pack.test.mjs",
+    "test:restyle-assets": "node --test test/restyle-animations-assets.test.mjs test/bundle-cok-title-restyle.test.mjs test/bundle-cok-title-gallery.test.mjs",
+    "test:cok-player-assets": "node --test test/bundle-cok-player-appearance-metadata.test.mjs",
+    "test:cok-dialogue-travel-assets": "node --test test/bundle-cok-dialogue-travel-metadata.test.mjs",
+    "test:public-app-assets": "node --test test/copy-public-app-assets.test.mjs",
+    "test:cok-title-assets": "node --test test/bundle-cok-title-restyle.test.mjs test/bundle-cok-title-gallery.test.mjs test/cok-title-restyle-static.test.mjs",
+    "test:graphics-review-queue": "node --test test/graphics-review-queue.test.mjs",
+    "e2e": "node test/e2e.mjs",
+    "e2e:cok-restyle": "node test/cok-restyle-preview.mjs",
+    "e2e:cok-demo-runtime": "node test/cok-demo-runtime-graphics.mjs",
+    "e2e:cok-demo-combat-graphics": "node test/cok-demo-combat-graphics.mjs",
+    "e2e:cok-dialogue-restyle": "node test/cok-dialogue-restyle.mjs",
+    "e2e:cok-travel-restyle": "node test/cok-travel-restyle.mjs",
+    "e2e:cok-title-restyle": "node --input-type=module -e \"process.env.GB_E2E_ONLY='cok-title-restyle'; await import('./test/e2e.mjs')\"",
+    "e2e:cok-travel-restyle:static": "node test/cok-travel-restyle-static.mjs",
+    "e2e:cok-graphics": "node test/cok-combat-graphics.mjs",
+    "e2e:cok-terrain-restyle": "node test/cok-terrain-restyle.mjs",
+    "e2e:cok-wall-restyle": "node test/cok-wall-restyle.mjs",
+    "e2e:cok-player-appearance": "node test/cok-player-appearance.mjs",
+    "e2e:dok-restyle": "node test/dok-restyle-preview.mjs",
+    "e2e:combat": "node test/combat-demo.mjs",
+    "e2e:demos": "node test/demo-sequences.mjs",
+    "e2e:intros": "node test/intro-composition.mjs",
+    "e2e:static": "node test/static-build.mjs"
+  },
+  "dependencies": {
+    "@goldbox/engine": "workspace:*",
+    "@goldbox/ui-kit": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "puppeteer-core": "^25.1.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

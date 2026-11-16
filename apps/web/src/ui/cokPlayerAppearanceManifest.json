@@ -1,0 +1,206 @@
+{
+  "sourceFrameSize": {
+    "width": 24,
+    "height": 24
+  },
+  "sourceMaskKey": 1,
+  "paletteSelectorIndices": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "pixelScale": 4,
+  "sourceContainers": {
+    "CBODY.DAX": "0C93206B020E30EECC1F761A9408B5BEFC20113FDE18A8B401AE2DDAD2C103BD",
+    "CHEAD.DAX": "8E61D8CF23B7094353425224F02BE4423B880C5E8A7E168D478EC851BFAEA568"
+  },
+  "appearances": [
+    {
+      "appearanceId": "cok-player-05-18-00-02",
+      "head": {
+        "sourceFile": "dos/CHEAD/CHEAD_069.png",
+        "sourceSha256": "CE6D29D2B27218A3680EE38CDDD0CEA8112EB4FE1E80D4F0DBB82BCACD40F4EF",
+        "restyleFile": "done/CHEAD_069_restyle.png",
+        "restyleSha256": "8824322344B590F78DB378B89568541F94DEDF92B9FA4158D67FBB47907A8398",
+        "nativeWidth": 24,
+        "nativeHeight": 8,
+        "blockIds": [
+          69,
+          197
+        ]
+      },
+      "bodyFrames": [
+        {
+          "blockId": 88,
+          "sourceFile": "dos/CBODY/CBODY_088.png",
+          "sourceSha256": "07E69DD5CF87087898E3837CA7F3ACE9080D9E6FED91C66951B518021F9A410A",
+          "restyleFile": "done/CBODY_088_restyle.png",
+          "restyleSha256": "B819130B866725F73CD0071906BE9CA4EDF1D7B8EE48A4F788F54F412C270EEE",
+          "nativeWidth": 24,
+          "nativeHeight": 24
+        },
+        {
+          "blockId": 216,
+          "sourceFile": "dos/CBODY/CBODY_216.png",
+          "sourceSha256": "ADC42C056A6075AE2727562014BA5DC2228246D3B055F9B19A7F7FA96B81D41C",
+          "restyleFile": "done/CBODY_216_restyle.png",
+          "restyleSha256": "64C94F5CA054050B95611C2C6524EB3D6CFA4B83F45BD70DD200F915AA2681DC",
+          "nativeWidth": 24,
+          "nativeHeight": 24
+        }
+      ],
+      "sourceTuples": [
+        {
+          "cHeadRequest": 5,
+          "cBodyBlock": 24,
+          "cBodySlot": 0,
+          "suffixCode": 2
+        },
+        {
+          "cHeadRequest": 5,
+          "cBodyBlock": 24,
+          "cBodySlot": 2,
+          "suffixCode": 2
+        }
+      ]
+    },
+    {
+      "appearanceId": "cok-player-05-01-01-02",
+      "sourceTuples": [
+        {
+          "cHeadRequest": 5,
+          "cBodyBlock": 1,
+          "cBodySlot": 1,
+          "suffixCode": 2
+        }
+      ],
+      "head": {
+        "sourceFile": "dos/CHEAD/CHEAD_069.png",
+        "sourceSha256": "CE6D29D2B27218A3680EE38CDDD0CEA8112EB4FE1E80D4F0DBB82BCACD40F4EF",
+        "restyleFile": "done/CHEAD_069_restyle.png",
+        "restyleSha256": "8824322344B590F78DB378B89568541F94DEDF92B9FA4158D67FBB47907A8398",
+        "nativeWidth": 24,
+        "nativeHeight": 8,
+        "blockIds": [
+          69,
+          197
+        ]
+      },
+      "bodyFrames": [
+        {
+          "blockId": 65,
+          "sourceFile": "dos/CBODY/CBODY_065.png",
+          "sourceSha256": "C79FF1F218A7D80690FB14BDCE34EF4C1D7202146A8038786B432E5167309266",
+          "restyleFile": "done/CBODY_065_restyle.png",
+          "restyleSha256": "C986665EA500826B1002A8F9BEAAF2F91013F782FE4D0207F09F3D0AD843B3E5",
+          "nativeWidth": 24,
+          "nativeHeight": 24
+        },
+        {
+          "blockId": 193,
+          "sourceFile": "dos/CBODY/CBODY_193.png",
+          "sourceSha256": "338251ECCACA81648753070DCC736F0B72FDA83EF4FF65BECE5868B88617D895",
+          "restyleFile": "done/CBODY_193_restyle.png",
+          "restyleSha256": "9CF76CA3F8B8E7394F21448F726A8F446265C9F0DF8A04A3AC7FB3F176AD207D",
+          "nativeWidth": 24,
+          "nativeHeight": 24
+        }
+      ]
+    },
+    {
+      "appearanceId": "cok-player-05-17-04-02",
+      "sourceTuples": [
+        {
+          "cHeadRequest": 5,
+          "cBodyBlock": 23,
+          "cBodySlot": 4,
+          "suffixCode": 2
+        },
+        {
+          "cHeadRequest": 5,
+          "cBodyBlock": 23,
+          "cBodySlot": 5,
+          "suffixCode": 2
+        }
+      ],
+      "head": {
+        "sourceFile": "dos/CHEAD/CHEAD_069.png",
+        "sourceSha256": "CE6D29D2B27218A3680EE38CDDD0CEA8112EB4FE1E80D4F0DBB82BCACD40F4EF",
+        "restyleFile": "done/CHEAD_069_restyle.png",
+        "restyleSha256": "8824322344B590F78DB378B89568541F94DEDF92B9FA4158D67FBB47907A8398",
+        "nativeWidth": 24,
+        "nativeHeight": 8,
+        "blockIds": [
+          69,
+          197
+        ]
+      },
+      "bodyFrames": [
+        {
+          "blockId": 87,
+          "sourceFile": "dos/CBODY/CBODY_087.png",
+          "sourceSha256": "AE94D19F0935BB164EBBCD70D1C4F179EB2996AE17A0190E5303FF59CFF753EB",
+          "restyleFile": "done/CBODY_087_restyle.png",
+          "restyleSha256": "908C6DCD4A1A5D45B6C9C437EE1398B7F1F4B7D7D2AF7CB191CD0B95362034D1",
+          "nativeWidth": 24,
+          "nativeHeight": 24
+        },
+        {
+          "blockId": 215,
+          "sourceFile": "dos/CBODY/CBODY_215.png",
+          "sourceSha256": "48D6D23361CA50A31FD0815B2C7E130529F67DB3DD29904C8C2068744CB01D9D",
+          "restyleFile": "done/CBODY_215_restyle.png",
+          "restyleSha256": "77AA1D0ACEAA64928370426D792E449ECE5FC8C3BBB3DAD148F86282CE865AA9",
+          "nativeWidth": 24,
+          "nativeHeight": 24
+        }
+      ]
+    },
+    {
+      "appearanceId": "cok-player-03-0b-03-01",
+      "sourceTuples": [
+        {
+          "cHeadRequest": 3,
+          "cBodyBlock": 11,
+          "cBodySlot": 3,
+          "suffixCode": 1
+        }
+      ],
+      "head": {
+        "sourceFile": "dos/CHEAD/CHEAD_003.png",
+        "sourceSha256": "AB031B8015ABBCFEC43773F03A47E83843CFA4DCCAC75BD623EF1F1DF3433085",
+        "restyleFile": "done/CHEAD_003_restyle.png",
+        "restyleSha256": "7C0F812B146A2E11C755857D20E432702FDC2DA91406313F2C1BEAFC46593F86",
+        "nativeWidth": 24,
+        "nativeHeight": 10,
+        "blockIds": [
+          3,
+          131
+        ]
+      },
+      "bodyFrames": [
+        {
+          "blockId": 11,
+          "sourceFile": "dos/CBODY/CBODY_011.png",
+          "sourceSha256": "47593D8A7798860CFE07462438850E7874424EA568DF80C4BD0748B451850EBC",
+          "restyleFile": "done/CBODY_011_restyle.png",
+          "restyleSha256": "2625D2D97390C01E5C3BB80B3C11072BB48AB2B5127B68F2F7BEC5F07B14876F",
+          "nativeWidth": 24,
+          "nativeHeight": 24
+        },
+        {
+          "blockId": 139,
+          "sourceFile": "dos/CBODY/CBODY_139.png",
+          "sourceSha256": "B475E75316699A2742F884329D2B609C6FD1337979F1759BA5C33D693B1A454C",
+          "restyleFile": "done/CBODY_139_restyle.png",
+          "restyleSha256": "39C5FF4200954731C85A8B00BA5F58E0C7CE88A1FC493C2B2BA06FE46F9002B4",
+          "nativeWidth": 24,
+          "nativeHeight": 24
+        }
+      ]
+    }
+  ]
+}

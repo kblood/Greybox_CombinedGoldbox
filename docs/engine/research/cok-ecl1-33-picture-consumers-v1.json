@@ -1,0 +1,307 @@
+{
+  "schema": "cok-ecl1-33-picture-consumers-v1",
+  "claimLimit": "Conditional static source association. Subject, reachability, visible presentation, runtime use and Restyle admission remain unresolved.",
+  "runtimeObservations": 0,
+  "census": {
+    "path": "docs/engine/research/cok-ecl-picture-census-2026-11-03.json",
+    "sha256": "f2139868a90b6e4dfd749cd54e4572bf3624d8a6990c21d8f1d5240ef5c1b004",
+    "hashInput": "LF-normalized"
+  },
+  "ecl": {
+    "path": "Champions of Krynn/ECL1.DAX",
+    "sha256": "6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79",
+    "byteLength": 31721,
+    "orderedTocBlockIds": [
+      16,
+      17,
+      18,
+      32,
+      33,
+      34,
+      36
+    ],
+    "entryIndex": 4,
+    "blockId": 33,
+    "rawBytes": 4626,
+    "blockSha256": "28c1f857fa76f47e919dc3a1396f6920d305862067959db3335ebd7aa718c219",
+    "compressedFileOffset": 19924,
+    "compressedBytes": 4726
+  },
+  "searchLocation": {
+    "entry": "search_location",
+    "segment": 257,
+    "vaddr": 33244,
+    "offset": 478
+  },
+  "hostSource": {
+    "hashInput": "UTF-8 LF-normalized fragments",
+    "fragments": [
+      {
+        "role": "pictureMap",
+        "path": "apps/web/src/ui/explore.ts",
+        "start": "async function cokDialoguePictures(",
+        "endExclusive": "\nasync function cokThrotlPresentation(",
+        "sha256": "8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2"
+      },
+      {
+        "role": "stepEvent",
+        "path": "apps/web/src/ui/explore.ts",
+        "start": "function runStepEvent(",
+        "endExclusive": "\n/**\n * Pool's wilderness/overland crossing",
+        "sha256": "c20d43296be7029eef5ba886321cec4de8dd22b17847b8fe312bc9bd6d7a5a19"
+      },
+      {
+        "role": "area32PreloadGate",
+        "path": "apps/web/src/ui/explore.ts",
+        "start": "  if (baseGameForExplore(gameId) === 'cok') {\n    const current = state;",
+        "endExclusive": "    void loadCokWallRestyles(walls)",
+        "sha256": "347bc7b59fdf89da16c08dde40e092c7d07dd5c72a81d67734717725b4f252da"
+      },
+      {
+        "role": "pictureEffect",
+        "path": "packages/engine/src/ecl/vm.ts",
+        "start": "      case 0x0e: // PICTURE id",
+        "endExclusive": "\n      case 0x3d:",
+        "sha256": "6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd"
+      },
+      {
+        "role": "lastPicture",
+        "path": "packages/engine/src/world/dialogue.ts",
+        "start": "function lastPicture(",
+        "endExclusive": "\n/** The most recent prompt",
+        "sha256": "486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f"
+      },
+      {
+        "role": "translateTurn",
+        "path": "packages/engine/src/world/dialogue.ts",
+        "start": "  private translate(r: EclRunResult):",
+        "endExclusive": "\n}\n\n/**\n * Page a dense retail",
+        "sha256": "aa7fe6eca62b7c90ea959918a8c798f9276c46d73ff5766da548307b6461225c"
+      },
+      {
+        "role": "cellRunner",
+        "path": "packages/engine/src/world/dialogue.ts",
+        "start": "export function dialogueForCell(",
+        "endExclusive": "\n/**\n * Build a dialogue runner for the **vmRun1**",
+        "sha256": "2da2d1cfa688107d196992be46348cf0a67bd2cb7bb5a5adae57ef3465c07f39"
+      },
+      {
+        "role": "searchLocation",
+        "path": "packages/engine/src/world/dungeonEvents.ts",
+        "start": "export function primeSearchLocation(",
+        "endExclusive": "\n/**\n * Position a VM at `block`'s **vmRun1**",
+        "sha256": "5064110480ee9cf8fb17a5d83abc69b4788b87543713c46da1ef94b84c62104c"
+      },
+      {
+        "role": "pictureLookup",
+        "path": "apps/web/src/ui/dialogue.ts",
+        "start": "function selectPresentationPicture(",
+        "endExclusive": "\nfunction wrapDialogueText(",
+        "sha256": "9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee"
+      },
+      {
+        "role": "pictureDecode",
+        "path": "packages/engine/src/loaders/dax.ts",
+        "start": "/**\n * Decode a DAX container to the neutral model.",
+        "endExclusive": null,
+        "sha256": "d1e6d4c91cf6791f0e924990504be716adebad5f971f418e63ae359a1af72738"
+      }
+    ]
+  },
+  "sourceMap": {
+    "order": [
+      "BIGPIC1.DAX",
+      "PIC1.DAX"
+    ],
+    "condition": "The same pinned DOS disk-1 picture map is supplied and its lookup runs with the site's retained ID.",
+    "collisionPolicy": "Host inserts BIGPIC1 first and PIC1 second, with the last decoded entry winning. Each of these two IDs occurs exactly once across the pinned TOCs.",
+    "stepEventLimit": "The per-cell runner uses search_location. Its native cell presentation gate handles retained ID 15 and the preload targets disk 1 area 32.",
+    "sentinelLimit": "255 occurs in neither picture TOC and has no graphic association in this map. Its gameplay effect is unobserved."
+  },
+  "archives": [
+    {
+      "name": "BIGPIC1.DAX",
+      "path": "Champions of Krynn/BIGPIC1.DAX",
+      "sha256": "34cf5207584cb859817e1fc9b579cd51beea2e00e3393adbdc251e07f93483ec",
+      "byteLength": 65694,
+      "dataBase": 38,
+      "orderedTocBlockIds": [
+        114,
+        121,
+        112,
+        115
+      ]
+    },
+    {
+      "name": "PIC1.DAX",
+      "path": "Champions of Krynn/PIC1.DAX",
+      "sha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "byteLength": 66736,
+      "dataBase": 164,
+      "orderedTocBlockIds": [
+        23,
+        57,
+        58,
+        34,
+        18,
+        59,
+        60,
+        1,
+        8,
+        12,
+        15,
+        30,
+        34,
+        35,
+        41,
+        61,
+        62,
+        63
+      ]
+    }
+  ],
+  "sourceFrames": [
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/bigpic1.dax/block/115/frame/0",
+      "archive": "BIGPIC1.DAX",
+      "archiveSha256": "34cf5207584cb859817e1fc9b579cd51beea2e00e3393adbdc251e07f93483ec",
+      "blockId": 115,
+      "entryIndex": 3,
+      "dataOffset": 52424,
+      "compressedBytes": 13232,
+      "rawBytes": 18257,
+      "blockSha256": "2cd941f3598ab7e93c94b0ee7767992737eb980ae42f2873ed5c277790774567",
+      "frameIndex": 0,
+      "geometry": [
+        304,
+        120,
+        0,
+        0
+      ],
+      "pixelSha256": "29ec6a4b1ffa4c77f12616ee11a3c34a8a2c9ce4cdf236e2ad4dc54b0faf12ff",
+      "registryPngSha256": "d3ebb5fb7cf9609c7dc67c1434957f45f04f2b3bcb595ca7c85af17d6f58c39f"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/41/frame/0",
+      "archive": "PIC1.DAX",
+      "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "blockId": 41,
+      "entryIndex": 14,
+      "dataOffset": 52861,
+      "compressedBytes": 2575,
+      "rawBytes": 3894,
+      "blockSha256": "9610442952ca8a376693f6f8971335022c890d86b4b76c482a684165dc9e0db9",
+      "frameIndex": 0,
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "pixelSha256": "0c8db08daa99cc0f64ad33271cec98a95d1edc37760d03a22c4d3242f138701f",
+      "registryPngSha256": "c8787dc2e775c83e85ed33f50f2dc1613986edefba270468f2f7bd57dd68e4bd"
+    }
+  ],
+  "sourceFrameEvidence": "RGB SHA-256 is recomputed from native archive pixels. Registry PNG SHA-256 is checked as locator metadata.",
+  "sites": [
+    {
+      "key": "ECL1.DAX#33@568",
+      "offset": 568,
+      "vaddr": 33334,
+      "pictureId": 255,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 255
+      },
+      "entries": [
+        "search_location",
+        "vm_run_1",
+        "initial_entry",
+        "camp_interrupted"
+      ],
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 8,
+          "offsetPathSha256": "eb07a5171466f1a72ba11089e0b64e648d2f71efb530feb6880a84c00faa1316",
+          "branchEdgeCount": 3,
+          "branchEdgesSha256": "2f58766ee3d8abd3772673569fbab67a2e2c16f9a4a4ae9a1b0b06a7b320df52"
+        },
+        {
+          "entry": "vm_run_1",
+          "instructionSteps": 10,
+          "offsetPathSha256": "ba13c1e11e32eba736e19057d66167f18e1343fd6e0ff5f00977cc4ef5137327",
+          "branchEdgeCount": 4,
+          "branchEdgesSha256": "4e55ee3fb2009ebbb462f3fa0e246be35b80f9d314c7f974181ef8bcfa52eb36"
+        },
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 28,
+          "offsetPathSha256": "93385c4c695d6dab0809d6be6cbb4ea0dbd1677af53a5968ff2c836e60f11661",
+          "branchEdgeCount": 8,
+          "branchEdgesSha256": "7bc932f446f11d11854d3b30e71925e3bc748260dc8fd7e1ebe3b90703d3901d"
+        },
+        {
+          "entry": "camp_interrupted",
+          "instructionSteps": 33,
+          "offsetPathSha256": "1059341f20e7aa029e246b316745abcec58ca8e2413eb8ac14826dbc70dd301c",
+          "branchEdgeCount": 9,
+          "branchEdgesSha256": "cf570a9c3dafb740d0f21ac35ab41f7fc4599e94f1cab41fa79e9d2f6fb3f133"
+        }
+      ],
+      "classification": "non-graphic-sentinel",
+      "sourceAssetId": null
+    },
+    {
+      "key": "ECL1.DAX#33@3840",
+      "offset": 3840,
+      "vaddr": 36606,
+      "pictureId": 41,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 41
+      },
+      "entries": [
+        "search_location"
+      ],
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 10,
+          "offsetPathSha256": "56fb6df48874c2deb4c856889689ffe04488cec98137cf6a5b97230178054106",
+          "branchEdgeCount": 4,
+          "branchEdgesSha256": "95cd679018a18ff600d4086725f94162f01fad2f0c5b07b6ccc2a479da84159c"
+        }
+      ],
+      "classification": "conditional-static-source-association",
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/41/frame/0"
+    },
+    {
+      "key": "ECL1.DAX#33@4077",
+      "offset": 4077,
+      "vaddr": 36843,
+      "pictureId": 115,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 115
+      },
+      "entries": [
+        "search_location"
+      ],
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 20,
+          "offsetPathSha256": "7089f5aafdc18ffec0c5a97946b83f758bba0aeb04e08d46e63bb433ff26caf0",
+          "branchEdgeCount": 6,
+          "branchEdgesSha256": "5679feaa016a0dcf2570c2c83ffd153b75b8c1d00b92f9e8ab4d119b974a2e33"
+        }
+      ],
+      "classification": "conditional-static-source-association",
+      "sourceAssetId": "cok/dos-ega/disk1/bigpic1.dax/block/115/frame/0"
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-07-15",
+  "profile_id": "pool-of-radiance",
+  "title": "Pool of Radiance",
+  "dosbox_x_version": "2026.07.02",
+  "source": {
+    "filename": "GAME.OVR",
+    "size": 206105,
+    "sha256": "872964a32cef0fc32bbf83bab68b15e04ad36d59076f37b00a179dfee7928614"
+  },
+  "probe": {
+    "interrupt": "21h",
+    "ah": "42h",
+    "origin": 0,
+    "dos_handle": 5
+  },
+  "header_seek_count": 1,
+  "descriptor_count": 35,
+  "records": [
+    {
+      "snapshot": 2,
+      "descriptor_index": 34,
+      "seek_offset": 205365,
+      "destination_segment": 8470,
+      "code_size": 690,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": null,
+      "contiguous_from_previous": null
+    },
+    {
+      "snapshot": 3,
+      "descriptor_index": 33,
+      "seek_offset": 205087,
+      "destination_segment": 8514,
+      "code_size": 252,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 8514,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 4,
+      "descriptor_index": 32,
+      "seek_offset": 203372,
+      "destination_segment": 8530,
+      "code_size": 1605,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 8530,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 5,
+      "descriptor_index": 31,
+      "seek_offset": 198458,
+      "destination_segment": 8631,
+      "code_size": 4864,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 8631,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 6,
+      "descriptor_index": 30,
+      "seek_offset": 195410,
+      "destination_segment": 8935,
+      "code_size": 3038,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 8935,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 7,
+      "descriptor_index": 29,
+      "seek_offset": 190711,
+      "destination_segment": 9125,
+      "code_size": 4619,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 9125,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 8,
+      "descriptor_index": 28,
+      "seek_offset": 188622,
+      "destination_segment": 9414,
+      "code_size": 1989,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 9414,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 9,
+      "descriptor_index": 27,
+      "seek_offset": 187960,
+      "destination_segment": 9539,
+      "code_size": 648,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 9539,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 10,
+      "descriptor_index": 26,
+      "seek_offset": 187271,
+      "destination_segment": 9580,
+      "code_size": 677,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 9580,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 11,
+      "descriptor_index": 25,
+      "seek_offset": 182479,
+      "destination_segment": 9623,
+      "code_size": 4682,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 9623,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 12,
+      "descriptor_index": 24,
+      "seek_offset": 175850,
+      "destination_segment": 9916,
+      "code_size": 6455,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 9916,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 13,
+      "descriptor_index": 23,
+      "seek_offset": 174727,
+      "destination_segment": 10320,
+      "code_size": 1123,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 10320,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 14,
+      "descriptor_index": 22,
+      "seek_offset": 159768,
+      "destination_segment": 10391,
+      "code_size": 14261,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 10391,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 15,
+      "descriptor_index": 21,
+      "seek_offset": 150665,
+      "destination_segment": 11283,
+      "code_size": 8795,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 11283,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 16,
+      "descriptor_index": 20,
+      "seek_offset": 146892,
+      "destination_segment": 11833,
+      "code_size": 3685,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 11833,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 17,
+      "descriptor_index": 19,
+      "seek_offset": 135226,
+      "destination_segment": 12064,
+      "code_size": 11026,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 12064,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 18,
+      "descriptor_index": 18,
+      "seek_offset": 132765,
+      "destination_segment": 12754,
+      "code_size": 2299,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 12754,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 19,
+      "descriptor_index": 17,
+      "seek_offset": 122854,
+      "destination_segment": 12898,
+      "code_size": 9189,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 12898,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 20,
+      "descriptor_index": 16,
+      "seek_offset": 104831,
+      "destination_segment": 13473,
+      "code_size": 17497,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 13473,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 21,
+      "descriptor_index": 15,
+      "seek_offset": 96305,
+      "destination_segment": 8470,
+      "code_size": 8158,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 14567,
+      "contiguous_from_previous": false
+    },
+    {
+      "snapshot": 22,
+      "descriptor_index": 14,
+      "seek_offset": 91851,
+      "destination_segment": 8980,
+      "code_size": 4268,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 8980,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 23,
+      "descriptor_index": 13,
+      "seek_offset": 75771,
+      "destination_segment": 9247,
+      "code_size": 15474,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 9247,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 24,
+      "descriptor_index": 12,
+      "seek_offset": 60507,
+      "destination_segment": 10215,
+      "code_size": 14510,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 10215,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 25,
+      "descriptor_index": 11,
+      "seek_offset": 58835,
+      "destination_segment": 11122,
+      "code_size": 1562,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 11122,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 26,
+      "descriptor_index": 10,
+      "seek_offset": 50641,
+      "destination_segment": 11220,
+      "code_size": 8082,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 11220,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 27,
+      "descriptor_index": 9,
+      "seek_offset": 43968,
+      "destination_segment": 11726,
+      "code_size": 6439,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 11726,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 28,
+      "descriptor_index": 8,
+      "seek_offset": 38919,
+      "destination_segment": 12129,
+      "code_size": 4735,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 12129,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 29,
+      "descriptor_index": 7,
+      "seek_offset": 29907,
+      "destination_segment": 12425,
+      "code_size": 8730,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 12425,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 30,
+      "descriptor_index": 6,
+      "seek_offset": 27860,
+      "destination_segment": 12971,
+      "code_size": 1949,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 12971,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 31,
+      "descriptor_index": 5,
+      "seek_offset": 21886,
+      "destination_segment": 13093,
+      "code_size": 5750,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 13093,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 32,
+      "descriptor_index": 4,
+      "seek_offset": 17783,
+      "destination_segment": 13453,
+      "code_size": 3895,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 13453,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 33,
+      "descriptor_index": 3,
+      "seek_offset": 3398,
+      "destination_segment": 13697,
+      "code_size": 13581,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 13697,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 34,
+      "descriptor_index": 2,
+      "seek_offset": 2476,
+      "destination_segment": 14546,
+      "code_size": 862,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 14546,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 35,
+      "descriptor_index": 1,
+      "seek_offset": 212,
+      "destination_segment": 14600,
+      "code_size": 2062,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 14600,
+      "contiguous_from_previous": true
+    },
+    {
+      "snapshot": 36,
+      "descriptor_index": 0,
+      "seek_offset": 8,
+      "destination_segment": 14729,
+      "code_size": 190,
+      "loader_cs": 4806,
+      "loader_ip": 655,
+      "contiguous_expected_segment": 14729,
+      "contiguous_from_previous": true
+    }
+  ],
+  "targets": [
+    {
+      "name": "dispatcher_candidate",
+      "file_offset": 15475,
+      "descriptor_index": 3,
+      "descriptor_relative_offset": 12077,
+      "loaded_cs": 13697,
+      "candidate_cs_ip": "3581:2F2D",
+      "claim": "loaded-byte candidate; execution not yet observed"
+    },
+    {
+      "name": "operand_parser_candidate",
+      "file_offset": 29907,
+      "descriptor_index": 7,
+      "descriptor_relative_offset": 0,
+      "loaded_cs": 12425,
+      "candidate_cs_ip": "3089:0000",
+      "claim": "loaded-byte candidate; execution not yet observed"
+    },
+    {
+      "name": "combat_handler_candidate",
+      "file_offset": 9441,
+      "descriptor_index": 3,
+      "descriptor_relative_offset": 6043,
+      "loaded_cs": 13697,
+      "candidate_cs_ip": "3581:179B",
+      "claim": "loaded-byte candidate; execution not yet observed"
+    },
+    {
+      "name": "save_handler_candidate",
+      "file_offset": 4056,
+      "descriptor_index": 3,
+      "descriptor_relative_offset": 658,
+      "loaded_cs": 13697,
+      "candidate_cs_ip": "3581:0292",
+      "claim": "loaded-byte candidate; execution not yet observed"
+    },
+    {
+      "name": "load_monster_candidate",
+      "file_offset": 4502,
+      "descriptor_index": 3,
+      "descriptor_relative_offset": 1104,
+      "loaded_cs": 13697,
+      "candidate_cs_ip": "3581:0450",
+      "claim": "loaded-byte candidate; execution not yet observed"
+    },
+    {
+      "name": "clear_monsters_candidate",
+      "file_offset": 8099,
+      "descriptor_index": 3,
+      "descriptor_relative_offset": 4701,
+      "loaded_cs": 13697,
+      "candidate_cs_ip": "3581:125D",
+      "claim": "loaded-byte candidate; execution not yet observed"
+    },
+    {
+      "name": "horizontal_menu_candidate",
+      "file_offset": 7703,
+      "descriptor_index": 3,
+      "descriptor_relative_offset": 4305,
+      "loaded_cs": 13697,
+      "candidate_cs_ip": "3581:10D1",
+      "claim": "loaded-byte candidate; execution not yet observed"
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": []
+  }
+}

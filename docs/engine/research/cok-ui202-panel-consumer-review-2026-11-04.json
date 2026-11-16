@@ -1,0 +1,64 @@
+{
+  "reviewVersion": 1,
+  "date": "2026-11-04",
+  "scope": "Add conditional source-code consumer evidence for DOS CoK 8X8D1 block-202 tiles 20–25 in current UI panel compositors.",
+  "source": {
+    "archive": "Champions of Krynn/8X8D1.DAX",
+    "archiveSha256": "14fd0bed83d383deca6195e3145145ad0ab4c58a5939a6e6fc0d3efc8c4bc915",
+    "entryIndex": 1,
+    "blockId": 202,
+    "rawSha256": "348d454b20f8504385b6e115f8463e61d727cb734da15a7f41a87d13212a2b4a",
+    "drawableTiles": 38,
+    "targetTiles": [20, 21, 22, 23, 24, 25]
+  },
+  "panelReceipt": {
+    "path": "docs/engine/research/cok-ui202-panel-consumers-v1.json",
+    "sha256": "7437af8e9a11aa3f421da15aec23e6d0ff760dfc4538c176da51f3b2d31ef07b",
+    "panelRoutes": 11,
+    "routeVariants": 19,
+    "panelTileEdges": 66,
+    "registryRowsEnriched": 6,
+    "newAssetIds": 0,
+    "validationErrors": 0,
+    "exactTileLocators": 6,
+    "decodedPngBytePins": 6,
+    "sourceFilePins": 27
+  },
+  "registry": {
+    "path": "docs/engine/research/cok-graphics-identity-registry-v1.json",
+    "sha256": "459d324075f2ff060b1d2b29f80ac625d4d15fcc22efa4b1b1d729e16e530136",
+    "sourceAssetCount": 6067,
+    "restyleRecords": 2596,
+    "animationGroups": 104,
+    "crossVersionLinks": 10447
+  },
+  "runtimeLedgers": {
+    "v1ContractSha256": "40a26748e3204871362258d97396e2d51396cbb7e706bd9e9560dcdd1576f1e1",
+    "v1ReportSha256": "4f4f0934787dc8ec727e8a2a77fbc2f8119a4ff49fa29dfcfeae65d400717ffc",
+    "v2ContractSha256": "0b1394c3e89526f1969b5dc2b5bde64085ab984353d687e0d12e0897ddf03771",
+    "v2ReportSha256": "1b3380aa87a3a687e300f9ebef50993e5d662a6e87b98aeda3b509197fb2ab00",
+    "reportChecks": "pass",
+    "mappingDelta": "none"
+  },
+  "verification": {
+    "panelMutationAndIdempotenceTests": "10 passed",
+    "panelReceiptSchemaTests": "2 passed",
+    "registrySchemaTests": "3 passed",
+    "sourceCensusCheck": "pass",
+    "baseUi202ReceiptCheck": "pass",
+    "panelReceiptCheck": "pass",
+    "v1RuntimeReportCheck": "pass",
+    "v2RuntimeReportCheck": "pass"
+  },
+  "limits": [
+    "This is conditional current-source routing evidence: the pinned DOS block, non-null frame tiles, target tile presence, and default CoK frame layout are required. It does not establish original-game behavior or runtime drawing.",
+    "UI loaders select block 202 by ID and do not verify the pinned archive hash at load time; the archive hash pins audited source correspondence only.",
+    "Amiga source IDs, animation semantics, Restyle mappings and runtime admission were not changed. Other CoK frame tiles and inner-border selectors are outside this receipt.",
+    "The identity registry remains CoK-only and its overall source, description, consumer and animation completeness is not established.",
+    "Build, browser acceptance, production packaging and publication remain unverified."
+  ],
+  "producerTool": {
+    "path": "tools/cok_ui202_panel_consumers.py",
+    "sha256": "5ba31b97400ced1a5784e90499906f3b78e1264b1010d123062d3434adf01913"
+  }
+}

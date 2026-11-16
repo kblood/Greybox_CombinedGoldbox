@@ -1,0 +1,301 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://goldbox.invalid/schemas/graphics-asset-registry-v1.json",
+  "title": "Gold Box source graphics identity and restyle registry",
+  "type": "object",
+  "required": ["registryVersion", "assets", "animationGroups", "restyles", "crossVersionLinks"],
+  "properties": {
+    "registryVersion": { "const": 1 },
+    "assets": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/asset" }
+    },
+    "animationGroups": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/animationGroup" }
+    },
+    "restyles": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/restyle" }
+    },
+    "crossVersionLinks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["fromAssetId", "toAssetId", "relation", "confidence", "evidence"],
+        "properties": {
+          "fromAssetId": { "type": "string" },
+          "toAssetId": { "type": "string" },
+          "relation": { "enum": ["same-subject", "same-scene", "pixel-identical", "counterpart", "possible-counterpart", "composed-from"] },
+          "confidence": { "enum": ["verified", "probable", "possible", "unknown"] },
+          "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" }, "minItems": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "appearanceSets": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/appearanceSet" }
+    }
+  },
+  "$defs": {
+    "hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "evidence": {
+      "type": "object",
+      "required": ["kind", "reference"],
+      "properties": {
+        "kind": { "enum": ["source-code", "game-data", "decoded-pixels", "runtime-trace", "existing-manifest", "research-doc", "visual-review"] },
+        "reference": { "type": "string" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "asset": {
+      "type": "object",
+      "required": ["id", "game", "edition", "platform", "archive", "locator", "identityStatus", "description", "gameConsumers", "animationGroupId"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9./_-]*$" },
+        "game": { "type": "string" },
+        "edition": { "type": "string" },
+        "platform": { "enum": ["DOS-EGA", "DOS-VGA", "Amiga", "C64", "unknown"] },
+        "archive": {
+          "type": "object",
+          "required": ["name", "path", "sha256"],
+          "properties": {
+            "name": { "type": "string" },
+            "path": { "type": "string" },
+            "sha256": { "anyOf": [{ "$ref": "#/$defs/hash" }, { "type": "null" }] }
+          },
+          "additionalProperties": false
+        },
+        "locator": {
+          "type": "object",
+          "required": ["kind", "blockId", "frameIndex", "tileIndex", "cellIndex"],
+          "properties": {
+            "kind": { "enum": ["block-frame", "tile", "atlas-cell", "whole-image", "glyph"] },
+            "blockId": { "type": ["integer", "null"], "minimum": 0 },
+            "entryIndex": { "type": ["integer", "null"], "minimum": 0 },
+            "frameIndex": { "type": ["integer", "null"], "minimum": 0 },
+            "tileIndex": { "type": ["integer", "null"], "minimum": 0 },
+            "cellIndex": { "type": ["integer", "null"], "minimum": 0 },
+            "glyphIndex": { "type": ["integer", "null"], "minimum": 0 }
+          },
+          "allOf": [
+            { "if": { "properties": { "kind": { "const": "glyph" } }, "required": ["kind"] },
+              "then": { "required": ["glyphIndex"], "properties": { "glyphIndex": { "type": "integer", "minimum": 0 } } },
+              "else": { "properties": { "glyphIndex": { "type": "null" } } } }
+          ],
+          "additionalProperties": false
+        },
+        "sourceContentSha256": { "$ref": "#/$defs/hash" },
+        "sourcePixelSha256": { "$ref": "#/$defs/hash" },
+        "decoded": {
+          "type": ["object", "null"],
+          "properties": {
+            "path": { "type": "string" },
+            "sha256": { "$ref": "#/$defs/hash" },
+            "pixelSha256": { "$ref": "#/$defs/hash" },
+            "width": { "type": "integer", "minimum": 1 },
+            "height": { "type": "integer", "minimum": 1 },
+            "transparentIndex": { "type": ["integer", "null"], "minimum": 0, "maximum": 255 },
+            "renderingTransform": { "enum": ["candidate-tail-offset", "candidate-tail-offset-frame0-xor"] }
+          },
+          "required": ["path", "sha256", "width", "height"],
+          "additionalProperties": false
+        },
+        "galleryReferences": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["system", "id", "manifest", "manifestSha256", "sourceSha256", "outputSha256", "label", "description", "promptFile", "inputFile"],
+            "properties": {
+              "system": { "const": "cok-curated-restyle-v1" },
+              "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$" },
+              "manifest": { "type": "string", "minLength": 1 },
+              "manifestSha256": { "$ref": "#/$defs/hash" },
+              "sourceSha256": { "$ref": "#/$defs/hash" },
+              "outputSha256": { "$ref": "#/$defs/hash" },
+              "label": { "type": "string", "minLength": 1 },
+              "description": { "type": ["string", "null"] },
+              "promptFile": { "type": ["string", "null"] },
+              "inputFile": { "type": ["string", "null"] }
+            },
+            "additionalProperties": false
+          }
+        },
+        "identityStatus": { "enum": ["source-pinned", "locator-known-hash-unpinned", "candidate", "unknown"] },
+        "description": {
+          "type": "object",
+          "required": ["text", "status", "evidence"],
+          "properties": {
+            "text": { "type": "string" },
+            "visualDescription": { "type": "string" },
+            "status": { "enum": ["verified", "partial", "unknown"] },
+            "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } }
+          },
+          "additionalProperties": false
+        },
+        "gameConsumers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["status", "use", "evidence"],
+            "properties": {
+              "status": { "enum": ["verified", "partial", "unknown"] },
+              "use": { "type": "string" },
+              "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } }
+            },
+            "additionalProperties": false
+          }
+        },
+        "animationGroupId": { "type": ["string", "null"] }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "locator": { "type": "object", "properties": { "kind": { "const": "glyph" } }, "required": ["kind"] } }, "required": ["locator"] },
+          "then": { "required": ["sourceContentSha256", "sourcePixelSha256"] }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "animationGroup": {
+      "type": "object",
+      "required": ["id", "semantics", "playback", "status", "evidence", "frames"],
+      "properties": {
+        "id": { "type": "string" },
+        "semantics": { "enum": ["time-animation", "zoom-distance", "pose-variants", "composite-layers", "unknown"] },
+        "playback": { "enum": ["cycle", "select-by-distance", "compose", "unknown"] },
+        "status": { "enum": ["verified", "partial", "unknown"] },
+        "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" }, "minItems": 1 },
+        "frames": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["assetId", "order", "role"],
+            "properties": {
+              "assetId": { "type": "string" },
+              "order": { "type": "integer", "minimum": 0 },
+              "role": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "appearanceSet": {
+      "type": "object",
+      "required": ["id", "manifestId", "game", "platform", "sourceManifest", "acceptedTuples", "variants", "evidence", "unresolvedCoverage"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "manifestId": { "type": "string", "minLength": 1 },
+        "game": { "type": "string", "minLength": 1 },
+        "platform": { "enum": ["DOS-EGA", "DOS-VGA", "Amiga", "C64", "unknown"] },
+        "sourceManifest": {
+          "type": "object", "required": ["path", "sha256"],
+          "properties": { "path": { "type": "string" }, "sha256": { "$ref": "#/$defs/hash" } },
+          "additionalProperties": false
+        },
+        "acceptedTuples": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["cHeadRequest", "cBodyBlock", "cBodySlot", "suffixCode", "role"],
+            "properties": {
+              "cHeadRequest": { "type": "integer", "minimum": 0, "maximum": 255 },
+              "cBodyBlock": { "type": "integer", "minimum": 0, "maximum": 255 },
+              "cBodySlot": { "type": "integer", "minimum": 0, "maximum": 255 },
+              "suffixCode": { "type": "integer", "minimum": 0, "maximum": 255 },
+              "role": { "enum": ["primary", "storage-slot-alias"] },
+              "aliasOf": { "type": "integer", "minimum": 0 }
+            },
+            "additionalProperties": false
+          }
+        },
+        "variants": {
+          "type": "array", "minItems": 2, "maxItems": 2,
+          "items": {
+            "type": "object", "required": ["index", "components"],
+            "properties": {
+              "index": { "type": "integer", "minimum": 0, "maximum": 1 },
+              "components": {
+                "type": "array", "minItems": 2, "maxItems": 2,
+                "items": {
+                  "type": "object", "required": ["role", "assetId", "restyleIds"],
+                  "properties": {
+                    "role": { "enum": ["head", "body"] },
+                    "assetId": { "type": "string", "minLength": 1 },
+                    "restyleIds": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" }, "minItems": 1 },
+        "unresolvedCoverage": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "restyle": {
+      "type": "object",
+      "required": ["id", "sourceAssetIds", "sourceRelation", "prompt", "outputs", "reviewStatus", "evidence"],
+      "properties": {
+        "id": { "type": "string" },
+        "externalReferences": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["system", "id", "reference"],
+            "properties": {
+              "system": { "type": "string" },
+              "id": { "type": "string" },
+              "reference": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "sourceAssetIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "sourceRelation": { "enum": ["one-to-one", "multi-source-composite", "shared-output", "unknown"] },
+        "prompt": {
+          "type": "object",
+          "required": ["status", "batch", "path", "sha256", "textSha256", "inputPath", "inputSha256", "text", "references", "referenceAssetIds"],
+          "properties": {
+            "status": { "enum": ["linked-full-text", "linked-hash-only", "missing", "unknown"] },
+            "batch": { "type": ["string", "null"] },
+            "path": { "type": ["string", "null"] },
+            "sha256": { "anyOf": [{ "$ref": "#/$defs/hash" }, { "type": "null" }] },
+            "textSha256": { "anyOf": [{ "$ref": "#/$defs/hash" }, { "type": "null" }] },
+            "inputPath": { "type": ["string", "null"] },
+            "inputSha256": { "anyOf": [{ "$ref": "#/$defs/hash" }, { "type": "null" }] },
+            "text": { "type": ["string", "null"] },
+            "references": { "type": "array", "items": { "type": "string" } },
+            "referenceAssetIds": { "type": "array", "items": { "type": "string" } }
+          },
+          "additionalProperties": false
+        },
+        "outputs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["path", "sha256", "role"],
+            "properties": {
+              "path": { "type": "string" },
+              "sha256": { "$ref": "#/$defs/hash" },
+              "role": { "enum": ["raw-generation", "accepted-restyle", "runtime-copy", "gallery-copy"] }
+            },
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "reviewStatus": { "enum": ["unreviewed", "generated", "visually-reviewed", "runtime-admitted", "published"] },
+        "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

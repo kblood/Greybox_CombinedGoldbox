@@ -1,0 +1,720 @@
+{
+  "schema": "cok-throtl-picture-joins-v1",
+  "task": "SCENE-JOIN-THROTL-17",
+  "eclArchiveSha256": "6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79",
+  "eclBlockId": 17,
+  "eclRawBytes": 7678,
+  "eclBlockSha256": "94dabe74942985aab782c37df0d4ea38ae66b63a166e5251662d03998dc004cc",
+  "bigpicArchiveSha256": "34cf5207584cb859817e1fc9b579cd51beea2e00e3393adbdc251e07f93483ec",
+  "sourceFrames": [
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/0",
+      "archive": "PIC1.DAX",
+      "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "blockId": 23,
+      "frameIndex": 0,
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "rawBytes": 31145,
+      "frameCount": 8,
+      "blockSha256": "2a10157f1f46017a10c0053fd8fb101167e6a811441eacaf5952ca2a450333fa",
+      "pixelSha256": "09b26589751f5511b51c0c975a86a9c9423ad3e7f487b297f24a4b450e94f1f8",
+      "pngSha256": "3858d73cd9a7920cfd0ef7a480ca481fc9ad70c2d4407774ba8873177c4fe010"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/57/frame/0",
+      "archive": "PIC1.DAX",
+      "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "blockId": 57,
+      "frameIndex": 0,
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "rawBytes": 3894,
+      "frameCount": 1,
+      "blockSha256": "e27c3c34f760d8cde8cf7f227c8dc21fdac3d919a94143fdb408d95075b5d5dc",
+      "pixelSha256": "8c0a4838831c9d101721654ae0d39ded43c8aac9c304fae1101c73dbd20a4ca6",
+      "pngSha256": "f854debb99b65c412e49e90a7606263341e83bae5dca0ba8b5ba36d51d671191"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/58/frame/0",
+      "archive": "PIC1.DAX",
+      "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "blockId": 58,
+      "frameIndex": 0,
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "rawBytes": 3894,
+      "frameCount": 1,
+      "blockSha256": "c856b5763e14bed82ee1fedd687456d750ea0d234c9ed2fa8cda05e960b7d618",
+      "pixelSha256": "6701a63e585efddea9d003a5be1b3143e192ab646f6c66d17f623bb7f65562e7",
+      "pngSha256": "ab274f539c435b02685a5b612360071906fa93294317846c0fe93e7022d67fc9"
+    }
+  ],
+  "hostSource": [
+    {
+      "role": "map",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "async function cokDialoguePictures(",
+      "endSymbol": "\nasync function cokThrotlPresentation(",
+      "sha256": "8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2"
+    },
+    {
+      "role": "localPresentation",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "async function cokThrotlPresentation(",
+      "endSymbol": "\nasync function openCokThrotlArrival(",
+      "sha256": "a95984530a72ee41d00194f6ab6b4bf477519c8fb9d2573a2ed7e80d549050f6"
+    },
+    {
+      "role": "arrival",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "async function openCokThrotlArrival(",
+      "endSymbol": "\nconst POOL_REGIONAL_START_BLOCK_ID",
+      "sha256": "a7ec16fbf746050eae785d8fbd74acff8e2e3aab5cb51fd894a8fa10d470cfc3"
+    },
+    {
+      "role": "chain",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "async function remountCampaignChain(",
+      "endSymbol": "  if (baseId === 'dok' && blockId === 17)",
+      "sha256": "a08adef9fe6061e1bed0200f42f1013499ec77ca7955ea6ae9be2ca0b9eaff70"
+    },
+    {
+      "role": "travelMap",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "async function openCokTravel(",
+      "endSymbol": "    const travelMonsterLookup",
+      "sha256": "5e5764a7dd7189d3298586e968474feca28c253fe39fa7e6ff1ae529cbe7eeae"
+    },
+    {
+      "role": "travelCarry",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "        let returnToThrotl = false;",
+      "endSymbol": "            void remountCampaignChain(blockId, context.memory, context, presentation);",
+      "sha256": "1bc7196a6294a83d528e09f5e5cd596d4f5050e8994518e9277044a355eb5add"
+    },
+    {
+      "role": "vmPicture",
+      "path": "packages/engine/src/ecl/vm.ts",
+      "startSymbol": "      case 0x0e: // PICTURE id",
+      "endSymbol": "\n      case 0x3d:",
+      "sha256": "6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd"
+    },
+    {
+      "role": "lastPicture",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "function lastPicture(",
+      "endSymbol": "\n/** The most recent prompt",
+      "sha256": "486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f"
+    },
+    {
+      "role": "translate",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "  private translate(r: EclRunResult):",
+      "endSymbol": "\n}\n\n/**\n * Page a dense retail",
+      "sha256": "aa7fe6eca62b7c90ea959918a8c798f9276c46d73ff5766da548307b6461225c"
+    },
+    {
+      "role": "paginate",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "  private paginate(result: EclRunResult):",
+      "endSymbol": "\n}\n\n/**\n * Build a dialogue runner",
+      "sha256": "d47e8cecb8a51a6174839ed9017a87e880a748d9ce3d84c841ba0d96396ee7fc"
+    },
+    {
+      "role": "frame0",
+      "path": "packages/engine/src/loaders/dax.ts",
+      "startSymbol": "    // Multi-frame chunky-4bpp picture",
+      "endSymbol": "    // Fixed-size multi-item tile array",
+      "sha256": "d5c16a122b5bd33773c2f54923c9019376455eacee4662bb60f01efc6ac9de00"
+    },
+    {
+      "role": "select",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "function selectPresentationPicture(",
+      "endSymbol": "\nfunction wrapDialogueText(",
+      "sha256": "9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee"
+    },
+    {
+      "role": "surfaceGuard",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "function renderPresentation(turn: DialogueTurn):",
+      "endSymbol": "  const pilot = selectedSceneArt(state);",
+      "sha256": "5d871ae41dc8489438bb35a149681968a76132edd98de4765f31768e84254d40"
+    },
+    {
+      "role": "placement",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "  let viewport = null;",
+      "endSymbol": "  const selectedMode",
+      "sha256": "4c24bbf2de9d968a601e9c4d716dfc95a9e36cc89586adda08def7c29557f2f1"
+    },
+    {
+      "role": "surfaceMount",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "  if (opts.presentation) {",
+      "endSymbol": "  const firstScene = opts.presentation?.sceneArt",
+      "sha256": "b5d71fccf2b793a801217830ddb7ef1f93d6db1165280560cc2ce5fbd926c5c4"
+    }
+  ],
+  "sites": [
+    {
+      "offset": 55,
+      "vaddr": 32821,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 58
+      },
+      "pictureId": 58,
+      "entries": [
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "conditional",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/58/frame/0",
+        "portraitOrigin": {
+          "value": [
+            24,
+            24
+          ],
+          "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+        }
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 7,
+          "offsetPathSha256": "d5cbd02d18b96bfa805e0b7bd3c43dea25b3c48f53effbfdb6fbeab42c9b9208",
+          "branchEdgeCount": 1,
+          "branchEdgesSha256": "555d87021dd1fbe176dc01e2658729293c046dbacf4e0c787bf36ae60de5c05e"
+        }
+      ]
+    },
+    {
+      "offset": 212,
+      "vaddr": 32978,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 57
+      },
+      "pictureId": 57,
+      "entries": [
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "conditional",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/57/frame/0",
+        "portraitOrigin": {
+          "value": [
+            24,
+            24
+          ],
+          "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+        }
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 28,
+          "offsetPathSha256": "9f78705a74374d6666b5e6548f37f6feda329e73a29cac70564fcf43df96bf8d",
+          "branchEdgeCount": 11,
+          "branchEdgesSha256": "6daefc32565ff745000fcf22552662e8e1600834a0ad39b514960d7c95791acf"
+        }
+      ]
+    },
+    {
+      "offset": 395,
+      "vaddr": 33161,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 57
+      },
+      "pictureId": 57,
+      "entries": [
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "conditional",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/57/frame/0",
+        "portraitOrigin": {
+          "value": [
+            24,
+            24
+          ],
+          "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+        }
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 31,
+          "offsetPathSha256": "61643f17c896cc048dbbfe0272ae5ee37a279a2abb2e833db147545a9d10d05c",
+          "branchEdgeCount": 13,
+          "branchEdgesSha256": "bac3bddc9c621dd15118995e59d7110785287cd69ec30a0a1116c9dcd78708b3"
+        }
+      ]
+    },
+    {
+      "offset": 586,
+      "vaddr": 33352,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 57
+      },
+      "pictureId": 57,
+      "entries": [
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "conditional",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/57/frame/0",
+        "portraitOrigin": {
+          "value": [
+            24,
+            24
+          ],
+          "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+        }
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 34,
+          "offsetPathSha256": "7d58344772cf6cddbc08093b50b2aefdce36b5b9dcf20e7345f0f7c452144838",
+          "branchEdgeCount": 15,
+          "branchEdgesSha256": "1912e88337a585fa2b4174d8c81408026a897b71b39f0f8e0016b925cc99fd8c"
+        }
+      ]
+    },
+    {
+      "offset": 845,
+      "vaddr": 33611,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 23
+      },
+      "pictureId": 23,
+      "entries": [
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "conditional",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/0",
+        "portraitOrigin": {
+          "value": [
+            24,
+            24
+          ],
+          "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+        }
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 41,
+          "offsetPathSha256": "b78e9770c57219a781dbcd7cc3982b0ca9ed44c49376c0ea217c679cc49402e4",
+          "branchEdgeCount": 19,
+          "branchEdgesSha256": "2e52f2908deaeca44f131a75351576d619e13b332e1e26d6d9131aaf20479869"
+        }
+      ]
+    },
+    {
+      "offset": 1296,
+      "vaddr": 34062,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 57
+      },
+      "pictureId": 57,
+      "entries": [
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "conditional",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/57/frame/0",
+        "portraitOrigin": {
+          "value": [
+            24,
+            24
+          ],
+          "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+        }
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 24,
+          "offsetPathSha256": "a41a09f6c17766b8268685e7e43a374ee0083e7b56e845a553e33c2b1de00558",
+          "branchEdgeCount": 9,
+          "branchEdgesSha256": "93505f0d0c9ab3359710f1a6fe2d7988d2c13ece948d26f083e64b252686bc63"
+        }
+      ]
+    },
+    {
+      "offset": 1705,
+      "vaddr": 34471,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 58
+      },
+      "pictureId": 58,
+      "entries": [
+        "vm_run_1",
+        "search_location",
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "conditional",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/58/frame/0",
+        "portraitOrigin": {
+          "value": [
+            24,
+            24
+          ],
+          "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+        }
+      },
+      "entryWitnesses": [
+        {
+          "entry": "vm_run_1",
+          "instructionSteps": 4,
+          "offsetPathSha256": "d0d6c422480057976d71bfd225e387977271152ddaadf7cb5b0574cb04b43e46",
+          "branchEdgeCount": 1,
+          "branchEdgesSha256": "c390a229194f3b4139b01b6505d3ae89571e2df454e54412cfb5bf975aa3ba4e"
+        },
+        {
+          "entry": "search_location",
+          "instructionSteps": 4,
+          "offsetPathSha256": "0afa7db4fbfb2c7df8ee8dfa2d0df3f1367f52a32822a656358a93a5fc37304d",
+          "branchEdgeCount": 1,
+          "branchEdgesSha256": "3b72a92ecbb6c80b8df217d307fa46a6666c3a64672dfeeedd7a198487b436f2"
+        },
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 19,
+          "offsetPathSha256": "440dd06e6b4459af3d567049555dc18c427a255569426dd5cacbd8b719f6d02d",
+          "branchEdgeCount": 5,
+          "branchEdgesSha256": "5aec07b0e88305c4865f87b9db60f0b6359b6b7061cb844855d6e5dd8b924067"
+        }
+      ]
+    },
+    {
+      "offset": 2834,
+      "vaddr": 35600,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 58
+      },
+      "pictureId": 58,
+      "entries": [
+        "vm_run_1",
+        "search_location",
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "conditional",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/58/frame/0",
+        "portraitOrigin": {
+          "value": [
+            24,
+            24
+          ],
+          "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+        }
+      },
+      "entryWitnesses": [
+        {
+          "entry": "vm_run_1",
+          "instructionSteps": 34,
+          "offsetPathSha256": "5d48ef37610fca3c5927cc2fd44cf2b53833970e7a44888bca639b52123cc298",
+          "branchEdgeCount": 7,
+          "branchEdgesSha256": "30ce10fe5fc0820f90246e904d14d72eb516a088c5ef022b07d7846d6b0fbdea"
+        },
+        {
+          "entry": "search_location",
+          "instructionSteps": 34,
+          "offsetPathSha256": "2eff853dc40ea3d242aa5ad7c40f1c0fab188296c13176457bfa18f94661900e",
+          "branchEdgeCount": 7,
+          "branchEdgesSha256": "5a12f1c30453d4d9ff24e37061dec70dcc90382957f4a7ef0a729a011e36eeeb"
+        },
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 40,
+          "offsetPathSha256": "340b328168549fae84d6b71f9dcde98e17112b50e6a6fe3a386a906c1a43db1f",
+          "branchEdgeCount": 9,
+          "branchEdgesSha256": "718a713d35dcc78e3095f8d4b6a0fd562e8bb0dba818bf5e3f49bd8db788b9bb"
+        }
+      ]
+    },
+    {
+      "offset": 5756,
+      "vaddr": 38522,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 23
+      },
+      "pictureId": 23,
+      "entries": [
+        "vm_run_1",
+        "search_location",
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "conditional",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/0",
+        "portraitOrigin": {
+          "value": [
+            24,
+            24
+          ],
+          "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+        }
+      },
+      "entryWitnesses": [
+        {
+          "entry": "vm_run_1",
+          "instructionSteps": 30,
+          "offsetPathSha256": "cf774a641beebe473035fce0c69640a9f28b7cb3f6e395690111b823039f53ff",
+          "branchEdgeCount": 14,
+          "branchEdgesSha256": "6a41ab5518ef414071b65b36b0299f7ad49e55fabd816b0d8af541d4f22b50e1"
+        },
+        {
+          "entry": "search_location",
+          "instructionSteps": 30,
+          "offsetPathSha256": "fe4542da9027faa1f6e599af8e8018ddd4bf8705b74a0be7c33c50152dfcba3a",
+          "branchEdgeCount": 14,
+          "branchEdgesSha256": "d92e4940daec743fca155db0d49808793c22eff9765e38dd0057f93fca6f0f35"
+        },
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 36,
+          "offsetPathSha256": "cf034c90f43a278c1e64d61c16b6fd20ad2fa27a9ba4bc2981f977ae7b1cba89",
+          "branchEdgeCount": 16,
+          "branchEdgesSha256": "eacf4d274f17eaa9f82d95e16a9744d3ca4c46b82e3abc960f3d779604528010"
+        }
+      ]
+    },
+    {
+      "offset": 6627,
+      "vaddr": 39393,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 58
+      },
+      "pictureId": 58,
+      "entries": [
+        "vm_run_1",
+        "search_location",
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "conditional",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/58/frame/0",
+        "portraitOrigin": {
+          "value": [
+            24,
+            24
+          ],
+          "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+        }
+      },
+      "entryWitnesses": [
+        {
+          "entry": "vm_run_1",
+          "instructionSteps": 29,
+          "offsetPathSha256": "ff5f14877e1508cf19c149f74636167612f2f2eafe9a1064d1f3e39511b67949",
+          "branchEdgeCount": 15,
+          "branchEdgesSha256": "73c6a50eca9bebb0e0e794f39f02997a548bffd3832138256b7cd226d37680f6"
+        },
+        {
+          "entry": "search_location",
+          "instructionSteps": 29,
+          "offsetPathSha256": "b69535dbf8ae9bbaafe237468900dceb04bf24472982c421e3e621d1b56672e5",
+          "branchEdgeCount": 15,
+          "branchEdgesSha256": "011925f6f918ce78ca268f1f20671c2d955713dda29d9c1c4b92eb77d5a01f4b"
+        },
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 35,
+          "offsetPathSha256": "475279ac23a9506bd4e45e165f4e6f40b888ead2c0ddae8c1bbd5854724101ff",
+          "branchEdgeCount": 17,
+          "branchEdgesSha256": "c8d1ce2a76c830d198c6124ed979f97408d0f121edde35ed9e6c72b3f036fe1a"
+        }
+      ]
+    },
+    {
+      "offset": 7268,
+      "vaddr": 40034,
+      "operand": {
+        "kind": "dynamic",
+        "code": 1,
+        "value": 32633
+      },
+      "pictureId": null,
+      "entries": [
+        "vm_run_1",
+        "search_location",
+        "initial_entry"
+      ],
+      "binding": {
+        "status": "unresolved-dynamic",
+        "sourceAssetId": null,
+        "portraitOrigin": null
+      },
+      "entryWitnesses": [
+        {
+          "entry": "vm_run_1",
+          "instructionSteps": 23,
+          "offsetPathSha256": "817167df3d171713e0fbedc355ac6a859baa92cb32cf2b2086fa802895ba526c",
+          "branchEdgeCount": 12,
+          "branchEdgesSha256": "f38ac35a8deba296d9d2e2f519fa2140e684c291b3044ccbc96474edaceffd6e"
+        },
+        {
+          "entry": "search_location",
+          "instructionSteps": 23,
+          "offsetPathSha256": "9a9315b07a2da423a99b4240a82b690437b7bd263053b1ce81cd8b0be33be9e3",
+          "branchEdgeCount": 12,
+          "branchEdgesSha256": "2f20fe249dc69ff7d8c97d8208c6f613c741bc50cd015d02c3392d4635dc09d7"
+        },
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 29,
+          "offsetPathSha256": "b9a95cd62e49b8808d4a0b3e2a5e56fa275834acf8d3b871233486cc051900f7",
+          "branchEdgeCount": 14,
+          "branchEdgesSha256": "565f465f7110dfecaf6412a2bfb1eba9a9dca158c89aaf5c7ab67cb063a86694"
+        }
+      ]
+    }
+  ],
+  "mapContract": {
+    "order": [
+      "BIGPIC1.DAX",
+      "PIC1.DAX"
+    ],
+    "picToc": [
+      23,
+      57,
+      58,
+      34,
+      18,
+      59,
+      60,
+      1,
+      8,
+      12,
+      15,
+      30,
+      34,
+      35,
+      41,
+      61,
+      62,
+      63
+    ],
+    "bigpicToc": [
+      114,
+      121,
+      112,
+      115
+    ],
+    "targetCollisions": [],
+    "selectedOriginalFrame": 0
+  },
+  "presentationOrigins": {
+    "local-throtl": {
+      "status": "conditional",
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/0",
+      "portraitOrigin": {
+        "value": [
+          24,
+          24
+        ],
+        "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+      }
+    },
+    "borrowed-travel": {
+      "status": "conditional",
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/0",
+      "portraitOrigin": {
+        "value": [
+          24,
+          24
+        ],
+        "condition": "Pinned native presentation, no portraitOrigin override, selected DOS original; source offsets zero."
+      }
+    },
+    "supplied": {
+      "status": "unresolved-origin/source",
+      "sourceAssetId": null,
+      "portraitOrigin": null
+    },
+    "unknown": {
+      "status": "unresolved-origin/source",
+      "sourceAssetId": null,
+      "portraitOrigin": null
+    },
+    "text-only": {
+      "status": "unresolved-origin/source",
+      "sourceAssetId": null,
+      "portraitOrigin": null
+    }
+  },
+  "groupedBatchExample": {
+    "pictureEffects": [
+      58,
+      57
+    ],
+    "lastPictureRegister": 57,
+    "sceneCount": null,
+    "pauseVisibility": "unresolved; NarrativeDialogueMachine may split at PRINT boundaries"
+  },
+  "issues": [
+    {
+      "entry": "vm_run_1",
+      "offset": 7268,
+      "reason": "dynamic-picture-operand"
+    },
+    {
+      "entry": "search_location",
+      "offset": 7268,
+      "reason": "dynamic-picture-operand"
+    },
+    {
+      "entry": "initial_entry",
+      "offset": 7268,
+      "reason": "dynamic-picture-operand"
+    }
+  ],
+  "limits": [
+    "Only conditional host/original-source binding; no VM/browser/runtime observation.",
+    "All eleven sites are static candidates, not eleven visible scenes; dynamic [0x7f79] is unresolved regardless of a synthetic memory value.",
+    "Route feasibility, pauses, effect-batch membership and individual-site visibility remain unresolved.",
+    "Local fallback may be text-only; arbitrary supplied presentations do not inherit the pinned map or origin.",
+    "(24,24) is conditional on the pinned native presentation with no portraitOrigin override and selected DOS original; overlays/admission remain site-specific unknowns.",
+    "PIC1#23 retains eight stored frames; the source-map frame0 contract does not prove frames1-7 unused or temporal animation meaning.",
+    "Existing descriptions/consumers/statuses/Restyles/groups/links are preserved; no new canonical IDs or art admission.",
+    "Pins identify repository/local render copies, not independently verified retail-install provenance."
+  ]
+}

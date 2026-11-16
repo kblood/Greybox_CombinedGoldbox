@@ -1,0 +1,91 @@
+{
+  "schema": "cok-dos-font-source-lineage-v1",
+  "task": "FONT201-SOURCE-LINEAGE",
+  "sourceAssetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/whole",
+  "cardId": "asset-1574-9f86c0bfe16e",
+  "archive": {
+    "path": "Champions of Krynn/8X8D1.DAX",
+    "sha256": "14fd0bed83d383deca6195e3145145ad0ab4c58a5939a6e6fc0d3efc8c4bc915",
+    "orderedToc": [
+      201,
+      202,
+      203,
+      11,
+      12,
+      31,
+      32,
+      23
+    ],
+    "tocEntry": 0,
+    "dataBase": 74,
+    "compressedBytes": 1341,
+    "rawBytes": 1416,
+    "blockSha256": "fca3a918bd20e24456f579d20341278a21d3b5f5b4e205384fadeb551ce091c1"
+  },
+  "renderRecipe": {
+    "glyphCount": 177,
+    "bytesPerGlyph": 8,
+    "bitOrder": "MSB-left",
+    "columns": 16,
+    "rows": 12,
+    "scale": 8,
+    "gapPixels": 8,
+    "outerMargin": 0,
+    "emptyTrailingCells": 15,
+    "backgroundRGB": [
+      32,
+      28,
+      40
+    ],
+    "foregroundRGB": [
+      234,
+      222,
+      190
+    ]
+  },
+  "sourceSheet": {
+    "sha256": "81284951d116eb51c12d454254e83cbb74cf15cbe1366e71b30d3de8de486a4d",
+    "width": 1144,
+    "height": 856,
+    "rgbSha256": "43d673f376f51d302e81d3578f36bc3dc812aa6c90f869585578454072c4d004",
+    "completePixelEquality": true
+  },
+  "output": {
+    "sha256": "5d50f75464e5761a8ae2192047422c839e786d5c8f67c7d68b0e0d27265d3d65",
+    "rgbSha256": "257059eb9e0dcb8ef7e60b8ce53f0c6d8941bbd5fe10148c4a0e21095f192868",
+    "reviewStatus": "generated",
+    "compositionReview": "not-reviewed",
+    "promptStatus": "unknown",
+    "pixelEqualityToSource": false
+  },
+  "ledgerSha256": "07782d56fae9350f952e442bf034085ef90521cae88020cd13a25aece7468be1",
+  "inventorySha256": "d5fc9c9a49680f9a7825c2394126887a315105d4cf2686622706fbf30c8669c9",
+  "exactAlias": {
+    "ledger": "dos_font_coverage.json",
+    "ledgerKind": "dos-font-atlas",
+    "entry": 0,
+    "platform": "DOS",
+    "family": "8X8D1 font atlas",
+    "status": "saved-reviewed",
+    "asset": 201,
+    "sourceName": "source_sheet.png",
+    "sourceProvenance": "dos/font_block201_source/source_sheet.png",
+    "reviewNote": "Glyph mask review: 175/177 exact; two sparse-detail exceptions. Overall composition not reviewed.",
+    "maskMatches": 175,
+    "maskTotal": 177
+  },
+  "attributedOutputReview": {
+    "source": "dos_font_coverage.json + generated inventory alias",
+    "maskMatches": 175,
+    "maskTotal": 177,
+    "note": "Glyph mask review: 175/177 exact; two sparse-detail exceptions. Overall composition not reviewed.",
+    "recomputedHere": false
+  },
+  "limits": [
+    "Whole-sheet source lineage, not per-glyph identities, runtime glyph mapping or animation.",
+    "one-to-one sourceRelation identifies lineage; it does not assert source/output pixel equality.",
+    "175/177 is an attributed output-review result, not missing source glyphs or a source-lineage mismatch.",
+    "Composition remains unreviewed, prompt unknown, consumer unknown, animation null; no runtime admission.",
+    "scrn1b remains unlinked. Archive pins identify a local copy, not independent retail provenance."
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cok-runtime-art-coverage-v2.schema.json",
+  "title": "CoK bounded roster variant coverage",
+  "type": "object",
+  "required": [
+    "schema", "inputs", "runtimeObservation", "productionPackage", "consumers", "limitations",
+    "summary", "requests", "mappings", "sourceAssets", "restyleRecords", "sourceFrameGroups",
+    "frames", "outputs", "originalVariants", "travelMapLayers", "demoCombat", "combatEvidence",
+    "pictureEvidenceScope", "combatBindings", "deltaFromV1", "originalSourceUses"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": "cok-runtime-art-coverage-v2" },
+    "inputs": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/inputs" },
+    "runtimeObservation": { "const": "unverified" },
+    "productionPackage": { "const": "unverified" },
+    "consumers": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/consumers" },
+    "limitations": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/limitations" },
+    "mappings": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/mappings" },
+    "sourceAssets": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/sourceAssets" },
+    "restyleRecords": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/restyleRecords" },
+    "sourceFrameGroups": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/sourceFrameGroups" },
+    "frames": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/frames" },
+    "outputs": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/outputs" },
+    "originalVariants": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/originalVariants" },
+    "travelMapLayers": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/travelMapLayers" },
+    "demoCombat": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/demoCombat" },
+    "combatEvidence": { "const": "docs/engine/research/cok-runtime-art-combat-sites-v2.json" },
+    "pictureEvidenceScope": { "const": "fixed encoded operands with bounded entry witnesses" },
+    "summary": {
+      "type": "object",
+      "required": [
+        "combatScan", "eclPictureSites", "mappingEntriesByConsumer", "outputPaths",
+        "distinctOutputHashes", "framesByKind", "frameComponentPlacements", "canonicalSourceIds"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "combatScan": {
+          "type": "object",
+          "required": [
+            "evidenceScope", "variantRetention", "campaignComplete", "hasExplorationFrontiers",
+            "frontierEventsByReason", "byBank", "exploredStates", "physicalSites",
+            "entrySiteAssociations", "entryVariantAssociations", "distinctRosterVariants",
+            "sitesWithDynamicPictureVariant", "sitesWithEmptyRosterVariant", "blocksAtStateLimit",
+            "distinctImmediatePictureIds", "withDeclaredMapping"
+          ],
+          "properties": {
+            "evidenceScope": { "const": "bounded CoK ECL traversal" },
+            "variantRetention": { "const": "all-distinct-discovered-rosters" },
+            "campaignComplete": { "const": false },
+            "hasExplorationFrontiers": { "type": "boolean" },
+            "frontierEventsByReason": { "$ref": "#/$defs/counts" },
+            "byBank": {
+              "type": "object",
+              "required": ["CPIC1", "CPIC2", "CPIC3"],
+              "additionalProperties": { "$ref": "#/$defs/bankCounts" }
+            }
+          },
+          "additionalProperties": { "$ref": "#/$defs/count" }
+        },
+        "eclPictureSites": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/summary/properties/eclPictureSites" },
+        "mappingEntriesByConsumer": { "$ref": "#/$defs/counts" },
+        "outputPaths": { "$ref": "#/$defs/count" },
+        "distinctOutputHashes": { "$ref": "#/$defs/count" },
+        "framesByKind": { "$ref": "#/$defs/counts" },
+        "frameComponentPlacements": { "$ref": "#/$defs/count" },
+        "canonicalSourceIds": { "$ref": "#/$defs/count" }
+      }
+    },
+    "requests": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/requests/items" },
+          {
+            "required": ["operand", "entryWitnesses"],
+            "properties": {
+              "kind": { "const": "ecl-picture" },
+              "operand": {
+                "type": "object",
+                "required": ["kind", "code", "value"],
+                "properties": {
+                  "kind": { "enum": ["immediate", "dynamic"] },
+                  "code": { "$ref": "#/$defs/byte" },
+                  "value": { "$ref": "#/$defs/word" }
+                }
+              },
+              "entryWitnesses": {
+                "type": "array", "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": ["entry", "instructionSteps", "offsetPathSha256", "branchEdgeCount", "branchEdgesSha256"],
+                  "properties": {
+                    "entry": { "$ref": "#/$defs/entry" },
+                    "instructionSteps": { "$ref": "#/$defs/count" },
+                    "offsetPathSha256": { "$ref": "#/$defs/hash" },
+                    "branchEdgeCount": { "$ref": "#/$defs/count" },
+                    "branchEdgesSha256": { "$ref": "#/$defs/hash" }
+                  }
+                }
+              }
+            },
+            "if": { "properties": { "pictureId": { "type": "null" } } },
+            "then": {
+              "properties": {
+                "sourceIds": { "maxItems": 0 },
+                "conditionalMappingIds": { "maxItems": 0 },
+                "operand": { "properties": { "kind": { "const": "dynamic" }, "code": { "minimum": 1 } } }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "combatBindings": {
+      "type": "object",
+      "required": ["CPIC1", "CPIC2", "CPIC3"],
+      "propertyNames": { "enum": ["CPIC1", "CPIC2", "CPIC3"] },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["archiveSha256", "pictures"],
+        "additionalProperties": false,
+        "properties": {
+          "archiveSha256": { "$ref": "#/$defs/hash" },
+          "pictures": {
+            "type": "object",
+            "propertyNames": { "pattern": "^(0|[1-9][0-9]?|1[0-9]{2}|2[0-4][0-9]|25[0-5])$" },
+            "additionalProperties": {
+              "type": "object",
+              "required": ["sourceId", "mappingId", "rawPictureOperands"],
+              "additionalProperties": false,
+              "properties": {
+                "sourceId": { "type": ["string", "null"] },
+                "mappingId": { "type": ["string", "null"] },
+                "rawPictureOperands": {
+                  "type": "array", "minItems": 1, "uniqueItems": true, "items": { "$ref": "#/$defs/word" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "deltaFromV1": {
+      "type": "object",
+      "required": ["baseReport", "byBank", "newDynamicEntrySites", "newEmptyRosterEntrySites"],
+      "additionalProperties": false,
+      "properties": {
+        "baseReport": { "const": "docs/engine/research/cok-runtime-art-coverage-v1.json" },
+        "byBank": {
+          "type": "object",
+          "required": ["CPIC1", "CPIC2", "CPIC3"],
+          "additionalProperties": {
+            "type": "object",
+            "required": ["addedPictureIds", "removedPictureIds", "v1Identified", "v2Identified", "v1Mapped", "v2Mapped"],
+            "properties": {
+              "addedPictureIds": { "$ref": "#/$defs/pictureIds" },
+              "removedPictureIds": { "$ref": "#/$defs/pictureIds" }
+            },
+            "additionalProperties": { "$ref": "#/$defs/count" }
+          }
+        },
+        "newDynamicEntrySites": { "type": "array", "items": { "$ref": "#/$defs/entrySite" } },
+        "newEmptyRosterEntrySites": { "type": "array", "items": { "$ref": "#/$defs/entrySite" } }
+      }
+    },
+    "originalSourceUses": { "$ref": "#/$defs/originalSourceUses" }
+  },
+  "$defs": {
+    "count": { "type": "integer", "minimum": 0 },
+    "counts": { "type": "object", "additionalProperties": { "$ref": "#/$defs/count" } },
+    "byte": { "type": "integer", "minimum": 0, "maximum": 255 },
+    "word": { "type": "integer", "minimum": 0, "maximum": 65535 },
+    "hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "entry": { "enum": ["vm_run_1", "search_location", "pre_camp_check", "camp_interrupted", "initial_entry"] },
+    "pictureIds": { "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/byte" } },
+    "bankCounts": {
+      "type": "object",
+      "required": [
+        "frontierEventsByReason", "exploredStates", "physicalSites", "entrySiteAssociations",
+        "entryVariantAssociations", "distinctRosterVariants", "sitesWithDynamicPictureVariant",
+        "sitesWithEmptyRosterVariant", "blocksAtStateLimit", "distinctImmediatePictureIds",
+        "withDeclaredMapping", "unresolvedSourcePictureIds", "unmappedPictureIds"
+      ],
+      "properties": {
+        "frontierEventsByReason": { "$ref": "#/$defs/counts" },
+        "unresolvedSourcePictureIds": { "$ref": "#/$defs/pictureIds" },
+        "unmappedPictureIds": { "$ref": "#/$defs/pictureIds" }
+      },
+      "additionalProperties": { "$ref": "#/$defs/count" }
+    },
+    "entrySite": {
+      "type": "object",
+      "required": ["archive", "blockId", "offset", "entry"],
+      "additionalProperties": false,
+      "properties": {
+        "archive": { "enum": ["ECL1.DAX", "ECL2.DAX", "ECL3.DAX"] },
+        "blockId": { "$ref": "#/$defs/byte" },
+        "offset": { "$ref": "#/$defs/count" },
+        "entry": { "$ref": "#/$defs/entry" }
+      }
+    },
+    "originalSourceUses": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["id", "consumerIds", "platform", "archive", "archiveSha256", "blockId", "locatorKind", "indexField", "selectionScope", "evidence", "sourceIds"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "enum": ["town/frame", "town/font"] },
+          "consumerIds": { "const": ["main-menu", "town-services"] },
+          "platform": { "const": "DOS-EGA" },
+          "archive": { "const": "8X8D1.DAX" },
+          "archiveSha256": { "const": "14fd0bed83d383deca6195e3145145ad0ab4c58a5939a6e6fc0d3efc8c4bc915" },
+          "blockId": { "enum": [201, 202] },
+          "locatorKind": { "enum": ["glyph", "tile"] },
+          "indexField": { "enum": ["glyphIndex", "tileIndex"] },
+          "selectionScope": { "type": "string", "minLength": 1 },
+          "evidence": { "$ref": "cok-runtime-art-coverage-v1.schema.json#/properties/consumers/additionalProperties/properties/sources" },
+          "sourceIds": { "type": "array", "minItems": 6, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "id": { "const": "town/frame" } } },
+            "then": {
+              "properties": {
+                "blockId": { "const": 202 }, "locatorKind": { "const": "tile" }, "indexField": { "const": "tileIndex" },
+                "selectionScope": { "const": "fixed outer-border tiles 20–25" },
+                "sourceIds": { "minItems": 6, "maxItems": 6,
+                  "items": { "pattern": "^cok/dos-ega/disk1/8x8d1\\.dax/block/202/tile/2[0-5]$" } }
+              }
+            }
+          },
+          {
+            "if": { "properties": { "id": { "const": "town/font" } } },
+            "then": {
+              "properties": {
+                "blockId": { "const": 201 }, "locatorKind": { "const": "glyph" }, "indexField": { "const": "glyphIndex" },
+                "selectionScope": { "const": "addressable folded glyphs 0–63; actual selection depends on displayed text" },
+                "sourceIds": { "minItems": 64, "maxItems": 64,
+                  "items": { "pattern": "^cok/dos-ega/disk1/8x8d1\\.dax/block/201/glyph/(?:[0-9]|[1-5][0-9]|6[0-3])$" } }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "combatReceipt": {
+      "type": "object",
+      "required": ["schema", "evidenceScope", "variantRetention", "campaignComplete", "limits", "inputs", "archives"],
+      "additionalProperties": false,
+      "properties": {
+        "schema": { "const": "cok-runtime-art-combat-sites-v2" },
+        "evidenceScope": { "const": "bounded CoK ECL traversal" },
+        "variantRetention": { "const": "all-distinct-discovered-rosters" },
+        "campaignComplete": { "const": false },
+        "limits": { "const": { "statesPerBlock": 50000, "callDepth": 24, "rosterGroups": 16, "witnessTail": 12 } },
+        "inputs": { "type": "object", "minProperties": 4, "additionalProperties": { "$ref": "#/$defs/hash" } },
+        "archives": {
+          "type": "array", "minItems": 3, "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": ["archive", "archiveSha256", "blocks"],
+            "additionalProperties": false,
+            "properties": {
+              "archive": { "enum": ["ECL1.DAX", "ECL2.DAX", "ECL3.DAX"] },
+              "archiveSha256": { "$ref": "#/$defs/hash" },
+              "blocks": {
+                "type": "array", "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": ["blockId", "blockSha256", "exploredStates", "frontiers", "sites"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "blockId": { "$ref": "#/$defs/byte" },
+                    "blockSha256": { "$ref": "#/$defs/hash" },
+                    "exploredStates": { "type": "integer", "minimum": 0, "maximum": 50000 },
+                    "frontiers": { "type": "array", "items": { "$ref": "#/$defs/frontier" } },
+                    "sites": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["offset", "variants"],
+                        "additionalProperties": false,
+                        "properties": {
+                          "offset": { "$ref": "#/$defs/count" },
+                          "variants": {
+                            "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/combatVariant" }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "frontier": {
+      "type": "object",
+      "required": ["reason", "entry", "offset", "target", "events"],
+      "additionalProperties": false,
+      "properties": {
+        "reason": {
+          "enum": [
+            "invalid-header", "invalid-header-entry", "decode-failure", "roster-limit", "unresolved-control-target",
+            "undecodable-conditional-skip", "nonlocal-edge", "call-depth-limit", "state-budget"
+          ]
+        },
+        "entry": { "anyOf": [{ "const": "" }, { "$ref": "#/$defs/entry" }] },
+        "offset": { "$ref": "#/$defs/count" },
+        "target": { "type": ["integer", "null"], "minimum": 0 },
+        "events": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "combatVariant": {
+      "type": "object",
+      "required": ["id", "roster", "entries", "pictureIds"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/$defs/hash" },
+        "pictureIds": { "$ref": "#/$defs/pictureIds" },
+        "roster": {
+          "type": "array", "maxItems": 16,
+          "items": {
+            "type": "array", "minItems": 3, "maxItems": 3,
+            "items": {
+              "type": "array", "minItems": 2, "items": false,
+              "prefixItems": [{ "$ref": "#/$defs/byte" }, { "$ref": "#/$defs/word" }]
+            }
+          }
+        },
+        "entries": {
+          "type": "object", "minProperties": 1,
+          "propertyNames": { "$ref": "#/$defs/entry" },
+          "additionalProperties": {
+            "type": "object",
+            "required": ["instructionCount", "offsetTail", "truncated"],
+            "additionalProperties": false,
+            "properties": {
+              "instructionCount": { "type": "integer", "minimum": 1 },
+              "offsetTail": {
+                "type": "array", "minItems": 1, "maxItems": 12, "items": { "$ref": "#/$defs/count" }
+              },
+              "truncated": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

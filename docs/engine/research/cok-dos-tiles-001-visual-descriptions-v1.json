@@ -1,0 +1,631 @@
+{
+  "version": 1,
+  "scope": "Source-reviewed visible-appearance descriptions for 48 DOS CoK TILES.DAX block #1/#2 tiles. Tile subject and selector semantics remain unknown.",
+  "evidenceImagePathPattern": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_{block}/TILES_{block}_tile_{tile}.png",
+  "assets": [
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/0",
+      "sourceSha256": "4e977f93ccde0a5a299793f2b59b4175a486e54d6d920101498d6ba727294ca1",
+      "pixelSha256": "b8e5186dfe93abcae0298b8ee13bf06a8f8037e610b269a2f3d371e85e16ab82",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Broad pale gray-white horizontal band through the middle with a small orange-red center patch. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_000.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/1",
+      "sourceSha256": "15648d075f2f60e5ace2d0963980c17f941142f22e8922a3a22e15fee50deda2",
+      "pixelSha256": "656281829dc73f11d82e2c99d3bd99dd05f37a7676a72bb3d6f5c32cfe6cc122",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Irregular pale band crosses the field diagonally, with a red-orange center and darker edging. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_001.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/2",
+      "sourceSha256": "568fe6753f87b725adbe9bf8a3cec2d3db948c5258ece65b8cf86e3374fa2320",
+      "pixelSha256": "f468a54ceaae0c30469a3295769335d24a72a846eb80bbac5544e93be5d22bb0",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Stepped, slightly bent pale stripe runs from upper center toward lower right, with a red-orange segment near its middle. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_002.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/3",
+      "sourceSha256": "4939e2c78370b510417954aed6a5dc207d898ce6692b77e51c2d4c58e5ab0c61",
+      "pixelSha256": "11763dd56b5627c8d9ea2f6bfae1348638a3f4664e54381157d8f765e5652d8a",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Curved pale stripe bends across the center; red-orange pixels interrupt its darker inner edge. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_003.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/4",
+      "sourceSha256": "452a867d7549b7bb689b6282937d01ffccd36cd243c9f2e2330cec2d5189f2d9",
+      "pixelSha256": "35646fe67b877b6e68dead95545ddbb2f95a7abeddc53412b47b3146ed22369e",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Diagonal curved stripe from upper left toward lower right, pale outside with a red-orange inner segment. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_004.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/5",
+      "sourceSha256": "5b1544a6f2de2f60d607468e20df7c861c9d0acc40e151fac3d1c015f13a322d",
+      "pixelSha256": "f24d2fdf1bedd28bcc97d626436eb5b8618b188116995f8882a7b99bca3c405d",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Narrow, mostly horizontal pale stripe across the center with a red-orange and dark patch in its middle. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_005.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/6",
+      "sourceSha256": "d6d16988403b9bd616a1a22b85e55afdc38f58b04474cc99249875f1afca4718",
+      "pixelSha256": "bad4d5c870edad97554c47463668ba631152a50ba2975e44f5af904a62b76942",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Tall, slightly diagonal pale stripe with a red-orange center section. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_006.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/7",
+      "sourceSha256": "3f45527f899ad48b6ea426bc21dddeddcf148ca72df7af26359b47b579082fe2",
+      "pixelSha256": "f873b7f2ba01021e2515a1c102238b0237d3aea48b3ccc29c51442037d437347",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Curved diagonal stripe rises from lower left toward upper right, with pale borders and a red-orange segment. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_007.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/8",
+      "sourceSha256": "0a62979d757a5143a9d330e392172bb1b2673db250e008e719e3143d187affd6",
+      "pixelSha256": "0f9a00f58fbcf54caaf3604272a70e386af368a7cdf45a8435e95e8a1e60f87f",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Rounded C-shaped band around a green opening; pale outer rim and red-orange inner band. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_008.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/9",
+      "sourceSha256": "4fad6e9b9c82402d75113957c81c713ab14e434908ea19acd94a70b2e6304762",
+      "pixelSha256": "2c9773a279e315409afed1a9761c021879497c0bd17e1afa1facd48a16fdc22d",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Uneven horizontal pale and red-orange band, with a short raised or curled section toward the right. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_009.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/10",
+      "sourceSha256": "5de4ab6477c92b82313547e0f90acada50ebc7e426b56b9830031a3d0592232a",
+      "pixelSha256": "0dc3ab94fd08b4348ed31e1043d0ebd8d64ed835009ddd444b9fb4b8f3cb85e5",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Two broad diagonal pale bands meet near the center, with red-orange marks along their inner edges. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_010.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/11",
+      "sourceSha256": "d2843ad28b4b7839e697fd13a8e7018ae6c418ff3e6a42c17165d6e6bb827f52",
+      "pixelSha256": "de7ce382bc4ed3b5583be5c959eac5abd170935a258989331d8668c1f467d8ef",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Curved arc-like pale band around a green center, interrupted by red-orange and dark pixels. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_011.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/12",
+      "sourceSha256": "5c22f316f33ff1f7b4b2a7abdb5ed6165726abe952ee43275c821fb2a5db89b5",
+      "pixelSha256": "bdd9aa0d01f653f62b831a02ca0fc00654dfee44076aed38a2b21d980058036e",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Two connected rounded loops of pale pixels, with dark and red-orange accents. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_012.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/13",
+      "sourceSha256": "f0fb8e7e6ee32d2b996cc2f8172bbaf443788c487b7c54e423be01b32f22ae91",
+      "pixelSha256": "d8e08b8b7d69eefb4ba7d0152df766a9779fafb7de0f7ac2f99aa77cacc10785",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Thin stepped horizontal stripe across the center, mostly pale with red-orange and dark sections. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_013.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/14",
+      "sourceSha256": "c27f8fac6fa50b0bee9688c55fb6cc2ebd6de2e3170e3d6f583423b8b7674922",
+      "pixelSha256": "23b90baa65e5c7f47766cefe728479dca5f34854e8204140ab487e1e18d0ff5d",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Short horizontal pale band with a rounded red-orange patch toward the right end. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_014.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/15",
+      "sourceSha256": "3ec0959283d894fdc079d66c02925cf366047c9213f28eb878463e96fbe8f783",
+      "pixelSha256": "f8817673ffcd3b86e0847e3262e4a1e24b7e2f4d1cbf1c2529a0bb9c7f6e6506",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Narrow upright curved band with pale edging, a dark and red-orange center, and a small upper hook. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_015.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/16",
+      "sourceSha256": "1a25c95eda947f9941ec56bd0354fd2c902f332f1baeecc4cebeb3561001acd3",
+      "pixelSha256": "bfc921e530985861ce4e53e86957791bc7bcf522e202735ead7e5883100389fd",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Nearly circular, open spiral band with pale outer pixels and a red-orange inner section. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_016.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/17",
+      "sourceSha256": "efb1f933841a25aecfc9ea2abf4726e0b3c18ca53e0cb81ba957e94ddea36b35",
+      "pixelSha256": "42e34baa226892ee8ec70d1b82093cdd51741bd1158e6844743117eb877e58a6",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Thin pale horizontal line ending in a rounded red-orange outlined shape at the right. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_017.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/18",
+      "sourceSha256": "5687b0802e4de76d606ed1810a073db75a91abbe1f120a7abb3f9bfeffd36b2a",
+      "pixelSha256": "3e6e324f56d70ea2c3b7b8d9a4fcd1d9db454ee2bb47305a00f617603e7caa7b",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Crossing diagonal pale bands form a forked, zigzag shape, with red-orange pixels at the junctions. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_018.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/19",
+      "sourceSha256": "28367e868543309b6c9dd55571af31bd02c28e4432a1cd0f85a6c389d01e9179",
+      "pixelSha256": "5a3c704099da4177786c54c4d3222a87fd307badd0a8e625536d2d731485c812",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Upright S-shaped curved band with pale border and red-orange and dark center. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_019.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/20",
+      "sourceSha256": "01e75f28a6c931b27f99be1729c85d817a97c17646db257831d4e347d1615cbe",
+      "pixelSha256": "90c63e1397bd7f84f1cfcc9d0268fdc3c06b0eda84b30976e80d5ec3f5460389",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Horizontal curled band with an S-shaped bend, pale outside and red-orange inside. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_020.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/21",
+      "sourceSha256": "cd819ffec12c7827695c4b1e3b98e370d17abc7da173e9200af6c0d59e5a2154",
+      "pixelSha256": "10d9212208e16351b3b2250d46e5230331140a350feb969805d8c615fa268c88",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Two stepped horizontal bands through the center, pale with red-orange and dark inner pixels. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_021.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/22",
+      "sourceSha256": "5609393b0ddc94a975982f40c11d0e25d327fc56112814a6c6806397502d36f3",
+      "pixelSha256": "ec86f91c2c03732418e4c848a8e531f44275464baf5d282fe5bfc2b02b6a32b4",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Two adjacent rounded pale outlines with red-orange centers, separated by green pixels. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_022.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/23",
+      "sourceSha256": "7e5ac344e59b02a5cc78df266e1a12117f4b8d58e9d578a82ca8fb75c4eb0886",
+      "pixelSha256": "33aa645e9d007fc403b116decf2d436a0df408b091fd83856f01cd5104d4e37b",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Pair of short curled horizontal bands, pale-edged with red-orange and dark centers. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_023.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/24",
+      "sourceSha256": "b360c4f0c211b085b88b2e301162e0436b2afae90c8a6eb3def97b0636b3dbca",
+      "pixelSha256": "e211194593da343a4e3b9cfa53a1c5b9dd3ebfb58dc71e411b9ebd98a36605c7",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Tall narrow broken vertical stripe, mostly pale with red-orange and dark interruptions. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_024.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/1/tile/25",
+      "sourceSha256": "14ede4fb5be616e1ea7b5f9e88e09c348fd00d278a4dab4f98d954ad01eeac6b",
+      "pixelSha256": "b525e4c03627dbe481445416fd3b6fc046a233bb2dd6fdb49e896abea201ca33",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Short horizontal stepped band centered on green, pale-edged with red-orange and dark pixels. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_001/TILES_001_tile_025.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/0",
+      "sourceSha256": "67e1f3a33e8f93f878da40d60230325ae989765d45d74bf1790803700faf2bb2",
+      "pixelSha256": "d646b7915b43f5b6cdf8f4922d55942f7e1954ce19773125eab82887d66aa4f1",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Three close upright pale and red-orange stripes within a squared outline, with a pale horizontal base. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_000.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/1",
+      "sourceSha256": "82f78d394af4f2e42035abd2d5dec04c5821b965148bf2d1e84bc5cd96808a6e",
+      "pixelSha256": "a1d0cb77dccc55173751aa34c7be51f29f62957dc451ad961a6a90921a8f535a",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Single narrow upright pale stripe with a red-orange center and short pale horizontal caps. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_001.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/2",
+      "sourceSha256": "36da7a00160c5f13732666d97e9245d4cbd6f8ff6c93ce1985b495b469b3d3e0",
+      "pixelSha256": "ff9badb3d116810bab64bb213527f6bc69adfdcfb1a32b9ab0de8f69395d9bc4",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Broad irregular upright pale form with a red-orange center patch and stepped green-side edges. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_002.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/3",
+      "sourceSha256": "f1ef7294541f65bb9b92d998d3fabdbf96d482bee02fe5faf2b5b658d952cef9",
+      "pixelSha256": "8cbafd780eac75fcb4961ca8f64f19591e18f565c368e75c89d2ac587d9d76c1",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Narrow upright red-orange and pale column with a small upper projection and a pale lower foot. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_003.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/4",
+      "sourceSha256": "a10940146adf29136df32ef6326c67134c99a19cea865d2f998f8826b84417f9",
+      "pixelSha256": "dd543817a423449a7dc46ff08c3115db5a6279c0a243104df8838c9e5a36c55c",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Tall pale and red-orange stripe with short side projections around its middle and lower portion. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_004.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/5",
+      "sourceSha256": "6c286559167147ec78ac44f54b35824adff929abf06b692002ca5a8ab8feaaff",
+      "pixelSha256": "ac268c4a7d423b5b97a2997a9233c8bb17e8d65d1884d257a037fa4727e38354",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Cross-like pale form with a red-orange center. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_005.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/6",
+      "sourceSha256": "174c71162e5e9d8add164f9953e23d8ea21667b9a4e8b728828a7fb98fa0e5a4",
+      "pixelSha256": "ee2e6d863b7fa5c48d1ec096082c5352c68b5b349895c5cf5f2eb2a661578316",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Diagonal pale stripe from upper right to lower left, with a red-orange center and dark edge. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_006.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/7",
+      "sourceSha256": "b84f4a61a582660720d93f71e0a2808ce6a09f7c43687c74bfc180fb9c75ecfd",
+      "pixelSha256": "29c477d8d52d0c6f6e9913763a3506706df7eec3717a86679df9eebb8f971684",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Small centered plus-like pale mark with a red-orange and dark center. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_007.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/8",
+      "sourceSha256": "f68940c049c03f8fb77bb30b5c5c26937c5aa2b138141ca70870d0da8789f08e",
+      "pixelSha256": "75c307e7de2528e1e7c6d43a8f8533eb473105aef20f81bf93f9d77a7fb5bf2c",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Upright pale stripe with a red-orange center and a short horizontal side bar. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_008.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/9",
+      "sourceSha256": "1321623b04a3ce254256bb2eca79a9899d6fe322c3240b37b4aeb52701a76345",
+      "pixelSha256": "27cb19542ba8f0aa4bb0e7dc49769606ba808eccbf55b872406bdebc11c2ceab",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Curved upright hook or arc, pale outside with a red-orange middle segment. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_009.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/10",
+      "sourceSha256": "e05dde46b3a15feaf930864688b2da87df97722e64000205b346b18819f62cf9",
+      "pixelSha256": "a7d922f0d260dcbca08759a4315b060d7ac79e9c5dccfbf5a82ba483d731bd84",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Narrow upright post-like stripe with a red-orange center and a short horizontal base. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_010.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/11",
+      "sourceSha256": "ff47245913604dcca9e67fc25cd3108c5cf626eaeab2f07072dd3145cb58d025",
+      "pixelSha256": "1c3a85b42002aba3c888469c6a1452ea765ae054e415070d66a75dd1cb5e3893",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Similar tall narrow stripe with pale edging, red-orange center, and a stepped horizontal base. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_011.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/12",
+      "sourceSha256": "6e136d185b9e6b6aee8000e96eab522a8a7120b5550fbea449567fb4955c3e49",
+      "pixelSha256": "cb47fc8e4c9e1b28c5cf641dc0c0e2128394e48934f65ebe3e3f5cb44c805cf8",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Squared arch or box-like pale outline with red-orange and dark pixels across its inner center. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_012.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/13",
+      "sourceSha256": "2cb6c59a6c85fb21dc94c64a4435c4301f059e95e04ccf7633441b47df6f75b6",
+      "pixelSha256": "64cf698ba1ec6f0c730a6517e23be5d32bf1d220381371bad76ca7d05c28d087",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Two upright pale and red-orange columns joined by a horizontal lower band. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_013.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/14",
+      "sourceSha256": "4ffec1b85f63378f333d7579927938d9cc374908b73723520a46f3928b930b6c",
+      "pixelSha256": "75e007e8649e483247faa4bb2d2d0a6a9ea878e34c69fef0ac76ef28b8327b7e",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Slanted pale upper band meets a narrow upright red-orange and pale stripe. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_014.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/15",
+      "sourceSha256": "f1cdb4473f86f8b3efd2875f0f2c282f38d3da857a965d2987099b3df1171186",
+      "pixelSha256": "323fae8cd5b14ae0fbafc6ff2172221a21f6e42e542f6f74d76126f3f23f6ed8",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Narrow upright pale stripe with a red-orange center and short horizontal base. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_015.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/16",
+      "sourceSha256": "5b71c7bfba1e54fc4a48b6d621131656db54ad43fff2429c4e769832fce65f89",
+      "pixelSha256": "318bb9e555bbeac1fdbf9537e46505aed6eb1dd63cd1569a477f30c6b2ba014c",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Slanted upright pale and red-orange band with a short lower side extension. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_016.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/17",
+      "sourceSha256": "2c584c22996c1e4b7f78be63a06c8fd5100148d02b1e53a4194ee422426a915f",
+      "pixelSha256": "1733287d04717d3be6270f9892e694c9f0e9521039a1f963ae460287ce5a0f57",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Narrow centered upright stripe, pale on one side and red-orange and dark in the middle. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_017.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/18",
+      "sourceSha256": "84b2df39d4fe9372dfc17687363aeb7275a584c801ac352391d7095abbc2aaa9",
+      "pixelSha256": "4fb4737096e46790b3b6c11915518a32b2f71e390ea4386d5a819cd67410e01e",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Upright narrow pale stripe with a red-orange center and darker side pixels. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_018.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/19",
+      "sourceSha256": "cb98fb477af140d61929135fa36bf6bff4654d733526e4d59035cc4fa0aac795",
+      "pixelSha256": "7ae4d059a19843cf57a2d7ae6d798a41bf04f0e6a3ca6d05b7a309de26001c74",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Pair of parallel pale and red-orange upright bars joined by a short lower band. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_019.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/20",
+      "sourceSha256": "ffa5a5ca116bbe6041307a394d52f3351f3803c93df7da19fa850a13c4d56023",
+      "pixelSha256": "823162e7d65738c4faa6c7fec9bd22a18f3f4a8ee2303d28d00104dc115e3e75",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. L-shaped pale band with a red-orange inner stripe and a long lower horizontal foot. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_020.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/tiles.dax/block/2/tile/21",
+      "sourceSha256": "abe9307bade5b1d619fd95fba25e8f4c827d1d3c5c5dcc1168f08e8481da71a2",
+      "pixelSha256": "5aaa354080088aa74f31ecc90325875200767e42ea7ef61b8c6d6f6295a18216",
+      "visualDescription": "24×24 EGA tile with a saturated bright and dark green field and lighter mottling. Right-angle corner form with an upright pale and red-orange stripe and a short upper horizontal arm. The small pixel form is visually ambiguous; this description does not identify its subject, function, game use, or selector.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_tile_render/TILES/TILES_002/TILES_002_tile_021.png",
+          "note": "Visible appearance only; reviewed against exact source PNG and decoded pixel hash. Does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    }
+  ]
+}

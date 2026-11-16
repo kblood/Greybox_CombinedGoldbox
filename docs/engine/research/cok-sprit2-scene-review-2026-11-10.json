@@ -1,0 +1,1305 @@
+{
+  "schema": "cok-sprit2-scene-review-v1",
+  "scope": "Amiga SPRIT2.DAA block-frame gap rows from the 2026-11-10 gap review queue, against their location peers (same archive family and block number). Each outcome is a visual judgment from a contact sheet (sprit2-sheet1x-1..9 and sprit2-zoom-1..3), not a metric.",
+  "reviewer": "Claude (visual review, 2026-11-10)",
+  "sameSceneCount": 17,
+  "pairCount": 72,
+  "pairs": [
+    {
+      "index": 0,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/0/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "0b8d2e85924a1afc4abbf39e56c42440c96dbcf0d1db7571454a5b23614656a6",
+      "peerPixelSha256": "afb4d4126eeda75a544e48ff7e95ae1160d51edb2dad9ef33dee36070349b9bb",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        192,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 1,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/0/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "0b8d2e85924a1afc4abbf39e56c42440c96dbcf0d1db7571454a5b23614656a6",
+      "peerPixelSha256": "c58077387e6b33fb18f4f43e9af99a4d76a3acd6f0bcdd0d0ad2a7016784bb10",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 2,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/0/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "0b8d2e85924a1afc4abbf39e56c42440c96dbcf0d1db7571454a5b23614656a6",
+      "peerPixelSha256": "cf41399dd5b1c5be2abfd25203b1f3765b30da49dca2dbcc9d5b41f9a658de70",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        196
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 3,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/0/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "301e12c8224d81d67900aa43b50306f0c07af30f6a8ed900698a9aba2cf5276a",
+      "peerPixelSha256": "afb4d4126eeda75a544e48ff7e95ae1160d51edb2dad9ef33dee36070349b9bb",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        192,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 4,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/0/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "301e12c8224d81d67900aa43b50306f0c07af30f6a8ed900698a9aba2cf5276a",
+      "peerPixelSha256": "c58077387e6b33fb18f4f43e9af99a4d76a3acd6f0bcdd0d0ad2a7016784bb10",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 5,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/0/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "301e12c8224d81d67900aa43b50306f0c07af30f6a8ed900698a9aba2cf5276a",
+      "peerPixelSha256": "cf41399dd5b1c5be2abfd25203b1f3765b30da49dca2dbcc9d5b41f9a658de70",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        196
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 6,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/0/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "5e2bdb20630a3a1e8314d3ed3861b97a95d933ca2ffc8152d1cf616cc5c611ab",
+      "peerPixelSha256": "afb4d4126eeda75a544e48ff7e95ae1160d51edb2dad9ef33dee36070349b9bb",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        192,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 7,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/0/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "5e2bdb20630a3a1e8314d3ed3861b97a95d933ca2ffc8152d1cf616cc5c611ab",
+      "peerPixelSha256": "c58077387e6b33fb18f4f43e9af99a4d76a3acd6f0bcdd0d0ad2a7016784bb10",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 8,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/0/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "5e2bdb20630a3a1e8314d3ed3861b97a95d933ca2ffc8152d1cf616cc5c611ab",
+      "peerPixelSha256": "cf41399dd5b1c5be2abfd25203b1f3765b30da49dca2dbcc9d5b41f9a658de70",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        196
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 9,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/10/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "8a842537f81137dcbd93dd67ade221e97d25df0fc68c34a6582c68ae9ae3fbaf",
+      "peerPixelSha256": "7799266344cca32aeff85ba26492e3dbce3ad5005bda94b7b882945bef3c0607",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        320,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 10,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/10/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "8a842537f81137dcbd93dd67ade221e97d25df0fc68c34a6582c68ae9ae3fbaf",
+      "peerPixelSha256": "b7ebe9a5e6d67970d613e2c08f6b61608f6d3c20f02521eb7f2f62ba31850261",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 11,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/10/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "8a842537f81137dcbd93dd67ade221e97d25df0fc68c34a6582c68ae9ae3fbaf",
+      "peerPixelSha256": "9841ffd066272da525c9d608be540901bdc483c411d2668d9fb912f55c2549ec",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        128,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 12,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/10/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "eed3413c010bcf5424bb16a335a0fbb46352200db24c8e3b23142fc7774685e9",
+      "peerPixelSha256": "7799266344cca32aeff85ba26492e3dbce3ad5005bda94b7b882945bef3c0607",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        320,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 13,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/10/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/1",
+      "outcome": "same-scene",
+      "gapPixelSha256": "eed3413c010bcf5424bb16a335a0fbb46352200db24c8e3b23142fc7774685e9",
+      "peerPixelSha256": "b7ebe9a5e6d67970d613e2c08f6b61608f6d3c20f02521eb7f2f62ba31850261",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 14,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/10/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "eed3413c010bcf5424bb16a335a0fbb46352200db24c8e3b23142fc7774685e9",
+      "peerPixelSha256": "9841ffd066272da525c9d608be540901bdc483c411d2668d9fb912f55c2549ec",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        128,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 15,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/10/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "65af71f967c0713455fb5491c501a4b7ea6696f62ece6e79e5de4a5bca044f2c",
+      "peerPixelSha256": "7799266344cca32aeff85ba26492e3dbce3ad5005bda94b7b882945bef3c0607",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        320,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 16,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/10/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "65af71f967c0713455fb5491c501a4b7ea6696f62ece6e79e5de4a5bca044f2c",
+      "peerPixelSha256": "b7ebe9a5e6d67970d613e2c08f6b61608f6d3c20f02521eb7f2f62ba31850261",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 17,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/10/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/2",
+      "outcome": "same-scene",
+      "gapPixelSha256": "65af71f967c0713455fb5491c501a4b7ea6696f62ece6e79e5de4a5bca044f2c",
+      "peerPixelSha256": "9841ffd066272da525c9d608be540901bdc483c411d2668d9fb912f55c2549ec",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        128,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 18,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/16/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "c75f88a724f2bd84e369fe37deb13ce2f97db7e496c58838e09a69c6b3fa00c8",
+      "peerPixelSha256": "10f5f58e5e78f0bc4193be28004b9a8f7f2364c3a72e90c0161ae2079628f863",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 19,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/16/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "c75f88a724f2bd84e369fe37deb13ce2f97db7e496c58838e09a69c6b3fa00c8",
+      "peerPixelSha256": "6bab1ba709b026b6fe2fb6244d531fcfff8bc0907d93f94f036e7169792dd1f6",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 20,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/16/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "c75f88a724f2bd84e369fe37deb13ce2f97db7e496c58838e09a69c6b3fa00c8",
+      "peerPixelSha256": "f3887416b24188e40a5b1179f7147216e43c1cfcdf32f474189b63e912aa055f",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        196
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 21,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/16/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "1a5cf1d947a436ed390673645d684627868fb15706b1f4c4562b0943c6bd57ff",
+      "peerPixelSha256": "10f5f58e5e78f0bc4193be28004b9a8f7f2364c3a72e90c0161ae2079628f863",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 22,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/16/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/1",
+      "outcome": "same-scene",
+      "gapPixelSha256": "1a5cf1d947a436ed390673645d684627868fb15706b1f4c4562b0943c6bd57ff",
+      "peerPixelSha256": "6bab1ba709b026b6fe2fb6244d531fcfff8bc0907d93f94f036e7169792dd1f6",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 23,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/16/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "1a5cf1d947a436ed390673645d684627868fb15706b1f4c4562b0943c6bd57ff",
+      "peerPixelSha256": "f3887416b24188e40a5b1179f7147216e43c1cfcdf32f474189b63e912aa055f",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        196
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 24,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/16/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "6d0b8596edaa5a0bbca4a3ce571b212863ab99c8d8c7660ef2eafbc64b00e9de",
+      "peerPixelSha256": "10f5f58e5e78f0bc4193be28004b9a8f7f2364c3a72e90c0161ae2079628f863",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 25,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/16/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "6d0b8596edaa5a0bbca4a3ce571b212863ab99c8d8c7660ef2eafbc64b00e9de",
+      "peerPixelSha256": "6bab1ba709b026b6fe2fb6244d531fcfff8bc0907d93f94f036e7169792dd1f6",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 26,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/16/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/2",
+      "outcome": "same-scene",
+      "gapPixelSha256": "6d0b8596edaa5a0bbca4a3ce571b212863ab99c8d8c7660ef2eafbc64b00e9de",
+      "peerPixelSha256": "f3887416b24188e40a5b1179f7147216e43c1cfcdf32f474189b63e912aa055f",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        196
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 27,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "5d4f5164ace167f25e9885b01b219538c29833c3c17cf31a3c7d28dad07f8baa",
+      "peerPixelSha256": "2c2251384fbe46450ca387b0fcaa8f5d639b1ee9ff79fa82d097ed6cbf64f9df",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        288,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 28,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "5d4f5164ace167f25e9885b01b219538c29833c3c17cf31a3c7d28dad07f8baa",
+      "peerPixelSha256": "ec5494c05c219750a87a02ba0873aba4c3bf8e7d656674e66c4fdb31a5757b6f",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        292
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 29,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "5d4f5164ace167f25e9885b01b219538c29833c3c17cf31a3c7d28dad07f8baa",
+      "peerPixelSha256": "d44622477f2be38485cadeb67eb6a7148d2a960e50921032ac160c88284ab6f5",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 30,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "bb1c43ea0382d853330034a67120b089aa9c152ae5d15c0c597c95dbe56c359b",
+      "peerPixelSha256": "2c2251384fbe46450ca387b0fcaa8f5d639b1ee9ff79fa82d097ed6cbf64f9df",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        288,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 31,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/1",
+      "outcome": "same-scene",
+      "gapPixelSha256": "bb1c43ea0382d853330034a67120b089aa9c152ae5d15c0c597c95dbe56c359b",
+      "peerPixelSha256": "ec5494c05c219750a87a02ba0873aba4c3bf8e7d656674e66c4fdb31a5757b6f",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        292
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 32,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "bb1c43ea0382d853330034a67120b089aa9c152ae5d15c0c597c95dbe56c359b",
+      "peerPixelSha256": "d44622477f2be38485cadeb67eb6a7148d2a960e50921032ac160c88284ab6f5",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 33,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "05b65679e4791be16f43cac89908a71f323a2b6c0bc545bff73a79ce2f47ae6f",
+      "peerPixelSha256": "2c2251384fbe46450ca387b0fcaa8f5d639b1ee9ff79fa82d097ed6cbf64f9df",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        288,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 34,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "05b65679e4791be16f43cac89908a71f323a2b6c0bc545bff73a79ce2f47ae6f",
+      "peerPixelSha256": "ec5494c05c219750a87a02ba0873aba4c3bf8e7d656674e66c4fdb31a5757b6f",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        292
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 35,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/2",
+      "outcome": "same-scene",
+      "gapPixelSha256": "05b65679e4791be16f43cac89908a71f323a2b6c0bc545bff73a79ce2f47ae6f",
+      "peerPixelSha256": "d44622477f2be38485cadeb67eb6a7148d2a960e50921032ac160c88284ab6f5",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 36,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/24/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "1cf9fafbebe349fa42b5ff22dcc8dff4f879e86b50ee4171c159bd453c4e7209",
+      "peerPixelSha256": "b4fb832bd0795fa9592589fe3d0ff3996601e05c5622ec459592190b1a87a676",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 37,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/24/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "1cf9fafbebe349fa42b5ff22dcc8dff4f879e86b50ee4171c159bd453c4e7209",
+      "peerPixelSha256": "bea76569b8a15f2360846595b039c82b8ce1d0d4b865a89449a3ab26f9f48e08",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 38,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/24/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "1cf9fafbebe349fa42b5ff22dcc8dff4f879e86b50ee4171c159bd453c4e7209",
+      "peerPixelSha256": "7656d1fa64cfd59f01bbf93cc523f4d4f100bc822fd5534a24e6b0405c65acfe",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 39,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/24/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "81fb57679225b52c5cd738e773fc33021ee342cc85baddb2cb82e30526f4ebf4",
+      "peerPixelSha256": "b4fb832bd0795fa9592589fe3d0ff3996601e05c5622ec459592190b1a87a676",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 40,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/24/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "81fb57679225b52c5cd738e773fc33021ee342cc85baddb2cb82e30526f4ebf4",
+      "peerPixelSha256": "bea76569b8a15f2360846595b039c82b8ce1d0d4b865a89449a3ab26f9f48e08",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 41,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/24/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "81fb57679225b52c5cd738e773fc33021ee342cc85baddb2cb82e30526f4ebf4",
+      "peerPixelSha256": "7656d1fa64cfd59f01bbf93cc523f4d4f100bc822fd5534a24e6b0405c65acfe",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 42,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/24/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "a91b99f77bc3b4135b9180250ec980c22d2b042fbcc8dcb36972acbd9f741d73",
+      "peerPixelSha256": "b4fb832bd0795fa9592589fe3d0ff3996601e05c5622ec459592190b1a87a676",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 43,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/24/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "a91b99f77bc3b4135b9180250ec980c22d2b042fbcc8dcb36972acbd9f741d73",
+      "peerPixelSha256": "bea76569b8a15f2360846595b039c82b8ce1d0d4b865a89449a3ab26f9f48e08",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 44,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/24/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "a91b99f77bc3b4135b9180250ec980c22d2b042fbcc8dcb36972acbd9f741d73",
+      "peerPixelSha256": "7656d1fa64cfd59f01bbf93cc523f4d4f100bc822fd5534a24e6b0405c65acfe",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 45,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "512d1197c2d088af746a431ecaff0a1ada9e0c6caf887ad8ade3011f7ffafaf2",
+      "peerPixelSha256": "441c885d8662f5a121cd26be8ec9de4f4c1ab59ce5b04c7c945b56a375d5fda9",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        192,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 46,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "512d1197c2d088af746a431ecaff0a1ada9e0c6caf887ad8ade3011f7ffafaf2",
+      "peerPixelSha256": "a6d1e4d7fec959d85a9f0adb1c50b48527ea3a728c6bc185483f493b2a72e67c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        128,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 47,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "512d1197c2d088af746a431ecaff0a1ada9e0c6caf887ad8ade3011f7ffafaf2",
+      "peerPixelSha256": "3a9fc599775a6a11df954ec3ed5dae407b8900e80fea05eb411c7430d3ab7c40",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 48,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "512d1197c2d088af746a431ecaff0a1ada9e0c6caf887ad8ade3011f7ffafaf2",
+      "peerPixelSha256": "441c885d8662f5a121cd26be8ec9de4f4c1ab59ce5b04c7c945b56a375d5fda9",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        192,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 49,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "512d1197c2d088af746a431ecaff0a1ada9e0c6caf887ad8ade3011f7ffafaf2",
+      "peerPixelSha256": "a6d1e4d7fec959d85a9f0adb1c50b48527ea3a728c6bc185483f493b2a72e67c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        128,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 50,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "512d1197c2d088af746a431ecaff0a1ada9e0c6caf887ad8ade3011f7ffafaf2",
+      "peerPixelSha256": "3a9fc599775a6a11df954ec3ed5dae407b8900e80fea05eb411c7430d3ab7c40",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 51,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "f8c5d4047b3350efc85458bf89f2aecabb71fc7eddeae33b5e1528cc5dd33b57",
+      "peerPixelSha256": "441c885d8662f5a121cd26be8ec9de4f4c1ab59ce5b04c7c945b56a375d5fda9",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        192,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 52,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/1",
+      "outcome": "same-scene",
+      "gapPixelSha256": "f8c5d4047b3350efc85458bf89f2aecabb71fc7eddeae33b5e1528cc5dd33b57",
+      "peerPixelSha256": "a6d1e4d7fec959d85a9f0adb1c50b48527ea3a728c6bc185483f493b2a72e67c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        128,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 53,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "f8c5d4047b3350efc85458bf89f2aecabb71fc7eddeae33b5e1528cc5dd33b57",
+      "peerPixelSha256": "3a9fc599775a6a11df954ec3ed5dae407b8900e80fea05eb411c7430d3ab7c40",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 54,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "f8c5d4047b3350efc85458bf89f2aecabb71fc7eddeae33b5e1528cc5dd33b57",
+      "peerPixelSha256": "441c885d8662f5a121cd26be8ec9de4f4c1ab59ce5b04c7c945b56a375d5fda9",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        192,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 55,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/1",
+      "outcome": "same-scene",
+      "gapPixelSha256": "f8c5d4047b3350efc85458bf89f2aecabb71fc7eddeae33b5e1528cc5dd33b57",
+      "peerPixelSha256": "a6d1e4d7fec959d85a9f0adb1c50b48527ea3a728c6bc185483f493b2a72e67c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        128,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 56,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "f8c5d4047b3350efc85458bf89f2aecabb71fc7eddeae33b5e1528cc5dd33b57",
+      "peerPixelSha256": "3a9fc599775a6a11df954ec3ed5dae407b8900e80fea05eb411c7430d3ab7c40",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 57,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "ad1ccf3046f096b77997294190c2a85e926a6c9c5de0ea5d7de7a1d8fb94e95f",
+      "peerPixelSha256": "441c885d8662f5a121cd26be8ec9de4f4c1ab59ce5b04c7c945b56a375d5fda9",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        192,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 58,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "ad1ccf3046f096b77997294190c2a85e926a6c9c5de0ea5d7de7a1d8fb94e95f",
+      "peerPixelSha256": "a6d1e4d7fec959d85a9f0adb1c50b48527ea3a728c6bc185483f493b2a72e67c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        128,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 59,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "ad1ccf3046f096b77997294190c2a85e926a6c9c5de0ea5d7de7a1d8fb94e95f",
+      "peerPixelSha256": "3a9fc599775a6a11df954ec3ed5dae407b8900e80fea05eb411c7430d3ab7c40",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 60,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "ad1ccf3046f096b77997294190c2a85e926a6c9c5de0ea5d7de7a1d8fb94e95f",
+      "peerPixelSha256": "441c885d8662f5a121cd26be8ec9de4f4c1ab59ce5b04c7c945b56a375d5fda9",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        192,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 61,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "ad1ccf3046f096b77997294190c2a85e926a6c9c5de0ea5d7de7a1d8fb94e95f",
+      "peerPixelSha256": "a6d1e4d7fec959d85a9f0adb1c50b48527ea3a728c6bc185483f493b2a72e67c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        128,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 62,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "ad1ccf3046f096b77997294190c2a85e926a6c9c5de0ea5d7de7a1d8fb94e95f",
+      "peerPixelSha256": "3a9fc599775a6a11df954ec3ed5dae407b8900e80fea05eb411c7430d3ab7c40",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 63,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/3/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "6d10678aa34957b36b7aa5c841cfe26830fd7fc38935f95fddb0895116944b01",
+      "peerPixelSha256": "18d9c4a1ca6bf29052c5b322fe65173af535ea6e382161218f13ecdfec32fc47",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        288,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 64,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/3/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "6d10678aa34957b36b7aa5c841cfe26830fd7fc38935f95fddb0895116944b01",
+      "peerPixelSha256": "2a885384a403ca1f71a73a1018bd10f49c05b718337f4401eef9b1d8e11342f7",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 65,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/3/frame/0",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "6d10678aa34957b36b7aa5c841cfe26830fd7fc38935f95fddb0895116944b01",
+      "peerPixelSha256": "c6754393eb028bcdc9d71c6e52841bba006aa6b73f55ca7f6d050888b40d44b8",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 66,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/3/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "cc82083e55b61f509f30c465720f84caad558a26ff9435ba37cf908a45dc86b7",
+      "peerPixelSha256": "18d9c4a1ca6bf29052c5b322fe65173af535ea6e382161218f13ecdfec32fc47",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        288,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 67,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/3/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/1",
+      "outcome": "same-scene",
+      "gapPixelSha256": "cc82083e55b61f509f30c465720f84caad558a26ff9435ba37cf908a45dc86b7",
+      "peerPixelSha256": "2a885384a403ca1f71a73a1018bd10f49c05b718337f4401eef9b1d8e11342f7",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 68,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/3/frame/1",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "cc82083e55b61f509f30c465720f84caad558a26ff9435ba37cf908a45dc86b7",
+      "peerPixelSha256": "c6754393eb028bcdc9d71c6e52841bba006aa6b73f55ca7f6d050888b40d44b8",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 69,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/3/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "9847cbd5e6e0b1cabddb5f524394da63836124964dba81dd4c1a4d83aab13b1d",
+      "peerPixelSha256": "18d9c4a1ca6bf29052c5b322fe65173af535ea6e382161218f13ecdfec32fc47",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        288,
+        320
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 70,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/3/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "9847cbd5e6e0b1cabddb5f524394da63836124964dba81dd4c1a4d83aab13b1d",
+      "peerPixelSha256": "2a885384a403ca1f71a73a1018bd10f49c05b718337f4401eef9b1d8e11342f7",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        160,
+        260
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    },
+    {
+      "index": 71,
+      "gap": "cok/amiga/disk3/sprit2.daa/block/3/frame/2",
+      "peer": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/2",
+      "outcome": "same-scene",
+      "gapPixelSha256": "9847cbd5e6e0b1cabddb5f524394da63836124964dba81dd4c1a4d83aab13b1d",
+      "peerPixelSha256": "c6754393eb028bcdc9d71c6e52841bba006aa6b73f55ca7f6d050888b40d44b8",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        96,
+        228
+      ],
+      "differingChannelValues": null,
+      "channelValues": null
+    }
+  ]
+}

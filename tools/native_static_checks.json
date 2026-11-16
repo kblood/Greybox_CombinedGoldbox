@@ -1,0 +1,44 @@
+{
+  "schema": "goldbox-native-static-checks/1",
+  "checks": [
+    {
+      "id": "native-source-contracts",
+      "tests": [
+        "tools/test_native_dqk_source_contract.py",
+        "tools/test_native_fx_v15_source_contract.py"
+      ]
+    },
+    {
+      "id": "native-documentation",
+      "tests": [
+        "tools/test_native_graphics_prose.py",
+        "tools/test_native_release_manifest.py"
+      ]
+    },
+    {
+      "id": "native-capacity",
+      "tests": [
+        "tools/test_native_capacity_claims.py",
+        "tools/test_native_capacity_floors.py"
+      ]
+    },
+    {
+      "id": "native-loader-identity",
+      "tests": [
+        "tools/test_native_gbpr_identity.py"
+      ]
+    },
+    {
+      "id": "native-test-ownership",
+      "tests": [
+        "tools/test_native_test_ownership.py"
+      ]
+    },
+    {
+      "id": "runner-safety",
+      "tests": [
+        "tools/test_native_static_checks_runner.py"
+      ]
+    }
+  ]
+}

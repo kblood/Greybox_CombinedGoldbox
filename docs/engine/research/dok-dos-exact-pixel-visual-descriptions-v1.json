@@ -1,0 +1,3493 @@
+{
+  "schema": "dok-dos-exact-pixel-visual-descriptions-v1",
+  "inputSha256": {
+    "cok-dos-font-glyph-visual-descriptions-v1.json": "ab634a069908dc6ff0670866ba7550d9bd2c294bb023378219a6424ac806975b",
+    "cok-graphics-identity-registry-v1.json": "103530666a8d6e8735b1c2c1a274429e7093db8b04606180313f548dd7dff9ec",
+    "dok-graphics-identity-registry-v1.json": "d99b2703c5afb8de0f075da763a40a52e4e5f6f1c19f71f25070a50e5ea79b9c",
+    "dok-graphics-source-census-v1.json": "f26d6ac40f8589a8c5bac00f67b85cf09152d90a9f2614bc3fbe40d53f53a236",
+    "dok-graphics-source-roster-v1.json": "3c2a2716d7f88ade66b132f4f3a2099424ef8441042e11f01e647221679c5491"
+  },
+  "reviewScope": "Visible appearance only. No character identity, subject, game use, playback, cross-version identity, Restyle lineage, or runtime admission is established.",
+  "assets": [
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/1/entry/4/tile/14",
+      "kind": "tile",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/0",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "fd54070ea166ddf1c2719f5453a36b0c0ffbc585bdb8b9e39e9b0efa3128184f",
+      "pixelSha256": "2d21da21c35a53f890833ef4f65adcf6d976b84c7f9f29aa8c7b05321c59e606",
+      "visualDescription": "Broad rectangular form with a solid top and bottom, stepped interior gaps, and a small lower-left opening.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/0",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/0"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/1",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "51f244f70532c588908184f66465eeec5429b818d8e3d677dacb544c2c7076b6",
+      "pixelSha256": "f0038c187cbffcb1296f7dd725eab04f82a423b5c8d3d1345c0c59df9d99fc07",
+      "visualDescription": "Stepped rounded form with short horizontal bars and a broad upper-right stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/1",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/1"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/10",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "1ebcb381c6c23883eeb8431414f57533a9cbb46d634471452ff1d9906901d7f0",
+      "pixelSha256": "b063d5a785360c613f14e6922d0503d6bf7d88b2e7abd2bc8cce9626dac8644e",
+      "visualDescription": "Descending stepped diagonal with a thick upper-left section and a short lower-right foot.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/10",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/10"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/100",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e7c640ee25928620280aeb00cd42153d8e50a85c562a670dc7ea08a35b58698a",
+      "pixelSha256": "76bf98484ed8dd58d8358c874ef4f1a81ddc4bcfdfe67d54c7bf41c23579908f",
+      "visualDescription": "Long upper bar with progressively shorter descending strokes toward the right.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/100",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/100"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/101",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "a5112670197347fe7e83286e945fb118e29c48b65711e33f067fa7bec87f0b07",
+      "pixelSha256": "b7487919d3ddce0cf9b1054acbb960ec903ccbeb93830b4057c3ca5cc896945e",
+      "visualDescription": "Scattered clusters of short horizontal and diagonal strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/101",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/101"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/102",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "f246eca08ef9104c745d87f0897a18159f99402bada273f0a1eb988013254bac",
+      "pixelSha256": "c1714d42b52e92602671d29c373a714504546459eb76848d17ea2fa1e4186607",
+      "visualDescription": "Repeated horizontal bars with short vertical segments between them.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/102",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/102"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/103",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "4ee4a060f8b2a50d327df7062eb11e4226850135d13a5c54da240bcfa4cc39cd",
+      "pixelSha256": "c4b49a61217e47e3c47ebd443c4d0fcf2fba16eed21f5635fdec129883a94aca",
+      "visualDescription": "Symmetric compact pattern with a central dark gap and stepped outer edges.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/103",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/103"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/104",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "851e92a1e68f12ed3b655fd2b369dcf5d818a1723caaf954287afa7b591e6f3b",
+      "pixelSha256": "eb3c99b4cedf3a0b3ef21f3fcf997ee4d26610973c28a68efd92493b961b87e3",
+      "visualDescription": "Stepped angular pattern with a long middle bar and a short lower-right stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/104",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/104"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/105",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "32ff817458d9818834283ff082272502dce5cec65eb4c29e7646f4df0bf3c0ff",
+      "pixelSha256": "a6234af042a3d2e16efa06a1323fc474da071cc2a44eb57bc6a52dde8bacfa05",
+      "visualDescription": "Left-side vertical strokes, a central horizontal bar, and a descending diagonal cluster.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/105",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/105"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/106",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "bba48ea6d194c2623b961612e2573d602ece7d853358dba1b335b9ed93f87ea2",
+      "pixelSha256": "6b1a93e1ca80425fe797b8109639a498f0e7b4f7549706194040e9f84dd3c034",
+      "visualDescription": "Small staggered strokes forming a broken diagonal and lower horizontal cluster.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/106",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/106"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/107",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "8e95df1c0432df62cf49337a97a2731c7e7a794675441fe9081bb12f51b3a5ec",
+      "pixelSha256": "4928fe4bc835fc7026288a59ff70ce44d53c0c873811c29443a37be6cd09289a",
+      "visualDescription": "Sparse descending strokes, with a short diagonal cluster near the lower right.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/107",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/107"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/108",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "12c3a6119d7688dcd99a395f89fc27eb41c92c934aa29f2e14a84e9ad0e01511",
+      "pixelSha256": "e015d05b383a289063fb24844a81f3081e6ca339a9abc9be9029cfa5b461e71f",
+      "visualDescription": "Right-heavy stepped shape with a long upper-right bar and short descending strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/108",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/108"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/109",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "9939caf4f5d976d31dcfea6e025a4e7d0cdfe0aef019dfbb3c09bec6dd3159fb",
+      "pixelSha256": "ab5a8b2229c9a90132cb9fa3b4fd7e51fb3ba198f58366afcef56a631b6202cb",
+      "visualDescription": "Upper-left stepped cluster above a long central horizontal bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/109",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/109"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/11",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "18e7c7fbb310a8760d1ea5cec62e8da11f324500d39c8372c4388782036a44a3",
+      "pixelSha256": "6edfd5fcb0f0461bfad00b0c5483812237678d8f79b6a2760e2af58d38daa813",
+      "visualDescription": "Symmetric stepped outline with a narrow center opening and short upper side strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/11",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/11"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/110",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "ff72ca6c3b41f2225995fdb1c9bd5623d049ad96f5cee6a2d6946968237170e3",
+      "pixelSha256": "0e00c0c580156032bb8319f3aacd3b2de673e8bb7692a48a1031e1a275585a37",
+      "visualDescription": "Compact stepped outline with a central notch and a short lower-right stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/110",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/110"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/111",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "fe2302cab3a9735ea22ec6b2942637aa6457e027ab89227f1e4584c24788a83a",
+      "pixelSha256": "afe37b02252088e9c5be3a7cf18f778055ed0b9655560d6bb550b5a476e9503a",
+      "visualDescription": "Short upper-right diagonal strokes above a long left-to-center bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/111",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/111"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/112",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "cc1c85b8ee3dea0c3b37e0454c06870da0b071b3411cafe669d131fc2a939b9a",
+      "pixelSha256": "cbb4b18c82cf55293e18d113e42a5d46c4ae45aff3bc56e782323394a887c14c",
+      "visualDescription": "Broad stepped outline with a dense horizontal middle and broken lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/112",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/112"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/113",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "43018b0e2942aa1fcd4a0c52e1b185930030b6ec4b3dcfa804358a3f9be68e4a",
+      "pixelSha256": "3d58f0fb764ecc2f76ad8daa941f71c12e5eb2ee013d97061ec8a09716079cea",
+      "visualDescription": "Tall left-side bars with a compact stepped cluster across the lower half.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/113",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/113"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/114",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "a062b1c8407db161c3fc37ccc774958973772f5a0379a9e934e06dbd7cdd2107",
+      "pixelSha256": "95642f0d627684f59cbaa2e4b2d9fa760a679436acdb39ac829f874f4aae0245",
+      "visualDescription": "Dense upper and lower horizontal bars separated by a central gap and short right-side marks.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/114",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/114"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/115",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "c0f8dcd394574417648bdee6b3bfe01186729d4150243d68569a72c45a152ae2",
+      "pixelSha256": "feb926330795baadba80e73e21591eb6193b1884dfceb31729ea15c420a22caa",
+      "visualDescription": "Broad top and bottom bars connected by staggered vertical and diagonal strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/115",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/115"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/116",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "49bd4214335270e86a76fba987bfead15476d1a78460064a9335c8df174e2d3e",
+      "pixelSha256": "2096d7f66a68bb2bb3764271adf95713694d412357bd4785846ff2b508ae694e",
+      "visualDescription": "Long upper-left bar with short descending strokes near the left edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/116",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/116"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/117",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "27a7509aba1585c5742023bf0d428d20e220dcb68f130d4ff0f20cbe06c22101",
+      "pixelSha256": "cd4549066c384cb821b12a03317b10b0cda6420cbd3caa503317810fd4690545",
+      "visualDescription": "Dense angular cluster with a broken lower row of short strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/117",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/117"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/118",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "2ec8bebabedda8ac724a684949511a737d29ef9e43394ca79208c301042b3f6c",
+      "pixelSha256": "3a35812cc1eb769fa5947c39b0045dc23221ef9dd45ba9ea6a7e27f0fc985b3c",
+      "visualDescription": "Three short stacked strokes above a long lower bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/118",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/118"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/119",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e8ceb90c19921958bd10af98357b4d0d836dccc107aadd0c77f1e995bea0a55d",
+      "pixelSha256": "cf9253a8d3fdac2bb0ae376bb21a26b1fe87467311e9906fe5e75f0deeb73bf9",
+      "visualDescription": "Irregular stepped outline with several separated horizontal bars and a dense lower-right edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/119",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/119"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/12",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "4589d0129dcb8a3591c533cb7f1c379fd0a0cd8d1be381793023facdb6c994f2",
+      "pixelSha256": "7d9ab22d4a2d2dd9e59648ffe14475ab91c5aab2de02387933365a133c46f4f7",
+      "visualDescription": "Tall stepped form with a broad upper-left section, short right-side notch, and wide lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/12",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/12"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/120",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/121",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/122",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "8a61921e63ab8928ca4e9a99cd79078dc14064fe6ebe5e01d20813ba6319638b",
+      "pixelSha256": "810329a6bdf8c34bf54dc96dd7982b5eaa5cb2ef5887f39cde4abfadede67688",
+      "visualDescription": "Short top bar above a long vertical stroke near the center.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/122",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/122"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/123",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "f58ef2e513a4a528c8fbf4ba841ad501217e5a89acc20de1ecdb412b33363596",
+      "pixelSha256": "8a37db7faf5ea8e332b2984d4dcc4014cf03ce1e2b7c5d274fd04a8c4cffbd2a",
+      "visualDescription": "Short top-left strokes above a stepped vertical stroke descending at the right.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/123",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/123"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/124",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "f362a6f731bef29c923da167f8a1df31bc6ecc43e73f3be3a931c8b070269e6e",
+      "pixelSha256": "123df7949fa11561b22d751b1d77ea9ba92a91a45e5208d7193817e0b4e7fb3a",
+      "visualDescription": "Tall block-like outline with a broad top and repeated inner horizontal gaps.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/124",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/124"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/125",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "01b0847da9732b803c4abd934b25aa1f47689c72e013b554963aea011778af5a",
+      "pixelSha256": "46d3546ad59844d3c890a0190467127ef016c2e7c9e20c48a0b59156b5ad9c38",
+      "visualDescription": "Broad upper bar with several separated short vertical strokes below it.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/125",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/125"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/126",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "d065f1ee97e908bb458f1d534d3006bbcb6dc6c36208b9c71ccb353932ef701e",
+      "pixelSha256": "1171153718c6af9e87b28dff56739e0256d03356931564b248238a31f4295df7",
+      "visualDescription": "Narrow vertical stroke with a short lower-right foot.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/126",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/126"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/127",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "1f64c4a9dca17bda6b730359ca6c7fcd366dcb552aaba58e468d22396d21579e",
+      "pixelSha256": "88b2c95224d15e09176d6428a01ef3d23f2689302899657a5822a39753a46ba3",
+      "visualDescription": "Diagonal stepped stroke descending from upper left toward lower right.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/127",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/127"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/128",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "b0dbb2184a422799ec85d54acd16f208cffb147ae52d74f2da587319eb8df00a",
+      "pixelSha256": "9a850745badf7605fad6e7893ddeb46c1af99fbc30b702257feb203016fb58a4",
+      "visualDescription": "Diagonal stepped stroke descending toward a broad lower bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/128",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/128"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/129",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "c459f1fe9896c81f5c804ab19abc3da95b0110b205687aaf37f4215ecbdb82a1",
+      "pixelSha256": "1320644a7418be025ae74aa6e4fdb143607e15848081f111576e8112b6956151",
+      "visualDescription": "Broad upper bar with a descending diagonal edge and several short right-side strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/129",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/129"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/13",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "faa99f5317a96a16386368328716874d743fdfd9e274f005bfe776c37b5a11da",
+      "pixelSha256": "9b4ba152cb25be86333e1d0431d3108e76b923a27a2447e77db5e89653ac08f2",
+      "visualDescription": "Irregular branching form with a dense upper center and separated lower strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/13",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/13"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/130",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "5fb748ed5d23fff9964b67654ed00af9a9a4556870c1cdcd054a14069f3749c3",
+      "pixelSha256": "dd2b599a34b6c29e387cc5f12e2ab52cf83b8ad46bca883e4ab859aa8d235c2a",
+      "visualDescription": "Rounded rectangular outline with repeated inner gaps and a broad lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/130",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/130"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/131",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "3f6182bbc97fcd549af7e96f546d020559aa7d4b33a06e069921a5402d41c4cb",
+      "pixelSha256": "d4fc64c66053d7d4d42e824cf4dc5094b8a2534cb9c6a46c6503f84ee6e63a51",
+      "visualDescription": "Broad upper bar and lower bar joined by a central diagonal-and-vertical pattern.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/131",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/131"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/132",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "6d8883431ca26ae9cb341ec8067cd9bd0134a5b8a06588ca9547bda1aed12cce",
+      "pixelSha256": "ab48154c54f203688593bc7b51594e57d0318a5d1ea499d2719a1b50db3f9d87",
+      "visualDescription": "Two short upper-right bars above a broad, stepped lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/132",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/132"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/133",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "b546e1878b807c44564ebd11bac44ebe4d135ffa4c3dfed83db2ea28604711c5",
+      "pixelSha256": "911f6b5483e0942d2cbeb09422e2010ce3ca351d43ccfc582a959533b02f1803",
+      "visualDescription": "Narrow vertical stroke ending in a short lower-right bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/133",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/133"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/134",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "9f0fd1aae00ba9b0026b6a1043d89d2805a9d9e8ea22348cda007159b1e5a1bd",
+      "pixelSha256": "29c24e97871d44c6511c611e7d5980ed137f00668392ad422ca249dd4cdafc24",
+      "visualDescription": "Irregular diagonal cluster with short upper and lower segments.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/134",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/134"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/135",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "ded333ada57d20afd00c57e813c32859891f82a3e654d1bdb28e13014da7c594",
+      "pixelSha256": "d6141fa05f3b713a8744b950829560c124a697b1dda4de8b742a088882028b00",
+      "visualDescription": "Three horizontal bars crossed by short vertical strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/135",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/135"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/136",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "d26ab4568d2ea4a6eb2237178dd940904452ae4288720b6fdcfe015672393342",
+      "pixelSha256": "c09fdf5d0172ed1499b2b028ff37856e44678304dd344f7c571ce5f066ecdae8",
+      "visualDescription": "Narrow vertical stroke with a short middle bar and longer lower bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/136",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/136"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/137",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "3e4b10eadbcd58c432a36d3bb6c76f2e6d843959cc187fd310c5daea427ab77e",
+      "pixelSha256": "d7ffe23c498b88a4df6a649bdd85d3fd1e679de434e2c72b6e2a89da51056eb9",
+      "visualDescription": "Long top bar with descending separated strokes forming a diagonal to the lower left.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/137",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/137"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/138",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "cc200d4f91fc3f5cf3e4791097138f0e2ea1e9535fb392e02120592f6fe9bf0d",
+      "pixelSha256": "673b4dc044a526b5d7755622609fab8ea77c8b4f0ca102bca4dc26ec3c7ed594",
+      "visualDescription": "Small central cross-like cluster of short horizontal, vertical, and diagonal strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/138",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/138"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/139",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "57339bc6a8f4050e062316456dd410e16e7dde11c5d97b79b2132b4c4629d6ed",
+      "pixelSha256": "06305c0d6589d70b6b4aec85748463e5c08e1f673582a29a072dd4edbc0d274d",
+      "visualDescription": "Compact wavy zigzag with alternating left and right protrusions.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/139",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/139"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/14",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "74afd1fe5c183072be2273a1220b34fd73ee6b9b1b87d97b7234a0c428be8c6a",
+      "pixelSha256": "8ebd8091bbcbffc3b2c4cd73155f698cacfca09b396f006c056335920efba0ff",
+      "visualDescription": "Stepped outline with a compact upper section and broad diagonal lower strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/14",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/14"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/140",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "6b92983a1132a4d2a6d9544ac46cfefd77a0c43e7fd7aa2c2b201c063eabe195",
+      "pixelSha256": "b1024f56e7898472dd09bb50f856431ad475e29dda517e1c9019ac4424c187ef",
+      "visualDescription": "Similar compact zigzag, offset left, with a narrow middle.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/140",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/140"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/141",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e5ba4364fdb3f5d8fa0f5e367b1d46d2c9d2161fd80a252ebdf67cfc2f342e68",
+      "pixelSha256": "7d9f2b8357ac5d4c6c401ef3d301c6c3ad9cacce93fba85648c883f030c46bc1",
+      "visualDescription": "Staggered central strokes forming a narrow stepped column.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/141",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/141"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/142",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "448641630e025b9441b6677ad1c6e09c873a7775bc9640b920c4c0b0fbed80a7",
+      "pixelSha256": "80a755b7f3db28db3798d38eef138c2d6b655086b230da7fd6b5e8f3d7012ec1",
+      "visualDescription": "Broad upper and lower bars joined by a narrow vertical middle.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/142",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/142"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/143",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "29b7ee37de3be9213e38164597a6cbc39d485670a2d6fef5688475df09ef648d",
+      "pixelSha256": "049d7e201caa9682826097cfe2363110c509fdea0693571b510b5afe8b06ff60",
+      "visualDescription": "Block-like outline with a broad top and bottom and evenly repeated inner gaps.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/143",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/143"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/144",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "846202104c1304634c1ab4f85885036d29293159b942e68f053dade7df766bb1",
+      "pixelSha256": "a8b5e193ce9acea7e75f0c7f2439010daf13711eb71750ce57e0b715275f694d",
+      "visualDescription": "A left vertical stroke with a broken central band and a long lower-right bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/144",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/144"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/145",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/145"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/147",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/147"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/145",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "846202104c1304634c1ab4f85885036d29293159b942e68f053dade7df766bb1",
+      "pixelSha256": "a8b5e193ce9acea7e75f0c7f2439010daf13711eb71750ce57e0b715275f694d",
+      "visualDescription": "A left vertical stroke with a broken central band and a long lower-right bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/144",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/144"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/145",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/145"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/147",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/147"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/146",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "474aa74719d660baa8fb2045974c69f0b1df5693a096286171f2acc94aeea74e",
+      "pixelSha256": "e4d5b48605659d4a65fa845c79c0d52863c156df4cef8a970d1e2df209a2af1b",
+      "visualDescription": "Descending diagonal sequence leading into a broad lower bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/146",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/146"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/147",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "846202104c1304634c1ab4f85885036d29293159b942e68f053dade7df766bb1",
+      "pixelSha256": "a8b5e193ce9acea7e75f0c7f2439010daf13711eb71750ce57e0b715275f694d",
+      "visualDescription": "A left vertical stroke with a broken central band and a long lower-right bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/144",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/144"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/145",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/145"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/147",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/147"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/148",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/149",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "5dd08c544360e4294c06919ff0cfe4e2aaebe6d3bb815640ff259b2462cf0bc3",
+      "pixelSha256": "ff240cc7471d0799f0f56ab81c54a2e0e42e1c147a013296f4a85c96d7d2ebd8",
+      "visualDescription": "Diagonal sequence descending from upper right toward lower left.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/149",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/149"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/15",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "92e1eadb86a85e5e8fa675f453c1fd0e182e1d093e6c549e64da3a2a9cde67c5",
+      "pixelSha256": "67496ab871de1f2f9b4a659cb287bd410bbf6c6f5d198c756cbe574ee330b00f",
+      "visualDescription": "Angular rounded outline with paired side strokes and a broad lower curve.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/15",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/15"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/150",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "a5996918d76fed128f7864bf90dcd0c2b365b8365a0b45b42e0753de950bbf47",
+      "pixelSha256": "799cf1f25f77293578c7cff982943cfe3658c7f0b83acf7e6c86d791d2c0c4c5",
+      "visualDescription": "Two short upper-left strokes with a longer left-side bar below.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/150",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/150"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/152",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/152"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/151",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e729fa22c1d8a57d5a8b447ab42967e5370f61364a832a6213d00ec6e9b3b51f",
+      "pixelSha256": "1c470a5a099a131985b891ed1743d6a757bfefc321b7dd980be756ebc6bff11c",
+      "visualDescription": "A diagonal sequence descending from upper right with a broken, staggered middle.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/151",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/151"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/153",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/153"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/152",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "a5996918d76fed128f7864bf90dcd0c2b365b8365a0b45b42e0753de950bbf47",
+      "pixelSha256": "799cf1f25f77293578c7cff982943cfe3658c7f0b83acf7e6c86d791d2c0c4c5",
+      "visualDescription": "Two short upper-left strokes with a longer left-side bar below.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/150",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/150"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/152",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/152"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/153",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e729fa22c1d8a57d5a8b447ab42967e5370f61364a832a6213d00ec6e9b3b51f",
+      "pixelSha256": "1c470a5a099a131985b891ed1743d6a757bfefc321b7dd980be756ebc6bff11c",
+      "visualDescription": "A diagonal sequence descending from upper right with a broken, staggered middle.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/151",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/151"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/153",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/153"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/154",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "4ebae6b0e3547215a4f79bcd4f0349b5f741af91d8bae15538fd44fcbc464211",
+      "pixelSha256": "24a617244ec6f7c7d1763ca40eaa62256d6476d3d6e2c38dd266960246bccd5e",
+      "visualDescription": "Left-side cluster of short bars followed by a descending diagonal toward the lower right.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/154",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/154"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/155",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "ba5161fae691d1f1d6f6eeaa60a7ad97cb9093f78518eb92559a3f84f163190d",
+      "pixelSha256": "05c5921ba2cb2df4f767fe190870a15740f98335f28eb3a2df1a800b61cc3236",
+      "visualDescription": "Diagonal upper-right strokes above a stepped, curved lower cluster.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/155",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/155"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/156",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "4ecd466fd865cdc8381dda12e521481aa7e5de3fdd504f7b47cd9238d5ab7414",
+      "pixelSha256": "688f7a8caaade8b44c86b3b76c991eb928dd19ec653f5e5eaf10de52458bc1e7",
+      "visualDescription": "Left-side descending diagonal connected to a short upper-left bar and a lower-right cluster.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/156",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/156"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/157",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e937188e6c37dbd850cc3dc74877314102f8448f84bd6dee08969e04c3f8991a",
+      "pixelSha256": "467c26062577daa2881ff2ce35dfdde4d812d57927ac0eb42e27d8836f932177",
+      "visualDescription": "Three small marks on the right near the lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/157",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/157"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/159",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/159"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/158",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "fe7f0c24467172337a70691042656c8e9fd53b1ca82e7657e1f99a7d29b43f5e",
+      "pixelSha256": "732c024b76d69e17d444ef82694d893600d2de2781bc4c3e328e1e064c4c6901",
+      "visualDescription": "Descending diagonal band from upper left, ending in a short left-side vertical stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/158",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/158"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/164",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/164"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/159",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e937188e6c37dbd850cc3dc74877314102f8448f84bd6dee08969e04c3f8991a",
+      "pixelSha256": "467c26062577daa2881ff2ce35dfdde4d812d57927ac0eb42e27d8836f932177",
+      "visualDescription": "Three small marks on the right near the lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/157",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/157"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/159",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/159"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/16",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e92e1861e4d768793362225fd73a915617714f030c6f7ca27bd252b069cc7eec",
+      "pixelSha256": "d5152ec83107a72152abb8f0f5bcbe1583c688a5d3edf9b1ce48e06660d886cb",
+      "visualDescription": "Blocky outline with a broad top and progressively narrower stepped strokes below.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/16",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/16"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/160",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "189dbd5be932f4dbd0379137706e3dbb72af5876c487ad1a0d125c138b0bf13d",
+      "pixelSha256": "4b3718bb1ee1891155dc139af53679bd2c33c761988c633e974f61f48b3ea958",
+      "visualDescription": "Repeated descending diagonal strokes with a staggered central sequence.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/160",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/160"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/162",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/162"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/161",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "a53ac490e25d7433cd37ffad050f415f9b4f410924901e07ce3cfcb191c2b23f",
+      "pixelSha256": "4bd8c65d7fd554293b804bd7f3068eccb16cc084f00cc3418bfe6e865b7d4f9f",
+      "visualDescription": "Sparse descending diagonal with a short right-side lower cluster.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/161",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/161"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/162",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "189dbd5be932f4dbd0379137706e3dbb72af5876c487ad1a0d125c138b0bf13d",
+      "pixelSha256": "4b3718bb1ee1891155dc139af53679bd2c33c761988c633e974f61f48b3ea958",
+      "visualDescription": "Repeated descending diagonal strokes with a staggered central sequence.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/160",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/160"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/162",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/162"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/163",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "cd611a1128322ccf4d1185e6c445d49f092ce02906fc391df60e1572071aa6ac",
+      "pixelSha256": "8dffb922c217060b6444f10df3b1721ea63405e37e330e8914d26c090a0ce656",
+      "visualDescription": "Stepped diagonal descending from upper left to lower right, ending in a small corner mark.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/163",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/163"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/164",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "fe7f0c24467172337a70691042656c8e9fd53b1ca82e7657e1f99a7d29b43f5e",
+      "pixelSha256": "732c024b76d69e17d444ef82694d893600d2de2781bc4c3e328e1e064c4c6901",
+      "visualDescription": "Descending diagonal band from upper left, ending in a short left-side vertical stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/158",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/158"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/164",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/164"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/165",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "d9add69faf77f3173c51096a765f16cc8cf5971aefdc448422a14d560cff496d",
+      "pixelSha256": "09ed4709cb351bd134999a7a4f8c1cd1b30bfd484f72ab852bd22cfb4d3d16aa",
+      "visualDescription": "Stepped upper-left cluster with a long diagonal continuation down the right side.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/165",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/165"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/166",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "3dc15e77744c6e5cff98275d72e3d1bb510e1f504f8d39008c0637567e181f64",
+      "pixelSha256": "657cbc582d8464bd7829fc834610720379ea7f0f7d5eb4abd4743e3f687d272b",
+      "visualDescription": "Dense descending diagonal at the upper left followed by separated strokes down the right side.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/166",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/166"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/167",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/168",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "d86cab01def917512cb1149f6a831460c209f820493efe915099e8ac706c0c54",
+      "pixelSha256": "65c498adeb55f99d2c008afff544bbebafc62f2df22eebabceaa593454fb503c",
+      "visualDescription": "Three short vertical strokes beneath a broad upper bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/168",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/168"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/169",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "ee3d20709aaac3f8423d4ee4f5a5c2289f04809fcc0f5052e3f7206b4da1c07f",
+      "pixelSha256": "bc4936a70e291cd0a4331da99a7e59dbb110cd38e217483d15eaa65982ceb421",
+      "visualDescription": "Three short vertical strokes beneath a broad upper bar, each with a small side notch.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/169",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/169"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/17",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "7d54d3d1a5eed6041d8eea2da2ed3a5b7f3e626e2173a6f723debabfdfff73b7",
+      "pixelSha256": "f51437e792356c844def7e2bc864d1e4670b78b3469f276a8a57bc86a8bd74c1",
+      "visualDescription": "Angular outline with a short upper bar, paired side strokes, and an uneven lower-right extension.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/17",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/17"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/170",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "f4f9c21ad9c9a4e97a69c2f785b2c78daf5c785246a468ed97b7682c8d373432",
+      "pixelSha256": "4a00d0110c822512247287873c06d39096488c3c918d9574f6f32db298c27c8b",
+      "visualDescription": "Three short vertical strokes beneath a broad upper bar, with alternating side notches.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/170",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/170"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/171",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "9a384bfbc45c3b7d23ab7ecc9b3069d98f60727ea9e5da82abd4399db007ef97",
+      "pixelSha256": "174fc77808a405b0d5afa25e23893809f7b660db5466d538672cef193d85c67c",
+      "visualDescription": "Three short vertical strokes beneath a broad left-aligned bar, with alternating side notches.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/171",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/171"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/172",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "ad408d726013d3bbff395b81bd1cc73d18204fa61d10814495b9444316504612",
+      "pixelSha256": "e391e6a65612faed4a2aa2375995c7faf71db9af6c34e0b9706d3eaa8d1ca35f",
+      "visualDescription": "Two short vertical strokes above a broad bar and a single descending left-side stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/172",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/172"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/173",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "7b8233f7bd6c0c9cd83106093f8d79e2371d1901ade6eb6f077a56be463c1043",
+      "pixelSha256": "3d4c24c457bf38b2d67dcd7a2f45b3808cafe864f9a15a29f02be3f2fce30d83",
+      "visualDescription": "Two short vertical strokes above a broad bar enclosing a repeated dotted inner pattern.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/173",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/173"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/174",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "ff4a56eb89afc80ed2ac50fa3bdfae78fcdbd7e9407a4b4e97965ab1ed855e5d",
+      "pixelSha256": "0997633f25dc4f3aca3eaba974c0415d6889d0ec993596f6a541d760ba1e958d",
+      "visualDescription": "Two short vertical strokes above a broad bar enclosing a staggered inner pattern.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/174",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/174"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/175",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "0d16ee609e9e3e038025d17ceee0a3a6c355cbddcf76c2a9b3374f2948cef902",
+      "pixelSha256": "3b125fd0a3ebc94fa11d4b7618342ff451ff8726c8feda9b80ae2ea66ae76dae",
+      "visualDescription": "Two short vertical strokes above a broad bar enclosing a dense alternating pattern.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/175",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/175"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/176",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "0faee5cbe547301f590e579ce21f9c5bf0f6c7c7f3365e640d0f2b05ecab28aa",
+      "pixelSha256": "54295cd6e6463e020386dd8448e4b8de37198a9890d45cdb361c4af00c3894c1",
+      "visualDescription": "Broad left-aligned bar above three rows of alternating foreground and background pixels.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/176",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/176"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/18",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "5943fc3a22daf4273462043baa23f36744b639985ab6124d32e35f5d22d1e08d",
+      "pixelSha256": "edaaac23a534c968285747e3c9d8df1b3584d39728969fab702daf2c7fe64a06",
+      "visualDescription": "Rounded stepped outline with a broad top, inset middle, and short lower-right stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/18",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/18"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/19",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "3148c79c92ce6bcc0aa0946550d13c85d0f10f4898951592ad12af479a8873d0",
+      "pixelSha256": "d7d112f47853f0238fd1fd8c17b3e375f54cca6f3882d7390f5a8e439f5f7c19",
+      "visualDescription": "Irregular stepped form with a broken top bar, open middle, and isolated lower-left pixels.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/19",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/19"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/2",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "07397ef507b7cae1eb815a0e5c9158769d1b225d50fcefa17d8254c7b84fa150",
+      "pixelSha256": "b10f8f6ddbbd4e7354e5bae9995dd476117cb46c26951429876c3dc142f535e0",
+      "visualDescription": "Rounded, stepped outline with paired side strokes and a wide lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/2",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/2"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/20",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "0fdf8e5b8dfd6580c0ea40777f3810a9f5d66669496ad949099c8c8facaac9a5",
+      "pixelSha256": "5eb83805af9aadc5bf954fb2e8d9c8cd9a648ea4fdc3344b6a54742681e16fa9",
+      "visualDescription": "Descending diagonal with a broad upper section and a short lower-right tail.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/20",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/20"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/21",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "8d30f03badc89ede4c000a000d51b113c22e0f51838b3b2846b112406b02752b",
+      "pixelSha256": "31a9d440f88df33d00b8d6b9b3bdab186cb929ec4a2f440585b3df500beeb229",
+      "visualDescription": "Symmetric stepped outline with a narrow central opening and tapered lower point.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/21",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/21"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/22",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "af5421e208117ab196a14c7afe275bd5cd1d5288bbcb797ac4fe9dfee6effd8a",
+      "pixelSha256": "be6427b6ac634af9edceef36194dfb20feb1bc981d82a0bd6babf21f21ee1026",
+      "visualDescription": "Symmetric stepped outline with an inset middle and a broader lower-right section.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/22",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/22"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/23",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "65a057cf727ebc3429b81b5e68008cb2a9a7124e17592eb1b7c29c1f7acce517",
+      "pixelSha256": "1dc7e4bf82ec8f21a9983809eced66e7f27337fc97d4d8dfd6f4eb4db4ec8710",
+      "visualDescription": "Broken angular form with a diagonal upper stroke and separated lower-left marks.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/23",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/23"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/24",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "206e517d00dd1ca4aadb228cca53496e3aa3ae9690025bf8375c7c6f90ba7a62",
+      "pixelSha256": "0ed8cab86a5f80c447daf61af27516a5a9cea849c56ef1aecbc32c7da42ef5bb",
+      "visualDescription": "Compact crossed form with short diagonal arms and a small central junction.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/24",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/24"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/25",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "7f95259fb03ebef233b19fdd8ecf4a10887cf7ae6519f7e2464c0f06c0540d5c",
+      "pixelSha256": "01bd370ab4c227a791f06abf9b690e2ff0ab5017eb28e8d7dde6583cb31d07dd",
+      "visualDescription": "Rounded stepped outline with paired side strokes and a wide lower-right foot.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/25",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/25"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/26",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "1e70cefa859923be65be27c49009d8cc21eaa883068b0e1e1ac5d3efcbd507b6",
+      "pixelSha256": "3678ae05740de510ddb042a51e00eb192b57bf57bba3b4fa5f3f179189c91c6d",
+      "visualDescription": "Irregular stepped form with an inset upper-left notch and a broad lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/26",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/26"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/27",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "58b600916407a43b4ebf881da737b39f7e110292e6408335454172f01c6ddcbb",
+      "pixelSha256": "a3972e5489d74eeaf8fd942f7878ada94187fcbadcedbcd20f47496974138826",
+      "visualDescription": "Open angular outline with short top corners, a narrow middle, and a broad lower bowl.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/27",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/27"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/28",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "12a3ae445661ce5dee78d0650d33362dec29c4f82af05e7e57fb595bbbacf0ca",
+      "pixelSha256": "8f62c344eff1568474fb693b8c18526629db443b9653a84264189c97693605de",
+      "visualDescription": "Solid square block.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/28",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/28"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/37",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/37"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/29",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "d155d4b4a5d82abdc42ce8dcc31a7339a003b872ec0332c856f69d6ccc59c967",
+      "pixelSha256": "940c40ee206cd3ad65c0dd064c3062aeb8e29ac7646a4e825aed107d8ef28495",
+      "visualDescription": "Narrow vertical bar along the right edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/29",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/29"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/3",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "59112a629de6da392d9a6933a56e914c5faa47f054455533c7cd2dd1f3853833",
+      "pixelSha256": "e6e5ff3411a519174050c12271186ef4a19bcb2f284165642cdb45653e5980e4",
+      "visualDescription": "Angular form with a short upper-right bar, paired left-side strokes, and longer middle bars.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/3",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/3"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/30",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "3d73c71ad63f39a8a47bee131c1705f2b8c446a26c36ce5a9b6e6e4162fc9f86",
+      "pixelSha256": "59e9c6c45126ca394e655543a9e0d1092ec3b641d976dcd47e4ba193e0d928df",
+      "visualDescription": "Solid horizontal block across the top.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/30",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/30"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/31",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "c424880e5694e56cef2c68801926a747046a16ee7d7a4c6dc3e7b6ae8e2bcc9b",
+      "pixelSha256": "90745fad419dcaabe2258390ca5eb236b3d5a643772c7f219182b4db891e4ada",
+      "visualDescription": "Top horizontal block joined to a narrow right-side vertical bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/31",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/31"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/32",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/33",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "b40cb535e30160da65554d7feccb54ec984f99250b18fb6e20f7d18765503f7d",
+      "pixelSha256": "d8c46010f3596925a6fa4e67e2a38daa991d8560573c01ac2830b1a87ba0748f",
+      "visualDescription": "Centered stepped form with a broad upper bar and a narrow vertical stroke below.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/33",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/33"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/34",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "6e8e8f74d8e553545e877ff8c0470f4903fb8cb9b1d67dbb09097314d177d4fb",
+      "pixelSha256": "031b33ad09f16d7f42c6317f6e8014aa470e84fb5637397e96299a91661e94e1",
+      "visualDescription": "Two separated short vertical strokes, each with a small inward-facing notch.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/34",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/34"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/35",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "06f271abe0a54efc9692b89adb30e9e11ea5b20d2fdafeded6ce79677c39fc5c",
+      "pixelSha256": "f43e8ff7a64ab76db90543f8c4ab9d63d8464a217be2eae73f3d1b33c4a99956",
+      "visualDescription": "Two vertical side strokes crossed by broad horizontal bars.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/35",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/35"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/36",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "bfda3f1ee84ee1c611b09cd80be044a45bc019abe56c5f04c4b38089fe60adb3",
+      "pixelSha256": "ffdd3939e8cd8714769198ea55b1f87d343c438cf1b133b123502cf3d1673102",
+      "visualDescription": "Slanted stepped stroke with a short top-left arm and a long descending right edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/36",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/36"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/37",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "12a3ae445661ce5dee78d0650d33362dec29c4f82af05e7e57fb595bbbacf0ca",
+      "pixelSha256": "8f62c344eff1568474fb693b8c18526629db443b9653a84264189c97693605de",
+      "visualDescription": "Solid square block.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/28",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/28"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/37",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/37"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/38",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e4a82386a620b0b014cd4e42ee543e3b07ff84bc9e04482521ca11a1c90df2db",
+      "pixelSha256": "260bac248bc4428e4b40140016c29863ab96c6890ed8105256cbb51d7e3e0113",
+      "visualDescription": "Rounded stepped form with short side bars and a broad lower-right edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/38",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/38"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/39",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "688e613a240d1a81666e24624664a5a87df9f47beea6b51e15e5c3222e6d707d",
+      "pixelSha256": "a054e526e70286804432ffd94ba91d0066f5547052cbef79284b78dc3f052773",
+      "visualDescription": "Short descending diagonal stroke, thicker at its upper end.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/39",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/39"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/4",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "f63725e9464ba6673670a13a74f936ce33b00a24e4b1f8906944d86856e23f77",
+      "pixelSha256": "2bdba23d296ca940a88054c567f7387df962a22cc5dd28aa92ed7d2cf711e0bd",
+      "visualDescription": "Stepped rounded outline with a broad top and bottom and short paired strokes down the sides.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/4",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/4"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/40",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e58f6358b3b771c277ed2983593e9b5366b81eb01a943090cf031db0966b4fcd",
+      "pixelSha256": "1506c259c7edeba7b8deec2949b24638a436e01a479ef85260a56995bd728a58",
+      "visualDescription": "Long descending diagonal stroke from upper left to lower right.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/40",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/40"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/41",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "ae98e6af8777b62f474caff7039dab69458fa5e15db883d1d432c67693aae671",
+      "pixelSha256": "7ce2459e31db466dcf1dfdf184d881ee6482e4de8c33df116936ad54b1cdbf7e",
+      "visualDescription": "Long rising diagonal stroke from lower left to upper right, with a short lower-left foot.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/41",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/41"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/42",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "31e48050528a085604869d7d9d339a259e0c2401878ccccff6788922796f3e2e",
+      "pixelSha256": "abc24cabe141fd0fdc538466bc048e8b21765655a70a7423170ea17bb1df88d5",
+      "visualDescription": "Centered diamond-like outline with a broad horizontal middle.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/42",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/42"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/43",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "55d88fb6deab45ac24fe5d379833d232c3cb1793fcb2c19bf60d98b841913d86",
+      "pixelSha256": "08d0ef9d2b71101390dfa31bbff65326c05c12123f604a481bf2b55cdc844580",
+      "visualDescription": "Centered vertical bar crossed by a short horizontal stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/43",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/43"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/44",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "ef614126305ce2f8458b96eff7821be2a5bb94235287dd89a0e333de87bfe0fd",
+      "pixelSha256": "32ed88ba5221f4cede037dd3a49a75efaf6192ee9f5a023d9b61212387900236",
+      "visualDescription": "Two short vertical strokes near the lower-right corner.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/44",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/44"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/45",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "1179c4dcc9f4634253edf3dccbfac35f6ecdba3c45a49ae53ce6a4de889fa4bf",
+      "pixelSha256": "a4de03530a663453687705770f7aee8fc95364ddda21dc586192eeeaf9813007",
+      "visualDescription": "Short horizontal bar across the middle.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/45",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/45"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/46",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "f26e2e1b91b86453817a3cdad0b3499f48ad674059da435bab2db6d4469b4660",
+      "pixelSha256": "038b2973585b6932093cf772a3d907d1aa4614c96b9be695c3e9eebe91de9f72",
+      "visualDescription": "Three small vertical marks grouped near the lower center.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/46",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/46"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/47",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "2d84d9c7543c946721642cca56d72be02bb05735992a1606475c37ad7def15a1",
+      "pixelSha256": "0bf52deaef8e15b021079d3857953274a6366f87851a28491e45f659c0b2480a",
+      "visualDescription": "Descending diagonal stroke made of separated stepped segments.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/47",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/47"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/48",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "d740d5a8bc5c4966644144fc41c67b96a16fa436d6dedfa4bf7bfb107975f51a",
+      "pixelSha256": "6d8cf6282f76e2c6a73d635f2e29b218ecc147324051cbd4428ccf03e158ef6e",
+      "visualDescription": "Rounded rectangular loop with a narrow central opening.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/48",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/48"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/49",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "2a674069290fa85924a4198c7f88ca10a351c6da4420f691a4b54ade60a8fec6",
+      "pixelSha256": "4c4e077c1a3cd005d80b7fd74081cf08829379bcbc66df400755a9bbfafa12ac",
+      "visualDescription": "Short stepped descending stroke with a small lower-right foot.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/49",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/49"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/5",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e974b6c7137acf596c09adde1354dd163fbbe21a07bfc1e683db4872711b1c4c",
+      "pixelSha256": "86043172276722df84a7f2319e3fcd07033fa9396269a9d9880fd644baa2e964",
+      "visualDescription": "Irregular stepped form with a broad upper-left area, broken middle bars, and a tapered lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/5",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/5"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/50",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "a13a148ec843c8a919a98c6dce0d3f1030feb9f8ef747c432015111ccd2d52d9",
+      "pixelSha256": "df270734384341ae6652eb400f3c55e128662b111b1d5bc455148fd8e8b6738d",
+      "visualDescription": "Rounded stepped form with a descending diagonal and broad lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/50",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/50"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/51",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "4d55de90eb75443ce7cfb4c200109ad6970fe4621fe8b104e6ba143bca94758d",
+      "pixelSha256": "a2fb1e2eedb2d80da1e3b373f5f36839a0a925be65e046cdfe3adf4dfd46850d",
+      "visualDescription": "Rounded outline with a short central diagonal and a broad lower curve.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/51",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/51"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/52",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "639a22c3775aa1be69353134e6eb96ddd9a2d03464a6832abf03528cfc4cb2a2",
+      "pixelSha256": "8baa810e910b9a1ce7050846ae80f1c231035a66467971e74086cef72e3a2b20",
+      "visualDescription": "Descending stepped form with a short upper-right mark and wide lower bar.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/52",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/52"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/53",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "6dcae487275789fa234fca2f17c110b0834591c1d197d92698510fdc266c23aa",
+      "pixelSha256": "14a6fc6ba17eb4e167c8a7b9fb0b98b5006f9a641f1aa25a668532d8e23a54c0",
+      "visualDescription": "Rounded stepped outline with a broad top and lower-right curve.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/53",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/53"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/54",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "de3c24b6c6faac0fe4859648ff3fe51a4061a1e91e038da2a3c2d7c1aa9bcf88",
+      "pixelSha256": "f30e48e6b6c59482fd21a57b8c0e39bc97c301c8371e55ab7fd5e13abdd6ffed",
+      "visualDescription": "Rounded outline with a short central bar and broad lower curve.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/54",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/54"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/55",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "8448e8ddfd45446960d802f62ad5037d4455cefb5514e90c82ed04a19cbf5bf4",
+      "pixelSha256": "3bf8bb636c941c02af9aa7cec2bdeffddf92f2cc6db29daaf4e22266d21e18cd",
+      "visualDescription": "Angular form with a broad top and parallel descending strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/55",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/55"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/56",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "1aa2c930946f059d5813c39abe2bc9d7f42a87f9a6d6633c2d69bf15ae8f0a0b",
+      "pixelSha256": "ad11fca021e8ebbfe983192dd37a47bd4ae632bdfec13ac6372597e2781423cb",
+      "visualDescription": "Rounded outline with a centered narrow waist and broad top and bottom.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/56",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/56"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/57",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "2086d61e4e9d4e766dc6f56ddeac2c6e99e967ff72a0c7a01e623b2dd9a8bb46",
+      "pixelSha256": "c7d571a481981feab56faaeaac5ed2cfc183bfaa2908f89223d5e8863a9904c3",
+      "visualDescription": "Rounded outline with an uneven central bar and a short right-side extension.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/57",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/57"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/58",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "7d085a059275040d8701babe8ce512074228c0259805be260085d50b52f83fb4",
+      "pixelSha256": "254c014ba813cd34d754a57de0232f60c9e46b6b27d195d3774d5a022a1703d9",
+      "visualDescription": "Two vertically separated pairs of tiny centered marks.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/58",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/58"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/59",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "2cbaa33677bf4b76666367d443d31d74dea1197e18a0225fea21816626fb8e03",
+      "pixelSha256": "abc92d343ec3ad38c733a23904290e25380e1bbc51dd67a8a85176d6865c73d3",
+      "visualDescription": "Two small centered marks above a pair of lower-right strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/59",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/59"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/6",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "d24e83426bd63524ad19a76aee1f9307451101156108071ed4b4e9b075c5ba21",
+      "pixelSha256": "f23a2be2f2ff1d3f905674befdf9fecf38cf99efd7ce6d0366baac367b3fec89",
+      "visualDescription": "Tall block form with a narrow central gap and broad stepped sections toward the bottom.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/6",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/6"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/60",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "4099c6e7f930f65a0f8b6f3f7c6942f854b6f1ddab8a1e1a3fb623e47eba66f2",
+      "pixelSha256": "4a95958e47e151110ff77d579fcbce699c29ebcdd8d26a92ca0f0f8c0e95b82d",
+      "visualDescription": "Descending diagonal with a broad upper-left section and a short lower-right foot.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/60",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/60"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/61",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "8b02a96438eb5dbde726883976d6e3e6b9299e45f4e525997b0470eb8d437d53",
+      "pixelSha256": "bc63e9d3291523f9f49bd015b91ebae69f567e0bc9f8fe318d00715a265c2dea",
+      "visualDescription": "Two short horizontal bars, one above the other.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/61",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/61"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/62",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "7992b73ff15d2c90c00d3c0a205548d197f93ac134dfbd1fbbedb7e79e7a8a0f",
+      "pixelSha256": "c761f59a88cd26e63da273a00057b217a917f375e323b8cc08a67c1b84f5d1c6",
+      "visualDescription": "Rising diagonal with a broad lower-left curve and a narrow upper-right end.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/62",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/62"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/63",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "018470ed6bcee08c06e00002e2737b70e146294ea2bc0cc906b5d4ab08268e28",
+      "pixelSha256": "58bba327d2c68af8e1f8770396b9fbb9dbf325a1f3262fbc935054177e93d0be",
+      "visualDescription": "Rounded outline with a central gap and a short lower-right stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/63",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/63"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/64",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "f05d907e157aeba36073d3b1ed54d78e6114841654f459150c3f0396c3d928ab",
+      "pixelSha256": "4caa4c39c63d163015ddeb9c5d5214eef45870cd650bfd887e0a5357992fed0c",
+      "visualDescription": "Rounded stepped outline with an inset center and a broad lower curve.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/64",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/64"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/65",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "058d3d04062145aa1559a54daa1df604d6c39010d25f8081fe7939b96ffb8ac9",
+      "pixelSha256": "e5086c1e6badc22b9a40c26676e405ecb856d61c4805676c2bcdc548232cdbf3",
+      "visualDescription": "Short vertical mark at the upper-right with a separate horizontal stroke below.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/65",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/65"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/66",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "d35afaeb25a5b9ea89386531ce27c057f5b02ab77765a04ae7f80e84a21553ab",
+      "pixelSha256": "be34a742c2785318dbb493bd8d239b733e8a4d9071e7cb3114a9f03a2f0bb181",
+      "visualDescription": "Short vertical mark at the upper-left with a separate horizontal stroke below.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/66",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/66"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/67",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "4f03a6695603805e5213a23b05a187b2cb16171c587eece685b4390bb1b42bf7",
+      "pixelSha256": "c55cb2c4ec491cc673b559c21e18d7339e9bd15debad49c5dc605cbc1a146d9f",
+      "visualDescription": "Two short stepped vertical strokes, separated across the upper half.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/67",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/67"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/68",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "dcd6563773f3d9e1bf63a979d8aa5790653611cfc28c5fda7441062f3cfcfb31",
+      "pixelSha256": "34d662cde7c972efe24a13c9ca65c8c321550aed1ed972f23ba8f5c65dff8ac1",
+      "visualDescription": "Uneven stepped outline with a top-left curve and a descending right-side tail.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/68",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/68"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/69",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "7c8ddb5bbb085e06f8d9311987922a38194395438ac5a7e97c19d136612041ea",
+      "pixelSha256": "003c596b29c5f4ee33d51ae04b1fcc2abac74e5b83b6713181a3e3d6a6090233",
+      "visualDescription": "Narrow vertical bar near the left edge with short breaks near its lower end.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/69",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/69"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/7",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "d79f3abbb05cab6696cc56386f048559ff145c9cc35a10664bd617d231f54f24",
+      "pixelSha256": "cb35818e5db06c67d82f12ba4c88bf4fcaad44bf0359f46e217298ca366e08df",
+      "visualDescription": "Angular form with a short top bar, stepped sides, and a wide lower-left section.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/7",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/7"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/70",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "1d79a4df640b7b8f3d4d329e10af2949dd9ad994e5231ab503a5795b6c897b28",
+      "pixelSha256": "afa5faf692da7a406b0b2fc98f55ebdd08d0ad5134508aa57fc70f3fc708858e",
+      "visualDescription": "Descending diagonal made of separated short strokes, broadening toward the lower-left.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/70",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/70"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/71",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "cbcb31be6c368a08d6a37c1e224268445aa70852a672106ed058ab4e3dabe2a9",
+      "pixelSha256": "00e28b074683a5e49e1f5aa254856ad27239c18bcae11857a3d7648a7285b275",
+      "visualDescription": "Irregular stepped diagonal with a short upper-right cluster and a broad lower edge.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/71",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/71"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/72",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "222740c7a6a43e17e9083707209b810d677c077b758789ec7e2f27da3da75709",
+      "pixelSha256": "591ea857d54a406e067d71eef8b1f3cf3ba7797b935279d0f672070014ff6243",
+      "visualDescription": "Scattered short marks arranged in three separated horizontal bands.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/72",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/72"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/73",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "bd24a09a6c15bbc46efd4a3180a64e2a6723a67de8023b19726679e72240aca8",
+      "pixelSha256": "53fa08f9bd52a6346f86a13a8c30ee9cca96e906084d0e844c505f94bffc431e",
+      "visualDescription": "Short descending diagonal with a small upper-left cluster.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/73",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/73"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/74",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "003dc3ff02db1145f2a69261a31f47f530c3fbc69d39f550d6d56abade22ae2d",
+      "pixelSha256": "cad68cb471ca08957c3aec2047f716e4eac6504db13f59905ad0674f9da5ced1",
+      "visualDescription": "Descending stepped stroke with alternating short horizontal bars.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/74",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/74"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/75",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "c017f8452ed8ab81c80d5878712dc45aa9c46dd4c65053e56ba9490051d88310",
+      "pixelSha256": "e5856f57d97466fa8dd067e1307bc46b070cd8f530fd0c9fb7c85ebcb2a7dc0a",
+      "visualDescription": "Compact angular form with a short left bar and a broken central diagonal.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/75",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/75"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/76",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "f01a28ae38f594697f093cce7fe392deb6083e77c34762a17351cd691c8d9477",
+      "pixelSha256": "e22872b8594092488f4badd2f341274dbbdc10cf8962f6c074e96c745e54bebb",
+      "visualDescription": "Open angular cluster with two short upper marks and a broad lower-left stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/76",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/76"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/77",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "2d67ce9aaa022c3fbb673839c8ef3be96adf042d4c624ce0fe677aa844c1c02d",
+      "pixelSha256": "7047df1ed63c70805a1c0d540bca078ab04cd8384553eebb5f0387f1690a5b47",
+      "visualDescription": "Narrow stepped vertical form with a short upper-left arm and a lower-right tail.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/77",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/77"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/78",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "2e9577ad972c1dbc3a4bf9fc46391a017ad886f713efe11636c24c6cf3fc8227",
+      "pixelSha256": "2aecdd3165f76da4eeaae815e5e3be357b6d8d39f2a213d64155b60888818848",
+      "visualDescription": "Descending diagonal formed by several separated broad strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/78",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/78"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/79",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "fc54b9cc947f4f27c21e42867eb4e83c024145d6130cbebde529933391f9c413",
+      "pixelSha256": "deb20ab97eed448d3a1889a4642bd6f38d66ebb5a1b6258303347ca825c8e108",
+      "visualDescription": "Short descending diagonal with a small lower-left cluster.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/79",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/79"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/8",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "f0d2b09a4ee3fa03cf925d3f9d242c7c0c3bc9d6bc092037a3761c0ef0995125",
+      "pixelSha256": "af231df17e8bd97bdbba771cec0da1c5c12fab274f66472c8dcfdb873e79dd8d",
+      "visualDescription": "Symmetric stepped outline with short side strokes and a horizontal bar across the center.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/8",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/8"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/80",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "781b115e6a971489ecad308a952c52ac9017667d87a992833f379e13eb8409d4",
+      "pixelSha256": "a59e3d6a9d7f16e14751945cc37eef0f51244c0f8c428cf17e6ee58b95def88b",
+      "visualDescription": "Dense irregular pixel cluster with short horizontal and diagonal branches.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/80",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/80"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/81",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "38cd314f81a345970f8a17a9e4dc2ce30b5c862d58b689f09799c4e9a161d40d",
+      "pixelSha256": "cdfe4af0299bd73da13be131562259078d5f074d032a7c24c2a09ca58178c1f8",
+      "visualDescription": "Short stepped vertical line with a small right-side notch.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/81",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/81"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/82",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "22e8e9c65580179b83e0afe8607a06429066f77f011ab15acca2fa74b047c481",
+      "pixelSha256": "f203cfec1c91a2993160ace718ec36039088d77378d783ae4497b52aa5f85042",
+      "visualDescription": "Descending diagonal with a short upper-left bar and a lower-right foot.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/82",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/82"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/83",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "724bc52042e5211abbfc8be9779b07e14878475181177064857114366a6c361b",
+      "pixelSha256": "d1cbbf247f4ac6ccda8d4687c74cb433c95d924f9ad750f5df76908f0b6b82a4",
+      "visualDescription": "Three separated marks forming a loose descending diagonal.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/83",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/83"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/84",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "4af4c048740d2edc5331f2d4d7a78d1a332f15a806035b571d579fb960eb84f3",
+      "pixelSha256": "f02474caffc4e2417c2838c4473caa70538bad8b3a49622a03de819d7d3cafce",
+      "visualDescription": "Irregular stepped cluster with a short top-right mark and broad lower-left strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/84",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/84"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/85",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "3134275e75d0959e580faa53f8f592096aabb8663a277c816098a7c839fcff20",
+      "pixelSha256": "357176ebf5728978eebb13db3faa89c71dd3119df9f559b65c1523722c11a750",
+      "visualDescription": "Uneven diagonal cluster with a short upper-left bar and separated lower-right marks.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/85",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/85"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/86",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "28bf41ec054b389a4d06e8d86853ab8fe2f6458db52b4c2579d034ee883649ab",
+      "pixelSha256": "d2a24ac68c6f7ccd72f79786b441f21d75762b0d4d200e48fef3d6c765c88dc7",
+      "visualDescription": "Broken diagonal with a broad middle segment and isolated lower-left pixels.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/86",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/86"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/87",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "24cfacc01e3509de22dcdd8564ee8134d4243e81b2938d6b45a148da6720e21f",
+      "pixelSha256": "28087c1c0d6fc29fc6a89141b4790a6932717f34c04e472f361a71dd62c5d3ac",
+      "visualDescription": "Thin vertical line along the right edge, interrupted near the bottom.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/87",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/87"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/88",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e7a69fb61757caedf8c516608c1cabd6a53e76730ebab809edbaf2c00e088eab",
+      "pixelSha256": "d265c26e8e0b47b77e5194fa28adafa730a7c4e7c91e2f8aa605b36812edb7fd",
+      "visualDescription": "Short diagonal stroke descending from the upper-left, with a small lower-left foot.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/88",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/88"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/89",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "00f562e664224a307793b8bd129bae7e6d399c5c26d1b5990d78e0bec0e61e22",
+      "pixelSha256": "94b8316f603080aef36aee4e2a59bbf63778f02726a240d17380456c726075c4",
+      "visualDescription": "Compact stepped pattern with separated diagonal strokes clustered at the center and right.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/89",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/89"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/9",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "c4edab15e0a7c3e6183bd42d138ca90a56683be82a76b15d7012220f06a8c2cd",
+      "pixelSha256": "2023d153c07fca6f8a242b65b386c820906b7f04df4c01ec7fa8cc658edc8ac1",
+      "visualDescription": "Narrow descending stepped stroke, broad at the top and tapering toward the lower right.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/9",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/9"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/90",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "5669e043f824b39561462188214121975d5502dfe85d929df4d283e7e5092bbe",
+      "pixelSha256": "30683229d05e0eeca40982ee390c95a43dbc57bc244dd6e0e6643a7e6bd92c5b",
+      "visualDescription": "Angular open form with a broad upper bar, curved left side, and short inner strokes.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/90",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/90"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/91",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "e8ecbd560b4b46edd17a3c5360f612ae42b7e23f6344346caf423fd445a406d3",
+      "pixelSha256": "41980c07c2627ac9a72aec4ec93ad60cfd3473055518d955e2c0b67486bb1ad9",
+      "visualDescription": "Three repeated horizontal bars, each interrupted by a short central notch.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/91",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/91"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/92",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "edcabf2c7d655bb92f0fd6e417ab13b70db249b883abc43ff5887af0b32d2652",
+      "pixelSha256": "c5a2cf7874832b3b8f9f1267ef26a376bf85d9b75cf9bab022be2069dd51a470",
+      "visualDescription": "Single horizontal bar across the middle.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/92",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/92"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/93",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "70574688ed225af41fbade53194776398675e064480ba9d9a6635e82c6f64f88",
+      "pixelSha256": "392bd4f67525ddf9e1257eb083265f01cb2a0dee36ded64057d95b0150e75330",
+      "visualDescription": "Irregular stepped outline with a short upper bar and a diagonal lower section.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/93",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/93"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/94",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "c5d96c0771b594b375e0b645d7ec7efcd7716e9fd54882baf2286957bbf7d966",
+      "pixelSha256": "74ef4efa0008acc9910f90f27173928673e8c8f51719d2417a87af57c20bb85b",
+      "visualDescription": "Angular open outline with short upper and middle strokes and a longer lower stroke.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/94",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/94"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/95",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/96",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/97",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/98",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "c65d83d6fbbcfe9a6c38b6bda45a0f43243476c4038328c098265fe61b6c7c11",
+      "pixelSha256": "d62c76e21e23022e77e11b3dd84a5ef45b82e9410f4c3a14b9fc22ce1444c297",
+      "visualDescription": "Rounded, broken ring-like pattern with short bars around its center.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/98",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/98"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/201/entry/0/glyph/99",
+      "kind": "glyph",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "dcfe5fb16ab0f93c21065052542f78bdf6c03e2d8685c101f73a65628e1a35e2",
+      "pixelSha256": "75f89fc83f0a0f4aacef64ebdbbe470b134a2d0780861105c4b2bc9747c2898f",
+      "visualDescription": "Broken descending zigzag of short vertical and diagonal strokes on the left.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/99",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/99"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d1.dax/block/203/entry/2/tile/13",
+      "kind": "tile",
+      "archiveSha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d2.dax/block/3/entry/0/tile/14",
+      "kind": "tile",
+      "archiveSha256": "5de95d585b24a793efbe112a9d8118eb230fa8b09008a120eceedf4411cb60fd",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d2.dax/block/4/entry/1/tile/14",
+      "kind": "tile",
+      "archiveSha256": "5de95d585b24a793efbe112a9d8118eb230fa8b09008a120eceedf4411cb60fd",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d3.dax/block/5/entry/0/tile/14",
+      "kind": "tile",
+      "archiveSha256": "1f0d778dbcf260fb710720d78258d5715436551d56a0b55d2ed7d91c9032166f",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d3.dax/block/6/entry/1/tile/14",
+      "kind": "tile",
+      "archiveSha256": "1f0d778dbcf260fb710720d78258d5715436551d56a0b55d2ed7d91c9032166f",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d4.dax/block/2/entry/0/tile/14",
+      "kind": "tile",
+      "archiveSha256": "7b6ceb3159df3a5e224cf09a299e42cf927d591c9e14ca1776dfc7968a29a180",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    },
+    {
+      "assetId": "dok/dos-ega/dos-install/8x8d5.dax/block/7/entry/0/tile/14",
+      "kind": "tile",
+      "archiveSha256": "e152925abedfd9053e62061007ce4bb78c5350dbbc0aca83a8e77bbee673ccec",
+      "width": 8,
+      "height": 8,
+      "sourceContentSha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+      "pixelSha256": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "visualDescription": "An 8\u00d78 pixel tile filled evenly with black.",
+      "donors": [
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/32"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/95"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/96"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/97"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/120"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/121"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/148"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167",
+          "reviewReference": "docs/engine/research/cok-dos-font-glyph-visual-descriptions-v1.json#cok/dos-ega/disk1/8x8d1.dax/block/201/glyph/167"
+        }
+      ]
+    }
+  ]
+}

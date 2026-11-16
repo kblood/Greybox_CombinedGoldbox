@@ -1,0 +1,34 @@
+# Cold Add bootstrap without copied review artifacts
+
+Astra source plan, 2026-10-15. Separate follow-up candidate only; do not edit the frozen admission candidate or interrupt Luna's native build. This does not block the first isolated cold Add route. No tests/builds/apps were run for this plan.
+
+## Measured limitation
+
+The frozen admission preparer reads `ROOT/reviewed/baseline-manifest.json` and `cold-add-inventory.json`, pinning their complete bytes. Its portability test copies `reviewed/` into the second checkout. That proves relocation of copied evidence, not bootstrap from a fresh source checkout plus the user's original assets. The inventory also embeds absolute input/snapshot paths and a separate ignored WORLD inventory dependency. None belongs in the production generation prerequisite chain.
+
+Existing `prepare_creation_root.py` already shows the bounded pattern: prepare validated ancestors, capture the generated baseline before the next hook, independently reconstruct a closure from original image/overlay descriptors, validate frozen semantic identities and publish derived fixtures. Reuse it; do not vendor original code, baseline manifests, generated C or inventory JSON.
+
+## Minimal separate implementation
+
+1. Capture all inherited module tuples immediately after validated creation-root admission. Canonical baseline rows contain module id, original IP, original source offset and bytes. Validate the complete canonical row identity against a source constant derived from the accepted candidate; require 32,845 tuples/84,012 bytes. Count checks alone are insufficient. Validate creation-root ancestry identities/stop ledger and unchanged descriptor catalog. Preserve all 523 MIDI resource rows in their member-relative namespace, separately pinned to the original archive/member; do not map them as resident code.
+2. Reconstruct only A4:37A2's transitive closure using the existing scanner and original resident/overlay bytes. Reuse original descriptor/fixup/public-stub validation. The two reviewed returning sites 9C4:0159/015E may be supplied through a narrowly scoped scanner parameter or a cold-specific copied contract map; avoid mutating shared module globals in a way that changes prior creation-root reconstruction. Retain unresolved service records and every existing computed guard. No extra roots, tables or guessed targets.
+3. Verify exact original A4:0425 call target, wildcard literal9E:044D bytes052a2e77686f, five reached helpers and whole-function return/call roster. Pin a path-independent canonical closure identity: original source namespace/address/bytes, instruction extents, accepted/new membership, relocation intersections, original direct edges, returns and unresolved site/reason/bytes. Explicitly define deterministic sorting and field schema. Include constants as evidence, never executable admission. Reject pending work, missing extents or analysis cap exhaustion. Keep analysis cap131072 and admission cap32768.
+4. Require exact delta1327/3527 and combined34172/87539, independent physical overlap/midpoint checks, 475 traversed relocation intersections and exact31 unresolved contracts including six inherited computed sites. Derive new tuple/relocation/closure hash constants once from the frozen accepted source evidence; Astra reviews those constants. Do not weaken to matching aggregate counts or bless freshly changed output by recomputing an expected hash during the same run.
+5. Invoke the unchanged actual `lift.emit` on every new decoded instruction; rederive its existing semantic-emission proof at adoption. Preparation must fail on unsupported/empty emission. Retain all byte mutation, relocation and dispatch guards. This bootstrap task changes evidence acquisition, not instruction execution or host services.
+6. Produce ignored baseline/tuples/reference/proof artifacts canonically from those original-derived facts. Historical raw manifest/inventory hashes may remain non-required provenance labels, clearly marked as such. Paths, source-snapshot inventory and timestamps belong in a separate run receipt. WORLD overlap is optional research output, never needed to generate Add. Emit no runtime-success claim.
+
+## Ownership and equality gates
+
+Sol works in a new ignored candidate descended from the accepted headless/current admission source. Expected edits: cold admission preparer and Python controls, plus the smallest scanner parameter seam if necessary. The lifter's admission hook and instruction emitter need no behavioral change. No production edits, frontend/native/Cargo/host changes or build while a shared native lease is open. Guest delta stays exactly1327/3527; bootstrap introduces zero additional guest bytes.
+
+The new candidate must generate byte-identical `lifted.c` and identical original tuple/source/relocation/protection sets to the frozen admission candidate. Existing inherited manifest objects/catalog/MIDI remain identical. Any proof-schema/provenance change must be enumerated as metadata only; do not broadly strip fields to obtain manifest equality. Only the already-reviewed two GEO output paths may be location-normalized after artifact validation. Existing rejection tests must still pass.
+
+## Discriminating Luna controls after source freeze review
+
+- Construct a fresh source-only tree containing the explicitly declared source files and original asset references; no `reviewed/`, `build/`, generated fixtures or ignored baseline/inventory JSON. Run full ancestor preparation, cold preparation and generation there. A second different absolute checkout path must yield the same canonical fixtures and C. Merely hiding two filenames in a tree with other cached evidence is insufficient.
+- Deny/record attempts to read the former ignored review paths; assert none are needed. No dependency on the separate WORLD candidate or its inventory. Preparation must work when those paths do not exist.
+- Validate complete baseline identity including MIDI; independently mutate an inherited tuple, resource row, original body/fixup, source-module mapping, root/call witness, helper dependency, unresolved roster, new tuple and relocation. Fail even when derivative reference JSON is rehashed.
+- Cap-one/missing-extent tests preserve incomplete evidence and refuse admission; extra/missing/duplicate instructions and midpoint aliases fail. Actual-emitter unsupported/empty controls remain.
+- Exact reuse succeeds; conflicting already-published artifacts fail without replacing them. Original assets remain read-only. Compare old/new generated C hashes and bounded metadata differences explicitly before considering production promotion.
+
+Luna owns execution; Astra reviews the new source freeze first. Production promotion requires source-only fresh bootstrap evidence and the previously scoped native admission controls, not just copied-evidence portability. Search adapter/oracle and cold Add gameplay acceptance remain independent gates.

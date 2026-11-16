@@ -1,0 +1,4993 @@
+{
+  "schema": "cok-ecl-picture-census-v1",
+  "task": "SCENE-CENSUS-22",
+  "archives": [
+    {
+      "archive": "ECL1.DAX",
+      "archiveSha256": "6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79",
+      "archiveBytes": 31721,
+      "inventory": [
+        {
+          "blockId": 16,
+          "rawBytes": 3813,
+          "blockSha256": "826dd124d05280ab588e94d6bf6c6c4994fdc99acf250d6ae5aa1d304fff4537",
+          "compressedFileOffset": 65,
+          "compressedBytes": 3918
+        },
+        {
+          "blockId": 17,
+          "rawBytes": 7678,
+          "blockSha256": "94dabe74942985aab782c37df0d4ea38ae66b63a166e5251662d03998dc004cc",
+          "compressedFileOffset": 3983,
+          "compressedBytes": 7963
+        },
+        {
+          "blockId": 18,
+          "rawBytes": 144,
+          "blockSha256": "32e8b9d0fea6925cc8456b7d602a7d7c92a2b0be086d537d918458489c6a403b",
+          "compressedFileOffset": 11946,
+          "compressedBytes": 164
+        },
+        {
+          "blockId": 32,
+          "rawBytes": 7611,
+          "blockSha256": "db03a12fcc5857b6e5f2da2b026edf5b66bd5b54c23628f62319a05627df078f",
+          "compressedFileOffset": 12110,
+          "compressedBytes": 7814
+        },
+        {
+          "blockId": 33,
+          "rawBytes": 4626,
+          "blockSha256": "28c1f857fa76f47e919dc3a1396f6920d305862067959db3335ebd7aa718c219",
+          "compressedFileOffset": 19924,
+          "compressedBytes": 4726
+        },
+        {
+          "blockId": 34,
+          "rawBytes": 6497,
+          "blockSha256": "66ec7047a86f22200bb746f98733d73274ddbec8a385e007c578258232d110fe",
+          "compressedFileOffset": 24650,
+          "compressedBytes": 6646
+        },
+        {
+          "blockId": 36,
+          "rawBytes": 415,
+          "blockSha256": "b39bdf183f0690598042ea6a28df350b76f0927dd9b1e84c198861cec5ee58dd",
+          "compressedFileOffset": 31296,
+          "compressedBytes": 425
+        }
+      ],
+      "staticFindings": [
+        {
+          "blockId": 16,
+          "instructionCount": 435,
+          "expandedEntryStates": 466,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33109,
+              "offset": 343
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33470,
+              "offset": 704
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 33395,
+              "offset": 629
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33438,
+              "offset": 672
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL1.DAX#16@76",
+              "offset": 76,
+              "vaddr": 32842,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 121
+              },
+              "pictureId": 121,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 9,
+                  "offsetPathSha256": "361013e605b864292dca54d89865d035eb8a4e9a882e302e8e0e9bc263f0c630",
+                  "branchEdgeCount": 2,
+                  "branchEdgesSha256": "d0c617a44ceb4c79ff2cd2a7e8776ae1705ea5ed6de40cd4116946eea5a00bf6"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#16@1376",
+              "offset": 1376,
+              "vaddr": 34142,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 114
+              },
+              "pictureId": 114,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 9,
+                  "offsetPathSha256": "601666fa5354314bb02d937934c224551aaa5ada5b615a472fe83c7376042aa4",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "02b561cfb461060828eb9279b98e8577e00b1a77006eb2a19dd95044ccc82f82"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#16@1651",
+              "offset": 1651,
+              "vaddr": 34417,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 18
+              },
+              "pictureId": 18,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 24,
+                  "offsetPathSha256": "82c9785106a63dc24054a5f6e16b61086be6e823362f05e8e913313e5253f822",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "f66674ed8546f0a9893c34f1d5f32bb598d4623d99b23126e71984032e470299"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#16@1800",
+              "offset": 1800,
+              "vaddr": 34566,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 121
+              },
+              "pictureId": 121,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 33,
+                  "offsetPathSha256": "2fb7e413d8df8c90c7ea12df24fd586b178b3d3e019b8dbffc3b15ff148811ed",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "8e53a84933a10390964be4bef96566959ac8a3f7d0b4d3c8d46cf4a5fbf07f3f"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#16@3004",
+              "offset": 3004,
+              "vaddr": 35770,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 58
+              },
+              "pictureId": 58,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 39,
+                  "offsetPathSha256": "d0b7d780199846c20a72ee4e6a880f8f2601cb6d5e68416d30054e775a07943c",
+                  "branchEdgeCount": 15,
+                  "branchEdgesSha256": "b6de965fe73badb6aa1f6cb6572e19f0f533badacab96bea1ac0208d737022ee"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#16@3027",
+              "offset": 3027,
+              "vaddr": 35793,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 58
+              },
+              "pictureId": 58,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 43,
+                  "offsetPathSha256": "4e4bcb95c9ee445a7bf8384ea8a4f0b736304690f25095ae865faf5c30730b5b",
+                  "branchEdgeCount": 16,
+                  "branchEdgesSha256": "efa2e135c49ca0989439f6d597bc77b6d3ce54785eed3a78730266dd440e131f"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#16@3036",
+              "offset": 3036,
+              "vaddr": 35802,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 121
+              },
+              "pictureId": 121,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 45,
+                  "offsetPathSha256": "06a2ccf364746b962e39486b42ce6ea4364aec340716d9297ab4c377573e96ce",
+                  "branchEdgeCount": 16,
+                  "branchEdgesSha256": "efa2e135c49ca0989439f6d597bc77b6d3ce54785eed3a78730266dd440e131f"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 17,
+          "instructionCount": 738,
+          "expandedEntryStates": 1794,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 40304,
+              "offset": 7538
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 40308,
+              "offset": 7542
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 40290,
+              "offset": 7524
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 40303,
+              "offset": 7537
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL1.DAX#17@55",
+              "offset": 55,
+              "vaddr": 32821,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 58
+              },
+              "pictureId": 58,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 7,
+                  "offsetPathSha256": "d5cbd02d18b96bfa805e0b7bd3c43dea25b3c48f53effbfdb6fbeab42c9b9208",
+                  "branchEdgeCount": 1,
+                  "branchEdgesSha256": "555d87021dd1fbe176dc01e2658729293c046dbacf4e0c787bf36ae60de5c05e"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#17@212",
+              "offset": 212,
+              "vaddr": 32978,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 57
+              },
+              "pictureId": 57,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 28,
+                  "offsetPathSha256": "9f78705a74374d6666b5e6548f37f6feda329e73a29cac70564fcf43df96bf8d",
+                  "branchEdgeCount": 11,
+                  "branchEdgesSha256": "6daefc32565ff745000fcf22552662e8e1600834a0ad39b514960d7c95791acf"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#17@395",
+              "offset": 395,
+              "vaddr": 33161,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 57
+              },
+              "pictureId": 57,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 31,
+                  "offsetPathSha256": "61643f17c896cc048dbbfe0272ae5ee37a279a2abb2e833db147545a9d10d05c",
+                  "branchEdgeCount": 13,
+                  "branchEdgesSha256": "bac3bddc9c621dd15118995e59d7110785287cd69ec30a0a1116c9dcd78708b3"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#17@586",
+              "offset": 586,
+              "vaddr": 33352,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 57
+              },
+              "pictureId": 57,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 34,
+                  "offsetPathSha256": "7d58344772cf6cddbc08093b50b2aefdce36b5b9dcf20e7345f0f7c452144838",
+                  "branchEdgeCount": 15,
+                  "branchEdgesSha256": "1912e88337a585fa2b4174d8c81408026a897b71b39f0f8e0016b925cc99fd8c"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#17@845",
+              "offset": 845,
+              "vaddr": 33611,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 23
+              },
+              "pictureId": 23,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 41,
+                  "offsetPathSha256": "b78e9770c57219a781dbcd7cc3982b0ca9ed44c49376c0ea217c679cc49402e4",
+                  "branchEdgeCount": 19,
+                  "branchEdgesSha256": "2e52f2908deaeca44f131a75351576d619e13b332e1e26d6d9131aaf20479869"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#17@1296",
+              "offset": 1296,
+              "vaddr": 34062,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 57
+              },
+              "pictureId": 57,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 24,
+                  "offsetPathSha256": "a41a09f6c17766b8268685e7e43a374ee0083e7b56e845a553e33c2b1de00558",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "93505f0d0c9ab3359710f1a6fe2d7988d2c13ece948d26f083e64b252686bc63"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#17@1705",
+              "offset": 1705,
+              "vaddr": 34471,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 58
+              },
+              "pictureId": 58,
+              "entries": [
+                "vm_run_1",
+                "search_location",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 4,
+                  "offsetPathSha256": "d0d6c422480057976d71bfd225e387977271152ddaadf7cb5b0574cb04b43e46",
+                  "branchEdgeCount": 1,
+                  "branchEdgesSha256": "c390a229194f3b4139b01b6505d3ae89571e2df454e54412cfb5bf975aa3ba4e"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 4,
+                  "offsetPathSha256": "0afa7db4fbfb2c7df8ee8dfa2d0df3f1367f52a32822a656358a93a5fc37304d",
+                  "branchEdgeCount": 1,
+                  "branchEdgesSha256": "3b72a92ecbb6c80b8df217d307fa46a6666c3a64672dfeeedd7a198487b436f2"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 19,
+                  "offsetPathSha256": "440dd06e6b4459af3d567049555dc18c427a255569426dd5cacbd8b719f6d02d",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "5aec07b0e88305c4865f87b9db60f0b6359b6b7061cb844855d6e5dd8b924067"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#17@2834",
+              "offset": 2834,
+              "vaddr": 35600,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 58
+              },
+              "pictureId": 58,
+              "entries": [
+                "vm_run_1",
+                "search_location",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 34,
+                  "offsetPathSha256": "5d48ef37610fca3c5927cc2fd44cf2b53833970e7a44888bca639b52123cc298",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "30ce10fe5fc0820f90246e904d14d72eb516a088c5ef022b07d7846d6b0fbdea"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 34,
+                  "offsetPathSha256": "2eff853dc40ea3d242aa5ad7c40f1c0fab188296c13176457bfa18f94661900e",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "5a12f1c30453d4d9ff24e37061dec70dcc90382957f4a7ef0a729a011e36eeeb"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 40,
+                  "offsetPathSha256": "340b328168549fae84d6b71f9dcde98e17112b50e6a6fe3a386a906c1a43db1f",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "718a713d35dcc78e3095f8d4b6a0fd562e8bb0dba818bf5e3f49bd8db788b9bb"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#17@5756",
+              "offset": 5756,
+              "vaddr": 38522,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 23
+              },
+              "pictureId": 23,
+              "entries": [
+                "vm_run_1",
+                "search_location",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 30,
+                  "offsetPathSha256": "cf774a641beebe473035fce0c69640a9f28b7cb3f6e395690111b823039f53ff",
+                  "branchEdgeCount": 14,
+                  "branchEdgesSha256": "6a41ab5518ef414071b65b36b0299f7ad49e55fabd816b0d8af541d4f22b50e1"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 30,
+                  "offsetPathSha256": "fe4542da9027faa1f6e599af8e8018ddd4bf8705b74a0be7c33c50152dfcba3a",
+                  "branchEdgeCount": 14,
+                  "branchEdgesSha256": "d92e4940daec743fca155db0d49808793c22eff9765e38dd0057f93fca6f0f35"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 36,
+                  "offsetPathSha256": "cf034c90f43a278c1e64d61c16b6fd20ad2fa27a9ba4bc2981f977ae7b1cba89",
+                  "branchEdgeCount": 16,
+                  "branchEdgesSha256": "eacf4d274f17eaa9f82d95e16a9744d3ca4c46b82e3abc960f3d779604528010"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#17@6627",
+              "offset": 6627,
+              "vaddr": 39393,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 58
+              },
+              "pictureId": 58,
+              "entries": [
+                "vm_run_1",
+                "search_location",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 29,
+                  "offsetPathSha256": "ff5f14877e1508cf19c149f74636167612f2f2eafe9a1064d1f3e39511b67949",
+                  "branchEdgeCount": 15,
+                  "branchEdgesSha256": "73c6a50eca9bebb0e0e794f39f02997a548bffd3832138256b7cd226d37680f6"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 29,
+                  "offsetPathSha256": "b69535dbf8ae9bbaafe237468900dceb04bf24472982c421e3e621d1b56672e5",
+                  "branchEdgeCount": 15,
+                  "branchEdgesSha256": "011925f6f918ce78ca268f1f20671c2d955713dda29d9c1c4b92eb77d5a01f4b"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 35,
+                  "offsetPathSha256": "475279ac23a9506bd4e45e165f4e6f40b888ead2c0ddae8c1bbd5854724101ff",
+                  "branchEdgeCount": 17,
+                  "branchEdgesSha256": "c8d1ce2a76c830d198c6124ed979f97408d0f121edde35ed9e6c72b3f036fe1a"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#17@7268",
+              "offset": 7268,
+              "vaddr": 40034,
+              "operand": {
+                "kind": "dynamic",
+                "code": 1,
+                "value": 32633
+              },
+              "pictureId": null,
+              "entries": [
+                "vm_run_1",
+                "search_location",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 23,
+                  "offsetPathSha256": "817167df3d171713e0fbedc355ac6a859baa92cb32cf2b2086fa802895ba526c",
+                  "branchEdgeCount": 12,
+                  "branchEdgesSha256": "f38ac35a8deba296d9d2e2f519fa2140e684c291b3044ccbc96474edaceffd6e"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 23,
+                  "offsetPathSha256": "9a9315b07a2da423a99b4240a82b690437b7bd263053b1ce81cd8b0be33be9e3",
+                  "branchEdgeCount": 12,
+                  "branchEdgesSha256": "2f20fe249dc69ff7d8c97d8208c6f613c741bc50cd015d02c3392d4635dc09d7"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 29,
+                  "offsetPathSha256": "b9a95cd62e49b8808d4a0b3e2a5e56fa275834acf8d3b871233486cc051900f7",
+                  "branchEdgeCount": 14,
+                  "branchEdgesSha256": "565f465f7110dfecaf6412a2bfb1eba9a9dca158c89aaf5c7ab67cb063a86694"
+                }
+              ]
+            }
+          ],
+          "issues": [
+            {
+              "entry": "vm_run_1",
+              "offset": 7268,
+              "reason": "dynamic-picture-operand",
+              "witness": {
+                "instructionSteps": 23,
+                "offsetPathSha256": "817167df3d171713e0fbedc355ac6a859baa92cb32cf2b2086fa802895ba526c",
+                "branchEdgeCount": 12,
+                "branchEdgesSha256": "f38ac35a8deba296d9d2e2f519fa2140e684c291b3044ccbc96474edaceffd6e"
+              }
+            },
+            {
+              "entry": "search_location",
+              "offset": 7268,
+              "reason": "dynamic-picture-operand",
+              "witness": {
+                "instructionSteps": 23,
+                "offsetPathSha256": "9a9315b07a2da423a99b4240a82b690437b7bd263053b1ce81cd8b0be33be9e3",
+                "branchEdgeCount": 12,
+                "branchEdgesSha256": "2f20fe249dc69ff7d8c97d8208c6f613c741bc50cd015d02c3392d4635dc09d7"
+              }
+            },
+            {
+              "entry": "initial_entry",
+              "offset": 7268,
+              "reason": "dynamic-picture-operand",
+              "witness": {
+                "instructionSteps": 29,
+                "offsetPathSha256": "b9a95cd62e49b8808d4a0b3e2a5e56fa275834acf8d3b871233486cc051900f7",
+                "branchEdgeCount": 14,
+                "branchEdgesSha256": "565f465f7110dfecaf6412a2bfb1eba9a9dca158c89aaf5c7ab67cb063a86694"
+              }
+            }
+          ],
+          "complete": false
+        },
+        {
+          "blockId": 18,
+          "instructionCount": 28,
+          "expandedEntryStates": 76,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 32901,
+              "offset": 135
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 32905,
+              "offset": 139
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32899,
+              "offset": 133
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 32900,
+              "offset": 134
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 32,
+          "instructionCount": 834,
+          "expandedEntryStates": 936,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 32978,
+              "offset": 212
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33334,
+              "offset": 568
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32931,
+              "offset": 165
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 32973,
+              "offset": 207
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL1.DAX#32@790",
+              "offset": 790,
+              "vaddr": 33556,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "vm_run_1",
+                "initial_entry",
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "a70f1242362e9d8f4ece0a8a8dcb61a243ac3a756dc69f51a710b290fcf6380f",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "7f0bc9f9f0fad33841eaf55d7c3c06f79360e7169d76a514378cd37d470bf01f"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 16,
+                  "offsetPathSha256": "7cc68912568680b871106f15416dbf9586bd7668374ff13eb758010545754b0d",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "eb254d272f5c1fd39dd8e9bf5469e294f05cad439b8f9d08eebeb56402cf5585"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 16,
+                  "offsetPathSha256": "78696f1faafcdea7d9017ef34b456fabaaa974b922ce21a154a13738da1c1cce",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "d68c4b925537ec7eb1b41b419ec4c1d8e749d825ce704f9d57f117142395962a"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 30,
+                  "offsetPathSha256": "2888e91714cc5ed3614a7c5437fc56779402ed9ff41f4e6beec6002e076f72fa",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "057861258f06002fc6c27a547228a1d530952100addbe54fa2a0e66bffb1eebc"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#32@1445",
+              "offset": 1445,
+              "vaddr": 34211,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 62
+              },
+              "pictureId": 62,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 14,
+                  "offsetPathSha256": "12f3a427f266ec809cb2fb7983d683b77ff55a8588b661281faec8dc0a6c81aa",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "b91de67af59a03951e9a2cde4c004a9c7f0b45b2ac29f917214d1ed375412040"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#32@2260",
+              "offset": 2260,
+              "vaddr": 35026,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 1
+              },
+              "pictureId": 1,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "e23a9d6829d55316bc3481a15a5aaa44908b095e1733b92708b6fe21a255fb35",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "2ca9ee0d703944de6cba755b80f59a5f7c697637c7b95d80f3c68287c7dad807"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#32@3073",
+              "offset": 3073,
+              "vaddr": 35839,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 15
+              },
+              "pictureId": 15,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "3b73e58cd620507cb89f27481acdbbce12b2236831890f23efae6df3b59a124d",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "e85f1f65bac65c27af64b0b625dead8306b08dd1ea8c23211e0e8f26535cdb21"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#32@4927",
+              "offset": 4927,
+              "vaddr": 37693,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 61
+              },
+              "pictureId": 61,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "c4242cff714b0b566acff1885b25f8bf24171331a866ea2c21b014a9c2e57f2b",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "946707dae2003b2dba1582a14a5fbd7980a34403027d11a4f7590de40d8b8d73"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#32@5052",
+              "offset": 5052,
+              "vaddr": 37818,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 63
+              },
+              "pictureId": 63,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "a17bd25f4fb59f06774a227dfcfd03515f1e565a63dd6e8e3c94bbd2ebc06772",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "108a2ecba61115ba422bf4174fbc4d76cb66c729c0f12ed68edafd057fab3207"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#32@5360",
+              "offset": 5360,
+              "vaddr": 38126,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 23
+              },
+              "pictureId": 23,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 27,
+                  "offsetPathSha256": "113d07007902c193c806a597d4ce4af2b3da203c7d7e996827ea9130015ac5d8",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "f6d164213e52ccb6c2d652677c42ee0cdf952a176684476c9fb7bd68c4321365"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#32@5903",
+              "offset": 5903,
+              "vaddr": 38669,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 34
+              },
+              "pictureId": 34,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 50,
+                  "offsetPathSha256": "d1fda48bf9e583dcf4a9f327e194364e2a652c475555cf921d91e82164175c96",
+                  "branchEdgeCount": 21,
+                  "branchEdgesSha256": "939fee8a7e5ce0c21ea78d6c9d0caba04c1062101abbba842f08fe39cf6b73e8"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#32@5957",
+              "offset": 5957,
+              "vaddr": 38723,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 15
+              },
+              "pictureId": 15,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 50,
+                  "offsetPathSha256": "a98193b3f8822b582fa86e52929b9b92d1cbbc2bfe4d97f05c5550c77f6e32a2",
+                  "branchEdgeCount": 21,
+                  "branchEdgesSha256": "75539fd50101ac0907fa93d31eb48f7d54ebf84d022a87c5228e3b2e9eaae366"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#32@6021",
+              "offset": 6021,
+              "vaddr": 38787,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 34
+              },
+              "pictureId": 34,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 50,
+                  "offsetPathSha256": "9d214349bd1365bbd6912874b6e4d9b413ba8dd06be84658cd31f84cd632f71f",
+                  "branchEdgeCount": 21,
+                  "branchEdgesSha256": "6b51ea9edc3f678146c51f8cc87473a88093cd2ac1c07c0c20e9c94e0c0cd8e1"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 33,
+          "instructionCount": 433,
+          "expandedEntryStates": 490,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33095,
+              "offset": 329
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33244,
+              "offset": 478
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 33033,
+              "offset": 267
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33090,
+              "offset": 324
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL1.DAX#33@568",
+              "offset": 568,
+              "vaddr": 33334,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "vm_run_1",
+                "initial_entry",
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 8,
+                  "offsetPathSha256": "eb07a5171466f1a72ba11089e0b64e648d2f71efb530feb6880a84c00faa1316",
+                  "branchEdgeCount": 3,
+                  "branchEdgesSha256": "2f58766ee3d8abd3772673569fbab67a2e2c16f9a4a4ae9a1b0b06a7b320df52"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 10,
+                  "offsetPathSha256": "ba13c1e11e32eba736e19057d66167f18e1343fd6e0ff5f00977cc4ef5137327",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "4e55ee3fb2009ebbb462f3fa0e246be35b80f9d314c7f974181ef8bcfa52eb36"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 28,
+                  "offsetPathSha256": "93385c4c695d6dab0809d6be6cbb4ea0dbd1677af53a5968ff2c836e60f11661",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "7bc932f446f11d11854d3b30e71925e3bc748260dc8fd7e1ebe3b90703d3901d"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 33,
+                  "offsetPathSha256": "1059341f20e7aa029e246b316745abcec58ca8e2413eb8ac14826dbc70dd301c",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "cf570a9c3dafb740d0f21ac35ab41f7fc4599e94f1cab41fa79e9d2f6fb3f133"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#33@3840",
+              "offset": 3840,
+              "vaddr": 36606,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 41
+              },
+              "pictureId": 41,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 10,
+                  "offsetPathSha256": "56fb6df48874c2deb4c856889689ffe04488cec98137cf6a5b97230178054106",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "95cd679018a18ff600d4086725f94162f01fad2f0c5b07b6ccc2a479da84159c"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#33@4077",
+              "offset": 4077,
+              "vaddr": 36843,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 115
+              },
+              "pictureId": 115,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 20,
+                  "offsetPathSha256": "7089f5aafdc18ffec0c5a97946b83f758bba0aeb04e08d46e63bb433ff26caf0",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "5679feaa016a0dcf2570c2c83ffd153b75b8c1d00b92f9e8ab4d119b974a2e33"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 34,
+          "instructionCount": 659,
+          "expandedEntryStates": 703,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 32916,
+              "offset": 150
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33246,
+              "offset": 480
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32869,
+              "offset": 103
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 32911,
+              "offset": 145
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL1.DAX#34@637",
+              "offset": 637,
+              "vaddr": 33403,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "1df54074f387477d3924c29fadd1d4cba194f5c09e5053a10d5555cd6ac42ee6",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "ccc678dfcc1e32141b2b3fed0cd8a163b94bad76a71712d1bf5117ed8b9d425b"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 33,
+                  "offsetPathSha256": "0f232ae70c85938c7a71030f2ff04312cb1c0d1e363263b690f5aa284b6b3c18",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "bdb4980e95938e4179244a9e6560f93eafb711715ec0d40421a80e97bb283739"
+                }
+              ]
+            },
+            {
+              "key": "ECL1.DAX#34@5617",
+              "offset": 5617,
+              "vaddr": 38383,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 12
+              },
+              "pictureId": 12,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 24,
+                  "offsetPathSha256": "af3180ddaecb0b9debda133e59caf123f7a3350ce1dce885a7ef1457fa1226ed",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "00d6dfc692a378b984d89628a4aac8c21ae7029277e4fc532d8d1833c3e78663"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 36,
+          "instructionCount": 23,
+          "expandedEntryStates": 23,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33114,
+              "offset": 348
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33115,
+              "offset": 349
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 33112,
+              "offset": 346
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33113,
+              "offset": 347
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL1.DAX#36@29",
+              "offset": 29,
+              "vaddr": 32795,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 112
+              },
+              "pictureId": 112,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 2,
+                  "offsetPathSha256": "773624235b781fd72f50f455b5a160e4e200f52b1246b63e05255b1cfb463539",
+                  "branchEdgeCount": 0,
+                  "branchEdgesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        }
+      ]
+    },
+    {
+      "archive": "ECL2.DAX",
+      "archiveSha256": "4f4ba999b0d46817091e82fe5ccf27cb6eee95cd833389353d7285c2a8dccbea",
+      "archiveBytes": 49982,
+      "inventory": [
+        {
+          "blockId": 48,
+          "rawBytes": 7456,
+          "blockSha256": "cb37a047169ca61bde0cdffbcf835289853e951f5239bca22d9d6483380866bf",
+          "compressedFileOffset": 74,
+          "compressedBytes": 7657
+        },
+        {
+          "blockId": 49,
+          "rawBytes": 6956,
+          "blockSha256": "58640ee7c75ca1cba9a98c6b1eebe3cf9963440b5957f51a92041e602aa49b9c",
+          "compressedFileOffset": 7731,
+          "compressedBytes": 7114
+        },
+        {
+          "blockId": 50,
+          "rawBytes": 7662,
+          "blockSha256": "b7c0d74f4a97b36c31f5016aea7d50c0c22a651ccc0da865bc0cc8a40849539c",
+          "compressedFileOffset": 14845,
+          "compressedBytes": 7886
+        },
+        {
+          "blockId": 57,
+          "rawBytes": 1096,
+          "blockSha256": "96230e908f62a14a289c3cda086c8dc0e43e93e1e8d755a83cde6730300bff8e",
+          "compressedFileOffset": 22731,
+          "compressedBytes": 1120
+        },
+        {
+          "blockId": 64,
+          "rawBytes": 5429,
+          "blockSha256": "f890f396908bb4f9e5242d12e23dd64ee04332195a9ab43e0b6f474236b722a1",
+          "compressedFileOffset": 23851,
+          "compressedBytes": 5551
+        },
+        {
+          "blockId": 66,
+          "rawBytes": 5240,
+          "blockSha256": "4a84de8f9523fc5372f20e699a5c653e1af01352b2bfdf26f9f1fac0313ae3d3",
+          "compressedFileOffset": 29402,
+          "compressedBytes": 5326
+        },
+        {
+          "blockId": 67,
+          "rawBytes": 7288,
+          "blockSha256": "73a0ab94fe66dab8bd0fdae8e6e6b9a046db762df24b1543bdaf672ad4821465",
+          "compressedFileOffset": 34728,
+          "compressedBytes": 7412
+        },
+        {
+          "blockId": 68,
+          "rawBytes": 7624,
+          "blockSha256": "7afe9f99f4d2ab1179b5023856a5e401598f076ec0f24866d4669b5d5f15261b",
+          "compressedFileOffset": 42140,
+          "compressedBytes": 7842
+        }
+      ],
+      "staticFindings": [
+        {
+          "blockId": 48,
+          "instructionCount": 954,
+          "expandedEntryStates": 1007,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33111,
+              "offset": 345
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33597,
+              "offset": 831
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32951,
+              "offset": 185
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33071,
+              "offset": 305
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL2.DAX#48@1210",
+              "offset": 1210,
+              "vaddr": 33976,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "camp_interrupted",
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "40a402c5a3d421ee6360b88bb045e49e2195d4c6c04eedb53166a06f0003db03",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "2d91983d7f4c7d867a3867a761b39b740b2b302f49c943bf2ec0cc66498e5ef9"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 35,
+                  "offsetPathSha256": "be15f04a4f54dcf4fe20b5b4eaa1c3543f2054d6776b35f92949ce93c3291c67",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "ccb04b1cbeaea26c6434f94d433b5bd0387403b9523613378904031ac4f2ec73"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 47,
+                  "offsetPathSha256": "6110485a3462e9a76fb409ca1a3fab455df1fea3e8c5380e72ddff85a0623d2e",
+                  "branchEdgeCount": 24,
+                  "branchEdgesSha256": "7f17fc9f5623b9c0f7f341cd97682027208a609f7967f3cb7af4c5c91944c8a4"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#48@4625",
+              "offset": 4625,
+              "vaddr": 37391,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 67
+              },
+              "pictureId": 67,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 11,
+                  "offsetPathSha256": "324eeacdd9c1ac410fa879e8ffd97ca11baa3bcd52f77ad564324b58d7ea1dd2",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "3f4dc3ca002069457a39a93e8bb12b43600d871644f28bf5d408bf890b1f510d"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#48@4827",
+              "offset": 4827,
+              "vaddr": 37593,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 67
+              },
+              "pictureId": 67,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 9,
+                  "offsetPathSha256": "9c1280c6670c33718aaa0001b99ce015186d5bd6d9428e25016e284b5ea64acc",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "842c4a21a99dacf3f28a16ad8fd2fc009c413e2716993a235d2bd2fcc9e181cb"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 49,
+          "instructionCount": 757,
+          "expandedEntryStates": 808,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 32956,
+              "offset": 190
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33291,
+              "offset": 525
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32909,
+              "offset": 143
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 32951,
+              "offset": 185
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL2.DAX#49@724",
+              "offset": 724,
+              "vaddr": 33490,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "vm_run_1",
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 9,
+                  "offsetPathSha256": "2e8b8601889c18981590d76dfeb0c204027084e6eb73c2de6f9b3cc417db5ffc",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "572e2dcf9c9aed2925ef8d2cb05fc235b6c2543f8936ae7062defab3777a8d8c"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "fa3fed08b6c136baf1146df3dec09e5b319e563e071e46d448b988d1e7669c06",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "7885424c2952045d813e810ce8e2a8ffadb8ff6c064349233cfb70e275b0086f"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 30,
+                  "offsetPathSha256": "142f3162d6936255a4e3c6057b3ce7b0090dc536c7e28f4f952623ff0e0e4fec",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "2b90bbee88d2b06c4a74289c8a83171d7f5be86d0099e837728a4efdadc986f0"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#49@6102",
+              "offset": 6102,
+              "vaddr": 38868,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 116
+              },
+              "pictureId": 116,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "45572a843198b8c268edf2b06a71c3f72e2afd1d1712c96deb205df49b8449a1",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "b4a255a078290a49d7d54f2c61de3cee369d8baf6ac7429ead83aa1d8f9b5ff1"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 50,
+          "instructionCount": 868,
+          "expandedEntryStates": 1068,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 34125,
+              "offset": 1359
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 34385,
+              "offset": 1619
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32932,
+              "offset": 166
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33029,
+              "offset": 263
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL2.DAX#50@305",
+              "offset": 305,
+              "vaddr": 33071,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 44
+              },
+              "pictureId": 44,
+              "entries": [
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 8,
+                  "offsetPathSha256": "3c6788ae8d31f4ef0114204b6b808c4546aec06e3ea0edfefa9c3d5a1f8bf158",
+                  "branchEdgeCount": 3,
+                  "branchEdgesSha256": "5e60fb136882e2686ff4192191fff307a213e7637e0bfd3c0f67944aba7bbb4c"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@453",
+              "offset": 453,
+              "vaddr": 33219,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 35
+              },
+              "pictureId": 35,
+              "entries": [
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 18,
+                  "offsetPathSha256": "ac3319c3e95faef0bbf76b5c262880560b37f3ff6c03c6a7d7fe9d3f06356a86",
+                  "branchEdgeCount": 10,
+                  "branchEdgesSha256": "a8e918b5798cdf0e34b0981ebdcfd9fece285ec9ef771e6c15aa5520d875a514"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@590",
+              "offset": 590,
+              "vaddr": 33356,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 67
+              },
+              "pictureId": 67,
+              "entries": [
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 21,
+                  "offsetPathSha256": "2c4be0df62bb4a3e7d0ba0ccd45135080f1831c1a5d1235e110cbc83cf9c71fa",
+                  "branchEdgeCount": 10,
+                  "branchEdgesSha256": "ee707fd9f877660aeb24494961f4311727dafaabe110286b098edbfd7923fb3c"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@1035",
+              "offset": 1035,
+              "vaddr": 33801,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 44
+              },
+              "pictureId": 44,
+              "entries": [
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 18,
+                  "offsetPathSha256": "52ecfdfdd3fff651a2639dffb1f982c1753010ca4cc94437d6f707a5a5c062f4",
+                  "branchEdgeCount": 10,
+                  "branchEdgesSha256": "f2c9391555c4d3fa593cfd4abe031a1f79bebc4011359e3aaf13465de9f9fbaf"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@1168",
+              "offset": 1168,
+              "vaddr": 33934,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 67
+              },
+              "pictureId": 67,
+              "entries": [
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 17,
+                  "offsetPathSha256": "0139a161fecfeb921b078c324abb5031a8305949a4e5579782eb49b34990c577",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "c3e0b37333cb646716b0fdae6f1a6b1fd9102da9ce5ab3651640bc19b246ef58"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@1565",
+              "offset": 1565,
+              "vaddr": 34331,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 54
+              },
+              "pictureId": 54,
+              "entries": [
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 22,
+                  "offsetPathSha256": "ac2a879e3690bbf5c43ef7f26d965e45d0fce3662a466be1d15128f071c6b852",
+                  "branchEdgeCount": 13,
+                  "branchEdgesSha256": "01704bed934bc3a662fc423ea967673ec0f0aa6474d9218800cbcf6aefdea3b4"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@1917",
+              "offset": 1917,
+              "vaddr": 34683,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "camp_interrupted",
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "95d9a2ff26964f4035e11a62fae39565665ae7a3ee9aaa95477ed739463459bd",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "a6fe01167719c83fcb9dcb9b091087c8616403e3bab01d1712607d95484244bf"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 14,
+                  "offsetPathSha256": "a9ad3a0c7da1ea0d0359160ff01103bbbc5461ae80ffc831d092dfc505f0162a",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "aeee949ad9d7a22ac9aeb2bc481ca4f924c3638b3f6880156d2d132f66e956ae"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@1986",
+              "offset": 1986,
+              "vaddr": 34752,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 44
+              },
+              "pictureId": 44,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 15,
+                  "offsetPathSha256": "daafedb51062e82b9cbec915552bbfbf0096b61b6185a48f9cefa0188c964bde",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "8c19ca1c97d0f4351953b36cc063c0647a08f24e60014d78d422cf70f58ade7a"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@2528",
+              "offset": 2528,
+              "vaddr": 35294,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 44
+              },
+              "pictureId": 44,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 29,
+                  "offsetPathSha256": "27e8df6ac4ef47870d885b865dd9fcab6fccbd301dc16c695efce110fb42d98d",
+                  "branchEdgeCount": 12,
+                  "branchEdgesSha256": "d5526ba3ca8b375cb20db18f64fb777d8b37e27838d7cf48d6f6bad6cd724624"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@2895",
+              "offset": 2895,
+              "vaddr": 35661,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 68
+              },
+              "pictureId": 68,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 14,
+                  "offsetPathSha256": "5740ca8cae4d99fcd7eb1bd0256b6139d4d51115f26da5b03e2d615e4b6557af",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "35f5ef1d3ab9bce2beb84d34ac4262ab505802af96e9870bf4cb9116a269dff9"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@3261",
+              "offset": 3261,
+              "vaddr": 36027,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 68
+              },
+              "pictureId": 68,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 14,
+                  "offsetPathSha256": "f0fc8c815821f2757bdc77cde439fb52eee57bc3199356de75ef892c7c25853e",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "cfc0321d2201a9f1f8b822c9ba7f01823cd4265b4f18a1d33be644115fbd08c3"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@3345",
+              "offset": 3345,
+              "vaddr": 36111,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 68
+              },
+              "pictureId": 68,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 25,
+                  "offsetPathSha256": "3f4bcca5d8480a0280bf9b83a65b79053cebf678a84a7fcfc7978c72a766fc61",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "c787c97211135446c0096793aa82167437b76f300d929e87ff58ad4449945305"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@3424",
+              "offset": 3424,
+              "vaddr": 36190,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 67
+              },
+              "pictureId": 67,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 15,
+                  "offsetPathSha256": "337e472b12d904118997126da8a0a5a734b61e1f8649d0e57a8cfbb83a79f96a",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "502f635e9a6be9f19979c7e61d3a445830b52ac4ac37d1ea867ade2e3f9a1653"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@4352",
+              "offset": 4352,
+              "vaddr": 37118,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 34,
+                  "offsetPathSha256": "1f56973312a78ecbdc9b567f63a302aff69ac147003911368d00cbc7496b15bf",
+                  "branchEdgeCount": 14,
+                  "branchEdgesSha256": "98ee6f38a24d1eef7401a755d2b79f303b50d89f50b7e94f63a339c9333c266c"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@4888",
+              "offset": 4888,
+              "vaddr": 37654,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 67
+              },
+              "pictureId": 67,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "1db04de11bad78956fd673943ccf4346606ef06eda5f9fb2f6dc40e40ee085c6",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "8a0f4f400a93dc1bfde482aa21ed887ef2a9e89b36f6401a5dfe784d810c0f48"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@5777",
+              "offset": 5777,
+              "vaddr": 38543,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 44
+              },
+              "pictureId": 44,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 20,
+                  "offsetPathSha256": "d61755653f17fe4f3c0fbea1055658459240fae1aeaf954a38408f080c8149c7",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "7dd758cd6728b716402b1a6840fffc0b11f328c5bc249ef7a33d81bf124d63e0"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@6156",
+              "offset": 6156,
+              "vaddr": 38922,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 54
+              },
+              "pictureId": 54,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 48,
+                  "offsetPathSha256": "b9ccb686c60faa074da49d46e725314b7bdf34c9f46f0e1a265be906aaab43e4",
+                  "branchEdgeCount": 14,
+                  "branchEdgesSha256": "b50ccd0c26b117092ab504ec0d493345d480a20dc8826f90cf48d108a7731d38"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#50@7005",
+              "offset": 7005,
+              "vaddr": 39771,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 44
+              },
+              "pictureId": 44,
+              "entries": [
+                "camp_interrupted",
+                "search_location",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 18,
+                  "offsetPathSha256": "f6ba3c9ccfd6a18c0f81a60d2e9fdffe9516c21902f7a47ee8e59c76d2cedb40",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "8e52f9581b9d87efa3c33bf0014c6716c2e6201b7142ce5ee220e85ba6eaf289"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 24,
+                  "offsetPathSha256": "150ac83e10434bdfab3c9b984b51ba90a9769b14ec564f568638a2f0a94cc2de",
+                  "branchEdgeCount": 10,
+                  "branchEdgesSha256": "b648ba32f0931ed37cafbdf3bd199954e691df13f75405b827484e0c81fb7983"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 31,
+                  "offsetPathSha256": "33fc20185bfd04504e3084370e61c5c9153c13665960e2482bebee784088c510",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "5de5c51b3566273aac2b6c4890d8454d38d6816a7bcaf80e248b25028281ebb2"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 57,
+          "instructionCount": 159,
+          "expandedEntryStates": 159,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33859,
+              "offset": 1093
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33860,
+              "offset": 1094
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 33857,
+              "offset": 1091
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33858,
+              "offset": 1092
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL2.DAX#57@97",
+              "offset": 97,
+              "vaddr": 32863,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 70
+              },
+              "pictureId": 70,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 14,
+                  "offsetPathSha256": "be98924af5f81651bbc34fc0eeecf3fb83b9f8eea5298a276d1817e35675e237",
+                  "branchEdgeCount": 0,
+                  "branchEdgesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#57@401",
+              "offset": 401,
+              "vaddr": 33167,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 68
+              },
+              "pictureId": 68,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 45,
+                  "offsetPathSha256": "a0d1fe095d3939cf1d1492f3b145bf88e186e0fe03db18b71510f6875ba2119d",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "3bedf73a34616d4c671453745a304bbf7d8ba11ad0b8bd3ec154912cd98f867e"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#57@590",
+              "offset": 590,
+              "vaddr": 33356,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 116
+              },
+              "pictureId": 116,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 73,
+                  "offsetPathSha256": "996f2439b3be9d859009a1476a8f73bc3c9b8d99df3abee8e834a7ab218c2d5c",
+                  "branchEdgeCount": 15,
+                  "branchEdgesSha256": "abaf04160304769b3260c8f309ff6856d3ca2c08541ed4d5ced0d31e5f6e977c"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#57@690",
+              "offset": 690,
+              "vaddr": 33456,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 59
+              },
+              "pictureId": 59,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 85,
+                  "offsetPathSha256": "3b1f57db9e5e00e09f5d0337f6854239948fbbd7497acfe761ad26766954567f",
+                  "branchEdgeCount": 15,
+                  "branchEdgesSha256": "abaf04160304769b3260c8f309ff6856d3ca2c08541ed4d5ced0d31e5f6e977c"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#57@855",
+              "offset": 855,
+              "vaddr": 33621,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 23
+              },
+              "pictureId": 23,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 117,
+                  "offsetPathSha256": "0c6ebb772f6eba25ba70efd6f350b31119600b28d2d699cfdc7fd5d3fdc122e1",
+                  "branchEdgeCount": 17,
+                  "branchEdgesSha256": "98e18fe1cf3f7707b4dcc9bbb2089b5a6cdd53dfbf2c29d1e4028e2e5c91db53"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 64,
+          "instructionCount": 580,
+          "expandedEntryStates": 668,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33201,
+              "offset": 435
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33779,
+              "offset": 1013
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 33122,
+              "offset": 356
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33191,
+              "offset": 425
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL2.DAX#64@845",
+              "offset": 845,
+              "vaddr": 33611,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 23
+              },
+              "pictureId": 23,
+              "entries": [
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 10,
+                  "offsetPathSha256": "5941a8e5031f359745b05e11661ca3effcb8b3c592ef7a1b28b3197fb01982ae",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "22741b218bfe0e2f0065fdfe26bfbe972408d9c61f164114fb3b3f8dc3eecc64"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#64@1856",
+              "offset": 1856,
+              "vaddr": 34622,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 119
+              },
+              "pictureId": 119,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 10,
+                  "offsetPathSha256": "628688b8c1186437a2fbc49b683b78c3b830f367b2412dcbae1a4659101335c8",
+                  "branchEdgeCount": 2,
+                  "branchEdgesSha256": "00a635e4298d25dbd1598c203a92d5760f54b5cf956645f47fe2f8a41173acd8"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#64@2094",
+              "offset": 2094,
+              "vaddr": 34860,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 23
+              },
+              "pictureId": 23,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 29,
+                  "offsetPathSha256": "40a929caa233c26b4477d99a44a020e6bdc558c8a67bb6d4c66ca24510c2c49c",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "f48e143746291ba0e47221d157226162e40f3e8fabba7ca5de2b17cfb2b73a3e"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#64@4727",
+              "offset": 4727,
+              "vaddr": 37493,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 6,
+                  "offsetPathSha256": "d849e9b257e3c3450b1a4e6769a57cf0449cc6a5009d4dedfdd28f146753b373",
+                  "branchEdgeCount": 1,
+                  "branchEdgesSha256": "05a54d478660a6c5b2555d0a9c65cba6fa8f0b0a4fd50f3754a79e40dec37438"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 44,
+                  "offsetPathSha256": "687c04e135f449a15e36ab42522d36c9c3031fbda2ae1e9ab91ef433a89680a2",
+                  "branchEdgeCount": 11,
+                  "branchEdgesSha256": "ddce4696def60de0297c944a5b795db4d786a9ddd826729afa49d20fa500668d"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#64@4797",
+              "offset": 4797,
+              "vaddr": 37563,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 23
+              },
+              "pictureId": 23,
+              "entries": [
+                "search_location",
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 25,
+                  "offsetPathSha256": "ee94d8fb52cefee3d746f8dea10a07edca8d24a79ed8789904a88e100cefce3c",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "ade82099f227014921b03a0958b8844ff54c839c987c738a27ff42b4044eeb33"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 45,
+                  "offsetPathSha256": "5c0563bdd5b52b437eedf18cad2d2367f54bdc355b39e76fefa9d1af81111c42",
+                  "branchEdgeCount": 12,
+                  "branchEdgesSha256": "91dd2431d9857fb2181957c6c52361e11783e0c0cae5185e63515dcec4cd6b61"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 66,
+          "instructionCount": 550,
+          "expandedEntryStates": 599,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 32850,
+              "offset": 84
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33534,
+              "offset": 768
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32833,
+              "offset": 67
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 32846,
+              "offset": 80
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL2.DAX#66@1718",
+              "offset": 1718,
+              "vaddr": 34484,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 70
+              },
+              "pictureId": 70,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 10,
+                  "offsetPathSha256": "dfc74f116424582670fed6f08cd0108d416586b9e987df45a180511be3afb802",
+                  "branchEdgeCount": 3,
+                  "branchEdgesSha256": "b0810404c54c994e4f2c17aa2693b6f5e62585f30dbe9bd51a9f0b3edd8bd779"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#66@2148",
+              "offset": 2148,
+              "vaddr": 34914,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 70
+              },
+              "pictureId": 70,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "63632ecfa1db2a2d74ae379ace4f63e957b9e1f0259ac24aca63f2c3f488a295",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "3634d103e78fe7a6664f22575c4b3046684a62df964dbfae999f4e71b9ddc193"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#66@5074",
+              "offset": 5074,
+              "vaddr": 37840,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 17,
+                  "offsetPathSha256": "6e5f4fcddff3dc97c9bcf09393ff94c1b52a37d4f9dabd1ceea03d46079e0c82",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "da1c4b0d5f59e6f0839e3cd576f9bcbb0c52d7c458e0f246c231408111c35aae"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 35,
+                  "offsetPathSha256": "40298d566fcc558c5dbf01da682eb71c547cc6e842d39478d339c74483318a7e",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "f7891e085f2101a2af0e4253300d62a68a56fe11f5370d2aa50c3fe84fc43bd6"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 67,
+          "instructionCount": 736,
+          "expandedEntryStates": 766,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33017,
+              "offset": 251
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33090,
+              "offset": 324
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32852,
+              "offset": 86
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 32889,
+              "offset": 123
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL2.DAX#67@1100",
+              "offset": 1100,
+              "vaddr": 33866,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 28
+              },
+              "pictureId": 28,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "be27c8dea9caef3cf72e08b2ef9af403e3517610750161050d52460600c80063",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "1eca1cde98a7f37e017f7b780d002fa7d791272e18419dcb82b1370411670083"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#67@1339",
+              "offset": 1339,
+              "vaddr": 34105,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 8,
+                  "offsetPathSha256": "f1eb72f60dee6178ee8c26b8eafb34e61dd4b6b02ebd347117f8c426ad62a27c",
+                  "branchEdgeCount": 3,
+                  "branchEdgesSha256": "c5839933d647eeab484b5a492f2346eb874146f37a4a77b75afcef93fba60f81"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#67@2286",
+              "offset": 2286,
+              "vaddr": 35052,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 28
+              },
+              "pictureId": 28,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "74209c92cf2bcd313d685c1ff5312b9c3be591ac5a44deec14d4631dec491b3b",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "46e0caf9a7c086ffda0d7af7d739bd0d7417c136402a0b6d90d07cd34f9a8e4c"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#67@3685",
+              "offset": 3685,
+              "vaddr": 36451,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 28
+              },
+              "pictureId": 28,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "7ad6f562830f0bd9265ef32a85a93ab5d9677ff2d1a84c372e81ee29976911b3",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "b7b9f3a710c581b2406d689a34e1250da723a8dafd6ecff4a04b32609caaddd4"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#67@3801",
+              "offset": 3801,
+              "vaddr": 36567,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 28
+              },
+              "pictureId": 28,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "11f11f57b8e05656575036af38571b97e22d9e71104096a39cf5ab240c993254",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "85b128fd23cb754cf04f04825a5eb1e7f6f85d0e859b505e2bb1f60be34faa7d"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#67@4507",
+              "offset": 4507,
+              "vaddr": 37273,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 28
+              },
+              "pictureId": 28,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "ef75c2cf3d18b5e0ed095a084be1dae0ead5f9e161a0ea8620c5921a5056bce0",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "590b738a74b617fc4a4d58f0fe90650a527413c3f3d8c8d3f24a9fc9e5f00257"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#67@5095",
+              "offset": 5095,
+              "vaddr": 37861,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 28
+              },
+              "pictureId": 28,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 15,
+                  "offsetPathSha256": "fe9379967bb50bb22cfdf09b6bb5b671efc62bdd18b0bfb0a331adc954587302",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "d11c7d53dd49d84ad3b7a58b3ea7b4d9b270a3c92adfc12dd7bbb1b820b45d67"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#67@7216",
+              "offset": 7216,
+              "vaddr": 39982,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 19,
+                  "offsetPathSha256": "7825b291307258ac4e3c12c408916a7c72ef20ff43b587b65fbfb080e32b1a75",
+                  "branchEdgeCount": 10,
+                  "branchEdgesSha256": "f11b7b3d8f685ae94adddd768e3a8c187ff6c47b7574bc479967eaaf2b93bb10"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 68,
+          "instructionCount": 857,
+          "expandedEntryStates": 939,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33291,
+              "offset": 525
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33353,
+              "offset": 587
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 33198,
+              "offset": 432
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33286,
+              "offset": 520
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL2.DAX#68@108",
+              "offset": 108,
+              "vaddr": 32874,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 35
+              },
+              "pictureId": 35,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 18,
+                  "offsetPathSha256": "087efaae8420ee9ab61e4af387a3202fafdc6ea2bc3a2abc0b3dc96b59c4f370",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "83239780837e470d866cfc488b89ba7dfd7d082220284ac2f5d08795ec39bc7f"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#68@274",
+              "offset": 274,
+              "vaddr": 33040,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 34
+              },
+              "pictureId": 34,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 27,
+                  "offsetPathSha256": "5fbbc51b46ccb48a4c273d8cb0226bccbbeeef051fef5b9239919b595ba0e04d",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "d2ab757bcfe2ed692e6ff2d8e652e066727f7e6068e6a0cdd252fa7cdc88dba8"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#68@3650",
+              "offset": 3650,
+              "vaddr": 36416,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 35
+              },
+              "pictureId": 35,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "d3d9f59d6b09e5180ae09d78bb745fd3e34398e4a9a389e76ba397e6c14f7d34",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "df62bf62a8ad9fb9b67a616125cf2821d19b7ce1c533928e6744e2d3abdc032d"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#68@4822",
+              "offset": 4822,
+              "vaddr": 37588,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 34
+              },
+              "pictureId": 34,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 16,
+                  "offsetPathSha256": "b20a0beeb352f198bea002c172a496f9f2851eff62c83d785c1f2a48bfe61b3b",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "eeec696c5a0df341ac2a0930764e7091cc3dad9e8eded26d87234d2d9fb4ed1b"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#68@5101",
+              "offset": 5101,
+              "vaddr": 37867,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 34
+              },
+              "pictureId": 34,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 14,
+                  "offsetPathSha256": "f9ec0612ed9eab13e6be599ff272fa730752da23bf28d9522a2f247a4b6a2dc2",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "09203d4710e3433cfa0ae4aa4f36cee6ae20d49c69b1793264ebcf21b45a6f6b"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#68@5215",
+              "offset": 5215,
+              "vaddr": 37981,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 34
+              },
+              "pictureId": 34,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "4b0b8fb78ab06dcd0b62b6b4bc667c2c407caf6da3180bb012ac4f4ce998d150",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "068f4c3f7586709243536d6ac8e6a730ef3f24417d04d294225b6641df8af6a9"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#68@5993",
+              "offset": 5993,
+              "vaddr": 38759,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 35
+              },
+              "pictureId": 35,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 16,
+                  "offsetPathSha256": "c35e0570ddae9babedcd31ef91ca02ebac6445f0490972e0311746ab4fed5313",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "ffb76b6f2aa2f5ab31604531db7158624f2ddbbed0a15efb572ab960de0e3f94"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#68@6341",
+              "offset": 6341,
+              "vaddr": 39107,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 35
+              },
+              "pictureId": 35,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 16,
+                  "offsetPathSha256": "cc9873359666003e5130109d44fce77da773307e7c3782a755dbdc6a5ee078a5",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "7e77cdc3b858df4ed3ddc914bf99d4865f43656235c11bd9ecbfbcbd1ef47511"
+                }
+              ]
+            },
+            {
+              "key": "ECL2.DAX#68@7215",
+              "offset": 7215,
+              "vaddr": 39981,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 10,
+                  "offsetPathSha256": "29dfb39a8bd31fef36a0a42363dbd17ed5154149b630a054b48ab47038f21067",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "3626266dd33341b4df1621e4743308dd5be7230ed89cb1fd17803b6dad51ba72"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 11,
+                  "offsetPathSha256": "d4016a9509255c19567aff07da070bc29fd5d0289d3b2938d327c80fea5835a0",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "9eb237cad0a1ca0b14973a0bfb4b953d9ab69597bede21c0996981e04dc132ef"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        }
+      ]
+    },
+    {
+      "archive": "ECL3.DAX",
+      "archiveSha256": "9629aa3ef46bb354270aab1fa3e158d5b1507363bdf452fec5ca5d190f602f1f",
+      "archiveBytes": 49969,
+      "inventory": [
+        {
+          "blockId": 80,
+          "rawBytes": 7622,
+          "blockSha256": "fe18f974f4f8c0d08240e60e57f6fbddba53c78c279280871ede60a5f8a3fbac",
+          "compressedFileOffset": 65,
+          "compressedBytes": 7814
+        },
+        {
+          "blockId": 81,
+          "rawBytes": 6390,
+          "blockSha256": "36e1e85e8bc5a199e6d1009c90be0252b7d810998960922265167105510d1e0b",
+          "compressedFileOffset": 7879,
+          "compressedBytes": 6520
+        },
+        {
+          "blockId": 82,
+          "rawBytes": 7523,
+          "blockSha256": "d2461e4d715a69d4bdbf0ab2134406e03d0860f2865f0e225339a820f23b69ec",
+          "compressedFileOffset": 14399,
+          "compressedBytes": 7658
+        },
+        {
+          "blockId": 96,
+          "rawBytes": 7301,
+          "blockSha256": "e44954a166f7d48dacfad9f604cd569eda76a2f8106584e5f2f72828df169426",
+          "compressedFileOffset": 22057,
+          "compressedBytes": 7513
+        },
+        {
+          "blockId": 97,
+          "rawBytes": 7678,
+          "blockSha256": "bd4f8da73cddde06dd928c913726f24719efde2ec70faacd3ef97e11d1f1f9bf",
+          "compressedFileOffset": 29570,
+          "compressedBytes": 7887
+        },
+        {
+          "blockId": 98,
+          "rawBytes": 5662,
+          "blockSha256": "7795584ce090d136ea4013c78a27ba5dd5a590a48c1498f701d477cd23b1c31e",
+          "compressedFileOffset": 37457,
+          "compressedBytes": 5775
+        },
+        {
+          "blockId": 99,
+          "rawBytes": 6612,
+          "blockSha256": "be79dd85cbae452fc95cb81af86ad4f4144d520a08214e93634b6116e0d18bd1",
+          "compressedFileOffset": 43232,
+          "compressedBytes": 6737
+        }
+      ],
+      "staticFindings": [
+        {
+          "blockId": 80,
+          "instructionCount": 848,
+          "expandedEntryStates": 929,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33212,
+              "offset": 446
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33862,
+              "offset": 1096
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 33079,
+              "offset": 313
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33186,
+              "offset": 420
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL3.DAX#80@982",
+              "offset": 982,
+              "vaddr": 33748,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 35
+              },
+              "pictureId": 35,
+              "entries": [
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "5f5ac78a232cb8b47359fc6c4af33f21ea70ce12a4b2bd20a08bc33ef510c682",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "c0d92c98f0caeb3830d6bba18378a67d738fa5f0d4090fae5c60b79079bda5f4"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#80@1384",
+              "offset": 1384,
+              "vaddr": 34150,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "camp_interrupted",
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 14,
+                  "offsetPathSha256": "f94172c872c1b19d2a5e5d4d32fa4048ec49d940a281fe7e511c1eb4e3a3dbdc",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "3fdb8be0856d3da46d20b6c6c7e8ce3c39a48ac93de8315b1ebcc2e44763dede"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 18,
+                  "offsetPathSha256": "454560c6f90ee8839207778501743d572fe9ef30c0c5489f0283a00beccad10d",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "9463db2b14046ba16163575d4e1cfb954572a9a15c14b047f78c42ae1c4ecdf4"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 25,
+                  "offsetPathSha256": "fdc7dce1d2c5538455e4dd13c4ebcd2162fe8f5f9fd57af2a7580f3f574add50",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "39caf80f117ad21d714b922f191f3010316f939c30768723d1a74a91349db6f5"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#80@2876",
+              "offset": 2876,
+              "vaddr": 35642,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 67
+              },
+              "pictureId": 67,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "c3715f19aa60faa2562e1cf7ce950fcb2713b25229acb3d5cb7906fbbb717e99",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "d0cd907613f71fcb373f6cbf17e79ed3f9ed8767238006cb41c727d8dfe7723e"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#80@3765",
+              "offset": 3765,
+              "vaddr": 36531,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 68
+              },
+              "pictureId": 68,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "d4ba164c82b912bdb6a1345f08b67a46bdd2396489ff5174f55d6a70c371ad53",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "0ea9704106ed00da2ed00dee6ee36ea91c8b289886b921a6e744f48cb9ed4c63"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#80@4630",
+              "offset": 4630,
+              "vaddr": 37396,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 67
+              },
+              "pictureId": 67,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 11,
+                  "offsetPathSha256": "3a8aa62a9d5c8bfd2506f5412cfddb11642773e072bb9e1b0135d273e9014245",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "6ac8622bd56124e44b47563a5c88b2d6ed74dd00932c126351fa97f848922ed0"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#80@5147",
+              "offset": 5147,
+              "vaddr": 37913,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 68
+              },
+              "pictureId": 68,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "d03a4d7901cfb43c9bfd6164277d6e95a1b1af6e1609e45f44f53d2f71a42c40",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "59347e945d7b6f80460952d1f8ef00acb0d3d563d524ce824d20d4da485fd4d6"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#80@5253",
+              "offset": 5253,
+              "vaddr": 38019,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 72
+              },
+              "pictureId": 72,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 11,
+                  "offsetPathSha256": "25c100802fa0e7cb04512457dea3777c19a92ddf5383a27452914d29f170599a",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "968de1fb370ad9ec4baba900a5d1238b6bb4948f99171b63fce79134a4203203"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 81,
+          "instructionCount": 642,
+          "expandedEntryStates": 691,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33116,
+              "offset": 350
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33428,
+              "offset": 662
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32954,
+              "offset": 188
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33031,
+              "offset": 265
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL3.DAX#81@276",
+              "offset": 276,
+              "vaddr": 33042,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 73
+              },
+              "pictureId": 73,
+              "entries": [
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 3,
+                  "offsetPathSha256": "35ab510d5761a63be0e3adec3da0a82cdbe26644ef988845ec64607eba2d7e24",
+                  "branchEdgeCount": 1,
+                  "branchEdgesSha256": "0ea004efdb73e5be520aafd819aaed7b87a8fd0fb9165adcaf6d39b28eaebbdb"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#81@938",
+              "offset": 938,
+              "vaddr": 33704,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "camp_interrupted",
+                "search_location",
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 8,
+                  "offsetPathSha256": "b6ed8a961a03dc0805b4f439c102ecda06595962f89e7d73722f81239fd9f732",
+                  "branchEdgeCount": 3,
+                  "branchEdgesSha256": "0cca2c0653bab311b79163fcc2053136790d5a48cd1c3a2534cbdce199417455"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "31915b1257b3556a3a5971af4379731f3896df5f5cb741690d4dd0d519832dd4",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "d075e539a1bf3a35fbbc47c840d77782eadde46072d8a3e8c11f689dcf767164"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 28,
+                  "offsetPathSha256": "fb0d5cda14e750f5d8ffd47acb93343f4274ca0388aebdc1a43dc1ba814c7dbb",
+                  "branchEdgeCount": 12,
+                  "branchEdgesSha256": "5d872fcc73dd2b6e9f4f81565ca8d4df3459d731af2dce3c977ee85b25a313bb"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#81@3032",
+              "offset": 3032,
+              "vaddr": 35798,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 73
+              },
+              "pictureId": 73,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 27,
+                  "offsetPathSha256": "68270a2763bbf976e282a984d5a4be2a3771d0440fd25fe0cc0c6dfc6f234aee",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "b7195abfeb7ac8ef2a08ae3484b1fa782fc3fc5aad10203695b604ce75043337"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#81@4581",
+              "offset": 4581,
+              "vaddr": 37347,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 73
+              },
+              "pictureId": 73,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "79079ebcf36ab8608dfbe6915d8619d20e51775673e416a6fb3fb4478d47b9bf",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "4112b7199e5af366ad3e7d891a671da1d00429bd3496eaa4b273cefcb160cf8e"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#81@5041",
+              "offset": 5041,
+              "vaddr": 37807,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 31,
+                  "offsetPathSha256": "76412bc9024eba09702f5759a7c288bc7f2bc4cc597adad9cc2026a8aaab0298",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "00361e75f242ddad005f64503bf83e68f6e72329875d6def0d7322147ed8e317"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#81@5437",
+              "offset": 5437,
+              "vaddr": 38203,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 24
+              },
+              "pictureId": 24,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 24,
+                  "offsetPathSha256": "9a11a31cc9506e704fadc2251d73d67ac2eaf6c7b95d59d43db0797038b9d1a6",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "493a6e5472b6aa01edf298411f24a602e24fee1b14b950bc4cca580bb7c0da80"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#81@5593",
+              "offset": 5593,
+              "vaddr": 38359,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 32,
+                  "offsetPathSha256": "2e3a5d92323dd1248c8be94187e7d199d5abc614117acc56a961384c6a80d070",
+                  "branchEdgeCount": 10,
+                  "branchEdgesSha256": "e93039659f6479891144fa1f2064c289f4f3e65628dcae2a605fbd72b54f9ec6"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#81@5698",
+              "offset": 5698,
+              "vaddr": 38464,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 73
+              },
+              "pictureId": 73,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 40,
+                  "offsetPathSha256": "2d160d0510658b64444d4b4926ddb9f7981be05e970c517fb220db32c1c483bd",
+                  "branchEdgeCount": 10,
+                  "branchEdgesSha256": "e93039659f6479891144fa1f2064c289f4f3e65628dcae2a605fbd72b54f9ec6"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 82,
+          "instructionCount": 716,
+          "expandedEntryStates": 765,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 32946,
+              "offset": 180
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33309,
+              "offset": 543
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32889,
+              "offset": 123
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 32942,
+              "offset": 176
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL3.DAX#82@697",
+              "offset": 697,
+              "vaddr": 33463,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "vm_run_1",
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 9,
+                  "offsetPathSha256": "5ce8d1e4c84ffe332a70f5802e0102dfeabafbf574b440cb399077c688871c1b",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "cb6ff7f39c9fc5d0319493043b27a645bcfde69e4229cfa04718e8ebc3af80e9"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 14,
+                  "offsetPathSha256": "34cdcbc51ffece08233153591ad6b9da96d5830311b28ba60760eab697f2e360",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "f6b1fca96cdddce56f00021b565dfd3d4051fb9789c650464bc6d8a71fcb2852"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 30,
+                  "offsetPathSha256": "77b32d47f2977029a05bc128f6062338912d0f750ba621721548cde115ca9acc",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "89e6d284084c645065d084f971d4ad7a2d54d82c9d65f73d5c8871d45834fcba"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#82@1778",
+              "offset": 1778,
+              "vaddr": 34544,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 73
+              },
+              "pictureId": 73,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 10,
+                  "offsetPathSha256": "2f9a3e3bb9406d09484b611711f0e396b138bb2b4e03c2f429c448caf95682e7",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "aab16b176c9c28aa266bb58ebea9d1de5cbbfb7a57a66ef0d4c80cc5f20184f3"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#82@1881",
+              "offset": 1881,
+              "vaddr": 34647,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 15,
+                  "offsetPathSha256": "055bbd65d6d9fe5b72df1347a077315919593b17679330c7d0042269b5e688f1",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "4ef7c2701ddbb364518110d5aeacfaf26dfb57e14bafde55f5026b13a5eec65a"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#82@1884",
+              "offset": 1884,
+              "vaddr": 34650,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 44
+              },
+              "pictureId": 44,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 16,
+                  "offsetPathSha256": "71af60a57e81a12c4b570edd853e6cb56978c90c9cbef0a3a841c5cbeb9bcc4c",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "4ef7c2701ddbb364518110d5aeacfaf26dfb57e14bafde55f5026b13a5eec65a"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#82@2003",
+              "offset": 2003,
+              "vaddr": 34769,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 21,
+                  "offsetPathSha256": "689b7150f9d1dce51ec50776a7cbce2b873201779e6a78a7de85dc7241b2fd78",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "4ea3778c3d0fd80e900b600ec292d288f087952ade1238c66bb885bdde773c5a"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#82@2006",
+              "offset": 2006,
+              "vaddr": 34772,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 73
+              },
+              "pictureId": 73,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 22,
+                  "offsetPathSha256": "09a9e7b4ee9c1332ce96896e3b4ceaacfe386e0e786c110f1e1219fe90348e34",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "4ea3778c3d0fd80e900b600ec292d288f087952ade1238c66bb885bdde773c5a"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#82@4593",
+              "offset": 4593,
+              "vaddr": 37359,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 35
+              },
+              "pictureId": 35,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "d42ccd4cf7be024789635c54e96677d3b34f5d360d5d19c11f8524caf2cae4f3",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "82df470cdeb7e4d13685a36da78f9cf58d84b70fd31131dd043741318a84ca8b"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#82@4706",
+              "offset": 4706,
+              "vaddr": 37472,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 18,
+                  "offsetPathSha256": "146657e7dd368b44fb269c0dfe123863ca4e35dddddacca996747efd93e503c9",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "caab8a9974138946d59bca3dd0388b237f862faea7fc3372cc5d4c695900ebd0"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#82@5340",
+              "offset": 5340,
+              "vaddr": 38106,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 117
+              },
+              "pictureId": 117,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 26,
+                  "offsetPathSha256": "f9f1a503b0c6a92a5fa94e1e21c92b10ee6726e016b236b9713ca0ad7becb005",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "cb497aad1291c48d9df5b870abc291a1807195de18f1b320c6ff7921dc88e8d9"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#82@7120",
+              "offset": 7120,
+              "vaddr": 39886,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 24
+              },
+              "pictureId": 24,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "843e7e80a3d0b5fc2e973b8f9690a4e8c8b2df95a147a6a7bb08957baa047427",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "86e7a6ddb3e3ca4628a55d0dbbf97e51627bd2f0797f959feae84ca7caaf9569"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 96,
+          "instructionCount": 810,
+          "expandedEntryStates": 1132,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 34170,
+              "offset": 1404
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 35291,
+              "offset": 2525
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 34021,
+              "offset": 1255
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 34078,
+              "offset": 1312
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL3.DAX#96@131",
+              "offset": 131,
+              "vaddr": 32897,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 22
+              },
+              "pictureId": 22,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 18,
+                  "offsetPathSha256": "5880d2408932e0b52b369123e6560e1ce1d52d3a137167bb73600831721ee280",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "b81b98e0c1966374203b27f2fe46bbaa6db5c084f090986c2fec335ac85f369c"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@244",
+              "offset": 244,
+              "vaddr": 33010,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 71
+              },
+              "pictureId": 71,
+              "entries": [
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 23,
+                  "offsetPathSha256": "d5ea54e477d844b6ac67a0e0d4a84eec299953327a98324aaac36f4554385074",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "d1d7f6bdd7f191ef4c9c5fced387504e79cbcdfcc12a5ba50fadb1ddc79cd725"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@552",
+              "offset": 552,
+              "vaddr": 33318,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 71
+              },
+              "pictureId": 71,
+              "entries": [
+                "vm_run_1",
+                "search_location",
+                "camp_interrupted",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 5,
+                  "offsetPathSha256": "d4fceaf14def9afff9152996618e777bf6d27f74b82bcc362e97322f3d4a020b",
+                  "branchEdgeCount": 2,
+                  "branchEdgesSha256": "83fb72d0b069325dbabb2b27744b1aa84b6651540e6b6d0f3e0e5e39e794a38a"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 5,
+                  "offsetPathSha256": "e7fcd7896f78fbb7acfbf0ae03bcffed37482f4f471e0cc4c36cd83c0359323e",
+                  "branchEdgeCount": 2,
+                  "branchEdgesSha256": "6771ebca05a4a8ff141742ee4f38c52986b2d17cd1471c2320e4126efc91a76e"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 5,
+                  "offsetPathSha256": "22741bbf9b48e868c0df8a0d24805e0bd6ada005b8ddd75f7d2b408f47ab45db",
+                  "branchEdgeCount": 2,
+                  "branchEdgesSha256": "aaf332b5db9069b4f579942f162ad52defd8c97cd160eaa8367ec4c67e5c4faa"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 17,
+                  "offsetPathSha256": "530e363e72ce0d69774fd7cb34d7cce3e22c037f6c8f20e8eabfaa1b084eae59",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "38aead84ee87ab110e36ce88b5f2ee5bd737ff1a99a824a3a74381552b7dfcf1"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@688",
+              "offset": 688,
+              "vaddr": 33454,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 64
+              },
+              "pictureId": 64,
+              "entries": [
+                "vm_run_1",
+                "search_location",
+                "camp_interrupted",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "b2a9f193851f5c0f60bad5211af43621b3b7a1acf9d3973fa31e31122eff0496",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "f450d4e1639653abf9bec9f4f10b0d0f42e87aac1c378af15bfe219da0b0d433"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "04dec0d064dc827cbc420ce3f5cb9ef2601794fbdbfe0652b2ab391b5f21096e",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "67cda4d237968610331ce7cdabe0c6f47aa479b4cf0e936adb55e92e22705a84"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "0c98b9393646e1b5a35673bfe6f45bb57189fffcd3b6b8f32a27d1187b0182f9",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "e168c94fd35fc8e01c849129bf544971879301d70fb93f9836d6a8ef8cdfbe13"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 24,
+                  "offsetPathSha256": "a0949052a4a4125c6d44f45904b25eff24eb3da5a9af8bd9e060658ac007d3e4",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "665b82e74b2517dffcd9b3e055c330f0dfd026fbd71447d0459268b9816dbfec"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@2371",
+              "offset": 2371,
+              "vaddr": 35137,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 22
+              },
+              "pictureId": 22,
+              "entries": [
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 33,
+                  "offsetPathSha256": "8cedec65ed95cb49357de204b6cd92b0eb9210bae9ab9969d28b757e691bf418",
+                  "branchEdgeCount": 18,
+                  "branchEdgesSha256": "5af593da11cc1ca1b64bd250fbc6f327174655b8c13e0292b5c0938f57c27bd3"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@4017",
+              "offset": 4017,
+              "vaddr": 36783,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 65
+              },
+              "pictureId": 65,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 21,
+                  "offsetPathSha256": "f516404ff2a6839d513a648022edaeab7283d247328101855677f068f6fb8931",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "44314d7890a0a14b969390fe8ea618c419b79c708a4d3a0096a225f3bcdbc6e9"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@4315",
+              "offset": 4315,
+              "vaddr": 37081,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 66
+              },
+              "pictureId": 66,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 32,
+                  "offsetPathSha256": "1cf154a9058b5287c9f4719aedd3934516ddd7cf0d166488faf617691595f887",
+                  "branchEdgeCount": 11,
+                  "branchEdgesSha256": "6f3e20b05fec5014b84f4aaa9c54cd59db35977951ef7629ab810e19e4935f9e"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@4402",
+              "offset": 4402,
+              "vaddr": 37168,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 38,
+                  "offsetPathSha256": "d0957f1d11099854b096e2e39fdd02a1f2e82c42a796458a423462752f2af120",
+                  "branchEdgeCount": 14,
+                  "branchEdgesSha256": "f30b196dc5f0a55c87ade208b6ea7a79b45c1b1723274bd6f86c00db0189cca3"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@4540",
+              "offset": 4540,
+              "vaddr": 37306,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 71
+              },
+              "pictureId": 71,
+              "entries": [
+                "camp_interrupted",
+                "search_location",
+                "initial_entry",
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 19,
+                  "offsetPathSha256": "43e856f49900a998f1f71e37e4811ad9ac3a47e5140f8e9b83da01a43c490be4",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "9ed5178cb474708bd3bcf9661441466a030bc9509c5e1958fd6925017c5eb5ba"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 21,
+                  "offsetPathSha256": "940dc482e8183ddfe9c3d24b2c6ff942be7aaaadf32fb5227a8ef4362b57ed76",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "380a38b876ed72f09083b54e9461bdfa7e3484dbff6e62af06553ee5be2afff9"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 35,
+                  "offsetPathSha256": "daffbbf432182c4130f33db1fef6f4c45a49a7d4daaf3b84cb5cae30c88a7759",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "315edf68c4570eb73acad90b0229ccd59ec2857a454cd4c3ea09168414215223"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 47,
+                  "offsetPathSha256": "bc0fdf489d083dc64409d587b049b8e1e56fb6b5826d5e003d70bfdf010cc65d",
+                  "branchEdgeCount": 21,
+                  "branchEdgesSha256": "36d51c76bece1c8edbc7f1cb1fb77b83bb90e1f83035ab4a68eb4420ff0981e1"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@4690",
+              "offset": 4690,
+              "vaddr": 37456,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "camp_interrupted",
+                "search_location",
+                "initial_entry",
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 25,
+                  "offsetPathSha256": "b7873ce9eb5036d34809d8854c2c5d86a94674853189a2224f871fb655c7aa46",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "bb607dd501cc27b3501a8b08f95066e1872572c17873d0d0bd1199653d52175a"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 27,
+                  "offsetPathSha256": "07d7f46cb33a8c51c911865b30bbf8940feac66136bdc2dbb13219976b6f27cb",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "6b331820973e43ab32418c5a6946052e552db0c33b63ab6e72262c529da46fb8"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 41,
+                  "offsetPathSha256": "475adedafbcfc9ba6fcabea4c240741e44ff4fa21e1f1888841d87318b74722a",
+                  "branchEdgeCount": 10,
+                  "branchEdgesSha256": "66f162c4560e9221bab71e78fb64758d9ddf04031bbc38a70d470733a3df487d"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 53,
+                  "offsetPathSha256": "ebce2b2d841f5cb7f4a6a5e30097326a39aea16fc9179bd461baca6bc87ccd0b",
+                  "branchEdgeCount": 22,
+                  "branchEdgesSha256": "e935ad1639d00cae63ba597545287d5299eaaf7f8baf167aab160cc94b22b112"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@4805",
+              "offset": 4805,
+              "vaddr": 37571,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 118
+              },
+              "pictureId": 118,
+              "entries": [
+                "camp_interrupted",
+                "search_location",
+                "initial_entry",
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 30,
+                  "offsetPathSha256": "0ff16b52b92e770552b97283fdcd92bfe2a48d2d9bcea5515853d363b4261a46",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "551de58252d03f858afbe517a6cfe602baefabffaf9f9b26c83c7501304ad680"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 32,
+                  "offsetPathSha256": "efab17ce9d77ee94cea83e81273d0e1528e019e805d6882b4027438c4597fcd4",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "308c3552ae50fbd9aaa86c526214d120dd90455cc9f8dd713ad4198520c45f76"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 46,
+                  "offsetPathSha256": "4c4a415c670e7bde01df0dd73b96dd24834d710fed5d125f5480ac4fee8698cb",
+                  "branchEdgeCount": 11,
+                  "branchEdgesSha256": "1d61cdbe24bbc56d5ece02acb2388222ae7beec8380ae348b8910aa88a18b10e"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 58,
+                  "offsetPathSha256": "04d6f362553005862dbd47c40c0383b74affc69db2ac6d0953ff0f464cfe68e6",
+                  "branchEdgeCount": 23,
+                  "branchEdgesSha256": "b8ec9722fb864aec669cf7ccba63bb52fac546ad823f7d0f51e324a27300cb5f"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@5093",
+              "offset": 5093,
+              "vaddr": 37859,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 71
+              },
+              "pictureId": 71,
+              "entries": [
+                "camp_interrupted",
+                "search_location",
+                "initial_entry",
+                "vm_run_1"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 47,
+                  "offsetPathSha256": "2dbb42a5c292cb7de956855d23737234d728edf67f19c0d25769211e3922a115",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "89ce4faa05d6ebd37fd62f59de259775da9e9bcd58cbe6a4f46bca1f83b2dba5"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 49,
+                  "offsetPathSha256": "90a92de0dd897e164f536d88b0b238004093851803f45219601a9d0a050970f8",
+                  "branchEdgeCount": 10,
+                  "branchEdgesSha256": "88a645903185c7cfab3ae33306bc3becec04277f930452d27e9740f0b0b6681e"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 63,
+                  "offsetPathSha256": "c1989c72785261f816f063ae01bc6f64ed4bf3a1badad225dddb47bcf89567ac",
+                  "branchEdgeCount": 13,
+                  "branchEdgesSha256": "6f2c3db7c39638dd72c8b931cd19d8dcf6cb4d2cb4b67721e514827fa2c06a64"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 75,
+                  "offsetPathSha256": "0d0884466faeebe84598cca653e118e97d7382a98fba48b57636ee6096ff6a55",
+                  "branchEdgeCount": 25,
+                  "branchEdgesSha256": "1ea3050486925647db1ba0fd4f8f009acb3c30b4a60963a4ae677992ab72c64e"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@6195",
+              "offset": 6195,
+              "vaddr": 38961,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 20,
+                  "offsetPathSha256": "7f7f73a40aef2bdd3057d19e71f8d4c0f7f17bd9d709c007df1f27d9a578ea5c",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "1d2189ad48ec8e534e55b747cc458df15b43ba234be354dbfbe4040a53f7882f"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@6407",
+              "offset": 6407,
+              "vaddr": 39173,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 21,
+                  "offsetPathSha256": "dff54ae1a36dad61022f3110d581c5b3bcfa9e28c6f2cb66ccc060120f127add",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "06e415bc4856512187857deae93ada271bcabbaf73aac04bf45f368c81fba945"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@6622",
+              "offset": 6622,
+              "vaddr": 39388,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 27,
+                  "offsetPathSha256": "6134087e4ee8dd1dc561dbe80a78c02ba7e23630ed48e68261b1dec54becab68",
+                  "branchEdgeCount": 11,
+                  "branchEdgesSha256": "f8a1a36454ffe72459803cd3341ade4bd5a5b49d600a417d1da52aae22f566bb"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#96@7118",
+              "offset": 7118,
+              "vaddr": 39884,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "camp_interrupted",
+                "vm_run_1",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "acf0445818588680ab332e1ab1957d172c82a7331433da1c28bcd6cdc1c39793",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "2b7eb79c1e63ab2cb1fc28e6535dbef187fd71c3044c6d1061ab977e427f87e1"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 25,
+                  "offsetPathSha256": "d660c9fd78bc0423237274e5a12a2d0de883c818457fd0bdd900a57ebcf78463",
+                  "branchEdgeCount": 7,
+                  "branchEdgesSha256": "ee0ebf8f9dc8cef1f4008f4684b3d23b8049023bef0d4838eed89aa364328270"
+                },
+                {
+                  "entry": "vm_run_1",
+                  "instructionSteps": 41,
+                  "offsetPathSha256": "cb6f1fc2c47e4145e780d91bb20e90f25bf262898aee5a24a7a6d860fe0dde76",
+                  "branchEdgeCount": 20,
+                  "branchEdgesSha256": "398f7b9f74c54f5888b9f2ae8ebfd241c079d1f3569619f25877443d45a7ad20"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 41,
+                  "offsetPathSha256": "ea74c81add647e5f501a3fbfd16a5d5b4780be68a31dff888a4b6b7dbfbde104",
+                  "branchEdgeCount": 11,
+                  "branchEdgesSha256": "31f7e640bb2cc4ac82e87e6c3cea3e3e9c77ce4e54d5b043f73d4e3a0d55827f"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 97,
+          "instructionCount": 790,
+          "expandedEntryStates": 997,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33099,
+              "offset": 333
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33219,
+              "offset": 453
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32887,
+              "offset": 121
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 32967,
+              "offset": 201
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL3.DAX#97@231",
+              "offset": 231,
+              "vaddr": 32997,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 71
+              },
+              "pictureId": 71,
+              "entries": [
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 4,
+                  "offsetPathSha256": "3039863cf2e97296eb4cccfd277f082832ee0d51eab081a4f53063a567576c84",
+                  "branchEdgeCount": 1,
+                  "branchEdgesSha256": "beac56bf2452776f748ce7d9c8995dbee8f4f3117e5d4c720d1c205831b65e8e"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#97@284",
+              "offset": 284,
+              "vaddr": 33050,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 71
+              },
+              "pictureId": 71,
+              "entries": [
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 3,
+                  "offsetPathSha256": "3b36fad0fbc25768af224295648d6623a925750d4466a9953f989ed7ba66c7f3",
+                  "branchEdgeCount": 1,
+                  "branchEdgesSha256": "dbc434e1f8f66a07fde8fb14c8ec4db903b1e024504cac3f17dde15e90c812e2"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#97@6065",
+              "offset": 6065,
+              "vaddr": 38831,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 19
+              },
+              "pictureId": 19,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 9,
+                  "offsetPathSha256": "e048adc20ccead131cb64f1e3a8bf44dfff49472d22632de8f589a82998b5405",
+                  "branchEdgeCount": 3,
+                  "branchEdgesSha256": "3804e8c50db8d6aa8d6dc37e020e88d47ec77bca9315346de0f6e65ca9e9f1eb"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#97@7400",
+              "offset": 7400,
+              "vaddr": 40166,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 72
+              },
+              "pictureId": 72,
+              "entries": [
+                "search_location",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 6,
+                  "offsetPathSha256": "146203f61ed0b9eb26f47d66b4debf803a2780876811000ec57f846026e3df7b",
+                  "branchEdgeCount": 2,
+                  "branchEdgesSha256": "ff75a1565cccbcb982bc8d0e2cedfc26e71adec7743a9a850d53df18bf04afbb"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 12,
+                  "offsetPathSha256": "ff8ce620b0c98180b144c6d98cf53a13418a3221a49884713916b298776a63c8",
+                  "branchEdgeCount": 4,
+                  "branchEdgesSha256": "68da98e22b1953f733b5ff9014ad4c2238f0d48321c9655e45c1f3c9783d69b7"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#97@7559",
+              "offset": 7559,
+              "vaddr": 40325,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "camp_interrupted",
+                "search_location",
+                "initial_entry"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 8,
+                  "offsetPathSha256": "2a4f25c57e4ce94946c401df06e81a39a8d5f49214a8e0dade6789c506075d7c",
+                  "branchEdgeCount": 3,
+                  "branchEdgesSha256": "3aeb1bcb6d873656949a2344ee549fa926d43b34748ea82097f46fd24eb85479"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 14,
+                  "offsetPathSha256": "08d3221851aea94b6ebbcfdfcb7a7f445773c6148dc78377376a594ee10a9183",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "36d7b6c54a9079845e4f37f4e73b19c5f46e0f99711b1d6aa85d547cc6b0b37c"
+                },
+                {
+                  "entry": "initial_entry",
+                  "instructionSteps": 21,
+                  "offsetPathSha256": "2158a59545eab448a1fe0396d32915f4faba49e5fa18675647fdd3309cf65445",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "2f8d63d61909bafce68dc965b0642e4e9f5ae05314c0d0dd33d30a97586f8598"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 98,
+          "instructionCount": 499,
+          "expandedEntryStates": 509,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 32900,
+              "offset": 134
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33197,
+              "offset": 431
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32820,
+              "offset": 54
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 32833,
+              "offset": 67
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL3.DAX#98@67",
+              "offset": 67,
+              "vaddr": 32833,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 71
+              },
+              "pictureId": 71,
+              "entries": [
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 1,
+                  "offsetPathSha256": "d2e2d05a036d2e657e9eb7cb08778e15b87a50f1a03f62fc2f2beba913fdbbf0",
+                  "branchEdgeCount": 0,
+                  "branchEdgesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#98@2027",
+              "offset": 2027,
+              "vaddr": 34793,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 71
+              },
+              "pictureId": 71,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 27,
+                  "offsetPathSha256": "40e53ca85ed57848cee4e3718ee9bc382d69b5f0f0603f2f47585b4dfeba19cb",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "60fcba12778cd51bf75a436a8cc130e3ca5bc3ae385baf4451ae5980ccaf5300"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#98@2390",
+              "offset": 2390,
+              "vaddr": 35156,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 50,
+                  "offsetPathSha256": "fe5be421d6029f8a887a09f20e854b20d93a66680ac41fb9b0d254a0919a3626",
+                  "branchEdgeCount": 13,
+                  "branchEdgesSha256": "0183c67ce35462eec45220bdc565ac443da1743cd719fadadcf6de6efb6fa7dc"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#98@2652",
+              "offset": 2652,
+              "vaddr": 35418,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 120
+              },
+              "pictureId": 120,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 18,
+                  "offsetPathSha256": "af566cfebc3e25142b4d1939fd04a52e48d3c11e8d4329f1655c969b159929ec",
+                  "branchEdgeCount": 3,
+                  "branchEdgesSha256": "1419964a63b84916fa455ee794e489afa9accebc0e570c0aa5d6cb512e7b491c"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#98@5503",
+              "offset": 5503,
+              "vaddr": 38269,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "camp_interrupted",
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 7,
+                  "offsetPathSha256": "2c888a388c1db968588b8f71ee89ed444fcab54bc89d1c4953001cb17f4cd14d",
+                  "branchEdgeCount": 2,
+                  "branchEdgesSha256": "291873da6cd52ee530c8b0ec2cddc4d249895562a16e593f148f8dbf20f0f5bd"
+                },
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 17,
+                  "offsetPathSha256": "92a671e28cbae1009e9a17d96a6c6752011ab34eec3075e857f49eb681837123",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "4b4fa83bcee7ce112b98e573b69b3a668f7a67fdb636e5a8e42a014c4abed551"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        },
+        {
+          "blockId": 99,
+          "instructionCount": 631,
+          "expandedEntryStates": 685,
+          "headerEntries": [
+            {
+              "entry": "vm_run_1",
+              "segment": 257,
+              "vaddr": 33051,
+              "offset": 285
+            },
+            {
+              "entry": "search_location",
+              "segment": 257,
+              "vaddr": 33153,
+              "offset": 387
+            },
+            {
+              "entry": "pre_camp_check",
+              "segment": 257,
+              "vaddr": 32984,
+              "offset": 218
+            },
+            {
+              "entry": "camp_interrupted",
+              "segment": 257,
+              "vaddr": 33041,
+              "offset": 275
+            },
+            {
+              "entry": "initial_entry",
+              "segment": 257,
+              "vaddr": 32788,
+              "offset": 22
+            }
+          ],
+          "pictureSites": [
+            {
+              "key": "ECL3.DAX#99@850",
+              "offset": 850,
+              "vaddr": 33616,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 19
+              },
+              "pictureId": 19,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 18,
+                  "offsetPathSha256": "ec1fc810813968711ac7770e0d71dc32332dbb5ef9685e47f2e74e051a197191",
+                  "branchEdgeCount": 8,
+                  "branchEdgesSha256": "89c00868bc68823a342517bcfb9204d4bee1a168a868d1f1b05449dd143fb1f6"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#99@1579",
+              "offset": 1579,
+              "vaddr": 34345,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 19
+              },
+              "pictureId": 19,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "93ae945ac03afa5847767f6fddc909d2f1086c9c600d24f23c8527aa9efb701d",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "27536bbb22e7961c75976773c9adf16fc41427ba63d2874efdffd0589ac0c713"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#99@2471",
+              "offset": 2471,
+              "vaddr": 35237,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 31,
+                  "offsetPathSha256": "99bc052652c24c26cd9f938c1bf856f597d7d02683ee1c0a942c62d812330c40",
+                  "branchEdgeCount": 9,
+                  "branchEdgesSha256": "4dd7e65ca62b0dc25ed70dda3b32448dfd3d200b2cd570c4fb78817ebf6c5bd3"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#99@2724",
+              "offset": 2724,
+              "vaddr": 35490,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 31,
+                  "offsetPathSha256": "0aa5628fe657e1ba93c87b166b70494a7fb4c6262e841f24bb9fd218363d71b0",
+                  "branchEdgeCount": 10,
+                  "branchEdgesSha256": "feb43da748b682646467a096379a303f8f40eebd67dcc17e32f80d77bc516240"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#99@3282",
+              "offset": 3282,
+              "vaddr": 36048,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 19
+              },
+              "pictureId": 19,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 15,
+                  "offsetPathSha256": "bdbeeb60bdf77754e8d12673be5f25a4619157dfbdf77d37cb6ea185387eef56",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "70b3cddfa52355e4220e14d86c3182b71065514d3f8db37f73f55066e2f43185"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#99@5163",
+              "offset": 5163,
+              "vaddr": 37929,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 19
+              },
+              "pictureId": 19,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 15,
+                  "offsetPathSha256": "ed52eb450982b49d68fcf159061ced3d4f0390bb757dfabc059e43c0b498f5a7",
+                  "branchEdgeCount": 6,
+                  "branchEdgesSha256": "f5fb31d47f9a7e10833220fc3027fff6299bfad282127b9627a2606479b4a8ad"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#99@6393",
+              "offset": 6393,
+              "vaddr": 39159,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location",
+                "camp_interrupted"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 13,
+                  "offsetPathSha256": "4ae7f5288ff748efe8a4d5d561043f47edd83df36b063a2eb39d8057cbd7c336",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "0d6fb32942a536f2e54ebe8511cfc4c0ebaf81943b29d5419ef27e05dd4d8c15"
+                },
+                {
+                  "entry": "camp_interrupted",
+                  "instructionSteps": 20,
+                  "offsetPathSha256": "7f58ecd37ac6df135b827ee108a5171f3c352607989c227be34823d9d34ca424",
+                  "branchEdgeCount": 5,
+                  "branchEdgesSha256": "50372654fbd90a17ee240c98cfc0721f184ce51a4907d45b49e892993ab09326"
+                }
+              ]
+            },
+            {
+              "key": "ECL3.DAX#99@6495",
+              "offset": 6495,
+              "vaddr": 39261,
+              "operand": {
+                "kind": "immediate",
+                "code": 0,
+                "value": 255
+              },
+              "pictureId": 255,
+              "entries": [
+                "search_location"
+              ],
+              "entryWitnesses": [
+                {
+                  "entry": "search_location",
+                  "instructionSteps": 31,
+                  "offsetPathSha256": "1ae346d85fc9478b902608a94e10e0bba810dd999606b4c91ba265eba05eb954",
+                  "branchEdgeCount": 11,
+                  "branchEdgesSha256": "f42faf8a413e17528fe789efd46fa929381dd3635ae829599f649c6ef75a58a4"
+                }
+              ]
+            }
+          ],
+          "issues": [],
+          "complete": false
+        }
+      ]
+    }
+  ],
+  "inventoryCoverage": {
+    "archives": 3,
+    "blocks": 22,
+    "allPinnedInventoryInspected": true
+  },
+  "staticSummary": {
+    "instructionSites": 13547,
+    "pictureSites": 146,
+    "immediatePictureSites": 145,
+    "dynamicPictureSites": 1,
+    "issueEvents": 3,
+    "issueReasons": {
+      "dynamic-picture-operand": 3
+    },
+    "blocksWithIssues": 1,
+    "perBlockBudget": 50000
+  },
+  "runtimeCoverage": {
+    "measured": false,
+    "complete": false,
+    "sourceBankJoinsAdded": 0,
+    "registryChanged": false
+  },
+  "limitations": [
+    "Archive inventory is 22 pinned local-copy blocks, not a scene/runtime coverage denominator.",
+    "Sites are conservative static candidates from all five header entries; predicates and call/return feasibility are unsolved.",
+    "Ordinary numeric nonlocal GOTO records an issue and retains the VM continuation; ON_GOTO also retains fallthrough.",
+    "Unknown/truncated framing, overlap, invalid entries/targets, dynamic pictures and budget limits remain explicit.",
+    "Engine reachability.ts still omits ON_GOTO fallthrough; no engine/runtime code is changed here.",
+    "NEWECL chains, host CALL effects and campaign feasibility are not evaluated.",
+    "Numeric PICTURE IDs never infer PIC/BIGPIC bank, asset identity, consumer link, animation or Restyle admission.",
+    "Receipt includes hashes/offsets/branch metadata only; source archives, dialogue, raw code and registry are not written."
+  ]
+}

@@ -1,0 +1,2790 @@
+{
+  "batch": "batch01+batch02+batch03",
+  "canvas": [
+    1536,
+    1024
+  ],
+  "items": [
+    {
+      "id": "logo_dok_dragonlance",
+      "kind": "logo",
+      "src": "renders/dax/DoK_TITLE/TITLE_003.png",
+      "native_div": 4,
+      "description": "A wide title banner reading 'A DRAGONLANCE Fantasy Role-Playing Epic Vol. II': ornate gold-and-silver lettering with a sword running through the title on the left, on a dark speckled purple-blue starry background.",
+      "logo_text": "A DRAGONLANCE Fantasy Role-Playing Epic Vol. II",
+      "stem": "001_logo_dok_dragonlance",
+      "native_w": 320,
+      "native_h": 80,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 4,
+      "box": [
+        128,
+        352,
+        1280,
+        320
+      ],
+      "k": 5,
+      "transparent": false,
+      "input": "001_logo_dok_dragonlance_input.png",
+      "prompt": "001_logo_dok_dragonlance_prompt.txt",
+      "expected_output": "done/001_logo_dok_dragonlance_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "scene_cok_cottage",
+      "kind": "scene",
+      "src": "renders/daa/BIGPIC1_ChampionsOfKrynn/BIGPIC1_112.png",
+      "native_div": 4,
+      "description": "A thatched, steep-roofed timber cottage nestled beneath a huge gnarled spreading tree, green hillside, teal sky.",
+      "stem": "002_scene_cok_cottage",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "002_scene_cok_cottage_input.png",
+      "prompt": "002_scene_cok_cottage_prompt.txt",
+      "expected_output": "done/002_scene_cok_cottage_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "scene_cok_draconian",
+      "kind": "scene",
+      "src": "renders/daa/BIGPIC1_ChampionsOfKrynn/BIGPIC1_114.png",
+      "native_div": 4,
+      "description": "A large armoured draconian with wings holds a blonde woman captive on the right; a warrior with a horned helmet stands at the left with a raised sword; grassland, cloudy sky, smoke and burning fires in the right background.",
+      "stem": "003_scene_cok_draconian",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "003_scene_cok_draconian_input.png",
+      "prompt": "003_scene_cok_draconian_prompt.txt",
+      "expected_output": "done/003_scene_cok_draconian_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "scene_dok_skeleton_dragon",
+      "kind": "scene",
+      "src": "renders/dax/DoK_BIGPIC1/BIGPIC1_113.png",
+      "native_div": 1,
+      "description": "A skeletal rider on a skeletal undead dragon flying across a dark night sky, a pale moon and a red moon at the upper left, wolves or hounds on the ground at the right. Dominant colours: deep blue, purple, bone white.",
+      "stem": "004_scene_dok_skeleton_dragon",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "004_scene_dok_skeleton_dragon_input.png",
+      "prompt": "004_scene_dok_skeleton_dragon_prompt.txt",
+      "expected_output": "done/004_scene_dok_skeleton_dragon_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "scene_dqk_riders",
+      "kind": "scene",
+      "src": "renders/hlib/BIGPIC/BIGPIC_set03_img001.png",
+      "native_div": 2,
+      "description": "A group of armoured mounted knights and skeletal riders on horses, swords and lances raised, grey-purple stormy sky behind them.",
+      "stem": "005_scene_dqk_riders",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "005_scene_dqk_riders_input.png",
+      "prompt": "005_scene_dqk_riders_prompt.txt",
+      "expected_output": "done/005_scene_dqk_riders_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "face_cok_amiga_068",
+      "kind": "face",
+      "src": "renders/daa/cok_head1/HEAD1_068.png",
+      "native_div": 6,
+      "description": "Bust portrait of a woman with dark curly brown hair and a purple headband, a small hoop earring, bare shoulders; behind her a stone wall with two swords at the left and a large axe blade at the upper right.",
+      "bible": "CHARACTER BIBLE (keep identical across all images of her): a young woman, tan skin, thick dark-brown curly hair, purple headband, small silver hoop earring, brown eyes, confident slight smile.",
+      "stem": "006_face_cok_amiga_068",
+      "native_w": 88,
+      "native_h": 40,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 17,
+      "box": [
+        20,
+        172,
+        1496,
+        680
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "006_face_cok_amiga_068_input.png",
+      "prompt": "006_face_cok_amiga_068_prompt.txt",
+      "expected_output": "done/006_face_cok_amiga_068_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "face_cok_amiga_069",
+      "kind": "face",
+      "src": "renders/daa/cok_head1/HEAD1_069.png",
+      "native_div": 6,
+      "description": "Bust portrait of a young woman with long wavy copper-red hair and green eyes; behind her a shelf with a skull, books, a green potion flask and a blue scroll.",
+      "bible": "CHARACTER BIBLE (keep identical across all images of her): a young woman, fair skin, long wavy copper-red hair with fringe, green eyes, calm expression, scholar's study (skull, books, green potion).",
+      "stem": "007_face_cok_amiga_069",
+      "native_w": 88,
+      "native_h": 40,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 17,
+      "box": [
+        20,
+        172,
+        1496,
+        680
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "007_face_cok_amiga_069_input.png",
+      "prompt": "007_face_cok_amiga_069_prompt.txt",
+      "expected_output": "done/007_face_cok_amiga_069_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "face_cok_dos_068",
+      "kind": "face",
+      "src": "renders/dax/cok_head2/HEAD2_068.png",
+      "native_div": 6,
+      "description": "Same woman as the Amiga HEAD 068 in a 16-colour DOS rendition: dark red-brown curly hair, purple headband, sword hilts at left, axe blade at upper right, stone wall.",
+      "bible": "CHARACTER BIBLE (keep identical across all images of her): a young woman, tan skin, thick dark-brown curly hair, purple headband, small silver hoop earring, brown eyes, confident slight smile.",
+      "stem": "008_face_cok_dos_068",
+      "native_w": 88,
+      "native_h": 40,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 17,
+      "box": [
+        20,
+        172,
+        1496,
+        680
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "008_face_cok_dos_068_input.png",
+      "prompt": "008_face_cok_dos_068_prompt.txt",
+      "expected_output": "done/008_face_cok_dos_068_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "face_cok_dos_069",
+      "kind": "face",
+      "src": "renders/dax/cok_head2/HEAD2_069.png",
+      "native_div": 6,
+      "description": "Same woman as the Amiga HEAD 069 in a 16-colour DOS rendition: long wavy orange-red hair, green eyes, skull on a shelf at upper right, books and a green potion flask below.",
+      "bible": "CHARACTER BIBLE (keep identical across all images of her): a young woman, fair skin, long wavy copper-red hair with fringe, green eyes, calm expression, scholar's study (skull, books, green potion).",
+      "stem": "009_face_cok_dos_069",
+      "native_w": 88,
+      "native_h": 40,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 17,
+      "box": [
+        20,
+        172,
+        1496,
+        680
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "009_face_cok_dos_069_input.png",
+      "prompt": "009_face_cok_dos_069_prompt.txt",
+      "expected_output": "done/009_face_cok_dos_069_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "band_cok_title_art",
+      "kind": "band",
+      "src": "renders/dax/CoK_TITLE/TITLE_002.png",
+      "native_div": 4,
+      "description": "Champions of Krynn title illustration: a night sky with a large pale-cyan moon and a small red moon, a dark castle silhouette, a huge ornate sword at the right, a golden crown and red roses at the lower right, blue-purple starfield.",
+      "stem": "010_band_cok_title_art",
+      "native_w": 320,
+      "native_h": 200,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 4,
+      "box": [
+        128,
+        112,
+        1280,
+        800
+      ],
+      "k": 5,
+      "transparent": false,
+      "input": "010_band_cok_title_art_input.png",
+      "prompt": "010_band_cok_title_art_prompt.txt",
+      "expected_output": "done/010_band_cok_title_art_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "band_dok_ssi_presents",
+      "kind": "band",
+      "src": "renders/dax/DoK_TITLE/TITLE_001.png",
+      "native_div": 4,
+      "description": "A blue screen with the red-and-white SSI logo at top, then the centered text 'STRATEGIC SIMULATIONS, INC. PRESENTS AN Official Advanced Dungeons & Dragons COMPUTER PRODUCT' and copyright lines at the bottom.",
+      "logo_text": "STRATEGIC SIMULATIONS, INC. PRESENTS AN Official Advanced Dungeons & Dragons COMPUTER PRODUCT",
+      "stem": "011_band_dok_ssi_presents",
+      "native_w": 320,
+      "native_h": 200,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 4,
+      "box": [
+        128,
+        112,
+        1280,
+        800
+      ],
+      "k": 5,
+      "transparent": false,
+      "input": "011_band_dok_ssi_presents_input.png",
+      "prompt": "011_band_dok_ssi_presents_prompt.txt",
+      "expected_output": "done/011_band_dok_ssi_presents_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "band_dqk_world_map",
+      "kind": "band",
+      "src": "renders/hlib/BIGPIC/BIGPIC_set01_img001.png",
+      "native_div": 2,
+      "description": "A fantasy overworld map seen from above: blue sea and coast at left, green forests and valleys, brown/orange mountain ranges, rivers, tiny town icons.",
+      "map": true,
+      "stem": "012_band_dqk_world_map",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "012_band_dqk_world_map_input.png",
+      "prompt": "012_band_dqk_world_map_prompt.txt",
+      "expected_output": "done/012_band_dqk_world_map_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "cok_amiga_daa_cok_bigpic2_bigpic2_120",
+      "kind": "scene",
+      "src": "renders/daa/CoK_BIGPIC2/BIGPIC2_120.png",
+      "native_div": 4,
+      "description": "Dusk scene, purple-to-orange sky with stars. At centre a huge golden-orange dragon with spread bat-like wings looms behind a dark-armoured, helmeted figure who raises a sword and casts blue-white magic from the other hand; four heroes in blue, white and purple robes stand at the left edge; small dark silhouettes of riders on a hill at the upper left and dark figures at the right edge. The riders at the upper left and the figures at the right edge are small, dark silhouettes; keep them.",
+      "game_text": {
+        "block_id": 120,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "THE SOLAMNIC KNIGHTS ARRIVE ON DRAGON BACK. THEY LAND AND BOW BEFORE YOU. 'YOU HAVE PREVENTED THE DESTRUCTION OF OUR ARMIES. YOUR VALIANT FIGHTING AND GREAT WISDOM ARE INSPIRATIONS TO US ALL.'",
+            "kind": "dialogue-mixed",
+            "confidence": "medium",
+            "family": "BIGPIC3",
+            "ecl": "ECL3.DAX#98",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "THE SOLAMNIC KNIGHTS ARRIVE ON DRAGON BACK. THEY LAND AND BOW BEFORE YOU.",
+        "kind": "dialogue-mixed",
+        "confidence": "medium",
+        "speech_removed": true,
+        "ecl": "ECL3.DAX#98",
+        "chosen": "auto"
+      },
+      "stem": "001_cok_amiga_daa_cok_bigpic2_bigpic2_120",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "001_cok_amiga_daa_cok_bigpic2_bigpic2_120_input.png",
+      "prompt": "001_cok_amiga_daa_cok_bigpic2_bigpic2_120_prompt.txt",
+      "expected_output": "done/001_cok_amiga_daa_cok_bigpic2_bigpic2_120_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "cok_amiga_daa_cok_bigpic1_bigpic1_116",
+      "kind": "scene",
+      "src": "renders/daa/CoK_BIGPIC1/BIGPIC1_116.png",
+      "native_div": 4,
+      "description": "Torch-lit stone tavern or dungeon hall: a human in blue holding a sword raised behind a wooden table at the left, a tall hooded blue-cloaked figure at centre, two reptilian draconian-like creatures seated at the right, loaves/food on the floor at the right, burning wall torches at both ends. Wall torches at far left and right are the only light sources; dark stone background.",
+      "game_text": {
+        "block_id": 116,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "HOWEVER, YOUR GOAL IS TO FIND EVIL AND STOP ITS PLANS FOR THE DOMINATION OF KRYNN.",
+            "kind": "narration",
+            "confidence": "high",
+            "family": "BIGPIC2",
+            "ecl": "ECL2.DAX#57",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "YOU BREAK INTO A ROOM FILLED WITH DRACONIANS AND HUMANS PACKING UP COPPER DRAGON EGGS FOR TRANSPORT.",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "BIGPIC2",
+            "ecl": "ECL2.DAX#49",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "YOU BREAK INTO A ROOM FILLED WITH DRACONIANS AND HUMANS PACKING UP COPPER DRAGON EGGS FOR TRANSPORT.",
+        "kind": "narration",
+        "confidence": "medium",
+        "speech_removed": false,
+        "ecl": "ECL2.DAX#49",
+        "chosen": "curated"
+      },
+      "stem": "002_cok_amiga_daa_cok_bigpic1_bigpic1_116",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "002_cok_amiga_daa_cok_bigpic1_bigpic1_116_input.png",
+      "prompt": "002_cok_amiga_daa_cok_bigpic1_bigpic1_116_prompt.txt",
+      "expected_output": "done/002_cok_amiga_daa_cok_bigpic1_bigpic1_116_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "cok_amiga_daa_cok_bigpic2_bigpic2_117",
+      "kind": "scene",
+      "src": "renders/daa/CoK_BIGPIC2/BIGPIC2_117.png",
+      "native_div": 4,
+      "description": "A red dragon with huge orange bat-like wings flying across the top of the picture, a yellow-green coiled dragon below it breathing a stream of yellow fire to the left, heavy dark grey storm clouds, a strip of blue water at the bottom.",
+      "game_text": {
+        "block_id": 117,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "AS YOU RECOVER FROM DEFEATING THE BLUE, VAST GOLD SHAPES CHARGE INTO THE REMAINING REDS. A TITANIC BATTLE ERUPTS IN THE AIR!",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "BIGPIC3",
+            "ecl": "ECL3.DAX#82",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "AS YOU RECOVER FROM DEFEATING THE BLUE, VAST GOLD SHAPES CHARGE INTO THE REMAINING REDS. A TITANIC BATTLE ERUPTS IN THE AIR!",
+        "kind": "narration",
+        "confidence": "medium",
+        "speech_removed": false,
+        "ecl": "ECL3.DAX#82",
+        "chosen": "auto"
+      },
+      "stem": "003_cok_amiga_daa_cok_bigpic2_bigpic2_117",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "003_cok_amiga_daa_cok_bigpic2_bigpic2_117_input.png",
+      "prompt": "003_cok_amiga_daa_cok_bigpic2_bigpic2_117_prompt.txt",
+      "expected_output": "done/003_cok_amiga_daa_cok_bigpic2_bigpic2_117_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_bigpic2_bigpic2_115",
+      "kind": "scene",
+      "src": "renders/daa/DoK_BIGPIC2/BIGPIC2_115.png",
+      "native_div": 4,
+      "description": "Wide painted picture: a yellow-white magical storm or portal ring in the centre with a dark red eye-like core, violet-blue lightning crackling across a black sky, and pink-magenta sparkles along the bottom edge. Treasure-like orange objects line the bottom corners. The dark red core inside the yellow ring and the blue lightning are faint; name them in the result.",
+      "game_text": {
+        "block_id": 115,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "AS SOTH IS PULLED INSIDE, HE CRIES, 'KITIARA, HELP ME!' THEN HIS BODY DISAPPEARS INTO THE MAELSTROM -- GONE TO ANOTHER DIMENSION.",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "BIGPIC3",
+            "ecl": "ECL3.DAX#98",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "AS SOTH IS PULLED INSIDE, HE CRIES, THEN HIS BODY DISAPPEARS INTO THE MAELSTROM -- GONE TO ANOTHER DIMENSION.",
+        "kind": "dialogue-mixed",
+        "confidence": "high",
+        "speech_removed": true,
+        "ecl": "ECL3.DAX#98",
+        "chosen": "auto"
+      },
+      "stem": "004_dok_amiga_daa_dok_bigpic2_bigpic2_115",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "004_dok_amiga_daa_dok_bigpic2_bigpic2_115_input.png",
+      "prompt": "004_dok_amiga_daa_dok_bigpic2_bigpic2_115_prompt.txt",
+      "expected_output": "done/004_dok_amiga_daa_dok_bigpic2_bigpic2_115_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "cok_amiga_daa_cok_bigpic1_bigpic1_115",
+      "kind": "scene",
+      "src": "renders/daa/CoK_BIGPIC1/BIGPIC1_115.png",
+      "native_div": 4,
+      "description": "Dark dungeon: a huge dark monster head with long blue claws lunging from the upper left at a group of adventurers in purple at the centre, green sparks, a lit brazier on a pedestal right of centre, a horned-helmet figure and a hand at the far right edge, grey stone wall at the upper right. Mostly black background; the monster is dark with only its blue claws clearly lit. Keep the darkness.",
+      "game_text": {
+        "block_id": 115,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "A CLERIC SPOTS YOU AND SCREAMS, 'THERE! THAT'S THE REASON THE GODS DENIED OUR CONVERSION! ATTACK THEM!'",
+            "kind": "dialogue-mixed",
+            "confidence": "medium",
+            "family": "BIGPIC1",
+            "ecl": "ECL1.DAX#33",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "A CLERIC SPOTS YOU AND SCREAMS.",
+        "kind": "dialogue-mixed",
+        "confidence": "medium",
+        "speech_removed": true,
+        "ecl": "ECL1.DAX#33",
+        "chosen": "auto"
+      },
+      "stem": "005_cok_amiga_daa_cok_bigpic1_bigpic1_115",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "005_cok_amiga_daa_cok_bigpic1_bigpic1_115_input.png",
+      "prompt": "005_cok_amiga_daa_cok_bigpic1_bigpic1_115_prompt.txt",
+      "expected_output": "done/005_cok_amiga_daa_cok_bigpic1_bigpic1_115_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "dqk_amiga_glib_bigpic_bigpic_set05_img001",
+      "kind": "scene",
+      "src": "renders/glib/BIGPIC/BIGPIC_set05_img001.png",
+      "native_div": 1,
+      "description": "Dense swampy or jungle forest: red-brown gnarled roots and trunks frame the left and right edges, thin green vines and dim cyan mist fill the centre, dark ground at the bottom. Amiga original (no DOS render of this picture is in the renders tree).",
+      "stem": "006_dqk_amiga_glib_bigpic_bigpic_set05_img001",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "006_dqk_amiga_glib_bigpic_bigpic_set05_img001_input.png",
+      "prompt": "006_dqk_amiga_glib_bigpic_bigpic_set05_img001_prompt.txt",
+      "expected_output": "done/006_dqk_amiga_glib_bigpic_bigpic_set05_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "cok_amiga_daa_cok_bigpic2_bigpic2_118",
+      "kind": "scene",
+      "src": "renders/daa/CoK_BIGPIC2/BIGPIC2_118.png",
+      "native_div": 4,
+      "description": "A castle or flying fortress with pink-red towers violently breaking apart in a bright blue sky with white clouds, brown debris flying outwards, small red dragons flying around it, a red dragon at the lower left, grey rocky base and green grass at the bottom.",
+      "game_text": {
+        "block_id": 118,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "THE MAIN TOWER PITCHES FORWARD THROWING EVERYONE TO THE GROUND. EVERYTHING SEEMS TO BE FALLING.",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "BIGPIC3",
+            "ecl": "ECL3.DAX#96",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "THE MAIN TOWER PITCHES FORWARD THROWING EVERYONE TO THE GROUND. EVERYTHING SEEMS TO BE FALLING.",
+        "kind": "narration",
+        "confidence": "medium",
+        "speech_removed": false,
+        "ecl": "ECL3.DAX#96",
+        "chosen": "auto"
+      },
+      "stem": "007_cok_amiga_daa_cok_bigpic2_bigpic2_118",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "007_cok_amiga_daa_cok_bigpic2_bigpic2_118_input.png",
+      "prompt": "007_cok_amiga_daa_cok_bigpic2_bigpic2_118_prompt.txt",
+      "expected_output": "done/007_cok_amiga_daa_cok_bigpic2_bigpic2_118_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_bigpic2_bigpic2_114",
+      "kind": "scene",
+      "src": "renders/daa/DoK_BIGPIC2/BIGPIC2_114.png",
+      "native_div": 4,
+      "description": "Wide dark scene: at left a small khaki-clad spear fighter in a crouch against a black rocky cave wall with green moss; at right a huge glowing blue serpent-dragon with open jaws and curling blue coils rises at him. Black and brown cave background. The fighter is small and dark at the left edge; keep him. The blue creature is the only bright element.",
+      "game_text": {
+        "block_id": 114,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "SIR KARL THRUSTS THE LANCE DEEPLY INTO HER SIDE. MAYA STAGGERS AND CRIES OUT IN AGONY. THEN HER POWERFUL WINGS BEGIN TO BEAT AND SHE LIFTS OFF WITH SIR KARL STILL HOLDING THE EMBEDDED LANCE. / AS THE PAIR DISAPPEARS INTO THE CLOUDS, A ROAR ISSUES FROM THE FAR ENTRANCE. THE DEATH DRAGON IS AWAKE AND RUSHES AT YOU.",
+            "kind": "narration",
+            "confidence": "high",
+            "family": "BIGPIC2",
+            "ecl": "ECL2.DAX#50",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "SIR KARL THRUSTS THE LANCE DEEPLY INTO HER SIDE. MAYA STAGGERS AND CRIES OUT IN AGONY. THEN HER POWERFUL WINGS BEGIN TO BEAT AND SHE LIFTS OFF WITH SIR KARL STILL HOLDING THE EMBEDDED LANCE. AS THE PAIR DISAPPEARS INTO THE CLOUDS, A ROAR ISSUES FROM THE FAR ENTRANCE. THE DEATH DRAGON IS AWAKE AND RUSHES AT YOU.",
+        "kind": "narration",
+        "confidence": "high",
+        "speech_removed": false,
+        "ecl": "ECL2.DAX#50",
+        "chosen": "auto"
+      },
+      "stem": "008_dok_amiga_daa_dok_bigpic2_bigpic2_114",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "008_dok_amiga_daa_dok_bigpic2_bigpic2_114_input.png",
+      "prompt": "008_dok_amiga_daa_dok_bigpic2_bigpic2_114_prompt.txt",
+      "expected_output": "done/008_dok_amiga_daa_dok_bigpic2_bigpic2_114_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "cok_amiga_daa_cok_bigpic2_bigpic2_119",
+      "kind": "scene",
+      "src": "renders/daa/CoK_BIGPIC2/BIGPIC2_119.png",
+      "native_div": 4,
+      "description": "Dark prison or crypt interior: a grimacing old man with wild white hair and a blood-stained raised hand leans over a wooden table; a sword blade lies on the table at the bottom; a studded wooden door at the left, dark stone wall behind. Very dark picture; the wall behind him is nearly black. Do not brighten it.",
+      "game_text": {
+        "block_id": 119,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "SIR KARL STAGGERS UP THE STAIRWAY AHEAD, STREAMING BLOOD. COLLAPSING AT YOUR FEET HE WHISPERS, 'THE SLAVES... THEY MUST BE FREED FROM BELOW... HELP THEM.'",
+            "kind": "dialogue-mixed",
+            "confidence": "medium",
+            "family": "BIGPIC2",
+            "ecl": "ECL2.DAX#64",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "SIR KARL STAGGERS UP THE STAIRWAY AHEAD, STREAMING BLOOD. COLLAPSING AT YOUR FEET HE WHISPERS.",
+        "kind": "dialogue-mixed",
+        "confidence": "medium",
+        "speech_removed": true,
+        "ecl": "ECL2.DAX#64",
+        "chosen": "auto"
+      },
+      "stem": "009_cok_amiga_daa_cok_bigpic2_bigpic2_119",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "009_cok_amiga_daa_cok_bigpic2_bigpic2_119_input.png",
+      "prompt": "009_cok_amiga_daa_cok_bigpic2_bigpic2_119_prompt.txt",
+      "expected_output": "done/009_cok_amiga_daa_cok_bigpic2_bigpic2_119_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "dqk_amiga_glib_bigpic_bigpic_set07_img001",
+      "kind": "scene",
+      "src": "renders/glib/BIGPIC/BIGPIC_set07_img001.png",
+      "native_div": 1,
+      "description": "Night battle: a winged fire-red demon leaps across the upper left, flinging glowing orange orbs on trails; at the right a blue-white starburst of magic hits a pale blue robed figure; small green crystals on dark purple ground. Amiga original (no DOS render in the renders tree).",
+      "stem": "010_dqk_amiga_glib_bigpic_bigpic_set07_img001",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "010_dqk_amiga_glib_bigpic_bigpic_set07_img001_input.png",
+      "prompt": "010_dqk_amiga_glib_bigpic_bigpic_set07_img001_prompt.txt",
+      "expected_output": "done/010_dqk_amiga_glib_bigpic_bigpic_set07_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_amiga_glib_bigpic_bigpic_set04_img001",
+      "kind": "scene",
+      "src": "renders/glib/BIGPIC/BIGPIC_set04_img001.png",
+      "native_div": 1,
+      "description": "Stormy twilight harbour town: white-capped turquoise sea in the middle, a hillside town with red-tiled roofs and a tower at the right, a column-fronted ruin at the lower right, a figure on a rock at the left, snow-capped mountains and dark clouds in the distance. Amiga original (no DOS render in the renders tree).",
+      "stem": "011_dqk_amiga_glib_bigpic_bigpic_set04_img001",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "011_dqk_amiga_glib_bigpic_bigpic_set04_img001_input.png",
+      "prompt": "011_dqk_amiga_glib_bigpic_bigpic_set04_img001_prompt.txt",
+      "expected_output": "done/011_dqk_amiga_glib_bigpic_bigpic_set04_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_amiga_glib_bigpic_bigpic_set03_img001",
+      "kind": "scene",
+      "src": "renders/glib/BIGPIC/BIGPIC_set03_img001.png",
+      "native_div": 1,
+      "description": "A gigantic green scaly creature (dragon or sea serpent) fills the picture, coiled across it with red wounds on its flank; a purple eye at the upper left, a bearded pale face or head partly hidden at the lower right; tiny blue stars on a black background. Amiga original. The creature's scales are dark green on black; keep the dark background with a few faint stars.",
+      "stem": "012_dqk_amiga_glib_bigpic_bigpic_set03_img001",
+      "native_w": 304,
+      "native_h": 120,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 5,
+      "box": [
+        8,
+        212,
+        1520,
+        600
+      ],
+      "k": 6,
+      "transparent": false,
+      "input": "012_dqk_amiga_glib_bigpic_bigpic_set03_img001_input.png",
+      "prompt": "012_dqk_amiga_glib_bigpic_bigpic_set03_img001_prompt.txt",
+      "expected_output": "done/012_dqk_amiga_glib_bigpic_bigpic_set03_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_dos_hlib_title_title_set08_img001",
+      "kind": "band",
+      "src": "renders/hlib/TITLE/TITLE_set08_img001.png",
+      "native_div": 2,
+      "description": "Painted title illustration inside a grey stone frame with carved corner ornaments: a dark-haired woman in a skimpy black-and-gold outfit and horned crown sits on a rock at the left among spiny green dragons; at the upper right a small green dragon on a brown tower; at the lower right a white-haired old man with an outstretched arm and a snake-headed staff, a sepia-brown cloudy sky. Already near-painterly; the gain is small. Keep the stone frame unchanged. Low priority.",
+      "stem": "013_dqk_dos_hlib_title_title_set08_img001",
+      "native_w": 320,
+      "native_h": 200,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 4,
+      "box": [
+        128,
+        112,
+        1280,
+        800
+      ],
+      "k": 5,
+      "transparent": false,
+      "input": "013_dqk_dos_hlib_title_title_set08_img001_input.png",
+      "prompt": "013_dqk_dos_hlib_title_title_set08_img001_prompt.txt",
+      "expected_output": "done/013_dqk_dos_hlib_title_title_set08_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "pool_amiga_pool_amiga_final_final_2_f0",
+      "kind": "scene",
+      "src": "renders/pool_amiga/final/final_2_f0.png",
+      "native_div": 2,
+      "description": "Brown winged dragon crouching on a grey stone floor in front of a brick wall, a grey oval platter or disc hanging at the top.",
+      "animation": {
+        "frames": 4,
+        "kind": "scattered",
+        "changed_fraction": 0.22237,
+        "bbox": [
+          0,
+          10,
+          88,
+          88
+        ],
+        "restyle": "frame 0 only",
+        "plan": "static-first",
+        "extra_frames": [],
+        "note": "Animated original (4 frames, 22.2% changes, kind scattered). Restyle frame 0 only; the picture is too active for a mask patch, so it ships static first and the engine keeps showing frame 0 (research section 5.4)."
+      },
+      "stem": "014_pool_amiga_pool_amiga_final_final_2_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "014_pool_amiga_pool_amiga_final_final_2_f0_input.png",
+      "prompt": "014_pool_amiga_pool_amiga_final_final_2_f0_prompt.txt",
+      "expected_output": "done/014_pool_amiga_pool_amiga_final_final_2_f0_out.png",
+      "game": "pool"
+    },
+    {
+      "id": "cok_amiga_daa_cok_pic2_pic2_025_f0",
+      "kind": "face",
+      "src": "renders/daa/CoK_PIC2/PIC2_025_f0.png",
+      "native_div": 4,
+      "description": "Draconian or dragon warrior: a teal-green scaly dragon head in profile snarling at the right, red open mouth with pointed teeth, wearing a gold-and-orange armoured helmet with a horn; teal/violet scale body below with a brown wooden-pattern shape (shield or arm) at the lower right. Black background. Teal-green scales with gold armour; keep the red open mouth and the gold helmet plates.",
+      "stem": "015_cok_amiga_daa_cok_pic2_pic2_025_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "015_cok_amiga_daa_cok_pic2_pic2_025_f0_input.png",
+      "prompt": "015_cok_amiga_daa_cok_pic2_pic2_025_f0_prompt.txt",
+      "expected_output": "done/015_cok_amiga_daa_cok_pic2_pic2_025_f0_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "dqk_dos_hlib_pica_pica_set07_img001",
+      "kind": "face",
+      "src": "renders/hlib/PICA/PICA_set07_img001.png",
+      "native_div": 2,
+      "description": "Scowling red-haired man in a horned steel helmet with a red jewel on the brow, green collar, a dagger glinting at the bottom right.",
+      "stem": "016_dqk_dos_hlib_pica_pica_set07_img001",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "016_dqk_dos_hlib_pica_pica_set07_img001_input.png",
+      "prompt": "016_dqk_dos_hlib_pica_pica_set07_img001_prompt.txt",
+      "expected_output": "done/016_dqk_dos_hlib_pica_pica_set07_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_dos_hlib_pica_pica_set08_img001",
+      "kind": "face",
+      "src": "renders/hlib/PICA/PICA_set08_img001.png",
+      "native_div": 2,
+      "description": "Pale blue-skinned vampire with pointed ears and red eyes and fangs, one clawed hand raised, dark blue cloak, teal background.",
+      "stem": "017_dqk_dos_hlib_pica_pica_set08_img001",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "017_dqk_dos_hlib_pica_pica_set08_img001_input.png",
+      "prompt": "017_dqk_dos_hlib_pica_pica_set08_img001_prompt.txt",
+      "expected_output": "done/017_dqk_dos_hlib_pica_pica_set08_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_dos_hlib_pica_pica_set11_img001",
+      "kind": "face",
+      "src": "renders/hlib/PICA/PICA_set11_img001.png",
+      "native_div": 2,
+      "description": "Minotaur-like bull-headed man with a gold nose ring and earring, brown fur, arms crossed over a silver breastplate and red cape, yellow background.",
+      "stem": "018_dqk_dos_hlib_pica_pica_set11_img001",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "018_dqk_dos_hlib_pica_pica_set11_img001_input.png",
+      "prompt": "018_dqk_dos_hlib_pica_pica_set11_img001_prompt.txt",
+      "expected_output": "done/018_dqk_dos_hlib_pica_pica_set11_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_dos_hlib_pica_pica_set15_img001",
+      "kind": "face",
+      "src": "renders/hlib/PICA/PICA_set15_img001.png",
+      "native_div": 2,
+      "description": "Head of a black-and-silver dragon with a long snout, pointed ears and sharp teeth against a dark blue-grey mottled background. Dark body; keep it dark.",
+      "stem": "019_dqk_dos_hlib_pica_pica_set15_img001",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "019_dqk_dos_hlib_pica_pica_set15_img001_input.png",
+      "prompt": "019_dqk_dos_hlib_pica_pica_set15_img001_prompt.txt",
+      "expected_output": "done/019_dqk_dos_hlib_pica_pica_set15_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_dos_hlib_pica_pica_set18_img001",
+      "kind": "face",
+      "src": "renders/hlib/PICA/PICA_set18_img001.png",
+      "native_div": 2,
+      "description": "Dark-skinned bald man with a gold circlet, a teal tunic over chain mail and gold belt, seated, hands on his knees; olive-brown background.",
+      "stem": "020_dqk_dos_hlib_pica_pica_set18_img001",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "020_dqk_dos_hlib_pica_pica_set18_img001_input.png",
+      "prompt": "020_dqk_dos_hlib_pica_pica_set18_img001_prompt.txt",
+      "expected_output": "done/020_dqk_dos_hlib_pica_pica_set18_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_dos_hlib_pica_pica_set19_img001",
+      "kind": "face",
+      "src": "renders/hlib/PICA/PICA_set19_img001.png",
+      "native_div": 2,
+      "description": "Smiling bright-eyed halfling-like character with big blue eyes and rosy cheeks wearing a metal helmet and a skull earring.",
+      "stem": "021_dqk_dos_hlib_pica_pica_set19_img001",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "021_dqk_dos_hlib_pica_pica_set19_img001_input.png",
+      "prompt": "021_dqk_dos_hlib_pica_pica_set19_img001_prompt.txt",
+      "expected_output": "done/021_dqk_dos_hlib_pica_pica_set19_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_dos_hlib_pica_pica_set20_img001",
+      "kind": "face",
+      "src": "renders/hlib/PICA/PICA_set20_img001.png",
+      "native_div": 2,
+      "description": "Young dark-haired man with an orange headband and red shirt holding a dagger, olive background.",
+      "stem": "022_dqk_dos_hlib_pica_pica_set20_img001",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "022_dqk_dos_hlib_pica_pica_set20_img001_input.png",
+      "prompt": "022_dqk_dos_hlib_pica_pica_set20_img001_prompt.txt",
+      "expected_output": "done/022_dqk_dos_hlib_pica_pica_set20_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_dos_hlib_pica_pica_set21_img001",
+      "kind": "face",
+      "src": "renders/hlib/PICA/PICA_set21_img001.png",
+      "native_div": 2,
+      "description": "Young elf-eared ranger in a blue tunic and green leggings crouching with a wooden staff, a pouch at his hip, olive background.",
+      "stem": "023_dqk_dos_hlib_pica_pica_set21_img001",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "023_dqk_dos_hlib_pica_pica_set21_img001_input.png",
+      "prompt": "023_dqk_dos_hlib_pica_pica_set21_img001_prompt.txt",
+      "expected_output": "done/023_dqk_dos_hlib_pica_pica_set21_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "dqk_dos_hlib_pica_pica_set22_img001",
+      "kind": "face",
+      "src": "renders/hlib/PICA/PICA_set22_img001.png",
+      "native_div": 2,
+      "description": "Weathered old man in a flat cap and tweed-like fur jacket, looking down with a stern face, one hand holding a small object.",
+      "stem": "024_dqk_dos_hlib_pica_pica_set22_img001",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "024_dqk_dos_hlib_pica_pica_set22_img001_input.png",
+      "prompt": "024_dqk_dos_hlib_pica_pica_set22_img001_prompt.txt",
+      "expected_output": "done/024_dqk_dos_hlib_pica_pica_set22_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "gateway_amiga_gateway-amiga_pic_amiga_pic_68",
+      "kind": "face",
+      "src": "renders/gateway-amiga/PIC/amiga_pic_68.png",
+      "native_div": 4,
+      "description": "Woman with long wavy golden-brown hair and a small jewelled tiara, yellow gown with red trim and a red cloak, one hand resting on a staff, seated in a garden with dark green pines, a blue stone tower and a cyan sky behind her. Amiga palette: warm skin and brown hair; the DOS twin renders her hair and skin grey. DOS twin is pic2 104.",
+      "stem": "025_gateway_amiga_gateway-amiga_pic_amiga_pic_68",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "025_gateway_amiga_gateway-amiga_pic_amiga_pic_68_input.png",
+      "prompt": "025_gateway_amiga_gateway-amiga_pic_amiga_pic_68_prompt.txt",
+      "expected_output": "done/025_gateway_amiga_gateway-amiga_pic_amiga_pic_68_out.png",
+      "game": "gateway"
+    },
+    {
+      "id": "cok_amiga_daa_cok_pic2_pic2_064_f0",
+      "kind": "face",
+      "src": "renders/daa/CoK_PIC2/PIC2_064_f0.png",
+      "native_div": 4,
+      "description": "Fantasy landscape: two floating rock islands in a pale lilac-white sky. The right island holds a red-brick castle with blue-purple conical towers; the left, smaller island carries grey ruined stone buildings. Brown rock undersides, green ground strip at the bottom. Both islands are clearly separate; keep the grey ruined buildings on the smaller left island.",
+      "game_text": {
+        "block_id": 64,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "YOU RECOGNIZE THEM AS FLYING CITADELS, CASTLES RIPPED FROM THE EARTH BY ARCANE MAGICS. SURROUNDING THEM ARE EVIL HORDES OF DRAGONS AND DRACONIANS.",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "PIC3",
+            "ecl": "ECL3.DAX#96",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "YOU RECOGNIZE THEM AS FLYING CITADELS, CASTLES RIPPED FROM THE EARTH BY ARCANE MAGICS. SURROUNDING THEM ARE EVIL HORDES OF DRAGONS AND DRACONIANS.",
+        "kind": "narration",
+        "confidence": "medium",
+        "speech_removed": false,
+        "ecl": "ECL3.DAX#96",
+        "chosen": "auto"
+      },
+      "stem": "026_cok_amiga_daa_cok_pic2_pic2_064_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "026_cok_amiga_daa_cok_pic2_pic2_064_f0_input.png",
+      "prompt": "026_cok_amiga_daa_cok_pic2_pic2_064_f0_prompt.txt",
+      "expected_output": "done/026_cok_amiga_daa_cok_pic2_pic2_064_f0_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_pic2_pic2_093_f0",
+      "kind": "face",
+      "src": "renders/daa/DoK_PIC2/PIC2_093_f0.png",
+      "native_div": 4,
+      "description": "Dark-skinned man in a turquoise turban with feathers and a violet-blue robe with cyan patterns, sitting cross-legged and holding up a glass orb in each hand; the right orb has a tiny orange imp or tree inside. Colourful potion bottles (red, pink, green) stand around him at the bottom on a red cushion, black background. Keep both orbs and the row of potion bottles.",
+      "game_text": {
+        "block_id": 93,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "'DOGS STILL DISTURB MY DREAMS. / 'WILL YOU KILL THEM?' / 'IF THERE IS NOTHING ELSE...'",
+            "kind": "dialogue-mixed",
+            "confidence": "medium",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#33",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "'YOU DESERVE A REST.' ALL SIP A POTION. / 'IF THERE IS NOTHING ELSE...'",
+            "kind": "dialogue-mixed",
+            "confidence": "medium",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#33",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "'MY TORMENTORS WON! GO HEAL, AND TRY AGAIN, FRIENDS!'",
+            "kind": "dialogue-mixed",
+            "confidence": "medium",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#33",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "stem": "027_dok_amiga_daa_dok_pic2_pic2_093_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "027_dok_amiga_daa_dok_pic2_pic2_093_f0_input.png",
+      "prompt": "027_dok_amiga_daa_dok_pic2_pic2_093_f0_prompt.txt",
+      "expected_output": "done/027_dok_amiga_daa_dok_pic2_pic2_093_f0_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "gateway_amiga_gateway-amiga_pic_amiga_pic_19",
+      "kind": "face",
+      "src": "renders/gateway-amiga/PIC/amiga_pic_19.png",
+      "native_div": 4,
+      "description": "A brown wooden longship with a carved prow on stormy blue-white waves, a dark hooded figure standing in it with one arm raised, a harbour town with red and pink roofs and grey smoke clouds at the left, orange-pink clouds at the top. The harbour town at the left is faint and low-contrast. Amiga palette, DOS twin is pic 019.",
+      "stem": "028_gateway_amiga_gateway-amiga_pic_amiga_pic_19",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "028_gateway_amiga_gateway-amiga_pic_amiga_pic_19_input.png",
+      "prompt": "028_gateway_amiga_gateway-amiga_pic_amiga_pic_19_prompt.txt",
+      "expected_output": "done/028_gateway_amiga_gateway-amiga_pic_amiga_pic_19_out.png",
+      "game": "gateway"
+    },
+    {
+      "id": "cok_amiga_daa_cok_pic2_pic2_024_f0",
+      "kind": "face",
+      "src": "renders/daa/CoK_PIC2/PIC2_024_f0.png",
+      "native_div": 4,
+      "description": "Skeletal knight: a bone-yellow skull with glowing red eyes and a full set of teeth under a grey chain-mail coif and steel helmet with gold crest and green gem; chain-mail shoulders with gold edge. Behind him a cyan-and-teal stained-glass-like tile wall at the left and right, black behind the skull. Keep both red glowing eyes, the chain-mail coif and the cyan tile wall at the left.",
+      "game_text": {
+        "block_id": 24,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "AS YOU SPIN AROUND YOU SEE A DEATH KNIGHT AND MINOTAUR GUARDS LOOKING AT YOU FROM THE SOUTHERN END OF THE ARENA.",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "PIC3",
+            "ecl": "ECL3.DAX#82",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "THE PRESENCE BECOME EXTREMELY AGITATED AND ANGRY. A NEW, MORE OMINOUS IMAGE FORMS IN YOUR MIND.",
+            "kind": "narration",
+            "confidence": "low",
+            "family": "PIC3",
+            "ecl": "ECL3.DAX#81",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "AS YOU SPIN AROUND YOU SEE A DEATH KNIGHT AND MINOTAUR GUARDS LOOKING AT YOU FROM THE SOUTHERN END OF THE ARENA.",
+        "kind": "narration",
+        "confidence": "medium",
+        "speech_removed": false,
+        "ecl": "ECL3.DAX#82",
+        "chosen": "auto"
+      },
+      "animation": {
+        "frames": 4,
+        "kind": "scattered",
+        "changed_fraction": 0.22766,
+        "bbox": [
+          0,
+          0,
+          63,
+          88
+        ],
+        "restyle": "frame 0 only",
+        "plan": "static-first",
+        "extra_frames": [],
+        "note": "Animated original (4 frames, 22.8% changes, kind scattered). Restyle frame 0 only; the picture is too active for a mask patch, so it ships static first and the engine keeps showing frame 0 (research section 5.4)."
+      },
+      "stem": "029_cok_amiga_daa_cok_pic2_pic2_024_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "029_cok_amiga_daa_cok_pic2_pic2_024_f0_input.png",
+      "prompt": "029_cok_amiga_daa_cok_pic2_pic2_024_f0_prompt.txt",
+      "expected_output": "done/029_cok_amiga_daa_cok_pic2_pic2_024_f0_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_pic2_pic2_014_f0",
+      "kind": "face",
+      "src": "renders/daa/DoK_PIC2/PIC2_014_f0.png",
+      "native_div": 4,
+      "description": "Undead ghoul: a blue-cyan skeletal face with glowing electric-blue outline hair, hollow dark eye sockets with a white pinpoint, bared teeth; a red-brown hooded robe with a hanging chain at the lower right. Dark green brick wall behind at the left. The blue glow around the head is the main light source; keep the chain at the lower right and the green bricks at the left.",
+      "game_text": {
+        "block_id": 14,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "A TOWERING LICH APPROACHES AND BOWS. 'WELCOME TO DULCIMER. I AM THE MAYOR HERE. HAVE YOU, PER CHANCE, EVER VISITED CERBERUS?' / THE LICH SCOWLS AND YOU FEAR IT MIGHT ATTACK. 'NO? IT IS THE MODEL ON WHICH THIS TOWN WAS DESIGNED! MAKE A POINT TO VISIT IT SOON.' / 'YOU MAY EXPLORE FREELY, WITH TWO EXCEPTIONS. STAY AWAY FROM THE EASTERN EXIT, AND ALSO MY PRIVATE CHAMBER. OBEY THESE LAWS AND YOU'LL HAVE NO TROUBLE HERE.' THE LICH DEPARTS.",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC3",
+            "ecl": "ECL3.DAX#81",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "A TOWERING LICH APPROACHES AND BOWS. THE LICH SCOWLS AND YOU FEAR IT MIGHT ATTACK. THE LICH DEPARTS.",
+        "kind": "dialogue-mixed",
+        "confidence": "high",
+        "speech_removed": true,
+        "ecl": "ECL3.DAX#81",
+        "chosen": "curated"
+      },
+      "stem": "030_dok_amiga_daa_dok_pic2_pic2_014_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "030_dok_amiga_daa_dok_pic2_pic2_014_f0_input.png",
+      "prompt": "030_dok_amiga_daa_dok_pic2_pic2_014_f0_prompt.txt",
+      "expected_output": "done/030_dok_amiga_daa_dok_pic2_pic2_014_f0_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_pic2_pic2_079_f0",
+      "kind": "face",
+      "src": "renders/daa/DoK_PIC2/PIC2_079_f0.png",
+      "native_div": 4,
+      "description": "Dark-haired woman with curly brown hair under a blue headband, brown eyes, red lips and a gold hoop earring; magenta top with a gold necklace edge. Cyan-teal speckled background.",
+      "game_text": {
+        "block_id": 79,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "A WOMAN APPROACHES FROM THE SHADOWS. SHE EXPLAINS HER PRESENCE. / WILL YOU ALLOW LENORE TO REMAIN WITH THE PARTY? / LENORE THANKS YOU, BUT CAUTIOUSLY REMAINS IN THE SHADOWS A FEW STEPS BEHIND THE PARTY.",
+            "kind": "narration",
+            "confidence": "high",
+            "family": "PIC3",
+            "ecl": "ECL3.DAX#96",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "LENORE LEAPS TOWARD THE ROD WHEN THE WHIRLPOOL BEGINS TO DISSIPATE. DO YOU TRY TO STOP HER? / LENORE SNATCHES UP THE ROD AND POINTS IT IN YOUR DIRECTION. SHE SMILES. 'I THANK YOU FOR MY FREEDOM FROM SOTH. MY TRUE NAME IS KITIARA. WITH THIS ROD I SHALL RULE KRYNN. FOR NOW YOU WILL LIVE.' / SHE TOUCHES THE ROD'S TIP AND MURMURS AN INCANTATION. HER EYES OPEN IN SURPRISE AS THE ROD EXPLODES INTO A NEW WHIRLPOOL. 'THAT FOOL SEBAS LIED TO ME. I HAVE DESTROYED THE ROD!' / YOU ARE SUCKED INTO THE MAELSTROM. KITIARA IS DRAWN AWAY FROM YOU AND DISAPPEARS.",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC3",
+            "ecl": "ECL3.DAX#98",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "LADY LENORE IS HUDDLED HERE, WAITING FOR YOU. / 'I WITNESSED THE BODY OF A SOLAMNIC KNIGHT BEING RISEN FROM THE DEAD IN A SECRET CHAMBER. THEY CALLED HIM 'DURFEY,' DO YOU KNOW OF HIM? THEY CAUGHT ME SPYING AND SENT A TEAM OF DEATH KNIGHTS AFTER ME.' / SHE LOOKS FEARFUL. 'THEY'RE LOOKING FOR ME NOW. PLEASE PROTECT ME! I'LL GIVE YOU INFORMATION IN RETURN. FOR STARTS, THERE'S A SECRET PASSAGE RIGHT AHEAD OF YOU.' / LENORE FALLS IN PLACE BEHIND THE PARTY.",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC3",
+            "ecl": "ECL3.DAX#98",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "A WOMAN APPROACHES FROM THE SHADOWS. SHE EXPLAINS HER PRESENCE. LENORE THANKS YOU, BUT CAUTIOUSLY REMAINS IN THE SHADOWS A FEW STEPS BEHIND THE PARTY.",
+        "kind": "narration",
+        "confidence": "high",
+        "speech_removed": true,
+        "ecl": "ECL3.DAX#96",
+        "chosen": "auto"
+      },
+      "stem": "031_dok_amiga_daa_dok_pic2_pic2_079_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "031_dok_amiga_daa_dok_pic2_pic2_079_f0_input.png",
+      "prompt": "031_dok_amiga_daa_dok_pic2_pic2_079_f0_prompt.txt",
+      "expected_output": "done/031_dok_amiga_daa_dok_pic2_pic2_079_f0_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "gateway_amiga_gateway-amiga_pic_amiga_pic_39",
+      "kind": "face",
+      "src": "renders/gateway-amiga/PIC/amiga_pic_39.png",
+      "native_div": 4,
+      "description": "A longship with a large red-striped sail and a black hull with red portholes ploughing through rough blue-and-white waves under a cyan sky, magenta coral-like or tentacle shapes rising at the right edge. Magenta shapes at the right edge are sea growth or tentacles; the sail carries a dark emblem. Amiga palette, DOS twin is pic4 056.",
+      "stem": "032_gateway_amiga_gateway-amiga_pic_amiga_pic_39",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "032_gateway_amiga_gateway-amiga_pic_amiga_pic_39_input.png",
+      "prompt": "032_gateway_amiga_gateway-amiga_pic_amiga_pic_39_prompt.txt",
+      "expected_output": "done/032_gateway_amiga_gateway-amiga_pic_amiga_pic_39_out.png",
+      "game": "gateway"
+    },
+    {
+      "id": "gateway_amiga_gateway-amiga_pic_amiga_pic_70",
+      "kind": "face",
+      "src": "renders/gateway-amiga/PIC/amiga_pic_70.png",
+      "native_div": 4,
+      "description": "Smiling woman with wavy copper-brown hair under a white cap, white blouse with green puffed sleeves and a brown corset with laces, one hand on her hip and the other holding a wooden staff, black background. Amiga palette: pink skin and auburn hair; the DOS twin renders her grey. DOS twin is pic3 116.",
+      "stem": "033_gateway_amiga_gateway-amiga_pic_amiga_pic_70",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "033_gateway_amiga_gateway-amiga_pic_amiga_pic_70_input.png",
+      "prompt": "033_gateway_amiga_gateway-amiga_pic_amiga_pic_70_prompt.txt",
+      "expected_output": "done/033_gateway_amiga_gateway-amiga_pic_amiga_pic_70_out.png",
+      "game": "gateway"
+    },
+    {
+      "id": "dok_amiga_daa_dok_pic2_pic2_091_f0",
+      "kind": "face",
+      "src": "renders/daa/DoK_PIC2/PIC2_091_f0.png",
+      "native_div": 4,
+      "description": "A sacrifice scene: a pale man in blue shorts lies on his back across the pink-red tentacles of a green sea-monster, arms stretched out, while rows of small dark hooded figures stand in the background in the gloom. A green scaled creature raises a scythe-like arm at the top right. The rows of dark hooded figures at the top are faint and must be kept.",
+      "game_text": {
+        "block_id": 91,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "YOU ENTER THE TEMPLE. A SLAVE IS FASTENED TO THE LIMBS OF AN ODDLY-SHAPED ALTAR. THE CHANTING GROWS LOUDER AS THE MOMENT OF SACRIFICE NEARS. / WILL YOU RESCUE THE SLAVE? / THE VICTIM ON THE ALTAR SEES YOU AND BEGINS SCREAMING FRANTICALLY FOR HELP. THE KUO-TOA TURN AND ATTACK!",
+            "kind": "narration",
+            "confidence": "high",
+            "family": "PIC2",
+            "ecl": "ECL2.DAX#65",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "YOU ENTER THE TEMPLE. A SLAVE IS FASTENED TO THE LIMBS OF AN ODDLY-SHAPED ALTAR. THE CHANTING GROWS LOUDER AS THE MOMENT OF SACRIFICE NEARS. THE VICTIM ON THE ALTAR SEES YOU AND BEGINS SCREAMING FRANTICALLY FOR HELP. THE KUO-TOA TURN AND ATTACK!",
+        "kind": "narration",
+        "confidence": "high",
+        "speech_removed": true,
+        "ecl": "ECL2.DAX#65",
+        "chosen": "auto"
+      },
+      "stem": "034_dok_amiga_daa_dok_pic2_pic2_091_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "034_dok_amiga_daa_dok_pic2_pic2_091_f0_input.png",
+      "prompt": "034_dok_amiga_daa_dok_pic2_pic2_091_f0_prompt.txt",
+      "expected_output": "done/034_dok_amiga_daa_dok_pic2_pic2_091_f0_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "dqk_dos_hlib_title_title_set07_img001",
+      "kind": "logo",
+      "src": "renders/hlib/TITLE/TITLE_set07_img001.png",
+      "native_div": 2,
+      "description": "The words 'the Dark Queen' in orange-red metallic gothic lettering with dark outlines on black; the small 'the' is above the 'D'. Exact text: the Dark Queen. Sits on black; keep it black.",
+      "layer": {
+        "role": "overlay_transparent",
+        "parent": "dqk_dos_hlib_title_title_set05_img001",
+        "parent_source": "renders/hlib/TITLE/TITLE_set05_img001.png",
+        "x": 0,
+        "y": 21,
+        "key": [
+          0,
+          255,
+          255
+        ],
+        "key_min_distance": 208.3,
+        "matte_fraction": 0.3343,
+        "context": "035_dqk_dos_hlib_title_title_set07_img001_context.png",
+        "rule": "alpha = foreground matte; input = layer on flat key colour"
+      },
+      "stem": "035_dqk_dos_hlib_title_title_set07_img001",
+      "native_w": 320,
+      "native_h": 80,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 4,
+      "box": [
+        128,
+        352,
+        1280,
+        320
+      ],
+      "k": 5,
+      "transparent": true,
+      "input": "035_dqk_dos_hlib_title_title_set07_img001_input.png",
+      "prompt": "035_dqk_dos_hlib_title_title_set07_img001_prompt.txt",
+      "expected_output": "done/035_dqk_dos_hlib_title_title_set07_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "cok_amiga_daa_cok_pic1_pic1_018_f0",
+      "kind": "face",
+      "src": "renders/daa/CoK_PIC1/PIC1_018_f0.png",
+      "native_div": 4,
+      "description": "Spiny yellow-orange dragon-like head with violet eyes, open mouth with a pink tongue, tall frill of yellow spikes; a gem-set white collar of pearls and a red-brown cloak at the bottom. Black background. Keep the violet eyes and the pearl collar.",
+      "game_text": {
+        "block_id": 18,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "ALL OF THE DRACONIANS ARE SLAIN SAVE ONE, WHO RIPS A BOOK FROM A DEAD MAN'S HANDS. HE TURNS TO YOU AND MERELY LAUGHS. THEN HE TAKES A STEP AND DISAPPEARS.",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#16",
+            "family_resolution": "ecl-number-match"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "ALL OF THE DRACONIANS ARE SLAIN SAVE ONE, WHO RIPS A BOOK FROM A DEAD MAN'S HANDS. HE TURNS TO YOU AND MERELY LAUGHS. THEN HE TAKES A STEP AND DISAPPEARS.",
+        "kind": "narration",
+        "confidence": "medium",
+        "speech_removed": false,
+        "ecl": "ECL1.DAX#16",
+        "chosen": "auto"
+      },
+      "stem": "036_cok_amiga_daa_cok_pic1_pic1_018_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "036_cok_amiga_daa_cok_pic1_pic1_018_f0_input.png",
+      "prompt": "036_cok_amiga_daa_cok_pic1_pic1_018_f0_prompt.txt",
+      "expected_output": "done/036_cok_amiga_daa_cok_pic1_pic1_018_f0_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_pic2_pic2_085_f0",
+      "kind": "face",
+      "src": "renders/daa/DoK_PIC2/PIC2_085_f0.png",
+      "native_div": 4,
+      "description": "Bearded dark-skinned man inside a very large light grey-olive hood with cyan light streaks at the top right; a gold chain holding a big oval blue-green gem hangs on his chest. Black-brown beard, calm eyes.",
+      "game_text": {
+        "block_id": 85,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "THEY SET UP A TEMPORARY STOCKADE.",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#17",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "THE TOWN PRIEST APPEARS WITH MANY KNIGHTS. / 'PALADINE PROTECT US!' THEY BLOCK THE HOLES WITH STONES AND SPELLS. / 'GO AND REST.'",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#36",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "'LEAVE! YOU HAVE CAUSED TOO MUCH SORROW IN CEKOS.'",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#34",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "stem": "037_dok_amiga_daa_dok_pic2_pic2_085_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "037_dok_amiga_daa_dok_pic2_pic2_085_f0_input.png",
+      "prompt": "037_dok_amiga_daa_dok_pic2_pic2_085_f0_prompt.txt",
+      "expected_output": "done/037_dok_amiga_daa_dok_pic2_pic2_085_f0_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_pic2_pic2_088_f0",
+      "kind": "face",
+      "src": "renders/daa/DoK_PIC2/PIC2_088_f0.png",
+      "native_div": 4,
+      "description": "A fairy man with large pink-orange butterfly wings, blue tunic and blonde hair sits in a hollow tree trunk; a second small pink fairy at the right edge. Green grass with yellow flowers at the bottom, brown bark and dark foliage around. Keep the second small pink fairy at the right edge.",
+      "game_text": {
+        "block_id": 88,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "YOU ENTER A CLEARING AND SPRITES FLEE. ONE SHOUTS,",
+            "kind": "narration",
+            "confidence": "high",
+            "family": "PIC3",
+            "ecl": "ECL3.DAX#82",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "A SMALL SPRITE FLUTTERS NEAR YOU. OTHERS HOVER BEHIND NEARBY BUSHES. ITS PIPING VOICE IS FAINT AS THE WIND. 'YOU ARE NOT EVIL. YOU SHOULD VISIT THE HALL IN THE FOREST'S CENTER.' / ANOTHER SPRITE RUSHES UP AND SPEAKS...",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC3",
+            "ecl": "ECL3.DAX#82",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "'HURRAH FOR THE GREAT HEROES. THE SPRITES WILL SING YOUR PRAISES THROUGH THE AGES. HURRAH FOR THE EVIL SLAYERS.'",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC3",
+            "ecl": "ECL3.DAX#82",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "YOU ENTER A CLEARING AND SPRITES FLEE. ONE SHOUTS.",
+        "kind": "narration",
+        "confidence": "high",
+        "speech_removed": false,
+        "ecl": "ECL3.DAX#82",
+        "chosen": "auto"
+      },
+      "stem": "038_dok_amiga_daa_dok_pic2_pic2_088_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "038_dok_amiga_daa_dok_pic2_pic2_088_f0_input.png",
+      "prompt": "038_dok_amiga_daa_dok_pic2_pic2_088_f0_prompt.txt",
+      "expected_output": "done/038_dok_amiga_daa_dok_pic2_pic2_088_f0_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "gateway_amiga_gateway-amiga_pic_amiga_pic_40",
+      "kind": "face",
+      "src": "renders/gateway-amiga/PIC/amiga_pic_40.png",
+      "native_div": 4,
+      "description": "A grey domed stone fortress or temple on a rocky crag whose lower half is a mass of brown tentacle-like roots, a purple octopus-like shape with glowing pink eyes on its front, teal-streaked cyan sky and dark blue sea at the base. The purple octopus face in the middle of the building is the focal detail. Amiga palette, DOS twin is pic4 057.",
+      "stem": "039_gateway_amiga_gateway-amiga_pic_amiga_pic_40",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "039_gateway_amiga_gateway-amiga_pic_amiga_pic_40_input.png",
+      "prompt": "039_gateway_amiga_gateway-amiga_pic_amiga_pic_40_prompt.txt",
+      "expected_output": "done/039_gateway_amiga_gateway-amiga_pic_amiga_pic_40_out.png",
+      "game": "gateway"
+    },
+    {
+      "id": "gateway_amiga_gateway-amiga_pic_amiga_pic_55",
+      "kind": "face",
+      "src": "renders/gateway-amiga/PIC/amiga_pic_55.png",
+      "native_div": 4,
+      "description": "Young person with swept white-grey hair, a bow and quiver behind the shoulder, a purple tunic with a large blue ruffled collar, a hand resting on a table with a small green-tipped object, black background, stern sidelong glance. Amiga palette: tanned skin, not the grey skin of the DOS render. DOS twin is pic6 081.",
+      "stem": "040_gateway_amiga_gateway-amiga_pic_amiga_pic_55",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "040_gateway_amiga_gateway-amiga_pic_amiga_pic_55_input.png",
+      "prompt": "040_gateway_amiga_gateway-amiga_pic_amiga_pic_55_prompt.txt",
+      "expected_output": "done/040_gateway_amiga_gateway-amiga_pic_amiga_pic_55_out.png",
+      "game": "gateway"
+    },
+    {
+      "id": "cok_amiga_daa_cok_pic1_pic1_023_f0",
+      "kind": "face",
+      "src": "renders/daa/CoK_PIC1/PIC1_023_f0.png",
+      "native_div": 4,
+      "description": "Face of a young woman with a huge cloud of curly white-silver hair, pink skin, blue eyes and calm closed lips; the backdrop around the hair is pale blue-white (a sky-light backdrop, not black). A hint of a pale blue-white garment at the bottom. The background is pale blue/white, not black; keep it light so the white hair still reads against it.",
+      "game_text": {
+        "block_id": 23,
+        "ambiguous": true,
+        "records": [
+          {
+            "text": "BEAUTY AND DANGER ABOUND IN THE LANDS OF KRYNN ... / THE DRAGONARMIES AWAIT. SO GO FORWARD AND DEFEAT THIS NEW THREAT TO BECOME THE CHAMPIONS OF KRYNN.",
+            "kind": "narration",
+            "confidence": "high",
+            "family": "PIC2",
+            "ecl": "ECL2.DAX#57",
+            "family_resolution": "ecl-number-match"
+          },
+          {
+            "text": "WELL NOW YOU KNOW, I AM A SILVER DRAGON WHO LOVES A MORTAL MAN. I DISLIKE KEEPING SECRETS, BUT I KNEW SIR KARL WOULD BE EMBARRASSED IF MY IDENTITY WERE WELL KNOWN. I HOPE YOU WILL UNDERSTAND.",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "PIC2",
+            "ecl": "ECL2.DAX#64",
+            "family_resolution": "ecl-number-match"
+          },
+          {
+            "text": "A FEMALE VOICE CALLS OUT FOR CARAMON. HE GLANCES UP, STARTLED AT THE SOUND. CARAMON YELLS AND IN A MOMENT A FIGURE APPEARS IN THE DOORWAY.",
+            "kind": "narration",
+            "confidence": "low",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#32",
+            "family_resolution": "ecl-number-match"
+          }
+        ]
+      },
+      "animation": {
+        "frames": 6,
+        "kind": "large-region",
+        "changed_fraction": 0.01162,
+        "bbox": [
+          33,
+          40,
+          79,
+          84
+        ],
+        "restyle": "frame 0 only",
+        "plan": "small-loop",
+        "extra_frames": [
+          {
+            "index": 1,
+            "original": "renders/daa/CoK_PIC1/PIC1_023_f1.png",
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          },
+          {
+            "index": 2,
+            "original": "renders/daa/CoK_PIC1/PIC1_023_f2.png",
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          },
+          {
+            "index": 3,
+            "original": "renders/daa/CoK_PIC1/PIC1_023_f3.png",
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          },
+          {
+            "index": 4,
+            "original": "renders/daa/CoK_PIC1/PIC1_023_f4.png",
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          },
+          {
+            "index": 5,
+            "original": "renders/daa/CoK_PIC1/PIC1_023_f5.png",
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          }
+        ],
+        "note": "Animated original (6 frames, 1.2% of the picture changes inside bbox [33, 40, 79, 84]). Restyle frame 0 only now; the extra frames can later be made as masked edits of the restyled base (small loop, research section 5.3). Do not restyle the frames as separate pictures."
+      },
+      "stem": "041_cok_amiga_daa_cok_pic1_pic1_023_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "041_cok_amiga_daa_cok_pic1_pic1_023_f0_input.png",
+      "prompt": "041_cok_amiga_daa_cok_pic1_pic1_023_f0_prompt.txt",
+      "expected_output": "done/041_cok_amiga_daa_cok_pic1_pic1_023_f0_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "cok_amiga_daa_cok_pic1_pic1_034_f0",
+      "kind": "face",
+      "src": "renders/daa/CoK_PIC1/PIC1_034_f0.png",
+      "native_div": 4,
+      "description": "Bust of a hero with long wavy copper-orange hair, a thick drooping orange moustache and beard, two red scars on his left cheek and a small red mark above the right eye; ruddy tan skin, blue eyes. Gold chain collar with a gold medallion at the bottom edge, white-and-cyan plate armour shoulders on a black background. Style-match the other cok-npcs: same painterly realism, black background. Keep the two red cheek scars and the gold collar.",
+      "game_text": {
+        "block_id": 34,
+        "ambiguous": true,
+        "records": [
+          {
+            "text": "THE COMMANDANT GREETS YOU THEN ASKS WHY YOU ARE HERE. YOU RECORD THE CONVERSATION AS JOURNAL ENTRY [var].",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "PIC2",
+            "ecl": "ECL2.DAX#68",
+            "family_resolution": "ecl-number-match"
+          },
+          {
+            "text": "'WE MUST GET BACK TO SIR KARL AS WELL. CARAMON WILL NEED OUR HELP. PLEASE, DO AS HE ASKS.'",
+            "kind": "dialogue-mixed",
+            "confidence": "medium",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#32",
+            "family_resolution": "ecl-number-match"
+          },
+          {
+            "text": "THE NEW COMMANDANT SAYS, 'THANK YOU FOR SAVING US. YOU WILL ALWAYS BE WELCOME HERE.'",
+            "kind": "dialogue-mixed",
+            "confidence": "medium",
+            "family": "PIC2",
+            "ecl": "ECL2.DAX#68",
+            "family_resolution": "ecl-number-match"
+          }
+        ]
+      },
+      "stem": "042_cok_amiga_daa_cok_pic1_pic1_034_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "042_cok_amiga_daa_cok_pic1_pic1_034_f0_input.png",
+      "prompt": "042_cok_amiga_daa_cok_pic1_pic1_034_f0_prompt.txt",
+      "expected_output": "done/042_cok_amiga_daa_cok_pic1_pic1_034_f0_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "cok_amiga_daa_cok_pic1_pic1_057_f0",
+      "kind": "face",
+      "src": "renders/daa/CoK_PIC1/PIC1_057_f0.png",
+      "native_div": 4,
+      "description": "Older warrior with long silver-grey hair, bushy grey eyebrows and a drooping grey moustache, tan skin and blue eyes. White tunic with teal floral pattern, white-and-gold pauldrons and a large round gold medallion at the lower right, black background.",
+      "game_text": {
+        "block_id": 57,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "OUR COURIER TO OUR SOUTHERN OUTPOST HAS FAILED TO REPORT IN. WE HAVE TO RELAY THEM THE INFORMATION YOU HAVE DISCOVERED. THE BASE LIES BETWEEN SANCTION AND NERAKA.",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#17",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "SIR KARL GREETS YOU AT THE OFFICE. 'THE COMMANDANT AND I ARE DISCUSSING SOME IMPORTANT ISSUES.",
+            "kind": "narration",
+            "confidence": "medium",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#17",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "'WE HAVE DISTURBING NEWS. EVIL FORCES HAVE DISCOVERED THE TOMB OF SIR DARGAARD.' HE RELATES THE LEGEND, AND YOU RECORD IT IN JOURNAL ENTRY 18.",
+            "kind": "dialogue-mixed",
+            "confidence": "medium",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#17",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "stem": "043_cok_amiga_daa_cok_pic1_pic1_057_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "043_cok_amiga_daa_cok_pic1_pic1_057_f0_input.png",
+      "prompt": "043_cok_amiga_daa_cok_pic1_pic1_057_f0_prompt.txt",
+      "expected_output": "done/043_cok_amiga_daa_cok_pic1_pic1_057_f0_out.png",
+      "game": "cok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_pic2_pic2_006_f0",
+      "kind": "face",
+      "src": "renders/daa/DoK_PIC2/PIC2_006_f0.png",
+      "native_div": 4,
+      "description": "Pale woman with long wavy deep-red hair and a gold circlet with a red jewel, one hand against her cheek wearing a gold ring, gold necklace with a red gem. Green background at the left and right edges, orange-gold garment.",
+      "game_text": {
+        "block_id": 6,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "ARIELA'S!",
+            "kind": "narration",
+            "confidence": "low",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#33",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "'I KNOW OF HIM,' ARIELA SAYS. / 'WE MUST SAVE HIM. / 'WATCH FOR A GAUNT-FACED MAN. HE IS SOTH'S AGENT.' THEY TELL A STORY. / 'GOOD LUCK. / 'RETURN WHEN YOU HAVE NEWS.' / YOU ARE SHOWN OUT.",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#32",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "'WE HEARD OF THE MERCHANT'S ESCAPE. ODD! WILL YOU GO TO HIS SHOP IN VINGAARD?' / 'GOOD LUCK. / 'RETURN WHEN YOU HAVE NEWS.' / YOU ARE SHOWN OUT.",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#32",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "stem": "044_dok_amiga_daa_dok_pic2_pic2_006_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "044_dok_amiga_daa_dok_pic2_pic2_006_f0_input.png",
+      "prompt": "044_dok_amiga_daa_dok_pic2_pic2_006_f0_prompt.txt",
+      "expected_output": "done/044_dok_amiga_daa_dok_pic2_pic2_006_f0_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_pic2_pic2_089_f0",
+      "kind": "face",
+      "src": "renders/daa/DoK_PIC2/PIC2_089_f0.png",
+      "native_div": 4,
+      "description": "Bright cartoonish scene against a cyan sky: a large wooden contraption of crossed brown beams with two black wheels or drums and belts, like a catapult or treadmill machine, beside a leafy green tree with red apples at the left; a small white-haired old man in a purple-pink outfit sits at the bottom pedalling or working it. A grey blade shape sticks out at the left edge. Keep the red apples on the tree and the tiny old man at the bottom; the sky stays bright cyan.",
+      "game_text": {
+        "block_id": 89,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "A GNOME PULLS YOU TO AN EXHIBIT. 'WELCOMETOTHEHALLOFINNOVATIONOV- YOU INTERRUPT HIM AND ASK HIM TO SPEAK 'SLOWLY.' / HE STARTS AGAIN, 'W E L C O M E TO THE HALL OF INNOVATION. OVER HERE IS OUR INGENIOUS APPLE-PICKING MACHINE.'",
+            "kind": "dialogue-mixed",
+            "confidence": "medium",
+            "family": "PIC2",
+            "ecl": "ECL2.DAX#66",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "game_context": {
+        "text": "A GNOME PULLS YOU TO AN EXHIBIT. HE STARTS AGAIN.",
+        "kind": "dialogue-mixed",
+        "confidence": "medium",
+        "speech_removed": true,
+        "ecl": "ECL2.DAX#66",
+        "chosen": "curated"
+      },
+      "stem": "045_dok_amiga_daa_dok_pic2_pic2_089_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "045_dok_amiga_daa_dok_pic2_pic2_089_f0_input.png",
+      "prompt": "045_dok_amiga_daa_dok_pic2_pic2_089_f0_prompt.txt",
+      "expected_output": "done/045_dok_amiga_daa_dok_pic2_pic2_089_f0_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_pic2_pic2_019_f0",
+      "kind": "face",
+      "src": "renders/daa/DoK_PIC2/PIC2_019_f0.png",
+      "native_div": 4,
+      "description": "Pale yellow-green bald vampire with pointed ears, red eyes and fangs, one hand raised in front of his face, wearing a purple cloak; a huge black circle (moon) fills the upper left of a dark green background. The black moon disc against the dark green background is faint; keep it.",
+      "stem": "046_dok_amiga_daa_dok_pic2_pic2_019_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "046_dok_amiga_daa_dok_pic2_pic2_019_f0_input.png",
+      "prompt": "046_dok_amiga_daa_dok_pic2_pic2_019_f0_prompt.txt",
+      "expected_output": "done/046_dok_amiga_daa_dok_pic2_pic2_019_f0_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "dok_amiga_daa_dok_pic2_pic2_084_f0",
+      "kind": "face",
+      "src": "renders/daa/DoK_PIC2/PIC2_084_f0.png",
+      "native_div": 4,
+      "description": "Bald muscular man with a grey moustache and eyebrows, tan skin, wearing black harness straps across a bare chest with a glowing purple-white orb in the centre; he holds a long sword across his body, black wrist bands. Black background.",
+      "game_text": {
+        "block_id": 84,
+        "ambiguous": false,
+        "records": [
+          {
+            "text": "'NEED TO TRAIN?' / 'COME AGAIN SOON.'",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#32",
+            "family_resolution": "unique"
+          },
+          {
+            "text": "'WELCOME. WILL YOU TRAIN?'",
+            "kind": "dialogue-mixed",
+            "confidence": "high",
+            "family": "PIC1",
+            "ecl": "ECL1.DAX#33",
+            "family_resolution": "unique"
+          }
+        ]
+      },
+      "stem": "047_dok_amiga_daa_dok_pic2_pic2_084_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "047_dok_amiga_daa_dok_pic2_pic2_084_f0_input.png",
+      "prompt": "047_dok_amiga_daa_dok_pic2_pic2_084_f0_prompt.txt",
+      "expected_output": "done/047_dok_amiga_daa_dok_pic2_pic2_084_f0_out.png",
+      "game": "dok"
+    },
+    {
+      "id": "pool_amiga_pool_amiga_pic_pic_1_f0",
+      "kind": "face",
+      "src": "renders/pool_amiga/pic/pic_1_f0.png",
+      "native_div": 2,
+      "description": "Open treasure chest overflowing with gold coins, a golden bowl and a jewelled chain, a white-bladed sword leaning at the right, dark grey background.",
+      "animation": {
+        "frames": 6,
+        "kind": "scattered",
+        "changed_fraction": 0.03357,
+        "bbox": [
+          17,
+          5,
+          87,
+          82
+        ],
+        "restyle": "frame 0 only",
+        "plan": "static-first",
+        "extra_frames": [],
+        "note": "Animated original (6 frames, 3.4% changes, kind scattered). Restyle frame 0 only; the picture is too active for a mask patch, so it ships static first and the engine keeps showing frame 0 (research section 5.4)."
+      },
+      "stem": "048_pool_amiga_pool_amiga_pic_pic_1_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "048_pool_amiga_pool_amiga_pic_pic_1_f0_input.png",
+      "prompt": "048_pool_amiga_pool_amiga_pic_pic_1_f0_prompt.txt",
+      "expected_output": "done/048_pool_amiga_pool_amiga_pic_pic_1_f0_out.png",
+      "game": "pool"
+    },
+    {
+      "id": "pool_amiga_pool_amiga_pic_pic_4_f0",
+      "kind": "face",
+      "src": "renders/pool_amiga/pic/pic_4_f0.png",
+      "native_div": 2,
+      "description": "Orc-like warrior in a horned steel helm, blue studded armour, a spiked wooden shield and a sword, tan sky behind.",
+      "animation": {
+        "frames": 2,
+        "kind": "scattered",
+        "changed_fraction": 0.24703,
+        "bbox": [
+          2,
+          25,
+          87,
+          87
+        ],
+        "restyle": "frame 0 only",
+        "plan": "static-first",
+        "extra_frames": [],
+        "note": "Animated original (2 frames, 24.7% changes, kind scattered). Restyle frame 0 only; the picture is too active for a mask patch, so it ships static first and the engine keeps showing frame 0 (research section 5.4)."
+      },
+      "stem": "049_pool_amiga_pool_amiga_pic_pic_4_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "049_pool_amiga_pool_amiga_pic_pic_4_f0_input.png",
+      "prompt": "049_pool_amiga_pool_amiga_pic_pic_4_f0_prompt.txt",
+      "expected_output": "done/049_pool_amiga_pool_amiga_pic_pic_4_f0_out.png",
+      "game": "pool"
+    },
+    {
+      "id": "dqk_dos_hlib_title_title_set07_img002",
+      "kind": "logo",
+      "src": "renders/hlib/TITLE/TITLE_set07_img002.png",
+      "native_div": 2,
+      "description": "The words 'of Krynn' in large orange-red metallic gothic lettering on black, a small 'of' above the K. Exact text: of Krynn. Keep black background.",
+      "layer": {
+        "role": "overlay_transparent",
+        "parent": "dqk_dos_hlib_title_title_set05_img001",
+        "parent_source": "renders/hlib/TITLE/TITLE_set05_img001.png",
+        "x": 64,
+        "y": 100,
+        "key": [
+          0,
+          255,
+          255
+        ],
+        "key_min_distance": 208.3,
+        "matte_fraction": 0.3679,
+        "context": "050_dqk_dos_hlib_title_title_set07_img002_context.png",
+        "rule": "alpha = foreground matte; input = layer on flat key colour"
+      },
+      "stem": "050_dqk_dos_hlib_title_title_set07_img002",
+      "native_w": 176,
+      "native_h": 82,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 8,
+      "box": [
+        64,
+        184,
+        1408,
+        656
+      ],
+      "k": 10,
+      "transparent": true,
+      "input": "050_dqk_dos_hlib_title_title_set07_img002_input.png",
+      "prompt": "050_dqk_dos_hlib_title_title_set07_img002_prompt.txt",
+      "expected_output": "done/050_dqk_dos_hlib_title_title_set07_img002_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "pool_amiga_pool_amiga_pic_pic_50_f0",
+      "kind": "face",
+      "src": "renders/pool_amiga/pic/pic_50_f0.png",
+      "native_div": 2,
+      "description": "Bald man with an eyepatch in a grey buttoned coat holding up a small glinting object, black background.",
+      "stem": "051_pool_amiga_pool_amiga_pic_pic_50_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "051_pool_amiga_pool_amiga_pic_pic_50_f0_input.png",
+      "prompt": "051_pool_amiga_pool_amiga_pic_pic_50_f0_prompt.txt",
+      "expected_output": "done/051_pool_amiga_pool_amiga_pic_pic_50_f0_out.png",
+      "game": "pool"
+    },
+    {
+      "id": "dqk_dos_hlib_pica_pica_set03_img001",
+      "kind": "face",
+      "src": "renders/hlib/PICA/PICA_set03_img001.png",
+      "native_div": 2,
+      "description": "A many-headed hydra in grey-blue scales with several snarling heads coiling around each other, black background. Faint, nearly black heads sit behind the front ones; keep them.",
+      "animation": {
+        "frames": 3,
+        "kind": "full-picture",
+        "changed_fraction": 0.41748,
+        "bbox": [
+          1,
+          0,
+          88,
+          88
+        ],
+        "restyle": "frame 0 only",
+        "plan": "static-first",
+        "extra_frames": [],
+        "note": "Animated original (3 frames, 41.7% changes, kind full-picture). Restyle frame 0 only; the picture is too active for a mask patch, so it ships static first and the engine keeps showing frame 0 (research section 5.4)."
+      },
+      "stem": "052_dqk_dos_hlib_pica_pica_set03_img001",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "052_dqk_dos_hlib_pica_pica_set03_img001_input.png",
+      "prompt": "052_dqk_dos_hlib_pica_pica_set03_img001_prompt.txt",
+      "expected_output": "done/052_dqk_dos_hlib_pica_pica_set03_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "pool_amiga_pool_amiga_pic_pic_0_f0",
+      "kind": "face",
+      "src": "renders/pool_amiga/pic/pic_0_f0.png",
+      "native_div": 2,
+      "description": "Snarling brown-furred beast-man (lion or wolf head) with two white horns and fangs, blue sequined robe, white candelabra at both sides and a curved white blade at the right.",
+      "animation": {
+        "frames": 4,
+        "kind": "large-region",
+        "changed_fraction": 0.09427,
+        "bbox": [
+          1,
+          38,
+          82,
+          72
+        ],
+        "restyle": "frame 0 only",
+        "plan": "small-loop",
+        "extra_frames": [
+          {
+            "index": 1,
+            "original": null,
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          },
+          {
+            "index": 2,
+            "original": null,
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          },
+          {
+            "index": 3,
+            "original": null,
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          }
+        ],
+        "note": "Animated original (4 frames, 9.4% of the picture changes inside bbox [1, 38, 82, 72]). Restyle frame 0 only now; the extra frames can later be made as masked edits of the restyled base (small loop, research section 5.3). Do not restyle the frames as separate pictures."
+      },
+      "stem": "053_pool_amiga_pool_amiga_pic_pic_0_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "053_pool_amiga_pool_amiga_pic_pic_0_f0_input.png",
+      "prompt": "053_pool_amiga_pool_amiga_pic_pic_0_f0_prompt.txt",
+      "expected_output": "done/053_pool_amiga_pool_amiga_pic_pic_0_f0_out.png",
+      "game": "pool"
+    },
+    {
+      "id": "pool_amiga_pool_amiga_pic_pic_49_f0",
+      "kind": "face",
+      "src": "renders/pool_amiga/pic/pic_49_f0.png",
+      "native_div": 2,
+      "description": "Medusa face with snake hair, grey stone-coloured skin and a scowl, mottled brown-grey background.",
+      "animation": {
+        "frames": 3,
+        "kind": "scattered",
+        "changed_fraction": 0.04119,
+        "bbox": [
+          6,
+          7,
+          78,
+          85
+        ],
+        "restyle": "frame 0 only",
+        "plan": "static-first",
+        "extra_frames": [],
+        "note": "Animated original (3 frames, 4.1% changes, kind scattered). Restyle frame 0 only; the picture is too active for a mask patch, so it ships static first and the engine keeps showing frame 0 (research section 5.4)."
+      },
+      "stem": "054_pool_amiga_pool_amiga_pic_pic_49_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "054_pool_amiga_pool_amiga_pic_pic_49_f0_input.png",
+      "prompt": "054_pool_amiga_pool_amiga_pic_pic_49_f0_prompt.txt",
+      "expected_output": "done/054_pool_amiga_pool_amiga_pic_pic_49_f0_out.png",
+      "game": "pool"
+    },
+    {
+      "id": "pool_amiga_pool_amiga_pic_pic_34_f0",
+      "kind": "face",
+      "src": "renders/pool_amiga/pic/pic_34_f0.png",
+      "native_div": 2,
+      "description": "Skeleton warrior in a horned helmet holding a round tan shield and a white sword, black background. Black background; keep.",
+      "animation": {
+        "frames": 4,
+        "kind": "region-loop",
+        "changed_fraction": 0.10201,
+        "bbox": [
+          17,
+          1,
+          58,
+          32
+        ],
+        "restyle": "frame 0 only",
+        "plan": "small-loop",
+        "extra_frames": [
+          {
+            "index": 1,
+            "original": null,
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          },
+          {
+            "index": 2,
+            "original": null,
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          },
+          {
+            "index": 3,
+            "original": null,
+            "status": "not generated",
+            "method": "edit of the restyled frame 0 inside the dilated change mask, feathered composite"
+          }
+        ],
+        "note": "Animated original (4 frames, 10.2% of the picture changes inside bbox [17, 1, 58, 32]). Restyle frame 0 only now; the extra frames can later be made as masked edits of the restyled base (small loop, research section 5.3). Do not restyle the frames as separate pictures."
+      },
+      "stem": "055_pool_amiga_pool_amiga_pic_pic_34_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 11,
+      "box": [
+        284,
+        28,
+        968,
+        968
+      ],
+      "k": 16,
+      "transparent": false,
+      "input": "055_pool_amiga_pool_amiga_pic_pic_34_f0_input.png",
+      "prompt": "055_pool_amiga_pool_amiga_pic_pic_34_f0_prompt.txt",
+      "expected_output": "done/055_pool_amiga_pool_amiga_pic_pic_34_f0_out.png",
+      "game": "pool"
+    },
+    {
+      "id": "dqk_dos_hlib_title_title_set05_img001",
+      "kind": "title",
+      "src": "renders/hlib/TITLE/TITLE_set05_img001.png",
+      "native_div": 2,
+      "description": "Background for the Dark Queen title: a grey-green mottled stone texture with diagonal pale streaks, framed by carved grey corner ornaments on a thin dark border. Keep the corner ornaments and the stone texture; no text.",
+      "prompt_notes": "Parent (background) of the two DQK title layers, so the restyled layers can be composed on it. Do not add any text.",
+      "stem": "056_dqk_dos_hlib_title_title_set05_img001",
+      "native_w": 320,
+      "native_h": 200,
+      "canvas": [
+        1536,
+        1024
+      ],
+      "scale": 4,
+      "box": [
+        128,
+        112,
+        1280,
+        800
+      ],
+      "k": 5,
+      "transparent": false,
+      "input": "056_dqk_dos_hlib_title_title_set05_img001_input.png",
+      "prompt": "056_dqk_dos_hlib_title_title_set05_img001_prompt.txt",
+      "expected_output": "done/056_dqk_dos_hlib_title_title_set05_img001_out.png",
+      "game": "dqk"
+    },
+    {
+      "id": "band_cok_dos_ssi_presents",
+      "kind": "band",
+      "src": "renders/dax/CoK_TITLE/TITLE_001.png",
+      "stem": "001_band_cok_dos_ssi_presents",
+      "native_w": 320,
+      "native_h": 200,
+      "k": 5,
+      "description": "DOS TITLE.DAX block 1: full 320x200 SSI presents screen on a magenta-purple field, with the red-and-white SSI mark and the Advanced Dungeons & Dragons wordmark. Preserve the original composition and every legal/presents line exactly.",
+      "game": "cok",
+      "label": "SSI / AD&D presents screen · TITLE.DAX #1 (DOS)",
+      "source_block": 1,
+      "source_archive": "Champions of Krynn/TITLE.DAX",
+      "source_format": "DOS DAX / 16-colour EGA"
+    },
+    {
+      "id": "cok_dos_title_logo",
+      "kind": "logo",
+      "src": "renders/dax/CoK_TITLE/TITLE_003.png",
+      "stem": "002_cok_dos_title_logo",
+      "native_w": 240,
+      "native_h": 88,
+      "k": 7,
+      "description": "DOS TITLE.DAX block 3: the exact multicolour “Champions of Krynn” title lettering, with its original dark starfield and decorative marks. Restyle this as a transparent overlay only; do not reconstruct or regenerate the full-screen title background.",
+      "game": "cok",
+      "label": "Champions of Krynn title · TITLE.DAX #3 (DOS)",
+      "source_block": 3,
+      "source_archive": "Champions of Krynn/TITLE.DAX",
+      "source_format": "DOS DAX / 16-colour EGA"
+    },
+    {
+      "id": "cok_dos_dragonlance_vol1",
+      "kind": "logo",
+      "src": "renders/dax/CoK_TITLE/TITLE_004.png",
+      "stem": "003_cok_dos_dragonlance_vol1",
+      "native_w": 320,
+      "native_h": 88,
+      "k": 5,
+      "description": "DOS TITLE.DAX block 4: Dragonlance Vol. I title banner with ornate lettering, sword and red emblem. It replaces the earlier block-3 Champions of Krynn banner on the same parent; never stack both overlays. Restyle only this transparent overlay.",
+      "game": "cok",
+      "label": "Dragonlance Vol. I banner · TITLE.DAX #4 (DOS)",
+      "source_block": 4,
+      "source_archive": "Champions of Krynn/TITLE.DAX",
+      "source_format": "DOS DAX / 16-colour EGA"
+    },
+    {
+      "id": "face_cok_dos_pic1_015_f0",
+      "kind": "face",
+      "src": "renders/dax_complex/CoK_PIC1/PIC1_015_f0.png",
+      "stem": "004_face_cok_dos_pic1_015_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "k": 16,
+      "description": "DOS PIC1.DAX block 15, frame 0: square portrait of a fair-haired woman in a turquoise blouse and orange-brown tunic holding a wooden staff at her right; opaque black background. Preserve the face, pose, clothing and staff.",
+      "game": "cok",
+      "label": "Portrait · PIC1.DAX #15 (DOS)",
+      "source_block": 15,
+      "source_archive": "Champions of Krynn/PIC1.DAX",
+      "source_format": "DOS DAX / 16-colour EGA; XOR frame-0 decode"
+    },
+    {
+      "id": "scene_cok_dos_pic1_058_f0",
+      "kind": "scene",
+      "src": "renders/dax_complex/CoK_PIC1/PIC1_058_f0.png",
+      "stem": "005_scene_cok_dos_pic1_058_f0",
+      "native_w": 88,
+      "native_h": 88,
+      "k": 16,
+      "description": "DOS PIC1.DAX block 58, frame 0: square village view with red-roofed houses in the foreground, a path and green trees, low brown hills and a pale turquoise sky. Preserve the buildings and composition.",
+      "game": "cok",
+      "label": "Village scene · PIC1.DAX #58 (DOS)",
+      "source_block": 58,
+      "source_archive": "Champions of Krynn/PIC1.DAX",
+      "source_format": "DOS DAX / 16-colour EGA; XOR frame-0 decode"
+    },
+    {
+      "id": "cok_overland_bigpic1_121",
+      "kind": "overland map",
+      "stem": "074_cok_overland_bigpic1_121",
+      "src": "dos_render_all/BIGPIC1/BIGPIC1_121.png",
+      "label": "CoK overland map · BIGPIC1#121",
+      "description": "DOS-EGA BIGPIC1.DAX block 121, frame 0: the overland map used after the caravan encounter. Preserve the route, mountain ranges, forests, water and marked locations.",
+      "game": "cok",
+      "native_w": 304,
+      "native_h": 120,
+      "k": 4
+    },
+    {
+      "id": "cok_demo_bigpic2_116",
+      "kind": "demo scene",
+      "stem": "cok-demo-bigpic2-116",
+      "src": "Champions of Krynn/BIGPIC2.DAX",
+      "label": "CoK demo · BIGPIC2#116",
+      "description": "Frame 0 of the Champions of Krynn attract demo scene. DOS-EGA and Amiga share the native composition; the Restyle is admitted only for the pinned DOS BIGPIC2.DAX block 116.",
+      "game": "cok",
+      "native_w": 304,
+      "native_h": 120,
+      "k": 6
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "schema": "cok-area32-picture-joins-v1",
+  "task": "SCENE-JOIN-AREA32",
+  "eclArchiveSha256": "6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79",
+  "eclBlockId": 32,
+  "rawBytes": 7611,
+  "eclBlockSha256": "db03a12fcc5857b6e5f2da2b026edf5b66bd5b54c23628f62319a05627df078f",
+  "compressedFileOffset": 12110,
+  "compressedBytes": 7814,
+  "hostSource": [
+    {
+      "role": "step",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "function runStepEvent(",
+      "endSymbol": "\nfunction crossWilderness(",
+      "sha256": "abff72636a2d31de30719788e2f266525c46a3114ede8b5dcec7ad455dc62489"
+    },
+    {
+      "role": "preload",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "  if (baseGameForExplore(gameId) === 'cok') {\n    const current = state;",
+      "endSymbol": "    void loadCokWallRestyles(walls)",
+      "sha256": "347bc7b59fdf89da16c08dde40e092c7d07dd5c72a81d67734717725b4f252da"
+    },
+    {
+      "role": "map",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "async function cokDialoguePictures(",
+      "endSymbol": "\nasync function cokThrotlPresentation(",
+      "sha256": "8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2"
+    },
+    {
+      "role": "vmPicture",
+      "path": "packages/engine/src/ecl/vm.ts",
+      "startSymbol": "      case 0x0e: // PICTURE id",
+      "endSymbol": "\n      case 0x3d:",
+      "sha256": "6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd"
+    },
+    {
+      "role": "lastPicture",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "function lastPicture(",
+      "endSymbol": "\n/** The most recent prompt",
+      "sha256": "486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f"
+    },
+    {
+      "role": "translate",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "  private translate(r: EclRunResult):",
+      "endSymbol": "\n}\n\n/**\n * Page a dense retail",
+      "sha256": "aa7fe6eca62b7c90ea959918a8c798f9276c46d73ff5766da548307b6461225c"
+    },
+    {
+      "role": "paginate",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "  private paginate(result: EclRunResult):",
+      "endSymbol": "\n}\n\n/**\n * Build a dialogue runner",
+      "sha256": "d47e8cecb8a51a6174839ed9017a87e880a748d9ce3d84c841ba0d96396ee7fc"
+    },
+    {
+      "role": "frame0",
+      "path": "packages/engine/src/loaders/dax.ts",
+      "startSymbol": "    // Multi-frame chunky-4bpp picture",
+      "endSymbol": "    // Fixed-size multi-item tile array",
+      "sha256": "d5c16a122b5bd33773c2f54923c9019376455eacee4662bb60f01efc6ac9de00"
+    },
+    {
+      "role": "select",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "function selectPresentationPicture(",
+      "endSymbol": "\nfunction wrapDialogueText(",
+      "sha256": "9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee"
+    },
+    {
+      "role": "surfaceGuard",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "function renderPresentation(turn: DialogueTurn):",
+      "endSymbol": "  const pilot = selectedSceneArt(state);",
+      "sha256": "5d871ae41dc8489438bb35a149681968a76132edd98de4765f31768e84254d40"
+    },
+    {
+      "role": "placement",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "  let viewport = null;",
+      "endSymbol": "  const selectedMode",
+      "sha256": "4c24bbf2de9d968a601e9c4d716dfc95a9e36cc89586adda08def7c29557f2f1"
+    },
+    {
+      "role": "surfaceMount",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "  if (opts.presentation) {",
+      "endSymbol": "  const firstScene = opts.presentation?.sceneArt",
+      "sha256": "b5d71fccf2b793a801217830ddb7ef1f93d6db1165280560cc2ce5fbd926c5c4"
+    }
+  ],
+  "sourceFrames": [
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/15/frame/0",
+      "archive": "PIC1.DAX",
+      "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "blockId": 15,
+      "tocEntry": 10,
+      "frameIndex": 0,
+      "rawBytes": 3894,
+      "blockSha256": "0423639c6fb334dd51c1b0234926b200fcaf39c58e70562042c788b27b8fabd5",
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "pixelSha256": "d6765b3952d75dbd577f2c19bd62735a7f99e27c3b543ebdda5a12927c1f3a77",
+      "pngSha256": "c006a1fb81405d4f59fbd05704f2bdef53bf9aa89488c510f7ec28a02f6cb920"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/34/entry/3/frame/0",
+      "archive": "PIC1.DAX",
+      "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "blockId": 34,
+      "tocEntry": 3,
+      "frameIndex": 0,
+      "rawBytes": 3894,
+      "blockSha256": "1d62db854295d7075c6ea64d2fab165ea96e3276152810ae3329bd56210ff0bf",
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "pixelSha256": "f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24",
+      "pngSha256": "8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/34/entry/12/frame/0",
+      "archive": "PIC1.DAX",
+      "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "blockId": 34,
+      "tocEntry": 12,
+      "frameIndex": 0,
+      "rawBytes": 3894,
+      "blockSha256": "1d62db854295d7075c6ea64d2fab165ea96e3276152810ae3329bd56210ff0bf",
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "pixelSha256": "f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24",
+      "pngSha256": "8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b"
+    }
+  ],
+  "sites": [
+    {
+      "offset": 790,
+      "vaddr": 33556,
+      "pictureId": 255,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 255
+      },
+      "entries": [
+        "search_location",
+        "vm_run_1",
+        "initial_entry",
+        "camp_interrupted"
+      ],
+      "siteAssetMapping": null,
+      "status": "unmapped-immediate",
+      "loadedMapCandidate": null,
+      "historicalRouteOffset": null,
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 12,
+          "offsetPathSha256": "a70f1242362e9d8f4ece0a8a8dcb61a243ac3a756dc69f51a710b290fcf6380f",
+          "branchEdgeCount": 6,
+          "branchEdgesSha256": "7f0bc9f9f0fad33841eaf55d7c3c06f79360e7169d76a514378cd37d470bf01f"
+        },
+        {
+          "entry": "vm_run_1",
+          "instructionSteps": 16,
+          "offsetPathSha256": "7cc68912568680b871106f15416dbf9586bd7668374ff13eb758010545754b0d",
+          "branchEdgeCount": 8,
+          "branchEdgesSha256": "eb254d272f5c1fd39dd8e9bf5469e294f05cad439b8f9d08eebeb56402cf5585"
+        },
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 16,
+          "offsetPathSha256": "78696f1faafcdea7d9017ef34b456fabaaa974b922ce21a154a13738da1c1cce",
+          "branchEdgeCount": 4,
+          "branchEdgesSha256": "d68c4b925537ec7eb1b41b419ec4c1d8e749d825ce704f9d57f117142395962a"
+        },
+        {
+          "entry": "camp_interrupted",
+          "instructionSteps": 30,
+          "offsetPathSha256": "2888e91714cc5ed3614a7c5437fc56779402ed9ff41f4e6beec6002e076f72fa",
+          "branchEdgeCount": 7,
+          "branchEdgesSha256": "057861258f06002fc6c27a547228a1d530952100addbe54fa2a0e66bffb1eebc"
+        }
+      ]
+    },
+    {
+      "offset": 1445,
+      "vaddr": 34211,
+      "pictureId": 62,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 62
+      },
+      "entries": [
+        "search_location"
+      ],
+      "siteAssetMapping": null,
+      "status": "site-binding-unresolved",
+      "loadedMapCandidate": {
+        "archive": "PIC1.DAX",
+        "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+        "blockId": 62,
+        "tocEntry": 16,
+        "frameIndex": 0
+      },
+      "historicalRouteOffset": null,
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 14,
+          "offsetPathSha256": "12f3a427f266ec809cb2fb7983d683b77ff55a8588b661281faec8dc0a6c81aa",
+          "branchEdgeCount": 6,
+          "branchEdgesSha256": "b91de67af59a03951e9a2cde4c004a9c7f0b45b2ac29f917214d1ed375412040"
+        }
+      ]
+    },
+    {
+      "offset": 2260,
+      "vaddr": 35026,
+      "pictureId": 1,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 1
+      },
+      "entries": [
+        "search_location"
+      ],
+      "siteAssetMapping": null,
+      "status": "site-binding-unresolved",
+      "loadedMapCandidate": {
+        "archive": "PIC1.DAX",
+        "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+        "blockId": 1,
+        "tocEntry": 7,
+        "frameIndex": 0
+      },
+      "historicalRouteOffset": null,
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 12,
+          "offsetPathSha256": "e23a9d6829d55316bc3481a15a5aaa44908b095e1733b92708b6fe21a255fb35",
+          "branchEdgeCount": 5,
+          "branchEdgesSha256": "2ca9ee0d703944de6cba755b80f59a5f7c697637c7b95d80f3c68287c7dad807"
+        }
+      ]
+    },
+    {
+      "offset": 3073,
+      "vaddr": 35839,
+      "pictureId": 15,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 15
+      },
+      "entries": [
+        "search_location"
+      ],
+      "siteAssetMapping": "cok/dos-ega/disk1/pic1.dax/block/15/frame/0",
+      "status": "conditional-retained15-initial-mount",
+      "loadedMapCandidate": {
+        "archive": "PIC1.DAX",
+        "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+        "blockId": 15,
+        "tocEntry": 10,
+        "frameIndex": 0
+      },
+      "historicalRouteOffset": 3073,
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 12,
+          "offsetPathSha256": "3b73e58cd620507cb89f27481acdbbce12b2236831890f23efae6df3b59a124d",
+          "branchEdgeCount": 5,
+          "branchEdgesSha256": "e85f1f65bac65c27af64b0b625dead8306b08dd1ea8c23211e0e8f26535cdb21"
+        }
+      ]
+    },
+    {
+      "offset": 4927,
+      "vaddr": 37693,
+      "pictureId": 61,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 61
+      },
+      "entries": [
+        "search_location"
+      ],
+      "siteAssetMapping": null,
+      "status": "site-binding-unresolved",
+      "loadedMapCandidate": {
+        "archive": "PIC1.DAX",
+        "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+        "blockId": 61,
+        "tocEntry": 15,
+        "frameIndex": 0
+      },
+      "historicalRouteOffset": null,
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 12,
+          "offsetPathSha256": "c4242cff714b0b566acff1885b25f8bf24171331a866ea2c21b014a9c2e57f2b",
+          "branchEdgeCount": 5,
+          "branchEdgesSha256": "946707dae2003b2dba1582a14a5fbd7980a34403027d11a4f7590de40d8b8d73"
+        }
+      ]
+    },
+    {
+      "offset": 5052,
+      "vaddr": 37818,
+      "pictureId": 63,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 63
+      },
+      "entries": [
+        "search_location"
+      ],
+      "siteAssetMapping": null,
+      "status": "site-binding-unresolved",
+      "loadedMapCandidate": {
+        "archive": "PIC1.DAX",
+        "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+        "blockId": 63,
+        "tocEntry": 17,
+        "frameIndex": 0
+      },
+      "historicalRouteOffset": null,
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 13,
+          "offsetPathSha256": "a17bd25f4fb59f06774a227dfcfd03515f1e565a63dd6e8e3c94bbd2ebc06772",
+          "branchEdgeCount": 5,
+          "branchEdgesSha256": "108a2ecba61115ba422bf4174fbc4d76cb66c729c0f12ed68edafd057fab3207"
+        }
+      ]
+    },
+    {
+      "offset": 5360,
+      "vaddr": 38126,
+      "pictureId": 23,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 23
+      },
+      "entries": [
+        "search_location"
+      ],
+      "siteAssetMapping": null,
+      "status": "site-binding-unresolved",
+      "loadedMapCandidate": {
+        "archive": "PIC1.DAX",
+        "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+        "blockId": 23,
+        "tocEntry": 0,
+        "frameIndex": 0
+      },
+      "historicalRouteOffset": null,
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 27,
+          "offsetPathSha256": "113d07007902c193c806a597d4ce4af2b3da203c7d7e996827ea9130015ac5d8",
+          "branchEdgeCount": 8,
+          "branchEdgesSha256": "f6d164213e52ccb6c2d652677c42ee0cdf952a176684476c9fb7bd68c4321365"
+        }
+      ]
+    },
+    {
+      "offset": 5903,
+      "vaddr": 38669,
+      "pictureId": 34,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 34
+      },
+      "entries": [
+        "search_location"
+      ],
+      "siteAssetMapping": null,
+      "status": "site-binding-unresolved",
+      "loadedMapCandidate": {
+        "archive": "PIC1.DAX",
+        "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+        "blockId": 34,
+        "tocEntry": 12,
+        "frameIndex": 0
+      },
+      "historicalRouteOffset": null,
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 50,
+          "offsetPathSha256": "d1fda48bf9e583dcf4a9f327e194364e2a652c475555cf921d91e82164175c96",
+          "branchEdgeCount": 21,
+          "branchEdgesSha256": "939fee8a7e5ce0c21ea78d6c9d0caba04c1062101abbba842f08fe39cf6b73e8"
+        }
+      ]
+    },
+    {
+      "offset": 5957,
+      "vaddr": 38723,
+      "pictureId": 15,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 15
+      },
+      "entries": [
+        "search_location"
+      ],
+      "siteAssetMapping": "cok/dos-ega/disk1/pic1.dax/block/15/frame/0",
+      "status": "conditional-retained15-initial-mount",
+      "loadedMapCandidate": {
+        "archive": "PIC1.DAX",
+        "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+        "blockId": 15,
+        "tocEntry": 10,
+        "frameIndex": 0
+      },
+      "historicalRouteOffset": null,
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 50,
+          "offsetPathSha256": "a98193b3f8822b582fa86e52929b9b92d1cbbc2bfe4d97f05c5550c77f6e32a2",
+          "branchEdgeCount": 21,
+          "branchEdgesSha256": "75539fd50101ac0907fa93d31eb48f7d54ebf84d022a87c5228e3b2e9eaae366"
+        }
+      ]
+    },
+    {
+      "offset": 6021,
+      "vaddr": 38787,
+      "pictureId": 34,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 34
+      },
+      "entries": [
+        "search_location"
+      ],
+      "siteAssetMapping": null,
+      "status": "site-binding-unresolved",
+      "loadedMapCandidate": {
+        "archive": "PIC1.DAX",
+        "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+        "blockId": 34,
+        "tocEntry": 12,
+        "frameIndex": 0
+      },
+      "historicalRouteOffset": null,
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 50,
+          "offsetPathSha256": "9d214349bd1365bbd6912874b6e4d9b413ba8dd06be84658cd31f84cd632f71f",
+          "branchEdgeCount": 21,
+          "branchEdgesSha256": "6b51ea9edc3f678146c51f8cc87473a88093cd2ac1c07c0c20e9c94e0c0cd8e1"
+        }
+      ]
+    }
+  ],
+  "duplicate34": {
+    "entries": [
+      3,
+      12
+    ],
+    "sourceAssetIds": [
+      "cok/dos-ega/disk1/pic1.dax/block/34/entry/3/frame/0",
+      "cok/dos-ega/disk1/pic1.dax/block/34/entry/12/frame/0"
+    ],
+    "loadedWinnerEntry": 12,
+    "shadowedEntry": 3,
+    "siteBindingsAdded": false,
+    "entrylessIdCreated": false
+  },
+  "historicalEvidence": {
+    "path": "docs/engine/research/cok-dialogue-pic1-15-restyle-2026-10-26.md",
+    "sha256": "193ede747c9e53358810b13afd27b5a01dce62d82925e296d5544f1e1e6b1ba2",
+    "siteOffset": 3073,
+    "vaddr": 35839,
+    "pose": [
+      1,
+      3,
+      "east"
+    ],
+    "rerun": false
+  },
+  "pngDistinction": {
+    "registryDecodedPNG": {
+      "sha256": "c006a1fb81405d4f59fbd05704f2bdef53bf9aa89488c510f7ec28a02f6cb920",
+      "width": 352,
+      "height": 352,
+      "role": "verified decoded 4x source PNG"
+    },
+    "runtimeNativeSourcePNG": {
+      "sha256": "f0e0d4a4e2eae51fed55c8f36ccbba30503898bb7beaab115ddd7eb245e33286",
+      "width": 88,
+      "height": 88,
+      "colorType": 6,
+      "role": "separate runtime-manifest provenance",
+      "pngBytesInspectedInThisSlice": false
+    },
+    "sameFile": false,
+    "newAdmission": false
+  },
+  "issues": [],
+  "limits": [
+    "Only the retained-picture15 initial mounting gate is bound, conditionally on CoK/disk1/area32, current state/mount, preload/#15 availability and a qualifying menu.",
+    "Seven other literal sites remain site-binding-unresolved despite numeric membership in the loaded map. A previously mounted #15 presentation could render later non15 pictures; no impossibility claim.",
+    "#255 is an unmapped immediate; its meaning remains unknown and no clear-screen/dynamic claim is made.",
+    "Only offset3073 has the cited historical natural-route evidence. Offset5957 has no new route/visibility observation.",
+    "Last-picture batches and PRINT pagination do not imply one visible scene per static PICTURE; route/pause/batch feasibility remain unresolved.",
+    "Portrait origin and selected DOS/Amiga/Restyle overlays/admission remain conditional on actual native presentation and mode; no runtime acceptance is added.",
+    "Duplicate#34 locators remain distinct, with entry12 last-wins and entry3 shadowed; no entryless identity or consumer update is created.",
+    "Registry decoded 4x PNG and runtime-manifest 88x88 RGBA provenance are distinct files; no new art/PNG equivalence/admission claim.",
+    "Source pins identify local copies, not independent retail provenance. No VM/browser execution, IDs or unrelated metadata changes."
+  ]
+}

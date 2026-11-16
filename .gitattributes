@@ -1,0 +1,60 @@
+# Portable module packages are byte-stable artifacts; never rewrite their line endings.
+*.gbmod -text
+
+# Preserve accepted continuation source and portable bootstrap pins.
+rust/cok-recomp/lift.py -text whitespace=cr-at-eol
+rust/cok-recomp/prepare_continuation.py -text
+rust/cok-recomp/test_prepare_continuation.py -text
+rust/cok-recomp/reference-source.json -text whitespace=cr-at-eol
+rust/cok-recomp/continuation-bootstrap.md -text
+rust/cok-recomp/src/main.rs -text whitespace=cr-at-eol
+rust/cok-recomp/setup.ps1 -text
+
+# Preserve the verified module46 source hashes across checkouts.
+# Preserve Create Race bootstrap and exact protection-union source pins.
+rust/cok-recomp/prepare_creation.py -text whitespace=cr-at-eol
+rust/cok-recomp/test_creation.py -text whitespace=cr-at-eol
+rust/cok-recomp/creation-bootstrap.md -text whitespace=cr-at-eol
+rust/cok-recomp/src/creation_tests.rs -text whitespace=cr-at-eol
+rust/cok-recomp/src/dos_save_host.rs -text whitespace=cr-at-eol
+rust/cok-recomp/tests/dos_save_host_standalone.rs -text whitespace=cr-at-eol
+rust/cok-recomp/prepare_creation_root.py -text whitespace=cr-at-eol
+rust/cok-recomp/test_creation_root.py -text whitespace=cr-at-eol
+rust/cok-recomp/creation-root-bootstrap.md -text whitespace=cr-at-eol
+rust/cok-recomp/src/creation_root_tests.rs -text whitespace=cr-at-eol
+rust/cok-recomp/src/startup_bios_journal.rs -text whitespace=cr-at-eol
+rust/cok-recomp/bios-journal-codec/** -text whitespace=cr-at-eol
+rust/cok-recomp/prepare_create_race.py -text whitespace=cr-at-eol
+rust/cok-recomp/test_create_race.py -text whitespace=cr-at-eol
+rust/cok-recomp/test_protected_union.py -text whitespace=cr-at-eol
+rust/cok-recomp/prepare_creation_closure.py -text whitespace=cr-at-eol
+rust/cok-recomp/test_creation_closure.py -text whitespace=cr-at-eol
+rust/cok-recomp/create-race-bootstrap.md -text whitespace=cr-at-eol
+rust/cok-recomp/src/create_race_tests.rs -text whitespace=cr-at-eol
+rust/cok-recomp/src/dos_files.rs -text whitespace=cr-at-eol
+rust/cok-recomp/src/dos_files_tests.rs -text whitespace=cr-at-eol
+rust/cok-recomp/prepare_module46.py -text whitespace=cr-at-eol
+rust/cok-recomp/test_module46.py -text whitespace=cr-at-eol
+rust/cok-recomp/module46-bootstrap.md -text whitespace=cr-at-eol
+rust/cok-recomp/src/module46_tests.rs -text whitespace=cr-at-eol
+
+# OPL verification binds raw input hashes across fresh checkouts.
+rust/cok-recomp/csrc/opl_registers.c -text
+rust/cok-recomp/csrc/opl_registers.h -text
+rust/cok-recomp/verify_opl_registers.ps1 -text
+rust/cok-recomp/verification/opl/** -text
+rust/cok-recomp/verification/opl/input-pins.json whitespace=cr-at-eol
+
+# Unified diffs retain their blank context-line prefixes and exact line endings.
+tools/dosbox-gamelink-mode-change.patch -text whitespace=-blank-at-eol
+
+# Independent REP fixtures bind raw source hashes across fresh checkouts.
+rust/cok-recomp/verify_rep_hooks.ps1 -text
+rust/cok-recomp/verification/rep/** -text
+rust/cok-recomp/verification/rep/input-pins.json whitespace=cr-at-eol
+rust/cok-recomp/verification/rep/calibrated-observations.json whitespace=cr-at-eol
+
+# Pinned ymfm provisioning copies exact portable provenance bytes.
+rust/cok-recomp/prepare_ymfm.ps1 -text
+rust/cok-recomp/verification/ymfm/** -text
+rust/cok-recomp/verification/ymfm/source-provenance.json whitespace=cr-at-eol

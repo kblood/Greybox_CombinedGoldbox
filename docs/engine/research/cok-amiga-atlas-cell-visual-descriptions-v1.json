@@ -1,0 +1,348 @@
+{
+  "version": 1,
+  "scope": "Visible-appearance descriptions for exactly the 18 pinned CoK Amiga charS/charT atlas-cell IDs (cells 1, 32 and 67 on disks 1-3). The six distinct cell images were reviewed using the source CMAP palette and inverted fifth-plane mask, rendered in memory over a checkerboard. No cell PNG is saved; no subject identity, gameplay usage, selector meaning, or animation semantics are asserted.",
+  "assets": [
+    {
+      "assetId": "cok/amiga/disk1/lbm/chars.lbm/cell/1",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charS.LBM",
+      "archiveSha256": "51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3",
+      "cellIndex": 1,
+      "rawIndexSha256": "ca28389181e0869e1b2a247107b5fb85063b2de531c768a4371cd3047ca36320",
+      "colorIndexSha256": "14accbf019cf6a045eff56e94014c4a93ce04a3eff87c15b138d9f41cf1a892e",
+      "opaqueMaskSha256": "0e8b98ff9674d363a2c940b7039d772a19527c3fe3ccc84966a8df1cd0c46d49",
+      "paletteRgbSha256": "81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38",
+      "renderedRgbaSha256": "ec47d9639f14dca65df3f71d25c4f8f1746216852f2a69640077e69d848af683",
+      "visualDescription": "A 24×24 pixel cell with a compact multicolored form: pale gray pixels at the upper left, green and deep-blue blocks across the center, a short red band below, cyan pixels along the lower edge, and black and gray angular pixels rising at the right. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charS.LBM#cell/1",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3; raw-index SHA-256 ca28389181e0869e1b2a247107b5fb85063b2de531c768a4371cd3047ca36320; color-index SHA-256 14accbf019cf6a045eff56e94014c4a93ce04a3eff87c15b138d9f41cf1a892e; opaque-mask SHA-256 0e8b98ff9674d363a2c940b7039d772a19527c3fe3ccc84966a8df1cd0c46d49; palette RGB SHA-256 81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38; rendered RGBA SHA-256 ec47d9639f14dca65df3f71d25c4f8f1746216852f2a69640077e69d848af683. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/lbm/chars.lbm/cell/32",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charS.LBM",
+      "archiveSha256": "51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3",
+      "cellIndex": 32,
+      "rawIndexSha256": "78b53a7bcb06c27ae45311c3c1bbfd2463b5efc9d8c0b9791d61377dd765d698",
+      "colorIndexSha256": "8992c2367e80b482872aa8ce8d53a3fa1369a8a5665add0f2610b25cbf58b798",
+      "opaqueMaskSha256": "3720533c6683f209917fef365f9ef36efe4746718a4e4cd296db5893d4a084e0",
+      "paletteRgbSha256": "81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38",
+      "renderedRgbaSha256": "5698e27de5fff8ac7c59d78a22287a4a76072cf7603922376d35deef0930e4f4",
+      "visualDescription": "A 24×24 pixel cell with a compact multicolored form: pale gray pixels at the upper left, green and deep-blue blocks across the center, a short red band below, cyan along the lower right, and black and gray angular pixels above the right edge. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charS.LBM#cell/32",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3; raw-index SHA-256 78b53a7bcb06c27ae45311c3c1bbfd2463b5efc9d8c0b9791d61377dd765d698; color-index SHA-256 8992c2367e80b482872aa8ce8d53a3fa1369a8a5665add0f2610b25cbf58b798; opaque-mask SHA-256 3720533c6683f209917fef365f9ef36efe4746718a4e4cd296db5893d4a084e0; palette RGB SHA-256 81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38; rendered RGBA SHA-256 5698e27de5fff8ac7c59d78a22287a4a76072cf7603922376d35deef0930e4f4. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/lbm/chars.lbm/cell/67",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charS.LBM",
+      "archiveSha256": "51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3",
+      "cellIndex": 67,
+      "rawIndexSha256": "95b982138ab880161c857fad255d2ab5b282f7c836661efb3fed6cf1375aefa4",
+      "colorIndexSha256": "a12d1c04d57cfc774ef0d1a6c9cc645e7120f1878a2570d51fbc2c9c3b945f8f",
+      "opaqueMaskSha256": "1185f28000759dfa15e14898969182c37bb3dcadd23b8c5aeee4cc7ab72b83a0",
+      "paletteRgbSha256": "81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38",
+      "renderedRgbaSha256": "22a31d881b1a8017446060b264383f6a2402997c026b9b5aefc1ac01a4014343",
+      "visualDescription": "A small red horizontal shape near the upper center, with a dark red strip above a light red strip and a few offset red pixels. The surrounding area is transparent.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charS.LBM#cell/67",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3; raw-index SHA-256 95b982138ab880161c857fad255d2ab5b282f7c836661efb3fed6cf1375aefa4; color-index SHA-256 a12d1c04d57cfc774ef0d1a6c9cc645e7120f1878a2570d51fbc2c9c3b945f8f; opaque-mask SHA-256 1185f28000759dfa15e14898969182c37bb3dcadd23b8c5aeee4cc7ab72b83a0; palette RGB SHA-256 81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38; rendered RGBA SHA-256 22a31d881b1a8017446060b264383f6a2402997c026b9b5aefc1ac01a4014343. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/lbm/chart.lbm/cell/1",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charT.LBM",
+      "archiveSha256": "e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72",
+      "cellIndex": 1,
+      "rawIndexSha256": "d9cee48c65c0ef7579ad93979a73ba6dbd746218fae3836b0e3f7df3a8efb585",
+      "colorIndexSha256": "b3ef4ffe6ca6d306b5b27e62f82d3d82183314e2261f3e117c32cd74c080be83",
+      "opaqueMaskSha256": "f9d1ca2fd376cee2597b988d443824c110986e22248831e844ff546d78743aab",
+      "paletteRgbSha256": "68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa",
+      "renderedRgbaSha256": "a97fdd2a323d76a842ada8a6509d6c2b393a687097899cc51eaef174b419901a",
+      "visualDescription": "A compact multicolored pixel form with pale gray marks at the upper left, green and dark-blue blocks through the center, a short red band below, gray and cyan pixels around the lower portion, and gray angular pixels extending toward the upper right. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charT.LBM#cell/1",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72; raw-index SHA-256 d9cee48c65c0ef7579ad93979a73ba6dbd746218fae3836b0e3f7df3a8efb585; color-index SHA-256 b3ef4ffe6ca6d306b5b27e62f82d3d82183314e2261f3e117c32cd74c080be83; opaque-mask SHA-256 f9d1ca2fd376cee2597b988d443824c110986e22248831e844ff546d78743aab; palette RGB SHA-256 68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa; rendered RGBA SHA-256 a97fdd2a323d76a842ada8a6509d6c2b393a687097899cc51eaef174b419901a. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/lbm/chart.lbm/cell/32",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charT.LBM",
+      "archiveSha256": "e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72",
+      "cellIndex": 32,
+      "rawIndexSha256": "4ee6edc24d17b246e40bee987544f1000f498cd165b6c04733b9d182a0b36fe2",
+      "colorIndexSha256": "c9e5f9f879d524abb564881bd343a895ff48ee734268e65a05183f1ab653977c",
+      "opaqueMaskSha256": "afcd9411d9bcfe0a4d4c183397bb4f493887f7afd947835cc84f32a6580594a5",
+      "paletteRgbSha256": "68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa",
+      "renderedRgbaSha256": "83d2091d31eb689fd289e8774cfaa55cea1e9416680978fef59bad8399773397",
+      "visualDescription": "A compact multicolored pixel form with pale gray marks at the upper left, green and dark-blue blocks through the center, red pixels below, cyan and gray along the lower edge, and dark gray angular pixels on the right. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charT.LBM#cell/32",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72; raw-index SHA-256 4ee6edc24d17b246e40bee987544f1000f498cd165b6c04733b9d182a0b36fe2; color-index SHA-256 c9e5f9f879d524abb564881bd343a895ff48ee734268e65a05183f1ab653977c; opaque-mask SHA-256 afcd9411d9bcfe0a4d4c183397bb4f493887f7afd947835cc84f32a6580594a5; palette RGB SHA-256 68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa; rendered RGBA SHA-256 83d2091d31eb689fd289e8774cfaa55cea1e9416680978fef59bad8399773397. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/lbm/chart.lbm/cell/67",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charT.LBM",
+      "archiveSha256": "e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72",
+      "cellIndex": 67,
+      "rawIndexSha256": "c16ae6024f26497cb3d5e0db63cdd8d6a8cb77f7042866717f4056dd3f4f5d41",
+      "colorIndexSha256": "2d5027a4e2df38a7bcc1d55e79965d127c1ccd1b53d2de5e6673dad878809951",
+      "opaqueMaskSha256": "10b95930d6221318f2cc87831513e563305493f60927460fa6d0e894b43bc5ca",
+      "paletteRgbSha256": "68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa",
+      "renderedRgbaSha256": "2bdf13a9957e11a4ecec6672c0c54302fcfc818c086fe6134b5afc1babcc4308",
+      "visualDescription": "A small red horizontal cluster near the upper-left portion, with a dark red top strip, brighter red pixels below, and a short downward nub. The surrounding area is transparent.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk1/charT.LBM#cell/67",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72; raw-index SHA-256 c16ae6024f26497cb3d5e0db63cdd8d6a8cb77f7042866717f4056dd3f4f5d41; color-index SHA-256 2d5027a4e2df38a7bcc1d55e79965d127c1ccd1b53d2de5e6673dad878809951; opaque-mask SHA-256 10b95930d6221318f2cc87831513e563305493f60927460fa6d0e894b43bc5ca; palette RGB SHA-256 68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa; rendered RGBA SHA-256 2bdf13a9957e11a4ecec6672c0c54302fcfc818c086fe6134b5afc1babcc4308. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chars.lbm/cell/1",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charS.LBM",
+      "archiveSha256": "51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3",
+      "cellIndex": 1,
+      "rawIndexSha256": "ca28389181e0869e1b2a247107b5fb85063b2de531c768a4371cd3047ca36320",
+      "colorIndexSha256": "14accbf019cf6a045eff56e94014c4a93ce04a3eff87c15b138d9f41cf1a892e",
+      "opaqueMaskSha256": "0e8b98ff9674d363a2c940b7039d772a19527c3fe3ccc84966a8df1cd0c46d49",
+      "paletteRgbSha256": "81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38",
+      "renderedRgbaSha256": "ec47d9639f14dca65df3f71d25c4f8f1746216852f2a69640077e69d848af683",
+      "visualDescription": "A 24×24 pixel cell with a compact multicolored form: pale gray pixels at the upper left, green and deep-blue blocks across the center, a short red band below, cyan pixels along the lower edge, and black and gray angular pixels rising at the right. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charS.LBM#cell/1",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3; raw-index SHA-256 ca28389181e0869e1b2a247107b5fb85063b2de531c768a4371cd3047ca36320; color-index SHA-256 14accbf019cf6a045eff56e94014c4a93ce04a3eff87c15b138d9f41cf1a892e; opaque-mask SHA-256 0e8b98ff9674d363a2c940b7039d772a19527c3fe3ccc84966a8df1cd0c46d49; palette RGB SHA-256 81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38; rendered RGBA SHA-256 ec47d9639f14dca65df3f71d25c4f8f1746216852f2a69640077e69d848af683. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chars.lbm/cell/32",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charS.LBM",
+      "archiveSha256": "51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3",
+      "cellIndex": 32,
+      "rawIndexSha256": "78b53a7bcb06c27ae45311c3c1bbfd2463b5efc9d8c0b9791d61377dd765d698",
+      "colorIndexSha256": "8992c2367e80b482872aa8ce8d53a3fa1369a8a5665add0f2610b25cbf58b798",
+      "opaqueMaskSha256": "3720533c6683f209917fef365f9ef36efe4746718a4e4cd296db5893d4a084e0",
+      "paletteRgbSha256": "81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38",
+      "renderedRgbaSha256": "5698e27de5fff8ac7c59d78a22287a4a76072cf7603922376d35deef0930e4f4",
+      "visualDescription": "A 24×24 pixel cell with a compact multicolored form: pale gray pixels at the upper left, green and deep-blue blocks across the center, a short red band below, cyan along the lower right, and black and gray angular pixels above the right edge. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charS.LBM#cell/32",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3; raw-index SHA-256 78b53a7bcb06c27ae45311c3c1bbfd2463b5efc9d8c0b9791d61377dd765d698; color-index SHA-256 8992c2367e80b482872aa8ce8d53a3fa1369a8a5665add0f2610b25cbf58b798; opaque-mask SHA-256 3720533c6683f209917fef365f9ef36efe4746718a4e4cd296db5893d4a084e0; palette RGB SHA-256 81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38; rendered RGBA SHA-256 5698e27de5fff8ac7c59d78a22287a4a76072cf7603922376d35deef0930e4f4. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chars.lbm/cell/67",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charS.LBM",
+      "archiveSha256": "51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3",
+      "cellIndex": 67,
+      "rawIndexSha256": "95b982138ab880161c857fad255d2ab5b282f7c836661efb3fed6cf1375aefa4",
+      "colorIndexSha256": "a12d1c04d57cfc774ef0d1a6c9cc645e7120f1878a2570d51fbc2c9c3b945f8f",
+      "opaqueMaskSha256": "1185f28000759dfa15e14898969182c37bb3dcadd23b8c5aeee4cc7ab72b83a0",
+      "paletteRgbSha256": "81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38",
+      "renderedRgbaSha256": "22a31d881b1a8017446060b264383f6a2402997c026b9b5aefc1ac01a4014343",
+      "visualDescription": "A small red horizontal shape near the upper center, with a dark red strip above a light red strip and a few offset red pixels. The surrounding area is transparent.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charS.LBM#cell/67",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3; raw-index SHA-256 95b982138ab880161c857fad255d2ab5b282f7c836661efb3fed6cf1375aefa4; color-index SHA-256 a12d1c04d57cfc774ef0d1a6c9cc645e7120f1878a2570d51fbc2c9c3b945f8f; opaque-mask SHA-256 1185f28000759dfa15e14898969182c37bb3dcadd23b8c5aeee4cc7ab72b83a0; palette RGB SHA-256 81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38; rendered RGBA SHA-256 22a31d881b1a8017446060b264383f6a2402997c026b9b5aefc1ac01a4014343. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chart.lbm/cell/1",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charT.LBM",
+      "archiveSha256": "e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72",
+      "cellIndex": 1,
+      "rawIndexSha256": "d9cee48c65c0ef7579ad93979a73ba6dbd746218fae3836b0e3f7df3a8efb585",
+      "colorIndexSha256": "b3ef4ffe6ca6d306b5b27e62f82d3d82183314e2261f3e117c32cd74c080be83",
+      "opaqueMaskSha256": "f9d1ca2fd376cee2597b988d443824c110986e22248831e844ff546d78743aab",
+      "paletteRgbSha256": "68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa",
+      "renderedRgbaSha256": "a97fdd2a323d76a842ada8a6509d6c2b393a687097899cc51eaef174b419901a",
+      "visualDescription": "A compact multicolored pixel form with pale gray marks at the upper left, green and dark-blue blocks through the center, a short red band below, gray and cyan pixels around the lower portion, and gray angular pixels extending toward the upper right. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charT.LBM#cell/1",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72; raw-index SHA-256 d9cee48c65c0ef7579ad93979a73ba6dbd746218fae3836b0e3f7df3a8efb585; color-index SHA-256 b3ef4ffe6ca6d306b5b27e62f82d3d82183314e2261f3e117c32cd74c080be83; opaque-mask SHA-256 f9d1ca2fd376cee2597b988d443824c110986e22248831e844ff546d78743aab; palette RGB SHA-256 68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa; rendered RGBA SHA-256 a97fdd2a323d76a842ada8a6509d6c2b393a687097899cc51eaef174b419901a. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chart.lbm/cell/32",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charT.LBM",
+      "archiveSha256": "e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72",
+      "cellIndex": 32,
+      "rawIndexSha256": "4ee6edc24d17b246e40bee987544f1000f498cd165b6c04733b9d182a0b36fe2",
+      "colorIndexSha256": "c9e5f9f879d524abb564881bd343a895ff48ee734268e65a05183f1ab653977c",
+      "opaqueMaskSha256": "afcd9411d9bcfe0a4d4c183397bb4f493887f7afd947835cc84f32a6580594a5",
+      "paletteRgbSha256": "68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa",
+      "renderedRgbaSha256": "83d2091d31eb689fd289e8774cfaa55cea1e9416680978fef59bad8399773397",
+      "visualDescription": "A compact multicolored pixel form with pale gray marks at the upper left, green and dark-blue blocks through the center, red pixels below, cyan and gray along the lower edge, and dark gray angular pixels on the right. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charT.LBM#cell/32",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72; raw-index SHA-256 4ee6edc24d17b246e40bee987544f1000f498cd165b6c04733b9d182a0b36fe2; color-index SHA-256 c9e5f9f879d524abb564881bd343a895ff48ee734268e65a05183f1ab653977c; opaque-mask SHA-256 afcd9411d9bcfe0a4d4c183397bb4f493887f7afd947835cc84f32a6580594a5; palette RGB SHA-256 68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa; rendered RGBA SHA-256 83d2091d31eb689fd289e8774cfaa55cea1e9416680978fef59bad8399773397. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chart.lbm/cell/67",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charT.LBM",
+      "archiveSha256": "e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72",
+      "cellIndex": 67,
+      "rawIndexSha256": "c16ae6024f26497cb3d5e0db63cdd8d6a8cb77f7042866717f4056dd3f4f5d41",
+      "colorIndexSha256": "2d5027a4e2df38a7bcc1d55e79965d127c1ccd1b53d2de5e6673dad878809951",
+      "opaqueMaskSha256": "10b95930d6221318f2cc87831513e563305493f60927460fa6d0e894b43bc5ca",
+      "paletteRgbSha256": "68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa",
+      "renderedRgbaSha256": "2bdf13a9957e11a4ecec6672c0c54302fcfc818c086fe6134b5afc1babcc4308",
+      "visualDescription": "A small red horizontal cluster near the upper-left portion, with a dark red top strip, brighter red pixels below, and a short downward nub. The surrounding area is transparent.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk2/charT.LBM#cell/67",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72; raw-index SHA-256 c16ae6024f26497cb3d5e0db63cdd8d6a8cb77f7042866717f4056dd3f4f5d41; color-index SHA-256 2d5027a4e2df38a7bcc1d55e79965d127c1ccd1b53d2de5e6673dad878809951; opaque-mask SHA-256 10b95930d6221318f2cc87831513e563305493f60927460fa6d0e894b43bc5ca; palette RGB SHA-256 68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa; rendered RGBA SHA-256 2bdf13a9957e11a4ecec6672c0c54302fcfc818c086fe6134b5afc1babcc4308. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chars.lbm/cell/1",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charS.LBM",
+      "archiveSha256": "51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3",
+      "cellIndex": 1,
+      "rawIndexSha256": "ca28389181e0869e1b2a247107b5fb85063b2de531c768a4371cd3047ca36320",
+      "colorIndexSha256": "14accbf019cf6a045eff56e94014c4a93ce04a3eff87c15b138d9f41cf1a892e",
+      "opaqueMaskSha256": "0e8b98ff9674d363a2c940b7039d772a19527c3fe3ccc84966a8df1cd0c46d49",
+      "paletteRgbSha256": "81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38",
+      "renderedRgbaSha256": "ec47d9639f14dca65df3f71d25c4f8f1746216852f2a69640077e69d848af683",
+      "visualDescription": "A 24×24 pixel cell with a compact multicolored form: pale gray pixels at the upper left, green and deep-blue blocks across the center, a short red band below, cyan pixels along the lower edge, and black and gray angular pixels rising at the right. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charS.LBM#cell/1",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3; raw-index SHA-256 ca28389181e0869e1b2a247107b5fb85063b2de531c768a4371cd3047ca36320; color-index SHA-256 14accbf019cf6a045eff56e94014c4a93ce04a3eff87c15b138d9f41cf1a892e; opaque-mask SHA-256 0e8b98ff9674d363a2c940b7039d772a19527c3fe3ccc84966a8df1cd0c46d49; palette RGB SHA-256 81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38; rendered RGBA SHA-256 ec47d9639f14dca65df3f71d25c4f8f1746216852f2a69640077e69d848af683. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chars.lbm/cell/32",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charS.LBM",
+      "archiveSha256": "51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3",
+      "cellIndex": 32,
+      "rawIndexSha256": "78b53a7bcb06c27ae45311c3c1bbfd2463b5efc9d8c0b9791d61377dd765d698",
+      "colorIndexSha256": "8992c2367e80b482872aa8ce8d53a3fa1369a8a5665add0f2610b25cbf58b798",
+      "opaqueMaskSha256": "3720533c6683f209917fef365f9ef36efe4746718a4e4cd296db5893d4a084e0",
+      "paletteRgbSha256": "81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38",
+      "renderedRgbaSha256": "5698e27de5fff8ac7c59d78a22287a4a76072cf7603922376d35deef0930e4f4",
+      "visualDescription": "A 24×24 pixel cell with a compact multicolored form: pale gray pixels at the upper left, green and deep-blue blocks across the center, a short red band below, cyan along the lower right, and black and gray angular pixels above the right edge. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charS.LBM#cell/32",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3; raw-index SHA-256 78b53a7bcb06c27ae45311c3c1bbfd2463b5efc9d8c0b9791d61377dd765d698; color-index SHA-256 8992c2367e80b482872aa8ce8d53a3fa1369a8a5665add0f2610b25cbf58b798; opaque-mask SHA-256 3720533c6683f209917fef365f9ef36efe4746718a4e4cd296db5893d4a084e0; palette RGB SHA-256 81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38; rendered RGBA SHA-256 5698e27de5fff8ac7c59d78a22287a4a76072cf7603922376d35deef0930e4f4. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chars.lbm/cell/67",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charS.LBM",
+      "archiveSha256": "51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3",
+      "cellIndex": 67,
+      "rawIndexSha256": "95b982138ab880161c857fad255d2ab5b282f7c836661efb3fed6cf1375aefa4",
+      "colorIndexSha256": "a12d1c04d57cfc774ef0d1a6c9cc645e7120f1878a2570d51fbc2c9c3b945f8f",
+      "opaqueMaskSha256": "1185f28000759dfa15e14898969182c37bb3dcadd23b8c5aeee4cc7ab72b83a0",
+      "paletteRgbSha256": "81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38",
+      "renderedRgbaSha256": "22a31d881b1a8017446060b264383f6a2402997c026b9b5aefc1ac01a4014343",
+      "visualDescription": "A small red horizontal shape near the upper center, with a dark red strip above a light red strip and a few offset red pixels. The surrounding area is transparent.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charS.LBM#cell/67",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 51cfc7de6f3c8004de820ee9758eb3f785bedff6a808c21d58d0d2964b7963c3; raw-index SHA-256 95b982138ab880161c857fad255d2ab5b282f7c836661efb3fed6cf1375aefa4; color-index SHA-256 a12d1c04d57cfc774ef0d1a6c9cc645e7120f1878a2570d51fbc2c9c3b945f8f; opaque-mask SHA-256 1185f28000759dfa15e14898969182c37bb3dcadd23b8c5aeee4cc7ab72b83a0; palette RGB SHA-256 81b4805fbc8f245913e2231a0abfb49ef5754aaaea9f1d7dacd736affb582e38; rendered RGBA SHA-256 22a31d881b1a8017446060b264383f6a2402997c026b9b5aefc1ac01a4014343. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chart.lbm/cell/1",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charT.LBM",
+      "archiveSha256": "e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72",
+      "cellIndex": 1,
+      "rawIndexSha256": "d9cee48c65c0ef7579ad93979a73ba6dbd746218fae3836b0e3f7df3a8efb585",
+      "colorIndexSha256": "b3ef4ffe6ca6d306b5b27e62f82d3d82183314e2261f3e117c32cd74c080be83",
+      "opaqueMaskSha256": "f9d1ca2fd376cee2597b988d443824c110986e22248831e844ff546d78743aab",
+      "paletteRgbSha256": "68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa",
+      "renderedRgbaSha256": "a97fdd2a323d76a842ada8a6509d6c2b393a687097899cc51eaef174b419901a",
+      "visualDescription": "A compact multicolored pixel form with pale gray marks at the upper left, green and dark-blue blocks through the center, a short red band below, gray and cyan pixels around the lower portion, and gray angular pixels extending toward the upper right. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charT.LBM#cell/1",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72; raw-index SHA-256 d9cee48c65c0ef7579ad93979a73ba6dbd746218fae3836b0e3f7df3a8efb585; color-index SHA-256 b3ef4ffe6ca6d306b5b27e62f82d3d82183314e2261f3e117c32cd74c080be83; opaque-mask SHA-256 f9d1ca2fd376cee2597b988d443824c110986e22248831e844ff546d78743aab; palette RGB SHA-256 68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa; rendered RGBA SHA-256 a97fdd2a323d76a842ada8a6509d6c2b393a687097899cc51eaef174b419901a. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chart.lbm/cell/32",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charT.LBM",
+      "archiveSha256": "e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72",
+      "cellIndex": 32,
+      "rawIndexSha256": "4ee6edc24d17b246e40bee987544f1000f498cd165b6c04733b9d182a0b36fe2",
+      "colorIndexSha256": "c9e5f9f879d524abb564881bd343a895ff48ee734268e65a05183f1ab653977c",
+      "opaqueMaskSha256": "afcd9411d9bcfe0a4d4c183397bb4f493887f7afd947835cc84f32a6580594a5",
+      "paletteRgbSha256": "68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa",
+      "renderedRgbaSha256": "83d2091d31eb689fd289e8774cfaa55cea1e9416680978fef59bad8399773397",
+      "visualDescription": "A compact multicolored pixel form with pale gray marks at the upper left, green and dark-blue blocks through the center, red pixels below, cyan and gray along the lower edge, and dark gray angular pixels on the right. Transparent pixels surround the form.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charT.LBM#cell/32",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72; raw-index SHA-256 4ee6edc24d17b246e40bee987544f1000f498cd165b6c04733b9d182a0b36fe2; color-index SHA-256 c9e5f9f879d524abb564881bd343a895ff48ee734268e65a05183f1ab653977c; opaque-mask SHA-256 afcd9411d9bcfe0a4d4c183397bb4f493887f7afd947835cc84f32a6580594a5; palette RGB SHA-256 68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa; rendered RGBA SHA-256 83d2091d31eb689fd289e8774cfaa55cea1e9416680978fef59bad8399773397. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chart.lbm/cell/67",
+      "archivePath": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charT.LBM",
+      "archiveSha256": "e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72",
+      "cellIndex": 67,
+      "rawIndexSha256": "c16ae6024f26497cb3d5e0db63cdd8d6a8cb77f7042866717f4056dd3f4f5d41",
+      "colorIndexSha256": "2d5027a4e2df38a7bcc1d55e79965d127c1ccd1b53d2de5e6673dad878809951",
+      "opaqueMaskSha256": "10b95930d6221318f2cc87831513e563305493f60927460fa6d0e894b43bc5ca",
+      "paletteRgbSha256": "68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa",
+      "renderedRgbaSha256": "2bdf13a9957e11a4ecec6672c0c54302fcfc818c086fe6134b5afc1babcc4308",
+      "visualDescription": "A small red horizontal cluster near the upper-left portion, with a dark red top strip, brighter red pixels below, and a short downward nub. The surrounding area is transparent.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/batch03_work/e2e-adf-decoded-private/ChampionsOfKrynn/disk3/charT.LBM#cell/67",
+          "note": "Visible appearance only; reviewed from exact source CMAP RGB values and the verified inverted fifth-plane opaque mask, rendered in memory over a checkerboard. Archive SHA-256 e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72; raw-index SHA-256 c16ae6024f26497cb3d5e0db63cdd8d6a8cb77f7042866717f4056dd3f4f5d41; color-index SHA-256 2d5027a4e2df38a7bcc1d55e79965d127c1ccd1b53d2de5e6673dad878809951; opaque-mask SHA-256 10b95930d6221318f2cc87831513e563305493f60927460fa6d0e894b43bc5ca; palette RGB SHA-256 68afd3c1f6689847f89bbec57bdce391e2a7417c9b47a3c4dcc7cc3c34171caa; rendered RGBA SHA-256 2bdf13a9957e11a4ecec6672c0c54302fcfc818c086fe6134b5afc1babcc4308. Does not infer subject identity, game use, selector meaning, or animation/playback semantics."
+        }
+      ]
+    }
+  ]
+}

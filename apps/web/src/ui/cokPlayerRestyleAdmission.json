@@ -1,0 +1,158 @@
+{
+  "schema": "cok-player-restyle-admission-v1",
+  "scope": "exact composed DOS player frames; does not establish visual review or prompt provenance",
+  "frames": [
+    {
+      "appearanceId": "cok-player-05-18-00-02",
+      "frameIndex": 0,
+      "bodyBlockId": 88,
+      "state": "admitted",
+      "reason": "existing-primary-runtime-mapping",
+      "head": {
+        "sourceSha256": "CE6D29D2B27218A3680EE38CDDD0CEA8112EB4FE1E80D4F0DBB82BCACD40F4EF",
+        "restyleSha256": "8824322344B590F78DB378B89568541F94DEDF92B9FA4158D67FBB47907A8398"
+      },
+      "body": {
+        "sourceSha256": "07E69DD5CF87087898E3837CA7F3ACE9080D9E6FED91C66951B518021F9A410A",
+        "restyleSha256": "B819130B866725F73CD0071906BE9CA4EDF1D7B8EE48A4F788F54F412C270EEE"
+      },
+      "headBlockIds": [
+        69,
+        197
+      ]
+    },
+    {
+      "appearanceId": "cok-player-05-18-00-02",
+      "frameIndex": 1,
+      "bodyBlockId": 216,
+      "state": "held",
+      "reason": "awaiting-prompt-and-composition-review",
+      "head": {
+        "sourceSha256": "CE6D29D2B27218A3680EE38CDDD0CEA8112EB4FE1E80D4F0DBB82BCACD40F4EF",
+        "restyleSha256": "8824322344B590F78DB378B89568541F94DEDF92B9FA4158D67FBB47907A8398"
+      },
+      "body": {
+        "sourceSha256": "ADC42C056A6075AE2727562014BA5DC2228246D3B055F9B19A7F7FA96B81D41C",
+        "restyleSha256": "64C94F5CA054050B95611C2C6524EB3D6CFA4B83F45BD70DD200F915AA2681DC"
+      },
+      "headBlockIds": [
+        69,
+        197
+      ]
+    },
+    {
+      "appearanceId": "cok-player-05-01-01-02",
+      "frameIndex": 0,
+      "bodyBlockId": 65,
+      "state": "admitted",
+      "reason": "existing-primary-runtime-mapping",
+      "head": {
+        "sourceSha256": "CE6D29D2B27218A3680EE38CDDD0CEA8112EB4FE1E80D4F0DBB82BCACD40F4EF",
+        "restyleSha256": "8824322344B590F78DB378B89568541F94DEDF92B9FA4158D67FBB47907A8398"
+      },
+      "body": {
+        "sourceSha256": "C79FF1F218A7D80690FB14BDCE34EF4C1D7202146A8038786B432E5167309266",
+        "restyleSha256": "C986665EA500826B1002A8F9BEAAF2F91013F782FE4D0207F09F3D0AD843B3E5"
+      },
+      "headBlockIds": [
+        69,
+        197
+      ]
+    },
+    {
+      "appearanceId": "cok-player-05-01-01-02",
+      "frameIndex": 1,
+      "bodyBlockId": 193,
+      "state": "held",
+      "reason": "awaiting-prompt-and-composition-review",
+      "head": {
+        "sourceSha256": "CE6D29D2B27218A3680EE38CDDD0CEA8112EB4FE1E80D4F0DBB82BCACD40F4EF",
+        "restyleSha256": "8824322344B590F78DB378B89568541F94DEDF92B9FA4158D67FBB47907A8398"
+      },
+      "body": {
+        "sourceSha256": "338251ECCACA81648753070DCC736F0B72FDA83EF4FF65BECE5868B88617D895",
+        "restyleSha256": "9CF76CA3F8B8E7394F21448F726A8F446265C9F0DF8A04A3AC7FB3F176AD207D"
+      },
+      "headBlockIds": [
+        69,
+        197
+      ]
+    },
+    {
+      "appearanceId": "cok-player-05-17-04-02",
+      "frameIndex": 0,
+      "bodyBlockId": 87,
+      "state": "admitted",
+      "reason": "existing-primary-runtime-mapping",
+      "head": {
+        "sourceSha256": "CE6D29D2B27218A3680EE38CDDD0CEA8112EB4FE1E80D4F0DBB82BCACD40F4EF",
+        "restyleSha256": "8824322344B590F78DB378B89568541F94DEDF92B9FA4158D67FBB47907A8398"
+      },
+      "body": {
+        "sourceSha256": "AE94D19F0935BB164EBBCD70D1C4F179EB2996AE17A0190E5303FF59CFF753EB",
+        "restyleSha256": "908C6DCD4A1A5D45B6C9C437EE1398B7F1F4B7D7D2AF7CB191CD0B95362034D1"
+      },
+      "headBlockIds": [
+        69,
+        197
+      ]
+    },
+    {
+      "appearanceId": "cok-player-05-17-04-02",
+      "frameIndex": 1,
+      "bodyBlockId": 215,
+      "state": "held",
+      "reason": "awaiting-prompt-and-composition-review",
+      "head": {
+        "sourceSha256": "CE6D29D2B27218A3680EE38CDDD0CEA8112EB4FE1E80D4F0DBB82BCACD40F4EF",
+        "restyleSha256": "8824322344B590F78DB378B89568541F94DEDF92B9FA4158D67FBB47907A8398"
+      },
+      "body": {
+        "sourceSha256": "48D6D23361CA50A31FD0815B2C7E130529F67DB3DD29904C8C2068744CB01D9D",
+        "restyleSha256": "77AA1D0ACEAA64928370426D792E449ECE5FC8C3BBB3DAD148F86282CE865AA9"
+      },
+      "headBlockIds": [
+        69,
+        197
+      ]
+    },
+    {
+      "appearanceId": "cok-player-03-0b-03-01",
+      "frameIndex": 0,
+      "bodyBlockId": 11,
+      "state": "admitted",
+      "reason": "existing-primary-runtime-mapping",
+      "head": {
+        "sourceSha256": "AB031B8015ABBCFEC43773F03A47E83843CFA4DCCAC75BD623EF1F1DF3433085",
+        "restyleSha256": "7C0F812B146A2E11C755857D20E432702FDC2DA91406313F2C1BEAFC46593F86"
+      },
+      "body": {
+        "sourceSha256": "47593D8A7798860CFE07462438850E7874424EA568DF80C4BD0748B451850EBC",
+        "restyleSha256": "2625D2D97390C01E5C3BB80B3C11072BB48AB2B5127B68F2F7BEC5F07B14876F"
+      },
+      "headBlockIds": [
+        3,
+        131
+      ]
+    },
+    {
+      "appearanceId": "cok-player-03-0b-03-01",
+      "frameIndex": 1,
+      "bodyBlockId": 139,
+      "state": "held",
+      "reason": "awaiting-prompt-and-composition-review",
+      "head": {
+        "sourceSha256": "AB031B8015ABBCFEC43773F03A47E83843CFA4DCCAC75BD623EF1F1DF3433085",
+        "restyleSha256": "7C0F812B146A2E11C755857D20E432702FDC2DA91406313F2C1BEAFC46593F86"
+      },
+      "body": {
+        "sourceSha256": "B475E75316699A2742F884329D2B609C6FD1337979F1759BA5C33D693B1A454C",
+        "restyleSha256": "39C5FF4200954731C85A8B00BA5F58E0C7CE88A1FC493C2B2BA06FE46F9002B4"
+      },
+      "headBlockIds": [
+        3,
+        131
+      ]
+    }
+  ]
+}

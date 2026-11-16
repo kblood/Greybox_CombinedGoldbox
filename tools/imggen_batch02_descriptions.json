@@ -1,0 +1,386 @@
+{
+ "families": {
+  "cok-scenes": "Champions of Krynn event pictures (Amiga): one painterly realistic style, saturated Dragonlance fantasy, wide 304x120 composition kept exactly.",
+  "cok-titles": "Champions of Krynn logo banners: keep exact text; ornate silver-gold lettering.",
+  "cok-npcs": "Character-bible group: bust portraits of Krynn heroes/NPCs on black, same lighting and painterly realism; no two share a face. Keep the same group prompt prefix.",
+  "cok-monsters": "CoK monsters: same realism as cok-npcs.",
+  "dok-titles": "Death Knights of Krynn title art: gloomy, cool palette.",
+  "dok-npcs": "Character-bible group: DoK bust portraits, same lighting; gloomy blue-green palette accents.",
+  "dqk-scenes": "DQK Amiga scene pictures: wide 304x120 compositions.",
+  "dqk-titles": "DQK title/logo art; exact text kept.",
+  "dqk-npcs": "Character-bible group: DQK bust portraits on olive/brown backgrounds, painterly realism; stay in one style.",
+  "dqk-monsters": "DQK monster portraits: one dark-fantasy realism.",
+  "gateway-scenes": "Gateway to the Savage Frontier scene pictures.",
+  "gateway-npcs": "Gateway bust portraits; consistent style.",
+  "pool-monsters": "Pool of Radiance Amiga pictures: monsters and treasure, one style.",
+  "dok-scenes": "Death Knights of Krynn Amiga scene pictures: one painterly realistic style, dark gloomy palette.",
+  "dok-monsters": "DoK monsters: same realism as dok-npcs."
+ },
+ "items": {
+  "dqk_amiga_glib_bigpic_bigpic_set05_img001": {
+   "description": "Dense swampy or jungle forest: red-brown gnarled roots and trunks frame the left and right edges, thin green vines and dim cyan mist fill the centre, dark ground at the bottom.",
+   "role": "scene",
+   "family": "dqk-scenes",
+   "prompt_notes": "Amiga original (no DOS render of this picture is in the renders tree)."
+  },
+  "dqk_amiga_glib_bigpic_bigpic_set07_img001": {
+   "description": "Night battle: a winged fire-red demon leaps across the upper left, flinging glowing orange orbs on trails; at the right a blue-white starburst of magic hits a pale blue robed figure; small green crystals on dark purple ground.",
+   "role": "scene",
+   "family": "dqk-scenes",
+   "prompt_notes": "Amiga original (no DOS render in the renders tree)."
+  },
+  "dqk_amiga_glib_bigpic_bigpic_set04_img001": {
+   "description": "Stormy twilight harbour town: white-capped turquoise sea in the middle, a hillside town with red-tiled roofs and a tower at the right, a column-fronted ruin at the lower right, a figure on a rock at the left, snow-capped mountains and dark clouds in the distance.",
+   "role": "scene",
+   "family": "dqk-scenes",
+   "prompt_notes": "Amiga original (no DOS render in the renders tree)."
+  },
+  "dqk_amiga_glib_bigpic_bigpic_set03_img001": {
+   "description": "A gigantic green scaly creature (dragon or sea serpent) fills the picture, coiled across it with red wounds on its flank; a purple eye at the upper left, a bearded pale face or head partly hidden at the lower right; tiny blue stars on a black background.",
+   "role": "scene",
+   "family": "dqk-scenes",
+   "prompt_notes": "Amiga original. The creature's scales are dark green on black; keep the dark background with a few faint stars."
+  },
+  "dqk_dos_hlib_title_title_set08_img001": {
+   "description": "Painted title illustration inside a grey stone frame with carved corner ornaments: a dark-haired woman in a skimpy black-and-gold outfit and horned crown sits on a rock at the left among spiny green dragons; at the upper right a small green dragon on a brown tower; at the lower right a white-haired old man with an outstretched arm and a snake-headed staff, a sepia-brown cloudy sky.",
+   "role": "title",
+   "family": "dqk-titles",
+   "prompt_notes": "Already near-painterly; the gain is small. Keep the stone frame unchanged. Low priority.",
+   "score_adjust": -1.5
+  },
+  "dqk_dos_hlib_title_title_set07_img001": {
+   "description": "The words 'the Dark Queen' in orange-red metallic gothic lettering with dark outlines on black; the small 'the' is above the 'D'.",
+   "role": "logo",
+   "family": "dqk-titles",
+   "prompt_notes": "Exact text: the Dark Queen. Sits on black; keep it black."
+  },
+  "dqk_dos_hlib_title_title_set07_img002": {
+   "description": "The words 'of Krynn' in large orange-red metallic gothic lettering on black, a small 'of' above the K.",
+   "role": "logo",
+   "family": "dqk-titles",
+   "prompt_notes": "Exact text: of Krynn. Keep black background."
+  },
+  "dqk_dos_hlib_pica_pica_set18_img001": {
+   "description": "Dark-skinned bald man with a gold circlet, a teal tunic over chain mail and gold belt, seated, hands on his knees; olive-brown background.",
+   "role": "npc",
+   "family": "dqk-npcs",
+   "person": "crowned bald man (PICA 18)"
+  },
+  "dqk_dos_hlib_pica_pica_set19_img001": {
+   "description": "Smiling bright-eyed halfling-like character with big blue eyes and rosy cheeks wearing a metal helmet and a skull earring.",
+   "role": "npc",
+   "family": "dqk-npcs",
+   "person": "helmeted halfling (PICA 19)"
+  },
+  "dqk_dos_hlib_pica_pica_set20_img001": {
+   "description": "Young dark-haired man with an orange headband and red shirt holding a dagger, olive background.",
+   "role": "npc",
+   "family": "dqk-npcs",
+   "person": "headbanded dagger youth (PICA 20)"
+  },
+  "dqk_dos_hlib_pica_pica_set21_img001": {
+   "description": "Young elf-eared ranger in a blue tunic and green leggings crouching with a wooden staff, a pouch at his hip, olive background.",
+   "role": "npc",
+   "family": "dqk-npcs",
+   "person": "crouching staff ranger (PICA 21)"
+  },
+  "dqk_dos_hlib_pica_pica_set22_img001": {
+   "description": "Weathered old man in a flat cap and tweed-like fur jacket, looking down with a stern face, one hand holding a small object.",
+   "role": "npc",
+   "family": "dqk-npcs",
+   "person": "old man in flat cap (PICA 22)"
+  },
+  "dqk_dos_hlib_pica_pica_set07_img001": {
+   "description": "Scowling red-haired man in a horned steel helmet with a red jewel on the brow, green collar, a dagger glinting at the bottom right.",
+   "role": "npc",
+   "family": "dqk-npcs",
+   "person": "horned-helmet man (PICA 07)"
+  },
+  "dqk_dos_hlib_pica_pica_set08_img001": {
+   "description": "Pale blue-skinned vampire with pointed ears and red eyes and fangs, one clawed hand raised, dark blue cloak, teal background.",
+   "role": "monster",
+   "family": "dqk-monsters"
+  },
+  "dqk_dos_hlib_pica_pica_set11_img001": {
+   "description": "Minotaur-like bull-headed man with a gold nose ring and earring, brown fur, arms crossed over a silver breastplate and red cape, yellow background.",
+   "role": "monster",
+   "family": "dqk-monsters"
+  },
+  "dqk_dos_hlib_pica_pica_set15_img001": {
+   "description": "Head of a black-and-silver dragon with a long snout, pointed ears and sharp teeth against a dark blue-grey mottled background.",
+   "role": "monster",
+   "family": "dqk-monsters",
+   "prompt_notes": "Dark body; keep it dark."
+  },
+  "dqk_dos_hlib_pica_pica_set03_img001": {
+   "description": "A many-headed hydra in grey-blue scales with several snarling heads coiling around each other, black background.",
+   "role": "monster",
+   "family": "dqk-monsters",
+   "prompt_notes": "Faint, nearly black heads sit behind the front ones; keep them."
+  },
+  "pool_amiga_pool_amiga_pic_pic_0_f0": {
+   "description": "Snarling brown-furred beast-man (lion or wolf head) with two white horns and fangs, blue sequined robe, white candelabra at both sides and a curved white blade at the right.",
+   "role": "monster",
+   "family": "pool-monsters"
+  },
+  "pool_amiga_pool_amiga_pic_pic_1_f0": {
+   "description": "Open treasure chest overflowing with gold coins, a golden bowl and a jewelled chain, a white-bladed sword leaning at the right, dark grey background.",
+   "role": "item",
+   "family": "pool-monsters"
+  },
+  "pool_amiga_pool_amiga_pic_pic_34_f0": {
+   "description": "Skeleton warrior in a horned helmet holding a round tan shield and a white sword, black background.",
+   "role": "monster",
+   "family": "pool-monsters",
+   "prompt_notes": "Black background; keep."
+  },
+  "pool_amiga_pool_amiga_pic_pic_49_f0": {
+   "description": "Medusa face with snake hair, grey stone-coloured skin and a scowl, mottled brown-grey background.",
+   "role": "monster",
+   "family": "pool-monsters"
+  },
+  "pool_amiga_pool_amiga_pic_pic_50_f0": {
+   "description": "Bald man with an eyepatch in a grey buttoned coat holding up a small glinting object, black background.",
+   "role": "npc",
+   "family": "pool-monsters",
+   "person": "eyepatch man (pic 50)"
+  },
+  "pool_amiga_pool_amiga_pic_pic_4_f0": {
+   "description": "Orc-like warrior in a horned steel helm, blue studded armour, a spiked wooden shield and a sword, tan sky behind.",
+   "role": "monster",
+   "family": "pool-monsters"
+  },
+  "pool_amiga_pool_amiga_final_final_2_f0": {
+   "description": "Brown winged dragon crouching on a grey stone floor in front of a brick wall, a grey oval platter or disc hanging at the top.",
+   "role": "scene",
+   "family": "pool-monsters"
+  },
+  "gateway_amiga_gateway-amiga_pic_amiga_pic_39": {
+   "description": "A longship with a large red-striped sail and a black hull with red portholes ploughing through rough blue-and-white waves under a cyan sky, magenta coral-like or tentacle shapes rising at the right edge.",
+   "role": "scene",
+   "family": "gateway-scenes",
+   "prompt_notes": "Magenta shapes at the right edge are sea growth or tentacles; the sail carries a dark emblem. Amiga palette, DOS twin is pic4 056."
+  },
+  "gateway_amiga_gateway-amiga_pic_amiga_pic_40": {
+   "description": "A grey domed stone fortress or temple on a rocky crag whose lower half is a mass of brown tentacle-like roots, a purple octopus-like shape with glowing pink eyes on its front, teal-streaked cyan sky and dark blue sea at the base.",
+   "role": "scene",
+   "family": "gateway-scenes",
+   "prompt_notes": "The purple octopus face in the middle of the building is the focal detail. Amiga palette, DOS twin is pic4 057."
+  },
+  "gateway_amiga_gateway-amiga_pic_amiga_pic_19": {
+   "description": "A brown wooden longship with a carved prow on stormy blue-white waves, a dark hooded figure standing in it with one arm raised, a harbour town with red and pink roofs and grey smoke clouds at the left, orange-pink clouds at the top.",
+   "role": "scene",
+   "family": "gateway-scenes",
+   "prompt_notes": "The harbour town at the left is faint and low-contrast. Amiga palette, DOS twin is pic 019."
+  },
+  "gateway_amiga_gateway-amiga_pic_amiga_pic_55": {
+   "description": "Young person with swept white-grey hair, a bow and quiver behind the shoulder, a purple tunic with a large blue ruffled collar, a hand resting on a table with a small green-tipped object, black background, stern sidelong glance.",
+   "role": "npc",
+   "family": "gateway-npcs",
+   "person": "white-haired archer (pic6 081)",
+   "prompt_notes": "Amiga palette: tanned skin, not the grey skin of the DOS render. DOS twin is pic6 081."
+  },
+  "gateway_amiga_gateway-amiga_pic_amiga_pic_68": {
+   "description": "Woman with long wavy golden-brown hair and a small jewelled tiara, yellow gown with red trim and a red cloak, one hand resting on a staff, seated in a garden with dark green pines, a blue stone tower and a cyan sky behind her.",
+   "role": "npc",
+   "family": "gateway-npcs",
+   "person": "yellow-gowned noblewoman (pic2 104)",
+   "prompt_notes": "Amiga palette: warm skin and brown hair; the DOS twin renders her hair and skin grey. DOS twin is pic2 104."
+  },
+  "gateway_amiga_gateway-amiga_pic_amiga_pic_70": {
+   "description": "Smiling woman with wavy copper-brown hair under a white cap, white blouse with green puffed sleeves and a brown corset with laces, one hand on her hip and the other holding a wooden staff, black background.",
+   "role": "npc",
+   "family": "gateway-npcs",
+   "person": "green-sleeved woman (pic3 116)",
+   "prompt_notes": "Amiga palette: pink skin and auburn hair; the DOS twin renders her grey. DOS twin is pic3 116."
+  },
+  "cok_amiga_daa_cok_bigpic2_bigpic2_120": {
+   "description": "Dusk scene, purple-to-orange sky with stars. At centre a huge golden-orange dragon with spread bat-like wings looms behind a dark-armoured, helmeted figure who raises a sword and casts blue-white magic from the other hand; four heroes in blue, white and purple robes stand at the left edge; small dark silhouettes of riders on a hill at the upper left and dark figures at the right edge.",
+   "role": "scene",
+   "family": "cok-scenes",
+   "prompt_notes": "The riders at the upper left and the figures at the right edge are small, dark silhouettes; keep them."
+  },
+  "cok_amiga_daa_cok_bigpic1_bigpic1_116": {
+   "description": "Torch-lit stone tavern or dungeon hall: a human in blue holding a sword raised behind a wooden table at the left, a tall hooded blue-cloaked figure at centre, two reptilian draconian-like creatures seated at the right, loaves/food on the floor at the right, burning wall torches at both ends.",
+   "role": "scene",
+   "family": "cok-scenes",
+   "prompt_notes": "Wall torches at far left and right are the only light sources; dark stone background.",
+   "game_context": 1
+  },
+  "cok_amiga_daa_cok_bigpic2_bigpic2_117": {
+   "description": "A red dragon with huge orange bat-like wings flying across the top of the picture, a yellow-green coiled dragon below it breathing a stream of yellow fire to the left, heavy dark grey storm clouds, a strip of blue water at the bottom.",
+   "role": "scene",
+   "family": "cok-scenes"
+  },
+  "cok_amiga_daa_cok_bigpic1_bigpic1_115": {
+   "description": "Dark dungeon: a huge dark monster head with long blue claws lunging from the upper left at a group of adventurers in purple at the centre, green sparks, a lit brazier on a pedestal right of centre, a horned-helmet figure and a hand at the far right edge, grey stone wall at the upper right.",
+   "role": "scene",
+   "family": "cok-scenes",
+   "prompt_notes": "Mostly black background; the monster is dark with only its blue claws clearly lit. Keep the darkness."
+  },
+  "cok_amiga_daa_cok_bigpic2_bigpic2_118": {
+   "description": "A castle or flying fortress with pink-red towers violently breaking apart in a bright blue sky with white clouds, brown debris flying outwards, small red dragons flying around it, a red dragon at the lower left, grey rocky base and green grass at the bottom.",
+   "role": "scene",
+   "family": "cok-scenes"
+  },
+  "cok_amiga_daa_cok_bigpic2_bigpic2_119": {
+   "description": "Dark prison or crypt interior: a grimacing old man with wild white hair and a blood-stained raised hand leans over a wooden table; a sword blade lies on the table at the bottom; a studded wooden door at the left, dark stone wall behind.",
+   "role": "scene",
+   "family": "cok-scenes",
+   "prompt_notes": "Very dark picture; the wall behind him is nearly black. Do not brighten it."
+  },
+  "cok_amiga_daa_cok_pic1_pic1_034_f0": {
+   "description": "Bust of a hero with long wavy copper-orange hair, a thick drooping orange moustache and beard, two red scars on his left cheek and a small red mark above the right eye; ruddy tan skin, blue eyes. Gold chain collar with a gold medallion at the bottom edge, white-and-cyan plate armour shoulders on a black background.",
+   "role": "npc",
+   "family": "cok-npcs",
+   "person": "scarred copper-haired hero (PIC1 034)",
+   "prompt_notes": "Style-match the other cok-npcs: same painterly realism, black background. Keep the two red cheek scars and the gold collar."
+  },
+  "cok_amiga_daa_cok_pic1_pic1_057_f0": {
+   "description": "Older warrior with long silver-grey hair, bushy grey eyebrows and a drooping grey moustache, tan skin and blue eyes. White tunic with teal floral pattern, white-and-gold pauldrons and a large round gold medallion at the lower right, black background.",
+   "role": "npc",
+   "family": "cok-npcs",
+   "person": "silver-haired warrior (PIC1 057)",
+   "game_context": false
+  },
+  "cok_amiga_daa_cok_pic1_pic1_023_f0": {
+   "description": "Face of a young woman with a huge cloud of curly white-silver hair, pink skin, blue eyes and calm closed lips; the backdrop around the hair is pale blue-white (a sky-light backdrop, not black). A hint of a pale blue-white garment at the bottom.",
+   "role": "npc",
+   "family": "cok-npcs",
+   "person": "pale curly-haired woman (PIC1 023)",
+   "prompt_notes": "The background is pale blue/white, not black; keep it light so the white hair still reads against it."
+  },
+  "cok_amiga_daa_cok_pic2_pic2_025_f0": {
+   "description": "Draconian or dragon warrior: a teal-green scaly dragon head in profile snarling at the right, red open mouth with pointed teeth, wearing a gold-and-orange armoured helmet with a horn; teal/violet scale body below with a brown wooden-pattern shape (shield or arm) at the lower right. Black background.",
+   "role": "monster",
+   "family": "cok-monsters",
+   "prompt_notes": "Teal-green scales with gold armour; keep the red open mouth and the gold helmet plates."
+  },
+  "cok_amiga_daa_cok_pic2_pic2_024_f0": {
+   "description": "Skeletal knight: a bone-yellow skull with glowing red eyes and a full set of teeth under a grey chain-mail coif and steel helmet with gold crest and green gem; chain-mail shoulders with gold edge. Behind him a cyan-and-teal stained-glass-like tile wall at the left and right, black behind the skull.",
+   "role": "monster",
+   "family": "cok-monsters",
+   "prompt_notes": "Keep both red glowing eyes, the chain-mail coif and the cyan tile wall at the left."
+  },
+  "cok_amiga_daa_cok_pic1_pic1_018_f0": {
+   "description": "Spiny yellow-orange dragon-like head with violet eyes, open mouth with a pink tongue, tall frill of yellow spikes; a gem-set white collar of pearls and a red-brown cloak at the bottom. Black background.",
+   "role": "monster",
+   "family": "cok-monsters",
+   "prompt_notes": "Keep the violet eyes and the pearl collar."
+  },
+  "cok_amiga_daa_cok_pic2_pic2_064_f0": {
+   "description": "Fantasy landscape: two floating rock islands in a pale lilac-white sky. The right island holds a red-brick castle with blue-purple conical towers; the left, smaller island carries grey ruined stone buildings. Brown rock undersides, green ground strip at the bottom.",
+   "role": "scene",
+   "family": "cok-scenes",
+   "prompt_notes": "Both islands are clearly separate; keep the grey ruined buildings on the smaller left island."
+  },
+  "dok_amiga_daa_dok_bigpic2_bigpic2_115": {
+   "description": "Wide painted picture: a yellow-white magical storm or portal ring in the centre with a dark red eye-like core, violet-blue lightning crackling across a black sky, and pink-magenta sparkles along the bottom edge. Treasure-like orange objects line the bottom corners.",
+   "role": "scene",
+   "family": "dok-scenes",
+   "prompt_notes": "The dark red core inside the yellow ring and the blue lightning are faint; name them in the result."
+  },
+  "dok_amiga_daa_dok_bigpic2_bigpic2_114": {
+   "description": "Wide dark scene: at left a small khaki-clad spear fighter in a crouch against a black rocky cave wall with green moss; at right a huge glowing blue serpent-dragon with open jaws and curling blue coils rises at him. Black and brown cave background.",
+   "role": "scene",
+   "family": "dok-scenes",
+   "prompt_notes": "The fighter is small and dark at the left edge; keep him. The blue creature is the only bright element."
+  },
+  "dok_amiga_daa_dok_pic2_pic2_093_f0": {
+   "description": "Dark-skinned man in a turquoise turban with feathers and a violet-blue robe with cyan patterns, sitting cross-legged and holding up a glass orb in each hand; the right orb has a tiny orange imp or tree inside. Colourful potion bottles (red, pink, green) stand around him at the bottom on a red cushion, black background.",
+   "role": "npc",
+   "family": "dok-npcs",
+   "person": "turbaned potion merchant (PIC2 093)",
+   "prompt_notes": "Keep both orbs and the row of potion bottles.",
+   "game_context": false
+  },
+  "dok_amiga_daa_dok_pic2_pic2_085_f0": {
+   "description": "Bearded dark-skinned man inside a very large light grey-olive hood with cyan light streaks at the top right; a gold chain holding a big oval blue-green gem hangs on his chest. Black-brown beard, calm eyes.",
+   "role": "npc",
+   "family": "dok-npcs",
+   "person": "white-hooded bearded man (PIC2 085)",
+   "game_context": false
+  },
+  "dok_amiga_daa_dok_pic2_pic2_084_f0": {
+   "description": "Bald muscular man with a grey moustache and eyebrows, tan skin, wearing black harness straps across a bare chest with a glowing purple-white orb in the centre; he holds a long sword across his body, black wrist bands. Black background.",
+   "role": "npc",
+   "family": "dok-npcs",
+   "person": "bald orb-harness fighter (PIC2 084)"
+  },
+  "dok_amiga_daa_dok_pic2_pic2_014_f0": {
+   "description": "Undead ghoul: a blue-cyan skeletal face with glowing electric-blue outline hair, hollow dark eye sockets with a white pinpoint, bared teeth; a red-brown hooded robe with a hanging chain at the lower right. Dark green brick wall behind at the left.",
+   "role": "monster",
+   "family": "dok-monsters",
+   "prompt_notes": "The blue glow around the head is the main light source; keep the chain at the lower right and the green bricks at the left.",
+   "game_context": 0
+  },
+  "dok_amiga_daa_dok_pic2_pic2_079_f0": {
+   "description": "Dark-haired woman with curly brown hair under a blue headband, brown eyes, red lips and a gold hoop earring; magenta top with a gold necklace edge. Cyan-teal speckled background.",
+   "role": "npc",
+   "family": "dok-npcs",
+   "person": "headbanded woman with hoop earring (PIC2 079)"
+  },
+  "dok_amiga_daa_dok_pic2_pic2_019_f0": {
+   "description": "Pale yellow-green bald vampire with pointed ears, red eyes and fangs, one hand raised in front of his face, wearing a purple cloak; a huge black circle (moon) fills the upper left of a dark green background.",
+   "role": "monster",
+   "family": "dok-monsters",
+   "prompt_notes": "The black moon disc against the dark green background is faint; keep it."
+  },
+  "dok_amiga_daa_dok_pic2_pic2_091_f0": {
+   "description": "A sacrifice scene: a pale man in blue shorts lies on his back across the pink-red tentacles of a green sea-monster, arms stretched out, while rows of small dark hooded figures stand in the background in the gloom. A green scaled creature raises a scythe-like arm at the top right.",
+   "role": "scene",
+   "family": "dok-scenes",
+   "prompt_notes": "The rows of dark hooded figures at the top are faint and must be kept."
+  },
+  "dok_amiga_daa_dok_pic2_pic2_088_f0": {
+   "description": "A fairy man with large pink-orange butterfly wings, blue tunic and blonde hair sits in a hollow tree trunk; a second small pink fairy at the right edge. Green grass with yellow flowers at the bottom, brown bark and dark foliage around.",
+   "role": "scene",
+   "family": "dok-scenes",
+   "prompt_notes": "Keep the second small pink fairy at the right edge."
+  },
+  "dok_amiga_daa_dok_pic2_pic2_006_f0": {
+   "description": "Pale woman with long wavy deep-red hair and a gold circlet with a red jewel, one hand against her cheek wearing a gold ring, gold necklace with a red gem. Green background at the left and right edges, orange-gold garment.",
+   "role": "npc",
+   "family": "dok-npcs",
+   "person": "red-haired jewelled woman (PIC2 006)",
+   "game_context": false
+  },
+  "dok_amiga_amiga_cokdok_lbm_dok_title1": {
+   "description": "Intro background step 2: a giant pale-cyan moon in a swirling wreath of clouds over dark mountains with silhouettes of riders (the Death Knights); NO text on purpose, the Dragonlance band and the title lettering are drawn over it by the engine.",
+   "role": "title",
+   "family": "dok-titles",
+   "prompt_notes": "The dark silhouettes of riders inside the moon are faint; keep them. Do not add any text."
+  },
+  "dok_amiga_amiga_cokdok_lbm_dok_title1b": {
+   "description": "Transparent title lettering layer (320x88, drawn at (0,88) over the moon picture; it replaces the Dragonlance band): DEATH KNIGHTS OF KRYNN in dark green gothic letters with a bright green outline, on two lines (DEATH KNIGHTS / OF / KRYNN), over dark brown-green scale pattern and a violet-blue starry swirl.",
+   "role": "logo",
+   "family": "dok-titles",
+   "prompt_notes": "Exact text: DEATH KNIGHTS OF KRYNN. Keep the green outline; letters on a flat key colour."
+  },
+  "cok_amiga_amiga_cokdok_lbm_cok_scrn1b": {
+   "description": "Intro step 1, opaque full frame: brown-orange marbled stone-like background with dark cracks. A red SSI logo with white outline lines at the top, then in grey embossed letters STRATEGIC SIMULATIONS, INC.(R), PRESENTS, AN, Official Advanced Dungeons & Dragons(R), COMPUTER PRODUCT, and at the bottom two dark copyright lines (1990 TSR, Inc. / 1990 Strategic Simulations, Inc. All rights reserved).",
+   "role": "title",
+   "family": "cok-titles",
+   "prompt_notes": "Exact text must be kept, including both small copyright lines at the bottom (dark on brown, easy to lose)."
+  },
+  "cok_amiga_amiga_cokdok_lbm_cok_text1": {
+   "description": "Transparent lettering layer (240x88 band, drawn at (40,8) over the night-sky screen): the words Champions of Krynn in large black serif letters with a pink-and-yellow double outline (the lettering is black-filled); on the parent screen it sits over a cyan moon and a gold sword hilt at the right edge. The final n of Krynn touches the right edge (the cut is in the original data, both decoders agree).",
+   "role": "logo",
+   "family": "cok-titles",
+   "prompt_notes": "Exact text: Champions of Krynn. Keep the gold sword hilt at the right edge; letters on a flat key colour."
+  },
+  "cok_amiga_amiga_cokdok_lbm_cok_text2": {
+   "description": "Transparent band layer (320x89, drawn at (0,8) over the night-sky screen; replaces step 3): A DRAGONLANCE Fantasy Role-Playing Epic Vol. I - the ornate silver-white DRAGONLANCE letters with red D and L, a sword running through the lettering with a gold and red hilt at the right, yellow Fantasy Role-Playing Epic / Vol. I script below, a small TM at the top right. Dark blue starry fill and a black moon shape at the left.",
+   "role": "logo",
+   "family": "cok-titles",
+   "prompt_notes": "Exact text: A / DRAGONLANCE / Fantasy Role-Playing Epic / Vol. I. Keep the sword through the lettering and the TM."
+  },
+  "dok_amiga_daa_dok_pic2_pic2_089_f0": {
+   "role": "scene",
+   "family": "dok-scenes",
+   "description": "Bright cartoonish scene against a cyan sky: a large wooden contraption of crossed brown beams with two black wheels or drums and belts, like a catapult or treadmill machine, beside a leafy green tree with red apples at the left; a small white-haired old man in a purple-pink outfit sits at the bottom pedalling or working it. A grey blade shape sticks out at the left edge.",
+   "prompt_notes": "Keep the red apples on the tree and the tiny old man at the bottom; the sky stays bright cyan.",
+   "game_context": 0
+  }
+ }
+}

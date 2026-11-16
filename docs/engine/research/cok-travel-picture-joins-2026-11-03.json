@@ -1,0 +1,414 @@
+{
+  "schema": "cok-travel-picture-joins-v1",
+  "task": "SCENE-JOIN-TRAVEL-16",
+  "ecl": {
+    "archive": "ECL1.DAX",
+    "archiveSha256": "6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79",
+    "blockId": 16,
+    "rawBytes": 3813,
+    "blockSha256": "826dd124d05280ab588e94d6bf6c6c4994fdc99acf250d6ae5aa1d304fff4537",
+    "compressedFileOffset": 65,
+    "compressedBytes": 3918
+  },
+  "sourceFrames": [
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/bigpic1.dax/block/121/frame/0",
+      "blockId": 121,
+      "frameIndex": 0,
+      "archive": "BIGPIC1.DAX",
+      "archiveSha256": "34cf5207584cb859817e1fc9b579cd51beea2e00e3393adbdc251e07f93483ec",
+      "rawBytes": 18257,
+      "geometry": [
+        304,
+        120,
+        0,
+        0
+      ],
+      "frameCount": 1,
+      "blockSha256": "62b78a91d3e1b876f15ef70396c87b03279a996b22b5a16f781208f9bea0b395",
+      "pixelSha256": "2e88ad9e9cc12487530a07819a458e545f3108d07cb3573216e6746874bc40ba",
+      "pngSha256": "e9f69763ee7cc48361cc3d44f2b22182d0a49cec21e7bf06c663478e27c10c91",
+      "pngPath": "dos_render_all/BIGPIC1/BIGPIC1_121.png"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/18/frame/0",
+      "blockId": 18,
+      "frameIndex": 0,
+      "archive": "PIC1.DAX",
+      "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "rawBytes": 3894,
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "frameCount": 1,
+      "blockSha256": "682f6487982df42f3dfe2ef294441f67eebc6caad737b1d83bce7c9a2d7a91b0",
+      "pixelSha256": "eecd9e7c03da30d517b40e8fcf34ffb2a512097e1979eb28004dd6be68ba1f42",
+      "pngSha256": "d05e643ac4e4e58dc8bb232e6e1ef3d8994b80258d70d1321e9ea451d3ebc0b8",
+      "pngPath": "dos_complex_render/PIC1/PIC1_018_f0.png"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/58/frame/0",
+      "blockId": 58,
+      "frameIndex": 0,
+      "archive": "PIC1.DAX",
+      "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "rawBytes": 3894,
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "frameCount": 1,
+      "blockSha256": "c856b5763e14bed82ee1fedd687456d750ea0d234c9ed2fa8cda05e960b7d618",
+      "pixelSha256": "6701a63e585efddea9d003a5be1b3143e192ab646f6c66d17f623bb7f65562e7",
+      "pngSha256": "ab274f539c435b02685a5b612360071906fa93294317846c0fe93e7022d67fc9",
+      "pngPath": "dos_complex_render/PIC1/PIC1_058_f0.png"
+    }
+  ],
+  "hostSource": [
+    {
+      "role": "map",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "async function cokDialoguePictures(",
+      "endSymbol": "\nasync function cokThrotlPresentation(",
+      "sha256": "8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2"
+    },
+    {
+      "role": "travelMap",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "async function openCokTravel(",
+      "endSymbol": "    const travelMonsterLookup",
+      "sha256": "5e5764a7dd7189d3298586e968474feca28c253fe39fa7e6ff1ae529cbe7eeae"
+    },
+    {
+      "role": "vmPicture",
+      "path": "packages/engine/src/ecl/vm.ts",
+      "startSymbol": "      case 0x0e: // PICTURE id",
+      "endSymbol": "\n      case 0x3d:",
+      "sha256": "6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd"
+    },
+    {
+      "role": "lastPicture",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "function lastPicture(",
+      "endSymbol": "\n/** The most recent prompt",
+      "sha256": "486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f"
+    },
+    {
+      "role": "translate",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "  private translate(r: EclRunResult):",
+      "endSymbol": "\n}\n\n/**\n * Page a dense retail",
+      "sha256": "aa7fe6eca62b7c90ea959918a8c798f9276c46d73ff5766da548307b6461225c"
+    },
+    {
+      "role": "paginate",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "  private paginate(result: EclRunResult):",
+      "endSymbol": "\n}\n\n/**\n * Build a dialogue runner",
+      "sha256": "d47e8cecb8a51a6174839ed9017a87e880a748d9ce3d84c841ba0d96396ee7fc"
+    },
+    {
+      "role": "frame0",
+      "path": "packages/engine/src/loaders/dax.ts",
+      "startSymbol": "    // Multi-frame chunky-4bpp picture",
+      "endSymbol": "    // Fixed-size multi-item tile array",
+      "sha256": "d5c16a122b5bd33773c2f54923c9019376455eacee4662bb60f01efc6ac9de00"
+    },
+    {
+      "role": "select",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "function selectPresentationPicture(",
+      "endSymbol": "\nfunction wrapDialogueText(",
+      "sha256": "9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee"
+    },
+    {
+      "role": "surfaceGuard",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "function renderPresentation(turn: DialogueTurn):",
+      "endSymbol": "  const pilot = selectedSceneArt(state);",
+      "sha256": "5d871ae41dc8489438bb35a149681968a76132edd98de4765f31768e84254d40"
+    },
+    {
+      "role": "placement",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "  let viewport = null;",
+      "endSymbol": "  const selectedMode",
+      "sha256": "4c24bbf2de9d968a601e9c4d716dfc95a9e36cc89586adda08def7c29557f2f1"
+    },
+    {
+      "role": "surfaceMount",
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "  if (opts.presentation) {",
+      "endSymbol": "  const firstScene = opts.presentation?.sceneArt",
+      "sha256": "b5d71fccf2b793a801217830ddb7ef1f93d6db1165280560cc2ce5fbd926c5c4"
+    },
+    {
+      "role": "movement",
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "    panel.appendChild(graphics);\n    let moving = false;",
+      "endSymbol": "    const choices = el('div', 'cok-travel-choices');",
+      "sha256": "1625a0ff41a6a7055f95858712084ebac77a13e0362ff97f05c68cf874970d5e"
+    },
+    {
+      "role": "cellRunner",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "export function dialogueForCell(",
+      "endSymbol": "\n/**\n * Build a dialogue runner for the **vmRun1**",
+      "sha256": "2da2d1cfa688107d196992be46348cf0a67bd2cb7bb5a5adae57ef3465c07f39"
+    },
+    {
+      "role": "searchEntry",
+      "path": "packages/engine/src/world/dungeonEvents.ts",
+      "startSymbol": "export function primeSearchLocation(",
+      "endSymbol": "\n/**\n * Position a VM",
+      "sha256": "5064110480ee9cf8fb17a5d83abc69b4788b87543713c46da1ef94b84c62104c"
+    }
+  ],
+  "sites": [
+    {
+      "offset": 76,
+      "vaddr": 32842,
+      "pictureId": 121,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 121
+      },
+      "entries": [
+        "initial_entry"
+      ],
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 9,
+          "offsetPathSha256": "361013e605b864292dca54d89865d035eb8a4e9a882e302e8e0e9bc263f0c630",
+          "branchEdgeCount": 2,
+          "branchEdgesSha256": "d0c617a44ceb4c79ff2cd2a7e8776ae1705ea5ed6de40cd4116946eea5a00bf6"
+        }
+      ],
+      "binding": {
+        "status": "caller-or-context-unresolved",
+        "sourceAssetId": null
+      }
+    },
+    {
+      "offset": 1376,
+      "vaddr": 34142,
+      "pictureId": 114,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 114
+      },
+      "entries": [
+        "search_location"
+      ],
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 9,
+          "offsetPathSha256": "601666fa5354314bb02d937934c224551aaa5ada5b615a472fe83c7376042aa4",
+          "branchEdgeCount": 4,
+          "branchEdgesSha256": "02b561cfb461060828eb9279b98e8577e00b1a77006eb2a19dd95044ccc82f82"
+        }
+      ],
+      "binding": {
+        "status": "existing-114-evidence-preserved",
+        "sourceAssetId": "cok/dos-ega/disk1/bigpic1.dax/block/114/frame/0"
+      }
+    },
+    {
+      "offset": 1651,
+      "vaddr": 34417,
+      "pictureId": 18,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 18
+      },
+      "entries": [
+        "search_location"
+      ],
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 24,
+          "offsetPathSha256": "82c9785106a63dc24054a5f6e16b61086be6e823362f05e8e913313e5253f822",
+          "branchEdgeCount": 6,
+          "branchEdgesSha256": "f66674ed8546f0a9893c34f1d5f32bb598d4623d99b23126e71984032e470299"
+        }
+      ],
+      "binding": {
+        "status": "conditional-original-source",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/18/frame/0"
+      }
+    },
+    {
+      "offset": 1800,
+      "vaddr": 34566,
+      "pictureId": 121,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 121
+      },
+      "entries": [
+        "search_location"
+      ],
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 33,
+          "offsetPathSha256": "2fb7e413d8df8c90c7ea12df24fd586b178b3d3e019b8dbffc3b15ff148811ed",
+          "branchEdgeCount": 7,
+          "branchEdgesSha256": "8e53a84933a10390964be4bef96566959ac8a3f7d0b4d3c8d46cf4a5fbf07f3f"
+        }
+      ],
+      "binding": {
+        "status": "conditional-original-source",
+        "sourceAssetId": "cok/dos-ega/disk1/bigpic1.dax/block/121/frame/0"
+      }
+    },
+    {
+      "offset": 3004,
+      "vaddr": 35770,
+      "pictureId": 58,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 58
+      },
+      "entries": [
+        "search_location"
+      ],
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 39,
+          "offsetPathSha256": "d0b7d780199846c20a72ee4e6a880f8f2601cb6d5e68416d30054e775a07943c",
+          "branchEdgeCount": 15,
+          "branchEdgesSha256": "b6de965fe73badb6aa1f6cb6572e19f0f533badacab96bea1ac0208d737022ee"
+        }
+      ],
+      "binding": {
+        "status": "conditional-original-source",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/58/frame/0"
+      }
+    },
+    {
+      "offset": 3027,
+      "vaddr": 35793,
+      "pictureId": 58,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 58
+      },
+      "entries": [
+        "search_location"
+      ],
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 43,
+          "offsetPathSha256": "4e4bcb95c9ee445a7bf8384ea8a4f0b736304690f25095ae865faf5c30730b5b",
+          "branchEdgeCount": 16,
+          "branchEdgesSha256": "efa2e135c49ca0989439f6d597bc77b6d3ce54785eed3a78730266dd440e131f"
+        }
+      ],
+      "binding": {
+        "status": "conditional-original-source",
+        "sourceAssetId": "cok/dos-ega/disk1/pic1.dax/block/58/frame/0"
+      }
+    },
+    {
+      "offset": 3036,
+      "vaddr": 35802,
+      "pictureId": 121,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 121
+      },
+      "entries": [
+        "search_location"
+      ],
+      "entryWitnesses": [
+        {
+          "entry": "search_location",
+          "instructionSteps": 45,
+          "offsetPathSha256": "06a2ccf364746b962e39486b42ce6ea4364aec340716d9297ab4c377573e96ce",
+          "branchEdgeCount": 16,
+          "branchEdgesSha256": "efa2e135c49ca0989439f6d597bc77b6d3ce54785eed3a78730266dd440e131f"
+        }
+      ],
+      "binding": {
+        "status": "conditional-original-source",
+        "sourceAssetId": "cok/dos-ega/disk1/bigpic1.dax/block/121/frame/0"
+      }
+    }
+  ],
+  "mapContract": {
+    "order": [
+      "BIGPIC1.DAX",
+      "PIC1.DAX"
+    ],
+    "picToc": [
+      23,
+      57,
+      58,
+      34,
+      18,
+      59,
+      60,
+      1,
+      8,
+      12,
+      15,
+      30,
+      34,
+      35,
+      41,
+      61,
+      62,
+      63
+    ],
+    "bigpicToc": [
+      114,
+      121,
+      112,
+      115
+    ],
+    "targetCollisions": [],
+    "selectedOriginalFrame": 0,
+    "duplicatePolicy": "last decoded ID wins; source maps use unconditional Map.set"
+  },
+  "issues": [],
+  "directMapPaintingProvesInitialEntry": false,
+  "groupedBatchExample": {
+    "pictureEffects": [
+      58,
+      58,
+      121
+    ],
+    "lastPictureRegister": 121,
+    "sceneCount": null,
+    "pauseVisibility": "unresolved; NarrativeDialogueMachine may split at PRINT boundaries"
+  },
+  "limits": [
+    "Offset76 is initial_entry with unresolved campaign caller; direct map painting does not prove this ECL instruction executed.",
+    "The six search_location sites are conditional on the pinned openCokTravel movement caller, live campaign context, assets, mount and presentation; no branch feasibility or guaranteed visibility.",
+    "Coordinate-choice/text-only, arbitrary supplied and unknown presentations do not inherit the movement map/source binding.",
+    "PICTURE batches retain a last-picture register; PRINT pagination and pauses may split batches. Seven static sites are not seven visible scenes.",
+    "The existing #114 row, consumers, receipt and admission are preserved; no new #114 evidence is appended.",
+    "Selected DOS/Amiga/Restyle mode, overlay/counterpart admission, failure/unavailable output and runtime observation remain unresolved by this slice.",
+    "Frame0 source/map selection is verified; no animation semantics or temporal use is inferred.",
+    "Only the three existing source rows gain one partial consumer each; prior verified/partial/unknown metadata remains intact. No new identities or art.",
+    "Pins identify current local source/render copies, not independently verified retail provenance."
+  ]
+}

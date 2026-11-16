@@ -1,0 +1,33 @@
+{
+  "format": "goldbox-graphics-shard-pilot-v1",
+  "registryVersion": 1,
+  "selection": {
+    "game": "cok",
+    "platform": "DOS-EGA",
+    "archive": "PIC1.DAX"
+  },
+  "baselineRegistryCanonicalSha256": "c9005b719c33c1217b4036142b3cdafbbdca0f4b8e8bb649470a085ac7822806",
+  "baselineSliceCanonicalSha256": "f255e677c6ef9a94302ac0daa9448ac642b08b0695164223c181085918492b53",
+  "externalAssetIds": [
+    "cok/amiga/disk2/pic1.daa/block/57/frame/0",
+    "cok/dos-ega/disk2/pic2.dax/block/1/frame/0",
+    "cok/dos-ega/disk2/pic2.dax/block/23/frame/0",
+    "cok/dos-ega/disk2/pic2.dax/block/23/frame/1",
+    "cok/dos-ega/disk2/pic2.dax/block/23/frame/2",
+    "cok/dos-ega/disk2/pic2.dax/block/23/frame/3",
+    "cok/dos-ega/disk2/pic2.dax/block/23/frame/4",
+    "cok/dos-ega/disk2/pic2.dax/block/23/frame/5",
+    "cok/dos-ega/disk2/pic2.dax/block/23/frame/6",
+    "cok/dos-ega/disk2/pic2.dax/block/23/frame/7",
+    "cok/dos-ega/disk2/pic2.dax/block/34/frame/0",
+    "cok/dos-ega/disk2/pic2.dax/block/35/frame/0",
+    "cok/dos-ega/disk2/pic2.dax/block/41/frame/0",
+    "cok/dos-ega/disk2/pic2.dax/block/59/frame/0",
+    "cok/dos-ega/disk2/pic2.dax/block/60/frame/0",
+    "cok/dos-ega/disk2/pic2.dax/block/8/frame/0",
+    "cok/dos-ega/disk3/pic3.dax/block/18/frame/0",
+    "cok/dos-ega/disk3/pic3.dax/block/35/frame/0",
+    "cok/dos-ega/disk3/pic3.dax/block/59/frame/0",
+    "cok/dos-ega/disk3/pic3.dax/block/60/frame/0"
+  ]
+}

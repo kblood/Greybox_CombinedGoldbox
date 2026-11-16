@@ -1,0 +1,35 @@
+{
+  "id": "dark-queen-dos",
+  "title": "The Dark Queen of Krynn",
+  "platform": "DOS (VGA)",
+  "container": "HLIB (little-endian, 256-color Chain-4 DataLib)",
+  "endianness": "little",
+  "display": { "width": 320, "height": 200, "pixelAspect": 1, "defaultZoom": 2 },
+  "files": [
+    { "path": "The Dark Queen of Krynn/DISK1/TITLE.TLB", "category": "title", "label": "TITLE (title screens)" },
+
+    { "path": "The Dark Queen of Krynn/DISK2/BIGPIC.TLB", "category": "scenes", "label": "BIGPIC (scenes)" },
+    { "path": "The Dark Queen of Krynn/DISK2/PICA.TLB", "category": "scenes", "label": "PICA (encounter pics)" },
+    { "path": "The Dark Queen of Krynn/DISK2/PICB.TLB", "category": "scenes", "label": "PICB (encounter pics)" },
+
+    { "path": "The Dark Queen of Krynn/DISK2/CPIC.TLB", "category": "portraits", "label": "CPIC (combat portraits)" },
+    { "path": "The Dark Queen of Krynn/DISK3/CBODY.TLB", "category": "portraits", "label": "CBODY (paperdoll bodies)" },
+
+    { "path": "The Dark Queen of Krynn/DISK2/BACK.TLB", "category": "backdrops", "label": "BACK (combat backdrops)" },
+    { "path": "The Dark Queen of Krynn/DISK2/TOPVIEW.TLB", "category": "backdrops", "label": "TOPVIEW (overhead terrain)" },
+
+    { "path": "The Dark Queen of Krynn/DISK2/8X8DB.TLB", "category": "tiles", "label": "8X8DB (8x8 dungeon tiles)" },
+    { "path": "The Dark Queen of Krynn/DISK2/8X8DC.TLB", "category": "tiles", "label": "8X8DC (8x8 dungeon tiles)" },
+
+    { "path": "The Dark Queen of Krynn/DISK2/SPRIT.TLB", "category": "sprites", "label": "SPRIT (creature sprites)" },
+    { "path": "The Dark Queen of Krynn/DISK2/COMSPR.TLB", "category": "sprites", "label": "COMSPR (combat sprites)" },
+
+    { "path": "The Dark Queen of Krynn/DISK3/FRAME.TLB", "category": "ui", "label": "FRAME (UI frame chrome)" },
+    { "path": "The Dark Queen of Krynn/DISK3/GEN.TLB", "category": "ui", "label": "GEN (generic UI icons)" },
+    { "path": "The Dark Queen of Krynn/DISK1/ALWAYS.TLB", "category": "ui", "label": "ALWAYS (always-loaded UI)" },
+
+    { "path": "The Dark Queen of Krynn/DISK3/GEO.GLB", "category": "data", "label": "GEO (dungeon maps)", "decode": false, "note": "GEO map library — decoder not yet ported" },
+    { "path": "The Dark Queen of Krynn/DISK3/ECL.GLB", "category": "data", "label": "ECL (event scripts)", "decode": false, "note": "ECL bytecode — decoder not yet ported" },
+    { "path": "The Dark Queen of Krynn/DISK2/MONCHA.GLB", "category": "data", "label": "MONCHA (monster tables)", "decode": false, "note": "monster data — decoder not yet ported" }
+  ]
+}

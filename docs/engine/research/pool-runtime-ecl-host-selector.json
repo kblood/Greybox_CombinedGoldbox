@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "title": "Pool of Radiance",
+  "save_sha256": "2bc5a41f17c3dcc69555866e459a6db8da839fd22bb559aecd2797dba595a1a4",
+  "runtime": {
+    "dgroup_segment": "14A0",
+    "header_table_offset": 18915,
+    "header_entries": {
+      "vm_run_1": 39188,
+      "search_location": 39285,
+      "pre_camp_check": 39438,
+      "camp_interrupted": 39497,
+      "initial_entry": 39518
+    },
+    "member_field_offset": 484,
+    "requested_member": 18,
+    "archive_set_offset": 21366,
+    "archive_set": 2,
+    "first_parser_cs_ip": "30CF:0000",
+    "first_parser_virtual_address": 39283
+  },
+  "retail_match": {
+    "loaded_header_archive_set": 2,
+    "loaded_header_member": 20,
+    "requested_pair_exists": false,
+    "target_pair_exists": true,
+    "target_search_location": 39607
+  },
+  "verdict": "game_area_2_member_18_lookup_retains_stale_ecl2_member_20",
+  "claim_boundary": "The runtime selector, exact five-word header, retail DAX inventory, and first parser cursor prove that the staged save does not dispatch ECL1.DAX#18. They do not yet prove how to construct a coherent game-area-1 save or reach COMBAT 0xB1A0."
+}

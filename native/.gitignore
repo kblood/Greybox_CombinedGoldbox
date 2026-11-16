@@ -1,0 +1,14 @@
+# Native DOS engine build artifacts — local only.
+build/
+# Staged tool drive for cc-games.ps1 (copies of cc + helpers, local only).
+cc-tools/
+*.obj
+*.exe
+*.com
+*.map
+*.lst
+# Decoded-frame inputs for incbin slices are derived from the user's copyrighted
+# game files — never commit them.
+assets/
+*.bin
+*.pal

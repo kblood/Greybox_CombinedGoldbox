@@ -1,0 +1,229 @@
+{
+  "source": {
+    "path": "Champions of Krynn/TITLE.DAX",
+    "bytes": 57528,
+    "sha256": "5276ba718f3c31018c25852f0b6858a292aed5a94f8bd938803961bb1ade0a00"
+  },
+  "thresholds": {
+    "edge_corr_min": 0.3,
+    "hist_dist_max": 0.55,
+    "aspect_dev_max": 0.04
+  },
+  "blocks": {
+    "1": {
+      "item": {
+        "id": "band_cok_dos_ssi_presents",
+        "kind": "band",
+        "src": "renders/dax/CoK_TITLE/TITLE_001.png",
+        "stem": "001_band_cok_dos_ssi_presents",
+        "native_w": 320,
+        "native_h": 200,
+        "k": 5,
+        "description": "DOS TITLE.DAX block 1: full 320x200 SSI presents screen on a magenta-purple field, with the red-and-white SSI mark and the Advanced Dungeons & Dragons wordmark. Preserve the original composition and every legal/presents line exactly.",
+        "game": "cok",
+        "label": "SSI / AD&D presents screen · TITLE.DAX #1 (DOS)",
+        "source_block": 1,
+        "source_archive": "Champions of Krynn/TITLE.DAX",
+        "source_format": "DOS DAX / 16-colour EGA"
+      },
+      "fidelity": {
+        "id": "band_cok_dos_ssi_presents",
+        "stem": "001_band_cok_dos_ssi_presents",
+        "size": [
+          1600,
+          1000
+        ],
+        "k": 5,
+        "verdict": "ok",
+        "reasons": [],
+        "edge_corr": 0.9979,
+        "hist_dist": 0.0054,
+        "aspect_dev": 0
+      },
+      "original_sha256": "83a985a407e515a96dbf89b6f3d5406a533ee398f2ee26731d66a2e4e290a310",
+      "output_sha256": "c249541adb4d6b29d9c0de8adedfc81a22244a90fed4aa7938c92c725ed0e886"
+    },
+    "2": {
+      "item": {
+        "id": "band_cok_title_art",
+        "kind": "band",
+        "src": "renders/dax/CoK_TITLE/TITLE_002.png",
+        "native_div": 4,
+        "description": "Champions of Krynn title illustration: a night sky with a large pale-cyan moon and a small red moon, a dark castle silhouette, a huge ornate sword at the right, a golden crown and red roses at the lower right, blue-purple starfield.",
+        "stem": "010_band_cok_title_art",
+        "native_w": 320,
+        "native_h": 200,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "scale": 4,
+        "box": [
+          128,
+          112,
+          1280,
+          800
+        ],
+        "k": 5,
+        "transparent": false,
+        "input": "010_band_cok_title_art_input.png",
+        "prompt": "010_band_cok_title_art_prompt.txt",
+        "expected_output": "done/010_band_cok_title_art_out.png",
+        "game": "cok",
+        "source_block": 2,
+        "source_archive": "Champions of Krynn/TITLE.DAX",
+        "source_archive_sha256": "5276ba718f3c31018c25852f0b6858a292aed5a94f8bd938803961bb1ade0a00",
+        "source_format": "DOS DAX / 16-colour EGA; corrected DAX pixel offset 17",
+        "source_png_sha256": "21c0f2c262ba638aa2a626f2123f033d7a65d75c73e7cfefc390079136099eaa",
+        "source_decoded_pixel_sha256": "969c8e42b9c885af221b4f47505f49c7b8f845eb35f5c7e98ef01f422bbd242b",
+        "restyle_lineage": {
+          "input_png": "010_band_cok_title_art_corrected_input.png",
+          "input_png_sha256": "942ab4c29fd68e9c841815ea3dbf96692e4edabc2ef05b8be4e096ec0bd1fabf",
+          "prompt_file": "010_band_cok_title_art_strict_prompt_used.txt",
+          "prompt_sha256": "0780ceb60baecc299a95f7eb9ff29043db71c6505e5a5809f1e7866132190223",
+          "generated_candidate_file": "010_band_cok_title_art_restyle_strict_candidate.png",
+          "generated_candidate_sha256": "415f33b0d003703c62cc4aaec25b029fc3f41aa0635ff409797389bd18f7d1e0",
+          "strict_import_file": "pipeline-output-strict/001_cok_title2_restyle.png",
+          "strict_import_sha256": "429c8f4336ef06724fcc08428e663f746b2c84563b2bcb0ef765eea3b1d26c98",
+          "output_file": "restyle/out/010_band_cok_title_art.png",
+          "output_sha256": "429c8f4336ef06724fcc08428e663f746b2c84563b2bcb0ef765eea3b1d26c98",
+          "fidelity": {
+            "verdict": "ok",
+            "edge_corr": 0.8386,
+            "hist_dist": 0.2536,
+            "aspect_dev": 0.0
+          },
+          "review": "Independent visual review passed for strict candidate and imported normalized output."
+        }
+      },
+      "fidelity": {
+        "id": "band_cok_title_art",
+        "stem": "010_band_cok_title_art",
+        "size": [
+          1600,
+          1000
+        ],
+        "k": 5,
+        "verdict": "ok",
+        "reasons": [],
+        "edge_corr": 0.8386,
+        "hist_dist": 0.2536,
+        "aspect_dev": 0.0
+      },
+      "original_sha256": "21c0f2c262ba638aa2a626f2123f033d7a65d75c73e7cfefc390079136099eaa",
+      "output_sha256": "429c8f4336ef06724fcc08428e663f746b2c84563b2bcb0ef765eea3b1d26c98",
+      "previous_item": {
+        "id": "band_cok_title_art",
+        "kind": "band",
+        "src": "renders/dax/CoK_TITLE/TITLE_002.png",
+        "native_div": 4,
+        "description": "Champions of Krynn title illustration: a night sky with a large pale-cyan moon and a small red moon, a dark castle silhouette, a huge ornate sword at the right, a golden crown and red roses at the lower right, blue-purple starfield.",
+        "stem": "010_band_cok_title_art",
+        "native_w": 320,
+        "native_h": 200,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "scale": 4,
+        "box": [
+          128,
+          112,
+          1280,
+          800
+        ],
+        "k": 5,
+        "transparent": false,
+        "input": "010_band_cok_title_art_input.png",
+        "prompt": "010_band_cok_title_art_prompt.txt",
+        "expected_output": "done/010_band_cok_title_art_out.png",
+        "game": "cok"
+      },
+      "previous_fidelity": {
+        "id": "band_cok_title_art",
+        "stem": "010_band_cok_title_art",
+        "size": [
+          1600,
+          1000
+        ],
+        "k": 5,
+        "verdict": "ok",
+        "reasons": [],
+        "edge_corr": 0.7627,
+        "hist_dist": 0.284,
+        "aspect_dev": 0.0
+      },
+      "previous_output_sha256": "bd8d068ad61eab73f2dd6e125c8451fc9736f6ec6d133da8ae8f4ad7ecd54e97"
+    },
+    "3": {
+      "item": {
+        "id": "cok_dos_title_logo",
+        "kind": "logo",
+        "src": "renders/dax/CoK_TITLE/TITLE_003.png",
+        "stem": "002_cok_dos_title_logo",
+        "native_w": 240,
+        "native_h": 88,
+        "k": 7,
+        "description": "DOS TITLE.DAX block 3: the exact multicolour “Champions of Krynn” title lettering, with its original dark starfield and decorative marks. Restyle this as a transparent overlay only; do not reconstruct or regenerate the full-screen title background.",
+        "game": "cok",
+        "label": "Champions of Krynn title · TITLE.DAX #3 (DOS)",
+        "source_block": 3,
+        "source_archive": "Champions of Krynn/TITLE.DAX",
+        "source_format": "DOS DAX / 16-colour EGA"
+      },
+      "fidelity": {
+        "id": "cok_dos_title_logo",
+        "stem": "002_cok_dos_title_logo",
+        "size": [
+          1680,
+          616
+        ],
+        "k": 7,
+        "verdict": "ok",
+        "reasons": [],
+        "edge_corr": 0.8407,
+        "hist_dist": 0.2,
+        "aspect_dev": 0,
+        "alpha_mode": "key",
+        "key_cover": 0.9967
+      },
+      "original_sha256": "27f66448b29ad353bce986ab0dc3719182bbafb3b824d96b8965fa9bfa5f1d8b",
+      "output_sha256": "608e3dee3f53cab258160438e773e741711aad4b2b0b82c4089b07519b709188"
+    },
+    "4": {
+      "item": {
+        "id": "cok_dos_dragonlance_vol1",
+        "kind": "logo",
+        "src": "renders/dax/CoK_TITLE/TITLE_004.png",
+        "stem": "003_cok_dos_dragonlance_vol1",
+        "native_w": 320,
+        "native_h": 88,
+        "k": 5,
+        "description": "DOS TITLE.DAX block 4: Dragonlance Vol. I title banner with ornate lettering, sword and red emblem. It replaces the earlier block-3 Champions of Krynn banner on the same parent; never stack both overlays. Restyle only this transparent overlay.",
+        "game": "cok",
+        "label": "Dragonlance Vol. I banner · TITLE.DAX #4 (DOS)",
+        "source_block": 4,
+        "source_archive": "Champions of Krynn/TITLE.DAX",
+        "source_format": "DOS DAX / 16-colour EGA"
+      },
+      "fidelity": {
+        "id": "cok_dos_dragonlance_vol1",
+        "stem": "003_cok_dos_dragonlance_vol1",
+        "size": [
+          1600,
+          440
+        ],
+        "k": 5,
+        "verdict": "ok",
+        "reasons": [],
+        "edge_corr": 0.443,
+        "hist_dist": 0.4227,
+        "aspect_dev": 0,
+        "alpha_mode": "key",
+        "key_cover": 0.8979
+      },
+      "original_sha256": "91c21e9cd3ff184cbb15626ed7d93054d46c0eb5491d583c798518bf44b34e8e",
+      "output_sha256": "8eab1dd63fe9df2bb670b5655cb873920826684e06cc7270992e71ad7f7ae7fe"
+    }
+  }
+}

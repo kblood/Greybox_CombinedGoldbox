@@ -1,0 +1,43 @@
+{
+  "id": "treasures-of-the-savage-frontier",
+  "title": "Treasures of the Savage Frontier",
+  "platform": "DOS (VGA)",
+  "container": "DAX + FBOV overlay pool (Savage Frontier branch)",
+  "endianness": "little",
+  "display": { "width": 320, "height": 200, "pixelAspect": 1.2, "defaultZoom": 2 },
+  "files": [
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/TITLE.DAX", "category": "title", "label": "TITLE (title screen)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/BIGPIC1.DAX", "category": "scenes", "label": "BIGPIC1 (scenes)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/PIC1.DAX", "category": "scenes", "label": "PIC1 (animated scenes)", "note": "VGA compressed picture, 66 frames of 88x88. Six 798-byte blocks (#38/47/48/57/68/70), once undecoded, are now read as a distinct, pixel-less palette record: zero width/height, a 223-colour 6-bit-DAC palette at base 0x20, and a 119-byte uninterpreted tail. Each shows here as a 16x14 swatch of its own decoded palette, not a picture — nothing was drawn this size by the original game." },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/PIC1A.DAX", "category": "scenes", "label": "PIC1A (animated scenes)", "note": "VGA compressed picture, 64 frames of 88x88 including one 4-cel animation. Six 798-byte blocks (#78/81/89/90/100/119) share the palette-record type described under PIC1 (same 223-colour/base-0x20 shape, own distinct palette each) and show as swatches, not pictures." },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/SKYGRND.DAX", "category": "backdrops", "label": "SKYGRND (sky/ground bands)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/BACK1.DAX", "category": "backdrops", "label": "BACK1 (combat backdrops)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/BORD.DAX", "category": "backdrops", "label": "BORD (frame backdrop)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/BORDERS.DAX", "category": "backdrops", "label": "BORDERS (frame backdrops)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/CPIC1.DAX", "category": "portraits", "label": "CPIC1 (combat portraits)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/CHEAD.DAX", "category": "portraits", "label": "CHEAD (character heads)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/8X8D0.DAX", "category": "tiles", "label": "8X8D0 (8x8 dungeon tiles)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/8X8D1.DAX", "category": "tiles", "label": "8X8D1 (8x8 dungeon tiles)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/COMSPR.DAX", "category": "sprites", "label": "COMSPR (combat sprites)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/DUNGCOM.DAX", "category": "sprites", "label": "DUNGCOM (dungeon combat)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/WILDCOM.DAX", "category": "sprites", "label": "WILDCOM (wilderness combat)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/SPRIT1.DAX", "category": "sprites", "label": "SPRIT1 (monster sprites, 3 view-sizes)", "note": "VGA compressed picture, 13 blocks x 3 frames of 88x88. Tight 80-colour DAC window at base 176 — every pixel is coloured by the block's own table." },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/CBODY.DAX", "category": "ui", "label": "CBODY (paperdoll body)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/CURSOR.DAX", "category": "ui", "label": "CURSOR (UI cursor)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/LUCK.DAX", "category": "ui", "label": "LUCK (luck/dice UI art)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/OVER.DAX", "category": "ui", "label": "OVER (overlay UI art)", "note": "11 blocks: 7 (ids 51-57) are ordinary embedded-palette item pictures. The other 4 (ids 1-4) are the same pixel-less palette-record type described under PIC1/PIC1A — same 798-byte shape, base 0x20, 223 colours, own distinct palette each — and show here as 16x14 palette swatches, not pictures." },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/GEO1.DAX", "category": "data", "label": "GEO1 (map data)", "decode": false, "note": "41 blocks, all 1026-byte 16x16 dungeon shapes (docs/engine/research/p15-broader-roster-declarations.md)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/ECL1.DAX", "category": "data", "label": "ECL1 (event scripts)", "decode": false, "note": "30 decoded blocks; a decoded FIGHT/FLEE candidate exists at block 24 -> COMBAT 0x856E, but no exploration- or combat-tier route is byte-verified yet — see docs/engine/research/p15-broader-roster-declarations.md" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/WALLDEF1.DAX", "category": "data", "label": "WALLDEF1 (wall definitions)", "decode": false },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/MON1CHA.DAX", "category": "data", "label": "MON1CHA (monster tables)", "decode": false, "note": "102 x 510-byte records; title-local combat field/XP-formula mapping is proven statically" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/MON1ITM.DAX", "category": "data", "label": "MON1ITM (monster items)", "decode": false },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/MON1SPC.DAX", "category": "data", "label": "MON1SPC (monster specials)", "decode": false },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Treasures of the Savage Frontier/ITEM0.DAX", "category": "data", "label": "ITEM0 (item table)", "decode": false }
+  ]
+}

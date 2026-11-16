@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dionysus.dk/schemas/cok-amiga-sprit1-native-audit-v1.schema.json",
+  "title": "CoK Amiga SPRIT1 native framing audit",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "scope", "inputs", "nativeEvidence", "blocks", "interpretation"],
+  "properties": {
+    "schema": { "const": "cok-amiga-sprit1-native-audit-v1" },
+    "scope": { "const": "all 17 indexed blocks in the pinned Champions of Krynn Amiga SPRIT1.DAA candidate archive" },
+    "inputs": {
+      "type": "object", "additionalProperties": false,
+      "required": ["auditScriptSha256", "gameSha256", "archiveSha256", "archiveBytes", "baselineReceiptSha256", "blockCount", "blockIdsInIndexOrder"],
+      "properties": {
+        "auditScriptSha256": { "$ref": "#/$defs/sha256" },
+        "gameSha256": { "$ref": "#/$defs/sha256" },
+        "archiveSha256": { "$ref": "#/$defs/sha256" },
+        "archiveBytes": { "const": 128875 },
+        "baselineReceiptSha256": { "$ref": "#/$defs/sha256" },
+        "blockCount": { "const": 17 },
+        "blockIdsInIndexOrder": { "const": [12, 30, 1, 2, 5, 6, 8, 14, 19, 35, 48, 51, 4, 17, 25, 28, 56] }
+      }
+    },
+    "nativeEvidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["hunk42FileBase", "pinnedSpans", "framing", "decodeCapacities", "frameSelection", "composition", "mintermReference", "horizontalMirror", "displayMask"],
+      "properties": {
+        "hunk42FileBase": { "const": 203796 },
+        "pinnedSpans": {
+          "type": "array", "minItems": 4, "maxItems": 4,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["label", "hunk", "range", "sha256"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 }, "hunk": { "const": 42 },
+              "range": { "$ref": "#/$defs/range" }, "sha256": { "$ref": "#/$defs/sha256" }
+            }
+          }
+        },
+        "framing": { "type": "string", "minLength": 1 },
+        "decodeCapacities": {
+          "type": "object", "additionalProperties": false,
+          "required": ["header", "eachPlanarFrame"],
+          "properties": { "header": { "const": 86 }, "eachPlanarFrame": { "const": 5280 } }
+        },
+        "frameSelection": { "type": "string", "minLength": 1 },
+        "composition": { "type": "string", "minLength": 1 },
+        "mintermReference": { "type": "string", "format": "uri" },
+        "horizontalMirror": { "type": "string", "minLength": 1 },
+        "displayMask": { "type": "string", "minLength": 1 }
+      }
+    },
+    "blocks": {
+      "type": "array", "minItems": 17, "maxItems": 17,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["ordinal", "blockId", "entryFileRange", "entryBytes", "entrySha256", "header", "frames", "composedFrames", "entryConsumedBytes", "frameCompressedHashes"],
+        "properties": {
+          "ordinal": { "type": "integer", "minimum": 0, "maximum": 16 },
+          "blockId": { "type": "integer", "minimum": 0, "maximum": 255 },
+          "entryFileRange": { "$ref": "#/$defs/range" },
+          "entryBytes": { "type": "integer", "minimum": 1 },
+          "entrySha256": { "$ref": "#/$defs/sha256" },
+          "header": {
+            "type": "object", "additionalProperties": false,
+            "required": ["compressedBytes", "compressedSha256", "decodedBytes", "decodedSha256", "height", "width", "frameCount", "frameLengths", "paletteSha256"],
+            "properties": {
+              "compressedBytes": { "const": 81 }, "compressedSha256": { "$ref": "#/$defs/sha256" },
+              "decodedBytes": { "const": 86 }, "decodedSha256": { "$ref": "#/$defs/sha256" },
+              "height": { "const": 88 }, "width": { "const": 88 }, "frameCount": { "const": 3 },
+              "frameLengths": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "integer", "minimum": 1 } },
+              "paletteSha256": { "$ref": "#/$defs/sha256" }
+            }
+          },
+          "frames": {
+            "type": "array", "minItems": 3, "maxItems": 3,
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["index", "entryRange", "compressedBytes", "compressedSha256", "followingWord", "decodedBytes", "storedPlanarSha256", "storedIndexSha256", "storedRgbSha256"],
+              "properties": {
+                "index": { "type": "integer", "minimum": 0, "maximum": 2 }, "entryRange": { "$ref": "#/$defs/range" },
+                "compressedBytes": { "type": "integer", "minimum": 1 }, "compressedSha256": { "$ref": "#/$defs/sha256" },
+                "followingWord": { "const": 0 }, "decodedBytes": { "const": 5280 },
+                "storedPlanarSha256": { "$ref": "#/$defs/sha256" }, "storedIndexSha256": { "$ref": "#/$defs/sha256" },
+                "storedRgbSha256": { "$ref": "#/$defs/sha256" }
+              }
+            }
+          },
+          "composedFrames": {
+            "type": "array", "minItems": 3, "maxItems": 3,
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["frame", "composition", "indexSha256", "rgbSha256"],
+              "properties": {
+                "frame": { "type": "integer", "minimum": 0, "maximum": 2 },
+                "composition": { "enum": ["stored-frame", "frame0-xor-selected-frame"] },
+                "indexSha256": { "$ref": "#/$defs/sha256" }, "rgbSha256": { "$ref": "#/$defs/sha256" }
+              }
+            }
+          },
+          "entryConsumedBytes": { "type": "integer", "minimum": 1 },
+          "frameCompressedHashes": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "$ref": "#/$defs/sha256" } }
+        }
+      }
+    },
+    "interpretation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["storedPlanarFramesVerified", "nativeFrame0XorCompositionSupported", "temporalAnimationSemantics", "playbackCadence", "cleanRetailArchiveProvenance", "runtimeAdmission"],
+      "properties": {
+        "storedPlanarFramesVerified": { "const": "all 51 stored frame hashes match the baseline receipt" },
+        "nativeFrame0XorCompositionSupported": { "const": "Hunk42 composition helper is shared across all indexed blocks in this file" },
+        "temporalAnimationSemantics": { "const": "unknown" }, "playbackCadence": { "const": "unknown" },
+        "cleanRetailArchiveProvenance": { "const": "unverified candidate extraction" }, "runtimeAdmission": { "const": "none" }
+      }
+    }
+  },
+  "$defs": {
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "range": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "integer", "minimum": 0 } }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "title": "Pool of Radiance",
+  "captured_at": "2026-07-15",
+  "route": {
+    "ecl_archive": 1,
+    "ecl_member": 18,
+    "position": [14, 8],
+    "search_enabled": true,
+    "action": "LOOK",
+    "result_after_continue": "orc encounter menu then visible tactical combat"
+  },
+  "breakpoint": {
+    "requested_cs_ip": "3581:179B",
+    "observed_cs_ip": "3582:178B",
+    "physical_address": 225195
+  },
+  "startup_candidate": {
+    "game_ovr_file_offset": 9441,
+    "expected_bytes_hex": "5589e583ec0a"
+  },
+  "resident_at_hit": {
+    "bytes_hex": "89ec5dcb",
+    "instructions": ["mov sp,bp", "pop bp", "retf"]
+  },
+  "verdict": "rejected_stale_overlay_placement",
+  "claim_boundary": "route reach and physical alias are proven; loaded-byte identity fails, so no symbol is promoted"
+}

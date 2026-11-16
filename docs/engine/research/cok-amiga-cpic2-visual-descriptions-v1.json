@@ -1,0 +1,839 @@
+{
+  "version": 1,
+  "scope": "Cautious visible-appearance descriptions for the 64 decoded Amiga CPIC2.DAA archive block/frame rows listed here. Descriptions cover visible colors, shapes, pose, and objects only. No subject identity, game use, selector, or playback semantics are inferred.",
+  "evidenceImagePathPattern": "apps/web/dist-app-cok57/restyle/cok-generated/images/{sourceSha256}.png",
+  "assets": [
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/0/frame/0",
+      "sourceSha256": "bf7e6f8532daaf445a6bdc79dd7127c332c6163cba42a50967f7f50b891baee2",
+      "pixelSha256": "db7785303e81420dc4fca0e11dd6fe1de1e23338960cbea829c1ec79c9ee7507",
+      "visualDescription": "Compact upright sprite with orange-yellow and purple areas, blue-gray limbs, and dark pixels around the outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bf7e6f8532daaf445a6bdc79dd7127c332c6163cba42a50967f7f50b891baee2.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/1/frame/0",
+      "sourceSha256": "980b77b8be3f09f2c126d98b5b2f478b750f851889002cad1697e777f3cd1799",
+      "pixelSha256": "72ee2f5402dc070111cd0977998f252fe172774e17340cb132db6aae63a79b30",
+      "visualDescription": "Upright purple and reddish form with pale gray-blue details and a round pale blue-gray shape at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/980b77b8be3f09f2c126d98b5b2f478b750f851889002cad1697e777f3cd1799.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/3/frame/0",
+      "sourceSha256": "ee07658b82680dd3e353290d3ccdccfcc3b43042ea132ea8da8c48667f0e5a1a",
+      "pixelSha256": "a16a22c67d8d4be3d2ae6fab407b8e717f0ec0ea397fc06af73cc54436dbd9b5",
+      "visualDescription": "Large blue and violet form with broad curved extensions, bright red-pink details near the center, and a pale blue round area at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ee07658b82680dd3e353290d3ccdccfcc3b43042ea132ea8da8c48667f0e5a1a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/4/frame/0",
+      "sourceSha256": "ea9eb8763d4de7242a5c0b34689c5c6b51bf1d8f26860fc938bbce085c367c0b",
+      "pixelSha256": "a85ce98ba16c02dc93312845491190edcb07de50e5080ad4d41e9f7cdd8e414f",
+      "visualDescription": "Compact orange-brown and teal form with a pale narrow projection at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ea9eb8763d4de7242a5c0b34689c5c6b51bf1d8f26860fc938bbce085c367c0b.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/5/frame/0",
+      "sourceSha256": "a89d2c73aa8e7ae85c85034ec08f0a57d232ffba434fd9732e13b1b81f924956",
+      "pixelSha256": "a1684e46e465e650fbb69cc1f95e9d882245f069538e61513b688f3711843ea8",
+      "visualDescription": "Curving loop-like outline made of turquoise and magenta pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a89d2c73aa8e7ae85c85034ec08f0a57d232ffba434fd9732e13b1b81f924956.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/6/frame/0",
+      "sourceSha256": "067be354e3d3d188df39c8af78d8ae20cca829c8cc015a41a0eac81248b2452d",
+      "pixelSha256": "a862543daf0ff452be1c6efe55be9cf9b3d80b99a6460f358786cd9ec4767f94",
+      "visualDescription": "Pale peach and orange upright form, bent forward with an arm-like extension pointing right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/067be354e3d3d188df39c8af78d8ae20cca829c8cc015a41a0eac81248b2452d.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/8/frame/0",
+      "sourceSha256": "d150a05de837e7f9c2a560d291107ba4cf84bea192235f277f719f01be076035",
+      "pixelSha256": "8821698dfa1dfeaf881fd7f630aa656eb335ff0348aa090f21fe85dd25b2a9dd",
+      "visualDescription": "Dark orange-brown mottled cluster with lighter pixels near its lower edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d150a05de837e7f9c2a560d291107ba4cf84bea192235f277f719f01be076035.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/10/frame/0",
+      "sourceSha256": "d116e5c849025747e03eecbb6540505820ce7fcccfe13fee5718045aa4b113da",
+      "pixelSha256": "05a9a618120bbc57ca0a22463ce4ac6d1424913bfa1794142796a906532bac6c",
+      "visualDescription": "Long low green and red form with repeated small projections and an extended tapered end.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d116e5c849025747e03eecbb6540505820ce7fcccfe13fee5718045aa4b113da.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/14/frame/0",
+      "sourceSha256": "6a5617f91cfb623baaf5675b032057e1c57d9b68e986b48c100b0f831a56da86",
+      "pixelSha256": "449167e86d41c10d927eccbc1837e310eb46c00ac973952743fff95db5b40808",
+      "visualDescription": "Compact red-brown and purple form with blue-gray details and a thin yellow line extending right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6a5617f91cfb623baaf5675b032057e1c57d9b68e986b48c100b0f831a56da86.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/16/frame/0",
+      "sourceSha256": "c07f26bd6e9661edc74cd1beff2708d6bd4525d0c1450decb37eb076f4b1feba",
+      "pixelSha256": "56707452b5c926b07a13ec975f43bc0250395734a14a062b3fd2bacc82dde886",
+      "visualDescription": "Tall orange-brown and blue-white form, with a teal area near the top and a narrow green vertical shape at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c07f26bd6e9661edc74cd1beff2708d6bd4525d0c1450decb37eb076f4b1feba.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/17/frame/0",
+      "sourceSha256": "22bcf01b4ad12a05ec603cadfaeec3675dbe3c630bc16376cf7c0f0401a8ac71",
+      "pixelSha256": "98ac7fa9b85f3324711157e5f5e0614b50dd88eeb7fb42c12b4ee65139410514",
+      "visualDescription": "Dark red arched oval form with a black center and brighter red edging.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/22bcf01b4ad12a05ec603cadfaeec3675dbe3c630bc16376cf7c0f0401a8ac71.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/18/frame/0",
+      "sourceSha256": "4bf739cc387e8c376217138916a90e17ed402e0d331db31e5b5c459280c1f00c",
+      "pixelSha256": "71243331960fed63e7a26672af27c0ded3186644903003636928bdc69f8a1582",
+      "visualDescription": "Small gold, purple, and blue upright form beside a bright green-blue flare.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4bf739cc387e8c376217138916a90e17ed402e0d331db31e5b5c459280c1f00c.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/19/frame/0",
+      "sourceSha256": "008b84c129bf7f63c34fe324620da859d8890f5ca0714137dac0e51fd5cdec8c",
+      "pixelSha256": "56eeffe1b54f3f2c5948138a6b2c7c6431fcf8e1b4501bd343d533537b9db614",
+      "visualDescription": "Brown upright form with a raised arm-like shape, yellow waist area, and a thin pale line extending right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/008b84c129bf7f63c34fe324620da859d8890f5ca0714137dac0e51fd5cdec8c.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/21/frame/0",
+      "sourceSha256": "45bde9beafde348b5114e4a2e95425f5d36070fbb60fd926b197da460feeeab9",
+      "pixelSha256": "13b6b5e36795f3ddfb82d2d740520f35ccef72bbc4dbd7e1f2551f1b9d0013ad",
+      "visualDescription": "Low red-orange clustered form with darker red edges and a few pale pixels near the center.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/45bde9beafde348b5114e4a2e95425f5d36070fbb60fd926b197da460feeeab9.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/22/frame/0",
+      "sourceSha256": "a5489b64c0fe65ee3312ccd42176a0b64b8f4dfa340de24e1e2b9e6838c5b1ce",
+      "pixelSha256": "23513636d3d764d140d10401e8657b3cbbd5edfdb90da79fac300231957cf1c7",
+      "visualDescription": "Broad red-orange mass with bright yellow spots, dark gaps, and jagged extensions.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a5489b64c0fe65ee3312ccd42176a0b64b8f4dfa340de24e1e2b9e6838c5b1ce.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/23/frame/0",
+      "sourceSha256": "c2069f2b1af3abe2f1fead50fc0d452f2d78277361e263c1e7a6f533e08779c6",
+      "pixelSha256": "626a95a350730ad083ff79413849d741d910064439c9c4e33788c1085eb3dc59",
+      "visualDescription": "Low gray-blue and pale form with several curved sections and turquoise accents.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c2069f2b1af3abe2f1fead50fc0d452f2d78277361e263c1e7a6f533e08779c6.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/24/frame/0",
+      "sourceSha256": "bbf3bdbf262cda2f15f78992c38cfb994fd40bd99097844d15dfe3ddfca87a78",
+      "pixelSha256": "050e4db0ada89d33ab536523eb8ef269ec1597f95608d6298c6b566f50b10634",
+      "visualDescription": "Small blue-gray and ochre upright form with extended limbs and a pale diagonal line.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bbf3bdbf262cda2f15f78992c38cfb994fd40bd99097844d15dfe3ddfca87a78.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/25/frame/0",
+      "sourceSha256": "45ed5acba6041eb2db26a17d40c1d569cc2a9c71719c965decb159d103e22527",
+      "pixelSha256": "b4cf4a886b5303dfb1d30027990428ff33287abd37565fcc95f378d6d803aad9",
+      "visualDescription": "Teal, red, and brown upright form with a thin yellow line extending right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/45ed5acba6041eb2db26a17d40c1d569cc2a9c71719c965decb159d103e22527.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/26/frame/0",
+      "sourceSha256": "3d9cc33300c5166fdacbb5f848309a4de640fd57ca0aa88cf9f1dca605ce1e7c",
+      "pixelSha256": "000d7a3e1fd99a09f229c45ea08c198f5fb9fd72b700aea9493727b492b4e05b",
+      "visualDescription": "Pale outlined upright form with a blue circular shape near the upper right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3d9cc33300c5166fdacbb5f848309a4de640fd57ca0aa88cf9f1dca605ce1e7c.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/28/frame/0",
+      "sourceSha256": "8ff59419fe7ff622087cf060d7b8407175047f151b54efdc498e955a4e12a23a",
+      "pixelSha256": "43c268193a9759633684af217281c5ecbd301d88dbfa69eb6874f7d162b79a94",
+      "visualDescription": "Cyan outline of an upright figure-like shape with raised arms and bent legs.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8ff59419fe7ff622087cf060d7b8407175047f151b54efdc498e955a4e12a23a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/31/frame/0",
+      "sourceSha256": "238490bca7223cb1db081981c3360fab2af458ffb5e66ea7f099a817948d748a",
+      "pixelSha256": "72a8e01894100bddf706736412d1f6283b6622fa260c6bdd03bcd3de5a8e0c61",
+      "visualDescription": "Red and blue upright form with raised arms and bright orange details.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/238490bca7223cb1db081981c3360fab2af458ffb5e66ea7f099a817948d748a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/32/frame/0",
+      "sourceSha256": "81aaeda82ce79a5c4be8939ea1adc56dcac64f9a5ad021e8574d4a8d10a7c22f",
+      "pixelSha256": "8efec91d001ec83ed43c871c35bb846c5efc5842b8643c89176b78ed76039845",
+      "visualDescription": "Pale blue and orange upright form in a wide stance, with extended arms.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/81aaeda82ce79a5c4be8939ea1adc56dcac64f9a5ad021e8574d4a8d10a7c22f.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/33/frame/0",
+      "sourceSha256": "dd6aceff2a463f64882c9ce6f5fe2ad96ffb7ab2914f962636cded538148bba1",
+      "pixelSha256": "4bcf43091ec2e1d8357d9f515570070196051e3c50b5b9bd6753adf657461ed5",
+      "visualDescription": "Blue and green upright form with orange-brown lower areas and an arm-like extension to the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/dd6aceff2a463f64882c9ce6f5fe2ad96ffb7ab2914f962636cded538148bba1.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/35/frame/0",
+      "sourceSha256": "b6a67e7819316d2cda8b8ab89e66846c8c45900d0a9bac6a1988983ed6b722a5",
+      "pixelSha256": "f6c9f14a9e82de56eaed55625aca19385508b12333a4f08a9a2b8353a6b4ee33",
+      "visualDescription": "Red-brown and gray upright form with a blue-yellow rectangular shape at the right and a pale diagonal line.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b6a67e7819316d2cda8b8ab89e66846c8c45900d0a9bac6a1988983ed6b722a5.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/38/frame/0",
+      "sourceSha256": "feed00f9a0b623b8f1af27fcc4ee2c79331e55b8405acfef761a5c190d6e8212",
+      "pixelSha256": "2fd89d04faf77355523152b24207d1167c95b55bdf19f666620f985c3335a4af",
+      "visualDescription": "Tall magenta form with a curved outline and dark center.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/feed00f9a0b623b8f1af27fcc4ee2c79331e55b8405acfef761a5c190d6e8212.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/41/frame/0",
+      "sourceSha256": "3f6a9604ac4286ca3865b5bcdfad11c24ca7b00b4adf95f5713647845a4ed272",
+      "pixelSha256": "1773204fa4cb95b7e9e8741959dc73ce47170e2509eeadb47acdc081d8caa4cc",
+      "visualDescription": "Magenta upright form with a pale arm-like extension and blue-gray circular shape at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3f6a9604ac4286ca3865b5bcdfad11c24ca7b00b4adf95f5713647845a4ed272.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/44/frame/0",
+      "sourceSha256": "401a9c527be80b1bc75d50ea5dbde8c644734761e367abe82fdd51d51c283ab3",
+      "pixelSha256": "9af70c4deb33ad09585ff36a83ce23842a1ffd2b20046671a33550e797c0d357",
+      "visualDescription": "Orange-green upright form with a checkered gray-green center, blue-yellow outlined square at the right, and short legs.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/401a9c527be80b1bc75d50ea5dbde8c644734761e367abe82fdd51d51c283ab3.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/48/frame/0",
+      "sourceSha256": "fe9232aea175c56741dfee1f7225cc3751548bbec89d96d9d91d65b8454fd6f1",
+      "pixelSha256": "aa1711289f9cf5bbb0b5b217bc2d0bdcc0fe7a23fd35f3774b1ef891ac39acad",
+      "visualDescription": "Red-gray upright form with a bright pale diagonal projection and a small blue area.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fe9232aea175c56741dfee1f7225cc3751548bbec89d96d9d91d65b8454fd6f1.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/56/frame/0",
+      "sourceSha256": "f1fca6fb2d12026e8dabb0f8e17cd0a859c332b0f94f0b82c4ba1d6eeb24d10d",
+      "pixelSha256": "af6c3721abdcfbe8640bfd06e172dd5206e88df632d6ecef738e4be04cfd2e06",
+      "visualDescription": "Large dense red-orange form with angular extensions, pale curved lines, and dark gaps.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f1fca6fb2d12026e8dabb0f8e17cd0a859c332b0f94f0b82c4ba1d6eeb24d10d.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/60/frame/0",
+      "sourceSha256": "4f39ee772da4168575e8474aa66dd7cc2d4778197c2e3d4ab088eba0c2fe4440",
+      "pixelSha256": "1bdc58479051a3f1ff10828fc6bc466560c0c01ab82bd495b3c2ad2b456011ae",
+      "visualDescription": "Compact blue-orange-gray upright form with a blue-yellow outlined square at the right and a pale diagonal line.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4f39ee772da4168575e8474aa66dd7cc2d4778197c2e3d4ab088eba0c2fe4440.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/61/frame/0",
+      "sourceSha256": "aad2604d0b34427f852a952f58f4ea9be67d9e18223f0fa1372914513f3925df",
+      "pixelSha256": "e258cd392734c70354e8f072ecc0a67f27e29817911a685349c87f7cf51b121f",
+      "visualDescription": "Small orange-green and blue-white upright form with a short pale-yellow line to the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/aad2604d0b34427f852a952f58f4ea9be67d9e18223f0fa1372914513f3925df.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/62/frame/0",
+      "sourceSha256": "950698f2b59d707cf4917905750a12d9d75ffb41efbdbd1dc82aae7a10ff3e21",
+      "pixelSha256": "9a6d34b1deecc25a0cd7055636abb43a8d80e9290df6dcd32f6fd10efb91fd12",
+      "visualDescription": "Orange-brown upright form with a long pale diagonal line extending upward to the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/950698f2b59d707cf4917905750a12d9d75ffb41efbdbd1dc82aae7a10ff3e21.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/128/frame/0",
+      "sourceSha256": "702c28a8d464a071af9eaf816ec113572615bc5439a9efbc8e59b5021874cf8c",
+      "pixelSha256": "e201a2f0ad44ae786865eab7a45e78e0cef2cd4de849a62d67e8e55ded20f5b0",
+      "visualDescription": "Compact orange-yellow, purple, and blue upright form with a bright blue-green flare at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/702c28a8d464a071af9eaf816ec113572615bc5439a9efbc8e59b5021874cf8c.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/129/frame/0",
+      "sourceSha256": "9f2b9605772ccf296ba2f624f06d20f4f6c7238652c0084924a179ba0a0c39fd",
+      "pixelSha256": "68bededcbf3916d25b9854e19623f50beb01b52dc9e542683a5bc7c6cc255d63",
+      "visualDescription": "Purple and reddish upright form with pale gray-blue details and a round pale shape at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9f2b9605772ccf296ba2f624f06d20f4f6c7238652c0084924a179ba0a0c39fd.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/131/frame/0",
+      "sourceSha256": "7545d5edd748c55f19efc472a224b359daff62624f800ae6d00d849d370b5586",
+      "pixelSha256": "6169f3c8ef5eca50ba22bf7f733b18481cc53bb0a9008bd4f94da43c404073ce",
+      "visualDescription": "Large blue-violet form with broad curved extensions, pink-red details near the center, and a pale blue round area at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/7545d5edd748c55f19efc472a224b359daff62624f800ae6d00d849d370b5586.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/132/frame/0",
+      "sourceSha256": "bf9fa7d0635fb9ae6545d3f7b114421ad842f8c907b5b0ca8419eeff16158198",
+      "pixelSha256": "4846749cba8193ee23933fe2b77928ceed988bf97a0a81a1bee5b94cf8ef92ff",
+      "visualDescription": "Compact orange-brown and teal form with a pale narrow projection at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bf9fa7d0635fb9ae6545d3f7b114421ad842f8c907b5b0ca8419eeff16158198.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/133/frame/0",
+      "sourceSha256": "e9437803066bf4b9f1e8a1e26deb2b9afbc8585faa07922c8ee7952ccee41769",
+      "pixelSha256": "08a4edf42ea299c3ede3baf3320d8bfcaf2238fd86c11c11097684db4a25f5cc",
+      "visualDescription": "Curving loop-like outline in turquoise and magenta.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e9437803066bf4b9f1e8a1e26deb2b9afbc8585faa07922c8ee7952ccee41769.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/134/frame/0",
+      "sourceSha256": "e342e55cc5e829d436e44b11e60125284cd2cbb741f664779c1e12bb4d616e23",
+      "pixelSha256": "e03d65fd69ba0daa2507e6b311089f0298a3bd40225f87a7c4d8c98496be3751",
+      "visualDescription": "Pale peach and orange upright form, bent forward with an arm-like extension to the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e342e55cc5e829d436e44b11e60125284cd2cbb741f664779c1e12bb4d616e23.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/136/frame/0",
+      "sourceSha256": "02634b2f432d8bd55b035db60cd3cdb38fc602d0e6c0345f0239dec141ff656b",
+      "pixelSha256": "a9cc37045d449d3f5e190197f53898b4fc722345b76b93e9fdfad14f4341834b",
+      "visualDescription": "Dark orange-brown mottled cluster with lighter pixels near its lower edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/02634b2f432d8bd55b035db60cd3cdb38fc602d0e6c0345f0239dec141ff656b.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/138/frame/0",
+      "sourceSha256": "bb51502decfb47a4781947a10b5fc175df3762ee8e6942dc23ea0e32c7fc1fe8",
+      "pixelSha256": "996b89000a4cb261908c74f10c859167165cb4a4c5b5ba0af4579a56457ef289",
+      "visualDescription": "Long low green and red form with repeated small projections and an extended tapered end.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bb51502decfb47a4781947a10b5fc175df3762ee8e6942dc23ea0e32c7fc1fe8.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/142/frame/0",
+      "sourceSha256": "6a92cd59a954584ffcea1fad901c0cc62e1119e55fd5b31abe6fdb5d9c7b1064",
+      "pixelSha256": "ce376b8812594bf614452fd35d9efbd086cdb8b63e68ac2739e593f1e2a5124f",
+      "visualDescription": "Compact red-brown and purple form with blue-gray details and a thin yellow line extending right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6a92cd59a954584ffcea1fad901c0cc62e1119e55fd5b31abe6fdb5d9c7b1064.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/144/frame/0",
+      "sourceSha256": "f8408d2613e7d5be9a4e6ad8c04761bac0eacf2eb781bbc81b86b7d5d81debb1",
+      "pixelSha256": "7c97b244e83cc4c0731436088dbdb65a6a42bc2cec1e24c15af17b99de7a478d",
+      "visualDescription": "Tall orange-brown and blue-white form, with a teal area near the top and a narrow green vertical shape at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f8408d2613e7d5be9a4e6ad8c04761bac0eacf2eb781bbc81b86b7d5d81debb1.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/145/frame/0",
+      "sourceSha256": "aefabad7e16fd77f0e9cd785e862d637aa8a047b7791289cb406498b8cf61912",
+      "pixelSha256": "ea05f7d6330fc9f522ec641de7d1d7effcb0194c73ed91fabafe6d99a52dbdfb",
+      "visualDescription": "Dark red arched oval form with a black center and bright red edging.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/aefabad7e16fd77f0e9cd785e862d637aa8a047b7791289cb406498b8cf61912.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/146/frame/0",
+      "sourceSha256": "b713a0b65420dd2b57e0e1186f42de7f64a40b296b0d14ae47ee88c95525dee7",
+      "pixelSha256": "7ab1c77def970ba337f9fbb7b9172d4432e63128e2e25d89d15ebd1d1dfa8526",
+      "visualDescription": "Small gold, purple, and blue upright form beside a bright green-blue flare.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b713a0b65420dd2b57e0e1186f42de7f64a40b296b0d14ae47ee88c95525dee7.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/147/frame/0",
+      "sourceSha256": "90329e33a1156d6ed87c176103539eeb8f0da9973e069bd3c0af97c71f804d98",
+      "pixelSha256": "e8bfb94fb211e4881bd8d50a22b287dac1fc5f8ae6be2e707b0968c28fa6afa3",
+      "visualDescription": "Brown upright form with a raised arm-like shape, yellow waist area, and a thin pale line to the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/90329e33a1156d6ed87c176103539eeb8f0da9973e069bd3c0af97c71f804d98.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/149/frame/0",
+      "sourceSha256": "d740f8ce19f65b966ead24bbd77b042045c3eb19fe4d01320e87c5d0c24091a1",
+      "pixelSha256": "f6da6e22349d3d3a4d94a0f87cd8322b61946d59c4404e3e1dd1a01a37c60907",
+      "visualDescription": "Low red-orange clustered form with darker red edges and a few pale pixels near the center.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d740f8ce19f65b966ead24bbd77b042045c3eb19fe4d01320e87c5d0c24091a1.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/150/frame/0",
+      "sourceSha256": "3130cbd538e8e3ddad0147b1d14db21acf909afe15ea9cd1f28e440f49216cbc",
+      "pixelSha256": "ef0d85c3ba04321a9cdd00d3c4e5278d3e027611c86ca5356107694fe0704cd1",
+      "visualDescription": "Broad red-orange mass with bright yellow spots, dark gaps, and jagged extensions.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3130cbd538e8e3ddad0147b1d14db21acf909afe15ea9cd1f28e440f49216cbc.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/151/frame/0",
+      "sourceSha256": "e865dd6737773bbfe79a419bc7153bb338b404f45b7cd4ad7fc1c037c61c26ff",
+      "pixelSha256": "321d6a28f846729662d543197484474b4549f9a0b40d02bc530a3ef66a2a3aaa",
+      "visualDescription": "Low gray-blue and pale form with several curved sections and turquoise accents.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e865dd6737773bbfe79a419bc7153bb338b404f45b7cd4ad7fc1c037c61c26ff.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/152/frame/0",
+      "sourceSha256": "8d8506f0ea23f631732afb7a29f4e7ad49b7095ce3d45718af155a63f3ed91d4",
+      "pixelSha256": "faa47f76c7ffe99fb07cfc56b4f755b54bcee57462c03189e79bcc91b53ca969",
+      "visualDescription": "Small blue-gray and ochre upright form with extended limbs and a pale diagonal line.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8d8506f0ea23f631732afb7a29f4e7ad49b7095ce3d45718af155a63f3ed91d4.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/153/frame/0",
+      "sourceSha256": "089acbf3374b5ed678f90e8417951574ab49ac5b76c71c734f5ad79cc64ce4ed",
+      "pixelSha256": "3c48ca62fcbfb6aa1807a921526646753ef8362ecf368727ad64d3c8d186d2e9",
+      "visualDescription": "Teal, red, and brown upright form with a thin yellow line extending right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/089acbf3374b5ed678f90e8417951574ab49ac5b76c71c734f5ad79cc64ce4ed.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/154/frame/0",
+      "sourceSha256": "73de9808a4c1e2137771f04be95d1523dc39ec155f16aaaae3f8f08acc76990c",
+      "pixelSha256": "ca683e8f2ff6aa3f6d4d982b52030104e8848149e6e7c6cac2c17bf12dc2446e",
+      "visualDescription": "Pale outlined upright form with a blue circular shape near the upper right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/73de9808a4c1e2137771f04be95d1523dc39ec155f16aaaae3f8f08acc76990c.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/156/frame/0",
+      "sourceSha256": "9b3f2bec73596e9b9e6a6267c574212bda10cc09158f3dc27fe469fc091620a2",
+      "pixelSha256": "16d071128a2409f83fccf511a42c1efe0cbdd048b2b6c1eba81b4d70aa52c432",
+      "visualDescription": "Cyan outline of an upright figure-like shape with raised arms and bent legs.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9b3f2bec73596e9b9e6a6267c574212bda10cc09158f3dc27fe469fc091620a2.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/159/frame/0",
+      "sourceSha256": "000c547a155cd64d1c5c147ff56552d687161581bfa4024d2613ea1b59aef7b6",
+      "pixelSha256": "92abdb16d85d8c272105306c9a402f4577be4d80bbc41d83a8d7ec077ab837b1",
+      "visualDescription": "Red and blue upright form with raised arms and bright orange details.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/000c547a155cd64d1c5c147ff56552d687161581bfa4024d2613ea1b59aef7b6.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/160/frame/0",
+      "sourceSha256": "ca9e5902c50e251d31c55cf8136de054c624669fe980a2e2281dd2f890b962a3",
+      "pixelSha256": "fc9ed43475ce3ce2c51f3de28a6a9fd7d459377038bef725ceb6fc7ffdc52116",
+      "visualDescription": "Pale blue and orange upright form in a wide stance, with extended arms.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ca9e5902c50e251d31c55cf8136de054c624669fe980a2e2281dd2f890b962a3.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/161/frame/0",
+      "sourceSha256": "08dff74838b32b7ffe75eb706e12531a26970174f18e4b6a3a5e7718db60790b",
+      "pixelSha256": "a340f02cf574489850626131801a02b4209243ed7e288f0b89b9f3460333a9c7",
+      "visualDescription": "Blue and green upright form with orange-brown lower areas and an arm-like extension to the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/08dff74838b32b7ffe75eb706e12531a26970174f18e4b6a3a5e7718db60790b.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/163/frame/0",
+      "sourceSha256": "82ec018392fc1ee2e3ed9c712dd3a75a7473cc6b6f125bd88cb169929b5bf115",
+      "pixelSha256": "7db63d26204bd7c15775dc048cb9ff08bddb44f57415f47ce9481f8ec604a6d0",
+      "visualDescription": "Red-brown and gray upright form with a blue-yellow rectangular shape at the right and a pale diagonal line.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/82ec018392fc1ee2e3ed9c712dd3a75a7473cc6b6f125bd88cb169929b5bf115.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/166/frame/0",
+      "sourceSha256": "1c8b13f84bba26b202d346335fb5bbd5abad3b5b2574a89adba719e21daec637",
+      "pixelSha256": "850ec19e3f0875865141c327305d6db6a5e590ae663c6ddfea4bd81635115afd",
+      "visualDescription": "Tall magenta form with a curved outline and dark center.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1c8b13f84bba26b202d346335fb5bbd5abad3b5b2574a89adba719e21daec637.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/169/frame/0",
+      "sourceSha256": "6c43567779bca8eb30e8d32b2e2717180b419d6c9bf5333832a49f52531bf87a",
+      "pixelSha256": "4c455d08a330e4a0063d90e9764fbd317922100aad98229726d4b0603301b40d",
+      "visualDescription": "Magenta upright form with a pale arm-like extension and a blue-gray circular shape at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6c43567779bca8eb30e8d32b2e2717180b419d6c9bf5333832a49f52531bf87a.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/172/frame/0",
+      "sourceSha256": "f6eb810b2ffd40c47697c5238f0f2e1b6ab33846f37f65e49f5c29304782c950",
+      "pixelSha256": "3dc670fc650b0080e9b1f4fd3992c25e9a3dc66cd1f38dbdcb11001000019bb1",
+      "visualDescription": "Orange-green upright form with a checkered gray-green center and blue-yellow outlined square at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f6eb810b2ffd40c47697c5238f0f2e1b6ab33846f37f65e49f5c29304782c950.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/176/frame/0",
+      "sourceSha256": "9a37158e731ef984e9dc5ba9811be64c47ef424a86dcd2bb0f24e7abbf92ef2c",
+      "pixelSha256": "77f11f1d6e7ee30c4b59ed4758fbd0fbfd70811df1691b51beb7b8cf6c2ab8ab",
+      "visualDescription": "Red-gray upright form with a bright pale diagonal projection and small blue area.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9a37158e731ef984e9dc5ba9811be64c47ef424a86dcd2bb0f24e7abbf92ef2c.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/184/frame/0",
+      "sourceSha256": "56038f8a2b4ee00837767a052d48021df88b55d75bc326ff5d3350e20dedeee1",
+      "pixelSha256": "afb6aef910d8726bf97ba851235d91ff06d4be703a93a9948765cc8092c0252a",
+      "visualDescription": "Large dense red-orange form with angular extensions, pale curved lines, and dark gaps.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/56038f8a2b4ee00837767a052d48021df88b55d75bc326ff5d3350e20dedeee1.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/188/frame/0",
+      "sourceSha256": "43a135d07be3f1702e56ae6e64685714c3cd33a56dd3fa7797ff3b4bcfb56128",
+      "pixelSha256": "1c2c2d2aeae07321defa02b7b3a9414cd33b12284c49c8a8eebea15d47eaac09",
+      "visualDescription": "Compact blue-orange-gray upright form with a blue-yellow outlined square at the right and a pale diagonal line.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/43a135d07be3f1702e56ae6e64685714c3cd33a56dd3fa7797ff3b4bcfb56128.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/189/frame/0",
+      "sourceSha256": "39372b7aca4c2964cccd4862174bf4aaa778f3e024bce8f2f9414fd01915e090",
+      "pixelSha256": "e12955ee22b89328c890bc94e6cd808bd07031682d057a76d389565cc864e226",
+      "visualDescription": "Small orange-green and blue-white upright form with a short pale-yellow line to the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/39372b7aca4c2964cccd4862174bf4aaa778f3e024bce8f2f9414fd01915e090.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/cpic2.daa/block/190/frame/0",
+      "sourceSha256": "f60e63a6082e65c7764993f45ee31c189cf780d5d4be320ac30e519a345723a7",
+      "pixelSha256": "58b015a775280cc045d7017eaf40f1cd499cb1f51d08f7fdd9709ee6a8307c75",
+      "visualDescription": "Orange-brown upright form with a long pale diagonal line extending upward to the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f60e63a6082e65c7764993f45ee31c189cf780d5d4be320ac30e519a345723a7.png",
+          "note": "Manual inspection records visible appearance only; it does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>Greybox Author — Map Editor</title>
+    <style>
+      :root { color-scheme: dark; }
+      body { margin: 0; font-family: system-ui, sans-serif; background: #1a1a1f; color: #ddd; }
+      header { display: flex; align-items: center; gap: 1rem; padding: 0.6rem 1rem; background: #24242c; border-bottom: 1px solid #3a3a44; }
+      header h1 { font-size: 1.05rem; margin: 0; font-weight: 600; }
+      header h1 span { color: #8fb8ff; font-weight: 400; }
+      #layout { display: flex; height: calc(100vh - 48px); }
+      #sidebar { width: 260px; padding: 0.8rem; background: #1e1e24; border-right: 1px solid #3a3a44; overflow-y: auto; }
+      #sidebar h2 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; color: #9a9aa8; margin: 1rem 0 0.4rem; }
+      #sidebar h2:first-child { margin-top: 0; }
+      #main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.6rem; padding: 1rem; }
+      canvas#gb-canvas { width: min(90vw, 800px); aspect-ratio: 320 / 200; image-rendering: pixelated; border: 2px solid #3a3a44; cursor: crosshair; background: #000; }
+      button { background: #2c2c36; color: #ddd; border: 1px solid #45454f; border-radius: 4px; padding: 0.35rem 0.7rem; cursor: pointer; font-size: 0.85rem; }
+      button:hover { background: #34343f; }
+      button.active { background: #3a5a9a; border-color: #5a7ac0; }
+      input[type="number"], input[type="text"] { background: #14141a; color: #ddd; border: 1px solid #45454f; border-radius: 4px; padding: 0.25rem 0.4rem; width: 4.5rem; }
+      .row { display: flex; align-items: center; gap: 0.4rem; margin: 0.3rem 0; flex-wrap: wrap; }
+      .tool-btn { display: block; width: 100%; text-align: left; margin: 0.15rem 0; }
+      #status { font-size: 0.82rem; color: #9a9aa8; min-height: 1.2em; }
+      #validation-summary { font-size: 0.8rem; color: #9a9aa8; margin: 0.35rem 0; }
+      #validation-summary[data-status="valid"] { color: #8fd49a; }
+      #validation-summary[data-status="invalid"] { color: #ff9a9a; }
+      #validation-findings { margin: 0.35rem 0 0; padding-left: 1.2rem; font-size: 0.74rem; }
+      #validation-findings li[data-severity="error"] { color: #ff9a9a; }
+      #validation-findings li[data-severity="warning"] { color: #f2ce79; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Greybox <span>Author — Map Editor</span></h1>
+      <div class="row">
+        <button id="btn-new" type="button">New</button>
+        <input id="module-name" type="text" value="Untitled" title="Module name" style="width:9rem" />
+        <button id="btn-save" type="button">Save</button>
+        <select id="module-select" title="Saved modules" style="width:9rem"></select>
+        <button id="btn-load" type="button">Load</button>
+        <button id="btn-export" type="button">Export</button>
+        <button id="btn-import" type="button">Import</button>
+        <input id="import-file" type="file" accept=".gbmod,application/json" style="display:none" />
+        <button id="btn-playtest" type="button">Playtest</button>
+      </div>
+    </header>
+    <div id="layout">
+      <aside id="sidebar">
+        <div id="edit-tools">
+          <h2>New map</h2>
+          <div class="row">
+            Map <input id="map-name" type="text" value="Untitled" title="Map name" style="width:9rem" />
+          </div>
+          <div class="row">
+            W <input id="new-w" type="number" min="1" max="24" value="6" />
+            H <input id="new-h" type="number" min="1" max="24" value="6" />
+          </div>
+          <h2>Tool</h2>
+          <button class="tool-btn" data-tool="wall-north" type="button">Wall — North edge</button>
+          <button class="tool-btn" data-tool="wall-east" type="button">Wall — East edge</button>
+          <button class="tool-btn" data-tool="wall-south" type="button">Wall — South edge</button>
+          <button class="tool-btn" data-tool="wall-west" type="button">Wall — West edge</button>
+          <button class="tool-btn" data-tool="floor" type="button">Tile — Floor</button>
+          <button class="tool-btn" data-tool="zone" type="button">Zone</button>
+          <button class="tool-btn" data-tool="entry" type="button">Entry point</button>
+          <button class="tool-btn" data-tool="event" type="button">Event link</button>
+          <div class="row">
+            Value <input id="tool-value" type="number" min="0" max="255" value="1" />
+          </div>
+          <div class="row" id="entry-row" style="display:none">
+            Facing
+            <select id="entry-facing">
+              <option value="north">North</option>
+              <option value="east">East</option>
+              <option value="south">South</option>
+              <option value="west">West</option>
+            </select>
+            id <input id="entry-id" type="number" min="0" max="7" value="0" style="width:3rem" />
+          </div>
+          <p style="font-size:0.78rem;color:#8a8a96">Click a cell to apply the selected tool. Right-click a wall tool clears that edge (slot 0). The "Event link" tool uses Value as the event id (0 clears).</p>
+          <h2>Events</h2>
+          <div class="row">
+            <select id="event-template" style="width:100%">
+              <option value="">– insert a type template –</option>
+              <optgroup label="Text (print, then optional chain)">
+                <option value="message">message</option>
+                <option value="giveTreasure">giveTreasure</option>
+                <option value="damage">damage</option>
+                <option value="trainingHall">trainingHall</option>
+                <option value="tavern">tavern</option>
+                <option value="shop">shop</option>
+                <option value="temple">temple</option>
+                <option value="guidedTour">guidedTour</option>
+                <option value="addNpc">addNpc</option>
+                <option value="npcSays">npcSays</option>
+                <option value="sounds">sounds</option>
+                <option value="smallTown">smallTown</option>
+                <option value="vault">vault</option>
+                <option value="combatTreasure">combatTreasure</option>
+                <option value="gainExperience">gainExperience</option>
+                <option value="passTime">passTime</option>
+                <option value="camp">camp</option>
+                <option value="removeNpc">removeNpc</option>
+                <option value="tavernTales">tavernTales</option>
+                <option value="specialItems">specialItems</option>
+              </optgroup>
+              <optgroup label="Choice (prompt + numbered options)">
+                <option value="stairs">stairs</option>
+                <option value="questionButton">questionButton</option>
+                <option value="transferModule">transferModule</option>
+                <option value="whoTries">whoTries</option>
+                <option value="whoPays">whoPays</option>
+                <option value="enterPassword">enterPassword</option>
+                <option value="questionList">questionList</option>
+                <option value="teleporter">teleporter</option>
+                <option value="questStage">questStage</option>
+                <option value="questionYesNo">questionYesNo</option>
+                <option value="encounter">encounter</option>
+              </optgroup>
+              <optgroup label="Combat (outcome-branching fight)">
+                <option value="combat">combat</option>
+                <option value="pickOneCombat">pickOneCombat</option>
+              </optgroup>
+              <optgroup label="Scripting">
+                <option value="utilities">utilities</option>
+                <option value="chain">chain</option>
+              </optgroup>
+            </select>
+          </div>
+          <textarea id="event-json" rows="7" spellcheck="false" style="width:100%;box-sizing:border-box;background:#14141a;color:#ddd;border:1px solid #45454f;border-radius:4px;font-family:monospace;font-size:0.76rem;padding:0.3rem"></textarea>
+          <div class="row">
+            <button id="btn-event-upsert" type="button">Add / Update Event</button>
+          </div>
+          <div id="event-list" style="font-size:0.78rem;color:#9a9aa8;max-height:8rem;overflow-y:auto"></div>
+          <h2>Database</h2>
+          <div class="row">
+            <select id="db-category" style="width:100%">
+              <option value="monsters">Monsters</option>
+              <option value="items">Items</option>
+              <option value="spells">Spells</option>
+              <option value="classes">Classes</option>
+              <option value="races">Races</option>
+            </select>
+            <button id="btn-db-template" type="button">Template</button>
+          </div>
+          <textarea id="db-json" rows="6" spellcheck="false" style="width:100%;box-sizing:border-box;background:#14141a;color:#ddd;border:1px solid #45454f;border-radius:4px;font-family:monospace;font-size:0.76rem;padding:0.3rem"></textarea>
+          <div class="row">
+            <button id="btn-db-upsert" type="button">Add / Update</button>
+          </div>
+          <div id="db-list" style="font-size:0.78rem;color:#9a9aa8;max-height:8rem;overflow-y:auto"></div>
+          <h2>Ruleset</h2>
+          <div class="row">
+            <select id="ruleset-select" style="width:100%"></select>
+          </div>
+          <textarea id="ruleset-json" rows="5" spellcheck="false" placeholder='Optional custom ruleset JSON — {"id","name","classes":{"fighter":{"xp":[...],"perLevel":n,"hitDie":n,"thac0":[...]}}}' style="width:100%;box-sizing:border-box;background:#14141a;color:#ddd;border:1px solid #45454f;border-radius:4px;font-family:monospace;font-size:0.76rem;padding:0.3rem"></textarea>
+          <div class="row">
+            <button id="btn-ruleset-register" type="button">Register custom ruleset</button>
+          </div>
+          <h2>Validation</h2>
+          <label class="row" style="font-size:0.78rem">
+            <input id="validate-complete-campaign" type="checkbox" />
+            Require complete one-map campaign
+          </label>
+          <div class="row">
+            <button id="btn-validate" type="button">Validate package</button>
+          </div>
+          <div id="validation-summary" aria-live="polite">Not validated.</div>
+          <ul id="validation-findings"></ul>
+        </div>
+        <div id="playtest-tools" style="display:none">
+          <h2>Playtest</h2>
+          <div class="row">
+            <button id="pt-left" type="button">⟲ Left</button>
+            <button id="pt-forward" type="button">▲ Forward</button>
+            <button id="pt-right" type="button">⟳ Right</button>
+          </div>
+          <div class="row">
+            <button id="pt-back" type="button">▼ Back</button>
+          </div>
+          <p style="font-size:0.78rem;color:#8a8a96">Arrow keys also work. Left/Right turn in place, Up walks forward, Down walks back.</p>
+          <div id="event-fire-tools" style="display:none">
+            <h2>Event</h2>
+            <div id="event-fire-text" style="font-size:0.8rem;white-space:pre-wrap;color:#ddd;margin-bottom:0.4rem"></div>
+            <div class="row" id="event-fire-choice" style="display:none">
+              Answer <input id="ev-answer" type="number" min="1" max="9" value="1" style="width:3rem" />
+              <button id="ev-answer-btn" type="button">Answer</button>
+            </div>
+            <div id="event-fire-monsters" style="font-size:0.78rem;color:#9a9aa8;margin-bottom:0.3rem"></div>
+            <div class="row" id="event-fire-combat" style="display:none">
+              <button id="ev-victory" type="button">Victory</button>
+              <button id="ev-defeat" type="button">Defeat</button>
+              <button id="ev-flee" type="button">Flee</button>
+            </div>
+          </div>
+        </div>
+        <div id="status"></div>
+      </aside>
+      <main id="main">
+        <canvas id="gb-canvas" width="320" height="200"></canvas>
+        <div id="art-panel" style="display:none">
+          <div id="art-label" style="font-size:0.8rem;color:#9a9aa8;margin-bottom:0.3rem"></div>
+          <canvas id="art-canvas" style="max-width:min(90vw, 800px);image-rendering:pixelated;border:2px solid #3a3a44;background:#000"></canvas>
+          <div class="row" style="justify-content:center;margin-top:0.3rem">
+            <button id="art-prev" type="button">◀ Prev</button>
+            <button id="art-next" type="button">Next ▶</button>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

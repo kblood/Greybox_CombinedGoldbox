@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dionysus.dk/schemas/cok-graphics-alias-registry-review-v1.schema.json",
+  "title": "CoK Restyle alias registry compatibility review",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema", "status", "inputs", "counts", "semanticProjectionSha256",
+    "updatedSidecarSha256", "differences", "nullEntryIndexPromotions", "limitations"
+  ],
+  "properties": {
+    "schema": { "const": "cok-graphics-alias-registry-review-v1" },
+    "status": { "enum": ["exactly-compatible", "reviewed-null-entry-index-correction", "reviewed-entry-index-hash-correction", "reviewed-frame-index-hash-correction", "reviewed-block-index-hash-correction", "reviewed-amiga-comspr-hash-correction", "reviewed-exact-curated-face-links"] },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["priorSidecarSha256", "priorRegistrySha256", "currentRegistrySha256", "inventorySha256", "curatedManifestSha256", "runtimeComparisonSha256"],
+      "properties": {
+        "priorSidecarSha256": { "$ref": "#/$defs/hash" },
+        "priorRegistrySha256": { "$ref": "#/$defs/hash" },
+        "currentRegistrySha256": { "$ref": "#/$defs/hash" },
+        "inventorySha256": { "$ref": "#/$defs/hash" },
+        "curatedManifestSha256": { "$ref": "#/$defs/hash" },
+        "runtimeComparisonSha256": { "$ref": "#/$defs/hash" }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["generatedAliasesBefore", "generatedAliasesAfter", "externalAliasesBefore", "externalAliasesAfter", "boundAliasesAfter", "boundAliasesWithLocatorArchiveSourceOutputAndCardEvidence", "unresolvedAliasesRetained", "aliasCandidateSetsUnchanged", "curatedCardsBefore", "curatedCardsAfter", "curatedSourceLinksAfter", "curatedMultiSourceCardsAfter", "curatedUnresolvedCardsRetained", "inventoryPngFilesExpected", "inventoryPngFilesVerified", "inventoryPngFilesMissing", "inventoryPngFilesHashMismatch", "semanticDifferences", "nullEntryIndexPromotions"],
+      "properties": {
+        "generatedAliasesBefore": { "const": 6151 },
+        "generatedAliasesAfter": { "const": 6151 },
+        "externalAliasesBefore": { "const": 1 },
+        "externalAliasesAfter": { "const": 1 },
+        "boundAliasesAfter": { "type": "integer", "minimum": 0 },
+        "boundAliasesWithLocatorArchiveSourceOutputAndCardEvidence": { "type": "integer", "minimum": 0 },
+        "unresolvedAliasesRetained": { "type": "integer", "minimum": 0 },
+        "aliasCandidateSetsUnchanged": { "type": "integer", "minimum": 0 },
+        "curatedCardsBefore": { "const": 27 },
+        "curatedCardsAfter": { "const": 27 },
+        "curatedSourceLinksAfter": { "type": "integer", "minimum": 0 },
+        "curatedMultiSourceCardsAfter": { "type": "integer", "minimum": 0 },
+        "curatedUnresolvedCardsRetained": { "type": "integer", "minimum": 0 },
+        "inventoryPngFilesExpected": { "const": 4840 },
+        "inventoryPngFilesVerified": { "type": "integer", "minimum": 0 },
+        "inventoryPngFilesMissing": { "type": "integer", "minimum": 0 },
+        "inventoryPngFilesHashMismatch": { "type": "integer", "minimum": 0 },
+        "semanticDifferences": { "type": "integer", "minimum": 0 },
+        "nullEntryIndexPromotions": { "type": "integer", "minimum": 0 },
+        "entryIndexHashPromotions": { "type": "integer", "minimum": 0 },
+        "frameIndexHashPromotions": { "type": "integer", "minimum": 0 },
+        "blockIndexHashPromotions": { "type": "integer", "minimum": 0 },
+        "blockIndexCandidateRowsDisclosed": { "type": "integer", "minimum": 0 },
+        "amigaComsprHashPromotions": { "type": "integer", "minimum": 0 },
+        "amigaComsprCandidateRowsDisclosed": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "semanticProjectionSha256": { "$ref": "#/$defs/hash" },
+    "updatedSidecarSha256": { "$ref": "#/$defs/hash" },
+    "differences": { "type": "array" },
+    "nullEntryIndexPromotions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "entryIndexHashPromotions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "frameIndexHashPromotions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "blockIndexHashPromotions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "blockIndexCandidateRowsDisclosed": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "reviewedCuratedFaceLinks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["cardId", "sourceSha256", "outputSha256", "sourceAssetIds"],
+        "properties": {
+          "cardId": { "enum": ["face_cok_amiga_068", "face_cok_amiga_069", "face_cok_dos_068", "face_cok_dos_069"] },
+          "sourceSha256": { "$ref": "#/$defs/hash" },
+          "outputSha256": { "$ref": "#/$defs/hash" },
+          "sourceAssetIds": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "string", "minLength": 1 } }
+        }
+      }
+    },
+    "amigaComsprHashPromotions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "amigaComsprCandidateRowsDisclosed": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "amigaComsprArchivePin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "sha256", "actualSha256", "scope"],
+      "properties": {
+        "name": { "const": "comspr.daa" },
+        "sha256": { "$ref": "#/$defs/hash" },
+        "actualSha256": { "$ref": "#/$defs/hash" },
+        "scope": { "const": "hash-pinned local candidate/fixture copy only; independent retail/WHDLoad provenance is not established" }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 7,
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "exactly-compatible" } }, "required": ["status"] },
+      "then": {
+        "properties": {
+          "counts": { "type": "object", "properties": { "semanticDifferences": { "const": 0 }, "nullEntryIndexPromotions": { "const": 0 }, "frameIndexHashPromotions": { "const": 0 }, "blockIndexHashPromotions": { "const": 0 } } },
+          "differences": { "type": "array", "maxItems": 0 },
+          "nullEntryIndexPromotions": { "type": "array", "maxItems": 0 },
+          "frameIndexHashPromotions": { "type": "array", "maxItems": 0 },
+          "blockIndexHashPromotions": { "type": "array", "maxItems": 0 }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "status": { "const": "reviewed-null-entry-index-correction" } }, "required": ["status"] },
+      "then": {
+        "properties": {
+          "counts": {
+            "type": "object",
+            "properties": {
+              "boundAliasesAfter": { "const": 5160 },
+              "unresolvedAliasesRetained": { "const": 992 },
+              "aliasCandidateSetsUnchanged": { "const": 4553 },
+              "semanticDifferences": { "const": 1599 },
+              "nullEntryIndexPromotions": { "const": 1599 },
+              "frameIndexHashPromotions": { "const": 0 },
+              "blockIndexHashPromotions": { "const": 0 }
+            }
+          },
+          "differences": { "type": "array", "minItems": 1599, "maxItems": 1599 },
+          "nullEntryIndexPromotions": { "type": "array", "minItems": 1599, "maxItems": 1599 },
+          "frameIndexHashPromotions": { "type": "array", "maxItems": 0 },
+          "blockIndexHashPromotions": { "type": "array", "maxItems": 0 }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "status": { "const": "reviewed-entry-index-hash-correction" } }, "required": ["status"] },
+      "then": {
+        "required": ["entryIndexHashPromotions"],
+        "properties": {
+          "counts": {
+            "type": "object",
+            "required": ["entryIndexHashPromotions"],
+            "properties": {
+              "boundAliasesAfter": { "const": 5802 },
+              "unresolvedAliasesRetained": { "const": 350 },
+              "aliasCandidateSetsUnchanged": { "const": 6140 },
+              "semanticDifferences": { "const": 12 },
+              "nullEntryIndexPromotions": { "const": 0 },
+              "entryIndexHashPromotions": { "const": 12 },
+              "frameIndexHashPromotions": { "const": 0 },
+              "blockIndexHashPromotions": { "const": 0 }
+            }
+          },
+          "differences": { "type": "array", "minItems": 12, "maxItems": 12 },
+          "entryIndexHashPromotions": { "type": "array", "minItems": 12, "maxItems": 12 }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "status": { "const": "reviewed-frame-index-hash-correction" } }, "required": ["status"] },
+      "then": {
+        "required": ["frameIndexHashPromotions"],
+        "properties": {
+          "counts": {
+            "type": "object",
+            "required": ["frameIndexHashPromotions"],
+            "properties": {
+              "boundAliasesAfter": { "const": 5548 },
+              "unresolvedAliasesRetained": { "const": 604 },
+              "aliasCandidateSetsUnchanged": { "const": 5764 },
+              "semanticDifferences": { "const": 388 },
+              "nullEntryIndexPromotions": { "const": 0 },
+              "frameIndexHashPromotions": { "const": 388 },
+              "blockIndexHashPromotions": { "const": 0 }
+            }
+          },
+          "differences": { "type": "array", "minItems": 388, "maxItems": 388 },
+          "nullEntryIndexPromotions": { "type": "array", "maxItems": 0 },
+          "frameIndexHashPromotions": { "type": "array", "minItems": 388, "maxItems": 388 },
+          "blockIndexHashPromotions": { "type": "array", "maxItems": 0 }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "status": { "const": "reviewed-block-index-hash-correction" } }, "required": ["status"] },
+      "then": {
+        "required": ["blockIndexHashPromotions"],
+        "properties": {
+          "counts": {
+            "type": "object",
+            "required": ["blockIndexHashPromotions", "blockIndexCandidateRowsDisclosed"],
+            "properties": {
+              "boundAliasesAfter": { "const": 5730 },
+              "unresolvedAliasesRetained": { "const": 422 },
+              "aliasCandidateSetsUnchanged": { "const": 5919 },
+              "semanticDifferences": { "const": 233 },
+              "nullEntryIndexPromotions": { "const": 0 },
+              "frameIndexHashPromotions": { "const": 0 },
+              "blockIndexHashPromotions": { "const": 182 },
+              "blockIndexCandidateRowsDisclosed": { "const": 51 }
+            }
+          },
+          "differences": { "type": "array", "minItems": 233, "maxItems": 233 },
+          "nullEntryIndexPromotions": { "type": "array", "maxItems": 0 },
+          "frameIndexHashPromotions": { "type": "array", "maxItems": 0 },
+          "blockIndexHashPromotions": { "type": "array", "minItems": 182, "maxItems": 182 },
+          "blockIndexCandidateRowsDisclosed": { "type": "array", "minItems": 51, "maxItems": 51 }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "status": { "const": "reviewed-amiga-comspr-hash-correction" } }, "required": ["status"] },
+      "then": {
+        "required": ["amigaComsprHashPromotions", "amigaComsprCandidateRowsDisclosed", "amigaComsprArchivePin"],
+        "properties": {
+          "counts": {
+            "type": "object",
+            "required": ["amigaComsprHashPromotions", "amigaComsprCandidateRowsDisclosed"],
+            "properties": {
+              "boundAliasesAfter": { "const": 5790 },
+              "unresolvedAliasesRetained": { "const": 362 },
+              "aliasCandidateSetsUnchanged": { "const": 6088 },
+              "semanticDifferences": { "const": 64 },
+              "nullEntryIndexPromotions": { "const": 0 },
+              "frameIndexHashPromotions": { "const": 0 },
+              "blockIndexHashPromotions": { "const": 0 },
+              "blockIndexCandidateRowsDisclosed": { "const": 0 },
+              "amigaComsprHashPromotions": { "const": 60 },
+              "amigaComsprCandidateRowsDisclosed": { "const": 4 }
+            }
+          },
+          "differences": { "type": "array", "minItems": 64, "maxItems": 64 },
+          "nullEntryIndexPromotions": { "type": "array", "maxItems": 0 },
+          "frameIndexHashPromotions": { "type": "array", "maxItems": 0 },
+          "blockIndexHashPromotions": { "type": "array", "maxItems": 0 },
+          "blockIndexCandidateRowsDisclosed": { "type": "array", "maxItems": 0 },
+          "amigaComsprHashPromotions": { "type": "array", "minItems": 60, "maxItems": 60 },
+          "amigaComsprCandidateRowsDisclosed": { "type": "array", "minItems": 4, "maxItems": 4 },
+          "amigaComsprArchivePin": { "type": "object", "properties": { "sha256": { "$ref": "#/$defs/hash" }, "actualSha256": { "$ref": "#/$defs/hash" } } }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "status": { "const": "reviewed-exact-curated-face-links" } }, "required": ["status"] },
+      "then": {
+        "required": ["reviewedCuratedFaceLinks"],
+        "properties": {
+          "counts": { "type": "object", "required": ["curatedSourceLinksAfter", "curatedUnresolvedCardsRetained"],
+            "properties": { "semanticDifferences": { "const": 4 }, "curatedSourceLinksAfter": { "const": 39 }, "curatedUnresolvedCardsRetained": { "const": 0 } } },
+          "differences": { "type": "array", "minItems": 4, "maxItems": 4 },
+          "reviewedCuratedFaceLinks": { "const": [
+            { "cardId": "face_cok_amiga_068", "sourceSha256": "1c4be53cba24d24f6eef5185598b0cdaa78e665130c4b92dc9d8053f07c07a35", "outputSha256": "a046392a8ee9fb2a6f2ec2e9f5b6b213bc94f13bccee9003050e9fca9acc337e", "sourceAssetIds": ["cok/amiga/disk2/head1.daa/block/68/frame/0", "cok/amiga/disk3/head2.daa/block/68/frame/0"] },
+            { "cardId": "face_cok_amiga_069", "sourceSha256": "379a7f5870da6bef99aa3b0b61df4900911e9c7e8d3c0d0168bc1b909aa02fa3", "outputSha256": "03cecaea9147c02ecd262e354786eaaa60ba73f807320f6540ff704f6f2823b6", "sourceAssetIds": ["cok/amiga/disk2/head1.daa/block/69/frame/0", "cok/amiga/disk3/head2.daa/block/69/frame/0"] },
+            { "cardId": "face_cok_dos_068", "sourceSha256": "9b5a2eb68ed79bfff2e51544f4256358022260370768b2ae83a4980dd7a02c3f", "outputSha256": "e09b9e0669b31d564cb62057eca1cd142a67e61640bbd5d2fa5cefc054b0372b", "sourceAssetIds": ["cok/dos-ega/disk1/head2.dax/block/68/frame/0", "cok/dos-ega/disk1/head3.dax/block/68/frame/0"] },
+            { "cardId": "face_cok_dos_069", "sourceSha256": "bbc1a2ee865060ad4add766989154258aa14b365e84c01e242ec237fe03b2942", "outputSha256": "4a4b55bad8e5bb95436576a0da08032b4c7b4b4350c86a0e35785c3e0988a71d", "sourceAssetIds": ["cok/dos-ega/disk1/head2.dax/block/69/frame/0", "cok/dos-ega/disk1/head3.dax/block/69/frame/0"] }
+          ] }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  }
+}

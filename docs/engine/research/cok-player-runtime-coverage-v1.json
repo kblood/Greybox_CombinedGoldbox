@@ -1,0 +1,1316 @@
+{
+  "schema": "cok-player-runtime-coverage-v1",
+  "evidenceScope": "source-only static coverage; not browser/runtime observation",
+  "inputs": {
+    "contractSha256": "74b8b101cb3b115bf5196a5453b8c5d2602b0c4bf8efe61c1cf5362a4d6f5fb8",
+    "manifestSha256": "3dad37bc789586ddff083a50a2814339141ccc1692290986ac96ac0c5ceb1bb2",
+    "registrySha256": "ccdff503a645f8e63c02f0f4f4abd194b376d78f70ee77793616473cfafa2e1a",
+    "inventorySnapshotSha256": "d5fc9c9a49680f9a7825c2394126887a315105d4cf2686622706fbf30c8669c9",
+    "restyleAdmissionPolicySha256": "4910545fed3de4b3b5726b98ec4e1766314af7535adf17489f81872dd8f7898d",
+    "restyleAdmissionResolverSha256": "15273deaf4574be5607d575e794dba586f86809910580e11c1eb73695ce4cd52",
+    "playerPackageBuilderSha256": "04703eef3111581c5db051178566fb02525b1042152ca10b1f68bc963d40f744"
+  },
+  "counts": {
+    "appearanceSets": 4,
+    "acceptedTuples": 6,
+    "componentRows": 16,
+    "distinctPackageIdentities": 24,
+    "distinctSourceOutputPairs": 10,
+    "manifestDeclaredComponents": 16,
+    "staticConsumerBindings": 32,
+    "runtimeObservedComponents": 0,
+    "restyleAdmittedFrames": 4,
+    "restyleHeldFrames": 4,
+    "inventoryApprovedComponents": 12,
+    "inventoryUnapprovedComponents": 4,
+    "componentsWithIssues": 4,
+    "componentPackageSlotsMissing": 24,
+    "componentPackageSlotsHashMismatch": 0,
+    "runtimePackagePlanPaths": 20,
+    "runtimePackageSourceFilesPresent": 5,
+    "runtimePackageSourceFilesMissing": 15,
+    "runtimePackageSourceFilesHashMismatch": 0,
+    "heldRestyleOutputPaths": 4,
+    "heldRestylePathsPresentInPublicSource": 1
+  },
+  "runtimePackageAudit": {
+    "sourceRoot": "apps/web/public/restyle/cok/player",
+    "plan": [
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/original/CHEAD_069.png",
+        "expectedSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+        "actualSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+        "sourceStatus": "hash-match"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/restyle/CHEAD_069_restyle.png",
+        "expectedSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+        "actualSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+        "sourceStatus": "hash-match"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/original/CBODY_088.png",
+        "expectedSha256": "07e69dd5cf87087898e3837ca7f3ace9080d9e6fed91c66951b518021f9a410a",
+        "actualSha256": "07e69dd5cf87087898e3837ca7f3ace9080d9e6fed91c66951b518021f9a410a",
+        "sourceStatus": "hash-match"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/restyle/CBODY_088_restyle.png",
+        "expectedSha256": "b819130b866725f73cd0071906be9ca4edf1d7b8ee48a4f788f54f412c270eee",
+        "actualSha256": "b819130b866725f73cd0071906be9ca4edf1d7b8ee48a4f788f54f412c270eee",
+        "sourceStatus": "hash-match"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/original/CBODY_216.png",
+        "expectedSha256": "adc42c056a6075ae2727562014ba5dc2228246d3b055f9b19a7f7fa96b81d41c",
+        "actualSha256": "adc42c056a6075ae2727562014ba5dc2228246d3b055f9b19a7f7fa96b81d41c",
+        "sourceStatus": "hash-match"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/original/CHEAD_069.png",
+        "expectedSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/restyle/CHEAD_069_restyle.png",
+        "expectedSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/original/CBODY_065.png",
+        "expectedSha256": "c79ff1f218a7d80690fb14bdce34ef4c1d7202146a8038786b432e5167309266",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/restyle/CBODY_065_restyle.png",
+        "expectedSha256": "c986665ea500826b1002a8f9beaaf2f91013f782fe4d0207f09f3d0ad843b3e5",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/original/CBODY_193.png",
+        "expectedSha256": "338251eccaca81648753070dcc736f0b72fda83ef4ff65bece5868b88617d895",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/original/CHEAD_069.png",
+        "expectedSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/restyle/CHEAD_069_restyle.png",
+        "expectedSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/original/CBODY_087.png",
+        "expectedSha256": "ae94d19f0935bb164ebbcd70d1c4f179eb2996ae17a0190e5303ff59cff753eb",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/restyle/CBODY_087_restyle.png",
+        "expectedSha256": "908c6dcd4a1a5d45b6c9c437ee1398b7f1f4b7d7d2af7cb191cd0b95362034d1",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/original/CBODY_215.png",
+        "expectedSha256": "48d6d23361ca50a31fd0815b2c7e130529f67db3dd29904c8c2068744cb01d9d",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/original/CHEAD_003.png",
+        "expectedSha256": "ab031b8015abbcfec43773f03a47e83843cfa4dccac75bd623ef1f1df3433085",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/restyle/CHEAD_003_restyle.png",
+        "expectedSha256": "7c0f812b146a2e11c755857d20e432702fdc2da91406313f2c1beafc46593f86",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/original/CBODY_011.png",
+        "expectedSha256": "47593d8a7798860cfe07462438850e7874424ea568df80c4bd0748b451850ebc",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/restyle/CBODY_011_restyle.png",
+        "expectedSha256": "2625d2d97390c01e5c3bb80b3c11072bb48ab2b5127b68f2f7bec5f07b14876f",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/original/CBODY_139.png",
+        "expectedSha256": "b475e75316699a2742f884329d2b609c6fd1337979f1759ba5c33d693b1a454c",
+        "actualSha256": null,
+        "sourceStatus": "missing"
+      }
+    ],
+    "heldRestylePaths": [
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/restyle/CBODY_216_restyle.png",
+        "sourceStatus": "present",
+        "buildOutputPolicy": "removed-if-present-by-player-package-builder"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/restyle/CBODY_193_restyle.png",
+        "sourceStatus": "missing",
+        "buildOutputPolicy": "removed-if-present-by-player-package-builder"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/restyle/CBODY_215_restyle.png",
+        "sourceStatus": "missing",
+        "buildOutputPolicy": "removed-if-present-by-player-package-builder"
+      },
+      {
+        "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/restyle/CBODY_139_restyle.png",
+        "sourceStatus": "missing",
+        "buildOutputPolicy": "removed-if-present-by-player-package-builder"
+      }
+    ],
+    "scope": "public source-tree copy audit; no build output or runtime observation"
+  },
+  "components": [
+    {
+      "appearanceId": "cok-player-05-18-00-02",
+      "variantIndex": 0,
+      "role": "head",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/chead.dax/block/69/frame/0",
+        "sourceAddressable": true,
+        "archive": "CHEAD.DAX",
+        "archiveSha256": "8e61d8cf23b7094353425224f02be4423b880c5e8a7e168d478ec851bfaea568",
+        "blockId": 69,
+        "sourceSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+        "nativeSize": [
+          24,
+          8
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/original/CHEAD_069.png",
+          "status": "hash-match",
+          "expectedSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+          "actualSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef"
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/restyle/CHEAD_069_restyle.png",
+          "status": "hash-match",
+          "expectedSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+          "actualSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398"
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "character-sheet",
+          "presentation": "character-sheet",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "combat-party-icon",
+          "presentation": "combat-party-icon",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "admitted",
+        "reason": "existing-primary-runtime-mapping"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-0697-45977280ace5",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-05-01-01-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-17-04-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-18-00-02 head; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-05-18-00-02",
+      "variantIndex": 0,
+      "role": "body",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/cbody.dax/block/88/frame/0",
+        "sourceAddressable": true,
+        "archive": "CBODY.DAX",
+        "archiveSha256": "0c93206b020e30eecc1f761a9408b5befc20113fde18a8b401ae2ddad2c103bd",
+        "blockId": 88,
+        "sourceSha256": "07e69dd5cf87087898e3837ca7f3ace9080d9e6fed91c66951b518021f9a410a",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "b819130b866725f73cd0071906be9ca4edf1d7b8ee48a4f788f54f412c270eee",
+        "nativeSize": [
+          24,
+          24
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/original/CBODY_088.png",
+          "status": "hash-match",
+          "expectedSha256": "07e69dd5cf87087898e3837ca7f3ace9080d9e6fed91c66951b518021f9a410a",
+          "actualSha256": "07e69dd5cf87087898e3837ca7f3ace9080d9e6fed91c66951b518021f9a410a"
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/restyle/CBODY_088_restyle.png",
+          "status": "hash-match",
+          "expectedSha256": "b819130b866725f73cd0071906be9ca4edf1d7b8ee48a4f788f54f412c270eee",
+          "actualSha256": "b819130b866725f73cd0071906be9ca4edf1d7b8ee48a4f788f54f412c270eee"
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "character-sheet",
+          "presentation": "character-sheet",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "combat-party-icon",
+          "presentation": "combat-party-icon",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "admitted",
+        "reason": "existing-primary-runtime-mapping"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-2315-eb2ac722ab79",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-05-18-00-02 body frame 0; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-05-18-00-02",
+      "variantIndex": 1,
+      "role": "head",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/chead.dax/block/197/frame/0",
+        "sourceAddressable": true,
+        "archive": "CHEAD.DAX",
+        "archiveSha256": "8e61d8cf23b7094353425224f02be4423b880c5e8a7e168d478ec851bfaea568",
+        "blockId": 197,
+        "sourceSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+        "nativeSize": [
+          24,
+          8
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/original/CHEAD_069.png",
+          "status": "hash-match",
+          "expectedSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+          "actualSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef"
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/restyle/CHEAD_069_restyle.png",
+          "status": "hash-match",
+          "expectedSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+          "actualSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398"
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "held",
+        "reason": "awaiting-prompt-and-composition-review"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-0697-45977280ace5",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-05-01-01-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-17-04-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-18-00-02 head; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-05-18-00-02",
+      "variantIndex": 1,
+      "role": "body",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/cbody.dax/block/216/frame/0",
+        "sourceAddressable": true,
+        "archive": "CBODY.DAX",
+        "archiveSha256": "0c93206b020e30eecc1f761a9408b5befc20113fde18a8b401ae2ddad2c103bd",
+        "blockId": 216,
+        "sourceSha256": "adc42c056a6075ae2727562014ba5dc2228246d3b055f9b19a7f7fa96b81d41c",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "64c94f5ca054050b95611c2c6524eb3d6cfa4b83f45bd70dd200f915aa2681dc",
+        "nativeSize": [
+          24,
+          24
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/original/CBODY_216.png",
+          "status": "hash-match",
+          "expectedSha256": "adc42c056a6075ae2727562014ba5dc2228246d3b055f9b19a7f7fa96b81d41c",
+          "actualSha256": "adc42c056a6075ae2727562014ba5dc2228246d3b055f9b19a7f7fa96b81d41c"
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-18-00-02/restyle/CBODY_216_restyle.png",
+          "status": "hash-match",
+          "expectedSha256": "64c94f5ca054050b95611c2c6524eb3d6cfa4b83f45bd70dd200f915aa2681dc",
+          "actualSha256": "64c94f5ca054050b95611c2c6524eb3d6cfa4b83f45bd70dd200f915aa2681dc"
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "held",
+        "reason": "awaiting-prompt-and-composition-review"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-0914-5aed79625ff6",
+        "runtimeApproved": false,
+        "runtimeApprovalEvidence": [],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": [
+        {
+          "code": "consumer-scope-exceeds-inventory-approval-scope",
+          "consumers": [
+            "creator-preview"
+          ]
+        }
+      ]
+    },
+    {
+      "appearanceId": "cok-player-05-01-01-02",
+      "variantIndex": 0,
+      "role": "head",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/chead.dax/block/69/frame/0",
+        "sourceAddressable": true,
+        "archive": "CHEAD.DAX",
+        "archiveSha256": "8e61d8cf23b7094353425224f02be4423b880c5e8a7e168d478ec851bfaea568",
+        "blockId": 69,
+        "sourceSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+        "nativeSize": [
+          24,
+          8
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/original/CHEAD_069.png",
+          "status": "missing",
+          "expectedSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/restyle/CHEAD_069_restyle.png",
+          "status": "missing",
+          "expectedSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "character-sheet",
+          "presentation": "character-sheet",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "combat-party-icon",
+          "presentation": "combat-party-icon",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "admitted",
+        "reason": "existing-primary-runtime-mapping"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-0697-45977280ace5",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-05-01-01-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-17-04-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-18-00-02 head; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-05-01-01-02",
+      "variantIndex": 0,
+      "role": "body",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/cbody.dax/block/65/frame/0",
+        "sourceAddressable": true,
+        "archive": "CBODY.DAX",
+        "archiveSha256": "0c93206b020e30eecc1f761a9408b5befc20113fde18a8b401ae2ddad2c103bd",
+        "blockId": 65,
+        "sourceSha256": "c79ff1f218a7d80690fb14bdce34ef4c1d7202146a8038786b432e5167309266",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "c986665ea500826b1002a8f9beaaf2f91013f782fe4d0207f09f3d0ad843b3e5",
+        "nativeSize": [
+          24,
+          24
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/original/CBODY_065.png",
+          "status": "missing",
+          "expectedSha256": "c79ff1f218a7d80690fb14bdce34ef4c1d7202146a8038786b432e5167309266",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/restyle/CBODY_065_restyle.png",
+          "status": "missing",
+          "expectedSha256": "c986665ea500826b1002a8f9beaaf2f91013f782fe4d0207f09f3d0ad843b3e5",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "character-sheet",
+          "presentation": "character-sheet",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "combat-party-icon",
+          "presentation": "combat-party-icon",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "admitted",
+        "reason": "existing-primary-runtime-mapping"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-2259-e554064b4484",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-05-01-01-02 body frame 0; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-05-01-01-02",
+      "variantIndex": 1,
+      "role": "head",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/chead.dax/block/197/frame/0",
+        "sourceAddressable": true,
+        "archive": "CHEAD.DAX",
+        "archiveSha256": "8e61d8cf23b7094353425224f02be4423b880c5e8a7e168d478ec851bfaea568",
+        "blockId": 197,
+        "sourceSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+        "nativeSize": [
+          24,
+          8
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/original/CHEAD_069.png",
+          "status": "missing",
+          "expectedSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/restyle/CHEAD_069_restyle.png",
+          "status": "missing",
+          "expectedSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "held",
+        "reason": "awaiting-prompt-and-composition-review"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-0697-45977280ace5",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-05-01-01-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-17-04-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-18-00-02 head; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-05-01-01-02",
+      "variantIndex": 1,
+      "role": "body",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/cbody.dax/block/193/frame/0",
+        "sourceAddressable": true,
+        "archive": "CBODY.DAX",
+        "archiveSha256": "0c93206b020e30eecc1f761a9408b5befc20113fde18a8b401ae2ddad2c103bd",
+        "blockId": 193,
+        "sourceSha256": "338251eccaca81648753070dcc736f0b72fda83ef4ff65bece5868b88617d895",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "9cf76ca3f8b8e7394f21448f726a8f446265c9f0df8a04a3ac7fb3f176ad207d",
+        "nativeSize": [
+          24,
+          24
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/original/CBODY_193.png",
+          "status": "missing",
+          "expectedSha256": "338251eccaca81648753070dcc736f0b72fda83ef4ff65bece5868b88617d895",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-01-01-02/restyle/CBODY_193_restyle.png",
+          "status": "missing",
+          "expectedSha256": "9cf76ca3f8b8e7394f21448f726a8f446265c9f0df8a04a3ac7fb3f176ad207d",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "held",
+        "reason": "awaiting-prompt-and-composition-review"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-2040-cec9c16e84e0",
+        "runtimeApproved": false,
+        "runtimeApprovalEvidence": [],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": [
+        {
+          "code": "consumer-scope-exceeds-inventory-approval-scope",
+          "consumers": [
+            "creator-preview"
+          ]
+        }
+      ]
+    },
+    {
+      "appearanceId": "cok-player-05-17-04-02",
+      "variantIndex": 0,
+      "role": "head",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/chead.dax/block/69/frame/0",
+        "sourceAddressable": true,
+        "archive": "CHEAD.DAX",
+        "archiveSha256": "8e61d8cf23b7094353425224f02be4423b880c5e8a7e168d478ec851bfaea568",
+        "blockId": 69,
+        "sourceSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+        "nativeSize": [
+          24,
+          8
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/original/CHEAD_069.png",
+          "status": "missing",
+          "expectedSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/restyle/CHEAD_069_restyle.png",
+          "status": "missing",
+          "expectedSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "character-sheet",
+          "presentation": "character-sheet",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "combat-party-icon",
+          "presentation": "combat-party-icon",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "admitted",
+        "reason": "existing-primary-runtime-mapping"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-0697-45977280ace5",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-05-01-01-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-17-04-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-18-00-02 head; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-05-17-04-02",
+      "variantIndex": 0,
+      "role": "body",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/cbody.dax/block/87/frame/0",
+        "sourceAddressable": true,
+        "archive": "CBODY.DAX",
+        "archiveSha256": "0c93206b020e30eecc1f761a9408b5befc20113fde18a8b401ae2ddad2c103bd",
+        "blockId": 87,
+        "sourceSha256": "ae94d19f0935bb164ebbcd70d1c4f179eb2996ae17a0190e5303ff59cff753eb",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "908c6dcd4a1a5d45b6c9c437ee1398b7f1f4b7d7d2af7cb191cd0b95362034d1",
+        "nativeSize": [
+          24,
+          24
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/original/CBODY_087.png",
+          "status": "missing",
+          "expectedSha256": "ae94d19f0935bb164ebbcd70d1c4f179eb2996ae17a0190e5303ff59cff753eb",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/restyle/CBODY_087_restyle.png",
+          "status": "missing",
+          "expectedSha256": "908c6dcd4a1a5d45b6c9c437ee1398b7f1f4b7d7d2af7cb191cd0b95362034d1",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "character-sheet",
+          "presentation": "character-sheet",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "combat-party-icon",
+          "presentation": "combat-party-icon",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "admitted",
+        "reason": "existing-primary-runtime-mapping"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-1978-c97034eb7280",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-05-17-04-02 body frame 0; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-05-17-04-02",
+      "variantIndex": 1,
+      "role": "head",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/chead.dax/block/197/frame/0",
+        "sourceAddressable": true,
+        "archive": "CHEAD.DAX",
+        "archiveSha256": "8e61d8cf23b7094353425224f02be4423b880c5e8a7e168d478ec851bfaea568",
+        "blockId": 197,
+        "sourceSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+        "nativeSize": [
+          24,
+          8
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/original/CHEAD_069.png",
+          "status": "missing",
+          "expectedSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/restyle/CHEAD_069_restyle.png",
+          "status": "missing",
+          "expectedSha256": "8824322344b590f78db378b89568541f94dedf92b9fa4158d67fbb47907a8398",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "held",
+        "reason": "awaiting-prompt-and-composition-review"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-0697-45977280ace5",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-05-01-01-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-17-04-02 head; exact source/output SHA-256 pair.",
+          "Runtime player appearance: cok-player-05-18-00-02 head; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-05-17-04-02",
+      "variantIndex": 1,
+      "role": "body",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/cbody.dax/block/215/frame/0",
+        "sourceAddressable": true,
+        "archive": "CBODY.DAX",
+        "archiveSha256": "0c93206b020e30eecc1f761a9408b5befc20113fde18a8b401ae2ddad2c103bd",
+        "blockId": 215,
+        "sourceSha256": "48d6d23361ca50a31fd0815b2c7e130529f67db3dd29904c8c2068744cb01d9d",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "77aa1d0aceaa64928370426d792e449ece5fc8c3bbb3dad148f86282ce865aa9",
+        "nativeSize": [
+          24,
+          24
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/original/CBODY_215.png",
+          "status": "missing",
+          "expectedSha256": "48d6d23361ca50a31fd0815b2c7e130529f67db3dd29904c8c2068744cb01d9d",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-05-17-04-02/restyle/CBODY_215_restyle.png",
+          "status": "missing",
+          "expectedSha256": "77aa1d0aceaa64928370426d792e449ece5fc8c3bbb3dad148f86282ce865aa9",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "held",
+        "reason": "awaiting-prompt-and-composition-review"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-1895-c1cc6499ffbf",
+        "runtimeApproved": false,
+        "runtimeApprovalEvidence": [],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": [
+        {
+          "code": "consumer-scope-exceeds-inventory-approval-scope",
+          "consumers": [
+            "creator-preview"
+          ]
+        }
+      ]
+    },
+    {
+      "appearanceId": "cok-player-03-0b-03-01",
+      "variantIndex": 0,
+      "role": "head",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/chead.dax/block/3/frame/0",
+        "sourceAddressable": true,
+        "archive": "CHEAD.DAX",
+        "archiveSha256": "8e61d8cf23b7094353425224f02be4423b880c5e8a7e168d478ec851bfaea568",
+        "blockId": 3,
+        "sourceSha256": "ab031b8015abbcfec43773f03a47e83843cfa4dccac75bd623ef1f1df3433085",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "7c0f812b146a2e11c755857d20e432702fdc2da91406313f2c1beafc46593f86",
+        "nativeSize": [
+          24,
+          10
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/original/CHEAD_003.png",
+          "status": "missing",
+          "expectedSha256": "ab031b8015abbcfec43773f03a47e83843cfa4dccac75bd623ef1f1df3433085",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/restyle/CHEAD_003_restyle.png",
+          "status": "missing",
+          "expectedSha256": "7c0f812b146a2e11c755857d20e432702fdc2da91406313f2c1beafc46593f86",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "character-sheet",
+          "presentation": "character-sheet",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "combat-party-icon",
+          "presentation": "combat-party-icon",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "admitted",
+        "reason": "existing-primary-runtime-mapping"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-1975-c946196bc04c",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-03-0b-03-01 head; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-03-0b-03-01",
+      "variantIndex": 0,
+      "role": "body",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/cbody.dax/block/11/frame/0",
+        "sourceAddressable": true,
+        "archive": "CBODY.DAX",
+        "archiveSha256": "0c93206b020e30eecc1f761a9408b5befc20113fde18a8b401ae2ddad2c103bd",
+        "blockId": 11,
+        "sourceSha256": "47593d8a7798860cfe07462438850e7874424ea568df80c4bd0748b451850ebc",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "2625d2d97390c01e5c3bb80b3c11072bb48ab2b5127b68f2f7bec5f07b14876f",
+        "nativeSize": [
+          24,
+          24
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/original/CBODY_011.png",
+          "status": "missing",
+          "expectedSha256": "47593d8a7798860cfe07462438850e7874424ea568df80c4bd0748b451850ebc",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/restyle/CBODY_011_restyle.png",
+          "status": "missing",
+          "expectedSha256": "2625d2d97390c01e5c3bb80b3c11072bb48ab2b5127b68f2f7bec5f07b14876f",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "character-sheet",
+          "presentation": "character-sheet",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        },
+        {
+          "consumerId": "combat-party-icon",
+          "presentation": "combat-party-icon",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "admitted",
+        "reason": "existing-primary-runtime-mapping"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-1052-676be876542b",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-03-0b-03-01 body frame 0; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-03-0b-03-01",
+      "variantIndex": 1,
+      "role": "head",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/chead.dax/block/131/frame/0",
+        "sourceAddressable": true,
+        "archive": "CHEAD.DAX",
+        "archiveSha256": "8e61d8cf23b7094353425224f02be4423b880c5e8a7e168d478ec851bfaea568",
+        "blockId": 131,
+        "sourceSha256": "ab031b8015abbcfec43773f03a47e83843cfa4dccac75bd623ef1f1df3433085",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "7c0f812b146a2e11c755857d20e432702fdc2da91406313f2c1beafc46593f86",
+        "nativeSize": [
+          24,
+          10
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/original/CHEAD_003.png",
+          "status": "missing",
+          "expectedSha256": "ab031b8015abbcfec43773f03a47e83843cfa4dccac75bd623ef1f1df3433085",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/restyle/CHEAD_003_restyle.png",
+          "status": "missing",
+          "expectedSha256": "7c0f812b146a2e11c755857d20e432702fdc2da91406313f2c1beafc46593f86",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "held",
+        "reason": "awaiting-prompt-and-composition-review"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-1975-c946196bc04c",
+        "runtimeApproved": true,
+        "runtimeApprovalEvidence": [
+          "Runtime player appearance: cok-player-03-0b-03-01 head; exact source/output SHA-256 pair."
+        ],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": []
+    },
+    {
+      "appearanceId": "cok-player-03-0b-03-01",
+      "variantIndex": 1,
+      "role": "body",
+      "sourceIdentity": {
+        "sourceAssetId": "cok/dos-ega/install/cbody.dax/block/139/frame/0",
+        "sourceAddressable": true,
+        "archive": "CBODY.DAX",
+        "archiveSha256": "0c93206b020e30eecc1f761a9408b5befc20113fde18a8b401ae2ddad2c103bd",
+        "blockId": 139,
+        "sourceSha256": "b475e75316699a2742f884329d2b609c6fd1337979f1759ba5c33d693b1a454c",
+        "registrySourceHashMatchesManifest": true
+      },
+      "manifestDeclaredPackageAdmission": {
+        "declared": true,
+        "manifestPath": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+        "outputSha256": "39c5ff4200954731c85a8b00ba5f58e0c7ce88a1fc493c2b2ba06fe46f9002b4",
+        "nativeSize": [
+          24,
+          24
+        ]
+      },
+      "packageIdentities": {
+        "original": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/original/CBODY_139.png",
+          "status": "missing",
+          "expectedSha256": "b475e75316699a2742f884329d2b609c6fd1337979f1759ba5c33d693b1a454c",
+          "actualSha256": null
+        },
+        "restyle": {
+          "packageId": "apps/web/public/restyle/cok/player/cok-player-03-0b-03-01/restyle/CBODY_139_restyle.png",
+          "status": "missing",
+          "expectedSha256": "39c5ff4200954731c85a8b00ba5f58e0c7ce88a1fc493c2b2ba06fe46f9002b4",
+          "actualSha256": null
+        }
+      },
+      "consumerBindings": [
+        {
+          "consumerId": "creator-preview",
+          "presentation": "creation-preview",
+          "staticBound": true,
+          "runtimeObserved": "unverified"
+        }
+      ],
+      "runtimeObservation": "unverified",
+      "frameRestyleAdmission": {
+        "state": "held",
+        "reason": "awaiting-prompt-and-composition-review"
+      },
+      "inventoryEvidence": {
+        "status": "matched",
+        "assetId": "asset-0077-07ba3124b7a7",
+        "runtimeApproved": false,
+        "runtimeApprovalEvidence": [],
+        "compositionReview": "not-reviewed",
+        "promptStatus": "unknown",
+        "promptReferenceCount": 0
+      },
+      "issues": [
+        {
+          "code": "consumer-scope-exceeds-inventory-approval-scope",
+          "consumers": [
+            "creator-preview"
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Source identity and a player manifest entry establish a declared exact package mapping, not visual review or runtime approval.",
+    "Generated inventory approval, composition review, and prompt provenance are independent of manifest declarations.",
+    "Frame Restyle admission is separately pinned; approval of individual source/output pairs does not admit a composed creator variant.",
+    "A static source binding does not establish that the view rendered the component in an observed session.",
+    "Component package-slot counts include repeated head rows and held Restyle declarations; runtimePackageAudit is the exact build roster.",
+    "runtimePackageAudit checks the public source-tree mirror only; it does not prove a built package or runtime observation.",
+    "Held Restyle paths are excluded from the runtime roster and the package builder removes those exact files from build output.",
+    "Package paths are per-appearance identities; equal hashes do not merge their distinct package paths."
+  ]
+}

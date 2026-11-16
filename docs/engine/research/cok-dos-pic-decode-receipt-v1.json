@@ -1,0 +1,1725 @@
+{
+  "schema": "cok-dos-pic-decode-receipt-v1",
+  "provenance": "Repository game-folder copies; archive pins identify current bytes, not independent retail-install verification.",
+  "scale": 4,
+  "frameCount": 125,
+  "galleryPairCount": 116,
+  "archives": {
+    "PIC1": {
+      "path": "Champions of Krynn/PIC1.DAX",
+      "sha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "byteLength": 66736,
+      "dataBase": 164,
+      "orderedTocBlockIds": [
+        23,
+        57,
+        58,
+        34,
+        18,
+        59,
+        60,
+        1,
+        8,
+        12,
+        15,
+        30,
+        34,
+        35,
+        41,
+        61,
+        62,
+        63
+      ],
+      "entryCount": 18,
+      "frameCount": 31,
+      "entries": [
+        {
+          "entryIndex": 0,
+          "blockId": 23,
+          "rawSize": 31145,
+          "compressedSize": 4538,
+          "dataOffset": 0,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "09b26589751f5511b51c0c975a86a9c9423ad3e7f487b297f24a4b450e94f1f8"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4"
+            },
+            {
+              "frameIndex": 3,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367"
+            },
+            {
+              "frameIndex": 4,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9"
+            },
+            {
+              "frameIndex": 5,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367"
+            },
+            {
+              "frameIndex": 6,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4"
+            },
+            {
+              "frameIndex": 7,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9"
+            }
+          ]
+        },
+        {
+          "entryIndex": 1,
+          "blockId": 57,
+          "rawSize": 3894,
+          "compressedSize": 3030,
+          "dataOffset": 4538,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "8c0a4838831c9d101721654ae0d39ded43c8aac9c304fae1101c73dbd20a4ca6"
+            }
+          ]
+        },
+        {
+          "entryIndex": 2,
+          "blockId": 58,
+          "rawSize": 3894,
+          "compressedSize": 3428,
+          "dataOffset": 7568,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "6701a63e585efddea9d003a5be1b3143e192ab646f6c66d17f623bb7f65562e7"
+            }
+          ]
+        },
+        {
+          "entryIndex": 3,
+          "blockId": 34,
+          "rawSize": 3894,
+          "compressedSize": 3226,
+          "dataOffset": 10996,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24"
+            }
+          ]
+        },
+        {
+          "entryIndex": 4,
+          "blockId": 18,
+          "rawSize": 3894,
+          "compressedSize": 3155,
+          "dataOffset": 14222,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "eecd9e7c03da30d517b40e8fcf34ffb2a512097e1979eb28004dd6be68ba1f42"
+            }
+          ]
+        },
+        {
+          "entryIndex": 5,
+          "blockId": 59,
+          "rawSize": 3894,
+          "compressedSize": 2590,
+          "dataOffset": 17377,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "68e0eabba1e128abaa3d78b923a80742f83da369777a8673b7b952ec470506d0"
+            }
+          ]
+        },
+        {
+          "entryIndex": 6,
+          "blockId": 60,
+          "rawSize": 3894,
+          "compressedSize": 4021,
+          "dataOffset": 19967,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "86dd43b686124b3c5910b43cc4ecc15165b637b4f55fa56847867d0271577985"
+            }
+          ]
+        },
+        {
+          "entryIndex": 7,
+          "blockId": 1,
+          "rawSize": 3894,
+          "compressedSize": 2985,
+          "dataOffset": 23988,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "b2be6eec0b747cb99f48bafb996c85d5686ec61bf5580ef92fea8ba14c1b9076"
+            }
+          ]
+        },
+        {
+          "entryIndex": 8,
+          "blockId": 8,
+          "rawSize": 3894,
+          "compressedSize": 3711,
+          "dataOffset": 26973,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "2fd51677f3d30bdf09d20e5fa97c1106a9ef9b8308bc071604cec2b1e608c9f6"
+            }
+          ]
+        },
+        {
+          "entryIndex": 9,
+          "blockId": 12,
+          "rawSize": 15573,
+          "compressedSize": 6750,
+          "dataOffset": 30684,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "e4a66fad0680f497edb46461319b154a734f98d2ada46574a5a7a280fcf0d683"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "06318fc8803324377288aa6d04ba34c05603ed08209c783a17d91c9d1297be1e"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "abe60b5b733a518f543505ffeac7723149bcb29959c510d93c057d53bb87474d"
+            },
+            {
+              "frameIndex": 3,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "8c237e8f8e53c0283b4a4d1aa21e2dcb769cf7bce45f14a4e31b3f421108a34c"
+            }
+          ]
+        },
+        {
+          "entryIndex": 10,
+          "blockId": 15,
+          "rawSize": 3894,
+          "compressedSize": 2760,
+          "dataOffset": 37434,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "d6765b3952d75dbd577f2c19bd62735a7f99e27c3b543ebdda5a12927c1f3a77"
+            }
+          ]
+        },
+        {
+          "entryIndex": 11,
+          "blockId": 30,
+          "rawSize": 15573,
+          "compressedSize": 6872,
+          "dataOffset": 40194,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "6ad230474d179f0e5a0b78fa064c9b6192b13ae75beef1fb4f63b0078a620616"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "1ec3771fd70e56b9c46d06bd1667458a6bac9519d1dd23e940c58ac02d766ef9"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "9daf9ebb92591fdee76957f152dd079a7dea8eea1f6be885dc50d554d4b6c2bd"
+            },
+            {
+              "frameIndex": 3,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "faeb1d9d71fdb33519db8b889dcc4e8b5f5e54fc40036aea53d850992d6eeef6"
+            }
+          ]
+        },
+        {
+          "entryIndex": 12,
+          "blockId": 34,
+          "rawSize": 3894,
+          "compressedSize": 3226,
+          "dataOffset": 47066,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24"
+            }
+          ]
+        },
+        {
+          "entryIndex": 13,
+          "blockId": 35,
+          "rawSize": 3894,
+          "compressedSize": 2569,
+          "dataOffset": 50292,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "aef1391869cb0ec8bd85a5b91ec399ae1036352470e5aa015366defe48f326b5"
+            }
+          ]
+        },
+        {
+          "entryIndex": 14,
+          "blockId": 41,
+          "rawSize": 3894,
+          "compressedSize": 2575,
+          "dataOffset": 52861,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "0c8db08daa99cc0f64ad33271cec98a95d1edc37760d03a22c4d3242f138701f"
+            }
+          ]
+        },
+        {
+          "entryIndex": 15,
+          "blockId": 61,
+          "rawSize": 3894,
+          "compressedSize": 3683,
+          "dataOffset": 55436,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "20bf865772aff45db5d076fe06f2128bd99dc248e072b30e1ab88e45baee83af"
+            }
+          ]
+        },
+        {
+          "entryIndex": 16,
+          "blockId": 62,
+          "rawSize": 3894,
+          "compressedSize": 3846,
+          "dataOffset": 59119,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "4c41b114784a73c18f969f67e45ae9365052dfff871a8e73d901f033ce14961e"
+            }
+          ]
+        },
+        {
+          "entryIndex": 17,
+          "blockId": 63,
+          "rawSize": 3894,
+          "compressedSize": 3607,
+          "dataOffset": 62965,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "0769aab9c3d8c8fd34fce21639f94a1e1df3faac1d001c7aaa71a3c8baf17707"
+            }
+          ]
+        }
+      ]
+    },
+    "PIC2": {
+      "path": "Champions of Krynn/PIC2.DAX",
+      "sha256": "b4c07f963edcb88973ba7f3caa80cbcae4c88b3c71aa4c7ad3132ccbed1dbc51",
+      "byteLength": 101466,
+      "dataBase": 236,
+      "orderedTocBlockIds": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        14,
+        19,
+        35,
+        41,
+        44,
+        48,
+        51,
+        54,
+        67,
+        59,
+        60,
+        4,
+        10,
+        17,
+        23,
+        25,
+        28,
+        33,
+        34,
+        56,
+        70
+      ],
+      "entryCount": 26,
+      "frameCount": 50,
+      "entries": [
+        {
+          "entryIndex": 0,
+          "blockId": 1,
+          "rawSize": 3894,
+          "compressedSize": 2985,
+          "dataOffset": 0,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "b2be6eec0b747cb99f48bafb996c85d5686ec61bf5580ef92fea8ba14c1b9076"
+            }
+          ]
+        },
+        {
+          "entryIndex": 1,
+          "blockId": 2,
+          "rawSize": 3894,
+          "compressedSize": 3899,
+          "dataOffset": 2985,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "2b70cc88fccfc215b5e6e3c227a73fdf8778ef906f195c13824e59b165da31af"
+            }
+          ]
+        },
+        {
+          "entryIndex": 2,
+          "blockId": 5,
+          "rawSize": 3894,
+          "compressedSize": 2999,
+          "dataOffset": 6884,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "971e84faaff7396adf7c2d8ffb5b4d4684fd739fb4ae4008ad20eb6e919c48f5"
+            }
+          ]
+        },
+        {
+          "entryIndex": 3,
+          "blockId": 6,
+          "rawSize": 15573,
+          "compressedSize": 4756,
+          "dataOffset": 9883,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "eee7678908c2568962a52c892d482020e47465a0b683c108559db346fcbb2ac7"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "79414815a541c80d0edcd71b18ff2a688893128ff4dc662de7669de826d10f9e"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "de47c1a1c1b9ab51dddd441b219dde634dbe65e6a39ea04c443029ad9db51c4f"
+            },
+            {
+              "frameIndex": 3,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "79414815a541c80d0edcd71b18ff2a688893128ff4dc662de7669de826d10f9e"
+            }
+          ]
+        },
+        {
+          "entryIndex": 4,
+          "blockId": 8,
+          "rawSize": 3894,
+          "compressedSize": 3711,
+          "dataOffset": 14639,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "2fd51677f3d30bdf09d20e5fa97c1106a9ef9b8308bc071604cec2b1e608c9f6"
+            }
+          ]
+        },
+        {
+          "entryIndex": 5,
+          "blockId": 14,
+          "rawSize": 19466,
+          "compressedSize": 9505,
+          "dataOffset": 18350,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "a36848a226d55424cdac6407b213d4749bfee5044e383a70fbc85df59eb4946e"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "66e579bc19b8ef648c73b4260b433cbd33580070c0c9eae229670683e44fd799"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "0a4dbfcdf22a0da30b92661878c4461b4623c3b41e1c21f74d911e9ca61c8e01"
+            },
+            {
+              "frameIndex": 3,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "2a2604c2df587514967334ad0f448d32703f33097090ea136d32d8a7214b70b7"
+            },
+            {
+              "frameIndex": 4,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "2a073205c6be1bcce3c8449138094f0349c2e48ec52129f16c77632c3f8f11c2"
+            }
+          ]
+        },
+        {
+          "entryIndex": 6,
+          "blockId": 19,
+          "rawSize": 11680,
+          "compressedSize": 4942,
+          "dataOffset": 27855,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "5fb567464a036be3c60bbec27eaf16470899e3af224bad7b619ebe9f3f2893d8"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "1ff8794413c4473fca8fb0f1dd20dcb8a37cbfffd5461523243699e116655757"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "55f4177f04217dd256645735b49f9b245a430b6b192d747bb051d873a0496a9d"
+            }
+          ]
+        },
+        {
+          "entryIndex": 7,
+          "blockId": 35,
+          "rawSize": 3894,
+          "compressedSize": 2569,
+          "dataOffset": 32797,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "aef1391869cb0ec8bd85a5b91ec399ae1036352470e5aa015366defe48f326b5"
+            }
+          ]
+        },
+        {
+          "entryIndex": 8,
+          "blockId": 41,
+          "rawSize": 3894,
+          "compressedSize": 2575,
+          "dataOffset": 35366,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "0c8db08daa99cc0f64ad33271cec98a95d1edc37760d03a22c4d3242f138701f"
+            }
+          ]
+        },
+        {
+          "entryIndex": 9,
+          "blockId": 44,
+          "rawSize": 3894,
+          "compressedSize": 3078,
+          "dataOffset": 37941,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "793431883fb6481a4d590f9436fb3affdf48c773755744a3702c33f4ce2beae5"
+            }
+          ]
+        },
+        {
+          "entryIndex": 10,
+          "blockId": 48,
+          "rawSize": 3894,
+          "compressedSize": 2230,
+          "dataOffset": 41019,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "4494ee16c3e6f00f2c458ccece29556b7bd3ccb0b7671215984c46a9f22c62a1"
+            }
+          ]
+        },
+        {
+          "entryIndex": 11,
+          "blockId": 51,
+          "rawSize": 3894,
+          "compressedSize": 2541,
+          "dataOffset": 43249,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "572a84f2d9ebed59f49274602680faa56684142cb460621f229481eac7d2cb57"
+            }
+          ]
+        },
+        {
+          "entryIndex": 12,
+          "blockId": 54,
+          "rawSize": 3894,
+          "compressedSize": 2215,
+          "dataOffset": 45790,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "af3e7c06de171d4c174cc5565ae68d55c336f37421d3f6a85dd5612195761fac"
+            }
+          ]
+        },
+        {
+          "entryIndex": 13,
+          "blockId": 67,
+          "rawSize": 3894,
+          "compressedSize": 3740,
+          "dataOffset": 48005,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "e848308060116fa413dd980a43edce10458fef117c93eaf73527b1f7eb6ce3a8"
+            }
+          ]
+        },
+        {
+          "entryIndex": 14,
+          "blockId": 59,
+          "rawSize": 3894,
+          "compressedSize": 2590,
+          "dataOffset": 51745,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "68e0eabba1e128abaa3d78b923a80742f83da369777a8673b7b952ec470506d0"
+            }
+          ]
+        },
+        {
+          "entryIndex": 15,
+          "blockId": 60,
+          "rawSize": 3894,
+          "compressedSize": 4021,
+          "dataOffset": 54335,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "86dd43b686124b3c5910b43cc4ecc15165b637b4f55fa56847867d0271577985"
+            }
+          ]
+        },
+        {
+          "entryIndex": 16,
+          "blockId": 4,
+          "rawSize": 3894,
+          "compressedSize": 3749,
+          "dataOffset": 58356,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "e5669e68d4371bf182ea49d1d74ab2d2bc6926396da2623c7d800bb462e2fb7c"
+            }
+          ]
+        },
+        {
+          "entryIndex": 17,
+          "blockId": 10,
+          "rawSize": 23359,
+          "compressedSize": 4685,
+          "dataOffset": 62105,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "72b7c9288f397dbbd4a7765f3f0c1e8977641a3ac19cecca11ab9bb11198780b"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "598227d9b311b78ccc7b7f11ecfaca32b5362c4f96ae07373e36790e4dbe4fdd"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "54bfd3246f39e031d49486408628c8dfaa816472034cb382dd122c5edf1d9d51"
+            },
+            {
+              "frameIndex": 3,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "f365d52e987f19e0b0577e6654cdf60ff7e5d5ac23de14c14472fb66a3cbd8ed"
+            },
+            {
+              "frameIndex": 4,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "3e1e134bc8d621d35c20136ef220bb8e38a6834d3d0488ac304d1e689bb8ec28"
+            },
+            {
+              "frameIndex": 5,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "98d4ad1f5f7e171a727805df6fb2eb5bf5da7f4f182d0d7f255213c1a646d5b0"
+            }
+          ]
+        },
+        {
+          "entryIndex": 18,
+          "blockId": 17,
+          "rawSize": 11680,
+          "compressedSize": 7485,
+          "dataOffset": 66790,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "7ec37e1eca98fbad39fcb0cd151c4f6936e0943eff70640663dd388501ced0e1"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "64e3cb48d3ec2f62ef1c794737f9ffa7ceaa975a57fe548dc16ae2937395db1b"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "eac2e2bc224f2593530128d8f66abeb0bbb3519dd4aee2337ff75b48ac662cb4"
+            }
+          ]
+        },
+        {
+          "entryIndex": 19,
+          "blockId": 23,
+          "rawSize": 31145,
+          "compressedSize": 4538,
+          "dataOffset": 74275,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "09b26589751f5511b51c0c975a86a9c9423ad3e7f487b297f24a4b450e94f1f8"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4"
+            },
+            {
+              "frameIndex": 3,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367"
+            },
+            {
+              "frameIndex": 4,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9"
+            },
+            {
+              "frameIndex": 5,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367"
+            },
+            {
+              "frameIndex": 6,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4"
+            },
+            {
+              "frameIndex": 7,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9"
+            }
+          ]
+        },
+        {
+          "entryIndex": 20,
+          "blockId": 25,
+          "rawSize": 3894,
+          "compressedSize": 3702,
+          "dataOffset": 78813,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "48c5139c56fc16165557e8347cbe7d6c02990a66f29246f302980ec1d23d40b8"
+            }
+          ]
+        },
+        {
+          "entryIndex": 21,
+          "blockId": 28,
+          "rawSize": 7787,
+          "compressedSize": 5105,
+          "dataOffset": 82515,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "d2c276a3478a105c10aab9e17d4ceeb4a5233a065c1a82a9b0d8642fe0bbf8ec"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "cb33746753701347824c948326ca1c8b57ead27483c27babaae04d7320593f33"
+            }
+          ]
+        },
+        {
+          "entryIndex": 22,
+          "blockId": 33,
+          "rawSize": 3894,
+          "compressedSize": 3608,
+          "dataOffset": 87620,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "f869c4b94c984fbffafb31d73328bd6ad735da961ab59ca0becfaf4e6e8abe9e"
+            }
+          ]
+        },
+        {
+          "entryIndex": 23,
+          "blockId": 34,
+          "rawSize": 3894,
+          "compressedSize": 3226,
+          "dataOffset": 91228,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24"
+            }
+          ]
+        },
+        {
+          "entryIndex": 24,
+          "blockId": 56,
+          "rawSize": 3894,
+          "compressedSize": 2834,
+          "dataOffset": 94454,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "34f9f904898db0d0f6e9200814f1243bf5b361daaf4a9e290437431d59d60645"
+            }
+          ]
+        },
+        {
+          "entryIndex": 25,
+          "blockId": 70,
+          "rawSize": 3894,
+          "compressedSize": 3942,
+          "dataOffset": 97288,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "441c8ffccf51aa1504825281fac6d5be9980c74c6f1a717ae9f949d9d24456c2"
+            }
+          ]
+        }
+      ]
+    },
+    "PIC3": {
+      "path": "Champions of Krynn/PIC3.DAX",
+      "sha256": "21d5a2bfc40041611657c2a4a9f6de0f3edd67bb5c9692b61cf2007060d6cfa4",
+      "byteLength": 97632,
+      "dataBase": 218,
+      "orderedTocBlockIds": [
+        3,
+        16,
+        17,
+        24,
+        25,
+        26,
+        35,
+        44,
+        48,
+        67,
+        72,
+        73,
+        59,
+        60,
+        0,
+        4,
+        18,
+        19,
+        22,
+        32,
+        64,
+        65,
+        71,
+        66
+      ],
+      "entryCount": 24,
+      "frameCount": 44,
+      "entries": [
+        {
+          "entryIndex": 0,
+          "blockId": 3,
+          "rawSize": 3894,
+          "compressedSize": 3328,
+          "dataOffset": 0,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "1641aaf0a2c5dd63e7c21b008a9b3abf686125e2e00d043ced533086bcbd9623"
+            }
+          ]
+        },
+        {
+          "entryIndex": 1,
+          "blockId": 16,
+          "rawSize": 7787,
+          "compressedSize": 6812,
+          "dataOffset": 3328,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "04fa45158cee2f2671495333bded87944ec23d4061cb40466b3570e7ac964278"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "150cb79a0ddb3c635f6e93c4af805f8eddf4edb66bee3ecfabfa2e7f21c0a4c5"
+            }
+          ]
+        },
+        {
+          "entryIndex": 2,
+          "blockId": 17,
+          "rawSize": 11680,
+          "compressedSize": 7485,
+          "dataOffset": 10140,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "7ec37e1eca98fbad39fcb0cd151c4f6936e0943eff70640663dd388501ced0e1"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "64e3cb48d3ec2f62ef1c794737f9ffa7ceaa975a57fe548dc16ae2937395db1b"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "eac2e2bc224f2593530128d8f66abeb0bbb3519dd4aee2337ff75b48ac662cb4"
+            }
+          ]
+        },
+        {
+          "entryIndex": 3,
+          "blockId": 24,
+          "rawSize": 15573,
+          "compressedSize": 5719,
+          "dataOffset": 17625,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "7e02a1298dacf762cb3f2f4a7edd1858a84c75b1d36812924f33c2f1cf3dab65"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "0f1031a4dc8e5f7e877a447b8bb44a67e6e37f7918c0e0bde81f8d3dfabdcce6"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "29dd02d6129e58ffed7ff9d77d06db7856a731bcc1082769a327b00a6d21f6e0"
+            },
+            {
+              "frameIndex": 3,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "da0286a929d87405bc94eb118f4f05363cccca31f1c9d59f14108c6a070408dc"
+            }
+          ]
+        },
+        {
+          "entryIndex": 4,
+          "blockId": 25,
+          "rawSize": 3894,
+          "compressedSize": 3702,
+          "dataOffset": 23344,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "48c5139c56fc16165557e8347cbe7d6c02990a66f29246f302980ec1d23d40b8"
+            }
+          ]
+        },
+        {
+          "entryIndex": 5,
+          "blockId": 26,
+          "rawSize": 23359,
+          "compressedSize": 5853,
+          "dataOffset": 27046,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "f23ad5aa490d6b7f9a0e882967a6457f0d35e65f210a86ba5e04e509cf1352e1"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "76b8666b20f14a9804747b045ed623ab24cd5159fafa7b795a26522127c9798a"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "ca62324bfb771facd93097474e897323bf63e60efa39e49253f7da556ad9f9ef"
+            },
+            {
+              "frameIndex": 3,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "474b8b9503bfc7b2a45b87d33b8429a30f95e121580002fcfa798ba88f082681"
+            },
+            {
+              "frameIndex": 4,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "ca62324bfb771facd93097474e897323bf63e60efa39e49253f7da556ad9f9ef"
+            },
+            {
+              "frameIndex": 5,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "76b8666b20f14a9804747b045ed623ab24cd5159fafa7b795a26522127c9798a"
+            }
+          ]
+        },
+        {
+          "entryIndex": 6,
+          "blockId": 35,
+          "rawSize": 3894,
+          "compressedSize": 2569,
+          "dataOffset": 32899,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "aef1391869cb0ec8bd85a5b91ec399ae1036352470e5aa015366defe48f326b5"
+            }
+          ]
+        },
+        {
+          "entryIndex": 7,
+          "blockId": 44,
+          "rawSize": 3894,
+          "compressedSize": 3078,
+          "dataOffset": 35468,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "793431883fb6481a4d590f9436fb3affdf48c773755744a3702c33f4ce2beae5"
+            }
+          ]
+        },
+        {
+          "entryIndex": 8,
+          "blockId": 48,
+          "rawSize": 3894,
+          "compressedSize": 2230,
+          "dataOffset": 38546,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "4494ee16c3e6f00f2c458ccece29556b7bd3ccb0b7671215984c46a9f22c62a1"
+            }
+          ]
+        },
+        {
+          "entryIndex": 9,
+          "blockId": 67,
+          "rawSize": 3894,
+          "compressedSize": 3740,
+          "dataOffset": 40776,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "e848308060116fa413dd980a43edce10458fef117c93eaf73527b1f7eb6ce3a8"
+            }
+          ]
+        },
+        {
+          "entryIndex": 10,
+          "blockId": 72,
+          "rawSize": 3894,
+          "compressedSize": 2580,
+          "dataOffset": 44516,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "56da9aa2400596568d844f10b7fbb3661456e9536b7410c1c620331d29993b23"
+            }
+          ]
+        },
+        {
+          "entryIndex": 11,
+          "blockId": 73,
+          "rawSize": 3894,
+          "compressedSize": 3994,
+          "dataOffset": 47096,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "cef99449bbaeb424fe77127b112eb72407a1f1b7fcff3611b486515fd1fe6f85"
+            }
+          ]
+        },
+        {
+          "entryIndex": 12,
+          "blockId": 59,
+          "rawSize": 3894,
+          "compressedSize": 2590,
+          "dataOffset": 51090,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "68e0eabba1e128abaa3d78b923a80742f83da369777a8673b7b952ec470506d0"
+            }
+          ]
+        },
+        {
+          "entryIndex": 13,
+          "blockId": 60,
+          "rawSize": 3894,
+          "compressedSize": 4021,
+          "dataOffset": 53680,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "86dd43b686124b3c5910b43cc4ecc15165b637b4f55fa56847867d0271577985"
+            }
+          ]
+        },
+        {
+          "entryIndex": 14,
+          "blockId": 0,
+          "rawSize": 3894,
+          "compressedSize": 3389,
+          "dataOffset": 57701,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "346a1add3d43dde1a1d9646f34027d5c8681cee8edd522839761b15d9990994c"
+            }
+          ]
+        },
+        {
+          "entryIndex": 15,
+          "blockId": 4,
+          "rawSize": 3894,
+          "compressedSize": 3749,
+          "dataOffset": 61090,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "e5669e68d4371bf182ea49d1d74ab2d2bc6926396da2623c7d800bb462e2fb7c"
+            }
+          ]
+        },
+        {
+          "entryIndex": 16,
+          "blockId": 18,
+          "rawSize": 3894,
+          "compressedSize": 3155,
+          "dataOffset": 64839,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "eecd9e7c03da30d517b40e8fcf34ffb2a512097e1979eb28004dd6be68ba1f42"
+            }
+          ]
+        },
+        {
+          "entryIndex": 17,
+          "blockId": 19,
+          "rawSize": 11680,
+          "compressedSize": 4942,
+          "dataOffset": 67994,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "5fb567464a036be3c60bbec27eaf16470899e3af224bad7b619ebe9f3f2893d8"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "1ff8794413c4473fca8fb0f1dd20dcb8a37cbfffd5461523243699e116655757"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "55f4177f04217dd256645735b49f9b245a430b6b192d747bb051d873a0496a9d"
+            }
+          ]
+        },
+        {
+          "entryIndex": 18,
+          "blockId": 22,
+          "rawSize": 31145,
+          "compressedSize": 6232,
+          "dataOffset": 72936,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "0cf477ddc772dfa23bc5ca7c860a5a39fd66daf5ce2fcd834dbb3d7517a7e26b"
+            },
+            {
+              "frameIndex": 1,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "a05ecb0c6bf7998fd858e990fad9ce541acc9003362e07d38b8acc3f9d6f1436"
+            },
+            {
+              "frameIndex": 2,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "c1da3def50d02880c911bcbd3d2f49a94ed83da9cd3ca52a6d3f88ed184421ea"
+            },
+            {
+              "frameIndex": 3,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "ed03d884014cc6bc8904d59649f39a8799358ff6e28ffc6bd37d3562f45bd7cf"
+            },
+            {
+              "frameIndex": 4,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "d192592ae0cb4430837897b16f8c0e3a2e48385340125b3f2473bbea646689f2"
+            },
+            {
+              "frameIndex": 5,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1"
+            },
+            {
+              "frameIndex": 6,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "88a8eef38b2fa19e31c6f1ec9541c0d3c04df55daa9b5a9a53770b0a49537f8c"
+            },
+            {
+              "frameIndex": 7,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1"
+            }
+          ]
+        },
+        {
+          "entryIndex": 19,
+          "blockId": 32,
+          "rawSize": 3894,
+          "compressedSize": 4098,
+          "dataOffset": 79168,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "1589d0b0f1ff88d286039afd2d345ee482384763b45317c83d7709a0fd66870b"
+            }
+          ]
+        },
+        {
+          "entryIndex": 20,
+          "blockId": 64,
+          "rawSize": 3894,
+          "compressedSize": 3568,
+          "dataOffset": 83266,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "ca82913f2a0aae21dfcd40bb946d536bf780b6babd0aa1211464f35449b0e14e"
+            }
+          ]
+        },
+        {
+          "entryIndex": 21,
+          "blockId": 65,
+          "rawSize": 3894,
+          "compressedSize": 3669,
+          "dataOffset": 86834,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "f958373221fe3cc89e56c8f7d8aed8a708c589995dad108132194f84bb85524d"
+            }
+          ]
+        },
+        {
+          "entryIndex": 22,
+          "blockId": 71,
+          "rawSize": 3894,
+          "compressedSize": 3296,
+          "dataOffset": 90503,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "bb271a8076b5ea1eb419e59bab53eb19dfd6ae33e72174d46167a891aab6bd4c"
+            }
+          ]
+        },
+        {
+          "entryIndex": 23,
+          "blockId": 66,
+          "rawSize": 3894,
+          "compressedSize": 3615,
+          "dataOffset": 93799,
+          "frames": [
+            {
+              "frameIndex": 0,
+              "width": 88,
+              "height": 88,
+              "xOffset": 0,
+              "yOffset": 0,
+              "rgbSha256": "4c9c62c14efdaf068f4a0a3b4450b13288a1ce9dba336571bfd15fb3b22c1864"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

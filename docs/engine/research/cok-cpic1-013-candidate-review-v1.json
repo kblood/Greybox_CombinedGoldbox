@@ -1,0 +1,92 @@
+{
+  "schema": "cok-cpic1-candidate-review-v1",
+  "reviewedOn": "2026-11-04",
+  "source": {
+    "assetId": "cok/dos-ega/disk1/cpic1.dax/block/13/frame/0",
+    "edition": "DOS disk 1",
+    "platform": "DOS-EGA",
+    "archive": {
+      "path": "Champions of Krynn/CPIC1.DAX",
+      "sha256": "5f3e5fdc1734f8aed583233da9c97630b130ad5628eee0f18d875291dfa5e26b"
+    },
+    "locator": {
+      "kind": "block-frame",
+      "blockId": 13,
+      "entryIndex": 17,
+      "frameIndex": 0,
+      "sameIdOccurrence": 1,
+      "nativeSize": [24, 24]
+    },
+    "sourceRender": {
+      "path": "cok_restyle_work/dos/CPIC1/CPIC1_013.png",
+      "sha256": "a8875c450337f99c5001d29bab74a7063dd8bb31b0e8d6408880d1cb8bc152db",
+      "size": [96, 96],
+      "mode": "RGB",
+      "decodedRgbSha256": "eb097ef6512bcc4f917d2ce3dfa1ab878c56181305a6a089de72c8d4361e7d80"
+    }
+  },
+  "candidate": {
+    "galleryId": "asset-1134-6ff551973545",
+    "restyleId": "restyle/cok-generated/asset-1134-6ff551973545",
+    "outputPath": "cok_restyle_work/done/CPIC1_013_restyle.png",
+    "sha256": "643009a9fda09ad0cf030904707c00fa8e61e1fc0c486468cd567ff9009b6296",
+    "size": [96, 96],
+    "mode": "RGBA",
+    "sourceSha256": "a8875c450337f99c5001d29bab74a7063dd8bb31b0e8d6408880d1cb8bc152db"
+  },
+  "sourceIndices": {
+    "decoder": "tools/dax_decode.py; DAX standard CPIC frame",
+    "archiveDecodedSha256": "4b1e7e00999cceaf72a75a01b44cbe041e35146328576de00f3befcf15caea5d",
+    "runtimeNormalizedSha256": "ef43738e0a2fbc2bff9fada77eb1d07c901a7e36ba668d56f24a305d7e14565c",
+    "transparentIndices": [0, 8],
+    "maskSha256": "8bbd2ec249c4e1b62a6b9cd61818b2cc8f7479a7893b2bba43cd3617557df5b8",
+    "egaPaletteSha256": "625495fa332f4e9c11a44fc54fa9f0bf201c03d6892908931b257503ca498c31"
+  },
+  "visualReview": {
+    "status": "reviewed; broadly composition-preserving with local shape expansion",
+    "evidence": "Independent side-by-side visual review of the exact source-render and output hashes named above.",
+    "preserved": [
+      "compact upright silhouette and apparent facing",
+      "red form on the left and pale raised blade-like form on the right",
+      "dark central/lower mass and dark gray base"
+    ],
+    "differences": [
+      "candidate has brighter and more numerous interior highlights",
+      "left red extension is slightly fuller",
+      "right blade-like form is more distinct and appears broader/taller"
+    ],
+    "maskCheck": {
+      "sourceOccupiedCells": 141,
+      "sourceTransparentCells": 435,
+      "occupiedSourceCellsErasedByCandidate": 0,
+      "candidateOccupiedCellsInsideTransparentSourceMask": 180,
+      "note": "The runtime loader clears alpha in source-transparent cells and restores a source-colored cell only when the generated alpha is fully empty. This count is a static image check, not runtime acceptance."
+    }
+  },
+  "promptLineage": {
+    "status": "unknown",
+    "promptReferences": [],
+    "inputReferences": [],
+    "reason": "The canonical Restyle record and pinned generated-inventory card have no prompt or input references. Nearby prompt text cannot be assigned to this output without an exact hash-bound link."
+  },
+  "consumerEvidence": {
+    "status": "partial",
+    "hypothesis": "Static DOS ECL candidates associate CPIC1#13 with HOBGOBLIN LDR (MON1CHA#13); natural campaign reachability and depicted subject are not independently verified."
+  },
+  "runtimeAdmission": {
+    "approved": false,
+    "status": "withheld",
+    "reasons": [
+      "full generation prompt and exact generation-input lineage are unknown",
+      "the inventory card remains runtimeApproved=false",
+      "this visual review does not satisfy runtime/browser acceptance"
+    ]
+  },
+  "evidenceReferences": [
+    "docs/engine/research/cok-graphics-identity-registry-v1.json#cok/dos-ega/disk1/cpic1.dax/block/13/frame/0",
+    "docs/engine/research/cok-graphics-identity-registry-v1.json#restyle/cok-generated/asset-1134-6ff551973545",
+    "docs/engine/research/cok-dos-icon-visual-descriptions-v1.json#cok/dos-ega/disk1/cpic1.dax/block/13/frame/0",
+    "apps/web/src/ui/combat.ts#loadCokCombatRestyleIcons",
+    "apps/web/src/ui/cokCombatRestyle.ts#cokCombatRestyleIdentity"
+  ]
+}

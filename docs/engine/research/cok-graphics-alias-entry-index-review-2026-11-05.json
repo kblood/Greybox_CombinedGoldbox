@@ -1,0 +1,200 @@
+{
+  "schema": "cok-graphics-alias-registry-review-v1",
+  "status": "reviewed-entry-index-hash-correction",
+  "inputs": {
+    "priorSidecarSha256": "c652dd0a7d67d7ca49f15e587c2920699e9013fa51ff9d307bdff6d8a9b28897",
+    "priorRegistrySha256": "d6b7e4962e56151aca6a93da39657e96a4d446a5ca631ca4be931676e116466f",
+    "currentRegistrySha256": "d6b7e4962e56151aca6a93da39657e96a4d446a5ca631ca4be931676e116466f",
+    "inventorySha256": "d5fc9c9a49680f9a7825c2394126887a315105d4cf2686622706fbf30c8669c9",
+    "curatedManifestSha256": "1cb3e1eca86d42dc53bfbfaebe8949d9e89bca1b3fd48bca4ecb43fe95cb1ee2",
+    "runtimeComparisonSha256": "aced0dee1dcce6f651260e058c88bfcf1e7c05792faa8ce5112e47108e4106eb"
+  },
+  "counts": {
+    "generatedAliasesBefore": 6151,
+    "generatedAliasesAfter": 6151,
+    "externalAliasesBefore": 1,
+    "externalAliasesAfter": 1,
+    "boundAliasesAfter": 5802,
+    "boundAliasesWithLocatorArchiveSourceOutputAndCardEvidence": 5802,
+    "unresolvedAliasesRetained": 350,
+    "aliasCandidateSetsUnchanged": 6140,
+    "curatedCardsBefore": 27,
+    "curatedCardsAfter": 27,
+    "curatedSourceLinksAfter": 31,
+    "curatedMultiSourceCardsAfter": 4,
+    "curatedUnresolvedCardsRetained": 4,
+    "inventoryPngFilesExpected": 4840,
+    "inventoryPngFilesVerified": 4840,
+    "inventoryPngFilesMissing": 0,
+    "inventoryPngFilesHashMismatch": 0,
+    "semanticDifferences": 12,
+    "nullEntryIndexPromotions": 0,
+    "entryIndexHashPromotions": 12,
+    "frameIndexHashPromotions": 0,
+    "blockIndexHashPromotions": 0,
+    "blockIndexCandidateRowsDisclosed": 0
+  },
+  "semanticProjectionSha256": "58ee864673821f37e545266315428bfaf878aa8e46276cc7d8e91338eb95e9b1",
+  "updatedSidecarSha256": "99c4227de37661f622782768e43c99e9932d3de898fe5a6fbdb086d1c4fd7582",
+  "differences": [
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0015-012e7e07e9df/alias/000",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0015-012e7e07e9df/alias/001",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1435-8e1e2a3fa9a2/alias/000",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1435-8e1e2a3fa9a2/alias/001",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2020-ccf135900707/alias/000",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2020-ccf135900707/alias/001",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2332-edc746367403/alias/000",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2332-edc746367403/alias/001",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2422-f633150179e2/alias/000",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2422-f633150179e2/alias/001",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2459-f936ef73dfa0/alias/000",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2459-f936ef73dfa0/alias/001",
+      "fields": [
+        "bindings",
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "status"
+      ]
+    }
+  ],
+  "nullEntryIndexPromotions": [],
+  "entryIndexHashPromotions": [
+    "generated/asset-0015-012e7e07e9df/alias/000",
+    "generated/asset-0015-012e7e07e9df/alias/001",
+    "generated/asset-1435-8e1e2a3fa9a2/alias/000",
+    "generated/asset-1435-8e1e2a3fa9a2/alias/001",
+    "generated/asset-2020-ccf135900707/alias/000",
+    "generated/asset-2020-ccf135900707/alias/001",
+    "generated/asset-2332-edc746367403/alias/000",
+    "generated/asset-2332-edc746367403/alias/001",
+    "generated/asset-2422-f633150179e2/alias/000",
+    "generated/asset-2422-f633150179e2/alias/001",
+    "generated/asset-2459-f936ef73dfa0/alias/000",
+    "generated/asset-2459-f936ef73dfa0/alias/001"
+  ],
+  "frameIndexHashPromotions": [],
+  "blockIndexHashPromotions": [],
+  "blockIndexCandidateRowsDisclosed": [],
+  "limitations": [
+    "Unresolved aliases and curated cards remain unresolved; registry growth alone never promotes them.",
+    "The null-entry-index correction promotes only a single exact source candidate whose canonical locator explicitly has no TOC entry ordinal; it does not infer a missing ordinal.",
+    "The entry-index hash correction promotes only a single exact DOS source-hash candidate within its structured archive family; duplicate entry locators remain unresolved and no alias entry number is substituted.",
+    "The frame-index correction promotes only a unique exact decoded-source match inside the structured archive/block; ambiguous frames remain unresolved.",
+    "The block-index correction promotes only a unique exact decoded-source match inside a structured DOS archive family; ambiguous candidates remain unresolved.",
+    "Exact byte/locator relationships do not establish depicted subject, runtime use, or animation semantics.",
+    "Missing or hash-mismatched local image files are reported unavailable and are never treated as verified."
+  ]
+}

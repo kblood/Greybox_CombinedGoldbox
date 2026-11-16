@@ -1,0 +1,1203 @@
+{
+  "version": 1,
+  "scope": "Visible-appearance descriptions for 92 DOS CoK COMSPR, DUNGCOM, WILDCOM, and RANDCOM source IDs. No game roles, subject identities, selectors, or playback semantics are inferred.",
+  "evidenceImagePathPattern": "apps/web/dist-app-cok57/restyle/cok-generated/images/{sourceSha256}.png",
+  "assets": [
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/0/frame/0",
+      "sourceSha256": "5c74710b0915b0ec0ad819004b32352589a5159f59262b95d69833fda4cc7056",
+      "pixelSha256": "e944ad400ce6f758d4e77fb8abc461880bc776f5351df5d793a30a8b6b435d6f",
+      "visualDescription": "A narrow vertical stack of white and cyan pixels with a thin orange-brown center and a small green branch at the bottom, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5c74710b0915b0ec0ad819004b32352589a5159f59262b95d69833fda4cc7056.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 5c74710b0915b0ec0ad819004b32352589a5159f59262b95d69833fda4cc7056 and decoded 24×24 RGB pixel SHA-256 e944ad400ce6f758d4e77fb8abc461880bc776f5351df5d793a30a8b6b435d6f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/1/frame/0",
+      "sourceSha256": "9096f2561117a70e7685e6f4462bc7fad4b7fcda72fabfb7eb819ce59db0d05b",
+      "pixelSha256": "64fb036888c1ee3d5b0175894726f26774ec970ff98769a556136ae93b81b48d",
+      "visualDescription": "A slender diagonal orange-brown and green cluster ending in a small cyan and white tip, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9096f2561117a70e7685e6f4462bc7fad4b7fcda72fabfb7eb819ce59db0d05b.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 9096f2561117a70e7685e6f4462bc7fad4b7fcda72fabfb7eb819ce59db0d05b and decoded 24×24 RGB pixel SHA-256 64fb036888c1ee3d5b0175894726f26774ec970ff98769a556136ae93b81b48d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/10/frame/0",
+      "sourceSha256": "f8520f6da4547f1d622d908f1226b31c991ef3fd3ea23a6287e050b5b591f237",
+      "pixelSha256": "0f51a7faf61922506a5fdf9dbe0a1ad21c9a8ae57dbd7aaa6d71fd2b81218255",
+      "visualDescription": "A compact red and orange pixel burst with short rays extending from a dark center, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f8520f6da4547f1d622d908f1226b31c991ef3fd3ea23a6287e050b5b591f237.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 f8520f6da4547f1d622d908f1226b31c991ef3fd3ea23a6287e050b5b591f237 and decoded 24×24 RGB pixel SHA-256 0f51a7faf61922506a5fdf9dbe0a1ad21c9a8ae57dbd7aaa6d71fd2b81218255; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/11/frame/0",
+      "sourceSha256": "d577fcc45721579186bf906423c543e5da8833960f2145be05c1d5326152533f",
+      "pixelSha256": "42e9b67389c980c3103ca07d46f8a5af1d938767aec51efb63c5b24482fdb3bd",
+      "visualDescription": "A white and cyan skull-shaped cluster above crossed cyan-white strokes, on a bright red rectangular field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d577fcc45721579186bf906423c543e5da8833960f2145be05c1d5326152533f.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 d577fcc45721579186bf906423c543e5da8833960f2145be05c1d5326152533f and decoded 24×24 RGB pixel SHA-256 42e9b67389c980c3103ca07d46f8a5af1d938767aec51efb63c5b24482fdb3bd; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/128/frame/0",
+      "sourceSha256": "0ca941e2da4ff08198ca6b6fea80007802cdc1daebfe5c82a829dd957ab8c3d3",
+      "pixelSha256": "0359ba48ca015a35f7307acb0617b40d5fe1fe703332ce282e5b2aa70ba6b4da",
+      "visualDescription": "A narrow upright green forked cluster above an orange-brown stem and a small cyan-white base, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/0ca941e2da4ff08198ca6b6fea80007802cdc1daebfe5c82a829dd957ab8c3d3.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 0ca941e2da4ff08198ca6b6fea80007802cdc1daebfe5c82a829dd957ab8c3d3 and decoded 24×24 RGB pixel SHA-256 0359ba48ca015a35f7307acb0617b40d5fe1fe703332ce282e5b2aa70ba6b4da; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/129/frame/0",
+      "sourceSha256": "b3296dd77721e394dcba6b1976a32619d17ce3ac4ae8d7c7a21055a391580843",
+      "pixelSha256": "a9f5691cbfca23732848223ba81f2d6741a0d47676b502c27a4d83d655584ac1",
+      "visualDescription": "A slim diagonal orange-brown shaft ending in a bright cyan and white cluster, with a few green pixels near the lower end, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b3296dd77721e394dcba6b1976a32619d17ce3ac4ae8d7c7a21055a391580843.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 b3296dd77721e394dcba6b1976a32619d17ce3ac4ae8d7c7a21055a391580843 and decoded 24×24 RGB pixel SHA-256 a9f5691cbfca23732848223ba81f2d6741a0d47676b502c27a4d83d655584ac1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/130/frame/0",
+      "sourceSha256": "95eecd0775a8c7d1a0490cf7532c3dd9ff0b8a2a690b4c287654ce300dcddaaf",
+      "pixelSha256": "0dff6048907178a526805b505fa16a3c6aab48d9f5a4c880448a5b163c8a4a3d",
+      "visualDescription": "A short horizontal green and orange-brown form with a cyan-white cluster at the right end, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/95eecd0775a8c7d1a0490cf7532c3dd9ff0b8a2a690b4c287654ce300dcddaaf.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 95eecd0775a8c7d1a0490cf7532c3dd9ff0b8a2a690b4c287654ce300dcddaaf and decoded 24×24 RGB pixel SHA-256 0dff6048907178a526805b505fa16a3c6aab48d9f5a4c880448a5b163c8a4a3d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/131/frame/0",
+      "sourceSha256": "c369cd7d07bde7966ffb3324855010c9b01f2800f099d67620713fa7f02eb2fe",
+      "pixelSha256": "2015d4764aff51947a03393ab796716476c1966d9b3829194ead759b8939cbd0",
+      "visualDescription": "A diagonal orange-brown shaft with a large pale-cyan and white cluster near its lower end, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c369cd7d07bde7966ffb3324855010c9b01f2800f099d67620713fa7f02eb2fe.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 c369cd7d07bde7966ffb3324855010c9b01f2800f099d67620713fa7f02eb2fe and decoded 24×24 RGB pixel SHA-256 2015d4764aff51947a03393ab796716476c1966d9b3829194ead759b8939cbd0; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/132/frame/0",
+      "sourceSha256": "4a386cd1d823d5891cce6d21f333d7890df8d7bc7ca41a5a771e10fa309c2750",
+      "pixelSha256": "9879835c22d2d2b07ba75a24d252fb470c8aac569bfaeb9113cb264cd80c1ba7",
+      "visualDescription": "A small slanted blue-violet cluster with a bright cyan tip and several pale gray pixels trailing below, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4a386cd1d823d5891cce6d21f333d7890df8d7bc7ca41a5a771e10fa309c2750.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 4a386cd1d823d5891cce6d21f333d7890df8d7bc7ca41a5a771e10fa309c2750 and decoded 24×24 RGB pixel SHA-256 9879835c22d2d2b07ba75a24d252fb470c8aac569bfaeb9113cb264cd80c1ba7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/133/frame/0",
+      "sourceSha256": "6470ac767524e73591f9b3954148cf70b008a9a6dd5e1f731424891c76e7edc1",
+      "pixelSha256": "719d13e0f93b168f63e3d9a8c5dc78500e26668d3e6620a38337a272c33bf0b2",
+      "visualDescription": "Three thin turquoise strokes branch outward from a small yellow-green center, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6470ac767524e73591f9b3954148cf70b008a9a6dd5e1f731424891c76e7edc1.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 6470ac767524e73591f9b3954148cf70b008a9a6dd5e1f731424891c76e7edc1 and decoded 24×24 RGB pixel SHA-256 719d13e0f93b168f63e3d9a8c5dc78500e26668d3e6620a38337a272c33bf0b2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/134/frame/0",
+      "sourceSha256": "546161b50b8c9e31e7355369678b0acd64a3c24c7cd52610f904d38f6fdb4fb7",
+      "pixelSha256": "a3be02bfb7128d93f8c34a76d42cb0c2df447951cc81fe77bf9c98832e808640",
+      "visualDescription": "A loose web of thin cyan and pale-blue angular lines with small detached blue pixels, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/546161b50b8c9e31e7355369678b0acd64a3c24c7cd52610f904d38f6fdb4fb7.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 546161b50b8c9e31e7355369678b0acd64a3c24c7cd52610f904d38f6fdb4fb7 and decoded 24×24 RGB pixel SHA-256 a3be02bfb7128d93f8c34a76d42cb0c2df447951cc81fe77bf9c98832e808640; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/135/frame/0",
+      "sourceSha256": "95ded46d382f160ee1f5a0eee3d719fd5b4eeee48e93ad12e150747161b070da",
+      "pixelSha256": "16b744371a4eb1e8264882696fc61ffd1b80a1ac8075c55dfbb7c514ca2fe8bf",
+      "visualDescription": "A faceted light-gray round shape with a small orange-brown patch on its lower-right edge, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/95ded46d382f160ee1f5a0eee3d719fd5b4eeee48e93ad12e150747161b070da.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 95ded46d382f160ee1f5a0eee3d719fd5b4eeee48e93ad12e150747161b070da and decoded 24×24 RGB pixel SHA-256 16b744371a4eb1e8264882696fc61ffd1b80a1ac8075c55dfbb7c514ca2fe8bf; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/136/frame/0",
+      "sourceSha256": "51cb2a50b427326184a87baceda5c3477fbb025a2d41d12d00822cb04de7a979",
+      "pixelSha256": "a9ef97e56d705a60ff8325d7509117ef87832a08a54adba2c7108cfdd1bd2944",
+      "visualDescription": "A tiny upright orange-brown fleck with a darker base and a small gray pixel, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/51cb2a50b427326184a87baceda5c3477fbb025a2d41d12d00822cb04de7a979.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 51cb2a50b427326184a87baceda5c3477fbb025a2d41d12d00822cb04de7a979 and decoded 24×24 RGB pixel SHA-256 a9ef97e56d705a60ff8325d7509117ef87832a08a54adba2c7108cfdd1bd2944; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/137/frame/0",
+      "sourceSha256": "07de08a8ef1048a1588a621312aa147f53cd098740b865be1d1bc667a15c97b5",
+      "pixelSha256": "35ca4ad22497c4101bfd71099c3311e20691c370073204d354f5a4305de254cd",
+      "visualDescription": "A scattered arrangement of cyan and pale-yellow four-point clusters on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/07de08a8ef1048a1588a621312aa147f53cd098740b865be1d1bc667a15c97b5.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 07de08a8ef1048a1588a621312aa147f53cd098740b865be1d1bc667a15c97b5 and decoded 24×24 RGB pixel SHA-256 35ca4ad22497c4101bfd71099c3311e20691c370073204d354f5a4305de254cd; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/138/frame/0",
+      "sourceSha256": "e8446a7e9b3bc3c394c590465365fbedbb278a8a2ed2ae7be22ec8793435b060",
+      "pixelSha256": "5b1b2a5272b3bb66899ba2c6916dfde6dc335a6c91d6f2c8da6323b782a64ef8",
+      "visualDescription": "A bright red-orange radial burst with short uneven rays and a pale center, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e8446a7e9b3bc3c394c590465365fbedbb278a8a2ed2ae7be22ec8793435b060.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 e8446a7e9b3bc3c394c590465365fbedbb278a8a2ed2ae7be22ec8793435b060 and decoded 24×24 RGB pixel SHA-256 5b1b2a5272b3bb66899ba2c6916dfde6dc335a6c91d6f2c8da6323b782a64ef8; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/139/frame/0",
+      "sourceSha256": "1f5f0c9bd9d39f1fcc7301be7c8e84a95a45f83e50220100858c1b36c5532a08",
+      "pixelSha256": "8f8f67f2bfe5c2b8be3e7cd59d39f3cf71039b3bcd42804721fab7c40b26e91b",
+      "visualDescription": "A white and cyan skull-shaped cluster above crossed cyan-white strokes, on a bright red rectangular field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1f5f0c9bd9d39f1fcc7301be7c8e84a95a45f83e50220100858c1b36c5532a08.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 1f5f0c9bd9d39f1fcc7301be7c8e84a95a45f83e50220100858c1b36c5532a08 and decoded 24×24 RGB pixel SHA-256 8f8f67f2bfe5c2b8be3e7cd59d39f3cf71039b3bcd42804721fab7c40b26e91b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/153/frame/0",
+      "sourceSha256": "875ca616571f221da542216fe0aa4008cf4679ed75bb95e8fb5f14b890a2a667",
+      "pixelSha256": "e76ac1c78dd7cb9d057adb405c63219c1e0f7991a6f241f51ae566f903a1990f",
+      "visualDescription": "A black rectangular interior enclosed by a thick medium-gray frame, with a narrow light-gray outer edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/875ca616571f221da542216fe0aa4008cf4679ed75bb95e8fb5f14b890a2a667.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 875ca616571f221da542216fe0aa4008cf4679ed75bb95e8fb5f14b890a2a667 and decoded 24×24 RGB pixel SHA-256 e76ac1c78dd7cb9d057adb405c63219c1e0f7991a6f241f51ae566f903a1990f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/2/frame/0",
+      "sourceSha256": "df490fece0384024eb218c0cfed017c8a7bad4c47800405a5f4cb6c54ffb1b12",
+      "pixelSha256": "7640046ee0e749ea666110f45d1964088ac0aa523c6934ebd0b34df3621b3ae4",
+      "visualDescription": "A short horizontal green and orange-brown streak ending in a tiny cyan and white point at the right, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/df490fece0384024eb218c0cfed017c8a7bad4c47800405a5f4cb6c54ffb1b12.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 df490fece0384024eb218c0cfed017c8a7bad4c47800405a5f4cb6c54ffb1b12 and decoded 24×24 RGB pixel SHA-256 7640046ee0e749ea666110f45d1964088ac0aa523c6934ebd0b34df3621b3ae4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/25/frame/0",
+      "sourceSha256": "0db23d8f976cc38fbbc60f500f4aade3243165691f5d8acb5a1540fd3f75e62c",
+      "pixelSha256": "14e3a78c2837290af080b951f2dda124e420ce52682c684247921adc207d4cfa",
+      "visualDescription": "A nearly uniform medium-gray square bordered by a narrow pale frame, with a darker strip along its right and lower edges.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/0db23d8f976cc38fbbc60f500f4aade3243165691f5d8acb5a1540fd3f75e62c.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 0db23d8f976cc38fbbc60f500f4aade3243165691f5d8acb5a1540fd3f75e62c and decoded 24×24 RGB pixel SHA-256 14e3a78c2837290af080b951f2dda124e420ce52682c684247921adc207d4cfa; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/3/frame/0",
+      "sourceSha256": "6c05b2d88db6bc9f19013bbff062da2a319146b406e3a1ea8683c58fec0a3e4f",
+      "pixelSha256": "a30f526b7ee8cf30c253d858bf9dd154372b0652b9ac3d6acf779cf2fef00627",
+      "visualDescription": "A small diagonal white and blue cluster with a green lower edge and several detached pale pixels above it, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6c05b2d88db6bc9f19013bbff062da2a319146b406e3a1ea8683c58fec0a3e4f.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 6c05b2d88db6bc9f19013bbff062da2a319146b406e3a1ea8683c58fec0a3e4f and decoded 24×24 RGB pixel SHA-256 a30f526b7ee8cf30c253d858bf9dd154372b0652b9ac3d6acf779cf2fef00627; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/4/frame/0",
+      "sourceSha256": "98916b8c116bd24bd9eb7920b5af190779e684203404fdeaffcd6df41ca1328e",
+      "pixelSha256": "ce7cd44b4841fd460db289de6fc2f5b15dac40fbd32deeb736a42b3f0ac5e5b4",
+      "visualDescription": "A diagonal violet-blue streak with a bright cyan and white tip and small green accents, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/98916b8c116bd24bd9eb7920b5af190779e684203404fdeaffcd6df41ca1328e.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 98916b8c116bd24bd9eb7920b5af190779e684203404fdeaffcd6df41ca1328e and decoded 24×24 RGB pixel SHA-256 ce7cd44b4841fd460db289de6fc2f5b15dac40fbd32deeb736a42b3f0ac5e5b4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/5/frame/0",
+      "sourceSha256": "45343cdbb1934e155d6ae16375e26fe4f91f83ce6ff5e002eb301ef50404aa3a",
+      "pixelSha256": "27775832f641ccfa8f3a400729c21d2b18b7558489572589e1ca81d18d309e25",
+      "visualDescription": "Three narrow turquoise strokes meet in a loose branching shape, with yellow-green pixels at the joints, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/45343cdbb1934e155d6ae16375e26fe4f91f83ce6ff5e002eb301ef50404aa3a.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 45343cdbb1934e155d6ae16375e26fe4f91f83ce6ff5e002eb301ef50404aa3a and decoded 24×24 RGB pixel SHA-256 27775832f641ccfa8f3a400729c21d2b18b7558489572589e1ca81d18d309e25; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/6/frame/0",
+      "sourceSha256": "4644bb14c3e0cfdde7e89b3b8e29ea08d104951926529c1fc9b92a1d67dd9786",
+      "pixelSha256": "994c84cc09780e475a2c1fff4f572d67e4ac4e21093bcb853463f401100f83b7",
+      "visualDescription": "Thin cyan and blue angular strokes radiate from a small center across black, with a few detached blue-gray pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4644bb14c3e0cfdde7e89b3b8e29ea08d104951926529c1fc9b92a1d67dd9786.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 4644bb14c3e0cfdde7e89b3b8e29ea08d104951926529c1fc9b92a1d67dd9786 and decoded 24×24 RGB pixel SHA-256 994c84cc09780e475a2c1fff4f572d67e4ac4e21093bcb853463f401100f83b7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/7/frame/0",
+      "sourceSha256": "860c1b7a37c9e1d68e28cd91eac8f14eb1eed232ec2d80cca4b444d0372c1f1e",
+      "pixelSha256": "0f4b918d5d4179340bde4004c4957f31d0eba915adbd303adb31f3493272f1c9",
+      "visualDescription": "A faceted light-gray round shape with a small orange-brown patch along its right edge, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/860c1b7a37c9e1d68e28cd91eac8f14eb1eed232ec2d80cca4b444d0372c1f1e.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 860c1b7a37c9e1d68e28cd91eac8f14eb1eed232ec2d80cca4b444d0372c1f1e and decoded 24×24 RGB pixel SHA-256 0f4b918d5d4179340bde4004c4957f31d0eba915adbd303adb31f3493272f1c9; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/8/frame/0",
+      "sourceSha256": "080a184500c4196d8c557c8ff4e0f44be8df3e0f574d3613097f4d790b21642f",
+      "pixelSha256": "b8768aad20046b03a968a1328057614d13f701171ace9578e4253bd6f58d7160",
+      "visualDescription": "A tiny orange-brown horizontal dash with a dark center and one green pixel, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/080a184500c4196d8c557c8ff4e0f44be8df3e0f574d3613097f4d790b21642f.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 080a184500c4196d8c557c8ff4e0f44be8df3e0f574d3613097f4d790b21642f and decoded 24×24 RGB pixel SHA-256 b8768aad20046b03a968a1328057614d13f701171ace9578e4253bd6f58d7160; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/comspr.dax/block/9/frame/0",
+      "sourceSha256": "395de9c1684d2321736414c31603ada730b3770b252f592939e90d6fdfd06997",
+      "pixelSha256": "3760578fb366a9835739a1320cb89fbbb3144c6494fabd599f4fab22dd74575d",
+      "visualDescription": "Scattered small cyan and pale-yellow star-like clusters on black, with wide gaps between them.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/395de9c1684d2321736414c31603ada730b3770b252f592939e90d6fdfd06997.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 395de9c1684d2321736414c31603ada730b3770b252f592939e90d6fdfd06997 and decoded 24×24 RGB pixel SHA-256 3760578fb366a9835739a1320cb89fbbb3144c6494fabd599f4fab22dd74575d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/0",
+      "sourceSha256": "6e2d2d456da33348511480d84ba584147ca3912c5de937d3fefe3bf145834daa",
+      "pixelSha256": "b27fcf47c7cc528e1e669cc4d32a0561242e768d2f4df652c5e1f7b64fcaa92d",
+      "visualDescription": "A gray field with a diagonal white band crossing one side and a small orange-brown, black, and light-gray block pattern near the upper-right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6e2d2d456da33348511480d84ba584147ca3912c5de937d3fefe3bf145834daa.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 6e2d2d456da33348511480d84ba584147ca3912c5de937d3fefe3bf145834daa and decoded 24×24 RGB pixel SHA-256 b27fcf47c7cc528e1e669cc4d32a0561242e768d2f4df652c5e1f7b64fcaa92d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/1",
+      "sourceSha256": "662773eb03c0289b02ee5575ebb38a68fd4ffbf0b74abd6eb79ff04b5678e5be",
+      "pixelSha256": "68e9fc534420b4751e37665944a10caec50ce23e3dca00cd290db404e3009223",
+      "visualDescription": "A white and light-gray field with a short orange-brown and black stone strip along the upper-left edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/662773eb03c0289b02ee5575ebb38a68fd4ffbf0b74abd6eb79ff04b5678e5be.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 662773eb03c0289b02ee5575ebb38a68fd4ffbf0b74abd6eb79ff04b5678e5be and decoded 24×24 RGB pixel SHA-256 68e9fc534420b4751e37665944a10caec50ce23e3dca00cd290db404e3009223; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/10",
+      "sourceSha256": "dc613c205c28b96a3e26dbe30ef3f8e4ebc9902e16ba2d656ffd962842e8a9cc",
+      "pixelSha256": "e90908e3164f7e824f1952c4170f1f1348e5403ee9775f776fe79236ebde8412",
+      "visualDescription": "A gray field with a horizontal orange-brown and gray stone band across the middle, bordered by black pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/dc613c205c28b96a3e26dbe30ef3f8e4ebc9902e16ba2d656ffd962842e8a9cc.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 dc613c205c28b96a3e26dbe30ef3f8e4ebc9902e16ba2d656ffd962842e8a9cc and decoded 24×24 RGB pixel SHA-256 e90908e3164f7e824f1952c4170f1f1348e5403ee9775f776fe79236ebde8412; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/11",
+      "sourceSha256": "30d279a1acd1cffd2d3eadfba1f9f4b265128bf838fed6d879d703b74bd064df",
+      "pixelSha256": "8680c9c8b89e2649fdee308501e8e7d79edf45fdad7d58c46bdd1e3effb87750",
+      "visualDescription": "A dense patchwork of orange-brown, black, and light-gray blocks with a narrow pale strip at the upper-right edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/30d279a1acd1cffd2d3eadfba1f9f4b265128bf838fed6d879d703b74bd064df.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 30d279a1acd1cffd2d3eadfba1f9f4b265128bf838fed6d879d703b74bd064df and decoded 24×24 RGB pixel SHA-256 8680c9c8b89e2649fdee308501e8e7d79edf45fdad7d58c46bdd1e3effb87750; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/12",
+      "sourceSha256": "fe796f5f959726f3ca405b2deaf305df81602972f90aa8407ef4f77ca159b3f4",
+      "pixelSha256": "378c237c9409c716550bcf91f1dcecdc4422ce123ee36e052d534dd5f87e6705",
+      "visualDescription": "A gray field with a diagonal orange-brown and gray stone pattern crossing from the upper-left toward the lower-right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fe796f5f959726f3ca405b2deaf305df81602972f90aa8407ef4f77ca159b3f4.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 fe796f5f959726f3ca405b2deaf305df81602972f90aa8407ef4f77ca159b3f4 and decoded 24×24 RGB pixel SHA-256 378c237c9409c716550bcf91f1dcecdc4422ce123ee36e052d534dd5f87e6705; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/13",
+      "sourceSha256": "b9fe3b8982fbf33b6259bb10c237db77ef8192f8241385618434e78435389ee5",
+      "pixelSha256": "877ff56db297f36f39d1df99a3e9164be6ef0292638417db85285f0dd420cbc1",
+      "visualDescription": "A pale diagonal band separates gray areas from a compact orange-brown and black block cluster along the right edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b9fe3b8982fbf33b6259bb10c237db77ef8192f8241385618434e78435389ee5.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 b9fe3b8982fbf33b6259bb10c237db77ef8192f8241385618434e78435389ee5 and decoded 24×24 RGB pixel SHA-256 877ff56db297f36f39d1df99a3e9164be6ef0292638417db85285f0dd420cbc1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/14",
+      "sourceSha256": "15243a3ca562b52cd95bcce06aebbd747cc6626643c519d0da0c103afffb1080",
+      "pixelSha256": "7e2a70611f8d912e0a997d470ba580e4453f49caa6b12acbeaa5e09acfaf3079",
+      "visualDescription": "A medium-gray field with an orange-brown and gray stone band across the center and a few black border pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/15243a3ca562b52cd95bcce06aebbd747cc6626643c519d0da0c103afffb1080.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 15243a3ca562b52cd95bcce06aebbd747cc6626643c519d0da0c103afffb1080 and decoded 24×24 RGB pixel SHA-256 7e2a70611f8d912e0a997d470ba580e4453f49caa6b12acbeaa5e09acfaf3079; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/15",
+      "sourceSha256": "56c13cc13793065ca02de287dc4f9a752111c3b2657a82d4069ecade84292217",
+      "pixelSha256": "70c3f27f77a7c8291b1db4b39b98be13e14997730d142933207bd68cd5e224ea",
+      "visualDescription": "A gray field with a rectangular orange-brown and light-gray block cluster in the upper-right, edged by black pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/56c13cc13793065ca02de287dc4f9a752111c3b2657a82d4069ecade84292217.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 56c13cc13793065ca02de287dc4f9a752111c3b2657a82d4069ecade84292217 and decoded 24×24 RGB pixel SHA-256 70c3f27f77a7c8291b1db4b39b98be13e14997730d142933207bd68cd5e224ea; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/16",
+      "sourceSha256": "f3e69e6441493955aff157b501146e12a7fc1c893544c3cea34dcbc34438a241",
+      "pixelSha256": "be9c62e8f909afeecae10082f1d8b7b311f2aca4fc6e56faeb62dec2798464f1",
+      "visualDescription": "A vertical orange-brown and gray block strip at the left, with a broad pale-gray bar along the right edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f3e69e6441493955aff157b501146e12a7fc1c893544c3cea34dcbc34438a241.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 f3e69e6441493955aff157b501146e12a7fc1c893544c3cea34dcbc34438a241 and decoded 24×24 RGB pixel SHA-256 be9c62e8f909afeecae10082f1d8b7b311f2aca4fc6e56faeb62dec2798464f1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/17",
+      "sourceSha256": "e5b4feb5d6f74ec3d90ae474f8b18a5f316a034f4c8dac73744baf5809c8c370",
+      "pixelSha256": "faad1a35494065b5abb21a0df26ee9d9b8a4534e0b1f1ee52c3b1644b02c9955",
+      "visualDescription": "Orange-brown, black, and light-gray blocks form a dense pattern across the center, with pale horizontal bands along top and bottom.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e5b4feb5d6f74ec3d90ae474f8b18a5f316a034f4c8dac73744baf5809c8c370.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 e5b4feb5d6f74ec3d90ae474f8b18a5f316a034f4c8dac73744baf5809c8c370 and decoded 24×24 RGB pixel SHA-256 faad1a35494065b5abb21a0df26ee9d9b8a4534e0b1f1ee52c3b1644b02c9955; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/18",
+      "sourceSha256": "e2eb5e8ba9518f28547062090240d8d5ba872941b2d051f7c1f71ab1a67cf1b5",
+      "pixelSha256": "8b250e43cf7aa5908d686248e06e6487c1a4edf16c67198563118cb10572322c",
+      "visualDescription": "A broad white diagonal strip passes through a small orange-brown and gray stone cluster, leaving dark-gray corners.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e2eb5e8ba9518f28547062090240d8d5ba872941b2d051f7c1f71ab1a67cf1b5.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 e2eb5e8ba9518f28547062090240d8d5ba872941b2d051f7c1f71ab1a67cf1b5 and decoded 24×24 RGB pixel SHA-256 8b250e43cf7aa5908d686248e06e6487c1a4edf16c67198563118cb10572322c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/19",
+      "sourceSha256": "f302eed5a50e15483bc1353d2c9450381bccc6fc2d9650214c68a6ec94992a90",
+      "pixelSha256": "83ccf9456d7948a4234cd0f0e8af4737e9f2ca49f2c7dfeb664067a10d537511",
+      "visualDescription": "A horizontal orange-brown and gray block band spans the middle, with pale-gray margins above and below.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f302eed5a50e15483bc1353d2c9450381bccc6fc2d9650214c68a6ec94992a90.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 f302eed5a50e15483bc1353d2c9450381bccc6fc2d9650214c68a6ec94992a90 and decoded 24×24 RGB pixel SHA-256 83ccf9456d7948a4234cd0f0e8af4737e9f2ca49f2c7dfeb664067a10d537511; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/2",
+      "sourceSha256": "3c04452f7408bee55d8efed1f9ee0a324cf6c77500231fe10cb8eb671514059c",
+      "pixelSha256": "797496ee2d61c7866c142d22c63df32e4ace2ef3b9f3fe6cc762d1127964d011",
+      "visualDescription": "A pale field with a large diagonal white wedge and an orange-brown, black, and gray stone cluster along its upper-right edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3c04452f7408bee55d8efed1f9ee0a324cf6c77500231fe10cb8eb671514059c.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 3c04452f7408bee55d8efed1f9ee0a324cf6c77500231fe10cb8eb671514059c and decoded 24×24 RGB pixel SHA-256 797496ee2d61c7866c142d22c63df32e4ace2ef3b9f3fe6cc762d1127964d011; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/20",
+      "sourceSha256": "7b41479b5ecb75634d47ffeb4f17c7fa9583147f7dc738dd46b7168f5189bd63",
+      "pixelSha256": "79b9b10892a0340f7c4490de0c220278c3efeb994e44c4b9da1910f9dab8d6bc",
+      "visualDescription": "A vertical orange-brown and gray block patch fills the left half, separated from a pale-gray bar on the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/7b41479b5ecb75634d47ffeb4f17c7fa9583147f7dc738dd46b7168f5189bd63.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 7b41479b5ecb75634d47ffeb4f17c7fa9583147f7dc738dd46b7168f5189bd63 and decoded 24×24 RGB pixel SHA-256 79b9b10892a0340f7c4490de0c220278c3efeb994e44c4b9da1910f9dab8d6bc; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/21",
+      "sourceSha256": "6702a22836e600de488dd9fa591c555d839acc4e820143e9f68fac036152f993",
+      "pixelSha256": "d5a4d693841d4b9214ad1cae66080ce1f8759d2b90f314744fc9df464ff31cfa",
+      "visualDescription": "A broad pale diagonal stripe crosses a compact orange-brown and gray patchwork, with dark gray visible at the corners.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6702a22836e600de488dd9fa591c555d839acc4e820143e9f68fac036152f993.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 6702a22836e600de488dd9fa591c555d839acc4e820143e9f68fac036152f993 and decoded 24×24 RGB pixel SHA-256 d5a4d693841d4b9214ad1cae66080ce1f8759d2b90f314744fc9df464ff31cfa; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/22",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded 24×24 RGB pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/23",
+      "sourceSha256": "7087cb2abd0ab0842748d93c6db468a2ef622c1891a64ad8f83978973ec96046",
+      "pixelSha256": "eba4e7d149ed3eeffa0a20192e041a027d423bbc5a456d62cc7e35631e7a0d19",
+      "visualDescription": "A short horizontal row of orange-brown and light-gray blocks sits near the center of a gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/7087cb2abd0ab0842748d93c6db468a2ef622c1891a64ad8f83978973ec96046.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 7087cb2abd0ab0842748d93c6db468a2ef622c1891a64ad8f83978973ec96046 and decoded 24×24 RGB pixel SHA-256 eba4e7d149ed3eeffa0a20192e041a027d423bbc5a456d62cc7e35631e7a0d19; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/24",
+      "sourceSha256": "98834ed0eafe858ada505b14f60115b0c1081d1bd99ab49101ebfbd9f3c6bf6b",
+      "pixelSha256": "67af9fc99245699df9b6a5f1adbbddfb06baf390a6e62cf1042b3e660e2d534b",
+      "visualDescription": "A compact orange-brown and gray block pattern fills the center, with pale-gray pixels along its upper and right edges.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/98834ed0eafe858ada505b14f60115b0c1081d1bd99ab49101ebfbd9f3c6bf6b.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 98834ed0eafe858ada505b14f60115b0c1081d1bd99ab49101ebfbd9f3c6bf6b and decoded 24×24 RGB pixel SHA-256 67af9fc99245699df9b6a5f1adbbddfb06baf390a6e62cf1042b3e660e2d534b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/3",
+      "sourceSha256": "d63667983c8162f7dc1ca85cee192bdfe427b714c0a1f7dd9b435184f44a5673",
+      "pixelSha256": "c33f3d919e16bfdb05336bd6db952c76415d3c18c6ea863a2de37278508c0677",
+      "visualDescription": "A dense orange-brown and gray block pattern filling most of the tile, with a white triangular opening at the lower-left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d63667983c8162f7dc1ca85cee192bdfe427b714c0a1f7dd9b435184f44a5673.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 d63667983c8162f7dc1ca85cee192bdfe427b714c0a1f7dd9b435184f44a5673 and decoded 24×24 RGB pixel SHA-256 c33f3d919e16bfdb05336bd6db952c76415d3c18c6ea863a2de37278508c0677; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/4",
+      "sourceSha256": "be599e1883ce79225d8d170c39949972ef8db078843341e1f50d50939ff5ddd6",
+      "pixelSha256": "89ea85c7de839cfaf41c81bc518d132ee9557436ca76a9c4923a09cad7f7d0e1",
+      "visualDescription": "A medium-gray field with a narrow diagonal chain of orange-brown and gray blocks across the upper-right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/be599e1883ce79225d8d170c39949972ef8db078843341e1f50d50939ff5ddd6.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 be599e1883ce79225d8d170c39949972ef8db078843341e1f50d50939ff5ddd6 and decoded 24×24 RGB pixel SHA-256 89ea85c7de839cfaf41c81bc518d132ee9557436ca76a9c4923a09cad7f7d0e1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/5",
+      "sourceSha256": "fe974e61707cf91bf1596bd6636bb94dae4f9c818a4146f0b83d3f86592a98c1",
+      "pixelSha256": "ffcc840fd2e9d6c908581614c50de6cc53cf8d5b26cbe0910426d07912728e1a",
+      "visualDescription": "Orange-brown, black, and light-gray block shapes form a compact horizontal band across the center, with pale areas above and below.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fe974e61707cf91bf1596bd6636bb94dae4f9c818a4146f0b83d3f86592a98c1.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 fe974e61707cf91bf1596bd6636bb94dae4f9c818a4146f0b83d3f86592a98c1 and decoded 24×24 RGB pixel SHA-256 ffcc840fd2e9d6c908581614c50de6cc53cf8d5b26cbe0910426d07912728e1a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/6",
+      "sourceSha256": "556aa4019e2e8f32530a4c2b0b01b88d15d66e0ac37aad481cef0376e0414764",
+      "pixelSha256": "885687c783dafdce2a79143001a92d576f443cc5bf2982f9a1cafdf7bd2fc386",
+      "visualDescription": "A pale diagonal stripe cuts through an orange-brown and gray block pattern, leaving stone clusters in opposite corners.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/556aa4019e2e8f32530a4c2b0b01b88d15d66e0ac37aad481cef0376e0414764.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 556aa4019e2e8f32530a4c2b0b01b88d15d66e0ac37aad481cef0376e0414764 and decoded 24×24 RGB pixel SHA-256 885687c783dafdce2a79143001a92d576f443cc5bf2982f9a1cafdf7bd2fc386; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/7",
+      "sourceSha256": "c6e55b8f8d95116f1e9a7fa62860e3c80a814de8dc126b8e8fe0ddff4e1cf779",
+      "pixelSha256": "e9a32dc2a05ecfede46d9bb669b72981703298ff6e7b24ea6e7cb1c02acf3a99",
+      "visualDescription": "A gray field with an orange-brown and gray stone strip across the upper edge and down the right side.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c6e55b8f8d95116f1e9a7fa62860e3c80a814de8dc126b8e8fe0ddff4e1cf779.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 c6e55b8f8d95116f1e9a7fa62860e3c80a814de8dc126b8e8fe0ddff4e1cf779 and decoded 24×24 RGB pixel SHA-256 e9a32dc2a05ecfede46d9bb669b72981703298ff6e7b24ea6e7cb1c02acf3a99; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/8",
+      "sourceSha256": "d49a1958464b822b01ac6aea261383101e84df7976ec4c62f944b534814f48aa",
+      "pixelSha256": "3be219c916132146d505824fcc2c6cf9280e88d0d4fd22660062067ba23e3d1e",
+      "visualDescription": "A medium-gray field with a diagonal orange-brown and gray block cluster in the upper-right and a pale vertical strip at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d49a1958464b822b01ac6aea261383101e84df7976ec4c62f944b534814f48aa.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 d49a1958464b822b01ac6aea261383101e84df7976ec4c62f944b534814f48aa and decoded 24×24 RGB pixel SHA-256 3be219c916132146d505824fcc2c6cf9280e88d0d4fd22660062067ba23e3d1e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/dungcom.dax/block/1/tile/9",
+      "sourceSha256": "9e1269db40a1e2ce2e51790315819018ae4d84376987fa1a909d203bf2308ab0",
+      "pixelSha256": "daa2aee9968f2909afbec96588334f773bf2b2c9a4f62a1af24e9dd8d5c161a1",
+      "visualDescription": "A pale-gray field with a compact orange-brown, black, and gray stone patch along the upper-right edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9e1269db40a1e2ce2e51790315819018ae4d84376987fa1a909d203bf2308ab0.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 9e1269db40a1e2ce2e51790315819018ae4d84376987fa1a909d203bf2308ab0 and decoded 24×24 RGB pixel SHA-256 daa2aee9968f2909afbec96588334f773bf2b2c9a4f62a1af24e9dd8d5c161a1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/randcom.dax/block/1/tile/0",
+      "sourceSha256": "d7493a71b703f3939631e4b4345034e46b4188d59371a6302c996dcd0791ae91",
+      "pixelSha256": "0446e3571ad5320e0dacb87127a4a2513d7ce6590e1e2ddd47e9b34367fe6b60",
+      "visualDescription": "A small orange-brown horizontal cap with thin dark vertical marks beneath it and a few green pixels at the lower edge, on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d7493a71b703f3939631e4b4345034e46b4188d59371a6302c996dcd0791ae91.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 d7493a71b703f3939631e4b4345034e46b4188d59371a6302c996dcd0791ae91 and decoded 24×24 RGB pixel SHA-256 0446e3571ad5320e0dacb87127a4a2513d7ce6590e1e2ddd47e9b34367fe6b60; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/randcom.dax/block/1/tile/1",
+      "sourceSha256": "73afaab8957028add807dc1fa285be2951baf332a1391286941c14194ebe1582",
+      "pixelSha256": "2c574263fa1595d0c2c97f315bcd286138e2e7ec6bb60faac4030fabf76217e0",
+      "visualDescription": "A small upright orange-red and brown rectangular shape with dark vertical legs, on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/73afaab8957028add807dc1fa285be2951baf332a1391286941c14194ebe1582.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 73afaab8957028add807dc1fa285be2951baf332a1391286941c14194ebe1582 and decoded 24×24 RGB pixel SHA-256 2c574263fa1595d0c2c97f315bcd286138e2e7ec6bb60faac4030fabf76217e0; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/randcom.dax/block/1/tile/2",
+      "sourceSha256": "34cf9dbf333dd06d8c16caad19fddd0ae1954756913ecfd9723debbf95030473",
+      "pixelSha256": "59d438c0dac32ee28ecb161ce8bfccfd0dfd09e5adf9b1a41aff04477970c18b",
+      "visualDescription": "A compact cluster of pale gray, cyan, and deep-blue round forms, with dark outlines and black gaps.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/34cf9dbf333dd06d8c16caad19fddd0ae1954756913ecfd9723debbf95030473.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 34cf9dbf333dd06d8c16caad19fddd0ae1954756913ecfd9723debbf95030473 and decoded 24×24 RGB pixel SHA-256 59d438c0dac32ee28ecb161ce8bfccfd0dfd09e5adf9b1a41aff04477970c18b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/randcom.dax/block/1/tile/3",
+      "sourceSha256": "fde3d96763afbb82b03046798303e9108dd5ee8fa1af4ddf8fa649e0e7d6c67a",
+      "pixelSha256": "f327bc5ac6a9d17194ca55a8598b7d2710f51ef5623b8aa5c8523572e716fe33",
+      "visualDescription": "A low elongated green cluster with a blue-cyan underside, centered near the bottom of charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fde3d96763afbb82b03046798303e9108dd5ee8fa1af4ddf8fa649e0e7d6c67a.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 fde3d96763afbb82b03046798303e9108dd5ee8fa1af4ddf8fa649e0e7d6c67a and decoded 24×24 RGB pixel SHA-256 f327bc5ac6a9d17194ca55a8598b7d2710f51ef5623b8aa5c8523572e716fe33; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/randcom.dax/block/1/tile/4",
+      "sourceSha256": "3de2dbb176f739c38e73cb6d6ec67032706c2cc76a66a0c03ee6e96c061a9ccf",
+      "pixelSha256": "032327ec6dcbe6155a62722c84ed45c43a32cf1bee0a9feb0b99bf06e6ce5016",
+      "visualDescription": "A dense rounded green, white, and black pixel cluster with pale-gray highlights.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3de2dbb176f739c38e73cb6d6ec67032706c2cc76a66a0c03ee6e96c061a9ccf.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 3de2dbb176f739c38e73cb6d6ec67032706c2cc76a66a0c03ee6e96c061a9ccf and decoded 24×24 RGB pixel SHA-256 032327ec6dcbe6155a62722c84ed45c43a32cf1bee0a9feb0b99bf06e6ce5016; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/randcom.dax/block/1/tile/5",
+      "sourceSha256": "10cb71cdcf7ccbec8ce3a191772801048455e29c61f026b7ff64463cd54c8576",
+      "pixelSha256": "bc3b9144b00c93e2a667fc7fd6d4e244d78144aaa3f4beb6c6dbf27208853299",
+      "visualDescription": "A short horizontal multicolor shape with red and orange-brown at the left, cyan and blue near the center, and green at the right, against a dark field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/10cb71cdcf7ccbec8ce3a191772801048455e29c61f026b7ff64463cd54c8576.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 10cb71cdcf7ccbec8ce3a191772801048455e29c61f026b7ff64463cd54c8576 and decoded 24×24 RGB pixel SHA-256 bc3b9144b00c93e2a667fc7fd6d4e244d78144aaa3f4beb6c6dbf27208853299; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/0",
+      "sourceSha256": "bf292983826aad4e50312c05a0402bc0467252068150e4234106a7714a434535",
+      "pixelSha256": "fb13fe751e4734288c3dcb6d07e07f73748a963a0ac0eb3422ed70a5fcc51473",
+      "visualDescription": "Dark angular black and gray branching forms cross a charcoal field, with blue accents and a small green patch near the lower-left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bf292983826aad4e50312c05a0402bc0467252068150e4234106a7714a434535.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 bf292983826aad4e50312c05a0402bc0467252068150e4234106a7714a434535 and decoded 24×24 RGB pixel SHA-256 fb13fe751e4734288c3dcb6d07e07f73748a963a0ac0eb3422ed70a5fcc51473; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/1",
+      "sourceSha256": "821ab5f7809afde0a2eb4da97273c6dc6f52e5da96f26afedbb3a1f4323bfc4c",
+      "pixelSha256": "6b5f55e841caea4423750720ad4c5d6c0646a40cc70242f258542448251353d9",
+      "visualDescription": "Several gray and black branching strokes rise through a charcoal field, accented by blue and a small green patch.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/821ab5f7809afde0a2eb4da97273c6dc6f52e5da96f26afedbb3a1f4323bfc4c.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 821ab5f7809afde0a2eb4da97273c6dc6f52e5da96f26afedbb3a1f4323bfc4c and decoded 24×24 RGB pixel SHA-256 6b5f55e841caea4423750720ad4c5d6c0646a40cc70242f258542448251353d9; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/10",
+      "sourceSha256": "841b9dab79891da9c2dfb762ea135fa373010970c1d8481dcde69d3848801b1e",
+      "pixelSha256": "32f129556b0f7b58e37ae6f1bca1db233119149148524db6ebb5bc50ab6b6de6",
+      "visualDescription": "A low horizontal black-and-gray shape with cyan and green accents, isolated near the center of a charcoal field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/841b9dab79891da9c2dfb762ea135fa373010970c1d8481dcde69d3848801b1e.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 841b9dab79891da9c2dfb762ea135fa373010970c1d8481dcde69d3848801b1e and decoded 24×24 RGB pixel SHA-256 32f129556b0f7b58e37ae6f1bca1db233119149148524db6ebb5bc50ab6b6de6; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/11",
+      "sourceSha256": "a67388843ac8ade48d15911878d0501ff8a179ac85d5666389a0f4bd78080fcb",
+      "pixelSha256": "4180219f5285a15ad7c39ae49861862f33019ce8870479d4188dc9906e8bf161",
+      "visualDescription": "A flattened black-and-gray branching cluster with blue, cyan, and green pixels along its lower edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a67388843ac8ade48d15911878d0501ff8a179ac85d5666389a0f4bd78080fcb.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 a67388843ac8ade48d15911878d0501ff8a179ac85d5666389a0f4bd78080fcb and decoded 24×24 RGB pixel SHA-256 4180219f5285a15ad7c39ae49861862f33019ce8870479d4188dc9906e8bf161; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/12",
+      "sourceSha256": "a5540d4d28072a1bc042e9a3a0b12d3987444860860d177b8528dffd58c6f146",
+      "pixelSha256": "45e464bdf75545a860331446ce328933a65adba3d4e19a4cae426e0d28106441",
+      "visualDescription": "Two small groups of green and cyan pixels sit low on an otherwise flat charcoal field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a5540d4d28072a1bc042e9a3a0b12d3987444860860d177b8528dffd58c6f146.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 a5540d4d28072a1bc042e9a3a0b12d3987444860860d177b8528dffd58c6f146 and decoded 24×24 RGB pixel SHA-256 45e464bdf75545a860331446ce328933a65adba3d4e19a4cae426e0d28106441; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/13",
+      "sourceSha256": "429bc7e835869fd55415d9dd1026a380d882d00785e23f12110b60af7a35c692",
+      "pixelSha256": "5b16f45bbc61a5acf32e30d6e30165303e7448262c76b2a8edff36dad086eb31",
+      "visualDescription": "Several separated green and cyan pixel clusters form short low horizontal rows on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/429bc7e835869fd55415d9dd1026a380d882d00785e23f12110b60af7a35c692.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 429bc7e835869fd55415d9dd1026a380d882d00785e23f12110b60af7a35c692 and decoded 24×24 RGB pixel SHA-256 5b16f45bbc61a5acf32e30d6e30165303e7448262c76b2a8edff36dad086eb31; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/14",
+      "sourceSha256": "24a165bc65cb269c023f35d2dbb8bd548c9de1b071efc109512f8d8831077076",
+      "pixelSha256": "7886fdf52356ce5677b9c4434b1f52fe3d97bfba9ce726cf0401880246673872",
+      "visualDescription": "A small green-and-cyan cluster near the upper center, with a few red and orange-brown pixels lower down on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/24a165bc65cb269c023f35d2dbb8bd548c9de1b071efc109512f8d8831077076.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 24a165bc65cb269c023f35d2dbb8bd548c9de1b071efc109512f8d8831077076 and decoded 24×24 RGB pixel SHA-256 7886fdf52356ce5677b9c4434b1f52fe3d97bfba9ce726cf0401880246673872; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/15",
+      "sourceSha256": "6591d40dc2d4762bc47a47d26969b3fb4008c20434ff4547c35c7e989d4b34a5",
+      "pixelSha256": "227fbb363b09cc709f62780e7bfe5682d1961f2130f488508b95360f49d0c25d",
+      "visualDescription": "Three low green and cyan pixel clusters are spaced across a charcoal field, with a few orange-brown pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6591d40dc2d4762bc47a47d26969b3fb4008c20434ff4547c35c7e989d4b34a5.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 6591d40dc2d4762bc47a47d26969b3fb4008c20434ff4547c35c7e989d4b34a5 and decoded 24×24 RGB pixel SHA-256 227fbb363b09cc709f62780e7bfe5682d1961f2130f488508b95360f49d0c25d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/16",
+      "sourceSha256": "23e5b5b5cd2106be71de1d9c455baa3ef28e19f06cd7cbd3392d010bead90630",
+      "pixelSha256": "af0cde86005eb47ff08d926ea9f63d5a346d50226e72bbb0b7b0ec50462fcd6e",
+      "visualDescription": "A broad branching gray-and-black pattern with blue strokes and a few green pixels, on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/23e5b5b5cd2106be71de1d9c455baa3ef28e19f06cd7cbd3392d010bead90630.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 23e5b5b5cd2106be71de1d9c455baa3ef28e19f06cd7cbd3392d010bead90630 and decoded 24×24 RGB pixel SHA-256 af0cde86005eb47ff08d926ea9f63d5a346d50226e72bbb0b7b0ec50462fcd6e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/17",
+      "sourceSha256": "5626815bb13cf82c7d4b07f09690bc2b36f3b4ba7c9e8f11e81dc83610a6c00c",
+      "pixelSha256": "dcf3a1780f4db298d8b80f6fc674a2a66307a72a45386d298b3c941207cdf05e",
+      "visualDescription": "A branching gray and black pattern dotted with blue, green, yellow, and white pixels, on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5626815bb13cf82c7d4b07f09690bc2b36f3b4ba7c9e8f11e81dc83610a6c00c.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 5626815bb13cf82c7d4b07f09690bc2b36f3b4ba7c9e8f11e81dc83610a6c00c and decoded 24×24 RGB pixel SHA-256 dcf3a1780f4db298d8b80f6fc674a2a66307a72a45386d298b3c941207cdf05e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/18",
+      "sourceSha256": "5b64f868a3280bc3508c5fc992bf96afb3039a319975f3347457eee248fd757d",
+      "pixelSha256": "49ab70667a81eb4082cf486504ac43b70adebdaae7a49d5bf3de5fcd1ed07a88",
+      "visualDescription": "A small low orange-red mound with a dark base and one detached orange-brown pixel, on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5b64f868a3280bc3508c5fc992bf96afb3039a319975f3347457eee248fd757d.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 5b64f868a3280bc3508c5fc992bf96afb3039a319975f3347457eee248fd757d and decoded 24×24 RGB pixel SHA-256 49ab70667a81eb4082cf486504ac43b70adebdaae7a49d5bf3de5fcd1ed07a88; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/19",
+      "sourceSha256": "196a1535bb517f36e6890fc22e11f05c3923b7e4c56a3c94febb37eeb575d49d",
+      "pixelSha256": "0b616561a3c0c0eec8a3bb7f42d7a8b02b78a222074519feccfb45849b7e0d30",
+      "visualDescription": "A short orange-red horizontal cluster with a dark underline and a few detached red pixels, on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/196a1535bb517f36e6890fc22e11f05c3923b7e4c56a3c94febb37eeb575d49d.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 196a1535bb517f36e6890fc22e11f05c3923b7e4c56a3c94febb37eeb575d49d and decoded 24×24 RGB pixel SHA-256 0b616561a3c0c0eec8a3bb7f42d7a8b02b78a222074519feccfb45849b7e0d30; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/2",
+      "sourceSha256": "7fd22f41ba3eb347c0860c81a5a07765f1aa2e726dd7d34f5058f78f8832c3af",
+      "pixelSha256": "972dc89e6021523ebed5c51c02efee9d6c6a5cd6ade0ab74a9b878adf78844db",
+      "visualDescription": "A dark branching cluster with blue and gray strokes, with a few green pixels near its lower edge on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/7fd22f41ba3eb347c0860c81a5a07765f1aa2e726dd7d34f5058f78f8832c3af.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 7fd22f41ba3eb347c0860c81a5a07765f1aa2e726dd7d34f5058f78f8832c3af and decoded 24×24 RGB pixel SHA-256 972dc89e6021523ebed5c51c02efee9d6c6a5cd6ade0ab74a9b878adf78844db; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/20",
+      "sourceSha256": "9865836cb2745a4555e4ab3dd04ff580e93a72927f939466a0bc76708f0f8e1e",
+      "pixelSha256": "87965f9e9273e7e1595ba22a3433f4f04e2f4fe913404a04ff87cacdd36e8781",
+      "visualDescription": "Two separate orange-red mounds with black bases and a few detached brown pixels, near the bottom of charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9865836cb2745a4555e4ab3dd04ff580e93a72927f939466a0bc76708f0f8e1e.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 9865836cb2745a4555e4ab3dd04ff580e93a72927f939466a0bc76708f0f8e1e and decoded 24×24 RGB pixel SHA-256 87965f9e9273e7e1595ba22a3433f4f04e2f4fe913404a04ff87cacdd36e8781; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/21",
+      "sourceSha256": "e5a72207dd96472643453567b765010a82c6d7a0e8f40db073dcdffbe13bd495",
+      "pixelSha256": "d4c11bba0318e21a97b657d326dd3e404704d0533d89f0f37c5fa5138bd068c5",
+      "visualDescription": "A low orange-red cluster on the left and a cyan-green cluster on the right, both over charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e5a72207dd96472643453567b765010a82c6d7a0e8f40db073dcdffbe13bd495.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 e5a72207dd96472643453567b765010a82c6d7a0e8f40db073dcdffbe13bd495 and decoded 24×24 RGB pixel SHA-256 d4c11bba0318e21a97b657d326dd3e404704d0533d89f0f37c5fa5138bd068c5; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/22",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded 24×24 RGB pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/23",
+      "sourceSha256": "74be2b6a342256ca489aee23b809d10a8ef05895c84718788b9def1c2c2e6643",
+      "pixelSha256": "05ef1b4c25b4402b7b60e21e192d58308c48cac0276be528756e6ea8684b9db2",
+      "visualDescription": "A mostly flat charcoal field with three tiny separated red and orange-brown pixels near the lower half.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/74be2b6a342256ca489aee23b809d10a8ef05895c84718788b9def1c2c2e6643.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 74be2b6a342256ca489aee23b809d10a8ef05895c84718788b9def1c2c2e6643 and decoded 24×24 RGB pixel SHA-256 05ef1b4c25b4402b7b60e21e192d58308c48cac0276be528756e6ea8684b9db2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/24",
+      "sourceSha256": "cb1364c816c6995d6993c5523aea72d9a1f14731a7d7f5c00ed4b2027d91cfc1",
+      "pixelSha256": "b9008b913b1f4447d94008298aacb11ace511ff42c05e106111d889fd3edd0d9",
+      "visualDescription": "A mostly flat charcoal field with two tiny separated orange-red pixels near the lower half.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/cb1364c816c6995d6993c5523aea72d9a1f14731a7d7f5c00ed4b2027d91cfc1.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 cb1364c816c6995d6993c5523aea72d9a1f14731a7d7f5c00ed4b2027d91cfc1 and decoded 24×24 RGB pixel SHA-256 b9008b913b1f4447d94008298aacb11ace511ff42c05e106111d889fd3edd0d9; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/25",
+      "sourceSha256": "8b1bc71ae22da6950787031e679fe742d6b18837e3ff038dd68bf6c93e57023f",
+      "pixelSha256": "2fc4672014a09c9e2be5224eee8339e9259d97808ee57d24c1f6e914172d6f50",
+      "visualDescription": "A mostly flat charcoal field with sparse red and orange-brown pixels close to the bottom edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8b1bc71ae22da6950787031e679fe742d6b18837e3ff038dd68bf6c93e57023f.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 8b1bc71ae22da6950787031e679fe742d6b18837e3ff038dd68bf6c93e57023f and decoded 24×24 RGB pixel SHA-256 2fc4672014a09c9e2be5224eee8339e9259d97808ee57d24c1f6e914172d6f50; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/26",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded 24×24 RGB pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/27",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded 24×24 RGB pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/28",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded 24×24 RGB pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/29",
+      "sourceSha256": "4d86f66eb733df8939daf279bb9b2c036eac4e43c6b25016cdd23972865810d7",
+      "pixelSha256": "31c8666ac82590b773264061018182a6c97a090bfa5c10171e0752bd1a2f951e",
+      "visualDescription": "A diagonal band of bright cyan and blue stripes descends across a dark field, bordered by red, orange-brown, and black pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4d86f66eb733df8939daf279bb9b2c036eac4e43c6b25016cdd23972865810d7.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 4d86f66eb733df8939daf279bb9b2c036eac4e43c6b25016cdd23972865810d7 and decoded 24×24 RGB pixel SHA-256 31c8666ac82590b773264061018182a6c97a090bfa5c10171e0752bd1a2f951e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/3",
+      "sourceSha256": "28f76198d8d46d378a93675b6e124b8fb347c394adfb325dad1a7786b57a3e45",
+      "pixelSha256": "b3e67957f9c188f6e56314b6204b264b7d3f0dcd9c486bb6d743026725564bff",
+      "visualDescription": "An irregular gray and black branching pattern crossed by blue lines and small bright-green accents.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/28f76198d8d46d378a93675b6e124b8fb347c394adfb325dad1a7786b57a3e45.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 28f76198d8d46d378a93675b6e124b8fb347c394adfb325dad1a7786b57a3e45 and decoded 24×24 RGB pixel SHA-256 b3e67957f9c188f6e56314b6204b264b7d3f0dcd9c486bb6d743026725564bff; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/30",
+      "sourceSha256": "9338c5b540fcc09106c5287acddee05ca06320d462d94b6e208e4d516303001c",
+      "pixelSha256": "85a242ddc4c20f75141408fb053afab193e1a45b4e96256a2d8828f20d0ba68c",
+      "visualDescription": "Broad blue and cyan diagonal stripes cross a dark field, with a broken orange-brown and green edge near the bottom.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9338c5b540fcc09106c5287acddee05ca06320d462d94b6e208e4d516303001c.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 9338c5b540fcc09106c5287acddee05ca06320d462d94b6e208e4d516303001c and decoded 24×24 RGB pixel SHA-256 85a242ddc4c20f75141408fb053afab193e1a45b4e96256a2d8828f20d0ba68c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/31",
+      "sourceSha256": "5c13a8e7fb85acd917f5a33ba4af9e71f57a459ddd5c0edf123814d1742f0746",
+      "pixelSha256": "42c5f05d12934c97cb95f2d10f9194dc767ee44b84e037df3c1ef2c2ef1a5579",
+      "visualDescription": "A diagonal patchwork of bright cyan, blue, black, and red bands with orange-brown pixels along one edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5c13a8e7fb85acd917f5a33ba4af9e71f57a459ddd5c0edf123814d1742f0746.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 5c13a8e7fb85acd917f5a33ba4af9e71f57a459ddd5c0edf123814d1742f0746 and decoded 24×24 RGB pixel SHA-256 42c5f05d12934c97cb95f2d10f9194dc767ee44b84e037df3c1ef2c2ef1a5579; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/32",
+      "sourceSha256": "96589f16aeca6517bb2c3186f5e8e62ce6596e1ccc0ec45c882a169fd903ce43",
+      "pixelSha256": "8061fdeb0934aad5d2320638f8b0c3f519ba8c6f0b26c30399a5394ef74ca57c",
+      "visualDescription": "Blue and cyan diagonal stripes alternate with red, black, gray, and orange-brown blocks across the tile.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/96589f16aeca6517bb2c3186f5e8e62ce6596e1ccc0ec45c882a169fd903ce43.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 96589f16aeca6517bb2c3186f5e8e62ce6596e1ccc0ec45c882a169fd903ce43 and decoded 24×24 RGB pixel SHA-256 8061fdeb0934aad5d2320638f8b0c3f519ba8c6f0b26c30399a5394ef74ca57c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/33",
+      "sourceSha256": "3e44dc2b4ed201832edba70602f156eeac941ca7a8d89ffa8913ebac11e73b0d",
+      "pixelSha256": "657ecdd52f399db9ea752d0307da799452cc99d9fb9e92fd4ff850266f281239",
+      "visualDescription": "A colorful diagonal pattern of cyan and blue bands mixed with red, orange-brown, gray, and green blocks.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3e44dc2b4ed201832edba70602f156eeac941ca7a8d89ffa8913ebac11e73b0d.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 3e44dc2b4ed201832edba70602f156eeac941ca7a8d89ffa8913ebac11e73b0d and decoded 24×24 RGB pixel SHA-256 657ecdd52f399db9ea752d0307da799452cc99d9fb9e92fd4ff850266f281239; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/34",
+      "sourceSha256": "e212dbbf537206cc880e665ce5b306a42d498a4516acaaf9f1ddc96d6b3e289d",
+      "pixelSha256": "7a6cea2e2b0a2a30feb1f2196ac9a5406621de4d7351f9f78cd139986434e733",
+      "visualDescription": "Blue and cyan diagonal stripes with black gaps and scattered orange-brown, gray, and green pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e212dbbf537206cc880e665ce5b306a42d498a4516acaaf9f1ddc96d6b3e289d.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 e212dbbf537206cc880e665ce5b306a42d498a4516acaaf9f1ddc96d6b3e289d and decoded 24×24 RGB pixel SHA-256 7a6cea2e2b0a2a30feb1f2196ac9a5406621de4d7351f9f78cd139986434e733; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/4",
+      "sourceSha256": "4e11e844fedfb928224709e609cf259ab0c76398b91a44131717c4e78cf2bd21",
+      "pixelSha256": "07521428f7427f067205616a3d41753e5bd689b98aea3727614f20c4496b6362",
+      "visualDescription": "A dense square field of green, black, white, and gray pixel clusters, irregularly mixed.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4e11e844fedfb928224709e609cf259ab0c76398b91a44131717c4e78cf2bd21.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 4e11e844fedfb928224709e609cf259ab0c76398b91a44131717c4e78cf2bd21 and decoded 24×24 RGB pixel SHA-256 07521428f7427f067205616a3d41753e5bd689b98aea3727614f20c4496b6362; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/5",
+      "sourceSha256": "aec60c14efac6b9ccbd17f314db5840f713fde40f3b9bc2f4e89cf65169bba9a",
+      "pixelSha256": "be06d8bb8cf9442b3e5c1e730a7e2ead28e4b2d08d689b0ba8ce8f3306253341",
+      "visualDescription": "A dense green and white speckled patch over dark gray, with scattered black and pale-gray pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/aec60c14efac6b9ccbd17f314db5840f713fde40f3b9bc2f4e89cf65169bba9a.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 aec60c14efac6b9ccbd17f314db5840f713fde40f3b9bc2f4e89cf65169bba9a and decoded 24×24 RGB pixel SHA-256 be06d8bb8cf9442b3e5c1e730a7e2ead28e4b2d08d689b0ba8ce8f3306253341; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/6",
+      "sourceSha256": "148f36f3afe54c9ee042e4efc9f8e79a13778f8f95c1779d3e118069ccf3e3b6",
+      "pixelSha256": "ab027643c2d3e0eab9fbc3890cad7869ff81c43c9c62631bb6caacd0caf651de",
+      "visualDescription": "A tall irregular black and gray form with blue and green strokes against a charcoal field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/148f36f3afe54c9ee042e4efc9f8e79a13778f8f95c1779d3e118069ccf3e3b6.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 148f36f3afe54c9ee042e4efc9f8e79a13778f8f95c1779d3e118069ccf3e3b6 and decoded 24×24 RGB pixel SHA-256 ab027643c2d3e0eab9fbc3890cad7869ff81c43c9c62631bb6caacd0caf651de; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/7",
+      "sourceSha256": "8e92e2622e53edb4beecc5ee75c2835b11e057564d316abc1e2cb1c5b9ce312f",
+      "pixelSha256": "b4fb99f59198243f60501f0f07437d93fdd2f0467b8379ee9fb5790c8d11a4df",
+      "visualDescription": "A narrow upright gray-and-black cluster crossed by blue and green pixels, on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8e92e2622e53edb4beecc5ee75c2835b11e057564d316abc1e2cb1c5b9ce312f.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 8e92e2622e53edb4beecc5ee75c2835b11e057564d316abc1e2cb1c5b9ce312f and decoded 24×24 RGB pixel SHA-256 b4fb99f59198243f60501f0f07437d93fdd2f0467b8379ee9fb5790c8d11a4df; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/8",
+      "sourceSha256": "66ec20cc51e81f9e5bc720f62f12c289139197b6b0cad4ff0ec1c4cf1622e023",
+      "pixelSha256": "02538ae58f34263869e61049a5efc881966951fdd7b485571450f2fbab1d8ca1",
+      "visualDescription": "A branching gray and black silhouette with blue lines and small green accents, spreading across a charcoal field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/66ec20cc51e81f9e5bc720f62f12c289139197b6b0cad4ff0ec1c4cf1622e023.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 66ec20cc51e81f9e5bc720f62f12c289139197b6b0cad4ff0ec1c4cf1622e023 and decoded 24×24 RGB pixel SHA-256 02538ae58f34263869e61049a5efc881966951fdd7b485571450f2fbab1d8ca1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/wildcom.dax/block/1/tile/9",
+      "sourceSha256": "5b0a904417df796e16c22a3867eefb16a6c8a23ba2f8183cdc569e9076434032",
+      "pixelSha256": "9292b9822d5dd75690c8c602656d65d77a3b18eae412cf09deda0b51c44de3b0",
+      "visualDescription": "A tall branching gray and black shape crossed by blue and green strokes, on charcoal.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5b0a904417df796e16c22a3867eefb16a6c8a23ba2f8183cdc569e9076434032.png",
+          "note": "Visible appearance only; manually reviewed against exact 4× source PNG SHA-256 5b0a904417df796e16c22a3867eefb16a6c8a23ba2f8183cdc569e9076434032 and decoded 24×24 RGB pixel SHA-256 9292b9822d5dd75690c8c602656d65d77a3b18eae412cf09deda0b51c44de3b0; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    }
+  ]
+}

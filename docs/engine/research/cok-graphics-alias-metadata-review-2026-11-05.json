@@ -1,0 +1,51 @@
+{
+  "schema": "cok-graphics-alias-registry-review-v1",
+  "status": "exactly-compatible",
+  "inputs": {
+    "priorSidecarSha256": "7948a4a6f11c65de2bb6932e70f762d9e6b4c8770bba50460cdfcc298812f965",
+    "priorRegistrySha256": "459d324075f2ff060b1d2b29f80ac625d4d15fcc22efa4b1b1d729e16e530136",
+    "currentRegistrySha256": "d6b7e4962e56151aca6a93da39657e96a4d446a5ca631ca4be931676e116466f",
+    "inventorySha256": "d5fc9c9a49680f9a7825c2394126887a315105d4cf2686622706fbf30c8669c9",
+    "curatedManifestSha256": "1cb3e1eca86d42dc53bfbfaebe8949d9e89bca1b3fd48bca4ecb43fe95cb1ee2",
+    "runtimeComparisonSha256": "aced0dee1dcce6f651260e058c88bfcf1e7c05792faa8ce5112e47108e4106eb"
+  },
+  "counts": {
+    "generatedAliasesBefore": 6151,
+    "generatedAliasesAfter": 6151,
+    "externalAliasesBefore": 1,
+    "externalAliasesAfter": 1,
+    "boundAliasesAfter": 5730,
+    "boundAliasesWithLocatorArchiveSourceOutputAndCardEvidence": 5730,
+    "unresolvedAliasesRetained": 422,
+    "aliasCandidateSetsUnchanged": 6152,
+    "curatedCardsBefore": 27,
+    "curatedCardsAfter": 27,
+    "curatedSourceLinksAfter": 31,
+    "curatedMultiSourceCardsAfter": 4,
+    "curatedUnresolvedCardsRetained": 4,
+    "inventoryPngFilesExpected": 4840,
+    "inventoryPngFilesVerified": 4840,
+    "inventoryPngFilesMissing": 0,
+    "inventoryPngFilesHashMismatch": 0,
+    "semanticDifferences": 0,
+    "nullEntryIndexPromotions": 0,
+    "frameIndexHashPromotions": 0,
+    "blockIndexHashPromotions": 0,
+    "blockIndexCandidateRowsDisclosed": 0
+  },
+  "semanticProjectionSha256": "8a4fcba9e548e7f780fd41b4b99ce2caeaf605d41dbefa6c75c498c03bf7a3bb",
+  "updatedSidecarSha256": "0b5c275ceba03eaa6fce52ad23f46ebe63e90c92259e9ba677e201a00bf1920d",
+  "differences": [],
+  "nullEntryIndexPromotions": [],
+  "frameIndexHashPromotions": [],
+  "blockIndexHashPromotions": [],
+  "blockIndexCandidateRowsDisclosed": [],
+  "limitations": [
+    "Unresolved aliases and curated cards remain unresolved; registry growth alone never promotes them.",
+    "The null-entry-index correction promotes only a single exact source candidate whose canonical locator explicitly has no TOC entry ordinal; it does not infer a missing ordinal.",
+    "The frame-index correction promotes only a unique exact decoded-source match inside the structured archive/block; ambiguous frames remain unresolved.",
+    "The block-index correction promotes only a unique exact decoded-source match inside a structured DOS archive family; ambiguous candidates remain unresolved.",
+    "Exact byte/locator relationships do not establish depicted subject, runtime use, or animation semantics.",
+    "Missing or hash-mismatched local image files are reported unavailable and are never treated as verified."
+  ]
+}

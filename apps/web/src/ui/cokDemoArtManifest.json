@@ -1,0 +1,36 @@
+{
+  "game": "cok",
+  "pictureId": 116,
+  "dos": {
+    "archive": "Champions of Krynn/BIGPIC2.DAX",
+    "archiveSha256": "553dc458be8209bea0ca5f1dea6406b5cd8a96750d3badc05658f5a8ef241f0a",
+    "blockSha256": "9c2f3cfc44bd9f04ad7703e00e59a887b385f2b3d3051ead6128d5fa587847fd"
+  },
+  "amiga": {
+    "archive": "amiga_extracted/ChampionsOfKrynn/disk2/BIGPIC1.DAA",
+    "archiveSha256": "6267f07ad52f4a7bc6bdf958c5201e7b4e3bc826547ec3c7626579ee9bf89fed",
+    "blockSha256": "c0cc0577d1519f6c8da66f55d0fe261f89f777fde5ec4e5882d46908dac72b7e"
+  },
+  "nativeWidth": 304,
+  "nativeHeight": 120,
+  "frameIndex": 0,
+  "source": {
+    "file": "002_cok_amiga_daa_cok_bigpic1_bigpic1_116.png",
+    "sha256": "50831f833c07f107193b7efebc0cdfb796a4cd4312c5c0b04a2861093b04b896",
+    "bytes": 30928,
+    "pixelScale": 4,
+    "width": 1216,
+    "height": 480,
+    "colorType": 2
+  },
+  "restyle": {
+    "file": "002_cok_amiga_daa_cok_bigpic1_bigpic1_116.png",
+    "sha256": "89ac8dc28ea0acd61d5f5dd374af1deecb2e0f1985e38e78fc2b4d286d0f3fda",
+    "bytes": 2359433,
+    "pixelScale": 6,
+    "width": 1824,
+    "height": 720,
+    "colorType": 2,
+    "destination": "demo/BIGPIC2_116_restyle.png"
+  }
+}

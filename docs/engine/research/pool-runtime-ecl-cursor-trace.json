@@ -1,0 +1,654 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-07-15",
+  "profile_id": "pool-of-radiance",
+  "source_trace": "ecl-cursor-trace.json",
+  "save_sha256": "2bc5a41f17c3dcc69555866e459a6db8da839fd22bb559aecd2797dba595a1a4",
+  "parser": {
+    "runtime_cs_ip": "30CF:0000",
+    "game_ovr_file_offset": 29907,
+    "retail_prefix_hex": "5589e583ec08",
+    "dgroup_cursor_offset": 18925,
+    "address_addend": 26368
+  },
+  "route": "ECL1#18, leave (14,8) E, byte-validated parser armed, forward re-entry",
+  "cursor_count": 62,
+  "cursor_min": 39167,
+  "cursor_max": 39413,
+  "cursor_sequence": [
+    39186,
+    39192,
+    39199,
+    39205,
+    39212,
+    39218,
+    39225,
+    39273,
+    39283,
+    39289,
+    39292,
+    39298,
+    39301,
+    39310,
+    39316,
+    39322,
+    39328,
+    39334,
+    39342,
+    39367,
+    39372,
+    39331,
+    39335,
+    39343,
+    39350,
+    39202,
+    39208,
+    39216,
+    39224,
+    39230,
+    39237,
+    39246,
+    39253,
+    39262,
+    39270,
+    39279,
+    39288,
+    39295,
+    39304,
+    39310,
+    39315,
+    39343,
+    39357,
+    39373,
+    39383,
+    39393,
+    39403,
+    39413,
+    39167,
+    39174,
+    39185,
+    39192,
+    39282,
+    39289,
+    39293,
+    39300,
+    39304,
+    39310,
+    39317,
+    39254,
+    39285,
+    39292
+  ],
+  "records": [
+    {
+      "index": 0,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 20,
+      "virtual_address": 39186
+    },
+    {
+      "index": 1,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 26,
+      "virtual_address": 39192
+    },
+    {
+      "index": 2,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 33,
+      "virtual_address": 39199
+    },
+    {
+      "index": 3,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 39,
+      "virtual_address": 39205
+    },
+    {
+      "index": 4,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 46,
+      "virtual_address": 39212
+    },
+    {
+      "index": 5,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 52,
+      "virtual_address": 39218
+    },
+    {
+      "index": 6,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 59,
+      "virtual_address": 39225
+    },
+    {
+      "index": 7,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 107,
+      "virtual_address": 39273
+    },
+    {
+      "index": 8,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 117,
+      "virtual_address": 39283
+    },
+    {
+      "index": 9,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 123,
+      "virtual_address": 39289
+    },
+    {
+      "index": 10,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 126,
+      "virtual_address": 39292
+    },
+    {
+      "index": 11,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 132,
+      "virtual_address": 39298
+    },
+    {
+      "index": 12,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 135,
+      "virtual_address": 39301
+    },
+    {
+      "index": 13,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 144,
+      "virtual_address": 39310
+    },
+    {
+      "index": 14,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 150,
+      "virtual_address": 39316
+    },
+    {
+      "index": 15,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 156,
+      "virtual_address": 39322
+    },
+    {
+      "index": 16,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 162,
+      "virtual_address": 39328
+    },
+    {
+      "index": 17,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 168,
+      "virtual_address": 39334
+    },
+    {
+      "index": 18,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 176,
+      "virtual_address": 39342
+    },
+    {
+      "index": 19,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 201,
+      "virtual_address": 39367
+    },
+    {
+      "index": 20,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 206,
+      "virtual_address": 39372
+    },
+    {
+      "index": 21,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 165,
+      "virtual_address": 39331
+    },
+    {
+      "index": 22,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 169,
+      "virtual_address": 39335
+    },
+    {
+      "index": 23,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 177,
+      "virtual_address": 39343
+    },
+    {
+      "index": 24,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 184,
+      "virtual_address": 39350
+    },
+    {
+      "index": 25,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 36,
+      "virtual_address": 39202
+    },
+    {
+      "index": 26,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 42,
+      "virtual_address": 39208
+    },
+    {
+      "index": 27,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 50,
+      "virtual_address": 39216
+    },
+    {
+      "index": 28,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 58,
+      "virtual_address": 39224
+    },
+    {
+      "index": 29,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 64,
+      "virtual_address": 39230
+    },
+    {
+      "index": 30,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 71,
+      "virtual_address": 39237
+    },
+    {
+      "index": 31,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 80,
+      "virtual_address": 39246
+    },
+    {
+      "index": 32,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 87,
+      "virtual_address": 39253
+    },
+    {
+      "index": 33,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 96,
+      "virtual_address": 39262
+    },
+    {
+      "index": 34,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 104,
+      "virtual_address": 39270
+    },
+    {
+      "index": 35,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 113,
+      "virtual_address": 39279
+    },
+    {
+      "index": 36,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 122,
+      "virtual_address": 39288
+    },
+    {
+      "index": 37,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 129,
+      "virtual_address": 39295
+    },
+    {
+      "index": 38,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 138,
+      "virtual_address": 39304
+    },
+    {
+      "index": 39,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 144,
+      "virtual_address": 39310
+    },
+    {
+      "index": 40,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 149,
+      "virtual_address": 39315
+    },
+    {
+      "index": 41,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 177,
+      "virtual_address": 39343
+    },
+    {
+      "index": 42,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 191,
+      "virtual_address": 39357
+    },
+    {
+      "index": 43,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 207,
+      "virtual_address": 39373
+    },
+    {
+      "index": 44,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 217,
+      "virtual_address": 39383
+    },
+    {
+      "index": 45,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 227,
+      "virtual_address": 39393
+    },
+    {
+      "index": 46,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 237,
+      "virtual_address": 39403
+    },
+    {
+      "index": 47,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 247,
+      "virtual_address": 39413
+    },
+    {
+      "index": 48,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 1,
+      "virtual_address": 39167
+    },
+    {
+      "index": 49,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 8,
+      "virtual_address": 39174
+    },
+    {
+      "index": 50,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 19,
+      "virtual_address": 39185
+    },
+    {
+      "index": 51,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 26,
+      "virtual_address": 39192
+    },
+    {
+      "index": 52,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 116,
+      "virtual_address": 39282
+    },
+    {
+      "index": 53,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 123,
+      "virtual_address": 39289
+    },
+    {
+      "index": 54,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 127,
+      "virtual_address": 39293
+    },
+    {
+      "index": 55,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 134,
+      "virtual_address": 39300
+    },
+    {
+      "index": 56,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 138,
+      "virtual_address": 39304
+    },
+    {
+      "index": 57,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 144,
+      "virtual_address": 39310
+    },
+    {
+      "index": 58,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 151,
+      "virtual_address": 39317
+    },
+    {
+      "index": 59,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 88,
+      "virtual_address": 39254
+    },
+    {
+      "index": 60,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 119,
+      "virtual_address": 39285
+    },
+    {
+      "index": 61,
+      "phase": "cursor-reenter",
+      "parser_cs_ip": "30CF:0000",
+      "dgroup_segment": "14A0",
+      "dgroup_offset": 18925,
+      "raw_member_offset": 126,
+      "virtual_address": 39292
+    }
+  ],
+  "targets": {
+    "search_location": 39607,
+    "combat": 45472,
+    "reached_search_location_range": false,
+    "reached_combat": false
+  },
+  "validation": {
+    "ok": true,
+    "errors": []
+  },
+  "verdict": "reentry_did_not_dispatch_selected_search_location",
+  "claim_boundary": "proves the captured re-entry parser sequence did not reach ECL1#18 SearchLocation; it does not prove that the ECL route is unreachable under corrected host state"
+}

@@ -1,0 +1,357 @@
+{
+  "schema": "cok-dos-font-glyph-visual-descriptions-draft-v1",
+  "assets": [
+    {
+      "glyphIndex": 89,
+      "visualDescription": "Compact stepped pattern with separated diagonal strokes clustered at the center and right."
+    },
+    {
+      "glyphIndex": 90,
+      "visualDescription": "Angular open form with a broad upper bar, curved left side, and short inner strokes."
+    },
+    {
+      "glyphIndex": 91,
+      "visualDescription": "Three repeated horizontal bars, each interrupted by a short central notch."
+    },
+    {
+      "glyphIndex": 92,
+      "visualDescription": "Single horizontal bar across the middle."
+    },
+    {
+      "glyphIndex": 93,
+      "visualDescription": "Irregular stepped outline with a short upper bar and a diagonal lower section."
+    },
+    {
+      "glyphIndex": 94,
+      "visualDescription": "Angular open outline with short upper and middle strokes and a longer lower stroke."
+    },
+    {
+      "glyphIndex": 95,
+      "visualDescription": "Blank."
+    },
+    {
+      "glyphIndex": 96,
+      "visualDescription": "Blank."
+    },
+    {
+      "glyphIndex": 97,
+      "visualDescription": "Blank."
+    },
+    {
+      "glyphIndex": 98,
+      "visualDescription": "Rounded, broken ring-like pattern with short bars around its center."
+    },
+    {
+      "glyphIndex": 99,
+      "visualDescription": "Broken descending zigzag of short vertical and diagonal strokes on the left."
+    },
+    {
+      "glyphIndex": 100,
+      "visualDescription": "Long upper bar with progressively shorter descending strokes toward the right."
+    },
+    {
+      "glyphIndex": 101,
+      "visualDescription": "Scattered clusters of short horizontal and diagonal strokes."
+    },
+    {
+      "glyphIndex": 102,
+      "visualDescription": "Repeated horizontal bars with short vertical segments between them."
+    },
+    {
+      "glyphIndex": 103,
+      "visualDescription": "Symmetric compact pattern with a central dark gap and stepped outer edges."
+    },
+    {
+      "glyphIndex": 104,
+      "visualDescription": "Stepped angular pattern with a long middle bar and a short lower-right stroke."
+    },
+    {
+      "glyphIndex": 105,
+      "visualDescription": "Left-side vertical strokes, a central horizontal bar, and a descending diagonal cluster."
+    },
+    {
+      "glyphIndex": 106,
+      "visualDescription": "Small staggered strokes forming a broken diagonal and lower horizontal cluster."
+    },
+    {
+      "glyphIndex": 107,
+      "visualDescription": "Sparse descending strokes, with a short diagonal cluster near the lower right."
+    },
+    {
+      "glyphIndex": 108,
+      "visualDescription": "Right-heavy stepped shape with a long upper-right bar and short descending strokes."
+    },
+    {
+      "glyphIndex": 109,
+      "visualDescription": "Upper-left stepped cluster above a long central horizontal bar."
+    },
+    {
+      "glyphIndex": 110,
+      "visualDescription": "Compact stepped outline with a central notch and a short lower-right stroke."
+    },
+    {
+      "glyphIndex": 111,
+      "visualDescription": "Short upper-right diagonal strokes above a long left-to-center bar."
+    },
+    {
+      "glyphIndex": 112,
+      "visualDescription": "Broad stepped outline with a dense horizontal middle and broken lower edge."
+    },
+    {
+      "glyphIndex": 113,
+      "visualDescription": "Tall left-side bars with a compact stepped cluster across the lower half."
+    },
+    {
+      "glyphIndex": 114,
+      "visualDescription": "Dense upper and lower horizontal bars separated by a central gap and short right-side marks."
+    },
+    {
+      "glyphIndex": 115,
+      "visualDescription": "Broad top and bottom bars connected by staggered vertical and diagonal strokes."
+    },
+    {
+      "glyphIndex": 116,
+      "visualDescription": "Long upper-left bar with short descending strokes near the left edge."
+    },
+    {
+      "glyphIndex": 117,
+      "visualDescription": "Dense angular cluster with a broken lower row of short strokes."
+    },
+    {
+      "glyphIndex": 118,
+      "visualDescription": "Three short stacked strokes above a long lower bar."
+    },
+    {
+      "glyphIndex": 119,
+      "visualDescription": "Irregular stepped outline with several separated horizontal bars and a dense lower-right edge."
+    },
+    {
+      "glyphIndex": 120,
+      "visualDescription": "Blank."
+    },
+    {
+      "glyphIndex": 121,
+      "visualDescription": "Blank."
+    },
+    {
+      "glyphIndex": 122,
+      "visualDescription": "Short top bar above a long vertical stroke near the center."
+    },
+    {
+      "glyphIndex": 123,
+      "visualDescription": "Short top-left strokes above a stepped vertical stroke descending at the right."
+    },
+    {
+      "glyphIndex": 124,
+      "visualDescription": "Tall block-like outline with a broad top and repeated inner horizontal gaps."
+    },
+    {
+      "glyphIndex": 125,
+      "visualDescription": "Broad upper bar with several separated short vertical strokes below it."
+    },
+    {
+      "glyphIndex": 126,
+      "visualDescription": "Narrow vertical stroke with a short lower-right foot."
+    },
+    {
+      "glyphIndex": 127,
+      "visualDescription": "Diagonal stepped stroke descending from upper left toward lower right."
+    },
+    {
+      "glyphIndex": 128,
+      "visualDescription": "Diagonal stepped stroke descending toward a broad lower bar."
+    },
+    {
+      "glyphIndex": 129,
+      "visualDescription": "Broad upper bar with a descending diagonal edge and several short right-side strokes."
+    },
+    {
+      "glyphIndex": 130,
+      "visualDescription": "Rounded rectangular outline with repeated inner gaps and a broad lower edge."
+    },
+    {
+      "glyphIndex": 131,
+      "visualDescription": "Broad upper bar and lower bar joined by a central diagonal-and-vertical pattern."
+    },
+    {
+      "glyphIndex": 132,
+      "visualDescription": "Two short upper-right bars above a broad, stepped lower edge."
+    },
+    {
+      "glyphIndex": 133,
+      "visualDescription": "Narrow vertical stroke ending in a short lower-right bar."
+    },
+    {
+      "glyphIndex": 134,
+      "visualDescription": "Irregular diagonal cluster with short upper and lower segments."
+    },
+    {
+      "glyphIndex": 135,
+      "visualDescription": "Three horizontal bars crossed by short vertical strokes."
+    },
+    {
+      "glyphIndex": 136,
+      "visualDescription": "Narrow vertical stroke with a short middle bar and longer lower bar."
+    },
+    {
+      "glyphIndex": 137,
+      "visualDescription": "Long top bar with descending separated strokes forming a diagonal to the lower left."
+    },
+    {
+      "glyphIndex": 138,
+      "visualDescription": "Small central cross-like cluster of short horizontal, vertical, and diagonal strokes."
+    },
+    {
+      "glyphIndex": 139,
+      "visualDescription": "Compact wavy zigzag with alternating left and right protrusions."
+    },
+    {
+      "glyphIndex": 140,
+      "visualDescription": "Similar compact zigzag, offset left, with a narrow middle."
+    },
+    {
+      "glyphIndex": 141,
+      "visualDescription": "Staggered central strokes forming a narrow stepped column."
+    },
+    {
+      "glyphIndex": 142,
+      "visualDescription": "Broad upper and lower bars joined by a narrow vertical middle."
+    },
+    {
+      "glyphIndex": 143,
+      "visualDescription": "Block-like outline with a broad top and bottom and evenly repeated inner gaps."
+    },
+    {
+      "glyphIndex": 144,
+      "visualDescription": "Left vertical stroke with a broken central band and a long lower-right bar."
+    },
+    {
+      "glyphIndex": 145,
+      "visualDescription": "Same visible pattern as glyph 144: left vertical stroke, broken central band, and long lower-right bar."
+    },
+    {
+      "glyphIndex": 146,
+      "visualDescription": "Descending diagonal sequence leading into a broad lower bar."
+    },
+    {
+      "glyphIndex": 147,
+      "visualDescription": "Same visible pattern as glyph 144: left vertical stroke, broken central band, and long lower-right bar."
+    },
+    {
+      "glyphIndex": 148,
+      "visualDescription": "Blank."
+    },
+    {
+      "glyphIndex": 149,
+      "visualDescription": "Diagonal sequence descending from upper right toward lower left."
+    },
+    {
+      "glyphIndex": 150,
+      "visualDescription": "Two short upper-left strokes with a longer left-side bar below."
+    },
+    {
+      "glyphIndex": 151,
+      "visualDescription": "Diagonal sequence descending from upper right, with a broken central bend."
+    },
+    {
+      "glyphIndex": 152,
+      "visualDescription": "Same visible pattern as glyph 150: two short upper-left strokes with a longer left-side bar below."
+    },
+    {
+      "glyphIndex": 153,
+      "visualDescription": "Diagonal sequence descending from upper right, with several staggered middle strokes."
+    },
+    {
+      "glyphIndex": 154,
+      "visualDescription": "Left-side cluster of short bars followed by a descending diagonal toward the lower right."
+    },
+    {
+      "glyphIndex": 155,
+      "visualDescription": "Diagonal upper-right strokes above a stepped, curved lower cluster."
+    },
+    {
+      "glyphIndex": 156,
+      "visualDescription": "Left-side descending diagonal connected to a short upper-left bar and a lower-right cluster."
+    },
+    {
+      "glyphIndex": 157,
+      "visualDescription": "Three small right-side marks near the lower edge."
+    },
+    {
+      "glyphIndex": 158,
+      "visualDescription": "Descending diagonal band from upper left, ending in a short left-side vertical stroke."
+    },
+    {
+      "glyphIndex": 159,
+      "visualDescription": "Same visible pattern as glyph 157: three small right-side marks near the lower edge."
+    },
+    {
+      "glyphIndex": 160,
+      "visualDescription": "Repeated descending diagonal strokes, with a staggered central sequence."
+    },
+    {
+      "glyphIndex": 161,
+      "visualDescription": "Sparse descending diagonal with a short right-side lower cluster."
+    },
+    {
+      "glyphIndex": 162,
+      "visualDescription": "Same visible pattern as glyph 160: repeated descending diagonal strokes with a staggered center."
+    },
+    {
+      "glyphIndex": 163,
+      "visualDescription": "Stepped diagonal descending from upper left to lower right, ending in a small corner mark."
+    },
+    {
+      "glyphIndex": 164,
+      "visualDescription": "Descending diagonal band from upper left, ending in a short left-side vertical stroke."
+    },
+    {
+      "glyphIndex": 165,
+      "visualDescription": "Stepped upper-left cluster with a long diagonal continuation down the right side."
+    },
+    {
+      "glyphIndex": 166,
+      "visualDescription": "Dense descending diagonal at the upper left followed by separated strokes down the right side."
+    },
+    {
+      "glyphIndex": 167,
+      "visualDescription": "Blank."
+    },
+    {
+      "glyphIndex": 168,
+      "visualDescription": "Three short vertical strokes beneath a broad upper bar."
+    },
+    {
+      "glyphIndex": 169,
+      "visualDescription": "Three short vertical strokes beneath a broad upper bar, each with a small side notch."
+    },
+    {
+      "glyphIndex": 170,
+      "visualDescription": "Three short vertical strokes beneath a broad upper bar, with alternating side notches."
+    },
+    {
+      "glyphIndex": 171,
+      "visualDescription": "Three short vertical strokes beneath a broad left-aligned bar, with alternating side notches."
+    },
+    {
+      "glyphIndex": 172,
+      "visualDescription": "Two short vertical strokes above a broad bar and a single descending left-side stroke."
+    },
+    {
+      "glyphIndex": 173,
+      "visualDescription": "Two short vertical strokes above a broad bar enclosing a repeated dotted inner pattern."
+    },
+    {
+      "glyphIndex": 174,
+      "visualDescription": "Two short vertical strokes above a broad bar enclosing a staggered inner pattern."
+    },
+    {
+      "glyphIndex": 175,
+      "visualDescription": "Two short vertical strokes above a broad bar enclosing a dense alternating pattern."
+    },
+    {
+      "glyphIndex": 176,
+      "visualDescription": "Broad left-aligned bar above three rows of alternating foreground and background pixels."
+    }
+  ]
+}

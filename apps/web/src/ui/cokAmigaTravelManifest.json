@@ -1,0 +1,38 @@
+{
+  "game": "cok",
+  "system": "Amiga",
+  "archive": "BIGPIC1.DAA",
+  "archiveByteLength": 103275,
+  "archiveSha256": "6267f07ad52f4a7bc6bdf958c5201e7b4e3bc826547ec3c7626579ee9bf89fed",
+  "archiveProvenance": "Exact local candidate-package copy only; original Amiga installation provenance is not established.",
+  "baseSource": {
+    "game": "cok",
+    "system": "DOS-EGA",
+    "archive": "BIGPIC1.DAX",
+    "archiveSha256": "34cf5207584cb859817e1fc9b579cd51beea2e00e3393adbdc251e07f93483ec",
+    "blockId": 121,
+    "frameIndex": 0,
+    "blockSha256": "62b78a91d3e1b876f15ef70396c87b03279a996b22b5a16f781208f9bea0b395"
+  },
+  "blockId": 121,
+  "frameIndex": 0,
+  "blockSha256": "e75ffeaeb94e8b86dd1e96e0252905cb169374e9fc8534994897833263dc5438",
+  "container": {
+    "kind": "blocks",
+    "dataBase": 47,
+    "entryCount": 5
+  },
+  "decoded": {
+    "width": 304,
+    "height": 120,
+    "xOffset": 0,
+    "yOffset": 0,
+    "transparentIndex": null,
+    "encoding": "daa-planar5",
+    "paletteSource": "amiga-12bit",
+    "paletteFirstColor": 0,
+    "paletteCount": 32,
+    "rgbSha256": "1986e5875cf01e505a42d978bef08a6d55a9c55f2f66da39504f679707873f35",
+    "decodedPngSha256": "f1c63b100923a31dcc858e558e6cff82745bf1423add3a7981c73c1909a27976"
+  }
+}

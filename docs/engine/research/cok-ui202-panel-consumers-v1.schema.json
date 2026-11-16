@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://goldbox.invalid/schemas/cok-ui202-panel-consumers-v1.json",
+  "title": "CoK DOS block-202 panel consumer evidence",
+  "type": "object",
+  "required": ["schema", "scope", "sourceArchive", "baseReceipt", "sourcePins", "sharedRenderer", "panels", "tiles", "limits"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": "cok-ui202-panel-consumers-v1" },
+    "scope": { "type": "string", "minLength": 1 },
+    "sourceArchive": {
+      "type": "object",
+      "required": ["path", "sha256", "entry"],
+      "additionalProperties": false,
+      "properties": {
+        "path": { "const": "Champions of Krynn/8X8D1.DAX" },
+        "sha256": { "$ref": "#/$defs/hash" },
+        "entry": {
+          "type": "object",
+          "required": ["entryIndex", "blockId", "offset", "storedBytes", "declaredRawBytes", "payloadSha256", "rawSha256", "drawableCount"],
+          "additionalProperties": false,
+          "properties": {
+            "entryIndex": { "const": 1 },
+            "blockId": { "const": 202 },
+            "offset": { "type": "integer", "minimum": 0 },
+            "storedBytes": { "type": "integer", "minimum": 1 },
+            "declaredRawBytes": { "type": "integer", "minimum": 1 },
+            "payloadSha256": { "$ref": "#/$defs/hash" },
+            "rawSha256": { "$ref": "#/$defs/hash" },
+            "drawableCount": { "const": 38 }
+          }
+        }
+      }
+    },
+    "baseReceipt": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "path": { "const": "docs/engine/research/cok-ui202-consumers-v1.json" },
+        "sha256": { "$ref": "#/$defs/hash" }
+      }
+    },
+    "sourcePins": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": { "type": "string", "minLength": 1 },
+      "additionalProperties": { "$ref": "#/$defs/hash" }
+    },
+    "sharedRenderer": {
+      "type": "object",
+      "required": ["layout", "path", "drawChain", "tileValues", "condition"],
+      "additionalProperties": false,
+      "properties": {
+        "layout": { "const": "COK_FRAME_LAYOUT" },
+        "path": { "const": "packages/engine/src/render/exploreScreen.ts" },
+        "drawChain": { "const": ["drawOuterBorder", "putFrame", "frameTile", "blitTile"] },
+        "tileValues": { "const": [20, 21, 22, 23, 24, 25] },
+        "condition": { "type": "string", "minLength": 1 }
+      }
+    },
+    "panels": {
+      "type": "array",
+      "minItems": 11,
+      "maxItems": 11,
+      "items": {
+        "type": "object",
+        "required": ["id", "routes"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "enum": ["character-sheet", "automap", "party-hud", "inventory", "journal", "main-menu", "reference-database", "spellbook", "town", "treasure", "wilderness"] },
+          "routes": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$defs/route" }
+          }
+        }
+      }
+    },
+    "tiles": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["assetId", "tileIndex", "pixelSha256", "locator", "decodedPngPath", "decodedPngRepoPath", "decodedPngSha256", "panelIds"],
+        "additionalProperties": false,
+        "properties": {
+          "assetId": { "type": "string", "pattern": "^cok/dos-ega/disk1/8x8d1\\.dax/block/202/tile/(2[0-5])$" },
+          "tileIndex": { "type": "integer", "minimum": 20, "maximum": 25 },
+          "pixelSha256": { "$ref": "#/$defs/hash" },
+          "locator": {
+            "type": "object",
+            "required": ["kind", "blockId", "entryIndex", "frameIndex", "tileIndex", "cellIndex"],
+            "additionalProperties": false,
+            "properties": {
+              "kind": { "const": "tile" },
+              "blockId": { "const": 202 },
+              "entryIndex": { "type": "null" },
+              "frameIndex": { "type": "null" },
+              "tileIndex": { "type": "integer", "minimum": 20, "maximum": 25 },
+              "cellIndex": { "type": "null" }
+            }
+          },
+          "decodedPngPath": { "type": "string", "pattern": "^images/[a-f0-9]{64}\\.png$" },
+          "decodedPngRepoPath": { "type": "string", "pattern": "^apps/web/dist-app-cok57/restyle/cok-generated/images/[a-f0-9]{64}\\.png$" },
+          "decodedPngSha256": { "$ref": "#/$defs/hash" },
+          "panelIds": {
+            "type": "array",
+            "minItems": 11,
+            "maxItems": 11,
+            "uniqueItems": true,
+            "items": { "$ref": "#/$defs/panelId" }
+          }
+        }
+      }
+    },
+    "limits": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+  },
+  "$defs": {
+    "hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "panelId": { "enum": ["character-sheet", "automap", "party-hud", "inventory", "journal", "main-menu", "reference-database", "spellbook", "town", "treasure", "wilderness"] },
+    "route": {
+      "type": "object",
+      "required": ["id", "producer", "consumer"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "producer": { "type": "string", "minLength": 1 },
+        "consumer": { "type": "string", "minLength": 1 },
+        "condition": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

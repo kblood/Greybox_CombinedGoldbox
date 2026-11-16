@@ -1,0 +1,37 @@
+{
+  "id": "champions-amiga",
+  "title": "Champions of Krynn",
+  "platform": "Amiga",
+  "container": "DAA (big-endian 5-plane planar, 12-bit palette) + IFF/ILBM",
+  "endianness": "big",
+  "display": { "width": 320, "height": 200, "pixelAspect": 1, "defaultZoom": 2 },
+  "files": [
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk1/scrn1b.lbm", "category": "title", "label": "scrn1b (title screen)" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk1/scrn2.lbm", "category": "title", "label": "scrn2 (title screen)" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk1/gothic.lbm", "category": "ui", "label": "gothic (font/logo)" },
+
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk2/BIGPIC1.DAA", "category": "scenes", "label": "BIGPIC1 (scenes)" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk3/bigpic2.daa", "category": "scenes", "label": "bigpic2 (scenes)" },
+
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk2/CPIC1.DAA", "category": "portraits", "label": "CPIC1 (combat portraits)" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk3/cpic2.daa", "category": "portraits", "label": "cpic2 (combat portraits)" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk2/HEAD1.DAA", "category": "portraits", "label": "HEAD1 (character heads)" },
+
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk1/SKY.DAA", "category": "backdrops", "label": "SKY (wilderness sky)" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk1/BORDER.DAA", "category": "backdrops", "label": "BORDER (frame backdrop)" },
+
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk1/8X8D0.DAA", "category": "tiles", "label": "8X8D0 (8x8 dungeon tiles)" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk2/8X8D1.DAA", "category": "tiles", "label": "8X8D1 (8x8 dungeon tiles)" },
+
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk1/comspr.daa", "category": "sprites", "label": "comspr (combat sprites)" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk1/DUNGCOM.DAA", "category": "sprites", "label": "DUNGCOM (dungeon combat)" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk2/SPRIT1.DAA", "category": "sprites", "label": "SPRIT1 (creature sprites)", "note": "DAA 6-byte sub-frame index; stored-frame extraction is pinned, but native pixel layout, frame selection and candidate tail/XOR rendering remain unverified" },
+
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk2/BODY1.DAA", "category": "ui", "label": "BODY1 (paperdoll body)" },
+
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk2/GEO1.DAX", "category": "data", "label": "GEO1 (dungeon maps)", "decode": false, "note": "GEO map data — decoder not yet ported" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk2/MON1CHA.DAX", "category": "data", "label": "MON1CHA (monster tables)", "decode": false, "note": "monster data — decoder not yet ported" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk2/ITEM1.DAX", "category": "data", "label": "ITEM1 (item tables)", "decode": false, "note": "item data — decoder not yet ported" },
+    { "path": "amiga_extracted/ChampionsOfKrynn/disk2/ECL1.DAX", "category": "data", "label": "ECL1 (event scripts)", "decode": false, "note": "ECL bytecode — decoder not yet ported" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "game": "cok",
+  "system": "DOS-EGA",
+  "archive": "Champions of Krynn/PIC1.DAX",
+  "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+  "blockId": 58,
+  "frameIndex": 0,
+  "source": {
+    "file": "renders/dax_complex/CoK_PIC1/PIC1_058_f0.png",
+    "sha256": "ab274f539c435b02685a5b612360071906fa93294317846c0fe93e7022d67fc9",
+    "nativeWidth": 88,
+    "nativeHeight": 88,
+    "pixelScale": 4,
+    "width": 352,
+    "height": 352,
+    "colorType": 2
+  },
+  "restyle": {
+    "file": "PIC1_058_f0_restyle.png",
+    "reviewedImport": "batch03_work/pic1_058_restyle_candidate_v2_import.png",
+    "sha256": "8fc50df402ea2f44001312e1556445ad7ac45a12506be60920e565232657dceb",
+    "nativeWidth": 88,
+    "nativeHeight": 88,
+    "pixelScale": 16,
+    "colorType": 2,
+    "destination": "dialogue/PIC1_058_f0_restyle.png"
+  }
+}

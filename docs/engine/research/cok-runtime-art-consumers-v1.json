@@ -1,0 +1,630 @@
+{
+  "combatDisks": {
+    "ECL1.DAX": {
+      "archiveSha256": "5f3e5fdc1734f8aed583233da9c97630b130ad5628eee0f18d875291dfa5e26b",
+      "bank": "CPIC1"
+    },
+    "ECL2.DAX": {
+      "archiveSha256": "7925da2db12a4e42ffc2df737fce830fddede11ae9d350e61a9a53f2950b94e4",
+      "bank": "CPIC2"
+    },
+    "ECL3.DAX": {
+      "archiveSha256": "8a6e976bcc69ab4099ae5c990f6b2926c9a915f9d58b2545b170d0e6cc4da395",
+      "bank": "CPIC3"
+    }
+  },
+  "consumers": {
+    "character-sheet": {
+      "modeBehavior": {
+        "Amiga": "The mapped preview uses the DOS original.",
+        "DOS-EGA": "Render mapped original frame index 0 when available.",
+        "Restyle": "Render the ready replacement for frame index 0, with composed DOS original fallback. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/charSheet.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs"
+      ]
+    },
+    "combat-icons": {
+      "modeBehavior": {
+        "Amiga": "The selected DOS CPIC bank continues to supply combat icons because no Amiga CPIC mapping is admitted; the CoK demo can select an Amiga DUNGCOM backdrop independently. CoK demo combat archives are read from the selected Library install, and missing selected-install banks fail explicitly.",
+        "DOS-EGA": "Use the decoded icon from the source bank selected by the combat consumer. The CoK demo reads its DOS combat archives from the selected Library install; missing selected-install banks fail explicitly.",
+        "Restyle": "Require source archive SHA and picture ID, pinned output, and geometry/silhouette checks. Retain the selected original icon for missing or invalid replacement. The CoK demo reads combat archives from the selected Library install and admitted Restyle outputs from the selected local Restyle folder. Unsupported icon families retain the selected original-system fallback; missing selected-install banks fail explicitly and do not use packaged game archives. Production requires exact SHA-pinned Restyle bytes; present invalid bytes fail closed, and served-image fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/src/ui/cokCombatRestyle.ts",
+        "apps/web/src/ui/combat.ts",
+        "apps/web/src/ui/demo.ts",
+        "apps/web/src/ui/demoCombatGraphics.ts",
+        "apps/web/src/ui/demoGen1.ts",
+        "apps/web/src/ui/explore.ts",
+        "apps/web/src/ui/gameData.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/runtimeGraphicsMode.ts",
+        "apps/web/test/asset-source-path.test.mjs",
+        "apps/web/test/cok-demo-runtime-graphics.mjs",
+        "apps/web/test/demo-combat-graphics.test.mjs",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "packages/engine/src/ecl/vm.ts"
+      ]
+    },
+    "combat-player": {
+      "modeBehavior": {
+        "Amiga": "The mapped icon uses the DOS original.",
+        "DOS-EGA": "Use mapped DOS original frame index 0 when available.",
+        "Restyle": "Use ready Restyle frame index 0; otherwise use original combat rendering. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/combat.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs"
+      ]
+    },
+    "combat-terrain": {
+      "modeBehavior": {
+        "Amiga": "Use mapped Amiga terrain when available; use original when unavailable.",
+        "DOS-EGA": "Use DOS terrain tiles.",
+        "Restyle": "Use reviewed source-bound DUNGCOM replacements for matching tiles, preserving original terrain where replacements are unavailable. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/explore.ts",
+        "apps/web/src/ui/combat.ts",
+        "apps/web/src/ui/cokTerrainRestyle.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs"
+      ]
+    },
+    "cottage": {
+      "modeBehavior": {
+        "Amiga": "Use the selected and admitted BIGPIC1.DAA #112 when available; otherwise use DOS original. Original bytes come only from the selected Library AssetSource and must match the admitted archive identity; missing or foreign bytes use the documented original/DOS fallback. The Amiga archive-preview picker is not this gameplay source.",
+        "DOS-EGA": "Render the bounded DOS opening scene original.",
+        "Restyle": "Match the bounded DOS base and exact Amiga-derived output, with no requirement to load the Amiga original. If unavailable, use original fallback priority. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/explore.ts",
+        "apps/web/src/ui/cokOpeningArt.ts",
+        "apps/web/src/ui/cok-opening-source.mjs",
+        "apps/web/src/ui/dialogue.ts",
+        "packages/engine/test/cokNewGameRoute.test.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs",
+        "packages/engine/src/loaders/daa.ts",
+        "apps/web/test/cok-opening-source.test.mjs",
+        "packages/engine/test/daa.test.ts"
+      ]
+    },
+    "creator": {
+      "modeBehavior": {
+        "Amiga": "The mapped preview uses DOS originals.",
+        "DOS-EGA": "Render the mapped original variants 0 and 1 when available.",
+        "Restyle": "Render each ready replacement independently; retain its composed DOS original while pending, held or failed. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/create.ts",
+        "apps/web/src/ui/cokPlayerAppearanceChoices.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs"
+      ]
+    },
+    "demo-picture": {
+      "modeBehavior": {
+        "Amiga": "Use an admitted Amiga counterpart when available, otherwise use the DOS demo picture.",
+        "DOS-EGA": "Use the DOS demo source picture.",
+        "Restyle": "Use the pinned demo output only for the bound scene; original fallback remains available. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/demoGen1.ts",
+        "apps/web/src/ui/cokDemoArt.ts",
+        "apps/web/src/ui/dialogue.ts",
+        "apps/web/src/ui/demo.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs"
+      ]
+    },
+    "dialogue-pictures": {
+      "modeBehavior": {
+        "Amiga": "Use a scene-specific admitted Amiga original when available, otherwise use the original dialogue picture. Original bytes come only from the selected Library AssetSource and must match the admitted archive identity; missing or foreign bytes use the documented original/DOS fallback. The Amiga archive-preview picker is not this gameplay source.",
+        "DOS-EGA": "Render current original dialogue picture.",
+        "Restyle": "Require exact scene source and admitted output. Some Amiga counterpart scene adapters require a successfully admitted Amiga original. An unavailable pilot retains original art. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/explore.ts",
+        "apps/web/src/ui/dialogue.ts",
+        "apps/web/src/ui/cokPortraitArt.ts",
+        "apps/web/src/ui/cokAmigaPortrait18Runtime.ts",
+        "apps/web/src/ui/cokAmigaPortrait18Art.ts",
+        "apps/web/src/ui/cokAmigaPortrait57Runtime.ts",
+        "apps/web/src/ui/cokAmigaPortrait57Art.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs",
+        "packages/engine/src/loaders/daa.ts",
+        "apps/web/test/cok-amiga-portrait18-runtime.test.mjs",
+        "packages/engine/test/cokAmigaPortrait18Admission.test.ts",
+        "packages/engine/test/daa.test.ts"
+      ]
+    },
+    "dungeon-walls": {
+      "modeBehavior": {
+        "Amiga": "Use the admitted Amiga wall source where available; preserve the current original where unavailable.",
+        "DOS-EGA": "Use the selected DOS wall bank.",
+        "Restyle": "Overlay only on matching DOS 8X8D1 archive/block/tile identities; preserve original wall rendering if the corresponding layers are unavailable or invalid. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/explore.ts",
+        "apps/web/src/ui/cokWallRestyle.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs"
+      ]
+    },
+    "graphics-mode": {
+      "modeBehavior": {
+        "Amiga": "Last original preference is retained for use by Restyle fallbacks.",
+        "DOS-EGA": "CoK selection is persisted per game; Library launch enters exploration.",
+        "Restyle": "Mode selection dispatches goldbox:graphics-mode. Each rendering consumer decides what is available. Selecting this mode does not imply a Restyle folder or original game archive is available."
+      },
+      "sources": [
+        "apps/web/src/ui/runtimeGraphicsMode.ts",
+        "apps/web/src/ui/library.ts"
+      ]
+    },
+    "main-menu": {
+      "modeBehavior": {
+        "Amiga": "The CoK main-menu text and chrome remain on the DOS-EGA presentation. The selected DOS AssetSource supplies 8X8D1.DAX block 202 border tiles 20\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u015325 and block 201 glyphs addressable by the UI (0\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u015363); this controller does not read graphics mode or verify the archive SHA. Missing/invalid local bytes leave the frame and font unavailable. No Amiga or Restyle replacement is admitted.",
+        "DOS-EGA": "Render the CoK main menu with the DOS-EGA surface, selected-install 8X8D1.DAX block 202 border tiles 20\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u015325, and block 201 glyphs addressable by the UI (0\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u015363). The selected archive is not hash-verified by this controller; missing/invalid bytes leave the frame and font unavailable.",
+        "Restyle": "The CoK main-menu text and chrome remain on the DOS-EGA presentation. The controller does not resolve Restyle art; it loads original block 202 border tiles 20\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u015325 and block 201 glyphs 0\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u015363 from the selected DOS AssetSource without verifying the archive SHA. No Amiga or Restyle replacement is admitted."
+      },
+      "sources": [
+        "apps/web/src/ui/mainMenu.ts",
+        "packages/engine/src/render/mainMenu.ts",
+        "packages/engine/src/render/exploreScreen.ts",
+        "packages/engine/src/render/textmode.ts",
+        "packages/engine/src/render/menuBar.ts",
+        "packages/engine/src/loaders/cokFont.ts"
+      ]
+    },
+    "player-loader": {
+      "modeBehavior": {
+        "Amiga": "The current mapped player icon loader composes DOS originals.",
+        "DOS-EGA": "Compose mandatory pinned DOS originals before optional output loading. A valid canonical source-ID projection supplies the component requests; unavailable canonical evidence retains the pinned DOS-original plan.",
+        "Restyle": "Require exact canonical tuple, variant locator, source/output membership and separate frame admission before optional Restyle requests. Invalid canonical binding makes no optional requests and keeps DOS originals; held or failed frames also retain their originals. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/cokPlayerAppearance.ts",
+        "apps/web/src/ui/cok-player-restyle-admission.mjs",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs",
+        "apps/web/src/ui/cok-player-canonical-bindings.mjs",
+        "apps/web/src/ui/cokPlayerCanonicalBindings.json",
+        "tools/cok-player-canonical-bindings.mjs",
+        "apps/web/scripts/bundle-cok-player-appearance.mjs",
+        "apps/web/test/cok-player-canonical-bindings.test.mjs"
+      ]
+    },
+    "title": {
+      "modeBehavior": {
+        "Amiga": "Paint the DOS title fallback.",
+        "DOS-EGA": "Paint the DOS title screen.",
+        "Restyle": "Require exact title archive and all output layers for the current screen. On failure paint the complete DOS screen. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only. The same title runtime is used by the three-screen CoK intro and the title-menu/retained backdrop; this route shares the existing three compositions."
+      },
+      "sources": [
+        "apps/web/src/ui/titleMenu.ts",
+        "apps/web/src/ui/cokTitleRuntime.ts",
+        "apps/web/src/ui/cokTitleArt.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs",
+        "apps/web/src/ui/intro.ts",
+        "apps/web/test/cok-title-restyle-static.test.mjs"
+      ]
+    },
+    "town-services": {
+      "modeBehavior": {
+        "Amiga": "Town text and services remain on the DOS-EGA presentation. The controller reads the CoK graphics preference and displays an explicit DOS fallback notice; it does not substitute Amiga art. It uses the selected CoK Library AssetSource when one is supplied; otherwise it loads the bundled DOS archive. The archive SHA is not verified. Missing/invalid local bytes leave the frame and font unavailable. No Amiga replacement is admitted.",
+        "DOS-EGA": "Render Town text/services with the DOS-EGA surface and 8X8D1.DAX block 202 border tiles 20-25 plus block 201 glyphs addressable by the UI (0-63). It uses the selected CoK Library AssetSource when one is supplied; otherwise it loads the bundled DOS archive. The archive SHA is not verified. Missing/invalid local bytes leave the frame and font unavailable. No fallback notice is shown.",
+        "Restyle": "Town text and services remain on the DOS-EGA presentation. The controller reads the CoK graphics preference and displays an explicit DOS fallback notice; it does not resolve Restyle art. It uses the selected CoK Library AssetSource when one is supplied; otherwise it loads the bundled DOS archive. The archive SHA is not verified. Missing/invalid local bytes leave the frame and font unavailable. No Restyle replacement is admitted."
+      },
+      "sources": [
+        "apps/web/src/ui/runtimeGraphicsMode.ts",
+        "apps/web/src/ui/town.ts",
+        "apps/web/src/ui/viewer.css",
+        "apps/web/test/town-graphics-fallback.test.mjs",
+        "packages/engine/src/loaders/cokFont.ts",
+        "packages/engine/src/render/exploreScreen.ts",
+        "packages/engine/src/render/menuBar.ts",
+        "packages/engine/src/render/textmode.ts",
+        "packages/engine/src/render/townScreen.ts"
+      ]
+    },
+    "travel-map": {
+      "modeBehavior": {
+        "Amiga": "Use admitted BIGPIC1.DAA #121 with town names; hiding names selects the DOS base map. Fall back to DOS on unavailable Amiga bytes. Original bytes come only from the selected Library AssetSource and must match the admitted archive identity; missing or foreign bytes use the documented original/DOS fallback. The Amiga archive-preview picker is not this gameplay source.",
+        "DOS-EGA": "Use DOS BIGPIC1.DAX #121 and preserve the map cursor.",
+        "Restyle": "Use the DOS-derived output with the runtime cursor. The travel overlay falls back to the DOS map; the dialogue scene uses original fallback priority. Production reads exact SHA-pinned bytes only from the selected local Restyle folder; a missing file keeps this route\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2s original/unavailable fallback, while present bytes with a bad hash fail closed. A served-file fallback is development-only."
+      },
+      "sources": [
+        "apps/web/src/ui/explore.ts",
+        "apps/web/src/ui/dialogue.ts",
+        "apps/web/src/ui/cokTravelArt.ts",
+        "apps/web/src/ui/cokAmigaTravelArt.ts",
+        "apps/web/src/ui/cokAmigaTravelRuntime.ts",
+        "apps/web/src/ui/cokTravelMapPresentation.ts",
+        "apps/web/src/ui/localAssetPack.ts",
+        "apps/web/src/ui/localAssetPackCore.mjs",
+        "apps/web/src/ui/assetSource.ts",
+        "apps/web/src/ui/catalog.ts",
+        "apps/web/test/local-asset-pack-core.test.mjs",
+        "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs",
+        "apps/web/test/public-artwork-local-only.test.mjs",
+        "apps/web/test/asset-source-path.test.mjs",
+        "packages/engine/src/loaders/daa.ts",
+        "packages/engine/test/cokAmigaTravelAdmission.test.ts",
+        "packages/engine/test/daa.test.ts"
+      ]
+    }
+  },
+  "cottage": {
+    "base": {
+      "archive": "BIGPIC1.DAX",
+      "archiveSha256": "34cf5207584cb859817e1fc9b579cd51beea2e00e3393adbdc251e07f93483ec",
+      "blockId": 112,
+      "frameIndex": 0,
+      "system": "DOS-EGA"
+    },
+    "evidence": "apps/web/src/ui/cok-opening-source.mjs",
+    "outputPath": "out/002_scene_cok_cottage.png",
+    "outputSha256": "fbe3b9e6db24c0d7a79ee07f3d254edbd4230de93e0975d1b776177787284e14",
+    "source": {
+      "archive": "BIGPIC1.DAA",
+      "archiveSha256": "6267f07ad52f4a7bc6bdf958c5201e7b4e3bc826547ec3c7626579ee9bf89fed",
+      "blockId": 112,
+      "frameIndex": 0,
+      "system": "Amiga"
+    },
+    "sourcePngSha256": "e5cc5da1f6119f72ec85f4d0e80b6e14050da4aa45a7c69865da05041f2da020"
+  },
+  "demoCombat": {
+    "archive": "ECL2.DAX",
+    "blockId": 57,
+    "enemyGroups": [
+      [
+        10,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        31,
+        6
+      ]
+    ],
+    "evidence": [
+      "apps/web/src/ui/demo.ts",
+      "apps/web/src/ui/demoCombatGraphics.ts",
+      "apps/web/test/demo-combat-graphics.test.mjs"
+    ],
+    "partyPictureIds": [
+      60,
+      62,
+      61
+    ]
+  },
+  "inputs": {
+    "apps/web/scripts/bundle-cok-player-appearance.mjs": "04703eef3111581c5db051178566fb02525b1042152ca10b1f68bc963d40f744",
+    "apps/web/src/ui/assetSource.ts": "8edb5cd89a1782ba8b2b1afb290fdb554890fc417ec8442007f0dd0f9417b995",
+    "apps/web/src/ui/catalog.ts": "278aa9663bec2404ff03ee30e5a3bcc5908ff61f595487b2b5ce880e002392f8",
+    "apps/web/src/ui/charSheet.ts": "8c09f039a2d6333db2686d0b5bf1e0436e9701ec1969324bb88053cdd18a58fb",
+    "apps/web/src/ui/cok-opening-source.mjs": "78d5ecb499da216054853c52b347f58dcef9950ce86e9af52246e62485699f0f",
+    "apps/web/src/ui/cok-player-canonical-bindings.mjs": "fa1bf8595b853131c56189590aa307210dd357c4c2169000cb566e724f7386fc",
+    "apps/web/src/ui/cok-player-restyle-admission.mjs": "15273deaf4574be5607d575e794dba586f86809910580e11c1eb73695ce4cd52",
+    "apps/web/src/ui/cokAmigaDialogue18RestyleManifest.json": "f4162ce7457362dad2cd1291183a3bdfa0b2ca55ec690d8e3bc785f064eeb448",
+    "apps/web/src/ui/cokAmigaDialogue57RestyleManifest.json": "ea1440b3c4a8cbeda6a395d77d5d01ca1b24bb074e0ea52a0369d97a452d4b5c",
+    "apps/web/src/ui/cokAmigaPortrait18Art.ts": "f2c238cdb93d1de77fc1fd0123e537a16354eea66eee167f2847295f21b72b93",
+    "apps/web/src/ui/cokAmigaPortrait18Runtime.ts": "b9d1dde499c2180dcdae1a65113466d3a023ade8757c2456cab95f8f2bc86a0e",
+    "apps/web/src/ui/cokAmigaPortrait57Art.ts": "c0d73b871180d7a0af1986924fe6b8e89e46a1835b09c5440f7d2c4cc04c019d",
+    "apps/web/src/ui/cokAmigaPortrait57Runtime.ts": "f678a5c593e0573c6ddd15faba2e7e97735ba12cc34e5fdb86a3de29cee344f4",
+    "apps/web/src/ui/cokAmigaTravelArt.ts": "a889a8173c27b967f2227956e7489df7ce8df0d0d140cfad97161e942b80418f",
+    "apps/web/src/ui/cokAmigaTravelManifest.json": "afc4b4eeca42471fcdeda8bd5b31c9ff6d00651806bdbc6f1330db00ec6f2396",
+    "apps/web/src/ui/cokAmigaTravelRuntime.ts": "499d9f69d860442cdd5956db2d56087d3c77db1b191a072c96e73a89600a0be5",
+    "apps/web/src/ui/cokCombatRestyle.ts": "d128b428846d2e2bc08900443c66bfceb898298c13cec55451aee2cb392fc205",
+    "apps/web/src/ui/cokCombatRestyleManifest.json": "ea88bef9170b4ecfea077e9ca42f052832c752fd50f32196e67e170770892e45",
+    "apps/web/src/ui/cokDemoArt.ts": "3014475d45b69cf577c8623298181407c81eae2ab952cf5764fa0ff0d0e7c167",
+    "apps/web/src/ui/cokDemoArtManifest.json": "685cc0126790cf532e7a09eb29d44702bdfda684ea607816ed196b909c33478f",
+    "apps/web/src/ui/cokDialogue15RestyleManifest.json": "be99ab2a1161e1c4d81264df16bfeec7e76204b75d8e5070b9b1eb56bd7ade54",
+    "apps/web/src/ui/cokDialogue58RestyleManifest.json": "0ff03971562fe5c50a0c45339519597c58f763d5cee74e3169ad3d3449138b7b",
+    "apps/web/src/ui/cokDialogueRestyleManifest.json": "b2c5b5fc26c6db695120c4b38c405bb414064a36fb37eb332befb3dd759b8d17",
+    "apps/web/src/ui/cokOpeningArt.ts": "fee3e2d96a102aeef1e5764f377f22ddaff17ee852b5498174aecb7c262cdd12",
+    "apps/web/src/ui/cokPlayerAppearance.ts": "cabf5e66907960be3a66e9dfacb16a06ba14e248c8fccd8c6516baace79f2d99",
+    "apps/web/src/ui/cokPlayerAppearanceChoices.ts": "c8430fe7358990a6435bd26d3670457bd9bab5ffd00e7322ad5a1c36530b020f",
+    "apps/web/src/ui/cokPlayerAppearanceManifest.json": "3dad37bc789586ddff083a50a2814339141ccc1692290986ac96ac0c5ceb1bb2",
+    "apps/web/src/ui/cokPlayerCanonicalBindings.json": "319af29b8ce2b4114d8616a0dd7e235fcc26a971ab4d54fb1682c5dd2d9b1331",
+    "apps/web/src/ui/cokPlayerRestyleAdmission.json": "4910545fed3de4b3b5726b98ec4e1766314af7535adf17489f81872dd8f7898d",
+    "apps/web/src/ui/cokPortraitArt.ts": "e9f8c98e7e405b8bbf17609b4d709296dc843459de0e37ff3c0f7c4d7b8cec80",
+    "apps/web/src/ui/cokTerrainRestyle.ts": "40e7b27976a83c8d8046b22e79a4dcabdde869505b9e7ba1590dc7858efa4372",
+    "apps/web/src/ui/cokTerrainRestyleManifest.json": "18e16986ee18d0e91cf62b1d3aa2540b8f1333bb5e7720057e2100fdaf178607",
+    "apps/web/src/ui/cokTitleArt.ts": "f0050eb40c99f3609a3847a72771b1392371e2b0818ad206018ee1d478ae1009",
+    "apps/web/src/ui/cokTitleRestyleManifest.json": "c61fe3594bd23b95bd79ea97b90789f45cb503b5a9b43b547cf72feb5ab272f7",
+    "apps/web/src/ui/cokTitleRuntime.ts": "b4a973051b8963504d5e278a900b790fc1181de43221807123c6746ae8236caa",
+    "apps/web/src/ui/cokTravelArt.ts": "f5a179da557ca243085c105519fa717a948799720a01b589ee784dd2d46e7c14",
+    "apps/web/src/ui/cokTravelMapPresentation.ts": "5ecc120104cb1d8b2b8bf1b22500e198f9d73615d2c60981090434ea1e6278f7",
+    "apps/web/src/ui/cokTravelRestyleManifest.json": "aced0dee1dcce6f651260e058c88bfcf1e7c05792faa8ce5112e47108e4106eb",
+    "apps/web/src/ui/cokWallRestyle.ts": "0dcf21e6276855d38e8e68363b941c61c885877a4a6f025c397b30827efb6454",
+    "apps/web/src/ui/cokWallRestyleManifest.json": "701a6df9b5ffc7c998609ebd34b77d3ee72895eb9e0cdcbdf1cac84eb8b2f47a",
+    "apps/web/src/ui/combat.ts": "751eca5bc7b295a63cfa8d5597523b062be3f0d5d230f9382c3c7fd7199264b7",
+    "apps/web/src/ui/create.ts": "b9e0e6b5756caef375a21f4cbb80b4cd0f49323302293d51498f43459b491b50",
+    "apps/web/src/ui/demo.ts": "5d8915bc3820681d132ed64a6204643a12afc1b6064cec66118b63ce113390c9",
+    "apps/web/src/ui/demoCombatGraphics.ts": "f462b7d5a2abc3baa574e9e8bbc1e6d9b98999c93e9e8d79c6992ff0b0a8bb50",
+    "apps/web/src/ui/demoGen1.ts": "ae0abfb2340a655b8b2ec0ddd060d6a7a735b30a2e1d37c2b87075f3715530ab",
+    "apps/web/src/ui/dialogue.ts": "c90b1394de835137a229331b80bf94a3e0c229dd640f78f3d44501a6f657b98e",
+    "apps/web/src/ui/explore.ts": "37ef0e9be4d7454e572d44d00598032255f2ba3658559e3677817a9f9e2e165a",
+    "apps/web/src/ui/gameData.ts": "f4a62262273b4f362066c1ce5c856c07aae45b68b347cb73bfa7d9ae5dff815c",
+    "apps/web/src/ui/intro.ts": "45209cd7c825253a66041f0438a5ed02d524f42ee6cdc7b2aa7d17a94232bf45",
+    "apps/web/src/ui/library.ts": "b9d5020569dbe8189e79deb6b8a5c6624ce8d63dffe5010eb3d845ba0110c001",
+    "apps/web/src/ui/localAssetPack.ts": "39ac31889bdf16c3287a35ece783e75bbfdc0622de56533f6d9f3fe26c86bcb6",
+    "apps/web/src/ui/localAssetPackCore.mjs": "b2db8c970d9fbd66bc49b7aa2d8a4181d2d222e80f1308737c5f5c6ff838a3eb",
+    "apps/web/src/ui/mainMenu.ts": "ee19b12b26926754537140676cd51b75f73e8fd74d154fe00b91994210211a76",
+    "apps/web/src/ui/runtimeGraphicsMode.ts": "4d5b7bf85fa39f4332a4667c15269ea0ff37d21afac9f0460775a62d735d9b26",
+    "apps/web/src/ui/titleMenu.ts": "776ddcac92d868bc5e9a85edb51c4a15cfcf398e42027bfb5183a44b03966bab",
+    "apps/web/src/ui/town.ts": "5c37be725af261c51391ebeb7fee26b9de9d534ed14c0888c0063aea5c57b692",
+    "apps/web/src/ui/viewer.css": "1f9b5a62b3e815522f01f1d48c883cca80c6c5ca4e76c2d1c6b1c4a2f4ec5dc1",
+    "apps/web/test/asset-source-path.test.mjs": "11eaff302f37bef3c2302ccc254e49308f5fd825022a694d80a5f79867ed03e0",
+    "apps/web/test/cok-amiga-portrait18-runtime.test.mjs": "05db048793b86d4c75de48d98431f1eeae1b3375da875755e106bcc655f39765",
+    "apps/web/test/cok-demo-runtime-graphics.mjs": "2f83ce066793855eeb4b9ddcf896879c1165e14f7fc0a292eaf3e88b00706a73",
+    "apps/web/test/cok-opening-source.test.mjs": "fb0526a081b51dcb07f6561a259d8f668391a8fa346bf4c44ab0b73e38a70e21",
+    "apps/web/test/cok-player-canonical-bindings.test.mjs": "de800fb772dc14bb2f70d92a49e4b4a4cd287ec4f8a16cebba14f5c0ccd363c0",
+    "apps/web/test/cok-title-restyle-static.test.mjs": "8ab2c052b055cf31a0c645aa3c2bb2cbb36276a98fd61d2b7149dc66f0416090",
+    "apps/web/test/demo-combat-graphics.test.mjs": "f85bb96d0ac0b87c4869ab92a562271587b07c2ff4273b68f54a1eafccb7c518",
+    "apps/web/test/local-asset-pack-core.test.mjs": "bdb7f46afacfea2d17c18402f4d43d13b68d04cbcdee3ce763b5503b9176f922",
+    "apps/web/test/local-asset-pack-gameplay-wiring.test.mjs": "982dbd2406e429f8f115b795ee81a639f44e6ccc130530c30e5549801a7df4f7",
+    "apps/web/test/public-artwork-local-only.test.mjs": "a5a5136a6d9729ed1cd94aeb9ca6cb6059114f55492f3e506325904b0abf66c3",
+    "apps/web/test/town-graphics-fallback.test.mjs": "9bd276167dd99d0a2610b2b7eaaed72e18fb6b0907f90231239dd899a61a9c32",
+    "docs/engine/research/cok-area32-picture-joins-2026-11-03.json": "7bb79ba2d511762e31cd4ef6683b43123873a40d9d0a6086bc2662e34278042e",
+    "docs/engine/research/cok-demo-picture-joins-2026-11-03.json": "327823daef2beaf195795e78699429872795726edccecca4ff62641ce40bf9e0",
+    "docs/engine/research/cok-ecl-picture-census-2026-11-03.json": "f2139868a90b6e4dfd749cd54e4572bf3624d8a6990c21d8f1d5240ef5c1b004",
+    "docs/engine/research/cok-ecl1-33-picture-consumers-v1.json": "efed4c820f7c2779331abc13327c458bf87e634c3f60e71961d632de19f797e1",
+    "docs/engine/research/cok-graphics-identity-registry-v1.json": "ccdff503a645f8e63c02f0f4f4abd194b376d78f70ee77793616473cfafa2e1a",
+    "docs/engine/research/cok-runtime-art-combat-sites-v1.json": "31e25a4a7d81ca60361dd23b4e160be26a2c1af64fbdc9087cf55ff4324fde72",
+    "docs/engine/research/cok-throtl-picture-joins-2026-11-03.json": "4d9e11d1c0867580a9ca4696aa4e825002d8623208d630d748fa042abdf1aeaf",
+    "docs/engine/research/cok-travel-picture-joins-2026-11-03.json": "1f49f8eca591c044684fac29487365f4b4dfd648ec486a32e920403b7f2e84c6",
+    "packages/engine/src/ecl/vm.ts": "d95ee6d3c1b2f7c96a5d3effcec80984957cbcf7ee6b463a3cd3824c46193562",
+    "packages/engine/src/loaders/cokFont.ts": "8273ede96a3b819a144359bd7ed5947f6de8e4193f7e0bb9a387938f0643d630",
+    "packages/engine/src/loaders/daa.ts": "2a692a8f046d12689b2b72681726f82cfbb1d59bd1ac3a844cd97609e2fbc619",
+    "packages/engine/src/render/exploreScreen.ts": "32ceefd0fd93c1160522827799b7685701783e2cb818846b20238ae8ee3857a4",
+    "packages/engine/src/render/mainMenu.ts": "81ac8c792dd334e04a9405d26c57644c89e81a64bdc1f67e6630ac63e73f17b7",
+    "packages/engine/src/render/menuBar.ts": "8b6f74945bdc43e60a9048305dc5f662cd7a17a1b940f21bfa3a43f5aa960854",
+    "packages/engine/src/render/textmode.ts": "72ea1a546bf7c371f3e5046e31ad29d9b8d06d832444abb9e4b1ea4cdd89558d",
+    "packages/engine/src/render/townScreen.ts": "816d2c38559945112d569e998a8933b94d38bde64da41c098edeb206f654f1c2",
+    "packages/engine/test/cokAmigaPortrait18Admission.test.ts": "2250ffd933b0b4af0d2e771a90abfd1a805b793f247561d1777b0ac4d4748b8b",
+    "packages/engine/test/cokAmigaTravelAdmission.test.ts": "614b74783df8e954fde2de5171be4250f8e3eda2d429ecaa9c227a0119ee97bc",
+    "packages/engine/test/cokNewGameRoute.test.ts": "fa03d6b8c8981c9d800fc61e9abad64b6d3508016da559b79d5a2ec5430c8e38",
+    "packages/engine/test/daa.test.ts": "70086f8895af4ee90925a4be94bc61cd5be704515dbe8799c85afff95514df4f",
+    "tools/cok-player-canonical-bindings.mjs": "6b600106c6da920c647fdfad128054189e00152d9dd24819d74cf670269ab8ac",
+    "tools/cok_ecl_picture_census.py": "6da7154a967cfcd8d3e4b4faab99d60327971b8da67358943288f73cdace3bb1",
+    "tools/cok_ecl_picture_consumers.py": "db69e83259b33c4b17972c8c64e654701b66d1a524f360b69d31ad21ac9ac404",
+    "tools/cok_player_runtime_coverage.py": "f07f851df9ba610d2d2689242f33f6c4ad19cd0eb7187b2861dca0895acc4295",
+    "tools/gen1_ecl_encounter_scan.py": "14ed0cdcabbbdf4262d81fedcb66224776731332124ce52274cd036ef91af079"
+  },
+  "limitations": [
+    "This is a source-only ledger. Runtime observation and production packaging remain unverified. Local pack bytes can be audited separately.",
+    "Runtime declarations, registry review, prompt lineage, and actual output bytes are independent evidence. An exact Restyle record requires both source ID and output SHA-256.",
+    "ECL PICTURE sites come from the 22-block pinned DOS census. Sites without an explicit source receipt retain unknown bank/asset identity. Receipt mappings are conditional and do not prove route reachability.",
+    "Combat rows are one representative path per entry/COMBAT offset selected by the existing CoK dialect scanner, which ranks rostered paths and paths with fewer dynamic operands first. Alternate rosters are not exported by that scanner; counts are samples of the retained paths.",
+    "The combat scanner caps call depth at 24 and tracks up to 16 queued monster groups. Host, cross-ECL and actual campaign state can affect requests.",
+    "Combat bank association is conditional on the active area disk matching the pinned ECL archive disk and the selected CPIC archive matching its runtime SHA. Picture operand identity uses its low byte, matching the VM.",
+    "Conditional picture mapping IDs require the exact original base source. Route-specific source guards and source/output load checks can still prevent replacement.",
+    "Player frame and title layer rows describe presentation slots. Only independently reviewed source frame-group semantics are carried into the report.",
+    "The current player consumer call paths were reviewed in their own contract. The earlier player coverage snapshot and pins remain historical evidence.",
+    "The demo combat fixture records 15 ordered combatant bindings and six distinct CPIC2 IDs, separate from the representative encounter-scan denominator. It does not establish that a browser drew those icons.",
+    "Production Restyle image availability is delegated to the pinned localAssetPack adapter/core: exact local SHA matches are required; missing images stay on each consumer fallback, and present invalid bytes fail closed. Only development may use a served-image fallback. Folder replacement or clear invalidates the prior revision so stale asynchronous reads cannot commit. This is source/test evidence, not browser runtime observation.",
+    "The selected Library AssetSource for original game archives is separate from the selected Restyle image folder. Its basename lookup uses the shallowest relative path and scan order for equal-depth collisions; Amiga adapters then verify the required archive identity and do not try every duplicate until a hash matches. The graphics-browser local archive picker serves previews only and does not populate gameplay AssetSource.",
+    "Amiga DAA decoding/admission delegates to the engine DAA loader; the pinned loader and focused admission tests are evidence for that dependency, not proof of complete browser or production-package behavior.",
+    "The CoK title intro and title menu share createCokTitleRuntime; intro wiring is a consumer dependency but adds no separate source mapping or composition count."
+  ],
+  "pictureMappings": [
+    {
+      "consumer": "dialogue-pictures",
+      "id": "portrait/dos/15",
+      "manifest": "apps/web/src/ui/cokDialogue15RestyleManifest.json",
+      "system": "DOS-EGA"
+    },
+    {
+      "consumer": "dialogue-pictures",
+      "id": "portrait/dos/57",
+      "manifest": "apps/web/src/ui/cokDialogueRestyleManifest.json",
+      "system": "DOS-EGA"
+    },
+    {
+      "consumer": "dialogue-pictures",
+      "id": "portrait/dos/58",
+      "manifest": "apps/web/src/ui/cokDialogue58RestyleManifest.json",
+      "system": "DOS-EGA"
+    },
+    {
+      "condition": "Requires the route-specific Amiga scene adapter and admitted source identity.",
+      "consumer": "dialogue-pictures",
+      "id": "portrait/amiga/18",
+      "manifest": "apps/web/src/ui/cokAmigaDialogue18RestyleManifest.json",
+      "system": "Amiga"
+    },
+    {
+      "condition": "Requires the route-specific Amiga scene adapter and admitted source identity.",
+      "consumer": "dialogue-pictures",
+      "id": "portrait/amiga/57",
+      "manifest": "apps/web/src/ui/cokAmigaDialogue57RestyleManifest.json",
+      "system": "Amiga"
+    },
+    {
+      "consumer": "travel-map",
+      "id": "travel/121",
+      "manifest": "apps/web/src/ui/cokTravelRestyleManifest.json",
+      "system": "DOS-EGA"
+    },
+    {
+      "baseKey": "dos",
+      "baseSystem": "DOS-EGA",
+      "consumer": "demo-picture",
+      "id": "demo/116",
+      "manifest": "apps/web/src/ui/cokDemoArtManifest.json",
+      "sourceKey": "amiga",
+      "system": "Amiga"
+    }
+  ],
+  "pictureReceipts": [
+    {
+      "path": "docs/engine/research/cok-area32-picture-joins-2026-11-03.json"
+    },
+    {
+      "path": "docs/engine/research/cok-demo-picture-joins-2026-11-03.json"
+    },
+    {
+      "path": "docs/engine/research/cok-throtl-picture-joins-2026-11-03.json"
+    },
+    {
+      "path": "docs/engine/research/cok-travel-picture-joins-2026-11-03.json"
+    },
+    {
+      "path": "docs/engine/research/cok-ecl1-33-picture-consumers-v1.json"
+    }
+  ],
+  "playerDraw": {
+    "character-sheet": [
+      0
+    ],
+    "combat-player": [
+      0
+    ],
+    "creator": [
+      0,
+      1
+    ]
+  },
+  "reviewedPictureSites": [
+    {
+      "archiveSha256": "6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79",
+      "blockId": 36,
+      "blockSha256": "b39bdf183f0690598042ea6a28df350b76f0927dd9b1e84c198861cec5ee58dd",
+      "evidence": "packages/engine/test/cokNewGameRoute.test.ts",
+      "offset": 29,
+      "pictureId": 112,
+      "sourceAssetId": "cok/dos-ega/disk1/bigpic1.dax/block/112/frame/0"
+    }
+  ],
+  "schema": "cok-runtime-art-consumers-v1",
+  "titleScreens": [
+    [
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        40,
+        8
+      ]
+    ],
+    [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        8
+      ]
+    ]
+  ],
+  "travelMapLayers": [
+    {
+      "mappingId": "travel/121",
+      "restyleSystem": "DOS-EGA",
+      "role": "base-image"
+    },
+    {
+      "evidence": "apps/web/src/ui/cokTravelArt.ts",
+      "kind": "runtime-drawn-overlay",
+      "role": "cursor"
+    },
+    {
+      "evidence": "apps/web/src/ui/cokAmigaTravelRuntime.ts",
+      "kind": "baked-in-amiga-original",
+      "role": "town-names",
+      "variantId": "travel-map/Amiga"
+    }
+  ]
+}

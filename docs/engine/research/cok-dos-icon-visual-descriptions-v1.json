@@ -1,0 +1,2047 @@
+{
+  "version": 1,
+  "scope": "Cautious pixel-only observations for 156 DOS CPIC source rows and all DOS CBODY/CHEAD source rows; no subject identity or runtime meaning is inferred.",
+  "evidenceImagePathPattern": "apps/web/dist-app-cok57/restyle/cok-generated/images/{sourceSha256}.png",
+  "assets": [
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/1/frame/0",
+      "sourceSha256": "fc604d4757fa4209bc31349c34405993ef78b5e373a8ed3516567a4f2820836a",
+      "visualDescription": "Humanoid figure with brown and ochre clothing, a bright yellow chest band, gray diagonal detail across the upper body, blue hands, and dark boots.",
+      "pixelSha256": "c3fdd8c7d4c31397b55c709ecf1cb5fde88da0d185266e065c67ce58ad697fff"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/11/frame/0",
+      "sourceSha256": "48789efdb2bfed56e56e1358e738a754aaba18611eff68586d1ff8c75ed6766d",
+      "visualDescription": "Tall red-orange humanoid with one arm raised and a brown lower region.",
+      "pixelSha256": "10a54397d05abf51784464f835a235489e88c0529452057d0a0bffa90bf3d8a5"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/12/frame/0",
+      "sourceSha256": "f3c46a8c6005ab79ae27dd0a0c8e5d4554343914065f99579607ecc9beed74e2",
+      "visualDescription": "Cyan-and-blue humanoid holding a pale blade-shaped object.",
+      "pixelSha256": "38701f53473aa8f3f0a229ea27821a82d775d4d56e05fe6cec3b0c26d363a08c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/129/frame/0",
+      "sourceSha256": "fadc3797c76dbf322c569abcca874edc3473794e0f64247fc31f98545bf9aa24",
+      "visualDescription": "Brown-headed, blue-cloaked humanoid with a long yellow implement.",
+      "pixelSha256": "274473975d56e3b51ab309173554da3c96e18c46f0c633250177baa0d15ae1f9"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/13/frame/0",
+      "sourceSha256": "a8875c450337f99c5001d29bab74a7063dd8bb31b0e8d6408880d1cb8bc152db",
+      "visualDescription": "Cyan-and-red humanoid holding a pale blade-shaped object.",
+      "pixelSha256": "eb097ef6512bcc4f917d2ce3dfa1ab878c56181305a6a089de72c8d4361e7d80"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/132/frame/0",
+      "sourceSha256": "4272d3b67c44ec46027b3cf76329cd6dfbe64094e1b6fa7db4ea1bf713912c1a",
+      "visualDescription": "Dark-gray-caped humanoid with an orange head area and a red implement.",
+      "pixelSha256": "668433186d693a362d2984782bea5a1f115c18d141dc0157c11779f8c336b802"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/133/frame/0",
+      "sourceSha256": "1de76f4c65142d3f36b240913759c3a4438157866b77fc234e27a9304477e8ac",
+      "visualDescription": "Narrow dark-blue segmented form with lighter blue markings and red accents; serpent-like is only a silhouette impression.",
+      "pixelSha256": "53485c7fd3295f61eca58aa45dd0b36706f0b3d176172c6bbc4625154b2268e5"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/134/frame/0",
+      "sourceSha256": "db853838863b214fb616740047a1b4288f6a02acd9314b11bdc7b6a73bd7b369",
+      "visualDescription": "Upright green humanoid form with a long curved tail; reptilian is only a visual impression.",
+      "pixelSha256": "0cc68d90b22dff607d5b125a6735eefad2bdaf0d02a093583e101fc999c03486"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/136/frame/0",
+      "sourceSha256": "3f8902bcbfdbdf11bc156ce43310d9034f21cf0971489887d9e1063692b89787",
+      "visualDescription": "Gray-blue quadruped facing right, with a brown head area.",
+      "pixelSha256": "a1181b0623317660ea461fb49d6ee5703bdaab3106f81c24c02e12437681431b"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/137/frame/0",
+      "sourceSha256": "60bd703921d7279ef191e7a38478c30d21a4dcdb621360215cc53f88a04823ff",
+      "visualDescription": "Small red-and-green humanoid with a blue object near one hand.",
+      "pixelSha256": "2334130bf9a213f452cdd4f2c8585cfd6bf392bfed67f5bc0e915c34235ac1e6"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/139/frame/0",
+      "sourceSha256": "c9188a9d016473f765b5b5e771de21387023a54852073088e57e74f7dca8ba1f",
+      "visualDescription": "Tall red-orange humanoid with one arm raised and a brown lower region.",
+      "pixelSha256": "0fe1cda3c48788514bc85f95b30189e5e944bb7b16730996a235905a0f40e3bf"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/14/frame/0",
+      "sourceSha256": "1f08c680bd8af1e7c0646d4af8e8384ffb26ae13aa671106b13002c47cf79c27",
+      "visualDescription": "Gray-and-teal armored-looking humanoid holding a long yellow implement.",
+      "pixelSha256": "d60817503a1a7201d891dc29bf4707b1147b89ac857d15bba8ccaf89683a6c3c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/140/frame/0",
+      "sourceSha256": "8cde1afac60c5d9869c068a7c7e6cb3fe328e1bb14fb7b0551c91aa82b89a027",
+      "visualDescription": "Cyan-and-red humanoid holding a broad pale implement.",
+      "pixelSha256": "f0baec2bbd6ba05f9447abf56697740f95f646e4325be69b37433a9b2006da87"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/141/frame/0",
+      "sourceSha256": "8ac6b94b960f30b4d594655a6c5e976d9f554c53926d09553c3243498066d719",
+      "visualDescription": "Cyan-and-red armored-looking humanoid holding a long pale blade-shaped object.",
+      "pixelSha256": "f3b28d55774101cdb699756859a233b2dfe36a5c2c56140db02a8a8d4f7b9b3d"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/142/frame/0",
+      "sourceSha256": "06079e93fde788c6056df1e913983d2bc26ce988c252a4b261e5a63d606bf874",
+      "visualDescription": "Brown-and-blue cloaked biped with a horizontal yellow implement.",
+      "pixelSha256": "dafff20aa42d2925cead358134440b739b5de66ae5e74569c03c0c0da79fd8c0"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/143/frame/0",
+      "sourceSha256": "107fbcfd6128ccc2d9bf96fc4600e2f47e6a8948a57ff22388998ae6529d20b9",
+      "visualDescription": "Small red, green and blue humanoid in a low stance.",
+      "pixelSha256": "488a27e0fd60ced14d58b7e539d7387e7cfbaf030aeef8a0da19e0d7575a3f7a"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/144/frame/0",
+      "sourceSha256": "460add3cfbcee77797a869957da030c2bc6459f69314b22572daec4a11499dbd",
+      "visualDescription": "Tall magenta, cyan and red humanoid figure beside a vertical green-blue element.",
+      "pixelSha256": "e5c607cabff4b947dfafc0382bcfc193a6c52e368b6f41c39993c32601381ffc"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/147/frame/0",
+      "sourceSha256": "ba2758c0ddc1c6d7fbccaeb6e4a8a4ead953a699885faea4e7b8b6d6e5e2e70f",
+      "visualDescription": "Large red humanoid form with a raised red shape, a pale diagonal implement and a yellow lower region.",
+      "pixelSha256": "03ef7c6ea4510262841b0e97f2cce3241f42a39ea7ad699c29b61d537fff1229"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/149/frame/0",
+      "sourceSha256": "8bb85c540478e59ed58ad11780568e899e182e63c6d852501d9bb3c59790427c",
+      "visualDescription": "Long, low red-and-black creature-like form with a pale segmented underside.",
+      "pixelSha256": "5bc1283a04fcc678c7dadbaf3413f7ae14da1c6c63b50cf3155fc4e9b3eee87c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/15/frame/0",
+      "sourceSha256": "905ccde4297bcc724065afdb4c76b4a360a53c1cc01ff70247641b99336b8acc",
+      "visualDescription": "Small colorful humanoid holding a blue-tipped implement.",
+      "pixelSha256": "94381336cd4d3460c15da938d34a669c9e2cd0d0650bda6acb1a58cf93961efb"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/153/frame/0",
+      "sourceSha256": "af605cb19a80b516cfa6aa6a24be4758cf6b2d987dd8ffaa1719dfd0f415a2aa",
+      "visualDescription": "Gray-and-cyan armored-looking humanoid holding a long yellow implement.",
+      "pixelSha256": "f003ee74cbc825e0dd4e999afe8145dec6c2f2e6c7082a08f19cd3dd74bd3239"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/154/frame/0",
+      "sourceSha256": "423354dd0fcad57c80c04f804cbe98d58ae20ad6aee828876e7133a93c7ff4ff",
+      "visualDescription": "White-outline humanoid holding a blue circular object; a cyan line crosses the figure.",
+      "pixelSha256": "23bb22e360001fb6635277984656bcf9eaf1574b05ee1ba2b51073a08c7c3fae"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/155/frame/0",
+      "sourceSha256": "7c842b2159b40cd8f5bccd8fce516a8bc59dc486c4904486348bb49342bea41c",
+      "visualDescription": "Long green coiled form with a red tip; serpent-like is only a visual impression.",
+      "pixelSha256": "7e276e53f0370297cfdfdc74fd47af4eacef3faebd25d91b1d8ddc98fbd003be"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/157/frame/0",
+      "sourceSha256": "365c79c666adbd6aba150dcfd1c0547ce5dd770d6feea9bd66e03a32c58215ce",
+      "visualDescription": "Curved dark-blue segmented form with pale-blue marks and a red tip; serpent-like is only a visual impression.",
+      "pixelSha256": "ca920d929be9094322728e7950e9fa2dd15d1d43a90ac3ef76a24f6ad8a60071"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/158/frame/0",
+      "sourceSha256": "e0689c17c06941c282340c0124242da734575ca95b1717b2870a8f19bd53edf6",
+      "visualDescription": "Large pale-gray creature-like form with a red-yellow head area and blue details.",
+      "pixelSha256": "fa24867117589a09a52487246aa5eb8445d2dc9181fb7efb7663e49f1450ee39"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/159/frame/0",
+      "sourceSha256": "aef9570b5050729901780cffd1e3df0c76e2a99e1721f0d7f7a23a92ebd48b6c",
+      "visualDescription": "Green humanoid with red and blue regions and raised arms.",
+      "pixelSha256": "ddbef326aedf81f020530abfe4f24246086312c8e5851c5fa9bfb9f208bd4f9e"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/16/frame/0",
+      "sourceSha256": "919503e6f2c6774b429bf0b4ae82c892d91c2e3163c8309b1ead810b58787e32",
+      "visualDescription": "Tall, brightly colored red, purple and blue humanoid figure.",
+      "pixelSha256": "1f587399a76df61aa1a7e3bd84dfc90dcbdfaa842c59bb74ac9deb14ec654ae6"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/162/frame/0",
+      "sourceSha256": "4ea8505345a4d855bc5b8ff71af425f4ad9459626a775b6cb5da8251ababca8a",
+      "visualDescription": "Red-and-blue humanoid carrying a blade-shaped object and a shield-like object.",
+      "pixelSha256": "fe9c90db01fd819cd16a0b32089cf6dea88c9bba0fc47da6a55daa01a04506e6"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/163/frame/0",
+      "sourceSha256": "284f8bf6afdc4c5d18da7bff32ccdc775d92506647eec80fe4e5b279a928a3d9",
+      "visualDescription": "Red-and-blue armored-looking humanoid with a pale blade-shaped object.",
+      "pixelSha256": "fa9e0730db1d3e2262879585f2252459058280cac516f76772125e3d0586deb2"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/166/frame/0",
+      "sourceSha256": "a04158c509548045bd38afcf3e330a28b41139efdf52b720c59aa62f2a796f77",
+      "visualDescription": "Purple-robed humanoid holding a green-and-pink staff-like object.",
+      "pixelSha256": "74d0ebff232e6ff11d0550c33bf69d7de835b1a81cfc6810c265f7701be26e47"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/169/frame/0",
+      "sourceSha256": "38d3282d1ae8f69ffa89dc6c24427d3f422c4d1bdb907420448705d01342573e",
+      "visualDescription": "Purple-robed humanoid holding a blue-and-green staff-like object.",
+      "pixelSha256": "5ff7f30af76010ec3ee3c535b32b9019e670b4708b5b0c69c9b84143d482dcb3"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/185/frame/0",
+      "sourceSha256": "71893275e671bd05c8a5ca508c1f25b772587b3bf1cdc75368c385c85eeff637",
+      "visualDescription": "Long, low green creature-like form with red accents; reptile-like is only a visual impression.",
+      "pixelSha256": "3d3c05a425b11fd16ab88f6ce78c4a6cffcc453860f8f3017a5748bc06133f4e"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/187/frame/0",
+      "sourceSha256": "284f8bf6afdc4c5d18da7bff32ccdc775d92506647eec80fe4e5b279a928a3d9",
+      "visualDescription": "Red-and-blue armored-looking humanoid with a pale blade-shaped object.",
+      "pixelSha256": "fa9e0730db1d3e2262879585f2252459058280cac516f76772125e3d0586deb2"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/19/frame/0",
+      "sourceSha256": "d596112a239b7f26ec08ea835baae0b6dac0416db13537bba9a185b5af0fe283",
+      "visualDescription": "Red humanoid holding a long pale object diagonally across its body.",
+      "pixelSha256": "fed69f0dd1157f164395cc9d50afb9bf82aebf80bb0d0ea97c9df167389bd9a1"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/21/frame/0",
+      "sourceSha256": "64a80d7e906540cfc6bddd8214eb770a2d67fbe354d32c1709be4a9eb980aea8",
+      "visualDescription": "Wide image with a pink-purple figure on the left and a red-orange figure on the right, against dark gray shapes and a curved red-gray band.",
+      "pixelSha256": "9e54baf94fa844ffed9ea003b2eacd8d1abe52a0f975060d2dab3e28b5077023"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/25/frame/0",
+      "sourceSha256": "ea567a2605f50c198d5e478e75377ac8a042eba24da72e876cb37b09d592cdb7",
+      "visualDescription": "Humanoid figure with a pale face, cyan and blue details, a yellow band across the torso, dark brown limbs, and a curved dark teal shape extending down-left.",
+      "pixelSha256": "6c3eb3144675ac80c15859d0cf85bb6e6f26c1e7a3da7cef061c0944e45f32a3"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/26/frame/0",
+      "sourceSha256": "696467083b328e6082ca3d2b6dfc57de5e51d7a829e5a35503bc6e6ea7ecceba",
+      "visualDescription": "Pale gray-white thin-limbed figure, with a blue rectangular shape at the right and small red, black, and cyan details around the limbs.",
+      "pixelSha256": "5ca9b4fc418e3214ed8955a84a5134aad297b7b2e8732178724aeb2141da7304"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/27/frame/0",
+      "sourceSha256": "ca32ee23df343ebfa247b76f410a14d308d38a99cb37b577efe911adb377164a",
+      "visualDescription": "Long, low green creature-like form with a red mouth; reptile- or serpent-like is only a silhouette impression.",
+      "pixelSha256": "3c0619168bd1edb89f29bdd63e33f9e51cfd73d333c7b8052a52be562d830b5e"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/29/frame/0",
+      "sourceSha256": "8117d8e63ee3396add5b463334327b715bb1b1eb6f97ae91fbe0579579a03df7",
+      "visualDescription": "Curled gray-and-red segmented creature-like form with a pale curved back.",
+      "pixelSha256": "2585a7bf92cf8404c82dfcad5d5d3a93ccf8c7a6b9700dba00ca7a9f82c8ebea"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/30/frame/0",
+      "sourceSha256": "96d6f48ae2c6cd56f56967f2c9d4bcd80d29aa57fc09b5cb67655e1512f59db7",
+      "visualDescription": "Wide composition of bulky pale gray forms with cyan accents along the top, brown-orange details near the lower center, and a yellow-red shape at the right.",
+      "pixelSha256": "f48afb2e2c006183d97d1a6ab0483e22bb45b42dce755a9eeb70b0eedac3827a"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/31/frame/0",
+      "sourceSha256": "7ffe2f07b59fdbb1cc265809d72bfcae067577b3562baefc656beb6f6c4bd8c5",
+      "visualDescription": "Green long-armed figure with a red central area and blue lower body; limbs extend outward on both sides.",
+      "pixelSha256": "15f71863ee2b6b85c60292f800d89c79184054bbc95f214ac67c681b955e29f3"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/34/frame/0",
+      "sourceSha256": "d844a6e112f9cf751b39b04e1b51283da72a4ea6ae8ef22710f4d31bcbe0216b",
+      "visualDescription": "Short gray-caped humanoid with a yellow implement.",
+      "pixelSha256": "7b172a2ed629ee11a8d25524062be7a15cb1589d1cad4582a02bdaf0f9ae126b"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/35/frame/0",
+      "sourceSha256": "f035788ff37fa14ebc1c45349137d9ee83e23735628428b0e416a31e7d5fd757",
+      "visualDescription": "Red-and-blue humanoid carrying a sword-shaped object and a shield-like object.",
+      "pixelSha256": "6c386f94b72e2fbe2d2c5dd0078929df3bf0eebc94b10975ae30ab3aa450653d"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/38/frame/0",
+      "sourceSha256": "910eade6e726dbc33b0ee03dca917b6e9d47de6132ef9b1dafefce8c479e2cf8",
+      "visualDescription": "Figure with a large bright pink robe, blue-purple upper-body details, pale face and light head covering; one arm extends outward.",
+      "pixelSha256": "c0efc7beb4a5835631a296a11515b403e75a825a98b7068da9c245334fcac9ad"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/4/frame/0",
+      "sourceSha256": "32f58dd550ad198477e4b8808706533ffb94cd708e8c2bbcfbccefe87c888369",
+      "visualDescription": "Rounded brown-gray body with a darker upper section and blue markings along the lower half; oriented toward the left.",
+      "pixelSha256": "e7727915752716fa0ee4399080fdfe060ff79d486e8b95209ae41dbf58e777ef"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/41/frame/0",
+      "sourceSha256": "b7884eff1aa58ee8d2460b7f28b0c5f4103557eb5d3420f07b0bd3213ee0bd5f",
+      "visualDescription": "Figure in a bright magenta robe with blue details and a yellow face area; a red-orange form sits at the right and a dark-blue detail near the upper left.",
+      "pixelSha256": "ae882bf18cfd8d04b5236962799ec817c806b949c3e4ab326b2409d17c6c339f"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/5/frame/0",
+      "sourceSha256": "60a1d38f93c6b69e706f509f1cdafb45881405b0b8371771857a38634e36a9fe",
+      "visualDescription": "Small dark-blue, segmented, coiled form with a red tip; serpent-like is only a visual impression.",
+      "pixelSha256": "f357b1d9a87fd6fc7424eb40627e1d1c2055b025b45fefdd8753d3335e56b4be"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/57/frame/0",
+      "sourceSha256": "8628796a51a83a25d6e4431bcfee16d8b6068f58fd95f3ddd8b3f9554d66d0d3",
+      "visualDescription": "Broad, low-slung green creature-like form with red accents.",
+      "pixelSha256": "59b12a6367aa605f88edfacf81d8b61e49bbb30e04e0d17253f6b5d4592f03f4"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/59/frame/0",
+      "sourceSha256": "f035788ff37fa14ebc1c45349137d9ee83e23735628428b0e416a31e7d5fd757",
+      "visualDescription": "Red-and-blue humanoid carrying a sword-shaped object and a shield-like object.",
+      "pixelSha256": "6c386f94b72e2fbe2d2c5dd0078929df3bf0eebc94b10975ae30ab3aa450653d"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/6/frame/0",
+      "sourceSha256": "fc41d3e8c0eeddbff8b25582d608afd7da203dd99a5485d4b97ed0cdf139f418",
+      "visualDescription": "Angular bright-green low-slung figure with an elongated head-like shape and long limbs; dark green and black pixels outline it.",
+      "pixelSha256": "99d7d391c1c5a44b971deba0ffcb6b3d5fb03cdc138d4b34091fa21203b19743"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/8/frame/0",
+      "sourceSha256": "4c7858b7b33212587e8353c857cba1f048a8869a7ee32330563bc2021247cd0d",
+      "visualDescription": "Dark gray-black form with a brown-orange center and blue details along the lower and left edges; a narrow shape extends left.",
+      "pixelSha256": "8efd92ffb3dd3ebfad59be2cd5f6f5591ebf5b6f755ec2901f44165d6e06ec72"
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cpic1.dax/block/9/frame/0",
+      "sourceSha256": "63a6a2b4edbb4ef505a527ca7f37673349ee1d466edd9b7f8af177fae4371c4d",
+      "visualDescription": "Small green-and-red humanoid holding a blue-ended implement.",
+      "pixelSha256": "fcaf1959c6ec002ca394bad64c1fc20f8084bb0df6f83202ce864cc191f92434"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/1/frame/0",
+      "sourceSha256": "fc604d4757fa4209bc31349c34405993ef78b5e373a8ed3516567a4f2820836a",
+      "visualDescription": "Humanoid figure with brown and ochre clothing, a bright yellow chest band, gray diagonal detail across the upper body, blue hands, and dark boots.",
+      "pixelSha256": "c3fdd8c7d4c31397b55c709ecf1cb5fde88da0d185266e065c67ce58ad697fff"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/10/frame/0",
+      "sourceSha256": "be206947dc0ae95c993b48a6d4998ae02816a6c6ab8dccc1d5e084ed69ad7b23",
+      "visualDescription": "Long green coiling figure with a red-orange raised head or crest and pale gray underside accents against black.",
+      "pixelSha256": "78d5028f2750cfc36a51d179e73c3faa800ab264f706e84e90cad04c9f8b1465"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/12/frame/0",
+      "sourceSha256": "f3c46a8c6005ab79ae27dd0a0c8e5d4554343914065f99579607ecc9beed74e2",
+      "visualDescription": "Cyan-and-blue humanoid holding a pale blade-shaped object.",
+      "pixelSha256": "38701f53473aa8f3f0a229ea27821a82d775d4d56e05fe6cec3b0c26d363a08c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/129/frame/0",
+      "sourceSha256": "fadc3797c76dbf322c569abcca874edc3473794e0f64247fc31f98545bf9aa24",
+      "visualDescription": "Brown-headed, blue-cloaked humanoid with a long yellow implement.",
+      "pixelSha256": "274473975d56e3b51ab309173554da3c96e18c46f0c633250177baa0d15ae1f9"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/13/frame/0",
+      "sourceSha256": "a8875c450337f99c5001d29bab74a7063dd8bb31b0e8d6408880d1cb8bc152db",
+      "visualDescription": "Cyan-and-red humanoid holding a pale blade-shaped object.",
+      "pixelSha256": "eb097ef6512bcc4f917d2ce3dfa1ab878c56181305a6a089de72c8d4361e7d80"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/130/frame/0",
+      "sourceSha256": "9795447116d964b55c07571007a4a3ff20f9e084eac4ecabd918ae867cbeb45f",
+      "visualDescription": "Large gray winged-looking creature with blue details and a red head area, facing right.",
+      "pixelSha256": "de12a90ed74e75319dd6f2138a551019847f94e910a9f1514027b3e177ac3686"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/132/frame/0",
+      "sourceSha256": "4272d3b67c44ec46027b3cf76329cd6dfbe64094e1b6fa7db4ea1bf713912c1a",
+      "visualDescription": "Dark-gray-caped humanoid with an orange head area and a red implement.",
+      "pixelSha256": "668433186d693a362d2984782bea5a1f115c18d141dc0157c11779f8c336b802"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/133/frame/0",
+      "sourceSha256": "1de76f4c65142d3f36b240913759c3a4438157866b77fc234e27a9304477e8ac",
+      "visualDescription": "Narrow dark-blue segmented form with lighter blue markings and red accents; serpent-like is only a silhouette impression.",
+      "pixelSha256": "53485c7fd3295f61eca58aa45dd0b36706f0b3d176172c6bbc4625154b2268e5"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/134/frame/0",
+      "sourceSha256": "db853838863b214fb616740047a1b4288f6a02acd9314b11bdc7b6a73bd7b369",
+      "visualDescription": "Upright green humanoid form with a long curved tail; reptilian is only a visual impression.",
+      "pixelSha256": "0cc68d90b22dff607d5b125a6735eefad2bdaf0d02a093583e101fc999c03486"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/136/frame/0",
+      "sourceSha256": "3f8902bcbfdbdf11bc156ce43310d9034f21cf0971489887d9e1063692b89787",
+      "visualDescription": "Gray-blue quadruped facing right, with a brown head area.",
+      "pixelSha256": "a1181b0623317660ea461fb49d6ee5703bdaab3106f81c24c02e12437681431b"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/138/frame/0",
+      "sourceSha256": "e2726562eee654cd5a1389bbdff0b65cf27abb3a438943dbfed668561e9f403b",
+      "visualDescription": "Two overlapping long green-and-red creature-like forms; reptilian is only a visual impression.",
+      "pixelSha256": "a4251a7e100008182e2dc416e35ac4697c979f1e959ae67ef686836451d0a81a"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/14/frame/0",
+      "sourceSha256": "1f08c680bd8af1e7c0646d4af8e8384ffb26ae13aa671106b13002c47cf79c27",
+      "visualDescription": "Gray-and-teal armored-looking humanoid holding a long yellow implement.",
+      "pixelSha256": "d60817503a1a7201d891dc29bf4707b1147b89ac857d15bba8ccaf89683a6c3c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/140/frame/0",
+      "sourceSha256": "8cde1afac60c5d9869c068a7c7e6cb3fe328e1bb14fb7b0551c91aa82b89a027",
+      "visualDescription": "Cyan-and-red humanoid holding a broad pale implement.",
+      "pixelSha256": "f0baec2bbd6ba05f9447abf56697740f95f646e4325be69b37433a9b2006da87"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/141/frame/0",
+      "sourceSha256": "8ac6b94b960f30b4d594655a6c5e976d9f554c53926d09553c3243498066d719",
+      "visualDescription": "Cyan-and-red armored-looking humanoid holding a long pale blade-shaped object.",
+      "pixelSha256": "f3b28d55774101cdb699756859a233b2dfe36a5c2c56140db02a8a8d4f7b9b3d"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/142/frame/0",
+      "sourceSha256": "06079e93fde788c6056df1e913983d2bc26ce988c252a4b261e5a63d606bf874",
+      "visualDescription": "Brown-and-blue cloaked biped with a horizontal yellow implement.",
+      "pixelSha256": "dafff20aa42d2925cead358134440b739b5de66ae5e74569c03c0c0da79fd8c0"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/145/frame/0",
+      "sourceSha256": "43d05a80e7332fb50787c31589baaa39d87d0a2cb51c02c378a1f968ddac4971",
+      "visualDescription": "Curved dark-blue segmented form with pale-blue marks and a red tip; serpent-like is only a visual impression.",
+      "pixelSha256": "a661774a57a7474ebd5e3d65c7acb59cde97eaff719a64ea7a076642a2706d29"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/147/frame/0",
+      "sourceSha256": "ba2758c0ddc1c6d7fbccaeb6e4a8a4ead953a699885faea4e7b8b6d6e5e2e70f",
+      "visualDescription": "Large red humanoid form with a raised red shape, a pale diagonal implement and a yellow lower region.",
+      "pixelSha256": "03ef7c6ea4510262841b0e97f2cce3241f42a39ea7ad699c29b61d537fff1229"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/151/frame/0",
+      "sourceSha256": "9185739dd1266ed6e2e240244b741313106011fe596b0b2e84e20d2d9b22cd48",
+      "visualDescription": "White-outline humanoid with a blue circular object, possibly shield- or staff-shaped; exact object unclear.",
+      "pixelSha256": "2bf0b14193e48144e89e48916a615408a638f9af77c1715bc0e247a6b8c28fbe"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/153/frame/0",
+      "sourceSha256": "af605cb19a80b516cfa6aa6a24be4758cf6b2d987dd8ffaa1719dfd0f415a2aa",
+      "visualDescription": "Gray-and-cyan armored-looking humanoid holding a long yellow implement.",
+      "pixelSha256": "f003ee74cbc825e0dd4e999afe8145dec6c2f2e6c7082a08f19cd3dd74bd3239"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/154/frame/0",
+      "sourceSha256": "423354dd0fcad57c80c04f804cbe98d58ae20ad6aee828876e7133a93c7ff4ff",
+      "visualDescription": "White-outline humanoid holding a blue circular object; a cyan line crosses the figure.",
+      "pixelSha256": "23bb22e360001fb6635277984656bcf9eaf1574b05ee1ba2b51073a08c7c3fae"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/155/frame/0",
+      "sourceSha256": "7c842b2159b40cd8f5bccd8fce516a8bc59dc486c4904486348bb49342bea41c",
+      "visualDescription": "Long green coiled form with a red tip; serpent-like is only a visual impression.",
+      "pixelSha256": "7e276e53f0370297cfdfdc74fd47af4eacef3faebd25d91b1d8ddc98fbd003be"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/156/frame/0",
+      "sourceSha256": "2b77a8dd7efa39b648c4224b820ef377eb180f44d4adec477fc6627a2a779266",
+      "visualDescription": "White-outline humanoid holding a blue circular implement.",
+      "pixelSha256": "9b0b391ac2c318abe02edd3ba74d1d6d0925e8820051d9231ea912fb0dc2ac2c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/159/frame/0",
+      "sourceSha256": "aef9570b5050729901780cffd1e3df0c76e2a99e1721f0d7f7a23a92ebd48b6c",
+      "visualDescription": "Green humanoid with red and blue regions and raised arms.",
+      "pixelSha256": "ddbef326aedf81f020530abfe4f24246086312c8e5851c5fa9bfb9f208bd4f9e"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/161/frame/0",
+      "sourceSha256": "9c3526107283c1017f57ea76ce200a9d5431acdd0584d5e3474355eaac717da8",
+      "visualDescription": "Red-and-blue humanoid holding a pale blade-shaped object.",
+      "pixelSha256": "a930e3ed4fbc42f8d73ca401e2c7d506f99c2e9b6ea1f8272f64cbb4111eea16"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/163/frame/0",
+      "sourceSha256": "284f8bf6afdc4c5d18da7bff32ccdc775d92506647eec80fe4e5b279a928a3d9",
+      "visualDescription": "Red-and-blue armored-looking humanoid with a pale blade-shaped object.",
+      "pixelSha256": "fa9e0730db1d3e2262879585f2252459058280cac516f76772125e3d0586deb2"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/166/frame/0",
+      "sourceSha256": "a04158c509548045bd38afcf3e330a28b41139efdf52b720c59aa62f2a796f77",
+      "visualDescription": "Purple-robed humanoid holding a green-and-pink staff-like object.",
+      "pixelSha256": "74d0ebff232e6ff11d0550c33bf69d7de835b1a81cfc6810c265f7701be26e47"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/169/frame/0",
+      "sourceSha256": "38d3282d1ae8f69ffa89dc6c24427d3f422c4d1bdb907420448705d01342573e",
+      "visualDescription": "Purple-robed humanoid holding a blue-and-green staff-like object.",
+      "pixelSha256": "5ff7f30af76010ec3ee3c535b32b9019e670b4708b5b0c69c9b84143d482dcb3"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/17/frame/0",
+      "sourceSha256": "13cfa2950668a657f4bb0149db6f190aee301e27938cebbabb892ad4ac5e9f7b",
+      "visualDescription": "Dark-blue rounded or cloaked silhouette with blue edging and a red center mark; subject unclear.",
+      "pixelSha256": "11df6a17eeed097c836129c24b682e1ad118b592c63b397007fc7704829cfca9"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/173/frame/0",
+      "sourceSha256": "2cc74224d0873abaf46489f5d52468772b4d5ca8a0f3dde6abe81f0781e4c863",
+      "visualDescription": "Red-and-green humanoid with dark-blue and gray details.",
+      "pixelSha256": "8e694d5b689576ae3618fc1b6f4ecca488491b97bdfceb8ab8e7de5b0767ae3b"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/176/frame/0",
+      "sourceSha256": "69b9c5cc4345268f60da9e4de4c5232f36c09a7dcc77f83cd95ace01f78f0244",
+      "visualDescription": "Red, blue and white humanoid holding a pale blade-shaped object.",
+      "pixelSha256": "474928632f7a916e2431c5868a93cab02f6a03ae6b0b8045e1f9ab8c3d6ad44f"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/179/frame/0",
+      "sourceSha256": "8e2a243b0c7a838e26a02fc12b291475ad2eef8542b49ade1f5894723ea82b74",
+      "visualDescription": "Purple-robed humanoid holding a blue-and-green staff-like object.",
+      "pixelSha256": "2fa2307bf1d688651f9510894935c5d20f1b7a3b4049448dd033a6dbc95c388e"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/182/frame/0",
+      "sourceSha256": "a0771ad161e798b179794c066096c27426236dd711e40f0509a95ae944109cba",
+      "visualDescription": "Dark low-stance figure with red and green accents; silhouette unclear at this scale.",
+      "pixelSha256": "e5327f275fe85f4b9348a85156c7f690056c616368eb308058ef0ca99fd3afd9"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/184/frame/0",
+      "sourceSha256": "fe1d48dff5e884f13e30a2dec01e2cbd2a245067b951bd162393078c842baa8f",
+      "visualDescription": "Large red-orange, green and white composition with a bright orange flare; subject unclear at this scale.",
+      "pixelSha256": "4c42ac809a4001f043a9e698abf653899ef864e83a9ef5e05171a7215e86b03d"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/188/frame/0",
+      "sourceSha256": "4ea8505345a4d855bc5b8ff71af425f4ad9459626a775b6cb5da8251ababca8a",
+      "visualDescription": "Red-and-blue humanoid carrying a blade-shaped object and a shield-like object.",
+      "pixelSha256": "fe9c90db01fd819cd16a0b32089cf6dea88c9bba0fc47da6a55daa01a04506e6"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/189/frame/0",
+      "sourceSha256": "107fbcfd6128ccc2d9bf96fc4600e2f47e6a8948a57ff22388998ae6529d20b9",
+      "visualDescription": "Small red, green and blue humanoid in a low stance.",
+      "pixelSha256": "488a27e0fd60ced14d58b7e539d7387e7cfbaf030aeef8a0da19e0d7575a3f7a"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/19/frame/0",
+      "sourceSha256": "d596112a239b7f26ec08ea835baae0b6dac0416db13537bba9a185b5af0fe283",
+      "visualDescription": "Red humanoid holding a long pale object diagonally across its body.",
+      "pixelSha256": "fed69f0dd1157f164395cc9d50afb9bf82aebf80bb0d0ea97c9df167389bd9a1"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/190/frame/0",
+      "sourceSha256": "a0771ad161e798b179794c066096c27426236dd711e40f0509a95ae944109cba",
+      "visualDescription": "Dark low-stance figure with red and green accents; silhouette unclear at this scale.",
+      "pixelSha256": "e5327f275fe85f4b9348a85156c7f690056c616368eb308058ef0ca99fd3afd9"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/2/frame/0",
+      "sourceSha256": "4464c39228972ed859ec17c79158fdca6e0debf13d4e031a8017f5daca35bbbd",
+      "visualDescription": "Two bulky gray forms facing inward, with dark-blue armor-like areas and a small cyan-red detail near the center.",
+      "pixelSha256": "6131642d2a43eab014039cb6771b3aaf238380a03f3a8b3ad216aec37f543a0f"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/23/frame/0",
+      "sourceSha256": "ab58b62dd9fc163d936db190d953aa703b171f4201bc2280c2b2e92662c2640a",
+      "visualDescription": "Wide pale-gray composition with curling segmented forms and blue-red details; subject unclear at this scale.",
+      "pixelSha256": "9b7b7ccee82d9bc14cacbc5d11440db90d11327e2068d593499700378fc527d1"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/25/frame/0",
+      "sourceSha256": "ea567a2605f50c198d5e478e75377ac8a042eba24da72e876cb37b09d592cdb7",
+      "visualDescription": "Humanoid figure with a pale face, cyan and blue details, a yellow band across the torso, dark brown limbs, and a curved dark teal shape extending down-left.",
+      "pixelSha256": "6c3eb3144675ac80c15859d0cf85bb6e6f26c1e7a3da7cef061c0944e45f32a3"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/26/frame/0",
+      "sourceSha256": "696467083b328e6082ca3d2b6dfc57de5e51d7a829e5a35503bc6e6ea7ecceba",
+      "visualDescription": "Pale gray-white thin-limbed figure, with a blue rectangular shape at the right and small red, black, and cyan details around the limbs.",
+      "pixelSha256": "5ca9b4fc418e3214ed8955a84a5134aad297b7b2e8732178724aeb2141da7304"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/27/frame/0",
+      "sourceSha256": "ca32ee23df343ebfa247b76f410a14d308d38a99cb37b577efe911adb377164a",
+      "visualDescription": "Long, low green creature-like form with a red mouth; reptile- or serpent-like is only a silhouette impression.",
+      "pixelSha256": "3c0619168bd1edb89f29bdd63e33f9e51cfd73d333c7b8052a52be562d830b5e"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/28/frame/0",
+      "sourceSha256": "862bdca4f3004d152157f17b7e398b322895fba63e3ab120790914a576e1ccd7",
+      "visualDescription": "White-outline humanoid holding a blue circular object.",
+      "pixelSha256": "3a78db2192de7c2e42cf76c841d44f9ae67748fff0e9125fc1c164bc9060388c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/31/frame/0",
+      "sourceSha256": "7ffe2f07b59fdbb1cc265809d72bfcae067577b3562baefc656beb6f6c4bd8c5",
+      "visualDescription": "Green long-armed figure with a red central area and blue lower body; limbs extend outward on both sides.",
+      "pixelSha256": "15f71863ee2b6b85c60292f800d89c79184054bbc95f214ac67c681b955e29f3"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/33/frame/0",
+      "sourceSha256": "5f382a4596cf5a902e6bdcd28ff1a973b4f83d04dacd9ce9f7ed75e155b3f079",
+      "visualDescription": "Standing figure with red outstretched arms, a bright blue central garment, a pale-yellow head, and brown-red legs.",
+      "pixelSha256": "b42f8389a7e9e8fdfed8fbc88cbe9858a1c00f0fbfadda656bb2d5a42b83676c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/35/frame/0",
+      "sourceSha256": "f035788ff37fa14ebc1c45349137d9ee83e23735628428b0e416a31e7d5fd757",
+      "visualDescription": "Red-and-blue humanoid carrying a sword-shaped object and a shield-like object.",
+      "pixelSha256": "6c386f94b72e2fbe2d2c5dd0078929df3bf0eebc94b10975ae30ab3aa450653d"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/38/frame/0",
+      "sourceSha256": "910eade6e726dbc33b0ee03dca917b6e9d47de6132ef9b1dafefce8c479e2cf8",
+      "visualDescription": "Figure with a large bright pink robe, blue-purple upper-body details, pale face and light head covering; one arm extends outward.",
+      "pixelSha256": "c0efc7beb4a5835631a296a11515b403e75a825a98b7068da9c245334fcac9ad"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/4/frame/0",
+      "sourceSha256": "32f58dd550ad198477e4b8808706533ffb94cd708e8c2bbcfbccefe87c888369",
+      "visualDescription": "Rounded brown-gray body with a darker upper section and blue markings along the lower half; oriented toward the left.",
+      "pixelSha256": "e7727915752716fa0ee4399080fdfe060ff79d486e8b95209ae41dbf58e777ef"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/41/frame/0",
+      "sourceSha256": "b7884eff1aa58ee8d2460b7f28b0c5f4103557eb5d3420f07b0bd3213ee0bd5f",
+      "visualDescription": "Figure in a bright magenta robe with blue details and a yellow face area; a red-orange form sits at the right and a dark-blue detail near the upper left.",
+      "pixelSha256": "ae882bf18cfd8d04b5236962799ec817c806b949c3e4ab326b2409d17c6c339f"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/45/frame/0",
+      "sourceSha256": "69b66e17cf439fa48560570fcb130dfd6f3d30c49d2bf6721d66c110dbf94141",
+      "visualDescription": "Standing figure with a pale helmet or head, red upper clothing, dark trousers, and a green-gray rectangular object at its right.",
+      "pixelSha256": "9f358b8712f6707aa4490552fd80fa4af0e05f4e1b9302c78c17e5e40f01404f"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/48/frame/0",
+      "sourceSha256": "c24c54e27ac43fbbbce5ded2eba96988b72c95c54da54197f32ba76622743fc4",
+      "visualDescription": "Red-and-blue humanoid with arms extended, a pale-yellow head, and brown-white lower legs.",
+      "pixelSha256": "1ca6e0edf969cf30211a65f8f31aac7af7beaa5bcc43f7dd5977b5a916fd017f"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/5/frame/0",
+      "sourceSha256": "60a1d38f93c6b69e706f509f1cdafb45881405b0b8371771857a38634e36a9fe",
+      "visualDescription": "Small dark-blue, segmented, coiled form with a red tip; serpent-like is only a visual impression.",
+      "pixelSha256": "f357b1d9a87fd6fc7424eb40627e1d1c2055b025b45fefdd8753d3335e56b4be"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/51/frame/0",
+      "sourceSha256": "66fd97ccaca2f3f003c0432817badc8fb4e5052d11c823f7b690117e1a85a41c",
+      "visualDescription": "Purple-magenta robed figure with a red hood or shoulder cape, a small blue face, and a green-gray rectangular object at its right.",
+      "pixelSha256": "6756f6e67091eef3a18520ef8a09610acbc2ae16cc4e7768647137786175191c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/54/frame/0",
+      "sourceSha256": "c62f2c3bedb2530d3ade1b8e60987449b46ab855c1382451ef0c60195e068738",
+      "visualDescription": "Red, teal and dark-blue humanoid figure.",
+      "pixelSha256": "844c103a44c007fdd9daed2bdfe1b8a42085b711f3c169ff6abaae08073efd5a"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/56/frame/0",
+      "sourceSha256": "7eb1c06cc7d813d7b6a431629227f91e59d918ab89fbd7730eaf5cd5b6ea5555",
+      "visualDescription": "Large mottled gray-green body with pale protrusions and a prominent red-and-white patterned wing or fin rising on the right.",
+      "pixelSha256": "2b45e8d21bfb40e46e16950c738061441739f23d99592364d31eab6335b68375"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/6/frame/0",
+      "sourceSha256": "fc41d3e8c0eeddbff8b25582d608afd7da203dd99a5485d4b97ed0cdf139f418",
+      "visualDescription": "Angular bright-green low-slung figure with an elongated head-like shape and long limbs; dark green and black pixels outline it.",
+      "pixelSha256": "99d7d391c1c5a44b971deba0ffcb6b3d5fb03cdc138d4b34091fa21203b19743"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/60/frame/0",
+      "sourceSha256": "d844a6e112f9cf751b39b04e1b51283da72a4ea6ae8ef22710f4d31bcbe0216b",
+      "visualDescription": "Short gray-caped humanoid with a yellow implement.",
+      "pixelSha256": "7b172a2ed629ee11a8d25524062be7a15cb1589d1cad4582a02bdaf0f9ae126b"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/61/frame/0",
+      "sourceSha256": "905ccde4297bcc724065afdb4c76b4a360a53c1cc01ff70247641b99336b8acc",
+      "visualDescription": "Small colorful humanoid holding a blue-tipped implement.",
+      "pixelSha256": "94381336cd4d3460c15da938d34a669c9e2cd0d0650bda6acb1a58cf93961efb"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/62/frame/0",
+      "sourceSha256": "c62f2c3bedb2530d3ade1b8e60987449b46ab855c1382451ef0c60195e068738",
+      "visualDescription": "Red, teal and dark-blue humanoid figure.",
+      "pixelSha256": "844c103a44c007fdd9daed2bdfe1b8a42085b711f3c169ff6abaae08073efd5a"
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/cpic2.dax/block/8/frame/0",
+      "sourceSha256": "4c7858b7b33212587e8353c857cba1f048a8869a7ee32330563bc2021247cd0d",
+      "visualDescription": "Dark gray-black form with a brown-orange center and blue details along the lower and left edges; a narrow shape extends left.",
+      "pixelSha256": "8efd92ffb3dd3ebfad59be2cd5f6f5591ebf5b6f755ec2901f44165d6e06ec72"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/0/frame/0",
+      "sourceSha256": "0d7936092061d59c485f132f27d8e5a733b109863edd3577f41fe14081c21b26",
+      "visualDescription": "Compact yellow-and-blue figure with red and white waist details, dark outlines, and a long curved black shape extending left.",
+      "pixelSha256": "b09eb0216c7b31fe95ba3eb1effe9b2d0c91123ee4734285f3880116928a32a1"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/1/frame/0",
+      "sourceSha256": "fc604d4757fa4209bc31349c34405993ef78b5e373a8ed3516567a4f2820836a",
+      "visualDescription": "Humanoid figure with brown and ochre clothing, a bright yellow chest band, gray diagonal detail across the upper body, blue hands, and dark boots.",
+      "pixelSha256": "c3fdd8c7d4c31397b55c709ecf1cb5fde88da0d185266e065c67ce58ad697fff"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/128/frame/0",
+      "sourceSha256": "c9d8fe1eb1dfed88b5109708dc5f0b1cd76a574dd288a1b9cb6098bc7c0520c5",
+      "visualDescription": "Gold-and-blue humanoid with a bright cyan star-shaped object.",
+      "pixelSha256": "7d1ef96a07f8f526ee52a3fb01d52b2dc8fb89943a06f9fb596aa4e03a366497"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/129/frame/0",
+      "sourceSha256": "fadc3797c76dbf322c569abcca874edc3473794e0f64247fc31f98545bf9aa24",
+      "visualDescription": "Brown-headed, blue-cloaked humanoid with a long yellow implement.",
+      "pixelSha256": "274473975d56e3b51ab309173554da3c96e18c46f0c633250177baa0d15ae1f9"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/131/frame/0",
+      "sourceSha256": "cad8872dfdfd3811a1ebb1b7ac7cb6f12c1bd0ffa23c8ea23fc201e10c310d7c",
+      "visualDescription": "Large blue-purple winged creature-like form with pale horn-like shapes, cyan highlights and red details.",
+      "pixelSha256": "e4cee5197e514cea40ed1d0b0f41d52bcf3e57f8dfb4cd39c3ca7aae996f4e99"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/132/frame/0",
+      "sourceSha256": "4272d3b67c44ec46027b3cf76329cd6dfbe64094e1b6fa7db4ea1bf713912c1a",
+      "visualDescription": "Dark-gray-caped humanoid with an orange head area and a red implement.",
+      "pixelSha256": "668433186d693a362d2984782bea5a1f115c18d141dc0157c11779f8c336b802"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/134/frame/0",
+      "sourceSha256": "db853838863b214fb616740047a1b4288f6a02acd9314b11bdc7b6a73bd7b369",
+      "visualDescription": "Upright green humanoid form with a long curved tail; reptilian is only a visual impression.",
+      "pixelSha256": "0cc68d90b22dff607d5b125a6735eefad2bdaf0d02a093583e101fc999c03486"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/14/frame/0",
+      "sourceSha256": "1f08c680bd8af1e7c0646d4af8e8384ffb26ae13aa671106b13002c47cf79c27",
+      "visualDescription": "Gray-and-teal armored-looking humanoid holding a long yellow implement.",
+      "pixelSha256": "d60817503a1a7201d891dc29bf4707b1147b89ac857d15bba8ccaf89683a6c3c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/142/frame/0",
+      "sourceSha256": "06079e93fde788c6056df1e913983d2bc26ce988c252a4b261e5a63d606bf874",
+      "visualDescription": "Brown-and-blue cloaked biped with a horizontal yellow implement.",
+      "pixelSha256": "dafff20aa42d2925cead358134440b739b5de66ae5e74569c03c0c0da79fd8c0"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/144/frame/0",
+      "sourceSha256": "460add3cfbcee77797a869957da030c2bc6459f69314b22572daec4a11499dbd",
+      "visualDescription": "Tall magenta, cyan and red humanoid figure beside a vertical green-blue element.",
+      "pixelSha256": "e5c607cabff4b947dfafc0382bcfc193a6c52e368b6f41c39993c32601381ffc"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/145/frame/0",
+      "sourceSha256": "43d05a80e7332fb50787c31589baaa39d87d0a2cb51c02c378a1f968ddac4971",
+      "visualDescription": "Curved dark-blue segmented form with pale-blue marks and a red tip; serpent-like is only a visual impression.",
+      "pixelSha256": "a661774a57a7474ebd5e3d65c7acb59cde97eaff719a64ea7a076642a2706d29"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/146/frame/0",
+      "sourceSha256": "79354f22e88a13fa0e572090f57a74aca5686cec4833bdaecd8c868a6ed0431e",
+      "visualDescription": "Gold-and-blue humanoid holding a bright cyan object.",
+      "pixelSha256": "9c76a6dc0f3afbfd7d752738181874152380ece5e341eb4d8a464ab1f8bac71a"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/147/frame/0",
+      "sourceSha256": "ba2758c0ddc1c6d7fbccaeb6e4a8a4ead953a699885faea4e7b8b6d6e5e2e70f",
+      "visualDescription": "Large red humanoid form with a raised red shape, a pale diagonal implement and a yellow lower region.",
+      "pixelSha256": "03ef7c6ea4510262841b0e97f2cce3241f42a39ea7ad699c29b61d537fff1229"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/149/frame/0",
+      "sourceSha256": "8bb85c540478e59ed58ad11780568e899e182e63c6d852501d9bb3c59790427c",
+      "visualDescription": "Long, low red-and-black creature-like form with a pale segmented underside.",
+      "pixelSha256": "5bc1283a04fcc678c7dadbaf3413f7ae14da1c6c63b50cf3155fc4e9b3eee87c"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/150/frame/0",
+      "sourceSha256": "ee38f25090cf9b9c794c23118bf7c81c071a5fd8e3cc2899c8c077ecd0d73e64",
+      "visualDescription": "Large pink-red winged creature-like form amid orange-yellow bursts.",
+      "pixelSha256": "010d1446d71dc87b4a94991bb48f25698d7723a4711e5caf18590a6cb42a9760"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/152/frame/0",
+      "sourceSha256": "412a78e7e7886d97b238308759057629b585b8c67441bbaa2adde65b8d4db8a8",
+      "visualDescription": "Blue-purple robed humanoid figure.",
+      "pixelSha256": "d9e84c24b6fbe1c72940ba26e566cb814a4ca3048768194989e62db151a93f9a"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/153/frame/0",
+      "sourceSha256": "af605cb19a80b516cfa6aa6a24be4758cf6b2d987dd8ffaa1719dfd0f415a2aa",
+      "visualDescription": "Gray-and-cyan armored-looking humanoid holding a long yellow implement.",
+      "pixelSha256": "f003ee74cbc825e0dd4e999afe8145dec6c2f2e6c7082a08f19cd3dd74bd3239"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/154/frame/0",
+      "sourceSha256": "423354dd0fcad57c80c04f804cbe98d58ae20ad6aee828876e7133a93c7ff4ff",
+      "visualDescription": "White-outline humanoid holding a blue circular object; a cyan line crosses the figure.",
+      "pixelSha256": "23bb22e360001fb6635277984656bcf9eaf1574b05ee1ba2b51073a08c7c3fae"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/159/frame/0",
+      "sourceSha256": "aef9570b5050729901780cffd1e3df0c76e2a99e1721f0d7f7a23a92ebd48b6c",
+      "visualDescription": "Green humanoid with red and blue regions and raised arms.",
+      "pixelSha256": "ddbef326aedf81f020530abfe4f24246086312c8e5851c5fa9bfb9f208bd4f9e"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/16/frame/0",
+      "sourceSha256": "919503e6f2c6774b429bf0b4ae82c892d91c2e3163c8309b1ead810b58787e32",
+      "visualDescription": "Tall, brightly colored red, purple and blue humanoid figure.",
+      "pixelSha256": "1f587399a76df61aa1a7e3bd84dfc90dcbdfaa842c59bb74ac9deb14ec654ae6"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/160/frame/0",
+      "sourceSha256": "adf80920ddcbfa2c2901ad465acabdcbc7b15e8493b6586021ba35f893180dcd",
+      "visualDescription": "Red-orange humanoid with a pale head area and one arm extended.",
+      "pixelSha256": "4ba3147337396b998399dc1cd60f0b545835753786f10328b5996bb76a99298e"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/163/frame/0",
+      "sourceSha256": "284f8bf6afdc4c5d18da7bff32ccdc775d92506647eec80fe4e5b279a928a3d9",
+      "visualDescription": "Red-and-blue armored-looking humanoid with a pale blade-shaped object.",
+      "pixelSha256": "fa9e0730db1d3e2262879585f2252459058280cac516f76772125e3d0586deb2"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/166/frame/0",
+      "sourceSha256": "a04158c509548045bd38afcf3e330a28b41139efdf52b720c59aa62f2a796f77",
+      "visualDescription": "Purple-robed humanoid holding a green-and-pink staff-like object.",
+      "pixelSha256": "74d0ebff232e6ff11d0550c33bf69d7de835b1a81cfc6810c265f7701be26e47"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/169/frame/0",
+      "sourceSha256": "38d3282d1ae8f69ffa89dc6c24427d3f422c4d1bdb907420448705d01342573e",
+      "visualDescription": "Purple-robed humanoid holding a blue-and-green staff-like object.",
+      "pixelSha256": "5ff7f30af76010ec3ee3c535b32b9019e670b4708b5b0c69c9b84143d482dcb3"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/17/frame/0",
+      "sourceSha256": "13cfa2950668a657f4bb0149db6f190aee301e27938cebbabb892ad4ac5e9f7b",
+      "visualDescription": "Dark-blue rounded or cloaked silhouette with blue edging and a red center mark; subject unclear.",
+      "pixelSha256": "11df6a17eeed097c836129c24b682e1ad118b592c63b397007fc7704829cfca9"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/172/frame/0",
+      "sourceSha256": "4f6aa724890011b2f767bd2aa30865bc4afc59fb87dbb7d6b2dfde889815fdfc",
+      "visualDescription": "Red-and-blue armored-looking humanoid with a blue-green side object.",
+      "pixelSha256": "69283c8cd3ed0c412c8c15757690a79d102d3e2ecb460077557b32ca22cca632"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/176/frame/0",
+      "sourceSha256": "2cc74224d0873abaf46489f5d52468772b4d5ca8a0f3dde6abe81f0781e4c863",
+      "visualDescription": "Red-and-green humanoid with dark-blue and gray details.",
+      "pixelSha256": "8e694d5b689576ae3618fc1b6f4ecca488491b97bdfceb8ab8e7de5b0767ae3b"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/18/frame/0",
+      "sourceSha256": "cc52d275e38085aede97c9ef1a50726f5a4873e4cf231cb650130dfad8c05fdb",
+      "visualDescription": "Yellow-capped blue figure with a red waist band, dark lower limbs, and a curved dark shape extending left.",
+      "pixelSha256": "da19b1d63572d498afd018e6b24e813f0b3d535f976605d0fd212505c38665c2"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/19/frame/0",
+      "sourceSha256": "d596112a239b7f26ec08ea835baae0b6dac0416db13537bba9a185b5af0fe283",
+      "visualDescription": "Red humanoid holding a long pale object diagonally across its body.",
+      "pixelSha256": "fed69f0dd1157f164395cc9d50afb9bf82aebf80bb0d0ea97c9df167389bd9a1"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/21/frame/0",
+      "sourceSha256": "64a80d7e906540cfc6bddd8214eb770a2d67fbe354d32c1709be4a9eb980aea8",
+      "visualDescription": "Wide image with a pink-purple figure on the left and a red-orange figure on the right, against dark gray shapes and a curved red-gray band.",
+      "pixelSha256": "9e54baf94fa844ffed9ea003b2eacd8d1abe52a0f975060d2dab3e28b5077023"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/22/frame/0",
+      "sourceSha256": "d38aa21d70be365087b585b1f9461437d8d1e3a462530dff009a5406b81efb69",
+      "visualDescription": "Large red-and-white scaled figure with a curved neck and head, yellow eye details, and a broad magenta wing.",
+      "pixelSha256": "4ccda946e8dd06d7d56b29d4c3a89901adf74f385653a5d12adb853905ca4b59"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/24/frame/0",
+      "sourceSha256": "e86fb84aada4af1fe9aafd03202f7b4b6016287816897e0eec4b17cfd2528867",
+      "visualDescription": "Blue-clad humanoid with a pointed blue head covering, pale face, extended arm, gray-blue lower garment, and small red foot details.",
+      "pixelSha256": "226d60a8ed56ba27df84bb1c89041513c4059a0ca03bb307203431b799ad54aa"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/25/frame/0",
+      "sourceSha256": "ea567a2605f50c198d5e478e75377ac8a042eba24da72e876cb37b09d592cdb7",
+      "visualDescription": "Humanoid figure with a pale face, cyan and blue details, a yellow band across the torso, dark brown limbs, and a curved dark teal shape extending down-left.",
+      "pixelSha256": "6c3eb3144675ac80c15859d0cf85bb6e6f26c1e7a3da7cef061c0944e45f32a3"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/26/frame/0",
+      "sourceSha256": "696467083b328e6082ca3d2b6dfc57de5e51d7a829e5a35503bc6e6ea7ecceba",
+      "visualDescription": "Pale gray-white thin-limbed figure, with a blue rectangular shape at the right and small red, black, and cyan details around the limbs.",
+      "pixelSha256": "5ca9b4fc418e3214ed8955a84a5134aad297b7b2e8732178724aeb2141da7304"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/3/frame/0",
+      "sourceSha256": "ef524fec2215a6ef7b5f490155ccd098dbc9b5ac80d3a8237b8693f59c270624",
+      "visualDescription": "Large blue and cyan scaled figure with a curved neck and long snout, red mouth detail, yellow underside, and broad wing-like shapes.",
+      "pixelSha256": "c865cdf405fcc59c92422822c547a8d56a96de8e6359b6b8b0257b44d73ac9dc"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/31/frame/0",
+      "sourceSha256": "7ffe2f07b59fdbb1cc265809d72bfcae067577b3562baefc656beb6f6c4bd8c5",
+      "visualDescription": "Green long-armed figure with a red central area and blue lower body; limbs extend outward on both sides.",
+      "pixelSha256": "15f71863ee2b6b85c60292f800d89c79184054bbc95f214ac67c681b955e29f3"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/32/frame/0",
+      "sourceSha256": "0a53258d6420f0defe8c5a998820d419dd88963c52fdae18f4f1a7de44501c72",
+      "visualDescription": "Brown, red, and gray human-shaped figure with a bright red head detail, pale shoulder line, and spread dark-brown legs.",
+      "pixelSha256": "a6450ba6c54abda9900246452c73b01c2443bf92febadb898ef4d81d67e6a23a"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/35/frame/0",
+      "sourceSha256": "f035788ff37fa14ebc1c45349137d9ee83e23735628428b0e416a31e7d5fd757",
+      "visualDescription": "Red-and-blue humanoid carrying a sword-shaped object and a shield-like object.",
+      "pixelSha256": "6c386f94b72e2fbe2d2c5dd0078929df3bf0eebc94b10975ae30ab3aa450653d"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/38/frame/0",
+      "sourceSha256": "910eade6e726dbc33b0ee03dca917b6e9d47de6132ef9b1dafefce8c479e2cf8",
+      "visualDescription": "Figure with a large bright pink robe, blue-purple upper-body details, pale face and light head covering; one arm extends outward.",
+      "pixelSha256": "c0efc7beb4a5835631a296a11515b403e75a825a98b7068da9c245334fcac9ad"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/4/frame/0",
+      "sourceSha256": "32f58dd550ad198477e4b8808706533ffb94cd708e8c2bbcfbccefe87c888369",
+      "visualDescription": "Rounded brown-gray body with a darker upper section and blue markings along the lower half; oriented toward the left.",
+      "pixelSha256": "e7727915752716fa0ee4399080fdfe060ff79d486e8b95209ae41dbf58e777ef"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/41/frame/0",
+      "sourceSha256": "b7884eff1aa58ee8d2460b7f28b0c5f4103557eb5d3420f07b0bd3213ee0bd5f",
+      "visualDescription": "Figure in a bright magenta robe with blue details and a yellow face area; a red-orange form sits at the right and a dark-blue detail near the upper left.",
+      "pixelSha256": "ae882bf18cfd8d04b5236962799ec817c806b949c3e4ab326b2409d17c6c339f"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/44/frame/0",
+      "sourceSha256": "ee78b33b82a25e032c60d7f3f38d68a4561c7c1887abb6c46f2882f88dc6a641",
+      "visualDescription": "Brown-gray standing figure with red arms and a bright cyan rounded rectangular shape at its right; pale and teal details on its torso.",
+      "pixelSha256": "fbd2fd70397c3797870f06cf6354e2373136cefb75de7033fb78b1f57a9d036b"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/48/frame/0",
+      "sourceSha256": "69b66e17cf439fa48560570fcb130dfd6f3d30c49d2bf6721d66c110dbf94141",
+      "visualDescription": "Standing figure with a pale helmet or head, red upper clothing, dark trousers, and a green-gray rectangular object at its right.",
+      "pixelSha256": "9f358b8712f6707aa4490552fd80fa4af0e05f4e1b9302c78c17e5e40f01404f"
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/cpic3.dax/block/6/frame/0",
+      "sourceSha256": "fc41d3e8c0eeddbff8b25582d608afd7da203dd99a5485d4b97ed0cdf139f418",
+      "visualDescription": "Angular bright-green low-slung figure with an elongated head-like shape and long limbs; dark green and black pixels outline it.",
+      "pixelSha256": "99d7d391c1c5a44b971deba0ffcb6b3d5fb03cdc138d4b34091fa21203b19743"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/0/frame/0",
+      "sourceSha256": "48a6967f8139cf697327c1fbc10aa0a680063c44f34be79da9d0ac40093d9611",
+      "visualDescription": "Side-view standing/ready pose with one arm extended right and a small red end accent.",
+      "pixelSha256": "6ff78ba108f2a3f33643e90895fc64912e7d7a52a7270cee2352b2bb8058034e"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/1/frame/0",
+      "sourceSha256": "4954cc57ab48c7b64e039bca78644d5ee9066499b609b3155f82238664cf1afe",
+      "visualDescription": "Similar side-view stance with a long dark curved shape behind the body and a pale held/hand detail.",
+      "pixelSha256": "72716057573e109e07d37368a6199533c7eecddda612e2669f74cdf45521e0ae"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/10/frame/0",
+      "sourceSha256": "48bf8f6eeef4fe473d4c230de8128e1df4966f7e95e95761c7b0a4f50e8306a8",
+      "visualDescription": "Side-view pose with a raised hand and a diagonal pale object; exact object unclear.",
+      "pixelSha256": "db31ff79f1c541d9514568bbdcfb1e853e3c268a89c3b6b466958c7cdb6ec541"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/11/frame/0",
+      "sourceSha256": "47593d8a7798860cfe07462438850e7874424ea568df80c4bd0748b451850ebc",
+      "visualDescription": "Low, forward-leaning green/blue side-view body with turquoise legs and gray boots; a long dark diagonal shape projects up-left and a red accent appears at the near arm/hand.",
+      "pixelSha256": "53e2446da80998286d076aa0472175341be853d461f6f22d8875474c59b4fa84"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/12/frame/0",
+      "sourceSha256": "3e42e23142d112eafc96792b5ff9e500c6bead5bcd53da0a0ed90079669f1cf0",
+      "visualDescription": "Side-view pose with a raised hand and a short pale gray/white object; exact object unclear.",
+      "pixelSha256": "0e72382f9d8ab8a6412cc07dfe5edd0d785649da8c89bdf52a434833ed871516"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/128/frame/0",
+      "sourceSha256": "e9ef8f6ed06f5897cea15ee3139e579afa501920dfa693422d0e98acaa718938",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "f6d3b9e59ddc55dc6a640368b001a54546553f9503a712e35541a3105e7d3419"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/129/frame/0",
+      "sourceSha256": "03467faae665c3776e2a5ab7efcf25b0dc58cf598a3fe286319b28b9fa8257e7",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "f918ec57601453b14a13a10cb279ca1278f87bc77a6f0273c933fc9457f276e9"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/13/frame/0",
+      "sourceSha256": "ff33a7dcb02f9c1d2ad730379058bdd041e6f3c218b6e0627eca914512875413",
+      "visualDescription": "Side-view pose with a raised hand and a short pale gray/white object; exact object unclear.",
+      "pixelSha256": "c364072f085c7435c6984d7e328681ea2a73cb825996f6046c28a00690bcb577"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/130/frame/0",
+      "sourceSha256": "9994424f1e4f75343ef0c206fec0b59bfe9ff3a59449d81504052384f92436b2",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "c96e3d28379380be9865c8d76e33d544b78553c3b295b115ae86aaf6569d4038"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/131/frame/0",
+      "sourceSha256": "4d2fe12f2f1fb6ce82552cf3b887999bb94d2e125fdc607d5def6e9aa9e2e13b",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "efd1a3f13a8d652e5a30e03221522e5b5d7b61947456ed238b0cff915cea5028"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/132/frame/0",
+      "sourceSha256": "de09c6ab00b6bdc272591ecfc21cd215b3f3db624811e888965f3eb00ff8023d",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "c4eed76b1da394be58b0bcd876ebf3cf3a1d9cd59087ecdfcdf6edf84dcb42e6"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/133/frame/0",
+      "sourceSha256": "93610bf8ecb38bd256c205d7753f31d9beaa49a1837d3e8e15f84c3a5830dd53",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "25177c5a499136dc6cafb6c9ea5012a4ef95d1bc737eb6a60657d78cf79cdf27"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/134/frame/0",
+      "sourceSha256": "1f75066e7ffee86716d17f739dbe77691c9f3dca21b8c0360824618f123f977e",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "7090b341964ee4c08858cac438d0ccd622ca55e10113a64abf3c7297c7a6b721"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/135/frame/0",
+      "sourceSha256": "e22ebc8f0da2faa1775c6130798c8076cc6401a119b69387843f8c4e54f0aef2",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "54c0ba2020c903b4b18cfa5d6e6bc15c60b01de61e794982216f359b2c2b134c"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/136/frame/0",
+      "sourceSha256": "95f3732f557dee2b51711592d1b1eb122fba040cb331bf220311789a0fee9517",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "ca489e5b34236c84aac97790bbeaaca950327fe9209c6cb7ffa5574b557812e3"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/137/frame/0",
+      "sourceSha256": "c9462dfcb9284f57ce9a7026a1b698cae5590f7f50bb9c233ac4c7aed1cf11a0",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "c7b1a241f3b11eeafc51a132b6db042eb18063612bb98d8d02b0f6f6d8f6cbe9"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/138/frame/0",
+      "sourceSha256": "01ec88fc52258ae590d0070114d7f2c04b2c9b273966b6e12adca56d626284dc",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "f3e20dac069377006cc28daed8a50e56cd2a89b15f627fd2708a9e7642e56231"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/139/frame/0",
+      "sourceSha256": "b475e75316699a2742f884329d2b609c6fd1337979f1759ba5c33d693b1a454c",
+      "visualDescription": "Turned-away/rear three-quarter green/blue body with turquoise legs; one arm reaches right toward a red accent, and a narrow dark-gray object rises behind/over the hand.",
+      "pixelSha256": "db85bbc5896ca4cfc00937998798a6113e10e37bef40550d1e1d034ffb391cf6"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/14/frame/0",
+      "sourceSha256": "e6705072b0a8f0c3bff52c48c3fa019c87c7ed31b6c0941e65c5b24c49c5ed30",
+      "visualDescription": "Side-view pose with a raised hand and a diagonal pale object; exact object unclear.",
+      "pixelSha256": "2f95d1d10f3f8d3a7ec63ed318fff665c8c4a620e03d000bf297155f1e88f83f"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/140/frame/0",
+      "sourceSha256": "c1dafb4af0dbfcb8c5537726b104ee7b2d55fb2a323477869693c49fc42f478f",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "c72135d6b77c2f8e12db8af4c15c01e7346f847ba7c394f30b82cd3444cbe8d7"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/141/frame/0",
+      "sourceSha256": "55cd184f69c7b2c5988b22014211d73c2172e3b5014d77b51c33b11ad5333673",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "3da6e736d81da2347b0a091006cf2800ff4c9f5731f0f38c8ce3525eae712ce9"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/142/frame/0",
+      "sourceSha256": "bb77437abf8e3409570081f4bb6f68bf4b63f5d7b27b294ef7c163c41ffe496b",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "90e29f8245b95500c591da5a2bdfd79d140419610f969d4adea43c9af349482a"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/143/frame/0",
+      "sourceSha256": "d982794abd3b91685205fc08a54c200bd4d2a8f1bca3b9fb00f5f7af00c82e84",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "d35792813f8386a951635799f88171680dab1e5867afac5a91b6bcea87aa83f0"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/144/frame/0",
+      "sourceSha256": "e506e36cae44200fdf00d06dad689330bfc09b8ac29b18541953e37e63b826da",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "4500b121d186941ce31ad985841e0acd0895594fd2db9f23c5917f23a5322425"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/145/frame/0",
+      "sourceSha256": "73f967390b186b51c438fb9740da75603ce3b4e5b1e5f460be3b1a5f108a134f",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "3a90a6b1c09f32e25fca57126862b8ebcc01e8ccce0be31d598038d11df3fdb2"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/146/frame/0",
+      "sourceSha256": "19cf6ea3bc79f43b1265c0987b6d8e823fb3ecf19ca9b423a0480676bff99e0f",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "5aeff1ab6cd9650ea3927cf7a5acf712a275ab7f93c526562ba60a71ba78ae50"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/147/frame/0",
+      "sourceSha256": "5270d6614a694279a076535f12853d2a64b775c6c7087f73ea4e9b55521db565",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "dff2e98c1be2f0b8927126d9c66ab3d2f6e1ce5009f663a62b06f2afec719bd3"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/148/frame/0",
+      "sourceSha256": "3e7cc422badd045e2e2de6958fcf7020d1c686e1ee682de15a9a0fa4520a3f2d",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "fa7345e5ae71a69c8dbc4df1a7f5d81814565f00b7180022243fc465d8be84e6"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/149/frame/0",
+      "sourceSha256": "317fa5f598bb3005043898af011b3454a8e88ca88cb38220fed68c83405dfa4d",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "001140a02734cfc4d959c55827e8d2750466326267de9ecda65a1ade69e922d7"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/15/frame/0",
+      "sourceSha256": "4f4029062661a36119375a1ed0ac04f72d36ce7b72be3d00409045de77f04612",
+      "visualDescription": "Side-view pose with a raised hand and a short pale gray/white object; exact object unclear.",
+      "pixelSha256": "d77f4720b9f328c924b602f7cfe6fc815171718c61c46a5df5c1a0dcbfff746a"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/150/frame/0",
+      "sourceSha256": "370bea02419993c1a9d3bdc47ec03c95d78f52e332ca119eaf1c729e39e2aa27",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "b3e9590f969a9c6b537b3be493699d0c0da090db47eb3825c2a58a3031470817"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/151/frame/0",
+      "sourceSha256": "080d018330057a5e76d2f72accba6a4accb34a7694a4c391743aba54f5432fd2",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "5ead8139d2b62412961d506512b3b2f589bdd3580e8808aac3eb27f73e93e74d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/152/frame/0",
+      "sourceSha256": "f7406f903354209ee8af7984bdd21730cabb9384924c98ee4e99adf952cf520a",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "fe9bc0a63a02a498aa99f31e7d5c58539f97929b349d20f1004a290e9dc5776b"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/153/frame/0",
+      "sourceSha256": "4b69ffa62ff310808e50a2c80d0e1fdb9030bcebc53a6d787766a7580e6d29ea",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "e35a586dad11d5b4e08d00d763ef9a833ffe4b2b02f4aa5c8100d449ed8c6663"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/154/frame/0",
+      "sourceSha256": "e3dcc5f26e5f0250e3c4475cd6f7391e833463547f7637484659882accf8a641",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "8d6377deadbe5f5eeb20b501070706a2496a2378ddf5ee7a693a4fd6b41b8aea"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/155/frame/0",
+      "sourceSha256": "f04255d8a61c9a9066cebf03c0e9ffe862162da1eeab3edc84009da7c7129dbf",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "270c2f30a73abf10a285917384c1ac6c29a7e18df5af813a15242fc0e8b4391f"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/156/frame/0",
+      "sourceSha256": "95de474e0cb9015a00491b3ca50c2435327cf5b7c3e3ffefd719485f7d253d5a",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "9912c0eb5356aeee82e54256d4a23e84c6914551c7816e57190d224754b44a86"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/157/frame/0",
+      "sourceSha256": "a877649226d29e421e761469de0e0e9f0668536b4f4e2e16cb83e45d561ab1b8",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "1cf92c29f9e290900571f03f31ba120cceb1e3584fd59a7f66eae3508697a991"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/158/frame/0",
+      "sourceSha256": "3ebebf7c878a5ecec25a0091bbc1b4895e055257763a89e0cdafc7a67ade854c",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "7d8cb402f0d0849f35661f57974cedf6aac9f903874349fc3d7045130f5a3b3e"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/159/frame/0",
+      "sourceSha256": "a71dfaefd14b52c5d47342de303f59f1952c930aeac1b4d7ff074d4ff8f45bea",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "ffed176c06c52f2309e2206c97637698de766b0406d74837cd459e96e503bc08"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/16/frame/0",
+      "sourceSha256": "77dd282becdcd9e0db5704d50cf8165b432f797350f76e097adae5f99d0387cd",
+      "visualDescription": "More upright pose with both arms extended and gray objects near the hands.",
+      "pixelSha256": "80fb8cad7e594488abecea14379d9b24c16b8da69ccd8cdb9fc46249653e71c0"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/17/frame/0",
+      "sourceSha256": "8c7ae209e379e52dc7019f8f84dfa07cf69eab1cf1828bafc8ab8742828376ec",
+      "visualDescription": "Side-view pose with a raised hand and a diagonal pale object; exact object unclear.",
+      "pixelSha256": "226913407a8219e097785323348d59838a9e19610f9fd783abd88ef7213a4e0d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/18/frame/0",
+      "sourceSha256": "254a43a7cf0715a00921fd100e04dc22baa9beebecae58da7c7314c8166e5f38",
+      "visualDescription": "Side-view pose with a raised hand and a diagonal pale object; exact object unclear.",
+      "pixelSha256": "830ad68be26d45139ae016ccb5a0617825166b6f8fe42070f85034cd5bf4f312"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/19/frame/0",
+      "sourceSha256": "73336057b865ebe2b16da7017a6365923f4681b256b8d6d564959ef5fb2b79ee",
+      "visualDescription": "Rear/away-facing blue/turquoise body form with a tall dark object behind it.",
+      "pixelSha256": "55b572efb67bc5614752019b4fac6104345ce248dd50d85e310c3f4f9af59b0b"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/192/frame/0",
+      "sourceSha256": "f5dfd8883ea9938af6bf4fcd13ab6ee48f071602211356f61377f73ea4b1f8e6",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "e03a73672bcac7e6d4b16dcc995abd564c589feb6450cdc7a76fc42bd5048c00"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/193/frame/0",
+      "sourceSha256": "338251eccaca81648753070dcc736f0b72fda83ef4ff65bece5868b88617d895",
+      "visualDescription": "Near-matching but pixel-distinct side-facing green/blue body with turquoise legs; one arm extends right toward a pale horizontal bar/held detail, with a dark curved outline rising behind.",
+      "pixelSha256": "55d449885e0f517b2e3270f2587c0e2c875b8146d8e14e444f6193b97a27baea"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/194/frame/0",
+      "sourceSha256": "287c56a3d8bb10dab0907ab94ceecb31aef9ef8ec5b31ad1ee725717a19109e2",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "f76f6b5711ccf80a89d72b827f72c5c5d34ab0dc6c105cb37183a0fd2a57c335"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/195/frame/0",
+      "sourceSha256": "34bec5a5f79f01f5aba3340f537efb21548d1e3831537064e29d566792076a62",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "d64d2e447ff8c99db471540a26d2c6bf7f185070717fea666e4abce4dcdb83f2"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/196/frame/0",
+      "sourceSha256": "1f378be439f0748c8ee097401b728df7535520c88fe0cd4a0a5daaaea81f19f6",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "b1b8a6bf7bfc507ab4eb9be2300765222924528aa4f4a70d8010a47cc6fcdf0a"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/197/frame/0",
+      "sourceSha256": "2bbc642b37b8fe2b8365c54a6e9a874ebb29b173f8bb55dd409e4cec69b8d252",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "0d3cababa6bcd444f0eb4d90b56f12a91e39323cbf11f83e06c00c5bf236109e"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/198/frame/0",
+      "sourceSha256": "5574fb3118b0418edcc5049d8ac127309e145edd676b414a0dadd5cad0836fa5",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "d1e522b8887a4d58abc5fb9f5728938388323cbf8437b66b34e495be3166bf34"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/199/frame/0",
+      "sourceSha256": "3b61c8b60f64776a4d1c33901e6d0f022f254472adc1690e2ca8a142b685dfa0",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "263e3527fe82434ae6a22aea6392c8cd3200a476471e0053a8bc0b8ea8f1741d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/2/frame/0",
+      "sourceSha256": "7ff836317797ea6ba4c13cd1e1413aad436015d550bdf0d65a2b685922e6c283",
+      "visualDescription": "Side-view body with one arm raised toward a light-gray block-shaped object above.",
+      "pixelSha256": "9c8e2343b53370580fa33cf2a8a508d76cbb0dc1516777b285abd47fd64158f9"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/20/frame/0",
+      "sourceSha256": "a5fafd02521c09870438b350478b2229ffba1963a86edbb249e2ea1f26379ad4",
+      "visualDescription": "Side-view body carrying a large gold shield at the right; upper-hand object varies and is not identified.",
+      "pixelSha256": "92af7e29b955a474a3af6e9f506af3a2a1e16bf3627b32edeafb6c021a8d3197"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/200/frame/0",
+      "sourceSha256": "767991be21ae71a79f8564575a120015ed4f37b38112d7ce28aa1970e26d5f8a",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "142d0b8017bcd0242053738713d3e116c38b280fa56fef1292ec133804f1a2dd"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/201/frame/0",
+      "sourceSha256": "2539159bd912b9433762e416c86ad124c0ce832a1df2413dc1c0a1c37417db55",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "269e8ce6c1ac9ac24fe953e62551863217c25055c998b1bb636bbb8f0f4548e6"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/202/frame/0",
+      "sourceSha256": "4a26981dece75d471aaad7a4a6eb1c99241761de92ab632465f81403721eda39",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "97307e03fcd893ae89b300c23ab5bff0a269da10323a39f26ba6baee8fe398c7"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/203/frame/0",
+      "sourceSha256": "67573b6fd0ae50a5c04aaf9afb1ac7cc0d2775ef31cc595ef168463324a96d25",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "5b05c9cfeff836b478004b3d0a73c47d76b0ded777873e52a597c1cc686aa588"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/204/frame/0",
+      "sourceSha256": "f675d9475ca69834e8aefd6c3c2d6b02d6ffd8fc998bdae2bb1377ca833e14bf",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "4354d704b0e97a852cf9aa24274109d7b45f3f19ffda9142ca2285d3304e31d1"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/205/frame/0",
+      "sourceSha256": "da91b074c465fe16a02498efac0a95220e2ade9dca14dc28e70c43819553feb2",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "c68592e9b04584d4e3694e6a74c2a5be4df6d8e711dda4d31089bf1435130a7b"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/206/frame/0",
+      "sourceSha256": "2e4f9808a2e569d17a462457e3bfe66571029aaee6ee3d8fa1887412ce712fa2",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "a3940960dcfcff81ec507a38beaae5f69c781f491ab1f2ef396e71fcb882be1e"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/207/frame/0",
+      "sourceSha256": "aa4720bc25d0b3048a0006787092bba7702e11900917a294419b912d8cb72bc2",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "399733b3351675ef62427e5d354673f8441c4eeb6800b4044d3d9a5fb0eb4e65"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/208/frame/0",
+      "sourceSha256": "0d6e590a9fb0fae86896c4427f9d56ac06268f35615a677ef457fc6f964c6256",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "b9a377541435b064a66d4cf816a6212b38b8ff3adbf21e278bf6d13631ff554c"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/209/frame/0",
+      "sourceSha256": "11d336ced2f380754b6d8e24690218ec73189b3033e316aa641ed5e912fcd7d5",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "10243f37441b51da868c0603596d16c9b0347459237b6786b8abc6533b917dff"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/21/frame/0",
+      "sourceSha256": "50f3d758cb0fffe4a1109bb1e4a9b5cfaf6e20d1981db438ee6947122f21beaa",
+      "visualDescription": "Side-view body beside or behind a large gold flared shape; object is not identified.",
+      "pixelSha256": "df99dccbc1927db3c186666b9743457b4cbae3b662ace3414f30a64a13451b5d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/210/frame/0",
+      "sourceSha256": "c6ac01a2a61bb60bdb1646332470fd568a21ef87591d2059ce96f146c71624e5",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "52aefe2e8fdf9af7287b2581661f1854c3415ed07e912ea716747585702c62f5"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/211/frame/0",
+      "sourceSha256": "66c54f2fdc568d6e140da18e588a70389829dc5b4b4cc3ff59113c4dfe686452",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "18c944ae701d48b2546a0f1f571a4abd277dec0a5ea046d84411c702a074f239"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/212/frame/0",
+      "sourceSha256": "a75ffea9cb589a2434890178810cb5c2fd0d8f1b941c7c9c42eef882cc514480",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "c6481add49d60b297b0efdca42d865f113a9502cf5a7344b1a83e6080ca80113"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/213/frame/0",
+      "sourceSha256": "bc30dee0365149915cc41076fdf64f39428418eb85bcc631374b95d3af621b41",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "3098f5ea36eb0004bd7095776a8846a5530f7488a0a2191e41c8bdbf59640c87"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/214/frame/0",
+      "sourceSha256": "ceedd2ebdfbc2c6abc7598f70c5632673bac560dcd9e51221e2c816d99758814",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "ce83be68baead99fc565699a831f158af7bf0c0e61e75a7b393d825536b890e2"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/215/frame/0",
+      "sourceSha256": "48d6d23361ca50a31fd0815b2c7e130529f67db3dd29904c8c2068744cb01d9d",
+      "visualDescription": "Crouched/leaning blue-green body with turquoise legs, a gold shield at the right, a red hand accent and a gray/white object angled down-right.",
+      "pixelSha256": "0bf1362ec2fe03dc740ae01a604bd0e0b68ac97c27564bffe1ebc2b9c23d5550"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/216/frame/0",
+      "sourceSha256": "adc42c056a6075ae2727562014ba5dc2228246d3b055f9b19a7f7fa96b81d41c",
+      "visualDescription": "Shield-bearing blue/green body visually similar to #215/#88, but with a pixel-distinct pale long object extending down-right from the red hand.",
+      "pixelSha256": "dc2df7cd964ab29fd7b3d6624daa3e053194eea6a6abfc48b2c0dea1af95ab08"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/217/frame/0",
+      "sourceSha256": "6a2aecde96f5255b745c04595e1b5af99cff6c8647a8f1425bd27885d94c780e",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "b259f5fd9cbdd0c7cc0ed3ca97bb77fc7d487729d7f34fca5d939215f6830bea"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/218/frame/0",
+      "sourceSha256": "801a63497a0ac0d5ce94ae5444c5bda185054b7946b8e13212a6f26411891aab",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "9f0f576d3f04ca0f3094f15fcb6f74d3c2dcf8d2204046a2d1e9a12fc3ad9232"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/219/frame/0",
+      "sourceSha256": "8dcb80e766ccc2a591589777e9b80eb1160f69dab799e0f5d7e48d33e8e58e34",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "912253c2eeea07a9714597daf61b06857aaabcc127737a0079baba52ee6676f2"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/22/frame/0",
+      "sourceSha256": "0681dc9f465a93286b88756d0c13ac06497e062eb2b5674618d29a6e15168a91",
+      "visualDescription": "Side-view body carrying a large gold shield at the right; upper-hand object varies and is not identified.",
+      "pixelSha256": "3a75c4a27834f134515ac963e9f2b0de3266fd7faafbba1b99133c7b6f854cfc"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/220/frame/0",
+      "sourceSha256": "2b8ed182e4c19727616a136c5d45e04f20577747163612d36b97a7a67e387b8e",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "bb220b2f86d4e9cfdf78b449a87fa04c6afb6f6c26f27d0224e6da6a35a40e61"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/221/frame/0",
+      "sourceSha256": "c588270cd3fc3017a9a34c3ad9047b88c5cccd68c31ddf9d51128990bc52b93c",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "9f59334e8bdeb63450475694deb3d010874cfe78c4dfd9fcdca354eaae1a45dc"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/222/frame/0",
+      "sourceSha256": "41352c45c2626cb5a549450706132e698d488ea2ed57186d94260401ff4a1763",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "5f1c8dc2636dd9fbfe1493d82189265ad1702c429fce6499c9dc372af707cce3"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/223/frame/0",
+      "sourceSha256": "b6ae26b87cf79d20d7341cb57e0f4cd568de277d0e6773320c9ead6db8ea7ad9",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "170b6598bb7b49b3c4fd5dac89c67d0fcc548bbe4a198b3aa3b04ce0ce125355"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/23/frame/0",
+      "sourceSha256": "ca26dc5e2d7255e36c55903db04b373b3eb4ba01f5a7d14b11a1f217102adb6d",
+      "visualDescription": "Side-view body carrying a large gold shield at the right; upper-hand object varies and is not identified.",
+      "pixelSha256": "bff8c174db892acf7a513812189d933842dd3356d07de280405fd03db80f4559"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/24/frame/0",
+      "sourceSha256": "25d7d310e0e518886f21ed089a87c394fae626a53b9dbc085d6289aca609c8f5",
+      "visualDescription": "Side-view body carrying a large gold shield at the right with a raised hand and diagonal pale object; exact object unclear.",
+      "pixelSha256": "d583b66c69eae4ff97dab456b114d6b1cbe997e5d540019822c20c39fc714a07"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/25/frame/0",
+      "sourceSha256": "e32db7e7fe8ddbb963aa5e561e92b8134cbd2b8af86b5111d2de46737c8ebcd4",
+      "visualDescription": "Side-view body carrying a large gold shield at the right; upper-hand object varies and is not identified.",
+      "pixelSha256": "876039013a113899f9acabfb22677ad3cd7c58d6f647c89731f530cf6c1c8df5"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/26/frame/0",
+      "sourceSha256": "a469f4ef8bf7df7d8ddf49a26137e3e1f4426af2b82a4505f00d7a9d50a8c9fc",
+      "visualDescription": "Side-view body carrying a large gold shield at the right with a raised hand and diagonal pale object; exact object unclear.",
+      "pixelSha256": "bb757089593863c87f7f9b83de52c24f31b3b73878dd5b527b2153fec844f91c"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/27/frame/0",
+      "sourceSha256": "fd1ba60ab95f444b9df5f6118ba182e8deb89f3c7c43040c539a65ec40066947",
+      "visualDescription": "Rear-facing or turned-away blue/green body with turquoise lower garments.",
+      "pixelSha256": "fa2dd946fa73275081eafa14f98120e99f3f47ee5184901d021a4ad9430a13d0"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/28/frame/0",
+      "sourceSha256": "773c48ce74056d91de7f49f21f25412f0aec691d90b02566a178e6d544e9402a",
+      "visualDescription": "Rear-facing or turned-away blue/green body with turquoise lower garments and a tall gray vertical object.",
+      "pixelSha256": "4df7ddb284f6f6ad9587656e5877250ac1b3988bf9ffac1167ed61ebea48ba9c"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/29/frame/0",
+      "sourceSha256": "563df31abea90427e759d9abe4c5edf8e0410823d4e8908e9bee692307e4c40c",
+      "visualDescription": "Rear-facing or turned-away blue/green body with turquoise lower garments.",
+      "pixelSha256": "212ae27a1498e7e803d9b649ee29a2ff58e087180670775826bd2e41735fec47"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/3/frame/0",
+      "sourceSha256": "358fa26b599e1c8460f6cb5a458c4798e260097170f5d195e3cab691258785d5",
+      "visualDescription": "Side-view body with one arm raised beside a long dark shaft and a pale lower end.",
+      "pixelSha256": "cc73b0f8ae425ec37c252c02fb8b08861a24911067778ab411163ec4c1ecd994"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/30/frame/0",
+      "sourceSha256": "de0b2b6f28943d97434608041859dabcb2fea8686da543b293ca99357e7fb910",
+      "visualDescription": "Rear-facing or turned-away blue/green body with turquoise lower garments.",
+      "pixelSha256": "46d03aaff63237ea1f1391e3b684008854b4e104a36668c5e540e48fb1e4557f"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/31/frame/0",
+      "sourceSha256": "c8cdda2a8dc212ae6d521a1422cbc421f3d42d42ab83590039af7bc68bc3adb4",
+      "visualDescription": "Rear-facing or turned-away blue/green body with turquoise lower garments.",
+      "pixelSha256": "0ceedb8fea7ab18accc962d03966b13260b5a42b1065342aeb77c24c3c22a3b7"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/4/frame/0",
+      "sourceSha256": "6bb23a9899c3210ed18b027332e2dd2dea9a08e886c6c5cadb7f201c5ae2bdd5",
+      "visualDescription": "Blue/green side-view body with a large gold rectangular shield at the right and a pale/dark object at the left.",
+      "pixelSha256": "f964cc8a7247d3c1449d037609ee9da666841eb6f44e4c8e0929a8b21605cac0"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/5/frame/0",
+      "sourceSha256": "86100219c552dac9080dfbcc3bade18bc7744278fc85c316ab45f2401213b112",
+      "visualDescription": "Side-view pose with one arm raised beside a horizontal dark-gray held shape.",
+      "pixelSha256": "38bde1f680a0c75f5a5703d175a0da980139bab14ea0e91d31193ac60eacbf5c"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/6/frame/0",
+      "sourceSha256": "ca81a4a0fb7a88d5aceaca976b9dd03ff1effa2a28dd4946ee2cabccd8e44a05",
+      "visualDescription": "Side-view pose with one arm raised toward a small pale-gray head/grip shape.",
+      "pixelSha256": "e861d6fa735c2c8987451a0609ea71b2c00ae15148b3dfeaadfc2901a1132107"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/64/frame/0",
+      "sourceSha256": "5184e6e85c7bfa35176a9cf9da03038bd3ae90f217dd6b9471a0328cd96b39e4",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "9dd6113e1de04ba569392c2825cad4fad9c99c99625e23a7b4c6855164eae8eb"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/65/frame/0",
+      "sourceSha256": "c79ff1f218a7d80690fb14bdce34ef4c1d7202146a8038786b432e5167309266",
+      "visualDescription": "Side-facing green/blue body with turquoise legs; one arm extends right toward a pale horizontal bar/held detail, with a dark curved outline rising behind.",
+      "pixelSha256": "14744d1c2856b7e5094fe97ec581008ca7d9e482f987a19bc379d8d35c05a6f9"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/66/frame/0",
+      "sourceSha256": "2f260773df20b12929e8691d42df0713bdf2ec0b0aeaed28930d2024d2b0b8e7",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "5981fc75c55a6a57d4dd1dc4b3637b0a5f30d8a6de3935cc1db5a8b41e5789ad"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/67/frame/0",
+      "sourceSha256": "d169d23c3d44e49638c1b17041b7eb74bfcc5abf72c5ff4ceda7d005e7fd3a1a",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "835b45b45aed5bbac164888c3eebc58a65e9b5645701d81849e290842b9daab2"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/68/frame/0",
+      "sourceSha256": "60bd74fe8cf1c68c2dde3e7fae2ede4846ac902534b455c2bb29d604a3ee8ddc",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "b8257fe4e15edc1f67785f2f6a202882366a54c593b622173bb4f46a0c8f9bb7"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/69/frame/0",
+      "sourceSha256": "38db0a7cf30dbeba220fcda20f9ba89e58e4b4ab536406fbbd12ed88a1981848",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "24c462c054648bcbe6ba02b9e51e63ca55562ca3cd88db26b66df179721fbba8"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/7/frame/0",
+      "sourceSha256": "26fc035b742e5947dca1bbf4b47ecbc5732b39c43e0f789cc5e812f62c619f3d",
+      "visualDescription": "Side-view pose with one arm raised beside a long pale diagonal blade- or shaft-shaped object.",
+      "pixelSha256": "ed9bcec890256df4cc644f92fb578cd4a3429d6cff44158caa8c2ea48890e09d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/70/frame/0",
+      "sourceSha256": "2810c9179d7de233f13930f54eb16f7a57feeb7ec8cb2e22b6e8d6d94aab8e8a",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "7c4ba76b7e41ab52f0a292d3f57cbf91fa9fbbbf875657f71e0d811a640817fc"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/71/frame/0",
+      "sourceSha256": "fd5f9b543183203b7e16111a676723fb618b8480045a2e5790e19c474950ccaf",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "46b2d2ddc46e9f69bae73d437db97f6e1d5ad9364f7a2a3454bf6facc26138f1"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/72/frame/0",
+      "sourceSha256": "5234228759bebc7602281ca97ea0592c3ee8bc2a7e36a7b061946dee3cf26071",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "e56cdbbaa8a628e3492cb7efbb5104ffb204fff59014676877e9ef9b5da77488"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/73/frame/0",
+      "sourceSha256": "f0ac486e6d80f4235e2792eede2f90289e1d35613222970926206a791fa3ee0c",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "38d070c4ea9bd5b9dd0b124d33ee4b07559664eddf883ccfb0a6b47531ea92f4"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/74/frame/0",
+      "sourceSha256": "650d42c25dceda16d9cbfdfc4b8563faafaf578cff2fd132ab6c533835156262",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "a79a2037123837a84467617011e01f41c9dc593d3bacd3fb460d2120246e8cb5"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/75/frame/0",
+      "sourceSha256": "3e4227243ee0227be560878fa669ae7f4d8640f709cb0b568c9d8abdf4fc41a2",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "c3090fbf4aeef15a92d5dbe35ffd31f5046c0f4def4d70e27493ccc3dfb6ac9c"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/76/frame/0",
+      "sourceSha256": "01d7f5f5cc99070b0690214b43559790f3b03691d651c1f6b0aaf457f3f4c483",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "177360dec019a552141584509666019f0df7aacab9b5a9920bc0682c56c45345"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/77/frame/0",
+      "sourceSha256": "7937eafd778e21bd391d02e1f982234600af1b9f77fb9cbd6a4bb5b3ee6492d5",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "8443dccc761f700309293dd9840b399525926acbffe83df1ebecb8dda6b0070c"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/78/frame/0",
+      "sourceSha256": "41d35f658d995cbf548d88da4605a5e481181786c1107a14b0394bed3a672681",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "699713ce5f48c1b29eb23d93599d0c00771939d0b7aead3541a283d7926ba19c"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/79/frame/0",
+      "sourceSha256": "8f375b66ac09555928bd38939cfbf4c90de2a1c07b3214c2408b8b8af36581ef",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "7abca1629ccab928795fa33931470699f3a9d17ad7253e87fbf47aed539084bf"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/8/frame/0",
+      "sourceSha256": "3774e290d5e641f3df272e7d09f5fa988fba202d5c3475bde8e8c41bd2e4d68f",
+      "visualDescription": "Side-view pose with one arm raised toward a dark round or looped object above.",
+      "pixelSha256": "2b10e29825060c5b02379966a7a84a0b027133b92e3896b284557b3dfd1de088"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/80/frame/0",
+      "sourceSha256": "59af6acfaf4a890dff66c5ada38abb6b8d739cc0407be1465d3cf2a1960dfd96",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "ee7b614653dbb97686905f53033023bf4d533d89cba2e5b6d8fa47c221f2fb54"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/81/frame/0",
+      "sourceSha256": "b450243dc40e4d26cda1d026643c08a222b9c2b64b7511d18c0c81095b46963b",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "20c99db9db5633f8d3ffb97971f4bb9e49522688cae1d68e1766d899f04cf7b7"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/82/frame/0",
+      "sourceSha256": "a120429a453ee31560d2f72f8ba242ffda1c4dc3adf9fb1778a017662c0f1114",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "048a4258d21d170ab8a98b395315bd75711caee2461f05acdebceb7bb7ed09d9"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/83/frame/0",
+      "sourceSha256": "817b9568c12e144f1eb5a2d1fed76df999f955f4e0f9581e6a694c63effc96d8",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "3f03718ceb163a069666f683e937180ee2a7494477a6fbae6b59600eba9e483c"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/84/frame/0",
+      "sourceSha256": "45c6b419b1f3b496fe164899b537382c821b4144ac5f503f67383cb42ffbf0ef",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "d211b25167696a422b0f90d2ade5862a1bf882f47ff8ed7fc224f28c0214fd96"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/85/frame/0",
+      "sourceSha256": "f51afb9627875270a906f738e5daea416429b1a4afcd34e4be099bde4170a1cd",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "1d1227b1133116a695e2e7f99bdebdb473eaf4e8ead0fac1fe335b349b0be26c"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/86/frame/0",
+      "sourceSha256": "624666da0701e3abdfcbe4a4d92708584894e1108eb204ec796d071aa848987d",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "ffa58172384d12db4da83972f518e48b84d7c962126d6d3fcb9b89170a005261"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/87/frame/0",
+      "sourceSha256": "ae94d19f0935bb164ebbcd70d1c4f179eb2996ae17a0190e5303ff59cff753eb",
+      "visualDescription": "Blue/green side-view body with turquoise legs, a large gold shield at the right and a pale-gray diagonal object raised on the left.",
+      "pixelSha256": "0c019dc151f4334fd45c4b249b4b5f0fbe03c948259ea72d65ab692bc2a08695"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/88/frame/0",
+      "sourceSha256": "07e69dd5cf87087898e3837ca7f3ace9080d9e6fed91c66951b518021f9a410a",
+      "visualDescription": "Side-facing blue/green body with turquoise legs, a large gold shield at the right, a red arm accent and a pale long object held diagonally up-left.",
+      "pixelSha256": "ba8375ca8586d043ae77750464f24be003dd93174ef7a1f611d26035139b5e01"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/89/frame/0",
+      "sourceSha256": "cfcbe5d1d46b888361d32cf8f59a0f419fe3db38f967abe079321fed34d0648f",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "81584f8e2bc9c6839957ff6916a943564a8c0c844b28e25afc2f845d9c515ab2"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/9/frame/0",
+      "sourceSha256": "86615f07452a1a01622937f7823115d8043e7c69cb48d1290c727d04d4c7d5e4",
+      "visualDescription": "Side-view pose with a raised hand and a short pale gray/white object; exact object unclear.",
+      "pixelSha256": "b6722f69d411e99aa1d1d0786ca6868b43a9672b7fa2d8749b53d860859bd9d9"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/90/frame/0",
+      "sourceSha256": "693b30e1fccec7e460f0813bd52922069f417d6b08c90c0396e707bbc005dd2f",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "e04aeed314f2cbfca6b1544292f73200bf3741e1fbe0373b8eb0c24b9fa722d5"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/91/frame/0",
+      "sourceSha256": "aefbea95581a1cee60e14c944966b61b8c5dd459336dfcb85cfe79a6fc4510ab",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "1b1dd7a4839c71e819dcd5c4e94eeefed038ce6b45e655119ea549c6f5f9df0e"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/92/frame/0",
+      "sourceSha256": "f440e443c8e8ee0200b1533f1b0206f442d0f7f4e8ff5243c7d405257e37b62c",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "98a13514a3c8e3ef986715cf587e723568aa0e05af85d2dd3268a299bbab232d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/93/frame/0",
+      "sourceSha256": "1c757f67068c05af31fda779d4167d4eb7d477aad9d09e3383f5823a355b0cc6",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "e3ec3fa281ec83e0cff96d3cc111fbf1972c84d56a178c34c714845fb80aa32d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/94/frame/0",
+      "sourceSha256": "2ed4dd9d0c8f40a3a7aa9508e62f227101ec734e561a346cb71cc9f23799f434",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "a53e7daee3c4485e54d75c13d98745de096520b5e14d8cd925e19d30e6415f8e"
+    },
+    {
+      "assetId": "cok/dos-ega/install/cbody.dax/block/95/frame/0",
+      "sourceSha256": "02b06c8d20ffa2c9944ae5c0f37b1b4c4ab3e4128a239725f842020ade0eaefb",
+      "visualDescription": "A small pixel-art, side-on humanoid body component, generally using green/blue upper-body colors, turquoise lower garments or legs, and gray boot pixels. Pose and held-object details vary; character identity and equipment meaning are not established.",
+      "pixelSha256": "294101928b62fbe5970a2684bbbcf1dbd050a56addf17a78cf33226f824dca1b"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/0/frame/0",
+      "sourceSha256": "16d0cebb2f4b96c5630c75ed30a9a61015aa88c0789450bfcbef00c145588c6f",
+      "visualDescription": "Cropped head-shaped sprite with a dark-red upper/back area and a coral-colored lower-right area.",
+      "pixelSha256": "b3894df83c219df2f6a7af6be7089f0dcdd05c6bb92d78bb31232cf5043fb498"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/1/frame/0",
+      "sourceSha256": "ce0945d76e16a3187ebcbda33ca674fe51eafa9114fec91623354c3f32a7ff1d",
+      "visualDescription": "Cropped head-shaped sprite with a dark-red upper/back area and a brighter coral lower-right area.",
+      "pixelSha256": "bdb13eac450965aaec0e9d1326ab5670f502646aef4c805476e16994f64a5095"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/10/frame/0",
+      "sourceSha256": "3c4584d98968b3fcd191a31cbcc4794255f1ae26dc0949011832b8c3c926546c",
+      "visualDescription": "Blocky dark-red area on the left/back and a coral-colored area on the right.",
+      "pixelSha256": "96010f850d3e05e61a46110215f5c2e94535f018f619d6a608e6332108d956d9"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/11/frame/0",
+      "sourceSha256": "16d0cebb2f4b96c5630c75ed30a9a61015aa88c0789450bfcbef00c145588c6f",
+      "visualDescription": "Cropped head-shaped sprite with a dark-red upper/back area and a coral-colored lower-right area.",
+      "pixelSha256": "b3894df83c219df2f6a7af6be7089f0dcdd05c6bb92d78bb31232cf5043fb498"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/12/frame/0",
+      "sourceSha256": "ce0945d76e16a3187ebcbda33ca674fe51eafa9114fec91623354c3f32a7ff1d",
+      "visualDescription": "Cropped head-shaped sprite with a dark-red upper/back area and a brighter coral lower-right area.",
+      "pixelSha256": "bdb13eac450965aaec0e9d1326ab5670f502646aef4c805476e16994f64a5095"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/128/frame/0",
+      "sourceSha256": "16d0cebb2f4b96c5630c75ed30a9a61015aa88c0789450bfcbef00c145588c6f",
+      "visualDescription": "Cropped head-shaped sprite with a dark-red upper/back area and a coral-colored lower-right area.",
+      "pixelSha256": "b3894df83c219df2f6a7af6be7089f0dcdd05c6bb92d78bb31232cf5043fb498"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/129/frame/0",
+      "sourceSha256": "ce0945d76e16a3187ebcbda33ca674fe51eafa9114fec91623354c3f32a7ff1d",
+      "visualDescription": "Cropped head-shaped sprite with a dark-red upper/back area and a brighter coral lower-right area.",
+      "pixelSha256": "bdb13eac450965aaec0e9d1326ab5670f502646aef4c805476e16994f64a5095"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/13/frame/0",
+      "sourceSha256": "2374c796720c8985b6fdf265dc85520749ba098ef25090af1f5d6ee182aa118f",
+      "visualDescription": "Cropped head-shaped sprite with a large dark-red upper/back area and coral-colored pixels along the right edge.",
+      "pixelSha256": "3cfc660d68adef2d199bfe980387f71d54d8474ab1355fb95a98f9085f23d991"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/130/frame/0",
+      "sourceSha256": "2374c796720c8985b6fdf265dc85520749ba098ef25090af1f5d6ee182aa118f",
+      "visualDescription": "Cropped head-shaped sprite with a large dark-red upper/back area and coral-colored pixels along the right edge.",
+      "pixelSha256": "3cfc660d68adef2d199bfe980387f71d54d8474ab1355fb95a98f9085f23d991"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/131/frame/0",
+      "sourceSha256": "ab031b8015abbcfec43773f03a47e83843cfa4dccac75bd623ef1f1df3433085",
+      "visualDescription": "Cropped head-shaped sprite with a dark-red upper/back area and a broad coral-colored area on the right/lower side; no gray or purple detail is visible.",
+      "pixelSha256": "f97af1f289daa0b9647a4b4a3f4250b1f04dd23a090fcec5f7ed752f9d66446b"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/132/frame/0",
+      "sourceSha256": "2c9345d882ae5390671b09655bfec60f56342e36b01a51ad58f7dcd264116fba",
+      "visualDescription": "Dark-red cap- or hair-like outline above a broad coral-colored area; identity of the upper shape is unknown.",
+      "pixelSha256": "c1e841df61c0b27545bc68b3355fe0aa5f01b8e60aec2226bbbb55edc2cffdc5"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/133/frame/0",
+      "sourceSha256": "e7082e3fe6e20a1fe8cb6e54b48ea4af79c0b661a96a9f2ad3d6799d6b06f45c",
+      "visualDescription": "Flat dark-red top/back shape with a narrow coral-colored area below.",
+      "pixelSha256": "a797585b0942a560344848abfb05cbe49e909d7c810b824512d2a2591527a197"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/134/frame/0",
+      "sourceSha256": "bd7c651e482889e247ccf7e8455df56545dad79362aa5715aed9a33ed2e7c3c5",
+      "visualDescription": "Magenta/purple segmented ornament on the left, gray edging and coral/red pixels on the right.",
+      "pixelSha256": "725be01c4db76400ea7e57409bdc961faafa683100bbe25e599e72e9dcf80b42"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/135/frame/0",
+      "sourceSha256": "fa3953a2b1443f9e8d5c4aa9507bbb87be5957922e3f1ff1621042be63dd194e",
+      "visualDescription": "Layered dark-red upper/back shape with a coral-colored lower-right area.",
+      "pixelSha256": "b51958779564cefc243df6ea4fbccc6b094cfd27934b1582e6b5125085b95002"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/136/frame/0",
+      "sourceSha256": "43247d39f97cd12ff33d20160f31deac2fbf502635e843bc9e5ccdaf7f3a1037",
+      "visualDescription": "Small dark-red upper/back shape, coral-colored lower area and a gray pixel at the base.",
+      "pixelSha256": "c10e196fc73cd8640bfaa01aa017497fc1f30b9401ffbfe41c86843ebe1105c6"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/137/frame/0",
+      "sourceSha256": "206063925973299f83bbab5737d9e7a397492a161b1b10e3c52b27cf6f9ec56e",
+      "visualDescription": "Mostly uniform coral-colored head silhouette; no distinct contrasting headwear area is visible.",
+      "pixelSha256": "4a230e10fe35f3922c676254353885ae8fc0addf586b1bae2b0d4bfbb11ca5fe"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/138/frame/0",
+      "sourceSha256": "3c4584d98968b3fcd191a31cbcc4794255f1ae26dc0949011832b8c3c926546c",
+      "visualDescription": "Blocky dark-red area on the left/back and a coral-colored area on the right.",
+      "pixelSha256": "96010f850d3e05e61a46110215f5c2e94535f018f619d6a608e6332108d956d9"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/139/frame/0",
+      "sourceSha256": "16d0cebb2f4b96c5630c75ed30a9a61015aa88c0789450bfcbef00c145588c6f",
+      "visualDescription": "Cropped head-shaped sprite with a dark-red upper/back area and a coral-colored lower-right area.",
+      "pixelSha256": "b3894df83c219df2f6a7af6be7089f0dcdd05c6bb92d78bb31232cf5043fb498"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/140/frame/0",
+      "sourceSha256": "ce0945d76e16a3187ebcbda33ca674fe51eafa9114fec91623354c3f32a7ff1d",
+      "visualDescription": "Cropped head-shaped sprite with a dark-red upper/back area and a brighter coral lower-right area.",
+      "pixelSha256": "bdb13eac450965aaec0e9d1326ab5670f502646aef4c805476e16994f64a5095"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/141/frame/0",
+      "sourceSha256": "2374c796720c8985b6fdf265dc85520749ba098ef25090af1f5d6ee182aa118f",
+      "visualDescription": "Cropped head-shaped sprite with a large dark-red upper/back area and coral-colored pixels along the right edge.",
+      "pixelSha256": "3cfc660d68adef2d199bfe980387f71d54d8474ab1355fb95a98f9085f23d991"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/192/frame/0",
+      "sourceSha256": "9c40a1d2a4988e22c790bc3c82dc4bebca96e3570dd78b26e61808887ebe69a0",
+      "visualDescription": "Dark-red upper/back area, coral-colored face-like area and gray pixels along the base.",
+      "pixelSha256": "fbe1feb6e9b83ffbd7ca4d257531bc2c5c3971826a2f90223eeef3aaf8c91960"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/193/frame/0",
+      "sourceSha256": "cb991e3aae53bb67488edd9d1d82ed1497edcb4fd2258e9342db11da0479bc6d",
+      "visualDescription": "Dark-red and gray upper areas, coral-colored right side and gray pixels at the base.",
+      "pixelSha256": "bb3fefc82175784ac741087ff4629625926205f077962e9c2a59e4920dc5543d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/194/frame/0",
+      "sourceSha256": "e64909ae22c8c3979dc771d6867e50ad25bd60fa8e13b870a8a4819563041a56",
+      "visualDescription": "Magenta/purple segmented area on the left, charcoal-gray banding and coral/red pixels on the right.",
+      "pixelSha256": "4a87c47b7a61037bdb2105128485bbd9acbf8d2b54774c05b1eda5e208f25f27"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/195/frame/0",
+      "sourceSha256": "6b7b6f683aaea8a8727c749e2754f5b86115f84b443fb7c88948b389be6ba24a",
+      "visualDescription": "Charcoal-gray top and base, dark-red band on the left and coral-colored area on the right.",
+      "pixelSha256": "271c6eb5dcc696f1779c54e3f427921cd9b5f75decc831a1c48897886eccd963"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/196/frame/0",
+      "sourceSha256": "90378048c3d7385873dcea073ebc40884031054dda4e748cb1b494a149bb8fa3",
+      "visualDescription": "Magenta/purple upper ornament, charcoal-gray side area and coral/red pixels below.",
+      "pixelSha256": "90a68d38124596190d56fd0dbfd7750079c5bfece067d2c6d376cd9599325c8f"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/197/frame/0",
+      "sourceSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+      "visualDescription": "Smaller cropped head-shaped sprite with a dark-red upper/back area, coral-colored right/lower area and a gray strip at the lower-left edge.",
+      "pixelSha256": "44f8dde26491a65c86668cbbfb62971217314b0e0c785829dba84150c5e50901"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/198/frame/0",
+      "sourceSha256": "515401ddc082ec8a50109a092baa074dcd6dc91bf1745e11fe1c1f10e79e2083",
+      "visualDescription": "Tall magenta/purple shape with gray edging above a coral-colored lower-right area.",
+      "pixelSha256": "5175605995a7a0d5d3d642df3a51d02ff71d6718088bbf6501b6c58e8615608f"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/199/frame/0",
+      "sourceSha256": "4c4d1df501682cd224382df790a9ed4d880fc070b329f7ac63af1d945977707c",
+      "visualDescription": "Charcoal-gray top, dark-red left strip, coral-colored right area and gray base.",
+      "pixelSha256": "33b1a0a7ed00b5256ec594b8494f4c576df6df2f5446a7ca6617df40bc442393"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/2/frame/0",
+      "sourceSha256": "2374c796720c8985b6fdf265dc85520749ba098ef25090af1f5d6ee182aa118f",
+      "visualDescription": "Cropped head-shaped sprite with a large dark-red upper/back area and coral-colored pixels along the right edge.",
+      "pixelSha256": "3cfc660d68adef2d199bfe980387f71d54d8474ab1355fb95a98f9085f23d991"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/200/frame/0",
+      "sourceSha256": "f3b0e19dfde9195cbccdfa452804ed173149d76f3ff5d59e144d64c4a3b5f109",
+      "visualDescription": "Dark-red upper/back shape with a coral-colored right section and gray at the base.",
+      "pixelSha256": "bc8278b4fb42a5aa0a0111b6392e62422c22e3668f3363cbe4d7841d09c05694"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/201/frame/0",
+      "sourceSha256": "11fb492035de04216c6ebb3ffe3ee45f1628f7912b3d5c830c2b616b5dd96005",
+      "visualDescription": "Layered dark-red upper/back shape, coral-colored right section and gray base.",
+      "pixelSha256": "810055247c0dbebf8b4797873bf5b5d1edbb3c604f7823957340ce7e7e4e2afd"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/202/frame/0",
+      "sourceSha256": "d81699ea08c0843d1a1bba2beadcc8c4aaeb9b0b0e79a94d7d1299f7c6698181",
+      "visualDescription": "Magenta/purple ornament above dark-red and coral-colored sections, with gray at the base.",
+      "pixelSha256": "c9241f1ffaa38b8fec87e9d66b5146cb809cd78a7211b21c0f0f4349de7405b3"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/203/frame/0",
+      "sourceSha256": "338ff6fa1100978ddd7f043cfc72da3d12c02929321d7a5dc79a5d32b3fb2d7e",
+      "visualDescription": "Mostly uniform coral-colored silhouette with gray pixels at the base; no distinct contrasting headwear area is visible.",
+      "pixelSha256": "1e83c0ef824377a8f74e0af5436987d2fd3c5e8968cab5efc59e973adc066ebb"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/204/frame/0",
+      "sourceSha256": "37dbcf7e8e74837142150463439f3ad4a23502d98993de0877b493abb337f19c",
+      "visualDescription": "Dark-red left/back shape, coral-colored center/right and gray pixels at the base.",
+      "pixelSha256": "975e59932f15fb8c652bee0c374a608ec5556a9b8ef6d6a73bff26c3b0d2b90d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/205/frame/0",
+      "sourceSha256": "9e235f2a77f7260db417eb4dcb975ddf4e9a9415d264bc340ee8f4a26be4e13d",
+      "visualDescription": "Dark-red upper/back shape, coral-colored right section and gray base.",
+      "pixelSha256": "121141acca01c54ad838559c9ca521db2350e492815db1d5a31bf45969b1df06"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/3/frame/0",
+      "sourceSha256": "ab031b8015abbcfec43773f03a47e83843cfa4dccac75bd623ef1f1df3433085",
+      "visualDescription": "Cropped head-shaped sprite with a dark-red upper/back area and a broad coral-colored area on the right/lower side; no gray or purple detail is visible.",
+      "pixelSha256": "f97af1f289daa0b9647a4b4a3f4250b1f04dd23a090fcec5f7ed752f9d66446b"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/4/frame/0",
+      "sourceSha256": "2c9345d882ae5390671b09655bfec60f56342e36b01a51ad58f7dcd264116fba",
+      "visualDescription": "Dark-red cap- or hair-like outline above a broad coral-colored area; identity of the upper shape is unknown.",
+      "pixelSha256": "c1e841df61c0b27545bc68b3355fe0aa5f01b8e60aec2226bbbb55edc2cffdc5"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/5/frame/0",
+      "sourceSha256": "e7082e3fe6e20a1fe8cb6e54b48ea4af79c0b661a96a9f2ad3d6799d6b06f45c",
+      "visualDescription": "Flat dark-red top/back shape with a narrow coral-colored area below.",
+      "pixelSha256": "a797585b0942a560344848abfb05cbe49e909d7c810b824512d2a2591527a197"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/6/frame/0",
+      "sourceSha256": "bd7c651e482889e247ccf7e8455df56545dad79362aa5715aed9a33ed2e7c3c5",
+      "visualDescription": "Magenta/purple segmented ornament on the left, gray edging and coral/red pixels on the right.",
+      "pixelSha256": "725be01c4db76400ea7e57409bdc961faafa683100bbe25e599e72e9dcf80b42"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/64/frame/0",
+      "sourceSha256": "9c40a1d2a4988e22c790bc3c82dc4bebca96e3570dd78b26e61808887ebe69a0",
+      "visualDescription": "Dark-red upper/back area, coral-colored face-like area and gray pixels along the base.",
+      "pixelSha256": "fbe1feb6e9b83ffbd7ca4d257531bc2c5c3971826a2f90223eeef3aaf8c91960"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/65/frame/0",
+      "sourceSha256": "cb991e3aae53bb67488edd9d1d82ed1497edcb4fd2258e9342db11da0479bc6d",
+      "visualDescription": "Dark-red and gray upper areas, coral-colored right side and gray pixels at the base.",
+      "pixelSha256": "bb3fefc82175784ac741087ff4629625926205f077962e9c2a59e4920dc5543d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/66/frame/0",
+      "sourceSha256": "e64909ae22c8c3979dc771d6867e50ad25bd60fa8e13b870a8a4819563041a56",
+      "visualDescription": "Magenta/purple segmented area on the left, charcoal-gray banding and coral/red pixels on the right.",
+      "pixelSha256": "4a87c47b7a61037bdb2105128485bbd9acbf8d2b54774c05b1eda5e208f25f27"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/67/frame/0",
+      "sourceSha256": "6b7b6f683aaea8a8727c749e2754f5b86115f84b443fb7c88948b389be6ba24a",
+      "visualDescription": "Charcoal-gray top and base, dark-red band on the left and coral-colored area on the right.",
+      "pixelSha256": "271c6eb5dcc696f1779c54e3f427921cd9b5f75decc831a1c48897886eccd963"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/68/frame/0",
+      "sourceSha256": "90378048c3d7385873dcea073ebc40884031054dda4e748cb1b494a149bb8fa3",
+      "visualDescription": "Magenta/purple upper ornament, charcoal-gray side area and coral/red pixels below.",
+      "pixelSha256": "90a68d38124596190d56fd0dbfd7750079c5bfece067d2c6d376cd9599325c8f"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/69/frame/0",
+      "sourceSha256": "ce6d29d2b27218a3680ee38cddd0cea8112eb4fe1e80d4f0dbb82bcacd40f4ef",
+      "visualDescription": "Smaller cropped head-shaped sprite with a dark-red upper/back area, coral-colored right/lower area and a gray strip at the lower-left edge.",
+      "pixelSha256": "44f8dde26491a65c86668cbbfb62971217314b0e0c785829dba84150c5e50901"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/7/frame/0",
+      "sourceSha256": "fa3953a2b1443f9e8d5c4aa9507bbb87be5957922e3f1ff1621042be63dd194e",
+      "visualDescription": "Layered dark-red upper/back shape with a coral-colored lower-right area.",
+      "pixelSha256": "b51958779564cefc243df6ea4fbccc6b094cfd27934b1582e6b5125085b95002"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/70/frame/0",
+      "sourceSha256": "515401ddc082ec8a50109a092baa074dcd6dc91bf1745e11fe1c1f10e79e2083",
+      "visualDescription": "Tall magenta/purple shape with gray edging above a coral-colored lower-right area.",
+      "pixelSha256": "5175605995a7a0d5d3d642df3a51d02ff71d6718088bbf6501b6c58e8615608f"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/71/frame/0",
+      "sourceSha256": "4c4d1df501682cd224382df790a9ed4d880fc070b329f7ac63af1d945977707c",
+      "visualDescription": "Charcoal-gray top, dark-red left strip, coral-colored right area and gray base.",
+      "pixelSha256": "33b1a0a7ed00b5256ec594b8494f4c576df6df2f5446a7ca6617df40bc442393"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/72/frame/0",
+      "sourceSha256": "f3b0e19dfde9195cbccdfa452804ed173149d76f3ff5d59e144d64c4a3b5f109",
+      "visualDescription": "Dark-red upper/back shape with a coral-colored right section and gray at the base.",
+      "pixelSha256": "bc8278b4fb42a5aa0a0111b6392e62422c22e3668f3363cbe4d7841d09c05694"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/73/frame/0",
+      "sourceSha256": "11fb492035de04216c6ebb3ffe3ee45f1628f7912b3d5c830c2b616b5dd96005",
+      "visualDescription": "Layered dark-red upper/back shape, coral-colored right section and gray base.",
+      "pixelSha256": "810055247c0dbebf8b4797873bf5b5d1edbb3c604f7823957340ce7e7e4e2afd"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/74/frame/0",
+      "sourceSha256": "d81699ea08c0843d1a1bba2beadcc8c4aaeb9b0b0e79a94d7d1299f7c6698181",
+      "visualDescription": "Magenta/purple ornament above dark-red and coral-colored sections, with gray at the base.",
+      "pixelSha256": "c9241f1ffaa38b8fec87e9d66b5146cb809cd78a7211b21c0f0f4349de7405b3"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/75/frame/0",
+      "sourceSha256": "338ff6fa1100978ddd7f043cfc72da3d12c02929321d7a5dc79a5d32b3fb2d7e",
+      "visualDescription": "Mostly uniform coral-colored silhouette with gray pixels at the base; no distinct contrasting headwear area is visible.",
+      "pixelSha256": "1e83c0ef824377a8f74e0af5436987d2fd3c5e8968cab5efc59e973adc066ebb"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/76/frame/0",
+      "sourceSha256": "37dbcf7e8e74837142150463439f3ad4a23502d98993de0877b493abb337f19c",
+      "visualDescription": "Dark-red left/back shape, coral-colored center/right and gray pixels at the base.",
+      "pixelSha256": "975e59932f15fb8c652bee0c374a608ec5556a9b8ef6d6a73bff26c3b0d2b90d"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/77/frame/0",
+      "sourceSha256": "9e235f2a77f7260db417eb4dcb975ddf4e9a9415d264bc340ee8f4a26be4e13d",
+      "visualDescription": "Dark-red upper/back shape, coral-colored right section and gray base.",
+      "pixelSha256": "121141acca01c54ad838559c9ca521db2350e492815db1d5a31bf45969b1df06"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/8/frame/0",
+      "sourceSha256": "43247d39f97cd12ff33d20160f31deac2fbf502635e843bc9e5ccdaf7f3a1037",
+      "visualDescription": "Small dark-red upper/back shape, coral-colored lower area and a gray pixel at the base.",
+      "pixelSha256": "c10e196fc73cd8640bfaa01aa017497fc1f30b9401ffbfe41c86843ebe1105c6"
+    },
+    {
+      "assetId": "cok/dos-ega/install/chead.dax/block/9/frame/0",
+      "sourceSha256": "206063925973299f83bbab5737d9e7a397492a161b1b10e3c52b27cf6f9ec56e",
+      "visualDescription": "Mostly uniform coral-colored head silhouette; no distinct contrasting headwear area is visible.",
+      "pixelSha256": "4a230e10fe35f3922c676254353885ae8fc0addf586b1bae2b0d4bfbb11ca5fe"
+    }
+  ]
+}

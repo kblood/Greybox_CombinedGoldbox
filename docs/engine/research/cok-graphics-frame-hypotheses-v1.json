@@ -1,0 +1,47 @@
+{
+  "schema": "cok-graphics-frame-hypotheses-v1",
+  "hypotheses": [
+    {
+      "id": "hypothesis/cok-amiga-cpic1-block-1-and-129",
+      "title": "Possible relationship between Amiga CPIC1 blocks 1 and 129",
+      "status": "open",
+      "relationHypothesis": "A user suggested block 1 may show a Bazz/Baaz Draconian standing, block 129 may show an attack, and another image may be used during movement. This subject and frame-role interpretation is unverified.",
+      "sources": [
+        {
+          "assetId": "cok/amiga/disk2/cpic1.daa/block/1/frame/0",
+          "pixelSha256": "72ee2f5402dc070111cd0977998f252fe172774e17340cb132db6aae63a79b30",
+          "proposedRole": "possible standing/idle pose; unverified"
+        },
+        {
+          "assetId": "cok/amiga/disk2/cpic1.daa/block/129/frame/0",
+          "pixelSha256": "68bededcbf3916d25b9854e19623f50beb01b52dc9e542683a5bc7c6cc255d63",
+          "proposedRole": "possible attack pose; unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "user-report",
+          "reference": "conversation:Champions of Krynn (Amiga) CPIC1 block 129 discussion",
+          "note": "User's original wording: ‘Nu er det f.eks. en Bazz Draconian hvis jeg husker rigtigt, og det er hvor den angriber imens block 1 er hvor den står uden at angribe, og den som bliver brugt når den bevæger sig f.eks.’ This is a lead for review, not verified game evidence."
+        },
+        {
+          "kind": "source-file-hash",
+          "reference": "docs/engine/research/cok-amiga-cpic1-1-129-source-trace-2026-11-06.md",
+          "note": "The private Amiga disk1/game and disk2/CPIC1.DAA files are present and match recorded SHA-256 pins; this establishes source availability only, not their CPIC1 selector, consumer or shared installation."
+        },
+        {
+          "kind": "decoded-pixels-and-visual-review",
+          "reference": "docs/engine/research/cok-amiga-cpic-visual-descriptions-v1.json",
+          "note": "Both source records have pinned decoded pixel hashes and visual descriptions. Their visual appearance differs; these facts do not establish a shared subject, animation, or game use."
+        }
+      ],
+      "limits": [
+        "No verified Amiga runtime selector/load trace establishes when either source is used.",
+        "No movement frame has been identified.",
+        "The pinned Amiga executable and CPIC1 archive are locally present, but a CPIC1-specific selector/load/draw trace establishing subject identity and playback is not yet recorded.",
+        "No reusable, reviewed HUNK/relocation parser was located in checked-in tools for continuing the static executable trace.",
+        "Do not add these sources to an animation group or imply playback order or timing from this hypothesis."
+      ]
+    }
+  ]
+}

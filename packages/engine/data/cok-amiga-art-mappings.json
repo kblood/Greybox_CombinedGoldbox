@@ -1,0 +1,49 @@
+{
+  "description": "Curated Amiga->DQK art-slot mappings for the cok-on-dqk build (ROADMAP wave-1). Each entry in `mappings` is a strict AmigaSlotMapping (artSlotMapping.ts) consumed by buildPortableArtOverrides(sources, mappings) / buildMappedArtOverride. Every assignment is evidence-based, never taste: (1) block-id parity - the DQK master's set-id table id equals the CoK picture id the ported (unchanged) CoK ECL will request, and the Amiga .DAA block id equals the DOS CoK PIC*.DAX block id for the same picture (cross-checked; shared pic blocks are pixel-identical across Amiga disks, 14/14); (2) exact dimension parity - the Amiga source frame and the real DQK target slot are both 88x88; mismatches are flagged in `unmapped`, not forced. Slots are flattened decodeHlib image indices of the real DQK .TLB (the ?artmap=1 editor's model). frameIndex 0 = the base (non-animation) picture frame, per the Gen1 pic-animation convention.",
+  "game": "cok",
+  "curated": "2026-07-18",
+  "mappings": [
+    {
+      "target": "PICA.TLB",
+      "source": "pic2.daa",
+      "assignments": [
+        { "slot": 0, "sourceBlockId": 5, "frameIndex": 0 },
+        { "slot": 3, "sourceBlockId": 10, "frameIndex": 0 },
+        { "slot": 14, "sourceBlockId": 23, "frameIndex": 0 },
+        { "slot": 18, "sourceBlockId": 32, "frameIndex": 0 },
+        { "slot": 17, "sourceBlockId": 30, "frameIndex": 0, "source": "pic1.daa" },
+        { "slot": 22, "sourceBlockId": 44, "frameIndex": 0 },
+        { "slot": 24, "sourceBlockId": 64, "frameIndex": 0 }
+      ]
+    }
+  ],
+  "provenance": [
+    { "target": "PICA.TLB", "slot": 0, "dqkSetId": 5, "dqkSlotShape": "88x88 m18 (set p2 base)", "amiga": "pic2.daa block 5 frame 0 (88x88, 1 frame; pixel-identical to pic1.daa block 5)" },
+    { "target": "PICA.TLB", "slot": 3, "dqkSetId": 10, "dqkSlotShape": "88x88 m18 (set p3 base)", "amiga": "pic2.daa block 10 frame 0 (88x88, 6 frames; DOS PIC2.DAX block 10 also 6 frames)" },
+    { "target": "PICA.TLB", "slot": 14, "dqkSetId": 23, "dqkSlotShape": "88x88 m18 (set p6 base)", "amiga": "pic2.daa block 23 frame 0 (88x88, 6 frames; pixel-identical to pic1.daa block 23)" },
+    { "target": "PICA.TLB", "slot": 17, "dqkSetId": 30, "dqkSlotShape": "88x88 m18 (set p7 base)", "amiga": "pic1.daa block 30 frame 0 (88x88, 4 frames; pic1-only id - per-assignment source override, added 2026-07-18 when the schema gained SlotAssignment.source; render = coherent white-dragon portrait)" },
+    { "target": "PICA.TLB", "slot": 18, "dqkSetId": 32, "dqkSlotShape": "88x88 m18 (set p8 base)", "amiga": "pic2.daa block 32 frame 0 (88x88, 1 frame; DOS PIC3.DAX block 32 = 1 frame)" },
+    { "target": "PICA.TLB", "slot": 22, "dqkSetId": 44, "dqkSlotShape": "88x88 m18 (set p10 base)", "amiga": "pic2.daa block 44 frame 0 (88x88, 1 frame; pixel-identical to pic1.daa block 44)" },
+    { "target": "PICA.TLB", "slot": 24, "dqkSetId": 64, "dqkSlotShape": "88x88 m18 (set p12 base)", "amiga": "pic2.daa block 64 frame 0 (88x88, 1 frame; DOS PIC3.DAX block 64 = 1 frame)" }
+  ],
+  "unmapped": [
+    { "target": "PICA.TLB", "slot": 6, "reason": "dimension mismatch: DQK set id 14's base picture is 96x104 m16, Amiga block 14 is 88x88 - top-left crop/pad would misplace real art; flagged, not forced" },
+    { "target": "PICA.TLB", "slot": 25, "reason": "dimension mismatch: DQK set id 70's base picture is 96x104 m16, Amiga block 70 is 88x88; flagged, not forced" },
+    { "target": "PICA.TLB", "slot": -1, "reason": "all animation-extra slots (1,2,4,5,7-12,15,16,20,21,26,27) unmapped: DQK pic animation is delta overlays at varying geometry (88x36/96x104/etc.), Amiga pic animation is full 88x88 redraw cels - structurally different animation systems, no frame->slot evidence" },
+    { "target": "PICA.TLB", "slot": -1, "reason": "no-candidate base slots 13,19,23,28-36 (DQK set ids 21,43,49,74,84,90,91,112-116): no CoK/Amiga picture carries those ids, so no evidence-based source exists; they stay DQK art" },
+    { "target": "PICB.TLB", "slot": -1, "reason": "no candidates by construction: PICB's set-id table carries engine picture ids 128-150; CoK's picture id space (union of PIC1/2/3.DAX + pic1/pic2.daa block ids) tops out at 73, so no ported CoK ECL request can reach a PICB id. Stays DQK art (never displayed by CoK content). Watch-item: if the DQK engine hard-codes id 128 for the Camp scene, that one slot may surface engine-side; no evidence which id CoK's camp uses on the DQK engine, so no guess" },
+    { "target": "PICC.TLB", "slot": -1, "reason": "no candidates by construction: PICC's set-id table carries ids 151-174 + 239, out of CoK's 0-73 picture id space (same reasoning as PICB)" },
+    { "target": "SPRIT.TLB", "slot": -1, "reason": "0 mapped; the 11 id-parity candidates (DQK sprite set ids 1,2,3,4,8,12,14,19,22,25,28, each an Amiga SPRIT1/SPRIT2.DAA block) were RE-EXAMINED 2026-07-18 after both mechanical repack gaps closed (per-slot crop + method-23 transparent keying now work - see knownMechanicalGaps) and ALL 11 now fail the EVIDENCE gate itself, measured per frame: (1) no candidate can fill its set's medium/far zoom slots - the Amiga sub-frame's 3 frames are NOT 3 zooms (frame 0 = an 88x88 multi-figure sheet on magenta bg=13 with edge-clipped figures, frames 1/2 = two same-size animation poses on black bg=0, e.g. id 12 both bbox 50x60), so DQK z1/z2 (16x16..64x39) have no fitting source art whatsoever; (2) frames 1/2, the only single-figure frames, render with an incoherent palette (the block's own 32-colour table yields rainbow noise on them while the same table renders frame 0 coherently - matches the checked-in renders/subframe/amiga_cok_sprit1 output; DOS SPRIT1.DAX same ids render coherently, so this is an unresolved Amiga-side palette question, not a repack issue); (3) the one dimension-exact pair (DQK id 25 base slot 39 = 88x88 vs Amiga block 25 frame 0 = 88x88) fails eyeball coherence - frame 0 is the multi-figure sheet, not a single sprite. Partial z0-only lifts (f1 art fits z0 for ids 4,8,12,14,25,28) are also rejected: mixing a CoK close-view figure with DQK medium/far art of a different monster under one sprite id would morph mid-approach. Unblocks only when the Amiga combat-frame palette question is solved AND a frame-role correspondence is evidenced" },
+    { "target": "CPIC.TLB", "slot": -1, "reason": "Amiga CPIC1 combat icons are 24x24, DQK CPIC is 48x48; top-left pad would draw quarter-size icons in the corner - needs center/scale repack, flagged not forced" },
+    { "target": "CBODY.TLB", "slot": -1, "reason": "Amiga BODY1.DAA is one 88x48 frame; DQK CBODY is 98 24x24 paper-doll icons - no per-id candidates" },
+    { "target": "WILDCOM.TLB", "slot": -1, "reason": "tile bank: Amiga WILDCOM.DAA holds 1 frame vs DQK 160 - no per-id candidates" },
+    { "target": "DUNGCOM.TLB", "slot": -1, "reason": "tile bank: Amiga DUNGCOM.DAA holds 1 frame vs DQK 136 - no per-id candidates" },
+    { "target": "8X8DB.TLB", "slot": -1, "reason": "tile bank: Amiga 8X8D1.DAA holds 12 frames vs DQK 423 - no per-id candidates" },
+    { "target": "8X8DC.TLB", "slot": -1, "reason": "tile bank: Amiga 8X8D1.DAA holds 12 frames vs DQK 376 (8x1 strips) - no per-id candidates" }
+  ],
+  "knownMechanicalGaps": [
+    "CLOSED 2026-07-18 (was: placeholder set-id table + assigned-slots-only packing): buildMappedArtOverride now takes the ORIGINAL DQK .TLB bytes and rebuilds it as a drop-in via rebuildHlibMasterWithSlotReplacements - real set-id table preserved byte-for-byte, unmapped sets carried over verbatim, mapped slots replaced in place at each slot's own original geometry/draw method, the Amiga 32-colour palette patched over the owning set's colour-table slice. tools/build-dqk-dir.mts --amiga passes the originals; the emitted PICA.TLB override answers every engine picture-id lookup the original did.",
+    "CLOSED 2026-07-18 (was: no transparent keying for master method-23 targets): in drop-in mode a transparent-class slot (draw method 21/23) now keys the source frame's measured background (dominant border colour, detectFrameTransparentBackground) to the HLIB 255 key before cropping, so encodeMethod23 emits skip runs. Validated by a SPRIT.TLB ad-hoc repack test (transparency mask round-trips exactly); no SPRIT mapping is committed because the candidates fail the EVIDENCE gate, not the mechanics (see SPRIT.TLB unmapped entry).",
+    "CLOSED 2026-07-18 (was: one-source-per-target model blocking pic1-only id 30): SlotAssignment gained an optional per-assignment `source` archive override (backward compatible - absent means the mapping-level source); PICA slot 17 is now mapped from pic1.daa block 30."
+  ]
+}

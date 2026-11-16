@@ -1,0 +1,15 @@
+# Greybox — deploy headers for /greybox/.
+#
+# Unlike the libretro/WebXR deploys, this viewer is pure <canvas> rendering with
+# no SharedArrayBuffer / Web Workers / wasm threads, so it does NOT need (and we
+# deliberately omit) Cross-Origin-Embedder/Opener-Policy — COEP require-corp here
+# would only add failure modes for no benefit.
+#
+# We just want cache discipline so a redeploy isn't masked by a stale shell.
+# (Directory-listing suppression lives in the server conf, deploy/goldbox.conf,
+# because `Options -Indexes` needs AllowOverride Options which we don't grant.)
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|mjs|css|html|json)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>

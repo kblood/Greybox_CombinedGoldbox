@@ -1,0 +1,32 @@
+{
+  "id": "death-knights-amiga",
+  "title": "Death Knights of Krynn",
+  "platform": "Amiga",
+  "container": "DAA (big-endian 5-plane planar, 12-bit palette) + IFF/ILBM",
+  "endianness": "big",
+  "display": { "width": 320, "height": 200, "pixelAspect": 1, "defaultZoom": 2 },
+  "files": [
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/Title0.LBM", "category": "title", "label": "Title0 (title screen)" },
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/Title1.LBM", "category": "title", "label": "Title1 (title screen)" },
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/Title1A.LBM", "category": "title", "label": "Title1A (title screen)" },
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/gothic.lbm", "category": "ui", "label": "gothic (font/logo)" },
+
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/BIGPIC1.DAA", "category": "scenes", "label": "BIGPIC1 (scenes)" },
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk2/BIGPIC2.DAA", "category": "scenes", "label": "BIGPIC2 (scenes)" },
+
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/CPIC1.daa", "category": "portraits", "label": "CPIC1 (combat portraits)" },
+
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/BACK1.DAA", "category": "backdrops", "label": "BACK1 (combat backdrops)" },
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/BORDER.DAA", "category": "backdrops", "label": "BORDER (frame backdrop)" },
+
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/8x8d1.daa", "category": "tiles", "label": "8x8d1 (8x8 dungeon tiles)" },
+
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/COMSPR.DAA", "category": "sprites", "label": "COMSPR (combat sprites)" },
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/DUNGCOM.daa", "category": "sprites", "label": "DUNGCOM (dungeon combat)" },
+
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/GEO1.DAX", "category": "data", "label": "GEO1 (dungeon maps)", "decode": false, "note": "GEO map data — decoder not yet ported" },
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/mon1cha.dax", "category": "data", "label": "mon1cha (monster tables)", "decode": false, "note": "monster data — decoder not yet ported" },
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/ITEM0.DAX", "category": "data", "label": "ITEM0 (item tables)", "decode": false, "note": "item data — decoder not yet ported" },
+    { "path": "amiga_extracted/DeathKnightsOfKrynn/disk1/ECL1.DAX", "category": "data", "label": "ECL1 (event scripts)", "decode": false, "note": "ECL bytecode — decoder not yet ported" }
+  ]
+}

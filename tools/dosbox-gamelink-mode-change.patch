@@ -1,0 +1,11 @@
+--- a/src/output/output_gamelink.cpp
++++ b/src/output/output_gamelink.cpp
+@@ -143,7 +143,7 @@
+ 
+     bool trackonly_mode = sdl.desktop.want_type != SCREEN_GAMELINK;
+ 
+-    memset(&sdl.gamelink.input_prev, 0, sizeof(GameLink::sSharedMMapInput_R2));
++    // Keep injected key/button history across video/tracking reinitialization.
+     int iresult = GameLink::Init(trackonly_mode);
+     if (iresult != 1) {
+ #ifdef WIN32

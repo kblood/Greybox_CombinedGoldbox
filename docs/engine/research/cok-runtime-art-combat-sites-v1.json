@@ -1,0 +1,2691 @@
+{
+  "archives": [
+    {
+      "archive": "ECL1.DAX",
+      "archiveSha256": "6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79",
+      "blocks": [
+        {
+          "blockId": 16,
+          "blockSha256": "826dd124d05280ab588e94d6bf6c6c4994fdc99acf250d6ae5aa1d304fff4537",
+          "sites": [
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1
+              ],
+              "localRoster": true,
+              "offset": 1556,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2593,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2716,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 3225,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 3225,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                21,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3327,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 17,
+          "blockSha256": "94dabe74942985aab782c37df0d4ea38ae66b63a166e5251662d03998dc004cc",
+          "sites": [
+            {
+              "alternatePaths": 5,
+              "dynamicPictureOperandCount": 0,
+              "entry": "initial_entry",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 1960,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 6,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 1960,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 6,
+              "dynamicPictureOperandCount": 0,
+              "entry": "vm_run_1",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 1960,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 5,
+              "dynamicPictureOperandCount": 0,
+              "entry": "initial_entry",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 1972,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 6,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 1972,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 6,
+              "dynamicPictureOperandCount": 0,
+              "entry": "vm_run_1",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 1972,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "initial_entry",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2821,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2821,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "vm_run_1",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2821,
+              "rosteredPaths": 0
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 18,
+          "blockSha256": "32e8b9d0fea6925cc8456b7d602a7d7c92a2b0be086d537d918458489c6a403b",
+          "sites": [],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 32,
+          "blockSha256": "db03a12fcc5857b6e5f2da2b026edf5b66bd5b54c23628f62319a05627df078f",
+          "sites": [
+            {
+              "alternatePaths": 7,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                12,
+                41
+              ],
+              "localRoster": true,
+              "offset": 771,
+              "rosteredPaths": 8
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 1048,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 1048,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                12,
+                13,
+                35
+              ],
+              "localRoster": true,
+              "offset": 1212,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                12,
+                13
+              ],
+              "localRoster": true,
+              "offset": 1397,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                26,
+                31,
+                41
+              ],
+              "localRoster": true,
+              "offset": 1996,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                26,
+                41
+              ],
+              "localRoster": true,
+              "offset": 2562,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 3041,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                12,
+                13
+              ],
+              "localRoster": true,
+              "offset": 4083,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 4852,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 4902,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                35,
+                38,
+                41
+              ],
+              "localRoster": true,
+              "offset": 5018,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 33,
+          "blockSha256": "28c1f857fa76f47e919dc3a1396f6920d305862067959db3335ebd7aa718c219",
+          "sites": [
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                6,
+                26,
+                31,
+                41
+              ],
+              "localRoster": true,
+              "offset": 549,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 859,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 859,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                6,
+                26,
+                31,
+                41
+              ],
+              "localRoster": true,
+              "offset": 1100,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38,
+                41
+              ],
+              "localRoster": true,
+              "offset": 1709,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1
+              ],
+              "localRoster": true,
+              "offset": 2717,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                41
+              ],
+              "localRoster": true,
+              "offset": 3056,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                31,
+                41
+              ],
+              "localRoster": true,
+              "offset": 3646,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                38,
+                41
+              ],
+              "localRoster": true,
+              "offset": 4251,
+              "rosteredPaths": 2
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 34,
+          "blockSha256": "66ec7047a86f22200bb746f98733d73274ddbec8a385e007c578258232d110fe",
+          "sites": [
+            {
+              "alternatePaths": 6,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                8,
+                26
+              ],
+              "localRoster": true,
+              "offset": 618,
+              "rosteredPaths": 7
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 917,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 917,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 1105,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                26,
+                31,
+                41
+              ],
+              "localRoster": true,
+              "offset": 1272,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38,
+                41
+              ],
+              "localRoster": true,
+              "offset": 1648,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 1897,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2535,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                13,
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 3079,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                35,
+                38,
+                41
+              ],
+              "localRoster": true,
+              "offset": 3813,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                13,
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 5126,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                12,
+                13,
+                30
+              ],
+              "localRoster": true,
+              "offset": 5599,
+              "rosteredPaths": 2
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 36,
+          "blockSha256": "b39bdf183f0690598042ea6a28df350b76f0927dd9b1e84c198861cec5ee58dd",
+          "sites": [],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        }
+      ]
+    },
+    {
+      "archive": "ECL2.DAX",
+      "archiveSha256": "4f4ba999b0d46817091e82fe5ccf27cb6eee95cd833389353d7285c2a8dccbea",
+      "blocks": [
+        {
+          "blockId": 48,
+          "blockSha256": "cb37a047169ca61bde0cdffbcf835289853e951f5239bca22d9d6483380866bf",
+          "sites": [
+            {
+              "alternatePaths": 4,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                14,
+                35,
+                45
+              ],
+              "localRoster": true,
+              "offset": 1178,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 1548,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 1548,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19,
+                35,
+                45
+              ],
+              "localRoster": true,
+              "offset": 2036,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19,
+                35,
+                45
+              ],
+              "localRoster": true,
+              "offset": 2848,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                14
+              ],
+              "localRoster": true,
+              "offset": 4228,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                48
+              ],
+              "localRoster": true,
+              "offset": 4584,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38,
+                51
+              ],
+              "localRoster": true,
+              "offset": 5345,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                27,
+                31,
+                51
+              ],
+              "localRoster": true,
+              "offset": 6432,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 49,
+          "blockSha256": "58640ee7c75ca1cba9a98c6b1eebe3cf9963440b5957f51a92041e602aa49b9c",
+          "sites": [
+            {
+              "alternatePaths": 9,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                14
+              ],
+              "localRoster": true,
+              "offset": 705,
+              "rosteredPaths": 9
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 982,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 982,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35
+              ],
+              "localRoster": true,
+              "offset": 2505,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                48
+              ],
+              "localRoster": true,
+              "offset": 3423,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 3472,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                14,
+                35,
+                38,
+                51
+              ],
+              "localRoster": true,
+              "offset": 4022,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 4411,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                14
+              ],
+              "localRoster": true,
+              "offset": 4642,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                14
+              ],
+              "localRoster": true,
+              "offset": 5429,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                2
+              ],
+              "localRoster": true,
+              "offset": 6003,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 50,
+          "blockSha256": "b7c0d74f4a97b36c31f5016aea7d50c0c22a651ccc0da865bc0cc8a40849539c",
+          "sites": [
+            {
+              "alternatePaths": 3,
+              "dynamicPictureOperandCount": 0,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 1881,
+              "rosteredPaths": 4
+            },
+            {
+              "alternatePaths": 5,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                6,
+                31
+              ],
+              "localRoster": true,
+              "offset": 1881,
+              "rosteredPaths": 4
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2986,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 3338,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                2
+              ],
+              "localRoster": true,
+              "offset": 5522,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                6,
+                31
+              ],
+              "localRoster": true,
+              "offset": 5733,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                45,
+                51,
+                54
+              ],
+              "localRoster": true,
+              "offset": 6057,
+              "rosteredPaths": 2
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 57,
+          "blockSha256": "96230e908f62a14a289c3cda086c8dc0e43e93e1e8d755a83cde6730300bff8e",
+          "sites": [
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "initial_entry",
+              "immediateRawOperands": [
+                4,
+                10,
+                31
+              ],
+              "localRoster": true,
+              "offset": 854,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 64,
+          "blockSha256": "f890f396908bb4f9e5242d12e23dd64ee04332195a9ab43e0b6f474236b722a1",
+          "sites": [
+            {
+              "alternatePaths": 3,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 1496,
+              "rosteredPaths": 4
+            },
+            {
+              "alternatePaths": 3,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 1496,
+              "rosteredPaths": 4
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                8,
+                17
+              ],
+              "localRoster": true,
+              "offset": 1615,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4
+              ],
+              "localRoster": true,
+              "offset": 1722,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4
+              ],
+              "localRoster": true,
+              "offset": 1820,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4
+              ],
+              "localRoster": true,
+              "offset": 2390,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4
+              ],
+              "localRoster": true,
+              "offset": 2511,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4
+              ],
+              "localRoster": true,
+              "offset": 2629,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4
+              ],
+              "localRoster": true,
+              "offset": 2957,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                17
+              ],
+              "localRoster": true,
+              "offset": 3155,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                5
+              ],
+              "localRoster": true,
+              "offset": 3268,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                14
+              ],
+              "localRoster": true,
+              "offset": 3369,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4
+              ],
+              "localRoster": true,
+              "offset": 4150,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                10
+              ],
+              "localRoster": true,
+              "offset": 4525,
+              "rosteredPaths": 2
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 66,
+          "blockSha256": "4a84de8f9523fc5372f20e699a5c653e1af01352b2bfdf26f9f1fac0313ae3d3",
+          "sites": [
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 1125,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 1125,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4,
+                14
+              ],
+              "localRoster": true,
+              "offset": 1679,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4,
+                14
+              ],
+              "localRoster": true,
+              "offset": 2078,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4,
+                14
+              ],
+              "localRoster": true,
+              "offset": 2507,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4,
+                14
+              ],
+              "localRoster": true,
+              "offset": 2609,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                17,
+                35
+              ],
+              "localRoster": true,
+              "offset": 3299,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                5
+              ],
+              "localRoster": true,
+              "offset": 3606,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                8,
+                17
+              ],
+              "localRoster": true,
+              "offset": 3742,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                8,
+                35
+              ],
+              "localRoster": true,
+              "offset": 3952,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                17
+              ],
+              "localRoster": true,
+              "offset": 4025,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                17
+              ],
+              "localRoster": true,
+              "offset": 4161,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                5
+              ],
+              "localRoster": true,
+              "offset": 4364,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                33,
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 4597,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                10
+              ],
+              "localRoster": true,
+              "offset": 4825,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 67,
+          "blockSha256": "73a0ab94fe66dab8bd0fdae8e6e6b9a046db762df24b1543bdaf672ad4821465",
+          "sites": [
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [
+                28
+              ],
+              "localRoster": true,
+              "offset": 663,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                28
+              ],
+              "localRoster": true,
+              "offset": 663,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [
+                4,
+                14
+              ],
+              "localRoster": true,
+              "offset": 833,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                14
+              ],
+              "localRoster": true,
+              "offset": 833,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 3,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                28
+              ],
+              "localRoster": true,
+              "offset": 1400,
+              "rosteredPaths": 4
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                14
+              ],
+              "localRoster": true,
+              "offset": 2244,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2454,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 4770,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 4793,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 4862,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                26
+              ],
+              "localRoster": true,
+              "offset": 6674,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                5,
+                8,
+                17
+              ],
+              "localRoster": true,
+              "offset": 6883,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                56
+              ],
+              "localRoster": true,
+              "offset": 7040,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 68,
+          "blockSha256": "7afe9f99f4d2ab1179b5023856a5e401598f076ec0f24866d4669b5d5f15261b",
+          "sites": [
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [
+                25
+              ],
+              "localRoster": true,
+              "offset": 1180,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                25
+              ],
+              "localRoster": true,
+              "offset": 1180,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4,
+                14,
+                25
+              ],
+              "localRoster": true,
+              "offset": 1856,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2378,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                14
+              ],
+              "localRoster": true,
+              "offset": 3605,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                25,
+                35
+              ],
+              "localRoster": true,
+              "offset": 3851,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4,
+                14,
+                25
+              ],
+              "localRoster": true,
+              "offset": 4069,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                14,
+                25,
+                38,
+                41
+              ],
+              "localRoster": true,
+              "offset": 4954,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                14,
+                25,
+                38,
+                41
+              ],
+              "localRoster": true,
+              "offset": 5140,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                10,
+                25,
+                35
+              ],
+              "localRoster": true,
+              "offset": 5493,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 5746,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                25,
+                35
+              ],
+              "localRoster": true,
+              "offset": 6435,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38,
+                41
+              ],
+              "localRoster": true,
+              "offset": 6608,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        }
+      ]
+    },
+    {
+      "archive": "ECL3.DAX",
+      "archiveSha256": "9629aa3ef46bb354270aab1fa3e158d5b1507363bdf452fec5ca5d190f602f1f",
+      "blocks": [
+        {
+          "blockId": 80,
+          "blockSha256": "fe18f974f4f8c0d08240e60e57f6fbddba53c78c279280871ede60a5f8a3fbac",
+          "sites": [
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "vm_run_1",
+              "immediateRawOperands": [
+                14,
+                25
+              ],
+              "localRoster": true,
+              "offset": 878,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 3,
+              "dynamicPictureOperandCount": 0,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [
+                16
+              ],
+              "localRoster": true,
+              "offset": 1365,
+              "rosteredPaths": 4
+            },
+            {
+              "alternatePaths": 8,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                16
+              ],
+              "localRoster": true,
+              "offset": 1365,
+              "rosteredPaths": 7
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                48
+              ],
+              "localRoster": true,
+              "offset": 3250,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 3874,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                16
+              ],
+              "localRoster": true,
+              "offset": 4013,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 5245,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35
+              ],
+              "localRoster": true,
+              "offset": 6495,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 6570,
+              "rosteredPaths": 0
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 81,
+          "blockSha256": "36e1e85e8bc5a199e6d1009c90be0252b7d810998960922265167105510d1e0b",
+          "sites": [
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 919,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 4,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 919,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                17
+              ],
+              "localRoster": true,
+              "offset": 1343,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2363,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2569,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 2862,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4,
+                14,
+                25
+              ],
+              "localRoster": true,
+              "offset": 2957,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 4537,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 5697,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4,
+                25
+              ],
+              "localRoster": true,
+              "offset": 5863,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 82,
+          "blockSha256": "d2461e4d715a69d4bdbf0ab2134406e03d0860f2865f0e225339a820f23b69ec",
+          "sites": [
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 678,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 3,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 678,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                25,
+                35,
+                41
+              ],
+              "localRoster": true,
+              "offset": 1651,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35
+              ],
+              "localRoster": true,
+              "offset": 2946,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                14,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3217,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                25
+              ],
+              "localRoster": true,
+              "offset": 3466,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38,
+                41,
+                44
+              ],
+              "localRoster": true,
+              "offset": 4137,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 4333,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                25,
+                35,
+                41
+              ],
+              "localRoster": true,
+              "offset": 4849,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                3
+              ],
+              "localRoster": true,
+              "offset": 5060,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                3
+              ],
+              "localRoster": true,
+              "offset": 5318,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4,
+                14,
+                25
+              ],
+              "localRoster": true,
+              "offset": 5707,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                6,
+                26,
+                31
+              ],
+              "localRoster": true,
+              "offset": 6392,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                6,
+                16,
+                24
+              ],
+              "localRoster": true,
+              "offset": 6948,
+              "rosteredPaths": 2
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 96,
+          "blockSha256": "e44954a166f7d48dacfad9f604cd569eda76a2f8106584e5f2f72828df169426",
+          "sites": [
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 1,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 3065,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 3065,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3266,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3354,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3548,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                21,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3707,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                21,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3787,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 4005,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [
+                4,
+                21
+              ],
+              "localRoster": true,
+              "offset": 4528,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "initial_entry",
+              "immediateRawOperands": [
+                4,
+                21
+              ],
+              "localRoster": true,
+              "offset": 4528,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                21
+              ],
+              "localRoster": true,
+              "offset": 4528,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "vm_run_1",
+              "immediateRawOperands": [
+                4,
+                21
+              ],
+              "localRoster": true,
+              "offset": 4528,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4
+              ],
+              "localRoster": true,
+              "offset": 5373,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 5548,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 6463,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                25,
+                35
+              ],
+              "localRoster": true,
+              "offset": 6921,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 7010,
+              "rosteredPaths": 0
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 97,
+          "blockSha256": "bd4f8da73cddde06dd928c913726f24719efde2ec70faacd3ef97e11d1f1f9bf",
+          "sites": [
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 0,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 1016,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 1016,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 3,
+              "dynamicPictureOperandCount": 0,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [
+                0,
+                25
+              ],
+              "localRoster": true,
+              "offset": 1453,
+              "rosteredPaths": 4
+            },
+            {
+              "alternatePaths": 3,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                0,
+                25
+              ],
+              "localRoster": true,
+              "offset": 1453,
+              "rosteredPaths": 4
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 0,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 1913,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 1913,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                21
+              ],
+              "localRoster": true,
+              "offset": 2617,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                21,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3420,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                19,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3527,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3613,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 4445,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 4695,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 2,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 5313,
+              "rosteredPaths": 3
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                25
+              ],
+              "localRoster": true,
+              "offset": 5536,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                22
+              ],
+              "localRoster": true,
+              "offset": 6663,
+              "rosteredPaths": 2
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 98,
+          "blockSha256": "7795584ce090d136ea4013c78a27ba5dd5a590a48c1498f701d477cd23b1c31e",
+          "sites": [
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 1,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": true,
+              "offset": 724,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                0,
+                25
+              ],
+              "localRoster": true,
+              "offset": 889,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                0,
+                19,
+                25
+              ],
+              "localRoster": true,
+              "offset": 1137,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 1311,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                0,
+                25
+              ],
+              "localRoster": true,
+              "offset": 1396,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                1,
+                4,
+                18,
+                25
+              ],
+              "localRoster": true,
+              "offset": 1932,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                22
+              ],
+              "localRoster": true,
+              "offset": 2608,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                35,
+                38
+              ],
+              "localRoster": true,
+              "offset": 3716,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                21,
+                32
+              ],
+              "localRoster": true,
+              "offset": 3917,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        },
+        {
+          "blockId": 99,
+          "blockSha256": "be79dd85cbae452fc95cb81af86ad4f4144d520a08214e93634b6116e0d18bd1",
+          "sites": [
+            {
+              "alternatePaths": 3,
+              "dynamicPictureOperandCount": 0,
+              "entry": "camp_interrupted",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 663,
+              "rosteredPaths": 4
+            },
+            {
+              "alternatePaths": 3,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 663,
+              "rosteredPaths": 4
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 1383,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 1806,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 2489,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 2628,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 2749,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                4,
+                19,
+                25
+              ],
+              "localRoster": true,
+              "offset": 2979,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                0,
+                1,
+                4,
+                25
+              ],
+              "localRoster": true,
+              "offset": 3039,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 4481,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [],
+              "localRoster": false,
+              "offset": 4780,
+              "rosteredPaths": 0
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 5121,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 1,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 5890,
+              "rosteredPaths": 2
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 6080,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                19
+              ],
+              "localRoster": true,
+              "offset": 6188,
+              "rosteredPaths": 1
+            },
+            {
+              "alternatePaths": 0,
+              "dynamicPictureOperandCount": 0,
+              "entry": "search_location",
+              "immediateRawOperands": [
+                0,
+                1,
+                4,
+                25
+              ],
+              "localRoster": true,
+              "offset": 6352,
+              "rosteredPaths": 1
+            }
+          ],
+          "stateLimitReached": false,
+          "truncatedOffsets": 0
+        }
+      ]
+    }
+  ],
+  "complete": false,
+  "evidenceScope": "representative paths of a static CoK ECL scan",
+  "schema": "cok-runtime-art-combat-sites-v1",
+  "selectedPathOnly": true
+}

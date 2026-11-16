@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "title": "Pool of Radiance ecl_operand_parser (route-time 30CF:0000, GAME.OVR:0x74D3) live CS:IP hits -- CONFIRMED",
+  "date": "2026-07-22",
+  "status": "execution_confirmed_pool_cs_ip_hit",
+  "context": "Continuation of docs/engine/research/gen1-dosbox-runtime-trace.md's 2026-07-21 'breakpoint-anchored pacing implemented' entry, which reached the coherent ECL2.DAX#20 baseline (area_ecl_member_id=20, archive_set=2) via GameLink for the first time but left two open problems: (a) 4 of 6 movement keys produced no ECL-cursor change, and (b) whether SearchLocationTarget=0x9F13 was even the correct target. This round's tools/trace_pool_ecl2_20_operand_anchor_v3.ps1 solves the underlying automation-architecture blocker that prevented ANY native CS:IP breakpoint evidence after the v2 baseline load (tools/trace_pool_ecl2_20_bpint16_paced_v2.ps1's own v2-c sub-attempt proved arming a NEW breakpoint from a genuinely free-running state with zero breakpoints active is never serviced by this DOSBox-X build, even though the arm command's own status.json reports success). The fix: arm BOTH the throwaway BPINT16 title-idle anchor AND the real target (Pool's byte-validated ECL operand parser) together, at the SAME pristine first post-launch halt where arming is already proven reliable, then selectively delete ONLY the BPINT16 entry (tools/trace_pool_bpdel_selective_probe.ps1, this round, proved 'BPDEL <index>' works for selective deletion, and that DOSBox-X's BPLIST groups plain BP entries before BPINT entries -- so the index to delete must be read live, not assumed fixed by arm order). The operand-parser breakpoint then stays permanently armed for the rest of the run: every subsequent halt is a genuine execution-confirmed hit, never a re-arm.",
+  "run": {
+    "out_dir": "build/dosbox-x-pool-operand-anchor-v3-20260722-c",
+    "command": "pwsh tools/trace_pool_ecl2_20_operand_anchor_v3.ps1 -OutDir build/dosbox-x-pool-operand-anchor-v3-20260722-c",
+    "corroborating_run": "build/dosbox-x-pool-operand-anchor-v3-20260722-b (identical technique, reproduced immediately prior in the same round; raw_member_cursor sequence identical for the first 22 of 23 hits, confirming determinism, not a one-shot fluke)",
+    "exclusivity": "Get-Process -Name dosbox-x returned zero results immediately before each launch; this round held the task's exclusive DOSBox-X slot.",
+    "selective_delete_proof": "tools/trace_pool_bpdel_selective_probe.ps1, run build/dosbox-x-pool-bpdel-probe-20260722-a: live-confirmed 'BPDEL <index>' selectively removes one breakpoint while leaving another armed, and that BPLIST groups plain BP entries (lower indices) before BPINT entries (higher indices) regardless of arm order."
+  },
+  "live_evidence": {
+    "hit_count": 23,
+    "stdout_line": "[pool-operand-anchor-v3] load_target_reached=True search_location_reached=False combat_reached=False all_hits=23 out=build/dosbox-x-pool-operand-anchor-v3-20260722-c",
+    "code_note": "Every hit in all_hits is recorded only when Drain-Hits observes the debugger console genuinely stopped (Get-Stopped) with CS=30CF and EIP=00000000 -- read fresh from that exact stop's own debugger snapshot, not assumed. The operand-parser breakpoint (BP 30CF:0000) was armed exactly once, at the pristine first post-launch halt, and never re-armed; it was also never deleted before the run's own cleanup. Every hit therefore reflects a real, independent instruction-boundary halt at that physical address during ordinary GameLink-driven gameplay (title dismiss, load, SEARCH toggle, 6-key movement route, 5 LOOK presses) -- not a synthetic or re-armed capture.",
+    "zero_spurious_hits_before_load": "phase_log shows hit_count=0 for every one of title-dismiss-0, title-dismiss-1, load-menu, slot-letter, slot-confirm, and post-load-settle -- i.e. the operand-parser breakpoint did not fire on any menu/load screen even though it stayed armed throughout, addressing this round's own risk that VROOMM might place unrelated code at physical 30CF:0000 before the relevant overlay loads. All 22 (run b) / 23 (run c) hits occurred only once movement began, consistent with the operand parser being invoked exclusively by real ECL VM script steps."
+  },
+  "independent_verification": {
+    "method": "Re-derived directly from the raw retail GAME.OVR file and the run's own recorded resident bytes using a standalone Python check (not the PowerShell script's own boolean fields), independent of tools/trace_pool_ecl2_20_operand_anchor_v3.ps1's pass/fail verdict.",
+    "physical_address_check": "every hit's pointer is exactly 30CF:0000, physical (0x30CF<<4)+0x0000 = 0x30CF0, matching the address the script armed via 'BP 30CF:0000'.",
+    "byte_match_against_retail_game_ovr": true,
+    "retail_source": "C:\\Program Files (x86)\\GOG Galaxy\\Games\\Pool of Radiance\\POOLRAD\\GAME.OVR, offset 0x74D3 (documented in docs/engine/research/pool-runtime-ecl-cursor-trace.md and pool-natural-encounter-route.md as Pool's structurally matched ECL operand parser)",
+    "resident_body_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+    "all_23_hits_byte_identical": true,
+    "reproduced_across_two_independent_launches": true
+  },
+  "sharper_finding_this_round_beyond_the_cs_ip_promotion": {
+    "raw_cursor_units_bug_found_and_fixed": "v2's SearchLocationTarget=0x9F13 comparison applied the DAX-file-offset<->virtual-address formula 'virtual=(raw-2-0x6700)&0xFFFF' (documented in pool-natural-encounter-route.md for converting between STATIC DAX FILE bytes and virtual addresses) to the LIVE DGROUP+0x49ED runtime cursor field, which this round proves is ALREADY a virtual address directly comparable to the static ECL disassembly's header/branch addresses (search_location=0x9975, etc.) with no further conversion. Evidence: the very first hit of both v3 runs reads raw_member_cursor=0x9975 immediately after the first movement key -- exactly Pool ECL2.DAX#20's documented search_location entry point (build/pool-ecl-encounters.json, block 20, header_entries[1]). v2's conversion turned this into 0x3273, which can never fall in any real ECL2#20 address range -- guaranteeing v2's route never registered a hit regardless of actual game state. This round's script (v3) records both the raw value (raw_member_cursor, correct) and the old, now-known-wrong converted value (ecl_virtual_address, kept only for continuity with v2's field name -- callers should use raw_member_cursor).",
+    "search_route_diagnosis_via_static_simulation": "tools/gen1_ecl_encounter_scan.py's decode_one/successors were walked by hand (not tools/simulate_gen1_ecl_path.py, which only resolves COMPARE-driven branches and treats AND/ON_GOTO as an unresolved terminal) over ECL2.DAX#20 starting at 0x9975. This decodes a 21-way ON_GOTO dispatch at 0x99C9 selected by a linear-search loop (0x99A8..0x99C5) that finds the loop counter equal to AND(#0x7F, [0xC04F]) -- the masked raw descriptor byte of the party's CURRENT cell, read from the same [0xC04F] location the already-documented ECL1#18 route uses ('AND [C04F], #7F -> [6E79]', pool-natural-encounter-route.md). Target index 3 of that 21-entry table is exactly 0x9F13 -- independently corroborating this doc's prior (assertion-only) 'static search dispatch selects 0x9F13' claim from a second method (control-flow decode, not just static assertion).",
+    "movement_did_not_land_on_the_target_cell": "Both v3 runs' LOOK presses dispatch through the SAME 21-way ON_GOTO to target INDEX 0 (0x9AA5), not index 3 (0x9F13). Decoding 0x9AA5 onward (PARTYSTRENGTH, two COMPARE/EXIT guards, then PRINTCLEAR inline text id 105, a SAVE of 255 to [0x4A00], then COMPARE #0 vs [0x6E82] with an IF_NE EXIT) shows this is the routine's generic 'nothing of interest here' branch, taken because the live masked descriptor was 0 (matching ON_GOTO index 0), not 3. This proves -- for the first time with direct live evidence, not inference from an unchanged proxy field -- that the party was NOT actually standing on GEO2.DAX#20's (13,10) cell (descriptor 3) when SEARCH/LOOK fired, despite all 6 movement keys and the earlier keybuffer-delivery checks (v2) indicating clean GameLink delivery. The GEO2.DAX#20 route itself remains independently confirmed legal and event-free (tools/find_geo_path.py --geo GEO2.DAX --block 20 --start 13,8 --target 13,10 --facing east: 4 steps, 0 blocked cells, dos_keys={UP}{RIGHT}{UP}{UP}{RIGHT}{UP}, matching MovementKeys exactly), so the gap is in-game movement/turn timing or pacing, not route legality. This narrows (does not close) open problem (a) from the 2026-07-21 baseline entry: search_location IS now proven reached on every LOOK (raw_member_cursor=0x9975 at the top of every look-N group), but the party's actual cell is not yet proven to be (13,10)."
+  },
+  "conclusion": {
+    "operand_parser_cs_ip_hit_confirmed": true,
+    "operand_parser_byte_match_confirmed": true,
+    "promoted": true,
+    "reason": "Genuine, live, first-party DOSBox-X debugger stops landed with CS:IP exactly at 30CF:0000 -- Pool's structurally matched ECL operand parser -- 23 times across a single continuous GameLink-driven session covering title dismiss, save load, SEARCH toggle, the full 6-key GEO2.DAX#20 movement route, and 5 LOOK presses, with zero spurious hits before the relevant overlay/state was loaded. The resident 24 bytes at every single hit are byte-identical to the retail GAME.OVR+0x74D3 body. Reproduced end-to-end across two independent process launches in the same round with an identical raw-cursor sequence. Both conditions this project's promotion bar requires (a live CS:IP hit AND an exact-byte check) are independently satisfied, matching the rigor of docs/engine/research/secret-count-teams-cs-ip-confirmed-20260721.json.",
+    "claim_boundary": "This confirms Pool's ECL operand parser's entry point and identity under live original-DOS execution, across Pool's full proven natural-route input sequence. It does NOT confirm search_location's target-index-3 branch (0x9F13), COMBAT (0xA0B3), or resume -- the live route consistently dispatched to target index 0 (0x9AA5, the 'nothing here' branch) instead, because the party was not actually on the (13,10) target cell when LOOK fired. It also does not claim the movement-key-delivery mechanism itself is broken (GameLink delivery evidence from v2 was clean); the remaining gap is which step(s) of the 6-key route the game's in-game position did not follow, which this round's evidence narrows but does not pin down."
+  },
+  "consumers": {
+    "future_pool_route_completion_work": "tools/trace_pool_ecl2_20_operand_anchor_v3.ps1's Drain-Hits/persistent-breakpoint technique is directly reusable to pin down the movement gap: re-run with per-move reads of [0xC04F] itself (not just the ON_GOTO branch taken on LOOK) to see the masked descriptor after EACH movement key, which will show exactly which key(s) failed to advance the party's actual cell."
+  },
+  "operand_parser": {
+    "candidate_name": "ecl_operand_parser",
+    "static_file_offset": "GAME.OVR:0x74D3",
+    "route_time_pointer": "30CF:0000",
+    "cs_ip_hit_confirmed": true,
+    "byte_match_confirmed": true,
+    "hit_count": 23,
+    "hits": [
+      {
+        "label": "move-00-up",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39285,
+        "ecl_virtual_address": "0x3273"
+      },
+      {
+        "label": "move-00-up",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39291,
+        "ecl_virtual_address": "0x3279"
+      },
+      {
+        "label": "move-01-right",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39294,
+        "ecl_virtual_address": "0x327C"
+      },
+      {
+        "label": "move-01-right",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39300,
+        "ecl_virtual_address": "0x3282"
+      },
+      {
+        "label": "move-02-up",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39303,
+        "ecl_virtual_address": "0x3285"
+      },
+      {
+        "label": "move-02-up",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39312,
+        "ecl_virtual_address": "0x328E"
+      },
+      {
+        "label": "move-03-up",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39318,
+        "ecl_virtual_address": "0x3294"
+      },
+      {
+        "label": "move-03-up",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39324,
+        "ecl_virtual_address": "0x329A"
+      },
+      {
+        "label": "move-04-right",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39330,
+        "ecl_virtual_address": "0x32A0"
+      },
+      {
+        "label": "move-04-right",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39336,
+        "ecl_virtual_address": "0x32A6"
+      },
+      {
+        "label": "move-05-up",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39344,
+        "ecl_virtual_address": "0x32AE"
+      },
+      {
+        "label": "move-05-up",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39369,
+        "ecl_virtual_address": "0x32C7"
+      },
+      {
+        "label": "move-05-up",
+        "index": 2,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39374,
+        "ecl_virtual_address": "0x32CC"
+      },
+      {
+        "label": "look-1",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39589,
+        "ecl_virtual_address": "0x33A3"
+      },
+      {
+        "label": "look-1",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39593,
+        "ecl_virtual_address": "0x33A7"
+      },
+      {
+        "label": "look-2",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39601,
+        "ecl_virtual_address": "0x33AF"
+      },
+      {
+        "label": "look-2",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39608,
+        "ecl_virtual_address": "0x33B6"
+      },
+      {
+        "label": "look-3",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39716,
+        "ecl_virtual_address": "0x3422"
+      },
+      {
+        "label": "look-3",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39722,
+        "ecl_virtual_address": "0x3428"
+      },
+      {
+        "label": "look-4",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39730,
+        "ecl_virtual_address": "0x3430"
+      },
+      {
+        "label": "look-4",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39738,
+        "ecl_virtual_address": "0x3438"
+      },
+      {
+        "label": "look-5",
+        "index": 0,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39744,
+        "ecl_virtual_address": "0x343E"
+      },
+      {
+        "label": "look-5",
+        "index": 1,
+        "pointer": "30CF:0000",
+        "physical": "0x30CF0",
+        "ds_segment": "14A0",
+        "resident_bytes_hex": "5589e583ec08c646fe008a46068846f9b0013a46f97603e9",
+        "byte_match_operand_parser": true,
+        "is_operand_parser_address": true,
+        "raw_member_cursor": 39751,
+        "ecl_virtual_address": "0x3445"
+      }
+    ]
+  }
+}

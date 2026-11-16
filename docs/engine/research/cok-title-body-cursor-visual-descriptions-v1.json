@@ -1,0 +1,69 @@
+{
+  "datasetVersion": 1,
+  "evidenceImagePathPattern": "apps/web/dist-app-cok57/restyle/cok-generated/images/{sourceSha256}.png",
+  "assets": [
+    {
+      "assetId": "cok/dos-ega/disk1/title.dax/block/1/frame/0",
+      "sourceSha256": "83a985a407e515a96dbf89b6f3d5406a533ee398f2ee26731d66a2e4e290a310",
+      "pixelSha256": "25b6ce5b914f35537e01872dde5de1981b6e459600665863e1ebb3e331af4434",
+      "visualDescription": "A purple screen with the SSI logo and text naming Strategic Simulations, an Advanced Dungeons & Dragons computer product, and copyright notices.",
+      "evidence": [{"kind": "visual-review", "reference": "83a985a407e515a96dbf89b6f3d5406a533ee398f2ee26731d66a2e4e290a310.png", "note": "Visible appearance only; does not infer assembly, subject identity, game use, selector, or playback semantics."}]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/title.dax/block/2/frame/0",
+      "sourceSha256": "21c0f2c262ba638aa2a626f2123f033d7a65d75c73e7cfefc390079136099eaa",
+      "pixelSha256": "60deddb775b32bfb4dedfbf4df658c84fb4d58c6a5fb78963c011ebb101ff805",
+      "visualDescription": "A starry blue-black scene with a large pale moon, a dark silhouette, a jeweled crown, red roses, and a long diagonal sword.",
+      "evidence": [{"kind": "visual-review", "reference": "21c0f2c262ba638aa2a626f2123f033d7a65d75c73e7cfefc390079136099eaa.png", "note": "Visible appearance only; does not infer assembly, subject identity, game use, selector, or playback semantics."}]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/title.dax/block/3/frame/0",
+      "sourceSha256": "27f66448b29ad353bce986ab0dc3719182bbafb3b824d96b8965fa9bfa5f1d8b",
+      "pixelSha256": "cc850f4dfbcb48cd4d2284cc129d5be48e6efabf7e7311fb3254acc9e9efd9ac",
+      "visualDescription": "The words “Champions of Krynn” in ornate pink lettering over the starry moon-and-sword scene.",
+      "evidence": [{"kind": "visual-review", "reference": "27f66448b29ad353bce986ab0dc3719182bbafb3b824d96b8965fa9bfa5f1d8b.png", "note": "Visible appearance only; does not infer assembly, subject identity, game use, selector, or playback semantics."}]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/title.dax/block/4/frame/0",
+      "sourceSha256": "91c21e9cd3ff184cbb15626ed7d93054d46c0eb5491d583c798518bf44b34e8e",
+      "pixelSha256": "9bb5ee60371a8343b01ff99ebe6d0d49152c340dbc7d7a8a3069319438512819",
+      "visualDescription": "An ornate “Dragonlance” wordmark with the subtitle “Fantasy Role-Playing Vol. 1” over a moonlit sword-and-roses scene.",
+      "evidence": [{"kind": "visual-review", "reference": "91c21e9cd3ff184cbb15626ed7d93054d46c0eb5491d583c798518bf44b34e8e.png", "note": "Visible appearance only; does not infer assembly, subject identity, game use, selector, or playback semantics."}]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/cursor.dax/block/1/frame/0",
+      "sourceSha256": "592fa61cf344b4b6a0becce22085ed04d130e29f429d86812ae594785668a32a",
+      "pixelSha256": "4da00d6417eb135ca21d3f19415fa57fa55312c77fdefd031f75cd08072e0fd3",
+      "visualDescription": "A tiny yellow-gold pixel marker with a dark center, on a transparent background.",
+      "evidence": [{"kind": "visual-review", "reference": "592fa61cf344b4b6a0becce22085ed04d130e29f429d86812ae594785668a32a.png", "note": "Visible appearance only; does not infer assembly, subject identity, game use, selector, or playback semantics."}]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/body2.dax/block/68/frame/0",
+      "sourceSha256": "edbaebee8325a280125987853aea7a28e6fd30a44131bd245bfa7fe2f3238bbe",
+      "pixelSha256": "c904fd706db499b395558fb44fdcac6b73ad9cdc67bac1a1a4d516cb6eb54d76",
+      "visualDescription": "A cropped pixel-art torso in a blue-violet garment with pale sleeves, hands resting near a horizontal brown ledge, against a gray background.",
+      "evidence": [{"kind": "visual-review", "reference": "edbaebee8325a280125987853aea7a28e6fd30a44131bd245bfa7fe2f3238bbe.png", "note": "Visible appearance only; does not infer assembly, subject identity, game use, selector, or playback semantics."}]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/body3.dax/block/68/frame/0",
+      "sourceSha256": "edbaebee8325a280125987853aea7a28e6fd30a44131bd245bfa7fe2f3238bbe",
+      "pixelSha256": "c904fd706db499b395558fb44fdcac6b73ad9cdc67bac1a1a4d516cb6eb54d76",
+      "visualDescription": "A cropped pixel-art torso in a blue-violet garment with pale sleeves, hands resting near a horizontal brown ledge, against a gray background.",
+      "evidence": [{"kind": "visual-review", "reference": "edbaebee8325a280125987853aea7a28e6fd30a44131bd245bfa7fe2f3238bbe.png", "note": "Visible appearance only; does not infer assembly, subject identity, game use, selector, or playback semantics."}]
+    },
+    {
+      "assetId": "cok/amiga/disk2/body1.daa/block/68/frame/0",
+      "sourceSha256": "29fd2ff5ccb698e917f6d079eabc0aa03492416559084e37a0a462c2259fe70c",
+      "pixelSha256": "4800dad39380aa6862c43e7eab8158f0b59c11f7fba4914d20cb975a39a97028",
+      "visualDescription": "A cropped pixel-art torso in a purple garment with pale sleeves, hands resting near a horizontal brown ledge, against a gray background.",
+      "evidence": [{"kind": "visual-review", "reference": "29fd2ff5ccb698e917f6d079eabc0aa03492416559084e37a0a462c2259fe70c.png", "note": "Visible appearance only; does not infer assembly, subject identity, game use, selector, or playback semantics."}]
+    },
+    {
+      "assetId": "cok/amiga/disk3/body2.daa/block/68/frame/0",
+      "sourceSha256": "29fd2ff5ccb698e917f6d079eabc0aa03492416559084e37a0a462c2259fe70c",
+      "pixelSha256": "4800dad39380aa6862c43e7eab8158f0b59c11f7fba4914d20cb975a39a97028",
+      "visualDescription": "A cropped pixel-art torso in a purple garment with pale sleeves, hands resting near a horizontal brown ledge, against a gray background.",
+      "evidence": [{"kind": "visual-review", "reference": "29fd2ff5ccb698e917f6d079eabc0aa03492416559084e37a0a462c2259fe70c.png", "note": "Visible appearance only; does not infer assembly, subject identity, game use, selector, or playback semantics."}]
+    }
+  ]
+}

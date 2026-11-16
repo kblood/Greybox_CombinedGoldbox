@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "title": "Gateway GOG save inventory",
+  "install_root": "C:\\Program Files (x86)\\GOG Galaxy\\Games\\Gateway to the Savage Frontier",
+  "candidate_roots": [
+    "C:\\Program Files (x86)\\GOG Galaxy\\Games\\Gateway to the Savage Frontier\\cloud_saves\\SAVE",
+    "C:\\Program Files (x86)\\GOG Galaxy\\Games\\Gateway to the Savage Frontier\\SAVE"
+  ],
+  "gog_mount_contract": {
+    "base": "mount c \"..\"",
+    "overlay": "mount C \"..\\cloud_saves\" -t overlay",
+    "game_save_path": "C:\\SAVE\\",
+    "expected_host_root": "C:\\Program Files (x86)\\GOG Galaxy\\Games\\Gateway to the Savage Frontier\\cloud_saves\\SAVE"
+  },
+  "config_files": [
+    {
+      "path": "C:\\Program Files (x86)\\GOG Galaxy\\Games\\Gateway to the Savage Frontier\\dosbox_gateway_single.conf",
+      "size": 248,
+      "sha256": "c5efb5ebeaa32997339078f34c845c46d3d0cde1d3fe13f4389fa7141328350d"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\GOG Galaxy\\Games\\Gateway to the Savage Frontier\\GAME.CFG",
+      "size": 76,
+      "sha256": "8eb3774c76773d0922fa2447ec160c5470eeea6b893293e38c563ccdeb4074d0"
+    }
+  ],
+  "files": [],
+  "save_container_count": 0,
+  "save_bundle_present": false,
+  "route_ready": false,
+  "claim_boundary": "A detected container is eligible for copy-only staging. Route readiness still requires an original-DOS load, title-local cursor, and ECL5#19 route proof."
+}

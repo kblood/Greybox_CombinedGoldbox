@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/1/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 1 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#1/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/1/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 023a1dd6a7690b70ac95f81d98f800c0a999f1dea501dc21bec8e80cc9c20e0b and decoded pixel SHA-256 b2be6eec0b747cb99f48bafb996c85d5686ec61bf5580ef92fea8ba14c1b9076; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Orange-brown scaled head in close view, with a long upward-curving horn, pale lower jaw, and open mouth showing small teeth; black surrounds it."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#1 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/12/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 12 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#12/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/12/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 f66aa6d5ecc033dd1727b89dd8db3a018bfd9cfa2f6de51f3fa0df634636fad8 and decoded pixel SHA-256 e4a66fad0680f497edb46461319b154a734f98d2ada46574a5a7a280fcf0d683; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Front-facing orange-red face under a dark horned helmet, with bright pale armor, a raised pale object at left, and a cyan-speckled field."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#12 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/12/frame/1",
+    "description": {
+      "text": "DOS PIC1 block 12 frame 1; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#12/frame/1",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/12/frame/1",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 cfc596a49aa764724ce2c557a61b231c242ba3dc45701c4863bf815c9af28ec6 and decoded pixel SHA-256 06318fc8803324377288aa6d04ba34c05603ed08209c783a17d91c9d1297be1e; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Sparse narrow vertical stack of magenta, cyan, white and dark sections, with a small green-yellow horizontal cluster at upper right, on black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#12 frame 1 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/12/frame/2",
+    "description": {
+      "text": "DOS PIC1 block 12 frame 2; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#12/frame/2",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/12/frame/2",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 ddd559ff768eb6dbe33ed817193f79f3e1f8286267ebd17af9ca4af819305b96 and decoded pixel SHA-256 abe60b5b733a518f543505ffeac7723149bcb29959c510d93c057d53bb87474d; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Thin segmented curved outline in magenta, cyan, white, red and dark pixels, with a small green-yellow cluster at the right, on black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#12 frame 2 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/12/frame/3",
+    "description": {
+      "text": "DOS PIC1 block 12 frame 3; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#12/frame/3",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/12/frame/3",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 08b271b0491c40a590b74a47a12b66421539d14cc18a899937e57c073737aed7 and decoded pixel SHA-256 8c237e8f8e53c0283b4a4d1aa21e2dcb769cf7bce45f14a4e31b3f421108a34c; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Sparse upright cyan, pale and magenta outline with dark gaps, tapering to a curved lower loop, on black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#12 frame 3 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/15/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 15 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#15/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/15/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 c006a1fb81405d4f59fbd05704f2bdef53bf9aa89488c510f7ec28a02f6cb920 and decoded pixel SHA-256 d6765b3952d75dbd577f2c19bd62735a7f99e27c3b543ebdda5a12927c1f3a77; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Front-facing light-haired figure in an orange-red tunic and turquoise sleeves, holding a long brown staff upright at the right."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#15 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Conditional area32 source evidence for ECL1#32 PICTURE 15 sites at offsets 3073/5957: runStepEvent supplies the preloaded PIC1 presentation only when retainedPictureId is 15, after current CoK disk1/area32 preload/#15 and qualifying-menu gates. Only 3073 has the cited historical natural-route receipt; 5957 visibility and route feasibility remain unresolved. Other literal sites have loaded-map candidates only and might render after a #15 presentation is already mounted.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-area32-picture-joins-2026-11-03.json",
+            "note": "Pinned ECL/PIC1/site/current-host/frame0 evidence; no new runtime/art admission or canonical ID."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-dialogue-pic1-15-restyle-2026-10-26.md",
+            "note": "Historical natural-route evidence applies only to site 3073/0x8bff at (1,3,east); not rerun here."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Source-only ECL consumer evidence: SCENE-JOIN-AREA32 ECL block 32 site 0x0c01; SCENE-JOIN-AREA32 ECL block 32 site 0x1745. Runtime execution and visible presentation remain unverified.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-area32-picture-joins-2026-11-03.json#sites",
+            "note": "SCENE-JOIN-AREA32: exact source mapping for cok/dos-ega/disk1/pic1.dax/block/15/frame/0; receipt SHA-256 7bb79ba2d511762e31cd4ef6683b43123873a40d9d0a6086bc2662e34278042e; ECL archive SHA-256 6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79, ECL block #32 SHA-256 db03a12fcc5857b6e5f2da2b026edf5b66bd5b54c23628f62319a05627df078f; site(s): 0x0c01/vaddr 0x8bff (conditional-retained15-initial-mount; search_location); 0x1745/vaddr 0x9743 (conditional-retained15-initial-mount; search_location). source PIC1.DAX#15/frame0 archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97. Hash-pinned host-source references: apps/web/src/ui/dialogue.ts [placement] sha256 4c24bbf2de9d968a601e9c4d716dfc95a9e36cc89586adda08def7c29557f2f1; apps/web/src/ui/dialogue.ts [select] sha256 9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee; apps/web/src/ui/dialogue.ts [surfaceGuard] sha256 5d871ae41dc8489438bb35a149681968a76132edd98de4765f31768e84254d40; apps/web/src/ui/dialogue.ts [surfaceMount] sha256 b5d71fccf2b793a801217830ddb7ef1f93d6db1165280560cc2ce5fbd926c5c4; apps/web/src/ui/explore.ts [map] sha256 8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2; apps/web/src/ui/explore.ts [preload] sha256 347bc7b59fdf89da16c08dde40e092c7d07dd5c72a81d67734717725b4f252da; apps/web/src/ui/explore.ts [step] sha256 abff72636a2d31de30719788e2f266525c46a3114ede8b5dcec7ad455dc62489; packages/engine/src/ecl/vm.ts [vmPicture] sha256 6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd; packages/engine/src/loaders/dax.ts [frame0] sha256 d5c16a122b5bd33773c2f54923c9019376455eacee4662bb60f01efc6ac9de00; packages/engine/src/world/dialogue.ts [lastPicture] sha256 486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f; packages/engine/src/world/dialogue.ts [paginate] sha256 d47e8cecb8a51a6174839ed9017a87e880a748d9ce3d84c841ba0d96396ee7fc; packages/engine/src/world/dialogue.ts [translate] sha256 aa7fe6eca62b7c90ea959918a8c798f9276c46d73ff5766da548307b6461225c. This is static/conditional source evidence only; it does not establish campaign reachability, visible presentation, or observed runtime execution."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/18/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 18 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#18/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/18/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 d05e643ac4e4e58dc8bb232e6e1ef3d8994b80258d70d1321e9ea451d3ebc0b8 and decoded pixel SHA-256 eecd9e7c03da30d517b40e8fcf34ffb2a512097e1979eb28004dd6be68ba1f42; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Large pale green shaggy face with dark eyes and a wide open mouth, framed by red, cyan, and magenta textures."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#18 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Conditional source-only ECL1#16 search_location PICTURE 18 sites [1651]: the pinned openCokTravel movement caller carries the verified DOS PIC1.DAX frame0 map. Live context/assets/mount/presentation are required. Initial-entry offset76 caller, route feasibility, pause/batch visibility, selected mode/overlay/admission and runtime observation remain unresolved; no scene count.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-travel-picture-joins-2026-11-03.json",
+            "note": "Exact seven-site/witness roster, current movement/search entry/map/frame0/batching fragments, archive/block/RGB and existing PNG pins. Prior consumers/statuses and #114 evidence preserved; no new identity or art admission."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Source-only ECL consumer evidence: SCENE-JOIN-TRAVEL-16 ECL block 16 site 0x0673. Runtime execution and visible presentation remain unverified.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-travel-picture-joins-2026-11-03.json#sites",
+            "note": "SCENE-JOIN-TRAVEL-16: exact source mapping for cok/dos-ega/disk1/pic1.dax/block/18/frame/0; receipt SHA-256 1f49f8eca591c044684fac29487365f4b4dfd648ec486a32e920403b7f2e84c6; ECL archive SHA-256 6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79, ECL block #16 SHA-256 826dd124d05280ab588e94d6bf6c6c4994fdc99acf250d6ae5aa1d304fff4537; site(s): 0x0673/vaddr 0x8671 (conditional-original-source; search_location). source PIC1.DAX#18/frame0 archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97. Hash-pinned host-source references: apps/web/src/ui/dialogue.ts [placement] sha256 4c24bbf2de9d968a601e9c4d716dfc95a9e36cc89586adda08def7c29557f2f1; apps/web/src/ui/dialogue.ts [select] sha256 9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee; apps/web/src/ui/dialogue.ts [surfaceGuard] sha256 5d871ae41dc8489438bb35a149681968a76132edd98de4765f31768e84254d40; apps/web/src/ui/dialogue.ts [surfaceMount] sha256 b5d71fccf2b793a801217830ddb7ef1f93d6db1165280560cc2ce5fbd926c5c4; apps/web/src/ui/explore.ts [map] sha256 8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2; apps/web/src/ui/explore.ts [movement] sha256 1625a0ff41a6a7055f95858712084ebac77a13e0362ff97f05c68cf874970d5e; apps/web/src/ui/explore.ts [travelMap] sha256 5e5764a7dd7189d3298586e968474feca28c253fe39fa7e6ff1ae529cbe7eeae; packages/engine/src/ecl/vm.ts [vmPicture] sha256 6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd; packages/engine/src/loaders/dax.ts [frame0] sha256 d5c16a122b5bd33773c2f54923c9019376455eacee4662bb60f01efc6ac9de00; packages/engine/src/world/dialogue.ts [cellRunner] sha256 2da2d1cfa688107d196992be46348cf0a67bd2cb7bb5a5adae57ef3465c07f39; packages/engine/src/world/dialogue.ts [lastPicture] sha256 486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f; packages/engine/src/world/dialogue.ts [paginate] sha256 d47e8cecb8a51a6174839ed9017a87e880a748d9ce3d84c841ba0d96396ee7fc; packages/engine/src/world/dialogue.ts [translate] sha256 aa7fe6eca62b7c90ea959918a8c798f9276c46d73ff5766da548307b6461225c; packages/engine/src/world/dungeonEvents.ts [searchEntry] sha256 5064110480ee9cf8fb17a5d83abc69b4788b87543713c46da1ef94b84c62104c. This is static/conditional source evidence only; it does not establish campaign reachability, visible presentation, or observed runtime execution."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 23 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#23/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/23/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 3858d73cd9a7920cfd0ef7a480ca481fc9ad70c2d4407774ba8873177c4fe010 and decoded pixel SHA-256 09b26589751f5511b51c0c975a86a9c9423ad3e7f487b297f24a4b450e94f1f8; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Front-facing pale face with long wavy light hair and dark-lined blue eyes, set against a cyan-gray stippled field; pale and dark shapes gather along the bottom."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#23 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Conditional source-only ECL1#17 PICTURE 23 sites [845, 5756]: when the host uses the pinned local Throtl or carried travel maps, the original source candidate is DOS PIC1.DAX#23/frame0. Route feasibility, pause visibility, supplied/text-only presentation origin and selected overlay/admission/runtime observation remain unresolved; this is not a visible-scene count.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-throtl-picture-joins-2026-11-03.json",
+            "note": "Exact ECL1#17 site roster, current host/map/frame0/batching contracts and PIC1 archive 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97, block 2a10157f1f46017a10c0053fd8fb101167e6a811441eacaf5952ca2a450333fa, RGB 09b26589751f5511b51c0c975a86a9c9423ad3e7f487b297f24a4b450e94f1f8; no new canonical identity or runtime admission."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Source-only ECL consumer evidence: SCENE-JOIN-THROTL-17 ECL block 17 site 0x034d; SCENE-JOIN-THROTL-17 ECL block 17 site 0x167c. Runtime execution and visible presentation remain unverified.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-throtl-picture-joins-2026-11-03.json#sites",
+            "note": "SCENE-JOIN-THROTL-17: exact source mapping for cok/dos-ega/disk1/pic1.dax/block/23/frame/0; receipt SHA-256 4d9e11d1c0867580a9ca4696aa4e825002d8623208d630d748fa042abdf1aeaf; ECL archive SHA-256 6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79, ECL block #17 SHA-256 94dabe74942985aab782c37df0d4ea38ae66b63a166e5251662d03998dc004cc; site(s): 0x034d/vaddr 0x834b (conditional; initial_entry); 0x167c/vaddr 0x967a (conditional; vm_run_1,search_location,initial_entry). source PIC1.DAX#23/frame0 archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97. Hash-pinned host-source references: apps/web/src/ui/dialogue.ts [placement] sha256 4c24bbf2de9d968a601e9c4d716dfc95a9e36cc89586adda08def7c29557f2f1; apps/web/src/ui/dialogue.ts [select] sha256 9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee; apps/web/src/ui/dialogue.ts [surfaceGuard] sha256 5d871ae41dc8489438bb35a149681968a76132edd98de4765f31768e84254d40; apps/web/src/ui/dialogue.ts [surfaceMount] sha256 b5d71fccf2b793a801217830ddb7ef1f93d6db1165280560cc2ce5fbd926c5c4; apps/web/src/ui/explore.ts [arrival] sha256 a7ec16fbf746050eae785d8fbd74acff8e2e3aab5cb51fd894a8fa10d470cfc3; apps/web/src/ui/explore.ts [chain] sha256 a08adef9fe6061e1bed0200f42f1013499ec77ca7955ea6ae9be2ca0b9eaff70; apps/web/src/ui/explore.ts [localPresentation] sha256 a95984530a72ee41d00194f6ab6b4bf477519c8fb9d2573a2ed7e80d549050f6; apps/web/src/ui/explore.ts [map] sha256 8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2; apps/web/src/ui/explore.ts [travelCarry] sha256 1bc7196a6294a83d528e09f5e5cd596d4f5050e8994518e9277044a355eb5add; apps/web/src/ui/explore.ts [travelMap] sha256 5e5764a7dd7189d3298586e968474feca28c253fe39fa7e6ff1ae529cbe7eeae; packages/engine/src/ecl/vm.ts [vmPicture] sha256 6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd; packages/engine/src/loaders/dax.ts [frame0] sha256 d5c16a122b5bd33773c2f54923c9019376455eacee4662bb60f01efc6ac9de00; packages/engine/src/world/dialogue.ts [lastPicture] sha256 486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f; packages/engine/src/world/dialogue.ts [paginate] sha256 d47e8cecb8a51a6174839ed9017a87e880a748d9ce3d84c841ba0d96396ee7fc; packages/engine/src/world/dialogue.ts [translate] sha256 aa7fe6eca62b7c90ea959918a8c798f9276c46d73ff5766da548307b6461225c. This is static/conditional source evidence only; it does not establish campaign reachability, visible presentation, or observed runtime execution."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/1",
+    "description": {
+      "text": "DOS PIC1 block 23 frame 1; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#23/frame/1",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/23/frame/1",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526 and decoded pixel SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Two small pale and magenta pixel clusters sit apart near the center of a black field."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#23 frame 1 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/2",
+    "description": {
+      "text": "DOS PIC1 block 23 frame 2; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#23/frame/2",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/23/frame/2",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d and decoded pixel SHA-256 7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Two tiny pairs of green, red, and pale pixels sit apart near the center of an otherwise black field."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#23 frame 2 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/3",
+    "description": {
+      "text": "DOS PIC1 block 23 frame 3; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#23/frame/3",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/23/frame/3",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790 and decoded pixel SHA-256 85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Two small colored pixel clusters appear near the center of an otherwise black field, with cyan, pale, and red accents."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#23 frame 3 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/4",
+    "description": {
+      "text": "DOS PIC1 block 23 frame 4; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#23/frame/4",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/23/frame/4",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526 and decoded pixel SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Two small pale and magenta pixel clusters sit apart near the center of a black field."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#23 frame 4 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/5",
+    "description": {
+      "text": "DOS PIC1 block 23 frame 5; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#23/frame/5",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/23/frame/5",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790 and decoded pixel SHA-256 85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Two small colored pixel clusters appear near the center of an otherwise black field, with cyan, pale, and red accents."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#23 frame 5 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/6",
+    "description": {
+      "text": "DOS PIC1 block 23 frame 6; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#23/frame/6",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/23/frame/6",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d and decoded pixel SHA-256 7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Two tiny pairs of green, red, and pale pixels sit apart near the center of an otherwise black field."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#23 frame 6 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/7",
+    "description": {
+      "text": "DOS PIC1 block 23 frame 7; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#23/frame/7",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/23/frame/7",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526 and decoded pixel SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Two small pale and magenta pixel clusters sit apart near the center of a black field."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#23 frame 7 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/30/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 30 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#30/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/30/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 51e33339de50bfd2646b0d56832cb974a179f06cc55d3a6b0e330213688ea213 and decoded pixel SHA-256 6ad230474d179f0e5a0b78fa064c9b6192b13ae75beef1fb4f63b0078a620616; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Pale face framed by sweeping cyan-white shapes, with blue-gray patterned forms below and to the left, on black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#30 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/30/frame/1",
+    "description": {
+      "text": "DOS PIC1 block 30 frame 1; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#30/frame/1",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/30/frame/1",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 7c670d2420ba5a9de35116a1ebdef65c43ae8775306713057d797838466fa447 and decoded pixel SHA-256 1ec3771fd70e56b9c46d06bd1667458a6bac9519d1dd23e940c58ac02d766ef9; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Small upright red, cyan, pale and magenta pixel cluster above a rounded red section; a separate cyan-red cluster sits to the right on black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#30 frame 1 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/30/frame/2",
+    "description": {
+      "text": "DOS PIC1 block 30 frame 2; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#30/frame/2",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/30/frame/2",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 1a9ffbc144e42930c6f7c894bec58324d18ad9d5f85c8d1358cf7c19e86bd563 and decoded pixel SHA-256 9daf9ebb92591fdee76957f152dd079a7dea8eea1f6be885dc50d554d4b6c2bd; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Small colorful segmented upright shape with red, cyan, pale and magenta pixels, paired with a bright cyan-green cluster at right, on black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#30 frame 2 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/30/frame/3",
+    "description": {
+      "text": "DOS PIC1 block 30 frame 3; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#30/frame/3",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/30/frame/3",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 a43710e852427da80adaf247a5c2257520381fd9ec3058c99751a3e7e3fe894c and decoded pixel SHA-256 faeb1d9d71fdb33519db8b889dcc4e8b5f5e54fc40036aea53d850992d6eeef6; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Sparse lower-center arrangement of cyan, pale and red pixels with a curved cyan-green line, on black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#30 frame 3 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/34/entry/12/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 34 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#34/entry/12/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/34/entry/12/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b and decoded pixel SHA-256 f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Front-facing red-orange face framed by long reddish-brown hair, with a broad magenta band beneath and pale cyan-white shapes at both sides on black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#34 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/34/entry/3/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 34 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#34/entry/3/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/34/entry/3/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b and decoded pixel SHA-256 f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Front-facing red-orange face framed by long reddish-brown hair, with a broad magenta band beneath and pale cyan-white shapes at both sides on black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#34 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/35/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 35 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#35/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/35/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 cbc6c74eb44e1ac89c3407a08d90f629c58430fc3ff054c2dcd4c00c47a0150b and decoded pixel SHA-256 aef1391869cb0ec8bd85a5b91ec399ae1036352470e5aa015366defe48f326b5; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Blue-haired figure in profile with a red-orange face and gray patterned clothing, holding a long pale blade angled up toward the right against black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#35 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/41/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 41 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#41/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/41/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 c8787dc2e775c83e85ed33f50f2dc1613986edefba270468f2f7bd57dd68e4bd and decoded pixel SHA-256 0c8db08daa99cc0f64ad33271cec98a95d1edc37760d03a22c4d3242f138701f; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Older white-haired, full-bearded figure with a red-orange face, blue layered clothing, and chain-patterned shoulders, shown from the chest up against black."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#41 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Source-only ECL1#33 PICTURE evidence: If the pinned DOS disk-1 picture map is supplied and PICTURE 41 is retained for lookup, ECL1#33 offset 0x0f00 associates with PIC1.DAX#41/frame/0. Conditional static source association. Subject, reachability, visible presentation, runtime use and Restyle admission remain unresolved.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ecl1-33-picture-consumers-v1.json#sites",
+            "note": "Receipt SHA-256 efed4c820f7c2779331abc13327c458bf87e634c3f60e71961d632de19f797e1. Conservative search_location site at virtual 0x8efe; unique source TOC entry 14, native RGB SHA-256 0c8db08daa99cc0f64ad33271cec98a95d1edc37760d03a22c4d3242f138701f."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/57/frame/0",
+    "description": {
+      "text": "PIC1 portrait selected for the Throtl conversation route; the depicted person's name is not established.",
+      "status": "partial",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "apps/web/src/ui/cokDialogueRestyleManifest.json"
+        },
+        {
+          "kind": "research-doc",
+          "reference": "docs/engine/research/cok-ecl-picture-consumer-register-2026-10-27.md",
+          "note": "ECL1#17 selects PIC1#57 according to arrival state."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#57/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/57/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 f854debb99b65c412e49e90a7606263341e83bae5dca0ba8b5ba36d51d671191 and decoded pixel SHA-256 8c0a4838831c9d101721654ae0d39ded43c8aac9c304fae1101c73dbd20a4ca6; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Long gray-haired, red-orange face and pale beard above bright white armor with cyan and yellow accents, on black."
+    },
+    "gameConsumers": [
+      {
+        "status": "verified",
+        "use": "ECL1#17 Throtl conversation selects this portrait according to arrival state.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ecl-picture-consumer-register-2026-10-27.md"
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Conditional source-only ECL1#17 PICTURE 57 sites [212, 395, 586, 1296]: when the host uses the pinned local Throtl or carried travel maps, the original source candidate is DOS PIC1.DAX#57/frame0. Route feasibility, pause visibility, supplied/text-only presentation origin and selected overlay/admission/runtime observation remain unresolved; this is not a visible-scene count.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-throtl-picture-joins-2026-11-03.json",
+            "note": "Exact ECL1#17 site roster, current host/map/frame0/batching contracts and PIC1 archive 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97, block e27c3c34f760d8cde8cf7f227c8dc21fdac3d919a94143fdb408d95075b5d5dc, RGB 8c0a4838831c9d101721654ae0d39ded43c8aac9c304fae1101c73dbd20a4ca6; no new canonical identity or runtime admission."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Source-only ECL consumer evidence: SCENE-JOIN-THROTL-17 ECL block 17 site 0x00d4; SCENE-JOIN-THROTL-17 ECL block 17 site 0x018b; SCENE-JOIN-THROTL-17 ECL block 17 site 0x024a; SCENE-JOIN-THROTL-17 ECL block 17 site 0x0510. Runtime execution and visible presentation remain unverified.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-throtl-picture-joins-2026-11-03.json#sites",
+            "note": "SCENE-JOIN-THROTL-17: exact source mapping for cok/dos-ega/disk1/pic1.dax/block/57/frame/0; receipt SHA-256 4d9e11d1c0867580a9ca4696aa4e825002d8623208d630d748fa042abdf1aeaf; ECL archive SHA-256 6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79, ECL block #17 SHA-256 94dabe74942985aab782c37df0d4ea38ae66b63a166e5251662d03998dc004cc; site(s): 0x00d4/vaddr 0x80d2 (conditional; initial_entry); 0x018b/vaddr 0x8189 (conditional; initial_entry); 0x024a/vaddr 0x8248 (conditional; initial_entry); 0x0510/vaddr 0x850e (conditional; initial_entry). source PIC1.DAX#57/frame0 archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97. Hash-pinned host-source references: apps/web/src/ui/dialogue.ts [placement] sha256 4c24bbf2de9d968a601e9c4d716dfc95a9e36cc89586adda08def7c29557f2f1; apps/web/src/ui/dialogue.ts [select] sha256 9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee; apps/web/src/ui/dialogue.ts [surfaceGuard] sha256 5d871ae41dc8489438bb35a149681968a76132edd98de4765f31768e84254d40; apps/web/src/ui/dialogue.ts [surfaceMount] sha256 b5d71fccf2b793a801217830ddb7ef1f93d6db1165280560cc2ce5fbd926c5c4; apps/web/src/ui/explore.ts [arrival] sha256 a7ec16fbf746050eae785d8fbd74acff8e2e3aab5cb51fd894a8fa10d470cfc3; apps/web/src/ui/explore.ts [chain] sha256 a08adef9fe6061e1bed0200f42f1013499ec77ca7955ea6ae9be2ca0b9eaff70; apps/web/src/ui/explore.ts [localPresentation] sha256 a95984530a72ee41d00194f6ab6b4bf477519c8fb9d2573a2ed7e80d549050f6; apps/web/src/ui/explore.ts [map] sha256 8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2; apps/web/src/ui/explore.ts [travelCarry] sha256 1bc7196a6294a83d528e09f5e5cd596d4f5050e8994518e9277044a355eb5add; apps/web/src/ui/explore.ts [travelMap] sha256 5e5764a7dd7189d3298586e968474feca28c253fe39fa7e6ff1ae529cbe7eeae; packages/engine/src/ecl/vm.ts [vmPicture] sha256 6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd; packages/engine/src/loaders/dax.ts [frame0] sha256 d5c16a122b5bd33773c2f54923c9019376455eacee4662bb60f01efc6ac9de00; packages/engine/src/world/dialogue.ts [lastPicture] sha256 486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f; packages/engine/src/world/dialogue.ts [paginate] sha256 d47e8cecb8a51a6174839ed9017a87e880a748d9ce3d84c841ba0d96396ee7fc; packages/engine/src/world/dialogue.ts [translate] sha256 aa7fe6eca62b7c90ea959918a8c798f9276c46d73ff5766da548307b6461225c. This is static/conditional source evidence only; it does not establish campaign reachability, visible presentation, or observed runtime execution."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/58/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 58 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#58/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/58/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 ab274f539c435b02685a5b612360071906fa93294317846c0fe93e7022d67fc9 and decoded pixel SHA-256 6701a63e585efddea9d003a5be1b3143e192ab646f6c66d17f623bb7f65562e7; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Outdoor scene with red-roofed buildings, gray walls and fence, green ground, ochre hills and a pale cyan sky."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#58 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Conditional source-only ECL1#17 PICTURE 58 sites [55, 1705, 2834, 6627]: when the host uses the pinned local Throtl or carried travel maps, the original source candidate is DOS PIC1.DAX#58/frame0. Route feasibility, pause visibility, supplied/text-only presentation origin and selected overlay/admission/runtime observation remain unresolved; this is not a visible-scene count.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-throtl-picture-joins-2026-11-03.json",
+            "note": "Exact ECL1#17 site roster, current host/map/frame0/batching contracts and PIC1 archive 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97, block c856b5763e14bed82ee1fedd687456d750ea0d234c9ed2fa8cda05e960b7d618, RGB 6701a63e585efddea9d003a5be1b3143e192ab646f6c66d17f623bb7f65562e7; no new canonical identity or runtime admission."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Conditional source-only ECL1#16 search_location PICTURE 58 sites [3004, 3027]: the pinned openCokTravel movement caller carries the verified DOS PIC1.DAX frame0 map. Live context/assets/mount/presentation are required. Initial-entry offset76 caller, route feasibility, pause/batch visibility, selected mode/overlay/admission and runtime observation remain unresolved; no scene count.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-travel-picture-joins-2026-11-03.json",
+            "note": "Exact seven-site/witness roster, current movement/search entry/map/frame0/batching fragments, archive/block/RGB and existing PNG pins. Prior consumers/statuses and #114 evidence preserved; no new identity or art admission."
+          }
+        ]
+      },
+      {
+        "status": "partial",
+        "use": "Source-only ECL consumer evidence: SCENE-JOIN-THROTL-17 ECL block 17 site 0x0037; SCENE-JOIN-THROTL-17 ECL block 17 site 0x06a9; SCENE-JOIN-THROTL-17 ECL block 17 site 0x0b12; SCENE-JOIN-THROTL-17 ECL block 17 site 0x19e3; SCENE-JOIN-TRAVEL-16 ECL block 16 site 0x0bbc; SCENE-JOIN-TRAVEL-16 ECL block 16 site 0x0bd3. Runtime execution and visible presentation remain unverified.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-throtl-picture-joins-2026-11-03.json#sites",
+            "note": "SCENE-JOIN-THROTL-17: exact source mapping for cok/dos-ega/disk1/pic1.dax/block/58/frame/0; receipt SHA-256 4d9e11d1c0867580a9ca4696aa4e825002d8623208d630d748fa042abdf1aeaf; ECL archive SHA-256 6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79, ECL block #17 SHA-256 94dabe74942985aab782c37df0d4ea38ae66b63a166e5251662d03998dc004cc; site(s): 0x0037/vaddr 0x8035 (conditional; initial_entry); 0x06a9/vaddr 0x86a7 (conditional; vm_run_1,search_location,initial_entry); 0x0b12/vaddr 0x8b10 (conditional; vm_run_1,search_location,initial_entry); 0x19e3/vaddr 0x99e1 (conditional; vm_run_1,search_location,initial_entry). source PIC1.DAX#58/frame0 archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97. Hash-pinned host-source references: apps/web/src/ui/dialogue.ts [placement] sha256 4c24bbf2de9d968a601e9c4d716dfc95a9e36cc89586adda08def7c29557f2f1; apps/web/src/ui/dialogue.ts [select] sha256 9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee; apps/web/src/ui/dialogue.ts [surfaceGuard] sha256 5d871ae41dc8489438bb35a149681968a76132edd98de4765f31768e84254d40; apps/web/src/ui/dialogue.ts [surfaceMount] sha256 b5d71fccf2b793a801217830ddb7ef1f93d6db1165280560cc2ce5fbd926c5c4; apps/web/src/ui/explore.ts [arrival] sha256 a7ec16fbf746050eae785d8fbd74acff8e2e3aab5cb51fd894a8fa10d470cfc3; apps/web/src/ui/explore.ts [chain] sha256 a08adef9fe6061e1bed0200f42f1013499ec77ca7955ea6ae9be2ca0b9eaff70; apps/web/src/ui/explore.ts [localPresentation] sha256 a95984530a72ee41d00194f6ab6b4bf477519c8fb9d2573a2ed7e80d549050f6; apps/web/src/ui/explore.ts [map] sha256 8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2; apps/web/src/ui/explore.ts [travelCarry] sha256 1bc7196a6294a83d528e09f5e5cd596d4f5050e8994518e9277044a355eb5add; apps/web/src/ui/explore.ts [travelMap] sha256 5e5764a7dd7189d3298586e968474feca28c253fe39fa7e6ff1ae529cbe7eeae; packages/engine/src/ecl/vm.ts [vmPicture] sha256 6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd; packages/engine/src/loaders/dax.ts [frame0] sha256 d5c16a122b5bd33773c2f54923c9019376455eacee4662bb60f01efc6ac9de00; packages/engine/src/world/dialogue.ts [lastPicture] sha256 486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f; packages/engine/src/world/dialogue.ts [paginate] sha256 d47e8cecb8a51a6174839ed9017a87e880a748d9ce3d84c841ba0d96396ee7fc; packages/engine/src/world/dialogue.ts [translate] sha256 aa7fe6eca62b7c90ea959918a8c798f9276c46d73ff5766da548307b6461225c. This is static/conditional source evidence only; it does not establish campaign reachability, visible presentation, or observed runtime execution."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-travel-picture-joins-2026-11-03.json#sites",
+            "note": "SCENE-JOIN-TRAVEL-16: exact source mapping for cok/dos-ega/disk1/pic1.dax/block/58/frame/0; receipt SHA-256 1f49f8eca591c044684fac29487365f4b4dfd648ec486a32e920403b7f2e84c6; ECL archive SHA-256 6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79, ECL block #16 SHA-256 826dd124d05280ab588e94d6bf6c6c4994fdc99acf250d6ae5aa1d304fff4537; site(s): 0x0bbc/vaddr 0x8bba (conditional-original-source; search_location); 0x0bd3/vaddr 0x8bd1 (conditional-original-source; search_location). source PIC1.DAX#58/frame0 archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97. Hash-pinned host-source references: apps/web/src/ui/dialogue.ts [placement] sha256 4c24bbf2de9d968a601e9c4d716dfc95a9e36cc89586adda08def7c29557f2f1; apps/web/src/ui/dialogue.ts [select] sha256 9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee; apps/web/src/ui/dialogue.ts [surfaceGuard] sha256 5d871ae41dc8489438bb35a149681968a76132edd98de4765f31768e84254d40; apps/web/src/ui/dialogue.ts [surfaceMount] sha256 b5d71fccf2b793a801217830ddb7ef1f93d6db1165280560cc2ce5fbd926c5c4; apps/web/src/ui/explore.ts [map] sha256 8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2; apps/web/src/ui/explore.ts [movement] sha256 1625a0ff41a6a7055f95858712084ebac77a13e0362ff97f05c68cf874970d5e; apps/web/src/ui/explore.ts [travelMap] sha256 5e5764a7dd7189d3298586e968474feca28c253fe39fa7e6ff1ae529cbe7eeae; packages/engine/src/ecl/vm.ts [vmPicture] sha256 6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd; packages/engine/src/loaders/dax.ts [frame0] sha256 d5c16a122b5bd33773c2f54923c9019376455eacee4662bb60f01efc6ac9de00; packages/engine/src/world/dialogue.ts [cellRunner] sha256 2da2d1cfa688107d196992be46348cf0a67bd2cb7bb5a5adae57ef3465c07f39; packages/engine/src/world/dialogue.ts [lastPicture] sha256 486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f; packages/engine/src/world/dialogue.ts [paginate] sha256 d47e8cecb8a51a6174839ed9017a87e880a748d9ce3d84c841ba0d96396ee7fc; packages/engine/src/world/dialogue.ts [translate] sha256 aa7fe6eca62b7c90ea959918a8c798f9276c46d73ff5766da548307b6461225c; packages/engine/src/world/dungeonEvents.ts [searchEntry] sha256 5064110480ee9cf8fb17a5d83abc69b4788b87543713c46da1ef94b84c62104c. This is static/conditional source evidence only; it does not establish campaign reachability, visible presentation, or observed runtime execution."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/59/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 59 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#59/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/59/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 e600ff970cf1e45edb955226b2c118ee7fbf1e0259f5692c694018feea7d36b9 and decoded pixel SHA-256 68e0eabba1e128abaa3d78b923a80742f83da369777a8673b7b952ec470506d0; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Orange-yellow flames rise from a dark ring of stones; green ground and blue night sky frame a long diagonal pale-edged blade or pole."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#59 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/60/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 60 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#60/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/60/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 7e40d6c7987839bf0400e187a986dacf3c8764dda3516380f7f2c71a87e11620 and decoded pixel SHA-256 86dd43b686124b3c5910b43cc4ecc15165b637b4f55fa56847867d0271577985; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Dense magenta patterned field with layered red-orange and gold forms around a bright cyan vertical oval; a curved green-yellow outline and pale-gray elements span the bottom."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#60 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/61/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 61 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#61/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/61/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 514d31291c71984463b404f93eea97baa7f921478544edf8af76cb204f3e5ab0 and decoded pixel SHA-256 20bf865772aff45db5d076fe06f2128bd99dc248e072b30e1ab88e45baee83af; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Large gold-orange scaled head-like form in the center, with pale armor-like shapes around it and red-blue forms near the upper left against dark gray."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#61 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/62/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 62 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#62/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/62/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 5fbcf24ec6555cac122c5bccf899d87ca779a8ff8bbb251e761eef864ea07a5d and decoded pixel SHA-256 4c41b114784a73c18f969f67e45ae9365052dfff871a8e73d901f033ce14961e; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Close-up pink-orange face with an open mouth and dark brows, above a bright blue collar; mottled gray-black background."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#62 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/63/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 63 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#63/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/63/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 73cdc32fd3cb00571d37109dbe9219a412fa7277ad6cdfc76ba513e2461a28c4 and decoded pixel SHA-256 0769aab9c3d8c8fd34fce21639f94a1e1df3faac1d001c7aaa71a3c8baf17707; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Red-haired figure with a bare orange-red upper torso and one arm raised overhead; mottled dark gray-green background."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#63 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cok/dos-ega/disk1/pic1.dax/block/8/frame/0",
+    "description": {
+      "text": "DOS PIC1 block 8 frame 0; depicted subject and scene are not identified.",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "Champions of Krynn/PIC1.DAX#8/frame/0",
+          "note": "Repository archive SHA-256 2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97; 88×88 EGA pixels exactly match the 4× Restyle source render."
+        },
+        {
+          "kind": "visual-review",
+          "reference": "docs/engine/research/cok-dos-pic123-visual-descriptions-v1.json#cok/dos-ega/disk1/pic1.dax/block/8/frame/0",
+          "note": "Visible appearance manually reviewed against exact source PNG SHA-256 96dad50a66476ca42f23022b3809e77e8421c7e146376a2576f399a4dde87225 and decoded pixel SHA-256 2fd51677f3d30bdf09d20e5fa97c1106a9ef9b8308bc071604cec2b1e608c9f6; dataset SHA-256 6f8fd45972d8df073077786e37003c3686e07678741927a79c78b22b9ca6df70. Subject identity, game use, selector, and playback semantics remain unproven."
+        }
+      ],
+      "visualDescription": "Orange-brown scaled long-snouted head with a visible eye and forelimb-like forms against bright green, gray, and blue patches."
+    },
+    "gameConsumers": [
+      {
+        "status": "unknown",
+        "use": "The exact CoK selector and scene use for PIC1#8 frame 0 are not mapped.",
+        "evidence": [
+          {
+            "kind": "research-doc",
+            "reference": "tools/dax_complex_decode.py + pinned DAX archive",
+            "note": "Stored frame membership/order is established; this does not prove temporal animation or a game caller."
+          }
+        ]
+      }
+    ]
+  }
+]

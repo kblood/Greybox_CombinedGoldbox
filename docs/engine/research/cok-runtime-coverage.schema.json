@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dionysus.dk/schemas/cok-player-runtime-coverage-v1.json",
+  "title": "CoK player appearance static runtime coverage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "evidenceScope", "inputs", "counts", "components", "runtimePackageAudit", "limitations"],
+  "properties": {
+    "schema": { "const": "cok-player-runtime-coverage-v1" },
+    "evidenceScope": { "const": "source-only static coverage; not browser/runtime observation" },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contractSha256", "manifestSha256", "registrySha256", "inventorySnapshotSha256", "restyleAdmissionPolicySha256", "restyleAdmissionResolverSha256", "playerPackageBuilderSha256"],
+      "properties": {
+        "contractSha256": { "$ref": "#/$defs/hash" },
+        "manifestSha256": { "$ref": "#/$defs/hash" },
+        "registrySha256": { "$ref": "#/$defs/hash" },
+        "inventorySnapshotSha256": { "$ref": "#/$defs/hash" },
+        "restyleAdmissionPolicySha256": { "$ref": "#/$defs/hash" },
+        "restyleAdmissionResolverSha256": { "$ref": "#/$defs/hash" },
+        "playerPackageBuilderSha256": { "$ref": "#/$defs/hash" }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["appearanceSets", "acceptedTuples", "componentRows", "distinctPackageIdentities", "distinctSourceOutputPairs", "manifestDeclaredComponents", "staticConsumerBindings", "runtimeObservedComponents", "restyleAdmittedFrames", "restyleHeldFrames", "inventoryApprovedComponents", "inventoryUnapprovedComponents", "componentsWithIssues", "componentPackageSlotsMissing", "componentPackageSlotsHashMismatch", "runtimePackagePlanPaths", "runtimePackageSourceFilesPresent", "runtimePackageSourceFilesMissing", "runtimePackageSourceFilesHashMismatch", "heldRestyleOutputPaths", "heldRestylePathsPresentInPublicSource"],
+      "properties": {
+        "appearanceSets": { "type": "integer", "minimum": 0 },
+        "acceptedTuples": { "type": "integer", "minimum": 0 },
+        "componentRows": { "type": "integer", "minimum": 0 },
+        "distinctPackageIdentities": { "type": "integer", "minimum": 0 },
+        "distinctSourceOutputPairs": { "type": "integer", "minimum": 0 },
+        "manifestDeclaredComponents": { "type": "integer", "minimum": 0 },
+        "staticConsumerBindings": { "type": "integer", "minimum": 0 },
+        "runtimeObservedComponents": { "const": 0 },
+        "restyleAdmittedFrames": { "type": "integer", "minimum": 0 },
+        "restyleHeldFrames": { "type": "integer", "minimum": 0 },
+        "inventoryApprovedComponents": { "type": "integer", "minimum": 0 },
+        "inventoryUnapprovedComponents": { "type": "integer", "minimum": 0 },
+        "componentsWithIssues": { "type": "integer", "minimum": 0 },
+        "componentPackageSlotsMissing": { "type": "integer", "minimum": 0 },
+        "componentPackageSlotsHashMismatch": { "type": "integer", "minimum": 0 },
+        "runtimePackagePlanPaths": { "const": 20 },
+        "runtimePackageSourceFilesPresent": { "type": "integer", "minimum": 0 },
+        "runtimePackageSourceFilesMissing": { "type": "integer", "minimum": 0 },
+        "runtimePackageSourceFilesHashMismatch": { "type": "integer", "minimum": 0 },
+        "heldRestyleOutputPaths": { "type": "integer", "minimum": 0 },
+        "heldRestylePathsPresentInPublicSource": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "components": { "type": "array", "items": { "$ref": "#/$defs/component" } },
+    "runtimePackageAudit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceRoot", "plan", "heldRestylePaths", "scope"],
+      "properties": {
+        "sourceRoot": { "type": "string", "minLength": 1 },
+        "scope": { "const": "public source-tree copy audit; no build output or runtime observation" },
+        "plan": {
+          "type": "array",
+          "minItems": 20,
+          "maxItems": 20,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["packageId", "expectedSha256", "actualSha256", "sourceStatus"],
+            "properties": {
+              "packageId": { "type": "string", "minLength": 1 },
+              "expectedSha256": { "$ref": "#/$defs/hash" },
+              "actualSha256": { "oneOf": [{ "$ref": "#/$defs/hash" }, { "type": "null" }] },
+              "sourceStatus": { "enum": ["missing", "hash-match", "hash-mismatch"] }
+            }
+          }
+        },
+        "heldRestylePaths": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["packageId", "sourceStatus", "buildOutputPolicy"],
+            "properties": {
+              "packageId": { "type": "string", "minLength": 1 },
+              "sourceStatus": { "enum": ["present", "missing"] },
+              "buildOutputPolicy": { "const": "removed-if-present-by-player-package-builder" }
+            }
+          }
+        }
+      }
+    },
+    "limitations": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+  },
+  "$defs": {
+    "hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "packageFile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["packageId", "status", "expectedSha256", "actualSha256"],
+      "properties": {
+        "packageId": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["missing", "hash-match", "hash-mismatch"] },
+        "expectedSha256": { "$ref": "#/$defs/hash" },
+        "actualSha256": { "oneOf": [{ "$ref": "#/$defs/hash" }, { "type": "null" }] }
+      }
+    },
+    "component": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["appearanceId", "variantIndex", "role", "sourceIdentity", "manifestDeclaredPackageAdmission", "packageIdentities", "consumerBindings", "runtimeObservation", "frameRestyleAdmission", "inventoryEvidence", "issues"],
+      "properties": {
+        "appearanceId": { "type": "string", "minLength": 1 },
+        "variantIndex": { "type": "integer", "enum": [0, 1] },
+        "role": { "enum": ["head", "body"] },
+        "sourceIdentity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["sourceAssetId", "sourceAddressable", "archive", "archiveSha256", "blockId", "sourceSha256", "registrySourceHashMatchesManifest"],
+          "properties": {
+            "sourceAssetId": { "type": "string", "minLength": 1 },
+            "sourceAddressable": { "const": true },
+            "archive": { "type": "string", "minLength": 1 },
+            "archiveSha256": { "$ref": "#/$defs/hash" },
+            "blockId": { "type": "integer", "minimum": 0 },
+            "sourceSha256": { "$ref": "#/$defs/hash" },
+            "registrySourceHashMatchesManifest": { "const": true }
+          }
+        },
+        "manifestDeclaredPackageAdmission": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["declared", "manifestPath", "outputSha256", "nativeSize"],
+          "properties": {
+            "declared": { "const": true },
+            "manifestPath": { "type": "string", "minLength": 1 },
+            "outputSha256": { "$ref": "#/$defs/hash" },
+            "nativeSize": { "type": "array", "prefixItems": [{ "type": "integer", "minimum": 1 }, { "type": "integer", "minimum": 1 }], "minItems": 2, "maxItems": 2 }
+          }
+        },
+        "packageIdentities": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["original", "restyle"],
+          "properties": { "original": { "$ref": "#/$defs/packageFile" }, "restyle": { "$ref": "#/$defs/packageFile" } }
+        },
+        "consumerBindings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["consumerId", "presentation", "staticBound", "runtimeObserved"],
+            "properties": {
+              "consumerId": { "type": "string", "minLength": 1 },
+              "presentation": { "type": "string", "minLength": 1 },
+              "staticBound": { "const": true },
+              "runtimeObserved": { "const": "unverified" }
+            }
+          }
+        },
+        "runtimeObservation": { "const": "unverified" },
+        "frameRestyleAdmission": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["state", "reason"],
+          "properties": {
+            "state": { "enum": ["admitted", "held"] },
+            "reason": { "type": "string", "minLength": 1 }
+          }
+        },
+        "inventoryEvidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "assetId", "runtimeApproved", "runtimeApprovalEvidence", "compositionReview", "promptStatus", "promptReferenceCount"],
+          "properties": {
+            "status": { "enum": ["matched", "unmatched"] },
+            "assetId": { "oneOf": [{ "type": "string" }, { "type": "null" }] },
+            "runtimeApproved": { "oneOf": [{ "type": "boolean" }, { "type": "null" }] },
+            "runtimeApprovalEvidence": { "type": "array", "items": { "type": "string" } },
+            "compositionReview": { "type": "string", "minLength": 1 },
+            "promptStatus": { "enum": ["referenced", "unknown"] },
+            "promptReferenceCount": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["code", "consumers"],
+            "properties": {
+              "code": { "const": "consumer-scope-exceeds-inventory-approval-scope" },
+              "consumers": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    }
+  }
+}

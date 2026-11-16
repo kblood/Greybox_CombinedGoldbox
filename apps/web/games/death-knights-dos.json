@@ -1,0 +1,68 @@
+{
+  "id": "death-knights-dos",
+  "title": "Death Knights of Krynn",
+  "platform": "DOS (EGA)",
+  "container": "DAX (little-endian, fixed EGA-16 palette, signed-byte RLE)",
+  "endianness": "little",
+  "display": { "width": 320, "height": 200, "pixelAspect": 1.2, "defaultZoom": 2 },
+  "files": [
+    { "path": "Death Knights of Krynn/TITLE.DAX", "category": "title", "label": "TITLE (title screen)" },
+
+    { "path": "Death Knights of Krynn/BIGPIC1.DAX", "category": "scenes", "label": "BIGPIC1 (scenes)" },
+    { "path": "Death Knights of Krynn/BIGPIC2.DAX", "category": "scenes", "label": "BIGPIC2 (scenes)" },
+    { "path": "Death Knights of Krynn/BIGPIC3.DAX", "category": "scenes", "label": "BIGPIC3 (scenes)" },
+    { "path": "Death Knights of Krynn/PIC1.DAX", "category": "scenes", "label": "PIC1 (animated scenes)" },
+    { "path": "Death Knights of Krynn/PIC2.DAX", "category": "scenes", "label": "PIC2 (animated scenes)" },
+    { "path": "Death Knights of Krynn/PIC3.DAX", "category": "scenes", "label": "PIC3 (animated scenes)" },
+    { "path": "Death Knights of Krynn/PIC4.DAX", "category": "scenes", "label": "PIC4 (animated scenes)" },
+    { "path": "Death Knights of Krynn/PIC5.DAX", "category": "scenes", "label": "PIC5 (animated scenes)" },
+    { "path": "Death Knights of Krynn/PIC6.DAX", "category": "scenes", "label": "PIC6 (animated scenes)" },
+    { "path": "Death Knights of Krynn/PIC7.DAX", "category": "scenes", "label": "PIC7 (animated scenes)" },
+
+    { "path": "Death Knights of Krynn/BACK1.DAX", "category": "backdrops", "label": "BACK1 (combat backdrops)" },
+    { "path": "Death Knights of Krynn/BACK2.DAX", "category": "backdrops", "label": "BACK2 (combat backdrops)" },
+    { "path": "Death Knights of Krynn/BACK3.DAX", "category": "backdrops", "label": "BACK3 (combat backdrops)" },
+    { "path": "Death Knights of Krynn/BACK4.DAX", "category": "backdrops", "label": "BACK4 (combat backdrops)" },
+    { "path": "Death Knights of Krynn/BACK5.DAX", "category": "backdrops", "label": "BACK5 (combat backdrops)" },
+    { "path": "Death Knights of Krynn/SKYGRND.DAX", "category": "backdrops", "label": "SKYGRND (sky/ground bands)" },
+
+    { "path": "Death Knights of Krynn/CPIC1.DAX", "category": "portraits", "label": "CPIC1 (combat portraits)" },
+    { "path": "Death Knights of Krynn/CHEAD.DAX", "category": "portraits", "label": "CHEAD (character heads)" },
+
+    { "path": "Death Knights of Krynn/8X8D1.DAX", "category": "tiles", "label": "8X8D1 (8x8 dungeon tiles)" },
+    { "path": "Death Knights of Krynn/8X8D2.DAX", "category": "tiles", "label": "8X8D2 (8x8 dungeon tiles)" },
+    { "path": "Death Knights of Krynn/8X8D3.DAX", "category": "tiles", "label": "8X8D3 (8x8 dungeon tiles)" },
+    { "path": "Death Knights of Krynn/8X8D4.DAX", "category": "tiles", "label": "8X8D4 (8x8 dungeon tiles)" },
+    { "path": "Death Knights of Krynn/8X8D5.DAX", "category": "tiles", "label": "8X8D5 (8x8 dungeon tiles)" },
+
+    { "path": "Death Knights of Krynn/COMSPR.DAX", "category": "sprites", "label": "COMSPR (combat sprites)" },
+    { "path": "Death Knights of Krynn/DUNGCOM.DAX", "category": "sprites", "label": "DUNGCOM (dungeon combat)" },
+    { "path": "Death Knights of Krynn/WILDCOM.DAX", "category": "sprites", "label": "WILDCOM (wilderness combat)" },
+    { "path": "Death Knights of Krynn/SPRIT1.DAX", "category": "sprites", "label": "SPRIT1 (monster sprites)" },
+    { "path": "Death Knights of Krynn/SPRIT2.DAX", "category": "sprites", "label": "SPRIT2 (monster sprites)" },
+    { "path": "Death Knights of Krynn/SPRIT3.DAX", "category": "sprites", "label": "SPRIT3 (monster sprites)" },
+    { "path": "Death Knights of Krynn/SPRIT4.DAX", "category": "sprites", "label": "SPRIT4 (monster sprites)" },
+
+    { "path": "Death Knights of Krynn/CBODY.DAX", "category": "ui", "label": "CBODY (paperdoll body)" },
+    { "path": "Death Knights of Krynn/WALLDEF1.DAX", "category": "data", "label": "WALLDEF1 (wall definitions)", "decode": false, "note": "Shares the CoK Gen1 exploration route contract" },
+    { "path": "Death Knights of Krynn/WALLDEF2.DAX", "category": "data", "label": "WALLDEF2 (wall definitions)", "decode": false },
+    { "path": "Death Knights of Krynn/WALLDEF3.DAX", "category": "data", "label": "WALLDEF3 (wall definitions)", "decode": false },
+    { "path": "Death Knights of Krynn/WALLDEF4.DAX", "category": "data", "label": "WALLDEF4 (wall definitions)", "decode": false },
+    { "path": "Death Knights of Krynn/WALLDEF5.DAX", "category": "data", "label": "WALLDEF5 (wall definitions)", "decode": false },
+
+    { "path": "Death Knights of Krynn/GEO1.DAX", "category": "data", "label": "GEO1 (dungeon maps)", "decode": false, "note": "Route proof uses GEO1 block 34, shared with CoK's own contract" },
+    { "path": "Death Knights of Krynn/GEO2.DAX", "category": "data", "label": "GEO2 (dungeon maps)", "decode": false },
+    { "path": "Death Knights of Krynn/GEO3.DAX", "category": "data", "label": "GEO3 (dungeon maps)", "decode": false },
+
+    { "path": "Death Knights of Krynn/ECL1.DAX", "category": "data", "label": "ECL1 (event scripts)", "decode": false, "note": "Route proof uses ECL1 block 34 (packages/engine/test/dungeon-dok.test.ts)" },
+    { "path": "Death Knights of Krynn/ECL2.DAX", "category": "data", "label": "ECL2 (event scripts)", "decode": false },
+    { "path": "Death Knights of Krynn/ECL3.DAX", "category": "data", "label": "ECL3 (event scripts)", "decode": false },
+
+    { "path": "Death Knights of Krynn/MON1CHA.DAX", "category": "data", "label": "MON1CHA (monster tables)", "decode": false, "note": "216-byte DoK monster records" },
+    { "path": "Death Knights of Krynn/MON1ITM.DAX", "category": "data", "label": "MON1ITM (monster items)", "decode": false },
+    { "path": "Death Knights of Krynn/MON1SPC.DAX", "category": "data", "label": "MON1SPC (monster specials)", "decode": false },
+    { "path": "Death Knights of Krynn/MON1WIZ.DAX", "category": "data", "label": "MON1WIZ (monster spellbooks)", "decode": false },
+    { "path": "Death Knights of Krynn/ITEM0.DAX", "category": "data", "label": "ITEM0 (item table)", "decode": false },
+    { "path": "Death Knights of Krynn/SOUND.DAX", "category": "data", "label": "SOUND (DOS sound bank)", "decode": false, "note": "One block (id 1), 14,064 bytes -- BYTE-IDENTICAL to Champions of Krynn's own SOUND.DAX (sha256 7df3bde4...4246a5 on both). The census the dashboard reports for this title (14 segments, 3 song-like, 11,091 events) is therefore file identity, not a second independent confirmation of round 34 R6's finding; see the Champions row and docs/engine/research/cok-sound-bank.md for the evidence and its limits. Decode census only -- no playback is claimed." }
+  ]
+}

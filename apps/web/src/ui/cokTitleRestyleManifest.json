@@ -1,0 +1,37 @@
+{
+  "source": {
+    "path": "Champions of Krynn/TITLE.DAX",
+    "bytes": 57528,
+    "sha256": "5276ba718f3c31018c25852f0b6858a292aed5a94f8bd938803961bb1ade0a00"
+  },
+  "blocks": {
+    "1": {
+      "file": "001_band_cok_dos_ssi_presents.png",
+      "destination": "TITLE_001_restyle.png",
+      "width": 1600, "height": 1000, "nativeWidth": 320, "nativeHeight": 200,
+      "pixelScale": 5, "colorType": 2, "bytes": 744986,
+      "sha256": "c249541adb4d6b29d9c0de8adedfc81a22244a90fed4aa7938c92c725ed0e886"
+    },
+    "2": {
+      "file": "010_band_cok_title_art.png",
+      "destination": "TITLE_002_restyle.png",
+      "width": 1600, "height": 1000, "nativeWidth": 320, "nativeHeight": 200,
+      "pixelScale": 5, "colorType": 2, "bytes": 2932616,
+      "sha256": "429c8f4336ef06724fcc08428e663f746b2c84563b2bcb0ef765eea3b1d26c98"
+    },
+    "3": {
+      "file": "002_cok_dos_title_logo.png",
+      "destination": "TITLE_003_restyle.png",
+      "width": 1680, "height": 616, "nativeWidth": 240, "nativeHeight": 88,
+      "pixelScale": 7, "colorType": 6, "bytes": 1163750,
+      "sha256": "608e3dee3f53cab258160438e773e741711aad4b2b0b82c4089b07519b709188"
+    },
+    "4": {
+      "file": "003_cok_dos_dragonlance_vol1.png",
+      "destination": "TITLE_004_restyle.png",
+      "width": 1600, "height": 440, "nativeWidth": 320, "nativeHeight": 88,
+      "pixelScale": 5, "colorType": 6, "bytes": 866583,
+      "sha256": "8eab1dd63fe9df2bb670b5655cb873920826684e06cc7270992e71ad7f7ae7fe"
+    }
+  }
+}

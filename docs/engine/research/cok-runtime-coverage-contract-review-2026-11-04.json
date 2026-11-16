@@ -1,0 +1,83 @@
+{
+  "reviewVersion": 1,
+  "date": "2026-11-04",
+  "scope": "Reviewed the V1/V2 CoK runtime art consumer dependency contracts against current source/tests and refreshed deterministic report pins.",
+  "registry": {
+    "path": "docs/engine/research/cok-graphics-identity-registry-v1.json",
+    "sha256": "3839fecfa2930361d78523f2919dc078979966ee1be4f40e83273954d2e6c92f",
+    "sourceAssets": 6067,
+    "restyleRecords": 2596,
+    "animationGroups": 104
+  },
+  "before": {
+    "v1ContractSha256": "7bd668e45eed6a248e7611b8dfabd02ab1ed11af152fa294210b3dfd100aee35",
+    "v1ReportSha256": "2a3db13f51a5b303e16fa3a9bbbc514f18780cb79012e656fd8f17d5143fb4f",
+    "v2ContractSha256": "fabf5a983348151c5af49537b13e0a51cd59928d72bff508bfe10daf7dbf07f8",
+    "v2ReportSha256": "6aa0fbc657162e14405b14c5bce6baa1bc3185c580796c323ae69b0d1d302386"
+  },
+  "after": {
+    "v1Contract": {
+      "path": "docs/engine/research/cok-runtime-art-consumers-v1.json",
+      "sha256": "5073fc2bcafb792da92bd7705e0a14aa1b5362151291ad257f689568cb0c6cba",
+      "inputCount": 77
+    },
+    "v1Report": {
+      "path": "docs/engine/research/cok-runtime-art-coverage-v1.json",
+      "sha256": "7034bca08e55ad266b6e4fa6a3933babaf03b16dc6f7521b6deb09421257e1ea",
+      "canonicalSourceIds": 403,
+      "outputPaths": 334,
+      "distinctOutputHashes": 324,
+      "mappingEntriesByConsumer": {
+        "combat-icons": 108,
+        "combat-terrain": 25,
+        "cottage": 1,
+        "demo-picture": 1,
+        "dialogue-pictures": 5,
+        "dungeon-walls": 210,
+        "player-loader": 16,
+        "title": 4,
+        "travel-map": 1
+      }
+    },
+    "v2Contract": {
+      "path": "docs/engine/research/cok-runtime-art-consumers-v2.json",
+      "sha256": "e8d6f98929079f508dd46c752389786929cd0b3bd6b8a5208c13b16080f2d2ae",
+      "inputCount": 11
+    },
+    "v2Report": {
+      "path": "docs/engine/research/cok-runtime-art-coverage-v2.json",
+      "sha256": "0ca3df9da0e30bbe7b3c3bcf31abf9e86d380953496d4a2cac8a6d2747cd566c",
+      "canonicalSourceIds": 403,
+      "outputPaths": 334,
+      "distinctOutputHashes": 324,
+      "pictureSites": 146,
+      "combatSites": 192
+    }
+  },
+  "semanticDelta": {
+    "sourceRuntimeProjections": "403 retained V1 runtime source IDs matched their pre-refresh projection fields; none were lost, changed or ambiguous.",
+    "restyleProjections": "360 used Restyle records matched their pre-refresh projection fields.",
+    "animationProjections": "2 used animation-group records matched their pre-refresh projection fields.",
+    "runtimeMappings": "No mapping, source admission, animation meaning or runtime approval was added by this pin refresh.",
+    "contractChanges": "V1 now pins the current consumer/test dependency closure, including selected local pack behavior, Library AssetSource path selection, title intro wiring and DAA loader/admission dependencies. V2 pins the refreshed V1 artifacts, current registry and combat-site receipt."
+  },
+  "verification": {
+    "v1ReportCheck": "pass",
+    "v2ReportCheck": "pass",
+    "pythonContractTests": "18/18 pass",
+    "schemaTests": "4/4 pass",
+    "focusedWebCoverageTests": "10/10 pass",
+    "fullWebNodeSuite": "356/356 pass",
+    "fullEngineSuite": "2,447 passed; 745 skipped across 214 passed / 56 skipped files",
+    "engineTypecheck": "pass",
+    "sourceCensusCheck": "pass",
+    "webTypecheck": "pass",
+    "gitDiffCheck": "pass"
+  },
+  "limits": [
+    "These reports are source-level ledgers; browser runtime behavior and production packaging remain unverified.",
+    "The Amiga archive decoder and local archive preview picker do not establish that gameplay AssetSource selects and loads Amiga originals.",
+    "The identity registry covers CoK only. All-games completeness, most semantic descriptions and nearly all animation semantics remain open.",
+    "The Vite spawn EPERM, NASM availability, public-PNG review, deployment-parent and release-ledger holds remain unresolved."
+  ]
+}

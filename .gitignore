@@ -1,0 +1,25 @@
+# User-supplied Gold Box game data and local extraction outputs
+*_extracted/
+*.dax
+*.daa
+*.tlb
+*.glb
+*.sav
+*.exe
+*.dll
+*.adf
+*.adz
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.wav
+*.voc
+*.mid
+*.xmi
+*.zip
+*.7z
+node_modules/
+build/
+dist/
+dist-app/

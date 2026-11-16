@@ -1,0 +1,45 @@
+{
+  "schema": "goldbox-native-runtime-manifest/1",
+  "external_scripts": [
+    {
+      "path": "C:\\LLM\\DOS\\BuildReleasesVHD.ps1",
+      "sha256": "6FB516F129CF1B5657ADC5FA4DDE437DAD015C202A9012B05F257A4A36C90F7A"
+    },
+    {
+      "path": "C:\\LLM\\DOS\\VerifyReleaseVHD.ps1",
+      "sha256": "2E20EBEC3BB4894E708B156766149A11D246EFE90C4B1967D6F64E5DFDAE2C07"
+    },
+    {
+      "path": "C:\\LLM\\DOS\\VerifyGoldBoxPlayableVHD.ps1",
+      "sha256": "39C984CA3BFA12D969DF0ED2FBA1CA596D0D0289F52386C93684CF93145BCAF1"
+    }
+  ],
+  "executables": [
+    { "name": "PIXEL.COM", "required": true, "guest_verify": true },
+    { "name": "CCDAT.COM", "required": true, "guest_verify": true },
+    { "name": "CCDEMO.COM", "required": true, "guest_verify": true },
+    { "name": "CCMENU.COM", "required": true, "guest_verify": true },
+    { "name": "CCDAA.COM", "required": true, "guest_verify": true },
+    { "name": "CCECL.COM", "required": true, "guest_verify": true },
+    { "name": "CCFLOW.COM", "required": true, "guest_verify": true },
+    { "name": "CCBIND.COM", "required": true, "guest_verify": true },
+    { "name": "CCEFX.COM", "required": true, "guest_verify": true },
+    { "name": "CCHOST.COM", "required": true, "guest_verify": true },
+    { "name": "CCNEXT.COM", "required": true, "guest_verify": true },
+    { "name": "CCFP.COM", "required": true, "guest_verify": true },
+    { "name": "CCGEO.COM", "required": true, "guest_verify": true },
+    { "name": "CCGLB.COM", "required": true, "guest_verify": true },
+    { "name": "CCHLIB.COM", "required": true, "guest_verify": true },
+    { "name": "CCMON.COM", "required": true, "guest_verify": true },
+    { "name": "CCPARTY.COM", "required": true, "guest_verify": true },
+    { "name": "CCINV.COM", "required": true, "guest_verify": true },
+    { "name": "CCSND.COM", "required": true, "guest_verify": true },
+    { "name": "CCVERIFY.COM", "required": true, "guest_verify": true },
+    { "name": "CGB.COM", "required": true, "guest_verify": true },
+    { "name": "CGBC.COM", "required": true, "guest_verify": true },
+    { "name": "CCCOMBAT.COM", "required": true, "guest_verify": true },
+    { "name": "GBMARK.COM", "required": true, "guest_verify": true },
+    { "name": "GBMARKF.COM", "required": true, "guest_verify": true },
+    { "name": "GBBOOT.COM", "required": true, "guest_verify": true }
+  ]
+}

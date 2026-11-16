@@ -1,0 +1,46 @@
+{
+  "name": "@goldbox/electron",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gold Box / Greybox desktop shell — Electron main/preload wrapping the apps/web renderer build, with native filesystem asset access (electronAssetSource) replacing the browser File System Access API.",
+  "type": "commonjs",
+  "license": "MIT",
+  "main": "dist/main/index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && electron .",
+    "e2e": "node test/e2e.mjs",
+    "package": "npm run build && electron-builder --win portable",
+    "e2e:packaged": "node test/e2e-packaged.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "electron": "^43.0.0",
+    "electron-builder": "^26.15.3",
+    "typescript": "^5.6.3",
+    "puppeteer-core": "^25.1.0"
+  },
+  "build": {
+    "appId": "dk.dionysus.greybox",
+    "productName": "Greybox",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "../web/dist-app",
+        "to": "web-dist-app"
+      }
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ]
+    }
+  }
+}

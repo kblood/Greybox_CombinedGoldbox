@@ -1,0 +1,1127 @@
+{
+  "banks": [
+    {
+      "name": "CPIC1",
+      "disk": 1,
+      "sourceArchiveSha256": "5f3e5fdc1734f8aed583233da9c97630b130ad5628eee0f18d875291dfa5e26b",
+      "icons": [
+        {
+          "pictureId": 8,
+          "stem": "CPIC1_008_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "ba92c543501bef5123cc0023667294fcd9791d7dfd96cdcb75953dcc8d743e8f",
+          "bank": "CPIC1",
+          "colorType": 6,
+          "allowOpaque": false
+        },
+        {
+          "pictureId": 12,
+          "stem": "CPIC1_012_restyle_v5",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "96c6466db956a6e97b8cd778a382fc35f7957aef5f3be28988fc35f24fa9f4cb",
+          "sourceImageSha256": "f3c46a8c6005ab79ae27dd0a0c8e5d4554343914065f99579607ecc9beed74e2",
+          "sourceIndicesSha256": "05270b591bbb7d61824a682d02ebc8a43474d2b03c0486381b84572f2a0f05b3",
+          "colorType": 6,
+          "allowOpaque": false,
+          "promptReference": {
+            "batch": "Batch03 repair-v5",
+            "file": "CPIC1_012_restyle_v5_prompt.txt",
+            "sha256": "e0ff4ce1ea8c2d7cec4838879c6e37f999df01a1c99621c85d3b619df679fc76",
+            "inputSha256": "f3c46a8c6005ab79ae27dd0a0c8e5d4554343914065f99579607ecc9beed74e2",
+            "outputSha256": "96c6466db956a6e97b8cd778a382fc35f7957aef5f3be28988fc35f24fa9f4cb",
+            "text": "Repaint this exact Champions of Krynn DOS combat sprite in place. Reference 1 is the original 96×96 icon enlarged 8× with nearest-neighbor, so each of its original 24×24 logical pixels is a clear 32×32 square. Reference 2 is the exact binary occupancy mask at the same coordinates and canvas: white means the source cell is occupied and black means transparent. The original sprite geometry is locked: preserve every occupied and transparent cell, all pose and object locations, limb connections, weapon shapes, and the full outer silhouette. Do not move, resize, crop, rotate, add, remove, or split any part. Repaint/colorize only the existing sprite, with crisp high-contrast fantasy pixel art, rich cyan and teal armor with layered highlights and shadow, vivid but restrained red accents, dark outlines, metallic gray and bright white on the existing held implements. Keep the source's exact small character identity and details. Place no paint outside the white mask. Black outside the character, no glow, no text, no backdrop, no frame, no extra objects. Keep the reference canvas and composition exactly.\r\n"
+          }
+        },
+        {
+          "pictureId": 35,
+          "stem": "CPIC1_035_restyle_v5",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "28d08ecdf4db9c592039da27f7e1551f7bb36b7d5e21d09ee2cd82eadd151ea4",
+          "sourceImageSha256": "f035788ff37fa14ebc1c45349137d9ee83e23735628428b0e416a31e7d5fd757",
+          "sourceIndicesSha256": "9dfc7f1429f1045eae7188a8fc3e786976962c067b45878b2e0bd6847c323106",
+          "colorType": 6,
+          "allowOpaque": false,
+          "promptReference": {
+            "batch": "Batch03 repair-v5",
+            "file": "CPIC1_035_restyle_v5_prompt.txt",
+            "sha256": "7616c52bebc57e7773e00d2ee1bfca92515bc02443a496ecbe4f383d7d304dbb",
+            "inputSha256": "f035788ff37fa14ebc1c45349137d9ee83e23735628428b0e416a31e7d5fd757",
+            "outputSha256": "28d08ecdf4db9c592039da27f7e1551f7bb36b7d5e21d09ee2cd82eadd151ea4",
+            "text": "Repaint this exact Champions of Krynn DOS combat sprite in place. Reference 1 is the original 96×96 icon enlarged 8× with nearest-neighbor, so each of its original 24×24 logical pixels is a clear 32×32 square. Reference 2 is the exact binary occupancy mask at the same coordinates and canvas: white means the source cell is occupied and black means transparent. The original sprite geometry is locked: preserve every occupied and transparent cell, all pose and object locations, limb connections, sword and shield shapes, and the full outer silhouette. Do not move, resize, crop, rotate, add, remove, or split any part. Repaint/colorize only the existing sprite as polished classic fantasy pixel art with a red tunic, pale trousers, brown boots, a steel sword raised diagonally at the viewer's left, and a blue shield with gold trim at the viewer's right. Keep the exact source head, arms, hands, stance, sword angle, shield location and connections. Place no paint outside the white mask. Black outside the character, no glow, no text, no backdrop, no frame, no extra objects. Keep the reference canvas and composition exactly.\r\n"
+          }
+        },
+        {
+          "pictureId": 26,
+          "stem": "CPIC1_026_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "3f6a7edc5dcf8b45d3c2143aedf1a64e1d7c11a3689e9077019206165ec572f0",
+          "bank": "CPIC1",
+          "colorType": 6,
+          "allowOpaque": false
+        }
+      ]
+    },
+    {
+      "name": "CPIC2",
+      "disk": 2,
+      "sourceArchiveSha256": "7925da2db12a4e42ffc2df737fce830fddede11ae9d350e61a9a53f2950b94e4",
+      "icons": [
+        {
+          "pictureId": 129,
+          "stem": "CPIC2_129_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "d0df66792c0ba58be3ee5b5d3b72c10363db47ac6fde38d1f96a085c7b747d55",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 1,
+          "stem": "CPIC2_001_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "6efb3e3b73083beca1ff043b501eb21a30791b3ab70884b5582b046b986a3693",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 130,
+          "stem": "CPIC2_130_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "f5655c17433d40fb483b5c8c2f50b7bc8e31ca4fa45f385f1b6dc03526e00785",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 2,
+          "stem": "CPIC2_002_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "ff045d2d580f16678da30e460a34a76308145f7ac6b7521a166e0908a34844c5",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 132,
+          "stem": "CPIC2_132_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "e9c131e8b792a8f4d5104e0766403c327d2eda197c3a8fb6392ced800e9738d4",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 4,
+          "stem": "CPIC2_004_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "037cea00efbeb854658546d3cd818aaa8e294d8b1510d6c8f1a25a80881595b1",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 133,
+          "stem": "CPIC2_133_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "0bc72dafbecda5446bba329105d096dc27304e417a3d3b191c619378e20bce2c",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 5,
+          "stem": "CPIC2_005_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "9704ddbb61b66b259e5239de345297dbb8dfed4aa6be270297f6488db655324c",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 134,
+          "stem": "CPIC2_134_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "05221e6ab0fcf088b6002a7a299a8b365f1a552240619e995b8d19858a759d89",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 6,
+          "stem": "CPIC2_006_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "b49baa7cdf9ac331c40cad35b2fe64a974330e1cc883242d10bdef85df7d246a",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 136,
+          "stem": "CPIC2_136_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "11ddcc7f5152fd96e0732349ea4d3f372efc089f1d563ef754e8002c993e52bb",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 8,
+          "stem": "CPIC2_008_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "dac6161f59ab43104a0cf7c69e4ef424d846b4e3e1f7c6dedff965ed2c7238a2",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 138,
+          "stem": "CPIC2_138_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "ad61ee2a28c65abeafe43407c1f3e507c6f75a078a9199c551aea23440716245",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 10,
+          "stem": "CPIC2_010_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "3cbf3c6c76afa537f887185800a4802b1edc561098d43d1dfa27d6156f18d625",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 140,
+          "stem": "CPIC2_140_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "1775f973abc1fa0b2cc79490bdeac42f18c7928bd12a6c9f27090b634500bb3c",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 12,
+          "stem": "CPIC2_012_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "0445096ee8a6f3f4fb579649b6ce12e27b5dd4fc0664c3dd9bc7549bc0de54fe",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 141,
+          "stem": "CPIC2_141_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "1179965e532ac5f56f4231d5d44381a9b40c34c8443ebb23bed1e1c3d8880693",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 13,
+          "stem": "CPIC2_013_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "fc3c9f19441d37ec5a9e251bf80198887ffae6d4e1409526285feadc33d0635c",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 142,
+          "stem": "CPIC2_142_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "757886ae089a5906c6214c36f4ee32e61814a8f932b990fe8d15223f56577247",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 14,
+          "stem": "CPIC2_014_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "89de819534f5f5e3754894dc842aad77173660231a73d071aec1ad9ba4eb1876",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 145,
+          "stem": "CPIC2_145_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "c113718d362376da543f7f91e8e8a9dfa4143bd692cbd262bbcc115e72a43cfb",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 17,
+          "stem": "CPIC2_017_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "e0a9332af251a9bc55c63667312e9381d3201cf0bc17da436de561d09179cd5f",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 147,
+          "stem": "CPIC2_147_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "c28fd268487bc09f6be78eb091431c2815d913f2b322ad3960b5d98d04857fa4",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 19,
+          "stem": "CPIC2_019_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "ef83405e75cdd20376d633b6e875cc7bd25ebfd933ef20c76b724df9192ff409",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 151,
+          "stem": "CPIC2_151_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "a8970d4f0ade7edb2241bda9a7a97ff14f3be0cb5a94688b1a2550f864bd1e7a",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 23,
+          "stem": "CPIC2_023_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "7e4ccab29e13f504eb070a4f4b351ccfbe4cf16cedbc18242c5a0e143a226f96",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 153,
+          "stem": "CPIC2_153_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "dbcd6a10d542d77f6330db6395f9fe135970f91c9da49bbce6813e0669f499c6",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 25,
+          "stem": "CPIC2_025_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "17e14aa3342a725602e11f3396e2bb034b64f92b84b7eaf9de7d651d17266222",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 154,
+          "stem": "CPIC2_154_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "2fd9048211264f689679d8ff72d3686cc665669468999d2ada487ec2cd6b5515",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 26,
+          "stem": "CPIC2_026_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "b280b813f084b4b500518cec478ce7722c5ff728bfefa220a0070fd6489606ab",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 155,
+          "stem": "CPIC2_155_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "175af5818651aa0f5cccddaec91fc3928562872976aef06b884f02a89799fb0c",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 27,
+          "stem": "CPIC2_027_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "fd164ef322ebed66095aa8b9a6b763d3597a4c4a04e5852b87f3c0b2ea0d660b",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 156,
+          "stem": "CPIC2_156_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "ee1876ccd0c0873ef0bb80bbe987eb4a2246d4f6b853afbf7366e5e3687d14f6",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 28,
+          "stem": "CPIC2_028_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "4627034e76cc03ff67b6e3ba7f9ffcf9a0e5b88e9047a288da5c3bf1b68e61b5",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 159,
+          "stem": "CPIC2_159_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "b279d6f755ad387ed727466d15e337e9d198d838b12bc665e52771bb048e18a5",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 31,
+          "stem": "CPIC2_031_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "e70d04eba8c286f5f9e6eba00b621905b20fd8412e0aec991338fc8234f64651",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 161,
+          "stem": "CPIC2_161_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "ac914b69aed6ef32a804370a2a7a24c78655db08b7a62d213a30a7ba1852ee4a",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 33,
+          "stem": "CPIC2_033_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "152629a2d27bff4de25132e8251a1062e998c76a4dd9130f267dc4541f3142ad",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 163,
+          "stem": "CPIC2_163_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "af277e026fd201f8c05e62e05a3616e9f119dd3674d50cbd6d7a86db005fda63",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 35,
+          "stem": "CPIC2_035_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "1309f9f8fc3c6afefd1197156197aeec811f284b00cf3ca7f4330867191b23d9",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 166,
+          "stem": "CPIC2_166_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "cf68f5994c1706640b091be3a96b3e5f107e5e64ff6a41290554bdea2dea8790",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 38,
+          "stem": "CPIC2_038_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "b62752666d59fc1e500e73b37a17f4f4f352e4a618fc0a43d5ab51b355eee168",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 169,
+          "stem": "CPIC2_169_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "5647635ca845256dd58ab5d1e195b4a3f06b2111f9a9d02c92c455a435bb9363",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 41,
+          "stem": "CPIC2_041_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "0a31991c9283c9b371b811e081d0b6d1e56d7f3a3c43fd8563413f44d37c68d9",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 173,
+          "stem": "CPIC2_173_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "2f6c392717fbf237685d03c4dd995db71dc3b84d96c26d0c467aaad13d22b6e6",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 45,
+          "stem": "CPIC2_045_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "8f132223148f9657e750daff00b16b4d0d14215c736fc5d44faf6d9e0fc4dbfa",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 176,
+          "stem": "CPIC2_176_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "b72f0bbed0542492f602e532137efd886477be574dafcafcb2f574b41394dad8",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 48,
+          "stem": "CPIC2_048_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "e184d5dfa28cec0a2d7618de9bd77298d27a7a4e59a2ffc5b098a752038ef1c4",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 179,
+          "stem": "CPIC2_179_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "b290e70592560e57b449721010c8c84036c0835c86fe53e3e2a0a4cdf3aa33b8",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 51,
+          "stem": "CPIC2_051_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "069342f7466b80e342cae506d4014e685112238bc894cb36c26a6f6f053ff7b5",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 182,
+          "stem": "CPIC2_182_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "c0f0bda615c2ab9d2511b7b4aea1181535b7e2765c11d9f1d7621c5200c31f2e",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 54,
+          "stem": "CPIC2_054_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "a46813b6904cc08e81cd16a15721ab171544c0592d339d3da23a72c84458b263",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 184,
+          "stem": "CPIC2_184_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "6c538ae626ecbbd2c2c7747b877dafb85e12a171d684027c8329fc9ce00ed002",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 56,
+          "stem": "CPIC2_056_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "efe226d2863f35b4f264b35bf165663fa837b5539b48112a6112bf4581932b68",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 188,
+          "stem": "CPIC2_188_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "98c9a89764a5efe7a38f73af05200a8fb11f133f7a0d3582b888dfdfcb0c3a99",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 60,
+          "stem": "CPIC2_060_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "a02acd396af200b67b9fe01894c375b6e55e12eba5fab17d9ddececb10ce6b9e",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 189,
+          "stem": "CPIC2_189_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "21d3afd6c91763e9986d80d07be451bf3ebd03749795c74bf41d78e85b15a166",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 61,
+          "stem": "CPIC2_061_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "fc4833c228f1c1e9eac6dd53106bb6eb12dcbfa8f86c804f06f6ff41e35e849b",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 190,
+          "stem": "CPIC2_190_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "c0f0bda615c2ab9d2511b7b4aea1181535b7e2765c11d9f1d7621c5200c31f2e",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 62,
+          "stem": "CPIC2_062_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "9a3c09745f283e2e88b68851cc3cb03d844b0b8e66e1901d5dcc15b9aa5569a7",
+          "colorType": 6,
+          "allowOpaque": true
+        }
+      ]
+    },
+    {
+      "name": "CPIC3",
+      "disk": 3,
+      "sourceArchiveSha256": "8a6e976bcc69ab4099ae5c990f6b2926c9a915f9d58b2545b170d0e6cc4da395",
+      "icons": [
+        {
+          "pictureId": 128,
+          "stem": "CPIC3_128_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "13bf6fcee3d05463f1888906b0f890c0d93d6e83340afb53acb1163cd58a5bbe",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 0,
+          "stem": "CPIC3_000_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "fc5cea537b66ee3037802564f3ebc560ca9c7b086084e9b63b12bad7d6dadc23",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 129,
+          "stem": "CPIC3_129_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "3ca9f42410a1d45ac969e4d208f1ed6bd6c11095109798295d78a2024f12f123",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 1,
+          "stem": "CPIC3_001_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "9dd672ac21f4f34281315b278de60dd8cc7fcf2735fe13e449b609f535fac6c9",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 131,
+          "stem": "CPIC3_131_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "aaa4a3497d8a7f9ea28f373ddadbbd72f0d3dcfab1f0fb2dcf2e14ac1a1dc9f0",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 3,
+          "stem": "CPIC3_003_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "2170c189f7b0a215af159a6532d40007ed36d4f9e5ab03c7013cea4728e5acda",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 132,
+          "stem": "CPIC3_132_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "df131dd521f4670a79704db15da40ab63b39aa598b5ce6bd08b3875ec411e00a",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 4,
+          "stem": "CPIC3_004_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "10b97bb4f1e79fd95b96901fbc343f689d65849d55e31b0c11b87e04a66fc11c",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 134,
+          "stem": "CPIC3_134_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "e702b63a88d4cda9d4d4ce89ba6a427c26f1d11ccafe1cd9fdd3035e12aaab86",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 6,
+          "stem": "CPIC3_006_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "9b1dd0feffb64201a83335645cc1e359b10b1ca3369cf25ce64a7b951d7067e6",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 142,
+          "stem": "CPIC3_142_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "2b564fd168055090de4e4f946cd8aa3728e086267561a89e64468c4272b133ab",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 14,
+          "stem": "CPIC3_014_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "26b03fbd0d6faeee52ee1d98e52a9cc43c59f4b1aceeefcfee2854d2bef12300",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 144,
+          "stem": "CPIC3_144_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "5904ca87fc084ce1394591e4faeaf7088f23f7a933d2a366764e0d64c2ae3716",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 16,
+          "stem": "CPIC3_016_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "d58a43c68d62e028ad90146690ec82f493cf4b015ad2679298ecc2c7966fbeac",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 145,
+          "stem": "CPIC3_145_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "a9dc53d88e957ad0a59d299ca74437e27aedc40d861453edcc5bfcc04a45ee25",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 17,
+          "stem": "CPIC3_017_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "8e33531b17487d2b8e77771b690e4534e0fc2ad2c784b08675fb8d1fe6621693",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 146,
+          "stem": "CPIC3_146_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "2b5625405c8aef4edb2f7072fb089be7cb5d5b3f67a3ba3104912c46b833a52d",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 18,
+          "stem": "CPIC3_018_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "b18486181ed3ba02523cf99b3a2daaddda9ba8d0dc21dbc4d36f8540a4732b97",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 147,
+          "stem": "CPIC3_147_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "800aca6880d74ac433935f8a5d1134303810f3e716f3568a5d394902c2f9aad7",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 19,
+          "stem": "CPIC3_019_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "c28fd268487bc09f6be78eb091431c2815d913f2b322ad3960b5d98d04857fa4",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 149,
+          "stem": "CPIC3_149_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "0a6dac5da5e6fc34f12e1343ead554c3f82c91615a1d11a60e0bcdf4a299c870",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 21,
+          "stem": "CPIC3_021_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "f045646dcd823bd031e48766c89eb8ed68fda88166a6915d8005720f927865b7",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 150,
+          "stem": "CPIC3_150_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "dd78c89ee4dbb045fca36519cdb0bee87fc7fa7196dad4335dafe943bbc65162",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 22,
+          "stem": "CPIC3_022_restyle",
+          "nativeWidth": 48,
+          "nativeHeight": 48,
+          "pixelScale": 4,
+          "sha256": "4aed8da0130cdd1da4f4db4e30c150e7f4416dd7af6d369f7d0f3bfde3136698",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 152,
+          "stem": "CPIC3_152_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "785d04a858037ebc03d266790473e6924edf2b806d1a51ed279f4ada239d6bb8",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 24,
+          "stem": "CPIC3_024_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "bea7f26c054529ed3db9ea6a35a66135a7dcd6915a29a050746e14823fd88895",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 153,
+          "stem": "CPIC3_153_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "d37e732384d2651ff49194d2f160ab2767b20b3b13c22800be5d9cc26aea9cb3",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 25,
+          "stem": "CPIC3_025_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "711915a41fa6705f78cd46d2eace6a2939ebc7d89deaed4de68ebe9602eb0e06",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 154,
+          "stem": "CPIC3_154_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "2fd9048211264f689679d8ff72d3686cc665669468999d2ada487ec2cd6b5515",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 26,
+          "stem": "CPIC3_026_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "bf1a6018a0a16c764dbe9355c9a907b3cf539261d9b83bf607011c5c8d8dc2a7",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 159,
+          "stem": "CPIC3_159_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "b279d6f755ad387ed727466d15e337e9d198d838b12bc665e52771bb048e18a5",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 160,
+          "stem": "CPIC3_160_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "2a76976f5b7a54b9abc54bc01ac1d1efd448d07464cd36f47b6adc08d4a2f408",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 32,
+          "stem": "CPIC3_032_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "39909edcf893436b400c6b25393c30e143758b92d038785179630cc0bebe8363",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 31,
+          "stem": "CPIC3_031_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "3877826d2ffdf9deedf13d6e7e33aeefbf07d39142e712ab6663f3a57278865b",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 163,
+          "stem": "CPIC3_163_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "af277e026fd201f8c05e62e05a3616e9f119dd3674d50cbd6d7a86db005fda63",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 35,
+          "stem": "CPIC3_035_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "131ec4bc73c11d781b1558340443ba1ad6579ed18bd8de6f00d9b3ec74289ae0",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 166,
+          "stem": "CPIC3_166_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "cf68f5994c1706640b091be3a96b3e5f107e5e64ff6a41290554bdea2dea8790",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 38,
+          "stem": "CPIC3_038_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "396b908a5d7a8662cef30cca0dd33d8bc99890a29702736ae6f980327d39b32c",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 169,
+          "stem": "CPIC3_169_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "5647635ca845256dd58ab5d1e195b4a3f06b2111f9a9d02c92c455a435bb9363",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 41,
+          "stem": "CPIC3_041_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "7f0a47414e088a2a534cfa6619f76eae99d55e5907ceca579bc254364d6aacb9",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 176,
+          "stem": "CPIC3_176_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "2f6c392717fbf237685d03c4dd995db71dc3b84d96c26d0c467aaad13d22b6e6",
+          "colorType": 6,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 48,
+          "stem": "CPIC3_048_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "f4857ae2308bee304137c638768de76dc103ac7a61b9ac7f9c1dff13bcbc4009",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 172,
+          "stem": "CPIC3_172_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "6f6242129f94e87fae564da4fb08bfd710ea339caf73f0207cdbef2671880a11",
+          "colorType": 2,
+          "allowOpaque": true
+        },
+        {
+          "pictureId": 44,
+          "stem": "CPIC3_044_restyle",
+          "nativeWidth": 24,
+          "nativeHeight": 24,
+          "pixelScale": 4,
+          "sha256": "85319b92459ba385393d3cf6d84a878adf69052be38f60238bdabede8b5290a9",
+          "colorType": 2,
+          "allowOpaque": true
+        }
+      ]
+    }
+  ]
+}

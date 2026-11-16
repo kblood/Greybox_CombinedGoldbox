@@ -1,0 +1,659 @@
+{
+  "schema": "cok-restyle-batch02-provenance-v1",
+  "inputs": {
+    "batchManifestSha256": "97fd545f0da6eeb650c234ffd16facce15ffb519804576bf656b5c8c3eb63621",
+    "inventorySha256": "d5fc9c9a49680f9a7825c2394126887a315105d4cf2686622706fbf30c8669c9",
+    "registrySha256": "103530666a8d6e8735b1c2c1a274429e7093db8b04606180313f548dd7dff9ec"
+  },
+  "records": [
+    {
+      "batch": "Batch02",
+      "cardId": "asset-0779-4d97814d531e",
+      "animationId": null,
+      "sourceSha256": "0ff4c77c6fc288f9355c695a08d39b91d130eb35e7518db2b1a58ecce3b1b7d5",
+      "inputSha256": "3558b877220be9d423eaa55f2e8b5d02fc7f0b89fe780e80b6445af60946d876",
+      "outputSha256": "52cfb0d9832c7697212e67ae9c4ea270335d5afa740a66dcb613eeb9e135a4fe",
+      "inputFile": "batch02/001_cok_amiga_daa_cok_bigpic2_bigpic2_120_input.png",
+      "file": "batch02/001_cok_amiga_daa_cok_bigpic2_bigpic2_120_prompt.txt",
+      "outputFile": "batch02/done/001_cok_amiga_daa_cok_bigpic2_bigpic2_120_out.png",
+      "sha256": "42ed960ce3fd3504cca8c60c89edc4bf32842ea196075a92f2c96811ed9ef757",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nFantasy scene illustration. Original description: Dusk scene, purple-to-orange sky with stars. At centre a huge golden-orange dragon with spread bat-like wings looms behind a dark-armoured, helmeted figure who raises a sword and casts blue-white magic from the other hand; four heroes in blue, white and purple robes stand at the left edge; small dark silhouettes of riders on a hill at the upper left and dark figures at the right edge. The riders at the upper left and the figures at the right edge are small, dark silhouettes; keep them.\r\n\r\n[GAME CONTEXT]\r\nIn the original game, the narration shown with this picture (quoted character speech omitted: it is not a description of the scene) reads: \"THE SOLAMNIC KNIGHTS ARRIVE ON DRAGON BACK. THEY LAND AND BOW BEFORE YOU.\"\r\nUse this game text only as background for what is happening in the scene. The attached picture is the authority for the composition and for every visible detail; if the text and the picture disagree, follow the picture. Do NOT draw any of this text, or any other lettering, into the image.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/001_cok_amiga_daa_cok_bigpic2_bigpic2_120_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-0779-4d97814d531e",
+          "sourceAssetIds": [
+            "cok/amiga/disk3/bigpic2.daa/block/120/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          304,
+          120
+        ],
+        "sourceScale": 4,
+        "inputScale": 5,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          8,
+          212,
+          1520,
+          600
+        ],
+        "cropRgbaSha256": "9e6b6136f6b4555c9353c2bc5d9c47c60ffe3035dc7e91f05dac8d3ca86ce80e"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-1037-663a6b965215",
+      "animationId": null,
+      "sourceSha256": "50831f833c07f107193b7efebc0cdfb796a4cd4312c5c0b04a2861093b04b896",
+      "inputSha256": "11805fafd3e1adce0f6b2ad7cfede35ad1935cbae7854b76b05143e62d8995b6",
+      "outputSha256": "3b9acbb358156539dbcd3464570a83000dc919d4c6ba6589c1aa88cec59a0a37",
+      "inputFile": "batch02/002_cok_amiga_daa_cok_bigpic1_bigpic1_116_input.png",
+      "file": "batch02/002_cok_amiga_daa_cok_bigpic1_bigpic1_116_prompt.txt",
+      "outputFile": "batch02/done/002_cok_amiga_daa_cok_bigpic1_bigpic1_116_out.png",
+      "sha256": "0fa41ff25d471cfb355a52d2db02c4e96d2ad549ade4e81e12457d75ec2ed0ef",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nFantasy scene illustration. Original description: Torch-lit stone tavern or dungeon hall: a human in blue holding a sword raised behind a wooden table at the left, a tall hooded blue-cloaked figure at centre, two reptilian draconian-like creatures seated at the right, loaves/food on the floor at the right, burning wall torches at both ends. Wall torches at far left and right are the only light sources; dark stone background.\r\n\r\n[GAME CONTEXT]\r\nIn the original game, the narration shown with this picture reads: \"YOU BREAK INTO A ROOM FILLED WITH DRACONIANS AND HUMANS PACKING UP COPPER DRAGON EGGS FOR TRANSPORT.\"\r\nUse this game text only as background for what is happening in the scene. The attached picture is the authority for the composition and for every visible detail; if the text and the picture disagree, follow the picture. Do NOT draw any of this text, or any other lettering, into the image.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/002_cok_amiga_daa_cok_bigpic1_bigpic1_116_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-1037-663a6b965215",
+          "sourceAssetIds": [
+            "cok/amiga/disk2/bigpic1.daa/block/116/frame/0",
+            "cok/amiga/disk3/bigpic2.daa/block/116/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          304,
+          120
+        ],
+        "sourceScale": 4,
+        "inputScale": 5,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          8,
+          212,
+          1520,
+          600
+        ],
+        "cropRgbaSha256": "77b5c75b062bcc165a94db071fbac7b7355f66151fa3d18eb7fc597b9d53c772"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-2019-ccd71c681378",
+      "animationId": null,
+      "sourceSha256": "fa7eaf123c0879392c117664b9b778bdd41f90a268867b32cfbd8865d85f0ae8",
+      "inputSha256": "4c45c8d4c4b48ce90838465ad5bd53f31dec4b692b4cb220c24273a9558f6ef9",
+      "outputSha256": "f6c94e2b8deb9375ca0ff8b1a27ed1a00e06ff6ce41219adfe905abd825f70c8",
+      "inputFile": "batch02/003_cok_amiga_daa_cok_bigpic2_bigpic2_117_input.png",
+      "file": "batch02/003_cok_amiga_daa_cok_bigpic2_bigpic2_117_prompt.txt",
+      "outputFile": "batch02/done/003_cok_amiga_daa_cok_bigpic2_bigpic2_117_out.png",
+      "sha256": "86f66c3a7fe03743688a417649583dd582db3d53e434e64bc81d1db28a841875",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nFantasy scene illustration. Original description: A red dragon with huge orange bat-like wings flying across the top of the picture, a yellow-green coiled dragon below it breathing a stream of yellow fire to the left, heavy dark grey storm clouds, a strip of blue water at the bottom.\r\n\r\n[GAME CONTEXT]\r\nIn the original game, the narration shown with this picture reads: \"AS YOU RECOVER FROM DEFEATING THE BLUE, VAST GOLD SHAPES CHARGE INTO THE REMAINING REDS. A TITANIC BATTLE ERUPTS IN THE AIR!\"\r\nUse this game text only as background for what is happening in the scene. The attached picture is the authority for the composition and for every visible detail; if the text and the picture disagree, follow the picture. Do NOT draw any of this text, or any other lettering, into the image.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/003_cok_amiga_daa_cok_bigpic2_bigpic2_117_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-2019-ccd71c681378",
+          "sourceAssetIds": [
+            "cok/amiga/disk3/bigpic2.daa/block/117/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          304,
+          120
+        ],
+        "sourceScale": 4,
+        "inputScale": 5,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          8,
+          212,
+          1520,
+          600
+        ],
+        "cropRgbaSha256": "a5e4a12b8cb2a309bbcdb1f3006acb631e4300c6c04ebe6bc583acce5e15aedb"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-0089-085c9e10d3b8",
+      "animationId": null,
+      "sourceSha256": "b7a25356f76ba759c4ec2759db9f1934811bf530fe381e980fe42275e8f7bc3f",
+      "inputSha256": "798c157c3ea9729ec61048e9a1c00d54ec22c978f4ae708146d524a492e82db8",
+      "outputSha256": "dfcb1f5ed19bafe484d3aa3cf9911fb84d1cbdc599d4bb465e3104c320f6231d",
+      "inputFile": "batch02/005_cok_amiga_daa_cok_bigpic1_bigpic1_115_input.png",
+      "file": "batch02/005_cok_amiga_daa_cok_bigpic1_bigpic1_115_prompt.txt",
+      "outputFile": "batch02/done/005_cok_amiga_daa_cok_bigpic1_bigpic1_115_out.png",
+      "sha256": "5e0a9eb813c56b98c92fd9964b29b91d4bba6e7aee3a4bc5a26b418afbb784f6",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nFantasy scene illustration. Original description: Dark dungeon: a huge dark monster head with long blue claws lunging from the upper left at a group of adventurers in purple at the centre, green sparks, a lit brazier on a pedestal right of centre, a horned-helmet figure and a hand at the far right edge, grey stone wall at the upper right. Mostly black background; the monster is dark with only its blue claws clearly lit. Keep the darkness.\r\n\r\n[GAME CONTEXT]\r\nIn the original game, the narration shown with this picture (quoted character speech omitted: it is not a description of the scene) reads: \"A CLERIC SPOTS YOU AND SCREAMS.\"\r\nUse this game text only as background for what is happening in the scene. The attached picture is the authority for the composition and for every visible detail; if the text and the picture disagree, follow the picture. Do NOT draw any of this text, or any other lettering, into the image.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/005_cok_amiga_daa_cok_bigpic1_bigpic1_115_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-0089-085c9e10d3b8",
+          "sourceAssetIds": [
+            "cok/amiga/disk2/bigpic1.daa/block/115/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          304,
+          120
+        ],
+        "sourceScale": 4,
+        "inputScale": 5,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          8,
+          212,
+          1520,
+          600
+        ],
+        "cropRgbaSha256": "72720823c80ff3f0be2ad775808c4106ffd3796b72257d9dc98783fd4d9bd378"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-1960-c78534d5931f",
+      "animationId": null,
+      "sourceSha256": "b3775c7dc09a9af64b215255f6ad6b7c41d344bc0eef393a2b9541ab2ccebd82",
+      "inputSha256": "7dc1c7debb6e5e0383704508079976f64c98a5441d000d5612c3e3581e26fd83",
+      "outputSha256": "975611d9413af4c98f9c0011161a73285dd5c5da4939554df40845f30c98b1a0",
+      "inputFile": "batch02/007_cok_amiga_daa_cok_bigpic2_bigpic2_118_input.png",
+      "file": "batch02/007_cok_amiga_daa_cok_bigpic2_bigpic2_118_prompt.txt",
+      "outputFile": "batch02/done/007_cok_amiga_daa_cok_bigpic2_bigpic2_118_out.png",
+      "sha256": "4106e1ccda62eb2558ba1fd8c10986ef32ab857370aab3aa2b9fae4926ff2c1f",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nFantasy scene illustration. Original description: A castle or flying fortress with pink-red towers violently breaking apart in a bright blue sky with white clouds, brown debris flying outwards, small red dragons flying around it, a red dragon at the lower left, grey rocky base and green grass at the bottom.\r\n\r\n[GAME CONTEXT]\r\nIn the original game, the narration shown with this picture reads: \"THE MAIN TOWER PITCHES FORWARD THROWING EVERYONE TO THE GROUND. EVERYTHING SEEMS TO BE FALLING.\"\r\nUse this game text only as background for what is happening in the scene. The attached picture is the authority for the composition and for every visible detail; if the text and the picture disagree, follow the picture. Do NOT draw any of this text, or any other lettering, into the image.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/007_cok_amiga_daa_cok_bigpic2_bigpic2_118_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-1960-c78534d5931f",
+          "sourceAssetIds": [
+            "cok/amiga/disk3/bigpic2.daa/block/118/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          304,
+          120
+        ],
+        "sourceScale": 4,
+        "inputScale": 5,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          8,
+          212,
+          1520,
+          600
+        ],
+        "cropRgbaSha256": "927b14f820a2160e5edf05b6293710a5c556165a7b20c51dbad0c393a640d523"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-2329-ed359b24f1bd",
+      "animationId": null,
+      "sourceSha256": "c80c1b142644c1c731c92a8eae51ac5dbe6dfea4d0f4d65f9a18de3477ca4ebd",
+      "inputSha256": "55dd5255358b204cc771dcf150d40a1fd109857b9b2389d86cc884aba540f684",
+      "outputSha256": "f4971b1106eaa4449ca7a3310b1be7f72ba06abd5c6f68916a7a6c9bbd988c0b",
+      "inputFile": "batch02/009_cok_amiga_daa_cok_bigpic2_bigpic2_119_input.png",
+      "file": "batch02/009_cok_amiga_daa_cok_bigpic2_bigpic2_119_prompt.txt",
+      "outputFile": "batch02/done/009_cok_amiga_daa_cok_bigpic2_bigpic2_119_out.png",
+      "sha256": "06a01831edd04751c948d4332edfb9fdcaf1ea94c98d3783db71d509b20bb852",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nFantasy scene illustration. Original description: Dark prison or crypt interior: a grimacing old man with wild white hair and a blood-stained raised hand leans over a wooden table; a sword blade lies on the table at the bottom; a studded wooden door at the left, dark stone wall behind. Very dark picture; the wall behind him is nearly black. Do not brighten it.\r\n\r\n[GAME CONTEXT]\r\nIn the original game, the narration shown with this picture (quoted character speech omitted: it is not a description of the scene) reads: \"SIR KARL STAGGERS UP THE STAIRWAY AHEAD, STREAMING BLOOD. COLLAPSING AT YOUR FEET HE WHISPERS.\"\r\nUse this game text only as background for what is happening in the scene. The attached picture is the authority for the composition and for every visible detail; if the text and the picture disagree, follow the picture. Do NOT draw any of this text, or any other lettering, into the image.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/009_cok_amiga_daa_cok_bigpic2_bigpic2_119_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-2329-ed359b24f1bd",
+          "sourceAssetIds": [
+            "cok/amiga/disk3/bigpic2.daa/block/119/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          304,
+          120
+        ],
+        "sourceScale": 4,
+        "inputScale": 5,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          8,
+          212,
+          1520,
+          600
+        ],
+        "cropRgbaSha256": "95ba7ab76b2ae4aafcfee7e7d5a8522b19a6569b101330b458b88ac698ac347f"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-1379-88cfcc4e5c29",
+      "animationId": null,
+      "sourceSha256": "4d849489bcec3e28f9319db030f04262e79c8413917488f78be441a8fe19ffa3",
+      "inputSha256": "8f17afba97e7808f3f14a8007eebfec6bf9faaa135f8af006f63d761e638f866",
+      "outputSha256": "46aca1be1292879468044f2256cd7e72d60da57509e2b3b71aa4a745739f335d",
+      "inputFile": "batch02/015_cok_amiga_daa_cok_pic2_pic2_025_f0_input.png",
+      "file": "batch02/015_cok_amiga_daa_cok_pic2_pic2_025_f0_prompt.txt",
+      "outputFile": "batch02/done/015_cok_amiga_daa_cok_pic2_pic2_025_f0_out.png",
+      "sha256": "e7a7ae8441c6577234a0258e08d569ecfd46df4ffd949a4b5270e840d419f68f",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nCharacter portrait. Original description: Draconian or dragon warrior: a teal-green scaly dragon head in profile snarling at the right, red open mouth with pointed teeth, wearing a gold-and-orange armoured helmet with a horn; teal/violet scale body below with a brown wooden-pattern shape (shield or arm) at the lower right. Black background. Teal-green scales with gold armour; keep the red open mouth and the gold helmet plates.\r\nCHARACTER BIBLE: keep this person's identity identical across images.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/015_cok_amiga_daa_cok_pic2_pic2_025_f0_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-1379-88cfcc4e5c29",
+          "sourceAssetIds": [
+            "cok/amiga/disk3/pic2.daa/block/25/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          88,
+          88
+        ],
+        "sourceScale": 4,
+        "inputScale": 11,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          284,
+          28,
+          968,
+          968
+        ],
+        "cropRgbaSha256": "f24c666364a3f679a8708099589d38c3b63b0489959c995376d0f9c1c2bfa6d1"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-0516-32725e90f2a2",
+      "animationId": null,
+      "sourceSha256": "989b6621e519b9aae8878b9e6c006d8e82dcbf25f9da333de46df2bb1121520f",
+      "inputSha256": "02a45f7c85e44f6f766bb085d7c3094add5b5a7933095319e1c4bf4ba5dc04d6",
+      "outputSha256": "53c0df7febdbac35000d0eb096c132311651e196680f8300b42bbd3a826fa99c",
+      "inputFile": "batch02/026_cok_amiga_daa_cok_pic2_pic2_064_f0_input.png",
+      "file": "batch02/026_cok_amiga_daa_cok_pic2_pic2_064_f0_prompt.txt",
+      "outputFile": "batch02/done/026_cok_amiga_daa_cok_pic2_pic2_064_f0_out.png",
+      "sha256": "a135eacc95ca5041bf6dce10308c7601a9afb5e4396c216e3fc155f9ac47858d",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nCharacter portrait. Original description: Fantasy landscape: two floating rock islands in a pale lilac-white sky. The right island holds a red-brick castle with blue-purple conical towers; the left, smaller island carries grey ruined stone buildings. Brown rock undersides, green ground strip at the bottom. Both islands are clearly separate; keep the grey ruined buildings on the smaller left island.\r\nCHARACTER BIBLE: keep this person's identity identical across images.\r\n\r\n[GAME CONTEXT]\r\nIn the original game, the narration shown with this picture reads: \"YOU RECOGNIZE THEM AS FLYING CITADELS, CASTLES RIPPED FROM THE EARTH BY ARCANE MAGICS. SURROUNDING THEM ARE EVIL HORDES OF DRAGONS AND DRACONIANS.\"\r\nUse this game text only as background for what is happening in the scene. The attached picture is the authority for the composition and for every visible detail; if the text and the picture disagree, follow the picture. Do NOT draw any of this text, or any other lettering, into the image.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/026_cok_amiga_daa_cok_pic2_pic2_064_f0_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-0516-32725e90f2a2",
+          "sourceAssetIds": [
+            "cok/amiga/disk3/pic2.daa/block/64/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          88,
+          88
+        ],
+        "sourceScale": 4,
+        "inputScale": 11,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          284,
+          28,
+          968,
+          968
+        ],
+        "cropRgbaSha256": "268c877ae759602e8942855e922726ec94ae466ee7b397154ff5c403b0508ffc"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-1267-7e2a38de0d7f",
+      "animationId": null,
+      "sourceSha256": "80222f6e4d253ce2654246b47d6161d784128020f9ead16824a6332f08ad906a",
+      "inputSha256": "0daeb5128c171d147e1044cec9343a18032d10c61bfc516b8f905b35843d5e46",
+      "outputSha256": "ac1152c1e1a313466e857e2cbe79529a08812e5150d9afa8286df207bec69a7c",
+      "inputFile": "batch02/029_cok_amiga_daa_cok_pic2_pic2_024_f0_input.png",
+      "file": "batch02/029_cok_amiga_daa_cok_pic2_pic2_024_f0_prompt.txt",
+      "outputFile": "batch02/done/029_cok_amiga_daa_cok_pic2_pic2_024_f0_out.png",
+      "sha256": "539fadee521a1323853be94257096f92acc2b28f1ede312f361c097d6e97946c",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nCharacter portrait. Original description: Skeletal knight: a bone-yellow skull with glowing red eyes and a full set of teeth under a grey chain-mail coif and steel helmet with gold crest and green gem; chain-mail shoulders with gold edge. Behind him a cyan-and-teal stained-glass-like tile wall at the left and right, black behind the skull. Keep both red glowing eyes, the chain-mail coif and the cyan tile wall at the left.\r\nCHARACTER BIBLE: keep this person's identity identical across images.\r\n\r\n[GAME CONTEXT]\r\nIn the original game, the narration shown with this picture reads: \"AS YOU SPIN AROUND YOU SEE A DEATH KNIGHT AND MINOTAUR GUARDS LOOKING AT YOU FROM THE SOUTHERN END OF THE ARENA.\"\r\nUse this game text only as background for what is happening in the scene. The attached picture is the authority for the composition and for every visible detail; if the text and the picture disagree, follow the picture. Do NOT draw any of this text, or any other lettering, into the image.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/029_cok_amiga_daa_cok_pic2_pic2_024_f0_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-1267-7e2a38de0d7f",
+          "sourceAssetIds": [
+            "cok/amiga/disk3/pic2.daa/block/24/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          88,
+          88
+        ],
+        "sourceScale": 4,
+        "inputScale": 11,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          284,
+          28,
+          968,
+          968
+        ],
+        "cropRgbaSha256": "8480b21df8109176bdb9b33d15bfaace3bd5ea2a85b5000bfd3c875b2a3e5ea7"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-1931-c4bc387c5790",
+      "animationId": null,
+      "sourceSha256": "84bdaea39e7ad3d7d27fa69d6bf8627da39c26d42982bfefdd54744c1b52f2a6",
+      "inputSha256": "e1078376462d6a0e3d5032797ef72ccfa00b8d4c1400bf1f88719f6e24a9cfdf",
+      "outputSha256": "d13586a916e6b6682728b2a5056a902f87e804a3d6518093a25392b917baf31e",
+      "inputFile": "batch02/036_cok_amiga_daa_cok_pic1_pic1_018_f0_input.png",
+      "file": "batch02/036_cok_amiga_daa_cok_pic1_pic1_018_f0_prompt.txt",
+      "outputFile": "batch02/done/036_cok_amiga_daa_cok_pic1_pic1_018_f0_out.png",
+      "sha256": "efc19f53a6cd137d794d3896a2cfb76cdc2649f9e0ad04fbe1bdfb1fbd9f7727",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nCharacter portrait. Original description: Spiny yellow-orange dragon-like head with violet eyes, open mouth with a pink tongue, tall frill of yellow spikes; a gem-set white collar of pearls and a red-brown cloak at the bottom. Black background. Keep the violet eyes and the pearl collar.\r\nCHARACTER BIBLE: keep this person's identity identical across images.\r\n\r\n[GAME CONTEXT]\r\nIn the original game, the narration shown with this picture reads: \"ALL OF THE DRACONIANS ARE SLAIN SAVE ONE, WHO RIPS A BOOK FROM A DEAD MAN'S HANDS. HE TURNS TO YOU AND MERELY LAUGHS. THEN HE TAKES A STEP AND DISAPPEARS.\"\r\nUse this game text only as background for what is happening in the scene. The attached picture is the authority for the composition and for every visible detail; if the text and the picture disagree, follow the picture. Do NOT draw any of this text, or any other lettering, into the image.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/036_cok_amiga_daa_cok_pic1_pic1_018_f0_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-1931-c4bc387c5790",
+          "sourceAssetIds": [
+            "cok/amiga/disk2/pic1.daa/block/18/frame/0",
+            "cok/amiga/disk3/pic2.daa/block/18/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          88,
+          88
+        ],
+        "sourceScale": 4,
+        "inputScale": 11,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          284,
+          28,
+          968,
+          968
+        ],
+        "cropRgbaSha256": "66804ac69a9899bed6f16df9565d3d7bffac76381861a2028ea397788523c428"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-0043-03e491ee1de2",
+      "animationId": null,
+      "sourceSha256": "8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634",
+      "inputSha256": "fbc63cc366fe724e15ce622048035b08f1eea9ac2e0b6324a949b9ddd75e09f7",
+      "outputSha256": "6d617d4b8fa8c04de11e65b58e87c7f3dcf372f4c925d7b574f97be0de4b02b8",
+      "inputFile": "batch02/041_cok_amiga_daa_cok_pic1_pic1_023_f0_input.png",
+      "file": "batch02/041_cok_amiga_daa_cok_pic1_pic1_023_f0_prompt.txt",
+      "outputFile": "batch02/done/041_cok_amiga_daa_cok_pic1_pic1_023_f0_out.png",
+      "sha256": "e59c49e48db1a28891c79da64b5a6a6944f36588f6ed3530ab4cf8dc0f99ffe4",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nCharacter portrait. Original description: Face of a young woman with a huge cloud of curly white-silver hair, pink skin, blue eyes and calm closed lips; the backdrop around the hair is pale blue-white (a sky-light backdrop, not black). A hint of a pale blue-white garment at the bottom. The background is pale blue/white, not black; keep it light so the white hair still reads against it.\r\nCHARACTER BIBLE: keep this person's identity identical across images.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/041_cok_amiga_daa_cok_pic1_pic1_023_f0_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-0043-03e491ee1de2",
+          "sourceAssetIds": [
+            "cok/amiga/disk2/pic1.daa/block/23/frame/0",
+            "cok/amiga/disk2/pic1.daa/block/23/frame/3",
+            "cok/amiga/disk2/pic1.daa/block/23/frame/5",
+            "cok/amiga/disk3/pic2.daa/block/23/frame/0",
+            "cok/amiga/disk3/pic2.daa/block/23/frame/3",
+            "cok/amiga/disk3/pic2.daa/block/23/frame/5"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          88,
+          88
+        ],
+        "sourceScale": 4,
+        "inputScale": 11,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          284,
+          28,
+          968,
+          968
+        ],
+        "cropRgbaSha256": "4329df8a80eb6b03b8c4de2c77818f5f7459d9c5ed360dd8a37e393c8c4f8cde"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-2193-df3e213a7871",
+      "animationId": null,
+      "sourceSha256": "69c91683320af51d5d280ef19305740ccf4460cb1e41f364e32710cc5c5c4f3a",
+      "inputSha256": "ccb49f448fc47d51a2968cfc889488e9885c36b123910312b0b5a71ee39c24ad",
+      "outputSha256": "ee633316cea0891255045ad8a44b6c294da95fe8b5220debc8d6ef2a52fecb5b",
+      "inputFile": "batch02/042_cok_amiga_daa_cok_pic1_pic1_034_f0_input.png",
+      "file": "batch02/042_cok_amiga_daa_cok_pic1_pic1_034_f0_prompt.txt",
+      "outputFile": "batch02/done/042_cok_amiga_daa_cok_pic1_pic1_034_f0_out.png",
+      "sha256": "3503e4e36541b5af7b383dd35a08b287fc24c5f05d11b376ff0559b2cfcdbe53",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nCharacter portrait. Original description: Bust of a hero with long wavy copper-orange hair, a thick drooping orange moustache and beard, two red scars on his left cheek and a small red mark above the right eye; ruddy tan skin, blue eyes. Gold chain collar with a gold medallion at the bottom edge, white-and-cyan plate armour shoulders on a black background. Style-match the other cok-npcs: same painterly realism, black background. Keep the two red cheek scars and the gold collar.\r\nCHARACTER BIBLE: keep this person's identity identical across images.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/042_cok_amiga_daa_cok_pic1_pic1_034_f0_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-2193-df3e213a7871",
+          "sourceAssetIds": [
+            "cok/amiga/disk2/pic1.daa/block/34/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          88,
+          88
+        ],
+        "sourceScale": 4,
+        "inputScale": 11,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          284,
+          28,
+          968,
+          968
+        ],
+        "cropRgbaSha256": "63f9fd81690247090d2cf46d9d71da10eb3bb4eb8328b84843bc11cac424f7ce"
+      }
+    },
+    {
+      "batch": "Batch02",
+      "cardId": "asset-0988-612fd0644d0b",
+      "animationId": null,
+      "sourceSha256": "8ab8df9a6866bbc84353ffb15bbab70659954b466315c9f89f01c4e41eb0a981",
+      "inputSha256": "18447377a32318da593ba9b56a9d6c9dcc6745bca017c268b0e68d10045c58ad",
+      "outputSha256": "b94d8c638dd34ef75ca04e9620f89947c4b22bf62e2b992ebbdf4b481b2a0aec",
+      "inputFile": "batch02/043_cok_amiga_daa_cok_pic1_pic1_057_f0_input.png",
+      "file": "batch02/043_cok_amiga_daa_cok_pic1_pic1_057_f0_prompt.txt",
+      "outputFile": "batch02/done/043_cok_amiga_daa_cok_pic1_pic1_057_f0_out.png",
+      "sha256": "9c46c50c7fe6cf1f5f95ba874c55b42d73643b1bd178f4ec61e788665bf7855c",
+      "text": "[STYLE]\r\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\r\n\r\n[CONTENT]\r\nCharacter portrait. Original description: Older warrior with long silver-grey hair, bushy grey eyebrows and a drooping grey moustache, tan skin and blue eyes. White tunic with teal floral pattern, white-and-gold pauldrons and a large round gold medallion at the lower right, black background.\r\nCHARACTER BIBLE: keep this person's identity identical across images.\r\n\r\n[CONSTRAINTS]\r\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\r\n\r\n[SAVE AS]\r\ndone/043_cok_amiga_daa_cok_pic1_pic1_057_f0_out.png\r\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-amiga-pic1-057",
+          "sourceAssetIds": [
+            "cok/amiga/disk2/pic1.daa/block/57/frame/0"
+          ],
+          "system": "registry-raw-generation"
+        },
+        {
+          "restyleId": "restyle/cok-generated/asset-0988-612fd0644d0b",
+          "sourceAssetIds": [
+            "cok/amiga/disk2/pic1.daa/block/57/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          88,
+          88
+        ],
+        "sourceScale": 4,
+        "inputScale": 11,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          284,
+          28,
+          968,
+          968
+        ],
+        "cropRgbaSha256": "0f357ba7e8939af94e116b44e37bc8c2c61ff03c2f035c8aa7c5f4e164fa7f5b"
+      }
+    },
+    {
+      "batch": "Animation hub r0",
+      "cardId": "asset-2199-dfca465805b3",
+      "animationId": "cok-pic1-023",
+      "sourceSha256": "8e5e2bd0418bf375e96ac1b0a5e6625905077fc8762f721214b878c2270aa634",
+      "inputSha256": "fbc63cc366fe724e15ce622048035b08f1eea9ac2e0b6324a949b9ddd75e09f7",
+      "outputSha256": "fb0adc8892b7e49a9b870d956009ea531baa5db8e20cbc32761170d07f29ba67",
+      "inputFile": "animation_hubs/cok_pic1_023_hub/00_f0_input.png",
+      "file": "animation_hubs/cok_pic1_023_hub/00_prompt_f0.txt",
+      "outputFile": "animation_hubs/cok_pic1_023_hub/done/r0.png",
+      "sha256": "962dc23c78d9f6d8ae9f78350e685321bd1c734ed49173444b99b8294139c8a9",
+      "text": "[STYLE]\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\n\n[CONTENT]\nCharacter portrait. Original description: Face of a young woman with a huge cloud of curly white-silver hair, pink skin, blue eyes and calm closed lips; the backdrop around the hair is pale blue-white (a sky-light backdrop, not black). A hint of a pale blue-white garment at the bottom.\n\n[ANIMATION NOTE]\nThis picture is the first frame (frame 0) of a short 6-frame loop. Draw it neutrally and keep every feature that will later change clearly drawn, simple and unobstructed, so that later edits can change only that part.\n\n[CONSTRAINTS]\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\n\n[SAVE AS]\ndone/r0.png\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-2199-dfca465805b3",
+          "sourceAssetIds": [
+            "cok/amiga/disk2/pic1.daa/block/23/frame/0",
+            "cok/amiga/disk2/pic1.daa/block/23/frame/3",
+            "cok/amiga/disk2/pic1.daa/block/23/frame/5",
+            "cok/amiga/disk3/pic2.daa/block/23/frame/0",
+            "cok/amiga/disk3/pic2.daa/block/23/frame/3",
+            "cok/amiga/disk3/pic2.daa/block/23/frame/5"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          88,
+          88
+        ],
+        "sourceScale": 4,
+        "inputScale": 11,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          284,
+          28,
+          968,
+          968
+        ],
+        "cropRgbaSha256": "4329df8a80eb6b03b8c4de2c77818f5f7459d9c5ed360dd8a37e393c8c4f8cde"
+      }
+    },
+    {
+      "batch": "Animation hub r0",
+      "cardId": "asset-2529-faafb6026076",
+      "animationId": "cok-pic2-024",
+      "sourceSha256": "80222f6e4d253ce2654246b47d6161d784128020f9ead16824a6332f08ad906a",
+      "inputSha256": "0daeb5128c171d147e1044cec9343a18032d10c61bfc516b8f905b35843d5e46",
+      "outputSha256": "a90e488c6a98f68e45ab2609035ccc0528e499c125c99bf803630f29e4d37267",
+      "inputFile": "animation_hubs/cok_amiga_daa_cok_pic2_pic2_024_f0_hub/00_f0_input.png",
+      "file": "animation_hubs/cok_amiga_daa_cok_pic2_pic2_024_f0_hub/00_prompt_f0.txt",
+      "outputFile": "animation_hubs/cok_amiga_daa_cok_pic2_pic2_024_f0_hub/done/r0.png",
+      "sha256": "376c81b190f0953cd2a4b32841e503024d6410faab744f6940d59b367f8fe9c7",
+      "text": "[STYLE]\nRealistic painted / photographic fantasy illustration, Dragonlance setting, the world of Krynn. Cinematic lighting, rich natural textures, high detail.\n\n[CONTENT]\nCharacter portrait. Original description: Skeletal knight: a bone-yellow skull with glowing red eyes and a full set of teeth under a grey chain-mail coif and steel helmet with gold crest and green gem; chain-mail shoulders with gold edge. Behind him a cyan-and-teal stained-glass-like tile wall at the left and right, black behind the skull.\n\n[ANIMATION NOTE]\nThis picture is the first frame (frame 0) of a short 4-frame loop. Draw it neutrally and keep every feature that will later change clearly drawn, simple and unobstructed, so that later edits can change only that part.\n\n[CONSTRAINTS]\nKeep the exact composition, colours, perspective and placement of the attached image. Do not add any text, logo, border or frame. Do not crop or move anything. Output a 3:2 landscape image (1536x1024); the neutral grey padding, if any, should be filled by continuing the picture naturally or left as plain grey.\n\n[SAVE AS]\ndone/r0.png\n",
+      "links": [
+        {
+          "restyleId": "restyle/cok-generated/asset-2529-faafb6026076",
+          "sourceAssetIds": [
+            "cok/amiga/disk3/pic2.daa/block/24/frame/0"
+          ],
+          "system": "cok-restyle-inventory-v1"
+        }
+      ],
+      "transform": {
+        "method": "nearest-neighbor",
+        "nativeSize": [
+          88,
+          88
+        ],
+        "sourceScale": 4,
+        "inputScale": 11,
+        "canvas": [
+          1536,
+          1024
+        ],
+        "crop": [
+          284,
+          28,
+          968,
+          968
+        ],
+        "cropRgbaSha256": "8480b21df8109176bdb9b33d15bfaace3bd5ea2a85b5000bfd3c875b2a3e5ea7"
+      }
+    }
+  ]
+}

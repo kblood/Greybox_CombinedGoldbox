@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://goldbox.invalid/schemas/dok-graphics-source-census-v1.schema.json",
+  "title": "DoK DOS source census and stored graphics decode receipt",
+  "type": "object",
+  "required": ["schema", "game", "inventoryReferences", "rosterSha256", "registryAssetIdentitySha256", "sourceSets", "unresolvedRegistryBindings", "files"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": "dok-graphics-source-census-v1" },
+    "game": { "const": "dok" },
+    "inventoryReferences": { "const": ["docs/dos-inventory.md"] },
+    "rosterSha256": { "$ref": "cok-graphics-source-census-v1.schema.json#/$defs/sha" },
+    "registryAssetIdentitySha256": { "$ref": "cok-graphics-source-census-v1.schema.json#/$defs/sha" },
+    "sourceSets": {
+      "type": "array", "minItems": 1, "maxItems": 1,
+      "items": {
+        "$ref": "cok-graphics-source-census-v1.schema.json#/$defs/set",
+        "type": "object", "properties": { "id": { "const": "dos-install" }, "platform": { "const": "DOS-EGA" } }
+      }
+    },
+    "unresolvedRegistryBindings": { "const": [] },
+    "files": {
+      "type": "array", "minItems": 37, "maxItems": 37,
+      "items": {
+        "$ref": "cok-graphics-source-census-v1.schema.json#/$defs/file",
+        "type": "object",
+        "properties": {
+          "sourceSet": { "const": "dos-install" },
+          "path": { "type": "string", "pattern": "^[A-Z0-9]+\\.DAX$" },
+          "category": { "enum": ["graphics", "structural"] },
+          "format": { "const": "dax-9" },
+          "status": { "const": "scanned" },
+          "issue": { "const": null },
+          "drawableCount": { "type": "integer", "minimum": 0 },
+          "entries": {
+            "type": "array", "minItems": 1,
+            "items": {
+              "type": "object",
+              "properties": {
+                "status": { "enum": ["decoded", "structural"] },
+                "issue": { "const": null },
+                "profile": { "enum": ["dos-complex-stored-frames", "dos-standard-stored-frame", "dos-stored-ega-tile-array", "dos-raw-font-201", "structural"] },
+                "drawableCount": { "type": "integer", "minimum": 0 },
+                "derived": { "const": [] }
+              }
+            }
+          },
+          "children": { "const": [] },
+          "derived": { "const": [] },
+          "locatorSourceIds": { "const": [] }
+        }
+      }
+    }
+  }
+}

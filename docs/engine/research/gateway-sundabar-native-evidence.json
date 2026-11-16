@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "captured_date": "2026-07-29",
+  "title": "Gateway to the Savage Frontier",
+  "route": {
+    "archive": "ECL5.DAX",
+    "map_archive": "GEO5.DAX",
+    "member": 19,
+    "campaign_arrival": { "x": 15, "y": 2, "facing": "west" },
+    "tavern_trigger": { "descriptor": 18, "x": 9, "y": 8, "facing": "north" },
+    "tavern_resume": { "descriptor": 17, "x": 9, "y": 9, "facing": "north" },
+    "persistent_trigger": { "descriptor": 122, "x": 6, "y": 14, "facing": "south" }
+  },
+  "retail_engine": {
+    "file": "GAME.OVR",
+    "size": 347622,
+    "sha256": "c2e64df225bf80026d4bc16d865804dd9e51b1296e6496fa46bba3c2e704f5cd"
+  },
+  "unmodified_party_control": {
+    "description": "The same genuine tavern route reached the tactical board with three Zhentil Fighters, then the ordinary party lost. This control establishes the encounter without depending on the deterministic-victory character patch.",
+    "summary": {
+      "path": "build/gateway-ecl5-19-qwen36-victory-r1/summary.json",
+      "size": 2221,
+      "sha256": "9c33fe7279c3b0ac013ad0da422691f998261bcdfd7e5ec55c1afacc1ceec031"
+    },
+    "defeat_frame": {
+      "path": "build/gateway-ecl5-19-qwen36-victory-r1/frame-12.png",
+      "size": 4529,
+      "sha256": "7ffc65a565be90ce47bf52f774acf81c9488470cb3fa122e7674cfbae1c5dd35"
+    }
+  },
+  "milestones": [
+    {
+      "claim": "The native descriptor-18 prompt shows WHAT'LL IT BE? with FIGHT and LEAVE.",
+      "path": "build/gateway-ecl5-19-qwen36-correct-patch-tavern-prompt/frame-00.png",
+      "size": 11800,
+      "sha256": "ae7cdeb4628ac1bb93c3eeca4aa25812705ab72e76758ed190e81d80505bbe23"
+    },
+    {
+      "claim": "FIGHT enters the native tactical board with a Zhentil Fighter roster.",
+      "path": "build/gateway-ecl5-19-qwen36-correct-patch-tavern-board/frame-00.png",
+      "size": 13271,
+      "sha256": "3599f0870099c2b7bb2bb8d07a3cd4d1b28679e39a001fac309e0d4bca3dc0e4"
+    },
+    {
+      "claim": "The isolated deterministic-victory party acts on the authentic board and kills the native enemy.",
+      "path": "build/gateway-ecl5-19-qwen36-correct-patch-combat-stats/frame-00.png",
+      "size": 14605,
+      "sha256": "063d20fac911890d0480587ff0d2aa08bf899a10b8998bbc30c0bbadf16c93f6"
+    },
+    {
+      "claim": "The original engine reports tavern-combat victory and awards 143 XP per character.",
+      "path": "build/gateway-ecl5-19-qwen36-correct-patch-victory-resume/frame-02.png",
+      "size": 5733,
+      "sha256": "4806382fd44fdd8a26e246045737b0e6c62b009bce491ee6c2ef8fe8d47ad8d6"
+    },
+    {
+      "claim": "Retail ECL resumes at 9,9 north and redispatches descriptor 17's Auld Macdon tavern sign.",
+      "path": "build/gateway-ecl5-19-qwen36-loot-no-hotkey/frame-00.png",
+      "size": 14890,
+      "sha256": "cd97e6632b796fded93a89f323ce4a4ad4ed4e2dc34882ccb019e093e855a65f"
+    },
+    {
+      "claim": "The legal continuation reaches descriptor 122's collapsed-ceiling scene.",
+      "path": "build/gateway-ecl5-122-qwen36-trigger/frame-00.png",
+      "size": 16164,
+      "sha256": "cfc7e40205c4e2e9ef82f809ea5240ec1b8b51dd0fce60b8b12dcbcd9e9a6472"
+    },
+    {
+      "claim": "Descriptor 122 enters the native tactical board with Griffons.",
+      "path": "build/gateway-ecl5-122-qwen36-combat-victory/frame-00.png",
+      "size": 11689,
+      "sha256": "630afe5f073029f867f4e912e4e8e87693fd3070a30d639deb0b43e80f65fc46"
+    },
+    {
+      "claim": "The original engine reports Griffon-combat victory and awards 2397 XP per character.",
+      "path": "build/gateway-ecl5-122-qwen36-combat-victory/frame-04.png",
+      "size": 5748,
+      "sha256": "6682275eae384327e534a40fd162f993e87828e83ae7ae11d26b5d4e65241d2a"
+    },
+    {
+      "claim": "The live native process resumes exploration at 6,14 south.",
+      "path": "build/gateway-ecl5-122-qwen36-resume/frame-00.png",
+      "size": 11958,
+      "sha256": "8a8dd8cee15e590fcd349fb3e6c04c92bd2c180cf259b415c4bcd0d6fdff1e7e"
+    },
+    {
+      "claim": "A cold original-DOS reload is silent at 6,14 south; the Griffon event does not reopen.",
+      "path": "build/gateway-ecl5-122-qwen36-reload-silent/frame-00.png",
+      "size": 12397,
+      "sha256": "11a033a2138ccb7ceb2077215e00e0795660fceab80ebbb2062f906ad888cb12"
+    }
+  ],
+  "saved_state": {
+    "path": "build/runtime-gateway-campaign-coldload-20260729/SAVE/SAVGAMA.DAT",
+    "size": 13149,
+    "sha256": "513f5ddd51d9792c60a5532450a93d6290d8d730804db4a1f31344abb9d7c8f5",
+    "bytes": {
+      "file_0x02D9_ecl_0x4C6C": 1,
+      "file_0x3201_x": 6,
+      "file_0x3202_y": 14,
+      "file_0x3203_facing_raw": 4,
+      "file_0x3205_descriptor_raw": 122
+    }
+  },
+  "automation": {
+    "input_transport": "DOSBox-X GameLink only",
+    "vision_model": "qwen3.6:27b via local Ollama",
+    "vision_role": "bounded navigation and screenshot annotation",
+    "authoritative_evidence": "retail ECL/GEO/OVR bytes, exact routes, framebuffer hashes, saved bytes, cold reload, and automated tests"
+  },
+  "claim_boundary": "The deterministic-victory helper modifies only isolated 422-byte CHRDAT sidecars after preserving originals and emitting a hash manifest. It does not modify SAVGAM, ECL, GEO, MON, GAME.EXE, or GAME.OVR. The unmodified-party control independently proves authentic encounter and tactical entry; the patched party makes victory/resume capture deterministic. Build screenshots and retail save bytes remain ignored local evidence and are not redistributed."
+}

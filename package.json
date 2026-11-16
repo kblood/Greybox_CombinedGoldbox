@@ -1,0 +1,26 @@
+{
+  "name": "@goldbox/monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gold Box / Greybox engine monorepo — pure format/engine core (packages/engine) + viewer app (apps/web) + authoring app (apps/author).",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.24.0",
+  "scripts": {
+    "typecheck": "pnpm -r exec tsc --noEmit",
+    "test": "pnpm --filter @goldbox/engine test",
+    "test:corpus": "python -m pytest tools/ -q",
+    "corpus": "python tools/goldbox_corpus.py --strict && python tools/gen1_map.py --json build/gen1-all-games-map.json --markdown docs/engine/research/gen1-all-games-map.md && python tools/vroomm_layout.py --strict --json build/vroomm-layouts.json --markdown docs/engine/research/vroomm-fixup-layout.md && python tools/rtlink_map.py --strict --json build/rtlink-map-dqk-ckit.json --markdown docs/engine/research/rtlink-map-dqk-ckit.md && python tools/carve_goldbox_overlays.py --json build/goldbox-overlays.json --markdown docs/engine/research/overlay-carve-manifest.md && python tools/match_goldbox_patterns.py --overlays build/goldbox-overlays.json --json build/goldbox-patterns.json --markdown docs/engine/research/pattern-match-report.md && python tools/correlate_vroomm_calls.py --strict --json build/vroomm-call-correlations.json --markdown docs/engine/research/vroomm-call-correlations.md && python tools/map_coab_oracle.py --strict --json build/coab-oracle-map.json --markdown docs/engine/research/coab-oracle-retail-map.md && python tools/map_pool_ecl_dispatch.py --strict --json build/pool-ecl-dispatch-map.json --markdown docs/engine/research/pool-ecl-dispatch-map.md && python tools/map_pool_behavior_clusters.py --strict --json build/pool-behavior-clusters.json --markdown docs/engine/research/pool-behavior-clusters.md && python tools/scan_pool_find_item_gates.py --strict --json build/pool-find-item-gates.json --markdown docs/engine/research/pool-find-item-gates.md && python tools/map_secret_behavior_clusters.py --strict --json build/secret-behavior-clusters.json --markdown docs/engine/research/secret-behavior-clusters.md && python tools/emit_symbol_candidates.py --strict --json build/goldbox-symbol-candidates.json --markdown docs/engine/research/goldbox-symbol-candidates.md && python tools/gen1_ecl_encounter_scan.py --strict --json build/gen1-ecl-encounters.json --markdown docs/engine/research/gen1-ecl-natural-encounters.md && python tools/map_secret_runtime_symbols.py --strict --json build/secret-runtime-symbols.json --markdown docs/engine/research/secret-runtime-symbols.generated.md && python tools/map_savage_frontier_targets.py --strict --json build/savage-frontier-targets.json --markdown docs/engine/research/savage-frontier-targets.generated.md && python tools/xref_goldbox_anchors.py --patterns build/goldbox-patterns.json --json build/goldbox-anchor-xrefs.json --markdown docs/engine/research/combat-anchor-xrefs.md && python tools/export_decompiler_inputs.py --strict && python tools/build_gen1_campaign_route_map.py --strict --json build/gen1-campaign-route-map.json --markdown docs/engine/research/gen1-campaign-route-map.md && python tools/emit_coab_runtime_symbols.py --strict --json build/coab-runtime-symbols.json --markdown docs/engine/research/coab-runtime-symbols.generated.md && python tools/emit_pool_runtime_symbols.py --strict --json build/pool-runtime-symbols.json --markdown docs/engine/research/pool-runtime-symbols.generated.md",
+    "build:app": "pnpm --filter @goldbox/web build:app",
+    "build:author": "pnpm --filter @goldbox/author build:app",
+    "build:electron": "pnpm --filter @goldbox/electron build",
+    "e2e": "pnpm --filter @goldbox/web e2e",
+    "e2e:combat": "pnpm --filter @goldbox/web e2e:combat",
+    "e2e:demos": "pnpm --filter @goldbox/web e2e:demos",
+    "e2e:intros": "pnpm --filter @goldbox/web e2e:intros",
+    "e2e:static": "pnpm --filter @goldbox/web e2e:static",
+    "e2e:author": "pnpm --filter @goldbox/author e2e",
+    "e2e:electron": "pnpm --filter @goldbox/electron e2e",
+    "fixtures": "pnpm --filter @goldbox/engine fixtures"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-07-15",
+  "profile_id": "pool-of-radiance",
+  "title": "Pool of Radiance",
+  "source": {
+    "body_matches_file": true,
+    "body_size": 206097,
+    "counts": {
+      "far_call": 4076,
+      "int3f": 0,
+      "prologue_5589e5": 675,
+      "prologue_558bec": 0,
+      "retf": 314,
+      "retf_n": 579
+    },
+    "file_size": 206105,
+    "magic": "FBOV",
+    "sha256": "872964a32cef0fc32bbf83bab68b15e04ad36d59076f37b00a179dfee7928614"
+  },
+  "route": {
+    "ecl": "ECL1#18",
+    "position": [
+      14,
+      8
+    ],
+    "search": true,
+    "save_sha256": "2bc5a41f17c3dcc69555866e459a6db8da839fd22bb559aecd2797dba595a1a4",
+    "sidecar_count": 16,
+    "combat_was_forced": true,
+    "handoff_kind": "generic_random_encounter_not_bound_to_ecl_combat"
+  },
+  "phase_ranges": [
+    {
+      "phase": "entry",
+      "start_snapshot": 0,
+      "snapshot_count": 3
+    },
+    {
+      "phase": "look-1",
+      "start_snapshot": 3,
+      "snapshot_count": 23
+    },
+    {
+      "phase": "encounter-continue",
+      "start_snapshot": 26,
+      "snapshot_count": 75
+    },
+    {
+      "phase": "combat-choice",
+      "start_snapshot": 101,
+      "snapshot_count": 1
+    }
+  ],
+  "all_seek_count": 102,
+  "handle_counts": {
+    "5": 16,
+    "6": 17,
+    "7": 69
+  },
+  "game_ovr_records": [
+    {
+      "snapshot": 0,
+      "phase": "entry",
+      "descriptor_index": 20,
+      "seek_offset": 146892,
+      "code_size": 3685,
+      "destination_segment": 12139,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 1,
+      "phase": "entry",
+      "descriptor_index": 28,
+      "seek_offset": 188622,
+      "code_size": 1989,
+      "destination_segment": 12370,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 2,
+      "phase": "entry",
+      "descriptor_index": 7,
+      "seek_offset": 29907,
+      "code_size": 8730,
+      "destination_segment": 12495,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 3,
+      "phase": "look-1",
+      "descriptor_index": 24,
+      "seek_offset": 175850,
+      "code_size": 6455,
+      "destination_segment": 13041,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 86,
+      "phase": "encounter-continue",
+      "descriptor_index": 8,
+      "seek_offset": 38919,
+      "code_size": 4735,
+      "destination_segment": 13445,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 87,
+      "phase": "encounter-continue",
+      "descriptor_index": 10,
+      "seek_offset": 50641,
+      "code_size": 8082,
+      "destination_segment": 13741,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 92,
+      "phase": "encounter-continue",
+      "descriptor_index": 31,
+      "seek_offset": 198458,
+      "code_size": 4864,
+      "destination_segment": 14247,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 93,
+      "phase": "encounter-continue",
+      "descriptor_index": 13,
+      "seek_offset": 75771,
+      "code_size": 15474,
+      "destination_segment": 8470,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 94,
+      "phase": "encounter-continue",
+      "descriptor_index": 32,
+      "seek_offset": 203372,
+      "code_size": 1605,
+      "destination_segment": 9438,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 95,
+      "phase": "encounter-continue",
+      "descriptor_index": 9,
+      "seek_offset": 43968,
+      "code_size": 6439,
+      "destination_segment": 9539,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 96,
+      "phase": "encounter-continue",
+      "descriptor_index": 25,
+      "seek_offset": 182479,
+      "code_size": 4682,
+      "destination_segment": 9942,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 97,
+      "phase": "encounter-continue",
+      "descriptor_index": 22,
+      "seek_offset": 159768,
+      "code_size": 14261,
+      "destination_segment": 10235,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 98,
+      "phase": "encounter-continue",
+      "descriptor_index": 19,
+      "seek_offset": 135226,
+      "code_size": 11026,
+      "destination_segment": 11127,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 99,
+      "phase": "encounter-continue",
+      "descriptor_index": 30,
+      "seek_offset": 195410,
+      "code_size": 3038,
+      "destination_segment": 11817,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 100,
+      "phase": "encounter-continue",
+      "descriptor_index": 12,
+      "seek_offset": 60507,
+      "code_size": 14510,
+      "destination_segment": 12007,
+      "loader_cs_ip": "12C6:028F"
+    },
+    {
+      "snapshot": 101,
+      "phase": "combat-choice",
+      "descriptor_index": 34,
+      "seek_offset": 205365,
+      "code_size": 690,
+      "destination_segment": 12914,
+      "loader_cs_ip": "12C6:028F"
+    }
+  ],
+  "descriptor_sequence": [
+    20,
+    28,
+    7,
+    24,
+    8,
+    10,
+    31,
+    13,
+    32,
+    9,
+    25,
+    22,
+    19,
+    30,
+    12,
+    34
+  ],
+  "rejected_startup_candidate": {
+    "game_ovr_file_offset": 9441,
+    "startup_descriptor": 3,
+    "route_time_reload_count": 0,
+    "verdict": "not_resident_by_route_time_load_evidence"
+  },
+  "validation": {
+    "ok": true,
+    "errors": []
+  },
+  "claim_boundary": "proves route-time overlay loads through a visible generic random-encounter tactical setup; does not prove execution of ECL1#18 COMBAT 0xB1A0 or its resume CS:IP"
+}

@@ -1,0 +1,2997 @@
+{
+  "schema": "cok-pic2-scene-review-v1",
+  "scope": "Amiga PIC2.DAA block-frame gap rows from the 2026-11-10 gap review queue, against their location peers (same archive family and block number). Each outcome is a visual judgment from a contact sheet (pic2-fm-1..6 contact sheets for the 46 frame-matched pairs; the 120 cross-frame pairs are not-same by the frame-index rule), not a metric.",
+  "reviewer": "Claude (visual review, 2026-11-10)",
+  "sameSceneCount": 24,
+  "pairCount": 166,
+  "pairs": [
+    {
+      "index": 0,
+      "gap": "cok/amiga/disk3/pic2.daa/block/0/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/0/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "c6c5e77a48af62a424ac11605dd559c90bba06e5451d74092977424f2af7dcdc",
+      "peerPixelSha256": "346a1add3d43dde1a1d9646f34027d5c8681cee8edd522839761b15d9990994c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 9428,
+      "channelValues": 23232
+    },
+    {
+      "index": 1,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "415e425b091f16937d927548a05a13b77225eb7d8756a20c74b008dc56801b0e",
+      "peerPixelSha256": "72b7c9288f397dbbd4a7765f3f0c1e8977641a3ac19cecca11ab9bb11198780b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 6899,
+      "channelValues": 23232
+    },
+    {
+      "index": 2,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "415e425b091f16937d927548a05a13b77225eb7d8756a20c74b008dc56801b0e",
+      "peerPixelSha256": "598227d9b311b78ccc7b7f11ecfaca32b5362c4f96ae07373e36790e4dbe4fdd",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8314,
+      "channelValues": 23232
+    },
+    {
+      "index": 3,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "415e425b091f16937d927548a05a13b77225eb7d8756a20c74b008dc56801b0e",
+      "peerPixelSha256": "54bfd3246f39e031d49486408628c8dfaa816472034cb382dd122c5edf1d9d51",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8847,
+      "channelValues": 23232
+    },
+    {
+      "index": 4,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "415e425b091f16937d927548a05a13b77225eb7d8756a20c74b008dc56801b0e",
+      "peerPixelSha256": "f365d52e987f19e0b0577e6654cdf60ff7e5d5ac23de14c14472fb66a3cbd8ed",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8021,
+      "channelValues": 23232
+    },
+    {
+      "index": 5,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "415e425b091f16937d927548a05a13b77225eb7d8756a20c74b008dc56801b0e",
+      "peerPixelSha256": "3e1e134bc8d621d35c20136ef220bb8e38a6834d3d0488ac304d1e689bb8ec28",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7938,
+      "channelValues": 23232
+    },
+    {
+      "index": 6,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "415e425b091f16937d927548a05a13b77225eb7d8756a20c74b008dc56801b0e",
+      "peerPixelSha256": "98d4ad1f5f7e171a727805df6fb2eb5bf5da7f4f182d0d7f255213c1a646d5b0",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7860,
+      "channelValues": 23232
+    },
+    {
+      "index": 7,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "48a22bd00811153a48f188a7556f9dc45a281de695f65951de7d55605d4d6377",
+      "peerPixelSha256": "72b7c9288f397dbbd4a7765f3f0c1e8977641a3ac19cecca11ab9bb11198780b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7566,
+      "channelValues": 23232
+    },
+    {
+      "index": 8,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "48a22bd00811153a48f188a7556f9dc45a281de695f65951de7d55605d4d6377",
+      "peerPixelSha256": "598227d9b311b78ccc7b7f11ecfaca32b5362c4f96ae07373e36790e4dbe4fdd",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8118,
+      "channelValues": 23232
+    },
+    {
+      "index": 9,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "48a22bd00811153a48f188a7556f9dc45a281de695f65951de7d55605d4d6377",
+      "peerPixelSha256": "54bfd3246f39e031d49486408628c8dfaa816472034cb382dd122c5edf1d9d51",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8952,
+      "channelValues": 23232
+    },
+    {
+      "index": 10,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "48a22bd00811153a48f188a7556f9dc45a281de695f65951de7d55605d4d6377",
+      "peerPixelSha256": "f365d52e987f19e0b0577e6654cdf60ff7e5d5ac23de14c14472fb66a3cbd8ed",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8240,
+      "channelValues": 23232
+    },
+    {
+      "index": 11,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "48a22bd00811153a48f188a7556f9dc45a281de695f65951de7d55605d4d6377",
+      "peerPixelSha256": "3e1e134bc8d621d35c20136ef220bb8e38a6834d3d0488ac304d1e689bb8ec28",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8165,
+      "channelValues": 23232
+    },
+    {
+      "index": 12,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "48a22bd00811153a48f188a7556f9dc45a281de695f65951de7d55605d4d6377",
+      "peerPixelSha256": "98d4ad1f5f7e171a727805df6fb2eb5bf5da7f4f182d0d7f255213c1a646d5b0",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8079,
+      "channelValues": 23232
+    },
+    {
+      "index": 13,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/2",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "79b4701b65084f6bb7ea5a94f08efc77984c376c569de9c410d438649399b176",
+      "peerPixelSha256": "72b7c9288f397dbbd4a7765f3f0c1e8977641a3ac19cecca11ab9bb11198780b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8142,
+      "channelValues": 23232
+    },
+    {
+      "index": 14,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/2",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "79b4701b65084f6bb7ea5a94f08efc77984c376c569de9c410d438649399b176",
+      "peerPixelSha256": "598227d9b311b78ccc7b7f11ecfaca32b5362c4f96ae07373e36790e4dbe4fdd",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8993,
+      "channelValues": 23232
+    },
+    {
+      "index": 15,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/2",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "79b4701b65084f6bb7ea5a94f08efc77984c376c569de9c410d438649399b176",
+      "peerPixelSha256": "54bfd3246f39e031d49486408628c8dfaa816472034cb382dd122c5edf1d9d51",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8217,
+      "channelValues": 23232
+    },
+    {
+      "index": 16,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/2",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "79b4701b65084f6bb7ea5a94f08efc77984c376c569de9c410d438649399b176",
+      "peerPixelSha256": "f365d52e987f19e0b0577e6654cdf60ff7e5d5ac23de14c14472fb66a3cbd8ed",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8615,
+      "channelValues": 23232
+    },
+    {
+      "index": 17,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/2",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "79b4701b65084f6bb7ea5a94f08efc77984c376c569de9c410d438649399b176",
+      "peerPixelSha256": "3e1e134bc8d621d35c20136ef220bb8e38a6834d3d0488ac304d1e689bb8ec28",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8730,
+      "channelValues": 23232
+    },
+    {
+      "index": 18,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/2",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "79b4701b65084f6bb7ea5a94f08efc77984c376c569de9c410d438649399b176",
+      "peerPixelSha256": "98d4ad1f5f7e171a727805df6fb2eb5bf5da7f4f182d0d7f255213c1a646d5b0",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8644,
+      "channelValues": 23232
+    },
+    {
+      "index": 19,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/3",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "a46b2353d59e4ca8e3cb39f0ff335bf4636ef05edb105f8e18acdddc09494c14",
+      "peerPixelSha256": "72b7c9288f397dbbd4a7765f3f0c1e8977641a3ac19cecca11ab9bb11198780b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7065,
+      "channelValues": 23232
+    },
+    {
+      "index": 20,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/3",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "a46b2353d59e4ca8e3cb39f0ff335bf4636ef05edb105f8e18acdddc09494c14",
+      "peerPixelSha256": "598227d9b311b78ccc7b7f11ecfaca32b5362c4f96ae07373e36790e4dbe4fdd",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8510,
+      "channelValues": 23232
+    },
+    {
+      "index": 21,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/3",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "a46b2353d59e4ca8e3cb39f0ff335bf4636ef05edb105f8e18acdddc09494c14",
+      "peerPixelSha256": "54bfd3246f39e031d49486408628c8dfaa816472034cb382dd122c5edf1d9d51",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8859,
+      "channelValues": 23232
+    },
+    {
+      "index": 22,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/3",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "a46b2353d59e4ca8e3cb39f0ff335bf4636ef05edb105f8e18acdddc09494c14",
+      "peerPixelSha256": "f365d52e987f19e0b0577e6654cdf60ff7e5d5ac23de14c14472fb66a3cbd8ed",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7881,
+      "channelValues": 23232
+    },
+    {
+      "index": 23,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/3",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "a46b2353d59e4ca8e3cb39f0ff335bf4636ef05edb105f8e18acdddc09494c14",
+      "peerPixelSha256": "3e1e134bc8d621d35c20136ef220bb8e38a6834d3d0488ac304d1e689bb8ec28",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8140,
+      "channelValues": 23232
+    },
+    {
+      "index": 24,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/3",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "a46b2353d59e4ca8e3cb39f0ff335bf4636ef05edb105f8e18acdddc09494c14",
+      "peerPixelSha256": "98d4ad1f5f7e171a727805df6fb2eb5bf5da7f4f182d0d7f255213c1a646d5b0",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8062,
+      "channelValues": 23232
+    },
+    {
+      "index": 25,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/4",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "adbd2da17c712ca66753f4d00978b4ce167ceb41acfc39e246b19bd7816d5587",
+      "peerPixelSha256": "72b7c9288f397dbbd4a7765f3f0c1e8977641a3ac19cecca11ab9bb11198780b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 6971,
+      "channelValues": 23232
+    },
+    {
+      "index": 26,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/4",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "adbd2da17c712ca66753f4d00978b4ce167ceb41acfc39e246b19bd7816d5587",
+      "peerPixelSha256": "598227d9b311b78ccc7b7f11ecfaca32b5362c4f96ae07373e36790e4dbe4fdd",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8362,
+      "channelValues": 23232
+    },
+    {
+      "index": 27,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/4",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "adbd2da17c712ca66753f4d00978b4ce167ceb41acfc39e246b19bd7816d5587",
+      "peerPixelSha256": "54bfd3246f39e031d49486408628c8dfaa816472034cb382dd122c5edf1d9d51",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8895,
+      "channelValues": 23232
+    },
+    {
+      "index": 28,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/4",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "adbd2da17c712ca66753f4d00978b4ce167ceb41acfc39e246b19bd7816d5587",
+      "peerPixelSha256": "f365d52e987f19e0b0577e6654cdf60ff7e5d5ac23de14c14472fb66a3cbd8ed",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8073,
+      "channelValues": 23232
+    },
+    {
+      "index": 29,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/4",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "adbd2da17c712ca66753f4d00978b4ce167ceb41acfc39e246b19bd7816d5587",
+      "peerPixelSha256": "3e1e134bc8d621d35c20136ef220bb8e38a6834d3d0488ac304d1e689bb8ec28",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7910,
+      "channelValues": 23232
+    },
+    {
+      "index": 30,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/4",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "adbd2da17c712ca66753f4d00978b4ce167ceb41acfc39e246b19bd7816d5587",
+      "peerPixelSha256": "98d4ad1f5f7e171a727805df6fb2eb5bf5da7f4f182d0d7f255213c1a646d5b0",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7912,
+      "channelValues": 23232
+    },
+    {
+      "index": 31,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/5",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "600fa463cc65cff66fd87ca2708d5313a5f425fa1a3c1ebc462964b4ce24dd0c",
+      "peerPixelSha256": "72b7c9288f397dbbd4a7765f3f0c1e8977641a3ac19cecca11ab9bb11198780b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 6874,
+      "channelValues": 23232
+    },
+    {
+      "index": 32,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/5",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "600fa463cc65cff66fd87ca2708d5313a5f425fa1a3c1ebc462964b4ce24dd0c",
+      "peerPixelSha256": "598227d9b311b78ccc7b7f11ecfaca32b5362c4f96ae07373e36790e4dbe4fdd",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8316,
+      "channelValues": 23232
+    },
+    {
+      "index": 33,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/5",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "600fa463cc65cff66fd87ca2708d5313a5f425fa1a3c1ebc462964b4ce24dd0c",
+      "peerPixelSha256": "54bfd3246f39e031d49486408628c8dfaa816472034cb382dd122c5edf1d9d51",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8849,
+      "channelValues": 23232
+    },
+    {
+      "index": 34,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/5",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "600fa463cc65cff66fd87ca2708d5313a5f425fa1a3c1ebc462964b4ce24dd0c",
+      "peerPixelSha256": "f365d52e987f19e0b0577e6654cdf60ff7e5d5ac23de14c14472fb66a3cbd8ed",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8029,
+      "channelValues": 23232
+    },
+    {
+      "index": 35,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/5",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "600fa463cc65cff66fd87ca2708d5313a5f425fa1a3c1ebc462964b4ce24dd0c",
+      "peerPixelSha256": "3e1e134bc8d621d35c20136ef220bb8e38a6834d3d0488ac304d1e689bb8ec28",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7952,
+      "channelValues": 23232
+    },
+    {
+      "index": 36,
+      "gap": "cok/amiga/disk3/pic2.daa/block/10/frame/5",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/10/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "600fa463cc65cff66fd87ca2708d5313a5f425fa1a3c1ebc462964b4ce24dd0c",
+      "peerPixelSha256": "98d4ad1f5f7e171a727805df6fb2eb5bf5da7f4f182d0d7f255213c1a646d5b0",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7866,
+      "channelValues": 23232
+    },
+    {
+      "index": 37,
+      "gap": "cok/amiga/disk3/pic2.daa/block/16/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/16/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "2840a5edef6e80925403933fcb0756f25578644a42876a2f40a2fcf59502569b",
+      "peerPixelSha256": "04fa45158cee2f2671495333bded87944ec23d4061cb40466b3570e7ac964278",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11251,
+      "channelValues": 23232
+    },
+    {
+      "index": 38,
+      "gap": "cok/amiga/disk3/pic2.daa/block/16/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/16/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "2840a5edef6e80925403933fcb0756f25578644a42876a2f40a2fcf59502569b",
+      "peerPixelSha256": "150cb79a0ddb3c635f6e93c4af805f8eddf4edb66bee3ecfabfa2e7f21c0a4c5",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 17223,
+      "channelValues": 23232
+    },
+    {
+      "index": 39,
+      "gap": "cok/amiga/disk3/pic2.daa/block/16/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/16/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "03b531ba000274b745049fa6bc0f257bfb44a14db3c30434fd8e5a5908df8fd9",
+      "peerPixelSha256": "04fa45158cee2f2671495333bded87944ec23d4061cb40466b3570e7ac964278",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 15038,
+      "channelValues": 23232
+    },
+    {
+      "index": 40,
+      "gap": "cok/amiga/disk3/pic2.daa/block/16/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/16/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "03b531ba000274b745049fa6bc0f257bfb44a14db3c30434fd8e5a5908df8fd9",
+      "peerPixelSha256": "150cb79a0ddb3c635f6e93c4af805f8eddf4edb66bee3ecfabfa2e7f21c0a4c5",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 17640,
+      "channelValues": 23232
+    },
+    {
+      "index": 41,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/17/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "6bd5be9b880bcaf286f94114a87ae6bf68f8cbe11cfeec1b9354a5d93761d0f4",
+      "peerPixelSha256": "7ec37e1eca98fbad39fcb0cd151c4f6936e0943eff70640663dd388501ced0e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7267,
+      "channelValues": 23232
+    },
+    {
+      "index": 42,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/17/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "6bd5be9b880bcaf286f94114a87ae6bf68f8cbe11cfeec1b9354a5d93761d0f4",
+      "peerPixelSha256": "64e3cb48d3ec2f62ef1c794737f9ffa7ceaa975a57fe548dc16ae2937395db1b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 14793,
+      "channelValues": 23232
+    },
+    {
+      "index": 43,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/17/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "6bd5be9b880bcaf286f94114a87ae6bf68f8cbe11cfeec1b9354a5d93761d0f4",
+      "peerPixelSha256": "eac2e2bc224f2593530128d8f66abeb0bbb3519dd4aee2337ff75b48ac662cb4",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 12907,
+      "channelValues": 23232
+    },
+    {
+      "index": 44,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/17/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "6bd5be9b880bcaf286f94114a87ae6bf68f8cbe11cfeec1b9354a5d93761d0f4",
+      "peerPixelSha256": "7ec37e1eca98fbad39fcb0cd151c4f6936e0943eff70640663dd388501ced0e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7267,
+      "channelValues": 23232
+    },
+    {
+      "index": 45,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/17/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "6bd5be9b880bcaf286f94114a87ae6bf68f8cbe11cfeec1b9354a5d93761d0f4",
+      "peerPixelSha256": "64e3cb48d3ec2f62ef1c794737f9ffa7ceaa975a57fe548dc16ae2937395db1b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 14793,
+      "channelValues": 23232
+    },
+    {
+      "index": 46,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/17/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "6bd5be9b880bcaf286f94114a87ae6bf68f8cbe11cfeec1b9354a5d93761d0f4",
+      "peerPixelSha256": "eac2e2bc224f2593530128d8f66abeb0bbb3519dd4aee2337ff75b48ac662cb4",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 12907,
+      "channelValues": 23232
+    },
+    {
+      "index": 47,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/17/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "8e23bce29ccaebf33d7ff8de910b619e9138ba6fb861525a464328b22f4a56f2",
+      "peerPixelSha256": "7ec37e1eca98fbad39fcb0cd151c4f6936e0943eff70640663dd388501ced0e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 12070,
+      "channelValues": 23232
+    },
+    {
+      "index": 48,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/17/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "8e23bce29ccaebf33d7ff8de910b619e9138ba6fb861525a464328b22f4a56f2",
+      "peerPixelSha256": "64e3cb48d3ec2f62ef1c794737f9ffa7ceaa975a57fe548dc16ae2937395db1b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 14498,
+      "channelValues": 23232
+    },
+    {
+      "index": 49,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/17/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "8e23bce29ccaebf33d7ff8de910b619e9138ba6fb861525a464328b22f4a56f2",
+      "peerPixelSha256": "eac2e2bc224f2593530128d8f66abeb0bbb3519dd4aee2337ff75b48ac662cb4",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 12280,
+      "channelValues": 23232
+    },
+    {
+      "index": 50,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/17/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "8e23bce29ccaebf33d7ff8de910b619e9138ba6fb861525a464328b22f4a56f2",
+      "peerPixelSha256": "7ec37e1eca98fbad39fcb0cd151c4f6936e0943eff70640663dd388501ced0e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 12070,
+      "channelValues": 23232
+    },
+    {
+      "index": 51,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/17/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "8e23bce29ccaebf33d7ff8de910b619e9138ba6fb861525a464328b22f4a56f2",
+      "peerPixelSha256": "64e3cb48d3ec2f62ef1c794737f9ffa7ceaa975a57fe548dc16ae2937395db1b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 14498,
+      "channelValues": 23232
+    },
+    {
+      "index": 52,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/17/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "8e23bce29ccaebf33d7ff8de910b619e9138ba6fb861525a464328b22f4a56f2",
+      "peerPixelSha256": "eac2e2bc224f2593530128d8f66abeb0bbb3519dd4aee2337ff75b48ac662cb4",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 12280,
+      "channelValues": 23232
+    },
+    {
+      "index": 53,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/2",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/17/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "7ec3dee42dfaaf9e28a6266e670332018f3d2867bfb69904f913bc979aa53699",
+      "peerPixelSha256": "7ec37e1eca98fbad39fcb0cd151c4f6936e0943eff70640663dd388501ced0e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13264,
+      "channelValues": 23232
+    },
+    {
+      "index": 54,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/2",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/17/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "7ec3dee42dfaaf9e28a6266e670332018f3d2867bfb69904f913bc979aa53699",
+      "peerPixelSha256": "64e3cb48d3ec2f62ef1c794737f9ffa7ceaa975a57fe548dc16ae2937395db1b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 14087,
+      "channelValues": 23232
+    },
+    {
+      "index": 55,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/2",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/17/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "7ec3dee42dfaaf9e28a6266e670332018f3d2867bfb69904f913bc979aa53699",
+      "peerPixelSha256": "eac2e2bc224f2593530128d8f66abeb0bbb3519dd4aee2337ff75b48ac662cb4",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13903,
+      "channelValues": 23232
+    },
+    {
+      "index": 56,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/17/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "7ec3dee42dfaaf9e28a6266e670332018f3d2867bfb69904f913bc979aa53699",
+      "peerPixelSha256": "7ec37e1eca98fbad39fcb0cd151c4f6936e0943eff70640663dd388501ced0e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13264,
+      "channelValues": 23232
+    },
+    {
+      "index": 57,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/17/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "7ec3dee42dfaaf9e28a6266e670332018f3d2867bfb69904f913bc979aa53699",
+      "peerPixelSha256": "64e3cb48d3ec2f62ef1c794737f9ffa7ceaa975a57fe548dc16ae2937395db1b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 14087,
+      "channelValues": 23232
+    },
+    {
+      "index": 58,
+      "gap": "cok/amiga/disk3/pic2.daa/block/17/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/17/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "7ec3dee42dfaaf9e28a6266e670332018f3d2867bfb69904f913bc979aa53699",
+      "peerPixelSha256": "eac2e2bc224f2593530128d8f66abeb0bbb3519dd4aee2337ff75b48ac662cb4",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13903,
+      "channelValues": 23232
+    },
+    {
+      "index": 59,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "2b722094ce4513fa5b3b53c309823a3791fdc9eee093b66b51f856b2fc7fea3d",
+      "peerPixelSha256": "0cf477ddc772dfa23bc5ca7c860a5a39fd66daf5ce2fcd834dbb3d7517a7e26b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7762,
+      "channelValues": 23232
+    },
+    {
+      "index": 60,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "2b722094ce4513fa5b3b53c309823a3791fdc9eee093b66b51f856b2fc7fea3d",
+      "peerPixelSha256": "a05ecb0c6bf7998fd858e990fad9ce541acc9003362e07d38b8acc3f9d6f1436",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11258,
+      "channelValues": 23232
+    },
+    {
+      "index": 61,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "2b722094ce4513fa5b3b53c309823a3791fdc9eee093b66b51f856b2fc7fea3d",
+      "peerPixelSha256": "c1da3def50d02880c911bcbd3d2f49a94ed83da9cd3ca52a6d3f88ed184421ea",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11255,
+      "channelValues": 23232
+    },
+    {
+      "index": 62,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "2b722094ce4513fa5b3b53c309823a3791fdc9eee093b66b51f856b2fc7fea3d",
+      "peerPixelSha256": "ed03d884014cc6bc8904d59649f39a8799358ff6e28ffc6bd37d3562f45bd7cf",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11233,
+      "channelValues": 23232
+    },
+    {
+      "index": 63,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "2b722094ce4513fa5b3b53c309823a3791fdc9eee093b66b51f856b2fc7fea3d",
+      "peerPixelSha256": "d192592ae0cb4430837897b16f8c0e3a2e48385340125b3f2473bbea646689f2",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11215,
+      "channelValues": 23232
+    },
+    {
+      "index": 64,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "2b722094ce4513fa5b3b53c309823a3791fdc9eee093b66b51f856b2fc7fea3d",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11516,
+      "channelValues": 23232
+    },
+    {
+      "index": 65,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/6",
+      "outcome": "not-same",
+      "gapPixelSha256": "2b722094ce4513fa5b3b53c309823a3791fdc9eee093b66b51f856b2fc7fea3d",
+      "peerPixelSha256": "88a8eef38b2fa19e31c6f1ec9541c0d3c04df55daa9b5a9a53770b0a49537f8c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11645,
+      "channelValues": 23232
+    },
+    {
+      "index": 66,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/7",
+      "outcome": "not-same",
+      "gapPixelSha256": "2b722094ce4513fa5b3b53c309823a3791fdc9eee093b66b51f856b2fc7fea3d",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11516,
+      "channelValues": 23232
+    },
+    {
+      "index": 67,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "eead6a67b51137821d37722ba18ac8d713e5a865fcf3a5f2da3cd38eda638b1a",
+      "peerPixelSha256": "0cf477ddc772dfa23bc5ca7c860a5a39fd66daf5ce2fcd834dbb3d7517a7e26b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7817,
+      "channelValues": 23232
+    },
+    {
+      "index": 68,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "eead6a67b51137821d37722ba18ac8d713e5a865fcf3a5f2da3cd38eda638b1a",
+      "peerPixelSha256": "a05ecb0c6bf7998fd858e990fad9ce541acc9003362e07d38b8acc3f9d6f1436",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11241,
+      "channelValues": 23232
+    },
+    {
+      "index": 69,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "eead6a67b51137821d37722ba18ac8d713e5a865fcf3a5f2da3cd38eda638b1a",
+      "peerPixelSha256": "c1da3def50d02880c911bcbd3d2f49a94ed83da9cd3ca52a6d3f88ed184421ea",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11250,
+      "channelValues": 23232
+    },
+    {
+      "index": 70,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "eead6a67b51137821d37722ba18ac8d713e5a865fcf3a5f2da3cd38eda638b1a",
+      "peerPixelSha256": "ed03d884014cc6bc8904d59649f39a8799358ff6e28ffc6bd37d3562f45bd7cf",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11237,
+      "channelValues": 23232
+    },
+    {
+      "index": 71,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "eead6a67b51137821d37722ba18ac8d713e5a865fcf3a5f2da3cd38eda638b1a",
+      "peerPixelSha256": "d192592ae0cb4430837897b16f8c0e3a2e48385340125b3f2473bbea646689f2",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11242,
+      "channelValues": 23232
+    },
+    {
+      "index": 72,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "eead6a67b51137821d37722ba18ac8d713e5a865fcf3a5f2da3cd38eda638b1a",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11543,
+      "channelValues": 23232
+    },
+    {
+      "index": 73,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/6",
+      "outcome": "not-same",
+      "gapPixelSha256": "eead6a67b51137821d37722ba18ac8d713e5a865fcf3a5f2da3cd38eda638b1a",
+      "peerPixelSha256": "88a8eef38b2fa19e31c6f1ec9541c0d3c04df55daa9b5a9a53770b0a49537f8c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11672,
+      "channelValues": 23232
+    },
+    {
+      "index": 74,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/7",
+      "outcome": "not-same",
+      "gapPixelSha256": "eead6a67b51137821d37722ba18ac8d713e5a865fcf3a5f2da3cd38eda638b1a",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11543,
+      "channelValues": 23232
+    },
+    {
+      "index": 75,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "27c6bc30b1fc5b87d2c4db3bfa63e2c2aab277c3b09a7f9a2a198b1e960236d9",
+      "peerPixelSha256": "0cf477ddc772dfa23bc5ca7c860a5a39fd66daf5ce2fcd834dbb3d7517a7e26b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7835,
+      "channelValues": 23232
+    },
+    {
+      "index": 76,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "27c6bc30b1fc5b87d2c4db3bfa63e2c2aab277c3b09a7f9a2a198b1e960236d9",
+      "peerPixelSha256": "a05ecb0c6bf7998fd858e990fad9ce541acc9003362e07d38b8acc3f9d6f1436",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11236,
+      "channelValues": 23232
+    },
+    {
+      "index": 77,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "27c6bc30b1fc5b87d2c4db3bfa63e2c2aab277c3b09a7f9a2a198b1e960236d9",
+      "peerPixelSha256": "c1da3def50d02880c911bcbd3d2f49a94ed83da9cd3ca52a6d3f88ed184421ea",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11240,
+      "channelValues": 23232
+    },
+    {
+      "index": 78,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "27c6bc30b1fc5b87d2c4db3bfa63e2c2aab277c3b09a7f9a2a198b1e960236d9",
+      "peerPixelSha256": "ed03d884014cc6bc8904d59649f39a8799358ff6e28ffc6bd37d3562f45bd7cf",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11219,
+      "channelValues": 23232
+    },
+    {
+      "index": 79,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "27c6bc30b1fc5b87d2c4db3bfa63e2c2aab277c3b09a7f9a2a198b1e960236d9",
+      "peerPixelSha256": "d192592ae0cb4430837897b16f8c0e3a2e48385340125b3f2473bbea646689f2",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11219,
+      "channelValues": 23232
+    },
+    {
+      "index": 80,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "27c6bc30b1fc5b87d2c4db3bfa63e2c2aab277c3b09a7f9a2a198b1e960236d9",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11520,
+      "channelValues": 23232
+    },
+    {
+      "index": 81,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/6",
+      "outcome": "not-same",
+      "gapPixelSha256": "27c6bc30b1fc5b87d2c4db3bfa63e2c2aab277c3b09a7f9a2a198b1e960236d9",
+      "peerPixelSha256": "88a8eef38b2fa19e31c6f1ec9541c0d3c04df55daa9b5a9a53770b0a49537f8c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11649,
+      "channelValues": 23232
+    },
+    {
+      "index": 82,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/7",
+      "outcome": "not-same",
+      "gapPixelSha256": "27c6bc30b1fc5b87d2c4db3bfa63e2c2aab277c3b09a7f9a2a198b1e960236d9",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11520,
+      "channelValues": 23232
+    },
+    {
+      "index": 83,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "c550e91cf0e3a683754795f98a5dab71cd0f79b42123d0f8d87fad0a664ef822",
+      "peerPixelSha256": "0cf477ddc772dfa23bc5ca7c860a5a39fd66daf5ce2fcd834dbb3d7517a7e26b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7825,
+      "channelValues": 23232
+    },
+    {
+      "index": 84,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "c550e91cf0e3a683754795f98a5dab71cd0f79b42123d0f8d87fad0a664ef822",
+      "peerPixelSha256": "a05ecb0c6bf7998fd858e990fad9ce541acc9003362e07d38b8acc3f9d6f1436",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11228,
+      "channelValues": 23232
+    },
+    {
+      "index": 85,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "c550e91cf0e3a683754795f98a5dab71cd0f79b42123d0f8d87fad0a664ef822",
+      "peerPixelSha256": "c1da3def50d02880c911bcbd3d2f49a94ed83da9cd3ca52a6d3f88ed184421ea",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11229,
+      "channelValues": 23232
+    },
+    {
+      "index": 86,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "c550e91cf0e3a683754795f98a5dab71cd0f79b42123d0f8d87fad0a664ef822",
+      "peerPixelSha256": "ed03d884014cc6bc8904d59649f39a8799358ff6e28ffc6bd37d3562f45bd7cf",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11225,
+      "channelValues": 23232
+    },
+    {
+      "index": 87,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "c550e91cf0e3a683754795f98a5dab71cd0f79b42123d0f8d87fad0a664ef822",
+      "peerPixelSha256": "d192592ae0cb4430837897b16f8c0e3a2e48385340125b3f2473bbea646689f2",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11218,
+      "channelValues": 23232
+    },
+    {
+      "index": 88,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "c550e91cf0e3a683754795f98a5dab71cd0f79b42123d0f8d87fad0a664ef822",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11519,
+      "channelValues": 23232
+    },
+    {
+      "index": 89,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/6",
+      "outcome": "not-same",
+      "gapPixelSha256": "c550e91cf0e3a683754795f98a5dab71cd0f79b42123d0f8d87fad0a664ef822",
+      "peerPixelSha256": "88a8eef38b2fa19e31c6f1ec9541c0d3c04df55daa9b5a9a53770b0a49537f8c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11648,
+      "channelValues": 23232
+    },
+    {
+      "index": 90,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/7",
+      "outcome": "not-same",
+      "gapPixelSha256": "c550e91cf0e3a683754795f98a5dab71cd0f79b42123d0f8d87fad0a664ef822",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11519,
+      "channelValues": 23232
+    },
+    {
+      "index": 91,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/4",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "832b46935ff74b8e2341d647ce169e78ec6b5d33ed47f19e77467eff7ff72487",
+      "peerPixelSha256": "0cf477ddc772dfa23bc5ca7c860a5a39fd66daf5ce2fcd834dbb3d7517a7e26b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7992,
+      "channelValues": 23232
+    },
+    {
+      "index": 92,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/4",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "832b46935ff74b8e2341d647ce169e78ec6b5d33ed47f19e77467eff7ff72487",
+      "peerPixelSha256": "a05ecb0c6bf7998fd858e990fad9ce541acc9003362e07d38b8acc3f9d6f1436",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11243,
+      "channelValues": 23232
+    },
+    {
+      "index": 93,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/4",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "832b46935ff74b8e2341d647ce169e78ec6b5d33ed47f19e77467eff7ff72487",
+      "peerPixelSha256": "c1da3def50d02880c911bcbd3d2f49a94ed83da9cd3ca52a6d3f88ed184421ea",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11240,
+      "channelValues": 23232
+    },
+    {
+      "index": 94,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/4",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "832b46935ff74b8e2341d647ce169e78ec6b5d33ed47f19e77467eff7ff72487",
+      "peerPixelSha256": "ed03d884014cc6bc8904d59649f39a8799358ff6e28ffc6bd37d3562f45bd7cf",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11221,
+      "channelValues": 23232
+    },
+    {
+      "index": 95,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/4",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "832b46935ff74b8e2341d647ce169e78ec6b5d33ed47f19e77467eff7ff72487",
+      "peerPixelSha256": "d192592ae0cb4430837897b16f8c0e3a2e48385340125b3f2473bbea646689f2",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11203,
+      "channelValues": 23232
+    },
+    {
+      "index": 96,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/4",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "832b46935ff74b8e2341d647ce169e78ec6b5d33ed47f19e77467eff7ff72487",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11513,
+      "channelValues": 23232
+    },
+    {
+      "index": 97,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/4",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/6",
+      "outcome": "not-same",
+      "gapPixelSha256": "832b46935ff74b8e2341d647ce169e78ec6b5d33ed47f19e77467eff7ff72487",
+      "peerPixelSha256": "88a8eef38b2fa19e31c6f1ec9541c0d3c04df55daa9b5a9a53770b0a49537f8c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11653,
+      "channelValues": 23232
+    },
+    {
+      "index": 98,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/4",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/7",
+      "outcome": "not-same",
+      "gapPixelSha256": "832b46935ff74b8e2341d647ce169e78ec6b5d33ed47f19e77467eff7ff72487",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11513,
+      "channelValues": 23232
+    },
+    {
+      "index": 99,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/5",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "c6824e561539d297431dbcc75574ea889cbefd8db6a305f3102286b9149783ea",
+      "peerPixelSha256": "0cf477ddc772dfa23bc5ca7c860a5a39fd66daf5ce2fcd834dbb3d7517a7e26b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8165,
+      "channelValues": 23232
+    },
+    {
+      "index": 100,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/5",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "c6824e561539d297431dbcc75574ea889cbefd8db6a305f3102286b9149783ea",
+      "peerPixelSha256": "a05ecb0c6bf7998fd858e990fad9ce541acc9003362e07d38b8acc3f9d6f1436",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11218,
+      "channelValues": 23232
+    },
+    {
+      "index": 101,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/5",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "c6824e561539d297431dbcc75574ea889cbefd8db6a305f3102286b9149783ea",
+      "peerPixelSha256": "c1da3def50d02880c911bcbd3d2f49a94ed83da9cd3ca52a6d3f88ed184421ea",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11215,
+      "channelValues": 23232
+    },
+    {
+      "index": 102,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/5",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "c6824e561539d297431dbcc75574ea889cbefd8db6a305f3102286b9149783ea",
+      "peerPixelSha256": "ed03d884014cc6bc8904d59649f39a8799358ff6e28ffc6bd37d3562f45bd7cf",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11196,
+      "channelValues": 23232
+    },
+    {
+      "index": 103,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/5",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "c6824e561539d297431dbcc75574ea889cbefd8db6a305f3102286b9149783ea",
+      "peerPixelSha256": "d192592ae0cb4430837897b16f8c0e3a2e48385340125b3f2473bbea646689f2",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11178,
+      "channelValues": 23232
+    },
+    {
+      "index": 104,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/5",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "c6824e561539d297431dbcc75574ea889cbefd8db6a305f3102286b9149783ea",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11506,
+      "channelValues": 23232
+    },
+    {
+      "index": 105,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/5",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/6",
+      "outcome": "not-same",
+      "gapPixelSha256": "c6824e561539d297431dbcc75574ea889cbefd8db6a305f3102286b9149783ea",
+      "peerPixelSha256": "88a8eef38b2fa19e31c6f1ec9541c0d3c04df55daa9b5a9a53770b0a49537f8c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11645,
+      "channelValues": 23232
+    },
+    {
+      "index": 106,
+      "gap": "cok/amiga/disk3/pic2.daa/block/22/frame/5",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/22/frame/7",
+      "outcome": "not-same",
+      "gapPixelSha256": "c6824e561539d297431dbcc75574ea889cbefd8db6a305f3102286b9149783ea",
+      "peerPixelSha256": "ca593a9a8af0e3a9cbfc203091665fb36ecbb721f75eea41fa4ea97cfa0292e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11506,
+      "channelValues": 23232
+    },
+    {
+      "index": 107,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "3f8dd83615782a6fbb487c71928bd2d05a57a8c3c3dadbd69160a1302f03e400",
+      "peerPixelSha256": "7e02a1298dacf762cb3f2f4a7edd1858a84c75b1d36812924f33c2f1cf3dab65",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 9614,
+      "channelValues": 23232
+    },
+    {
+      "index": 108,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "3f8dd83615782a6fbb487c71928bd2d05a57a8c3c3dadbd69160a1302f03e400",
+      "peerPixelSha256": "0f1031a4dc8e5f7e877a447b8bb44a67e6e37f7918c0e0bde81f8d3dfabdcce6",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 17200,
+      "channelValues": 23232
+    },
+    {
+      "index": 109,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "3f8dd83615782a6fbb487c71928bd2d05a57a8c3c3dadbd69160a1302f03e400",
+      "peerPixelSha256": "29dd02d6129e58ffed7ff9d77d06db7856a731bcc1082769a327b00a6d21f6e0",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 16008,
+      "channelValues": 23232
+    },
+    {
+      "index": 110,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "3f8dd83615782a6fbb487c71928bd2d05a57a8c3c3dadbd69160a1302f03e400",
+      "peerPixelSha256": "da0286a929d87405bc94eb118f4f05363cccca31f1c9d59f14108c6a070408dc",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 16002,
+      "channelValues": 23232
+    },
+    {
+      "index": 111,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "fb2e8fe122c46193a1049e4ecd823c1d50677088288826fff0c7ef9b440fdb85",
+      "peerPixelSha256": "7e02a1298dacf762cb3f2f4a7edd1858a84c75b1d36812924f33c2f1cf3dab65",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 9106,
+      "channelValues": 23232
+    },
+    {
+      "index": 112,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "fb2e8fe122c46193a1049e4ecd823c1d50677088288826fff0c7ef9b440fdb85",
+      "peerPixelSha256": "0f1031a4dc8e5f7e877a447b8bb44a67e6e37f7918c0e0bde81f8d3dfabdcce6",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 17258,
+      "channelValues": 23232
+    },
+    {
+      "index": 113,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "fb2e8fe122c46193a1049e4ecd823c1d50677088288826fff0c7ef9b440fdb85",
+      "peerPixelSha256": "29dd02d6129e58ffed7ff9d77d06db7856a731bcc1082769a327b00a6d21f6e0",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 16014,
+      "channelValues": 23232
+    },
+    {
+      "index": 114,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "fb2e8fe122c46193a1049e4ecd823c1d50677088288826fff0c7ef9b440fdb85",
+      "peerPixelSha256": "da0286a929d87405bc94eb118f4f05363cccca31f1c9d59f14108c6a070408dc",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 16008,
+      "channelValues": 23232
+    },
+    {
+      "index": 115,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "9ec7357d6b7c896690d7bb8249195b2d924b7f8620b9a2c3387071188b83cc54",
+      "peerPixelSha256": "7e02a1298dacf762cb3f2f4a7edd1858a84c75b1d36812924f33c2f1cf3dab65",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11554,
+      "channelValues": 23232
+    },
+    {
+      "index": 116,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "9ec7357d6b7c896690d7bb8249195b2d924b7f8620b9a2c3387071188b83cc54",
+      "peerPixelSha256": "0f1031a4dc8e5f7e877a447b8bb44a67e6e37f7918c0e0bde81f8d3dfabdcce6",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 16867,
+      "channelValues": 23232
+    },
+    {
+      "index": 117,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "9ec7357d6b7c896690d7bb8249195b2d924b7f8620b9a2c3387071188b83cc54",
+      "peerPixelSha256": "29dd02d6129e58ffed7ff9d77d06db7856a731bcc1082769a327b00a6d21f6e0",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 17375,
+      "channelValues": 23232
+    },
+    {
+      "index": 118,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "9ec7357d6b7c896690d7bb8249195b2d924b7f8620b9a2c3387071188b83cc54",
+      "peerPixelSha256": "da0286a929d87405bc94eb118f4f05363cccca31f1c9d59f14108c6a070408dc",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 17369,
+      "channelValues": 23232
+    },
+    {
+      "index": 119,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "24ce81362dd0b7fa7c129ac7d420bf2ee5d0ac6f206b286f7dfd1d9bf1516775",
+      "peerPixelSha256": "7e02a1298dacf762cb3f2f4a7edd1858a84c75b1d36812924f33c2f1cf3dab65",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 9685,
+      "channelValues": 23232
+    },
+    {
+      "index": 120,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "24ce81362dd0b7fa7c129ac7d420bf2ee5d0ac6f206b286f7dfd1d9bf1516775",
+      "peerPixelSha256": "0f1031a4dc8e5f7e877a447b8bb44a67e6e37f7918c0e0bde81f8d3dfabdcce6",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 17177,
+      "channelValues": 23232
+    },
+    {
+      "index": 121,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "24ce81362dd0b7fa7c129ac7d420bf2ee5d0ac6f206b286f7dfd1d9bf1516775",
+      "peerPixelSha256": "29dd02d6129e58ffed7ff9d77d06db7856a731bcc1082769a327b00a6d21f6e0",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 15985,
+      "channelValues": 23232
+    },
+    {
+      "index": 122,
+      "gap": "cok/amiga/disk3/pic2.daa/block/24/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/24/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "24ce81362dd0b7fa7c129ac7d420bf2ee5d0ac6f206b286f7dfd1d9bf1516775",
+      "peerPixelSha256": "da0286a929d87405bc94eb118f4f05363cccca31f1c9d59f14108c6a070408dc",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 16019,
+      "channelValues": 23232
+    },
+    {
+      "index": 123,
+      "gap": "cok/amiga/disk3/pic2.daa/block/25/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/25/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "84082d5c3e721a852132ef5ab4a3e535e56844dcbfcbd05327f857cde34cb011",
+      "peerPixelSha256": "48c5139c56fc16165557e8347cbe7d6c02990a66f29246f302980ec1d23d40b8",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 4512,
+      "channelValues": 23232
+    },
+    {
+      "index": 124,
+      "gap": "cok/amiga/disk3/pic2.daa/block/25/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/25/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "84082d5c3e721a852132ef5ab4a3e535e56844dcbfcbd05327f857cde34cb011",
+      "peerPixelSha256": "48c5139c56fc16165557e8347cbe7d6c02990a66f29246f302980ec1d23d40b8",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 4512,
+      "channelValues": 23232
+    },
+    {
+      "index": 125,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "fcce395d7bff7135a4d83f1e8a153833033d30b9e12036ab16fffd37d7057253",
+      "peerPixelSha256": "f23ad5aa490d6b7f9a0e882967a6457f0d35e65f210a86ba5e04e509cf1352e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 11684,
+      "channelValues": 23232
+    },
+    {
+      "index": 126,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "fcce395d7bff7135a4d83f1e8a153833033d30b9e12036ab16fffd37d7057253",
+      "peerPixelSha256": "76b8666b20f14a9804747b045ed623ab24cd5159fafa7b795a26522127c9798a",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13029,
+      "channelValues": 23232
+    },
+    {
+      "index": 127,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "fcce395d7bff7135a4d83f1e8a153833033d30b9e12036ab16fffd37d7057253",
+      "peerPixelSha256": "ca62324bfb771facd93097474e897323bf63e60efa39e49253f7da556ad9f9ef",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13180,
+      "channelValues": 23232
+    },
+    {
+      "index": 128,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "fcce395d7bff7135a4d83f1e8a153833033d30b9e12036ab16fffd37d7057253",
+      "peerPixelSha256": "474b8b9503bfc7b2a45b87d33b8429a30f95e121580002fcfa798ba88f082681",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13265,
+      "channelValues": 23232
+    },
+    {
+      "index": 129,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "fcce395d7bff7135a4d83f1e8a153833033d30b9e12036ab16fffd37d7057253",
+      "peerPixelSha256": "ca62324bfb771facd93097474e897323bf63e60efa39e49253f7da556ad9f9ef",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13180,
+      "channelValues": 23232
+    },
+    {
+      "index": 130,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "fcce395d7bff7135a4d83f1e8a153833033d30b9e12036ab16fffd37d7057253",
+      "peerPixelSha256": "76b8666b20f14a9804747b045ed623ab24cd5159fafa7b795a26522127c9798a",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13029,
+      "channelValues": 23232
+    },
+    {
+      "index": 131,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "a434fee2d6ec3941e2490552d16efdc094e2c16a92d7cdb77ce5d5588fd9a518",
+      "peerPixelSha256": "f23ad5aa490d6b7f9a0e882967a6457f0d35e65f210a86ba5e04e509cf1352e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 12003,
+      "channelValues": 23232
+    },
+    {
+      "index": 132,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "a434fee2d6ec3941e2490552d16efdc094e2c16a92d7cdb77ce5d5588fd9a518",
+      "peerPixelSha256": "76b8666b20f14a9804747b045ed623ab24cd5159fafa7b795a26522127c9798a",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13065,
+      "channelValues": 23232
+    },
+    {
+      "index": 133,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "a434fee2d6ec3941e2490552d16efdc094e2c16a92d7cdb77ce5d5588fd9a518",
+      "peerPixelSha256": "ca62324bfb771facd93097474e897323bf63e60efa39e49253f7da556ad9f9ef",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13234,
+      "channelValues": 23232
+    },
+    {
+      "index": 134,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "a434fee2d6ec3941e2490552d16efdc094e2c16a92d7cdb77ce5d5588fd9a518",
+      "peerPixelSha256": "474b8b9503bfc7b2a45b87d33b8429a30f95e121580002fcfa798ba88f082681",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13281,
+      "channelValues": 23232
+    },
+    {
+      "index": 135,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "a434fee2d6ec3941e2490552d16efdc094e2c16a92d7cdb77ce5d5588fd9a518",
+      "peerPixelSha256": "ca62324bfb771facd93097474e897323bf63e60efa39e49253f7da556ad9f9ef",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13234,
+      "channelValues": 23232
+    },
+    {
+      "index": 136,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/1",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "a434fee2d6ec3941e2490552d16efdc094e2c16a92d7cdb77ce5d5588fd9a518",
+      "peerPixelSha256": "76b8666b20f14a9804747b045ed623ab24cd5159fafa7b795a26522127c9798a",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13065,
+      "channelValues": 23232
+    },
+    {
+      "index": 137,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "ec7e3ec9f5acfdb486ba88d60df639b9b994abaf2e8ccc51765a8f92214611e0",
+      "peerPixelSha256": "f23ad5aa490d6b7f9a0e882967a6457f0d35e65f210a86ba5e04e509cf1352e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 12219,
+      "channelValues": 23232
+    },
+    {
+      "index": 138,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "ec7e3ec9f5acfdb486ba88d60df639b9b994abaf2e8ccc51765a8f92214611e0",
+      "peerPixelSha256": "76b8666b20f14a9804747b045ed623ab24cd5159fafa7b795a26522127c9798a",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13195,
+      "channelValues": 23232
+    },
+    {
+      "index": 139,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "ec7e3ec9f5acfdb486ba88d60df639b9b994abaf2e8ccc51765a8f92214611e0",
+      "peerPixelSha256": "ca62324bfb771facd93097474e897323bf63e60efa39e49253f7da556ad9f9ef",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13236,
+      "channelValues": 23232
+    },
+    {
+      "index": 140,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "ec7e3ec9f5acfdb486ba88d60df639b9b994abaf2e8ccc51765a8f92214611e0",
+      "peerPixelSha256": "474b8b9503bfc7b2a45b87d33b8429a30f95e121580002fcfa798ba88f082681",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13308,
+      "channelValues": 23232
+    },
+    {
+      "index": 141,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "ec7e3ec9f5acfdb486ba88d60df639b9b994abaf2e8ccc51765a8f92214611e0",
+      "peerPixelSha256": "ca62324bfb771facd93097474e897323bf63e60efa39e49253f7da556ad9f9ef",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13236,
+      "channelValues": 23232
+    },
+    {
+      "index": 142,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/2",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "ec7e3ec9f5acfdb486ba88d60df639b9b994abaf2e8ccc51765a8f92214611e0",
+      "peerPixelSha256": "76b8666b20f14a9804747b045ed623ab24cd5159fafa7b795a26522127c9798a",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13195,
+      "channelValues": 23232
+    },
+    {
+      "index": 143,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "d26d9233bf98e1f4a4cc0ec35b46cbcc9562b68ad2c3300a55f03141f418f942",
+      "peerPixelSha256": "f23ad5aa490d6b7f9a0e882967a6457f0d35e65f210a86ba5e04e509cf1352e1",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 12225,
+      "channelValues": 23232
+    },
+    {
+      "index": 144,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "d26d9233bf98e1f4a4cc0ec35b46cbcc9562b68ad2c3300a55f03141f418f942",
+      "peerPixelSha256": "76b8666b20f14a9804747b045ed623ab24cd5159fafa7b795a26522127c9798a",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13231,
+      "channelValues": 23232
+    },
+    {
+      "index": 145,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/2",
+      "outcome": "not-same",
+      "gapPixelSha256": "d26d9233bf98e1f4a4cc0ec35b46cbcc9562b68ad2c3300a55f03141f418f942",
+      "peerPixelSha256": "ca62324bfb771facd93097474e897323bf63e60efa39e49253f7da556ad9f9ef",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13264,
+      "channelValues": 23232
+    },
+    {
+      "index": 146,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/3",
+      "outcome": "not-same",
+      "gapPixelSha256": "d26d9233bf98e1f4a4cc0ec35b46cbcc9562b68ad2c3300a55f03141f418f942",
+      "peerPixelSha256": "474b8b9503bfc7b2a45b87d33b8429a30f95e121580002fcfa798ba88f082681",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13300,
+      "channelValues": 23232
+    },
+    {
+      "index": 147,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/4",
+      "outcome": "not-same",
+      "gapPixelSha256": "d26d9233bf98e1f4a4cc0ec35b46cbcc9562b68ad2c3300a55f03141f418f942",
+      "peerPixelSha256": "ca62324bfb771facd93097474e897323bf63e60efa39e49253f7da556ad9f9ef",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13264,
+      "channelValues": 23232
+    },
+    {
+      "index": 148,
+      "gap": "cok/amiga/disk3/pic2.daa/block/26/frame/3",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/26/frame/5",
+      "outcome": "not-same",
+      "gapPixelSha256": "d26d9233bf98e1f4a4cc0ec35b46cbcc9562b68ad2c3300a55f03141f418f942",
+      "peerPixelSha256": "76b8666b20f14a9804747b045ed623ab24cd5159fafa7b795a26522127c9798a",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 13231,
+      "channelValues": 23232
+    },
+    {
+      "index": 149,
+      "gap": "cok/amiga/disk3/pic2.daa/block/28/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/28/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "f112830c1b64e2930a671819e42a1d667c440ab3b22a0a2c6d049a3999d4a11d",
+      "peerPixelSha256": "d2c276a3478a105c10aab9e17d4ceeb4a5233a065c1a82a9b0d8642fe0bbf8ec",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 5968,
+      "channelValues": 23232
+    },
+    {
+      "index": 150,
+      "gap": "cok/amiga/disk3/pic2.daa/block/28/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/28/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "f112830c1b64e2930a671819e42a1d667c440ab3b22a0a2c6d049a3999d4a11d",
+      "peerPixelSha256": "cb33746753701347824c948326ca1c8b57ead27483c27babaae04d7320593f33",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 20155,
+      "channelValues": 23232
+    },
+    {
+      "index": 151,
+      "gap": "cok/amiga/disk3/pic2.daa/block/28/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/28/frame/0",
+      "outcome": "not-same",
+      "gapPixelSha256": "ba4eaef8b350f373ffec1751ffdd3809b82e782c89f766fc9365b3c16920126c",
+      "peerPixelSha256": "d2c276a3478a105c10aab9e17d4ceeb4a5233a065c1a82a9b0d8642fe0bbf8ec",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 9496,
+      "channelValues": 23232
+    },
+    {
+      "index": 152,
+      "gap": "cok/amiga/disk3/pic2.daa/block/28/frame/1",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/28/frame/1",
+      "outcome": "not-same",
+      "gapPixelSha256": "ba4eaef8b350f373ffec1751ffdd3809b82e782c89f766fc9365b3c16920126c",
+      "peerPixelSha256": "cb33746753701347824c948326ca1c8b57ead27483c27babaae04d7320593f33",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 20536,
+      "channelValues": 23232
+    },
+    {
+      "index": 153,
+      "gap": "cok/amiga/disk3/pic2.daa/block/3/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/3/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "6f0c71dbab42fba1f403ad7c3e6524765e871e3e73e5aee1aaabec5766f49f31",
+      "peerPixelSha256": "1641aaf0a2c5dd63e7c21b008a9b3abf686125e2e00d043ced533086bcbd9623",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7226,
+      "channelValues": 23232
+    },
+    {
+      "index": 154,
+      "gap": "cok/amiga/disk3/pic2.daa/block/32/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/32/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "34714f36ccdef2a77b7886a1752ae55bd36dc6644505c6239ed4c4a9d3a50607",
+      "peerPixelSha256": "1589d0b0f1ff88d286039afd2d345ee482384763b45317c83d7709a0fd66870b",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 3826,
+      "channelValues": 23232
+    },
+    {
+      "index": 155,
+      "gap": "cok/amiga/disk3/pic2.daa/block/33/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/33/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "c0012acfd4c64656e4c00042a931298d8d9cab452ee90a29dda1ceef457a106a",
+      "peerPixelSha256": "f869c4b94c984fbffafb31d73328bd6ad735da961ab59ca0becfaf4e6e8abe9e",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 10347,
+      "channelValues": 23232
+    },
+    {
+      "index": 156,
+      "gap": "cok/amiga/disk3/pic2.daa/block/4/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/4/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "8887e7d2c7fc52ec7f129ffaadb01d60a69c41220c08c69377d4d05c36bc2202",
+      "peerPixelSha256": "e5669e68d4371bf182ea49d1d74ab2d2bc6926396da2623c7d800bb462e2fb7c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 6677,
+      "channelValues": 23232
+    },
+    {
+      "index": 157,
+      "gap": "cok/amiga/disk3/pic2.daa/block/4/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/4/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "8887e7d2c7fc52ec7f129ffaadb01d60a69c41220c08c69377d4d05c36bc2202",
+      "peerPixelSha256": "e5669e68d4371bf182ea49d1d74ab2d2bc6926396da2623c7d800bb462e2fb7c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 6677,
+      "channelValues": 23232
+    },
+    {
+      "index": 158,
+      "gap": "cok/amiga/disk3/pic2.daa/block/56/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/56/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "b5af769b612dfca2ff286a74e92ca4782540222ba668b06a66e4d9d33bd9038d",
+      "peerPixelSha256": "34f9f904898db0d0f6e9200814f1243bf5b361daaf4a9e290437431d59d60645",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 9386,
+      "channelValues": 23232
+    },
+    {
+      "index": 159,
+      "gap": "cok/amiga/disk3/pic2.daa/block/64/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/64/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "5cc8d5e237939ade425af7051526df15e8ede4cf23ffb7bfbedb46e4d3a1350a",
+      "peerPixelSha256": "ca82913f2a0aae21dfcd40bb946d536bf780b6babd0aa1211464f35449b0e14e",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8416,
+      "channelValues": 23232
+    },
+    {
+      "index": 160,
+      "gap": "cok/amiga/disk3/pic2.daa/block/65/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/65/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "3688342cd90821ad9ca659e3890ecbd01633106d7bc5a364c0ef243bc614da9a",
+      "peerPixelSha256": "f958373221fe3cc89e56c8f7d8aed8a708c589995dad108132194f84bb85524d",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 10998,
+      "channelValues": 23232
+    },
+    {
+      "index": 161,
+      "gap": "cok/amiga/disk3/pic2.daa/block/66/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/66/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "4ed448571c5dee5ec996fb1d168bfe44eada130a497d4ef1221481361ca0cd17",
+      "peerPixelSha256": "4c9c62c14efdaf068f4a0a3b4450b13288a1ce9dba336571bfd15fb3b22c1864",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 10729,
+      "channelValues": 23232
+    },
+    {
+      "index": 162,
+      "gap": "cok/amiga/disk3/pic2.daa/block/70/frame/0",
+      "peer": "cok/dos-ega/disk2/pic2.dax/block/70/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "32bcb9052dd97eae7aa650dfffd23d52035e36430eae4cd9e07f0d786ead934f",
+      "peerPixelSha256": "441c8ffccf51aa1504825281fac6d5be9980c74c6f1a717ae9f949d9d24456c2",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 8880,
+      "channelValues": 23232
+    },
+    {
+      "index": 163,
+      "gap": "cok/amiga/disk3/pic2.daa/block/71/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/71/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "e05bcc77e068b1f33035bf18bddcdfb5d09b55d2df889b91c9f66537ee9dbfbe",
+      "peerPixelSha256": "bb271a8076b5ea1eb419e59bab53eb19dfd6ae33e72174d46167a891aab6bd4c",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 10878,
+      "channelValues": 23232
+    },
+    {
+      "index": 164,
+      "gap": "cok/amiga/disk3/pic2.daa/block/72/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/72/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "ae427f95213c0335b195564ded7af24dbcc9d1efdb2c4d5bc1f8c16e92a781fa",
+      "peerPixelSha256": "56da9aa2400596568d844f10b7fbb3661456e9536b7410c1c620331d29993b23",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 7632,
+      "channelValues": 23232
+    },
+    {
+      "index": 165,
+      "gap": "cok/amiga/disk3/pic2.daa/block/73/frame/0",
+      "peer": "cok/dos-ega/disk3/pic3.dax/block/73/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "bad46767830d4844579d791eb6a6a1b74040f95d3774fe4b3dec9d5ff2095203",
+      "peerPixelSha256": "cef99449bbaeb424fe77127b112eb72407a1f1b7fcff3611b486515fd1fe6f85",
+      "sizeGap": [
+        88,
+        88
+      ],
+      "sizePeer": [
+        88,
+        88
+      ],
+      "differingChannelValues": 10009,
+      "channelValues": 23232
+    }
+  ]
+}

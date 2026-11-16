@@ -1,0 +1,183 @@
+{
+  "schema": "cok-player-consumer-contract-v1",
+  "game": "cok",
+  "mode": "Restyle",
+  "sourceManifest": {
+    "path": "apps/web/src/ui/cokPlayerAppearanceManifest.json",
+    "sha256": "3dad37bc789586ddff083a50a2814339141ccc1692290986ac96ac0c5ceb1bb2"
+  },
+  "registryPath": "docs/engine/research/cok-graphics-identity-registry-v1.json",
+  "inventorySnapshot": {
+    "path": "apps/web/dist-app-cok57/restyle/cok-generated/manifest.json",
+    "sha256": "d5fc9c9a49680f9a7825c2394126887a315105d4cf2686622706fbf30c8669c9",
+    "role": "retained candidate inventory snapshot; not the current source package or live artifact"
+  },
+  "packageRoot": "apps/web/public/restyle/cok/player",
+  "runtimeObservation": {
+    "status": "unverified",
+    "reason": "Working-tree source and exact local package bytes establish static bindings only; the current Vite spawn EPERM hold prevents browser/build acceptance."
+  },
+  "consumerSources": [
+    {
+      "id": "graphics-mode-dispatch",
+      "path": "apps/web/src/ui/runtimeGraphicsMode.ts",
+      "sha256": "4d5b7bf85fa39f4332a4667c15269ea0ff37d21afac9f0460775a62d735d9b26",
+      "binding": "Persists DOS-EGA/Amiga/Restyle and dispatches goldbox:graphics-mode for CoK.",
+      "variantIndexes": []
+    },
+    {
+      "id": "player-appearance-loader",
+      "path": "apps/web/src/ui/cokPlayerAppearance.ts",
+      "sha256": "cabf5e66907960be3a66e9dfacb16a06ba14e248c8fccd8c6516baace79f2d99",
+      "binding": "Resolves exact DOS selectors through the pinned canonical projection before optional admitted Restyle stills; exports the shared explicit-still presentation resolver. No Amiga fetch or playback is introduced.",
+      "variantIndexes": []
+    },
+    {
+      "id": "creator-preview",
+      "path": "apps/web/src/ui/create.ts",
+      "sha256": "b9e0e6b5756caef375a21f4cbb80b4cd0f49323302293d51498f43459b491b50",
+      "binding": "Resolves explicitly selected variant indices 0 and 1 through the shared presentation resolver, using its art and label together. Both remain still previews; only the admitted primary Restyle can be displayed. Local image-folder changes invalidate pending/cache state.",
+      "variantIndexes": [
+        0,
+        1
+      ],
+      "presentation": "creation-preview"
+    },
+    {
+      "id": "character-sheet",
+      "path": "apps/web/src/ui/charSheet.ts",
+      "sha256": "8c09f039a2d6333db2686d0b5bf1e0436e9701ec1969324bb88053cdd18a58fb",
+      "binding": "The shared presentation resolver selects source variant 0 and its existing admitted Restyle still when ready, or DOS original with matching status. Unknown identity and playback remain held. Local image-folder changes clear cached art/failures.",
+      "variantIndexes": [
+        0
+      ],
+      "presentation": "character-sheet"
+    },
+    {
+      "id": "combat-party-icon",
+      "path": "apps/web/src/ui/combat.ts",
+      "sha256": "751eca5bc7b295a63cfa8d5597523b062be3f0d5d230f9382c3c7fd7199264b7",
+      "binding": "The shared presentation resolver selects source variant 0 for combat layers and status, retaining existing admitted Restyle stills. Unknown identity uses standard fallback; variant 1 and playback are not selected. Local image-folder changes revise pending loads.",
+      "variantIndexes": [
+        0
+      ],
+      "presentation": "combat-party-icon"
+    },
+    {
+      "id": "player-restyle-admission-policy",
+      "path": "apps/web/src/ui/cokPlayerRestyleAdmission.json",
+      "sha256": "4910545fed3de4b3b5726b98ec4e1766314af7535adf17489f81872dd8f7898d",
+      "binding": "Separately pins the exact head/body source/output pair for every composed player frame; four primary frames are admitted and four secondary frames await prompt/composition review.",
+      "variantIndexes": []
+    },
+    {
+      "id": "player-canonical-resolver",
+      "path": "apps/web/src/ui/cok-player-canonical-bindings.mjs",
+      "sha256": "fa1bf8595b853131c56189590aa307210dd357c4c2169000cb566e724f7386fc",
+      "binding": "Checks exact tuple, variant locator, source/output membership and frame admission; invalid canonical binding produces a DOS-only request plan.",
+      "variantIndexes": []
+    },
+    {
+      "id": "player-canonical-projection",
+      "path": "apps/web/src/ui/cokPlayerCanonicalBindings.json",
+      "sha256": "319af29b8ce2b4114d8616a0dd7e235fcc26a971ab4d54fb1682c5dd2d9b1331",
+      "binding": "Pins four appearance sets, six selector tuples, eight variants and 12 distinct source IDs, preserving identical-pixel head locators and all four held secondary frames.",
+      "variantIndexes": []
+    },
+    {
+      "id": "player-canonical-generator",
+      "path": "tools/cok-player-canonical-bindings.mjs",
+      "sha256": "6b600106c6da920c647fdfad128054189e00152d9dd24819d74cf670269ab8ac",
+      "binding": "Reproduces the compact projection from the exact registry, player manifest and admission policy, and checks it before package output mutation.",
+      "variantIndexes": []
+    },
+    {
+      "id": "player-restyle-package-builder",
+      "path": "apps/web/scripts/bundle-cok-player-appearance.mjs",
+      "sha256": "04703eef3111581c5db051178566fb02525b1042152ca10b1f68bc963d40f744",
+      "binding": "Requires the exact canonical projection before package writes, validates the existing 20-path admitted roster, and excludes the four held Restyle body paths.",
+      "variantIndexes": []
+    },
+    {
+      "id": "player-canonical-binding-tests",
+      "path": "apps/web/test/cok-player-canonical-bindings.test.mjs",
+      "sha256": "de800fb772dc14bb2f70d92a49e4b4a4cd287ec4f8a16cebba14f5c0ccd363c0",
+      "binding": "Review evidence for locator swaps despite equal pixels, stale source/output/policy pins, and zero optional Restyle requests when canonical evidence is invalid.",
+      "variantIndexes": []
+    },
+    {
+      "id": "player-presentation-resolver",
+      "path": "apps/web/src/ui/cok-player-presentation.mjs",
+      "sha256": "1bf0b9e9aed375ce8b76e1474b8b01a5439ad08cd95a0654a279fdf103a8064c",
+      "binding": "Selects art and label as one explicit still decision. Sheet/combat use exact DOS source variant 0; creator variants require explicit selection. Existing primary Restyles need canonical identity and ready pixels. Amiga mappings and all playback remain held.",
+      "variantIndexes": []
+    },
+    {
+      "id": "player-presentation-declarations",
+      "path": "apps/web/src/ui/cok-player-presentation.d.mts",
+      "sha256": "e91cd0e730f741cfd0407b321f81ecf0d201a4869e6aad848426e1ca9017fd59",
+      "binding": "Declares the explicit still request and ready/held result contract; held results contain no art.",
+      "variantIndexes": []
+    },
+    {
+      "id": "amiga-player-candidate",
+      "path": "apps/web/src/ui/cokAmigaPlayerCandidate.json",
+      "sha256": "9c3a642ee89d0f04f5d1baaa46eab07f2116531f78281654700d777552ff8262",
+      "binding": "Separate local charT head5/body1 candidate pins disk2-qualified cells 67/1/32. Retail provenance, palette and two-cell composition review are unverified; no DOS bridge or runtime/Restyle/playback admission.",
+      "variantIndexes": []
+    },
+    {
+      "id": "amiga-player-candidate-helper",
+      "path": "apps/web/src/ui/cok-amiga-player-candidate.mjs",
+      "sha256": "9c48fadbd110c0c5d8dec38881483d2de1a251b292215235bb4b2cd79b4b1810",
+      "binding": "Validates exact candidate selectors, disk-qualified IDs and cell pins. Its five-bit/opacity OR is explicitly hypothesis-only, takes only explicit synthetic palette bytes, authenticates no input pixel buffers and never admits runtime art.",
+      "variantIndexes": []
+    },
+    {
+      "id": "amiga-player-candidate-declarations",
+      "path": "apps/web/src/ui/cok-amiga-player-candidate.d.mts",
+      "sha256": "6df8c53077d6f87db8ce229c8099c803db7bb4dc1f5ce9090ae99970bee05c25",
+      "binding": "Declares the separate candidate cell request and held hypothesis-only composition result.",
+      "variantIndexes": []
+    },
+    {
+      "id": "amiga-player-candidate-tests",
+      "path": "apps/web/test/cok-amiga-player-candidate.test.mjs",
+      "sha256": "94b40535bdae3d79a733e3ec3dbe6d377ea839812951118aa83dceac820361c2",
+      "binding": "Hand-authored synthetic hypothesis goldens and negative identity/geometry/selectors/pins/status tests; no retail images or source arrays.",
+      "variantIndexes": []
+    },
+    {
+      "id": "player-presentation-tests",
+      "path": "apps/web/test/cok-player-presentation.test.mjs",
+      "sha256": "747794fb9365d80506276e5a8d2a4f9219f3f615759a69dd9fffb76655857cbc",
+      "binding": "Synthetic explicit-preview, source variant0, existing Restyle still, matching status, invalid identity and held-playback controls.",
+      "variantIndexes": []
+    }
+  ],
+  "consumerVariantPolicy": {
+    "creator-preview": [
+      0,
+      1
+    ],
+    "character-sheet": [
+      0
+    ],
+    "combat-party-icon": [
+      0
+    ]
+  },
+  "packageIdentityPolicy": "Each appearance ID owns distinct original/restyle package paths even when source or output SHA-256 values are reused. A path/hash match establishes package-byte identity, not review, approval, or runtime observation.",
+  "restyleAdmissionPolicy": {
+    "path": "apps/web/src/ui/cokPlayerRestyleAdmission.json",
+    "sha256": "4910545fed3de4b3b5726b98ec4e1766314af7535adf17489f81872dd8f7898d",
+    "resolverSource": {
+      "path": "apps/web/src/ui/cok-player-restyle-admission.mjs",
+      "sha256": "15273deaf4574be5607d575e794dba586f86809910580e11c1eb73695ce4cd52"
+    },
+    "packageBuilderSource": {
+      "path": "apps/web/scripts/bundle-cok-player-appearance.mjs",
+      "sha256": "04703eef3111581c5db051178566fb02525b1042152ca10b1f68bc963d40f744"
+    }
+  }
+}

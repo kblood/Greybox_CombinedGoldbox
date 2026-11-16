@@ -1,0 +1,437 @@
+{
+  "version": 1,
+  "scope": "Visible-appearance-only descriptions for 26 decoded CoK Amiga/DOS BIGPIC, SKY and BORDER sources. The 18 remaining charS/charT atlas-cell IDs have no decoded per-cell PNG or RGB pixel hash in the current registry and are intentionally not described in this dataset.",
+  "evidenceImagePathPattern": "Exact per-row preview reference; SHA-256 equals sourceSha256.",
+  "assets": [
+    {
+      "assetId": "cok/amiga/disk1/border.daa/block/99/frame/0",
+      "sourceSha256": "dda7c6e8d8e213d9abb30363c4a4d81af661b6d82a2e8358f546a8134a1bcda4",
+      "pixelSha256": "57a6b0df71a22e93d84fc516a54c26332cb45a9d34f3cfb050cfda1b9215b676",
+      "visualDescription": "A very narrow black strip with repeating cyan, blue and white geometric rectangles and small vertical accents.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/dda7c6e8d8e213d9abb30363c4a4d81af661b6d82a2e8358f546a8134a1bcda4.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 dda7c6e8d8e213d9abb30363c4a4d81af661b6d82a2e8358f546a8134a1bcda4 and decoded pixel SHA-256 57a6b0df71a22e93d84fc516a54c26332cb45a9d34f3cfb050cfda1b9215b676; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/sky.daa/block/250/frame/0",
+      "sourceSha256": "ae6075799a67d62eccf792f4f8bce10dc702541c2553942db18fbafc09e5e054",
+      "pixelSha256": "1a2fa2d8f027f4143d4774dc35f01425f5d2851c42ec1bff81f5eb5d75518c1b",
+      "visualDescription": "A low row of white and turquoise mountain peaks with a few pale gray patches against a black field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ae6075799a67d62eccf792f4f8bce10dc702541c2553942db18fbafc09e5e054.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 ae6075799a67d62eccf792f4f8bce10dc702541c2553942db18fbafc09e5e054 and decoded pixel SHA-256 1a2fa2d8f027f4143d4774dc35f01425f5d2851c42ec1bff81f5eb5d75518c1b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/sky.daa/block/251/frame/0",
+      "sourceSha256": "9033981f60f45a518a4709c12dfbaede19c1187c9aa46be6ed94d4d1c0474c5f",
+      "pixelSha256": "10ac66b5ee12535ee55931b0de5d4e2828c89514b8f90568c29e30c0e790d6a7",
+      "visualDescription": "A solid bright yellow circular disk centered on a black square field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9033981f60f45a518a4709c12dfbaede19c1187c9aa46be6ed94d4d1c0474c5f.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 9033981f60f45a518a4709c12dfbaede19c1187c9aa46be6ed94d4d1c0474c5f and decoded pixel SHA-256 10ac66b5ee12535ee55931b0de5d4e2828c89514b8f90568c29e30c0e790d6a7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/sky.daa/block/252/frame/0",
+      "sourceSha256": "4da8b5d9dab21f8ccbc2e0127751d0c880ef375acc6b2c7c91c0b4f944ff962b",
+      "pixelSha256": "e5adcea2475a9b8fb52a6059ae98e5c4ca45ef3ee5614e837dcf90368f731787",
+      "visualDescription": "A gray stone-like field of repeating irregular rounded blocks, with a thin magenta strip along its upper edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4da8b5d9dab21f8ccbc2e0127751d0c880ef375acc6b2c7c91c0b4f944ff962b.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 4da8b5d9dab21f8ccbc2e0127751d0c880ef375acc6b2c7c91c0b4f944ff962b and decoded pixel SHA-256 e5adcea2475a9b8fb52a6059ae98e5c4ca45ef3ee5614e837dcf90368f731787; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/bigpic1.daa/block/112/frame/0",
+      "sourceSha256": "e5cc5da1f6119f72ec85f4d0e80b6e14050da4aa45a7c69865da05041f2da020",
+      "pixelSha256": "b771d56cc25e533e1689a083a61c5e503e3847e515849c5ba5d6d5f1be559a69",
+      "visualDescription": "A wooded riverside scene with a small pale building near the water, beneath dense green and turquoise foliage.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e5cc5da1f6119f72ec85f4d0e80b6e14050da4aa45a7c69865da05041f2da020.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 e5cc5da1f6119f72ec85f4d0e80b6e14050da4aa45a7c69865da05041f2da020 and decoded pixel SHA-256 b771d56cc25e533e1689a083a61c5e503e3847e515849c5ba5d6d5f1be559a69; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/bigpic1.daa/block/114/frame/0",
+      "sourceSha256": "d5096d958450f090a3971f25c474dabb528006e6a170213b41eae1b55f9a0990",
+      "pixelSha256": "bd53531d9ae958f94ca1fb571e16350b3ce74000845f843f297f02747cb9fb30",
+      "visualDescription": "Several small armored figures stand in a grassy landscape beneath a cloudy sky; a sword-bearing figure is prominent near the center.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d5096d958450f090a3971f25c474dabb528006e6a170213b41eae1b55f9a0990.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 d5096d958450f090a3971f25c474dabb528006e6a170213b41eae1b55f9a0990 and decoded pixel SHA-256 bd53531d9ae958f94ca1fb571e16350b3ce74000845f843f297f02747cb9fb30; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/bigpic1.daa/block/115/frame/0",
+      "sourceSha256": "b7a25356f76ba759c4ec2759db9f1934811bf530fe381e980fe42275e8f7bc3f",
+      "pixelSha256": "8603c7d51f72fcd8f0c40fbdd155112af1f70e24ba3484161d829c33393d6c9d",
+      "visualDescription": "A dark stone interior with several brightly colored figures, a wall torch and scattered shapes on the floor.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b7a25356f76ba759c4ec2759db9f1934811bf530fe381e980fe42275e8f7bc3f.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 b7a25356f76ba759c4ec2759db9f1934811bf530fe381e980fe42275e8f7bc3f and decoded pixel SHA-256 8603c7d51f72fcd8f0c40fbdd155112af1f70e24ba3484161d829c33393d6c9d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/bigpic1.daa/block/116/frame/0",
+      "sourceSha256": "50831f833c07f107193b7efebc0cdfb796a4cd4312c5c0b04a2861093b04b896",
+      "pixelSha256": "5dd6587bea68e7af0a07284620958738b69af5d998840d6b8daa2b06f7dfe466",
+      "visualDescription": "A warmly lit tavern interior with several figures seated around tables, shelves and orange firelight.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/amiga_render_all/daa/CoK_BIGPIC1/BIGPIC1_116.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 50831f833c07f107193b7efebc0cdfb796a4cd4312c5c0b04a2861093b04b896 and decoded pixel SHA-256 5dd6587bea68e7af0a07284620958738b69af5d998840d6b8daa2b06f7dfe466; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/bigpic1.daa/block/121/frame/0",
+      "sourceSha256": "f1c63b100923a31dcc858e558e6cff82745bf1423add3a7981c73c1909a27976",
+      "pixelSha256": "1986e5875cf01e505a42d978bef08a6d55a9c55f2f66da39504f679707873f35",
+      "visualDescription": "A top-down terrain map with green wooded areas, white mountain chains, waterways and small yellow place labels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f1c63b100923a31dcc858e558e6cff82745bf1423add3a7981c73c1909a27976.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 f1c63b100923a31dcc858e558e6cff82745bf1423add3a7981c73c1909a27976 and decoded pixel SHA-256 1986e5875cf01e505a42d978bef08a6d55a9c55f2f66da39504f679707873f35; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/bigpic2.daa/block/116/frame/0",
+      "sourceSha256": "50831f833c07f107193b7efebc0cdfb796a4cd4312c5c0b04a2861093b04b896",
+      "pixelSha256": "5dd6587bea68e7af0a07284620958738b69af5d998840d6b8daa2b06f7dfe466",
+      "visualDescription": "A warmly lit tavern interior with several figures seated around tables, shelves and orange firelight.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/50831f833c07f107193b7efebc0cdfb796a4cd4312c5c0b04a2861093b04b896.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 50831f833c07f107193b7efebc0cdfb796a4cd4312c5c0b04a2861093b04b896 and decoded pixel SHA-256 5dd6587bea68e7af0a07284620958738b69af5d998840d6b8daa2b06f7dfe466; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/bigpic2.daa/block/117/frame/0",
+      "sourceSha256": "fa7eaf123c0879392c117664b9b778bdd41f90a268867b32cfbd8865d85f0ae8",
+      "pixelSha256": "fa746a46cc0976ec6215d6afa2ef02c1dc415c185786fa836a3e5a3de682b818",
+      "visualDescription": "A large orange-red winged dragon amid gray clouds and rocky ground, with a bright burst of flame beneath it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fa7eaf123c0879392c117664b9b778bdd41f90a268867b32cfbd8865d85f0ae8.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 fa7eaf123c0879392c117664b9b778bdd41f90a268867b32cfbd8865d85f0ae8 and decoded pixel SHA-256 fa746a46cc0976ec6215d6afa2ef02c1dc415c185786fa836a3e5a3de682b818; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/bigpic2.daa/block/118/frame/0",
+      "sourceSha256": "b3775c7dc09a9af64b215255f6ad6b7c41d344bc0eef393a2b9541ab2ccebd82",
+      "pixelSha256": "14722795e16e7429981f6f98b3a8d76810bdb8612e899f3b7da0917a8c6063fe",
+      "visualDescription": "A stone castle under a cloudy sky, surrounded by several small red flying dragons.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b3775c7dc09a9af64b215255f6ad6b7c41d344bc0eef393a2b9541ab2ccebd82.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 b3775c7dc09a9af64b215255f6ad6b7c41d344bc0eef393a2b9541ab2ccebd82 and decoded pixel SHA-256 14722795e16e7429981f6f98b3a8d76810bdb8612e899f3b7da0917a8c6063fe; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/bigpic2.daa/block/119/frame/0",
+      "sourceSha256": "c80c1b142644c1c731c92a8eae51ac5dbe6dfea4d0f4d65f9a18de3477ca4ebd",
+      "pixelSha256": "f970a697b8d10f5e01be6870af19b732248496b489b1b3bacc38cf18eedd40b1",
+      "visualDescription": "A pale-haired figure in red-brown clothing leans forward inside a wooden room, beside a dark doorway.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c80c1b142644c1c731c92a8eae51ac5dbe6dfea4d0f4d65f9a18de3477ca4ebd.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 c80c1b142644c1c731c92a8eae51ac5dbe6dfea4d0f4d65f9a18de3477ca4ebd and decoded pixel SHA-256 f970a697b8d10f5e01be6870af19b732248496b489b1b3bacc38cf18eedd40b1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/bigpic2.daa/block/120/frame/0",
+      "sourceSha256": "0ff4c77c6fc288f9355c695a08d39b91d130eb35e7518db2b1a58ecce3b1b7d5",
+      "pixelSha256": "0b168bb766abd9c92265f3f94d00d6ef9b68ab6d494b1ff728eb4ca1ac1b5a7a",
+      "visualDescription": "A large orange winged dragon fills the upper part of a purple sky; several small figures stand below it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/0ff4c77c6fc288f9355c695a08d39b91d130eb35e7518db2b1a58ecce3b1b7d5.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 0ff4c77c6fc288f9355c695a08d39b91d130eb35e7518db2b1a58ecce3b1b7d5 and decoded pixel SHA-256 0b168bb766abd9c92265f3f94d00d6ef9b68ab6d494b1ff728eb4ca1ac1b5a7a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/bigpic1.dax/block/112/frame/0",
+      "sourceSha256": "030b2faf553ffa800aeec5084f87e8a86e4b087af2651b676e44ebd75bc09b0e",
+      "pixelSha256": "fef6d0c33eff530e9b4f09348205e3dbbf20718d13bbe6d66b08a81c1fbebae2",
+      "visualDescription": "A wooded riverside scene with a small pale building near the water, beneath dense green and turquoise foliage; the sky and background use bright magenta.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/030b2faf553ffa800aeec5084f87e8a86e4b087af2651b676e44ebd75bc09b0e.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 030b2faf553ffa800aeec5084f87e8a86e4b087af2651b676e44ebd75bc09b0e and decoded pixel SHA-256 fef6d0c33eff530e9b4f09348205e3dbbf20718d13bbe6d66b08a81c1fbebae2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/bigpic1.dax/block/114/frame/0",
+      "sourceSha256": "14b73d78b3758a083aa94dfcc5388b58c8debeac64e273d18187f3f9fff32d7e",
+      "pixelSha256": "a790826925a8de9fed65f705442ea429e1d230d14793c00939e2237830eda9f9",
+      "visualDescription": "Several small armored figures stand in a grassy landscape beneath a cloudy sky; a sword-bearing figure is prominent near the center.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/14b73d78b3758a083aa94dfcc5388b58c8debeac64e273d18187f3f9fff32d7e.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 14b73d78b3758a083aa94dfcc5388b58c8debeac64e273d18187f3f9fff32d7e and decoded pixel SHA-256 a790826925a8de9fed65f705442ea429e1d230d14793c00939e2237830eda9f9; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/bigpic1.dax/block/115/frame/0",
+      "sourceSha256": "d3ebb5fb7cf9609c7dc67c1434957f45f04f2b3bcb595ca7c85af17d6f58c39f",
+      "pixelSha256": "29ec6a4b1ffa4c77f12616ee11a3c34a8a2c9ce4cdf236e2ad4dc54b0faf12ff",
+      "visualDescription": "A dark stone interior with several brightly colored figures, a wall torch and scattered shapes on the floor.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d3ebb5fb7cf9609c7dc67c1434957f45f04f2b3bcb595ca7c85af17d6f58c39f.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 d3ebb5fb7cf9609c7dc67c1434957f45f04f2b3bcb595ca7c85af17d6f58c39f and decoded pixel SHA-256 29ec6a4b1ffa4c77f12616ee11a3c34a8a2c9ce4cdf236e2ad4dc54b0faf12ff; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/bigpic1.dax/block/121/frame/0",
+      "sourceSha256": "e9f69763ee7cc48361cc3d44f2b22182d0a49cec21e7bf06c663478e27c10c91",
+      "pixelSha256": "2e88ad9e9cc12487530a07819a458e545f3108d07cb3573216e6746874bc40ba",
+      "visualDescription": "A top-down terrain map with green wooded areas, white mountain chains, waterways and small yellow place labels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "C:/GoldBoxImg/cok_restyle_work/dos_render_all/BIGPIC1/BIGPIC1_121.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 e9f69763ee7cc48361cc3d44f2b22182d0a49cec21e7bf06c663478e27c10c91 and decoded pixel SHA-256 2e88ad9e9cc12487530a07819a458e545f3108d07cb3573216e6746874bc40ba; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/sky.dax/block/250/frame/0",
+      "sourceSha256": "8b24cdf7d08ab8cb20102c08c1c4aa8eb2201ec67c557f29276de09eabeb936c",
+      "pixelSha256": "86c4e7b9101e179adf33c2c646438ea45f626e483082fb11c0b839af85e328a8",
+      "visualDescription": "A low row of white and turquoise mountain peaks with a few pale gray patches against a bright magenta field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8b24cdf7d08ab8cb20102c08c1c4aa8eb2201ec67c557f29276de09eabeb936c.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 8b24cdf7d08ab8cb20102c08c1c4aa8eb2201ec67c557f29276de09eabeb936c and decoded pixel SHA-256 86c4e7b9101e179adf33c2c646438ea45f626e483082fb11c0b839af85e328a8; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/sky.dax/block/251/frame/0",
+      "sourceSha256": "a2bdd3018b3a514d9ac1694200da1e984642fa9b94864c35494a3a26aa1bb927",
+      "pixelSha256": "f51e749ee00af27bb71cdb48e1ea7d2dff8e55f37dac5d470c9add29dea4bdbb",
+      "visualDescription": "A solid bright yellow circular disk centered on a bright magenta square field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a2bdd3018b3a514d9ac1694200da1e984642fa9b94864c35494a3a26aa1bb927.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 a2bdd3018b3a514d9ac1694200da1e984642fa9b94864c35494a3a26aa1bb927 and decoded pixel SHA-256 f51e749ee00af27bb71cdb48e1ea7d2dff8e55f37dac5d470c9add29dea4bdbb; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/sky.dax/block/252/frame/0",
+      "sourceSha256": "ed30f6b92a741fea9db115b52170f2f9146d253885d6f797f3db768cd104f8e2",
+      "pixelSha256": "e5adcea2475a9b8fb52a6059ae98e5c4ca45ef3ee5614e837dcf90368f731787",
+      "visualDescription": "A gray stone-like field of repeating irregular rounded blocks, with a thin magenta strip along its upper edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed30f6b92a741fea9db115b52170f2f9146d253885d6f797f3db768cd104f8e2.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 ed30f6b92a741fea9db115b52170f2f9146d253885d6f797f3db768cd104f8e2 and decoded pixel SHA-256 e5adcea2475a9b8fb52a6059ae98e5c4ca45ef3ee5614e837dcf90368f731787; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/bigpic2.dax/block/116/frame/0",
+      "sourceSha256": "a73dfc3744f1e70e940d0e1facf47415103eec79d83e81aecea4365e89fdc4d2",
+      "pixelSha256": "dd0863b9d2ede3176693778e1a48af9d7937b2f5988294c163ce9d7013aa7ecc",
+      "visualDescription": "A warmly lit tavern interior with several figures seated around tables, shelves and orange firelight.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a73dfc3744f1e70e940d0e1facf47415103eec79d83e81aecea4365e89fdc4d2.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 a73dfc3744f1e70e940d0e1facf47415103eec79d83e81aecea4365e89fdc4d2 and decoded pixel SHA-256 dd0863b9d2ede3176693778e1a48af9d7937b2f5988294c163ce9d7013aa7ecc; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk2/bigpic2.dax/block/119/frame/0",
+      "sourceSha256": "709ccbd07e77b05fc0704db369300d75cce3808566e2be16ecb12068afe8a16e",
+      "pixelSha256": "6a77d2f4e4db982d307cf08cfa42ff0e22cfb06773f97b2f355e2909e7a707ca",
+      "visualDescription": "A pale-haired figure in red-brown clothing leans forward inside a wooden room, beside a dark doorway.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/709ccbd07e77b05fc0704db369300d75cce3808566e2be16ecb12068afe8a16e.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 709ccbd07e77b05fc0704db369300d75cce3808566e2be16ecb12068afe8a16e and decoded pixel SHA-256 6a77d2f4e4db982d307cf08cfa42ff0e22cfb06773f97b2f355e2909e7a707ca; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/bigpic3.dax/block/117/frame/0",
+      "sourceSha256": "f73ad801355010d1d9406ea3cdee0e7abf15e580eb60b1ac1da0d31d603289cd",
+      "pixelSha256": "70628b2e5e2fdae4bce0ac13731dd35a5277fd7964efe042cb9505e53c5778fa",
+      "visualDescription": "A large orange-red winged dragon amid gray clouds and rocky ground, with a bright burst of flame beneath it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f73ad801355010d1d9406ea3cdee0e7abf15e580eb60b1ac1da0d31d603289cd.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 f73ad801355010d1d9406ea3cdee0e7abf15e580eb60b1ac1da0d31d603289cd and decoded pixel SHA-256 70628b2e5e2fdae4bce0ac13731dd35a5277fd7964efe042cb9505e53c5778fa; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/bigpic3.dax/block/118/frame/0",
+      "sourceSha256": "cf13bd3ca20993b9b7a8166a02fc1e8b93a929554be889d071ec3f130b030c44",
+      "pixelSha256": "ec2984025d3c6b18a5d277cbb4f062a2597a28e18a0fc0c8de4d4070006e51db",
+      "visualDescription": "A stone castle under a cloudy sky, surrounded by several small red flying dragons.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/cf13bd3ca20993b9b7a8166a02fc1e8b93a929554be889d071ec3f130b030c44.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 cf13bd3ca20993b9b7a8166a02fc1e8b93a929554be889d071ec3f130b030c44 and decoded pixel SHA-256 ec2984025d3c6b18a5d277cbb4f062a2597a28e18a0fc0c8de4d4070006e51db; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk3/bigpic3.dax/block/120/frame/0",
+      "sourceSha256": "71bb32f6e43cdfb0d3da4ef6ffdab2c653aa4b38ab2edc4d5eefab10dc91d900",
+      "pixelSha256": "e6fde96a4cf5ebd9bff967f3773767a8422a6acef45f98ca827ed3ed071ea121",
+      "visualDescription": "A large orange winged dragon fills the upper part of a purple-magenta sky; several small figures stand below it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/71bb32f6e43cdfb0d3da4ef6ffdab2c653aa4b38ab2edc4d5eefab10dc91d900.png",
+          "note": "Visible appearance only; visually reviewed against exact PNG SHA-256 71bb32f6e43cdfb0d3da4ef6ffdab2c653aa4b38ab2edc4d5eefab10dc91d900 and decoded pixel SHA-256 e6fde96a4cf5ebd9bff967f3773767a8422a6acef45f98ca827ed3ed071ea121; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    }
+  ],
+  "unresolvedAssets": [
+    {
+      "assetId": "cok/amiga/disk1/lbm/chars.lbm/cell/1",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk1/lbm/chars.lbm/cell/32",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk1/lbm/chars.lbm/cell/67",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk1/lbm/chart.lbm/cell/1",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk1/lbm/chart.lbm/cell/32",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk1/lbm/chart.lbm/cell/67",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chars.lbm/cell/1",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chars.lbm/cell/32",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chars.lbm/cell/67",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chart.lbm/cell/1",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chart.lbm/cell/32",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk2/lbm/chart.lbm/cell/67",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chars.lbm/cell/1",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chars.lbm/cell/32",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chars.lbm/cell/67",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chart.lbm/cell/1",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chart.lbm/cell/32",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    },
+    {
+      "assetId": "cok/amiga/disk3/lbm/chart.lbm/cell/67",
+      "status": "unreviewed-missing-pixel-evidence",
+      "reason": "Registry has no decoded per-cell PNG or RGB pixel SHA-256; whole-atlas appearance cannot safely substitute for the exact cell crop."
+    }
+  ]
+}

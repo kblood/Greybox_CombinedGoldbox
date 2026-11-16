@@ -1,0 +1,85 @@
+{
+  "game": "cok",
+  "system": "Amiga",
+  "archive": "amiga_extracted/ChampionsOfKrynn/disk2/pic1.daa",
+  "archiveByteLength": 165455,
+  "archiveSha256": "b3512ed6a030ac27538ae66f6115bdf0bf1f5a78e63eba0d32fef3e32b049687",
+  "baseSource": {
+    "game": "cok",
+    "system": "DOS-EGA",
+    "archive": "PIC1.DAX",
+    "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+    "blockId": 57,
+    "frameIndex": 0
+  },
+  "blockId": 57,
+  "frameIndex": 0,
+  "blockSha256": "1f64843fe7f663a080bd0db54a259f8d02ffca35096a7763289e14cd6821c348",
+  "container": {
+    "kind": "index",
+    "dataBase": 164,
+    "entryCount": 27,
+    "tocOrdinal": 0,
+    "subOffset": 0,
+    "compressedStart": 164,
+    "compressedEnd": 4686,
+    "compressedByteLength": 4522,
+    "compressedSha256": "8678c8a10ba4542d3bf730623845f5fadec6221e43240007c23e8bf483a41ae8"
+  },
+  "decoded": {
+    "layout": "amiga-sprite-single-frame-tail-v1",
+    "byteLength": 5368,
+    "pixOff": 77,
+    "bitmapStart": 87,
+    "planarByteLength": 5280,
+    "frameStride": 5281,
+    "decodedStreamSha256": "1f64843fe7f663a080bd0db54a259f8d02ffca35096a7763289e14cd6821c348",
+    "planarSha256": "670c5f79b266a20a9a6198232c7d4c72ce6ac3a26a523717839ab9953652c7b2",
+    "indicesSha256": "ec6e07cc03c0afe46ec8ac48434d502f4141735947b051071a86e766713bb5ad",
+    "rgbPaletteSha256": "52c8b78f214385ec3f598d0a44cca0ddec872433a8761d4d7a8ea92bc8748e0a",
+    "opaqueRgbaSha256": "da485ae49f9abd12311a836b86792b005cc90f4752924230ef7ae0d3d4926cf8",
+    "width": 88,
+    "height": 88,
+    "x": 0,
+    "y": 0,
+    "numFrames": 1,
+    "transparentIndex": null
+  },
+  "source": {
+    "file": "batch02/native/043_cok_amiga_daa_cok_pic1_pic1_057_f0.png",
+    "sha256": "7a27d89055ebb0dff03a23f942d33a5ff0fb54fff2d982ded8675fef0a1a3293",
+    "width": 88,
+    "height": 88,
+    "prompt": "batch02/043_cok_amiga_daa_cok_pic1_pic1_057_f0_prompt.txt",
+    "promptSha256": "9c46c50c7fe6cf1f5f95ba874c55b42d73643b1bd178f4ec61e788665bf7855c",
+    "input": "batch02/043_cok_amiga_daa_cok_pic1_pic1_057_f0_input.png",
+    "inputSha256": "18447377a32318da593ba9b56a9d6c9dcc6745bca017c268b0e68d10045c58ad",
+    "rawOutput": "batch02/done/043_cok_amiga_daa_cok_pic1_pic1_057_f0_out.png",
+    "rawOutputSha256": "b94d8c638dd34ef75ca04e9620f89947c4b22bf62e2b992ebbdf4b481b2a0aec"
+  },
+  "restyle": {
+    "file": "AMIGA_PIC1_057_f0_restyle.png",
+    "reviewedImport": "batch03_work/cok-runtime-site-candidate-amiga18-preserved-20261027/restyle/out/043_cok_amiga_daa_cok_pic1_pic1_057_f0.png",
+    "byteLength": 2821569,
+    "sha256": "193e7af3ecc3591f2564cb9e59d2c9bd30d68add82c88819f1db6fb84fb57176",
+    "nativeWidth": 88,
+    "nativeHeight": 88,
+    "pixelScale": 16,
+    "width": 1408,
+    "height": 1408,
+    "bitDepth": 8,
+    "colorType": 2,
+    "destination": "dialogue/AMIGA_PIC1_057_f0_restyle.png"
+  },
+  "comparison": {
+    "stem": "043_cok_amiga_daa_cok_pic1_pic1_057_f0",
+    "originalSha256": "8ab8df9a6866bbc84353ffb15bbab70659954b466315c9f89f01c4e41eb0a981",
+    "restyleSha256": "193e7af3ecc3591f2564cb9e59d2c9bd30d68add82c88819f1db6fb84fb57176",
+    "fidelity": {
+      "verdict": "ok",
+      "edge_corr": 0.5509,
+      "hist_dist": 0.1921,
+      "aspect_dev": 0
+    }
+  }
+}

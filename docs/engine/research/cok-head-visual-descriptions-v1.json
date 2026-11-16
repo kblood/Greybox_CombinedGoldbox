@@ -1,0 +1,110 @@
+{
+  "datasetVersion": 1,
+  "evidenceImagePathPattern": "apps/web/dist-app-cok57/restyle/cok-generated/images/{sourceSha256}.png",
+  "assets": [
+    {
+      "assetId": "cok/amiga/disk2/head1.daa/block/68/frame/0",
+      "sourceSha256": "1c4be53cba24d24f6eef5185598b0cdaa78e665130c4b92dc9d8053f07c07a35",
+      "pixelSha256": "2dece1ee82f7b70ffc71b0e35aff767f1192c4ead39084b64dc71def29fe7711",
+      "visualDescription": "A cropped pixel-art face with dark curly hair and a magenta headband; a pale blade-shaped object is at the left edge against a mottled dark background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "1c4be53cba24d24f6eef5185598b0cdaa78e665130c4b92dc9d8053f07c07a35.png",
+          "note": "Visible appearance only; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/head1.daa/block/69/frame/0",
+      "sourceSha256": "379a7f5870da6bef99aa3b0b61df4900911e9c7e8d3c0d0168bc1b909aa02fa3",
+      "pixelSha256": "279972e8b3b91f96280e67ebac5abc6dc5fda7663ad5846531043bac0112498e",
+      "visualDescription": "A cropped pixel-art face with shoulder-length orange-red hair; a blue diagonal object is at the left and a green bottle-shaped object at the right, against a mottled gray background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "379a7f5870da6bef99aa3b0b61df4900911e9c7e8d3c0d0168bc1b909aa02fa3.png",
+          "note": "Visible appearance only; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/head2.dax/block/68/frame/0",
+      "sourceSha256": "9b5a2eb68ed79bfff2e51544f4256358022260370768b2ae83a4980dd7a02c3f",
+      "pixelSha256": "06a2c20118e33205702a913e0484e311027ea25927390283bfe0bda60665cc81",
+      "visualDescription": "A cropped pixel-art face with dark curly hair and a magenta headband; a pale blade-shaped object is at the left edge against a mottled dark background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "9b5a2eb68ed79bfff2e51544f4256358022260370768b2ae83a4980dd7a02c3f.png",
+          "note": "Visible appearance only; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/head2.dax/block/69/frame/0",
+      "sourceSha256": "bbc1a2ee865060ad4add766989154258aa14b365e84c01e242ec237fe03b2942",
+      "pixelSha256": "34b5f0dbb720b1e4240a908addde9c2f55786692aa989f007645b4183debee7d",
+      "visualDescription": "A cropped pixel-art face with shoulder-length orange-red hair; a blue diagonal object is at the left and a green bottle-shaped object at the right, against a mottled gray background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "bbc1a2ee865060ad4add766989154258aa14b365e84c01e242ec237fe03b2942.png",
+          "note": "Visible appearance only; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/head3.dax/block/68/frame/0",
+      "sourceSha256": "9b5a2eb68ed79bfff2e51544f4256358022260370768b2ae83a4980dd7a02c3f",
+      "pixelSha256": "06a2c20118e33205702a913e0484e311027ea25927390283bfe0bda60665cc81",
+      "visualDescription": "A cropped pixel-art face with dark curly hair and a magenta headband; a pale blade-shaped object is at the left edge against a mottled dark background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "9b5a2eb68ed79bfff2e51544f4256358022260370768b2ae83a4980dd7a02c3f.png",
+          "note": "Visible appearance only; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/head3.dax/block/69/frame/0",
+      "sourceSha256": "bbc1a2ee865060ad4add766989154258aa14b365e84c01e242ec237fe03b2942",
+      "pixelSha256": "34b5f0dbb720b1e4240a908addde9c2f55786692aa989f007645b4183debee7d",
+      "visualDescription": "A cropped pixel-art face with shoulder-length orange-red hair; a blue diagonal object is at the left and a green bottle-shaped object at the right, against a mottled gray background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "bbc1a2ee865060ad4add766989154258aa14b365e84c01e242ec237fe03b2942.png",
+          "note": "Visible appearance only; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/head2.daa/block/68/frame/0",
+      "sourceSha256": "1c4be53cba24d24f6eef5185598b0cdaa78e665130c4b92dc9d8053f07c07a35",
+      "pixelSha256": "2dece1ee82f7b70ffc71b0e35aff767f1192c4ead39084b64dc71def29fe7711",
+      "visualDescription": "A cropped pixel-art face with dark curly hair and a magenta headband; a pale blade-shaped object is at the left edge against a mottled dark background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "1c4be53cba24d24f6eef5185598b0cdaa78e665130c4b92dc9d8053f07c07a35.png",
+          "note": "Visible appearance only; this disk3 frame decodes to the exact same source PNG and native pixel hashes as disk2 HEAD1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/head2.daa/block/69/frame/0",
+      "sourceSha256": "379a7f5870da6bef99aa3b0b61df4900911e9c7e8d3c0d0168bc1b909aa02fa3",
+      "pixelSha256": "279972e8b3b91f96280e67ebac5abc6dc5fda7663ad5846531043bac0112498e",
+      "visualDescription": "A cropped pixel-art face with shoulder-length orange-red hair; a blue diagonal object is at the left and a green bottle-shaped object at the right, against a mottled gray background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "379a7f5870da6bef99aa3b0b61df4900911e9c7e8d3c0d0168bc1b909aa02fa3.png",
+          "note": "Visible appearance only; this disk3 frame decodes to the exact same source PNG and native pixel hashes as disk2 HEAD1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "schema": "cok-opening-wall-consumers-159-v1",
+  "task": "COK-OPENING-WALL-CONSUMERS-159",
+  "claimLimit": "Conditional static table references. Visibility and runtime use are unobserved.",
+  "runtimeObservations": 0,
+  "source": "Hash-pinned DOS game-folder archive copies.",
+  "methodReferences": [
+    "docs/engine/research/firstperson-wall-walk-cok.md",
+    "docs/engine/research/firstperson-wall-geometry-cok.md"
+  ],
+  "hostSource": {
+    "sha256Input": "Whole files with CRLF normalized to LF.",
+    "files": {
+      "packages/engine/src/ecl/disassemble.ts": "fb856d7f21b3c3771b80e673e96d139a638d14e9f76e3beb9a2be4b1a69de0ca",
+      "packages/engine/src/ecl/opcodes.ts": "8501a195a573290218b4e48ea478ffa3a823ed223197c4cef4840e0728626305",
+      "packages/engine/src/ecl/vm.ts": "d95ee6d3c1b2f7c96a5d3effcec80984957cbcf7ee6b463a3cd3824c46193562",
+      "packages/engine/src/loaders/geo.ts": "dc568b662fcf14a30dd230037b31304c480dcbe8bdfb71448d16bad0a0881aea",
+      "packages/engine/src/loaders/walldef.ts": "20e9c43ccdeaafd43964535cb896560377db8d36fba5425ce90db2e7821e348d",
+      "packages/engine/src/world/dungeon.ts": "2968a406eb6dfe0d2f19887b75a82a629e4bf019a9d1655b4cb7e4b8431305c3",
+      "packages/engine/src/world/dungeonWalls.ts": "59f65c84b994245b9421f24a62e637f4ca8c01614127d73bf279847240d35fc8",
+      "packages/engine/src/world/wallpieces.ts": "2141c8fe5d8ca9921be5586aa096c7d532980ba1371b35ceb4dfda8c3b21ff30"
+    }
+  },
+  "denominator": {
+    "scope": "All 156 columns of each WALLDEF slice selected by any nonzero GEO1#34 wall nibble.",
+    "loadedOpeningTiles": 210,
+    "referencedOpeningTiles": 159,
+    "unreferencedOpeningTiles": 51,
+    "excludedReferencedBootTiles": 15
+  },
+  "archives": {
+    "ECL1.DAX": {
+      "path": "Champions of Krynn/ECL1.DAX",
+      "sha256": "6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79",
+      "byteLength": 31721,
+      "dataBase": 65,
+      "orderedTocBlockIds": [
+        16,
+        17,
+        18,
+        32,
+        33,
+        34,
+        36
+      ],
+      "blocks": [
+        {
+          "blockId": 34,
+          "entryIndex": 5,
+          "dataOffset": 24585,
+          "rawSize": 6497,
+          "compressedSize": 6646,
+          "rawSha256": "66ec7047a86f22200bb746f98733d73274ddbec8a385e007c578258232d110fe"
+        }
+      ]
+    },
+    "GEO1.DAX": {
+      "path": "Champions of Krynn/GEO1.DAX",
+      "sha256": "e3670f73462c68dc15a438229aba82daf62f55e8e029a87e9da47ec4769165ae",
+      "byteLength": 1835,
+      "dataBase": 20,
+      "orderedTocBlockIds": [
+        32,
+        34
+      ],
+      "blocks": [
+        {
+          "blockId": 34,
+          "entryIndex": 1,
+          "dataOffset": 990,
+          "rawSize": 1026,
+          "compressedSize": 825,
+          "rawSha256": "68dd1f4d8dc18e558b3e8d839cbe16362522f08c4a05648ed75c7aab444400ba"
+        }
+      ]
+    },
+    "WALLDEF1.DAX": {
+      "path": "Champions of Krynn/WALLDEF1.DAX",
+      "sha256": "70cf9f18fe0dc87bf5cec047c52a33ad48dc543d48812d627c3b05579c29be85",
+      "byteLength": 3877,
+      "dataBase": 29,
+      "orderedTocBlockIds": [
+        1,
+        3,
+        23
+      ],
+      "blocks": [
+        {
+          "blockId": 3,
+          "entryIndex": 1,
+          "dataOffset": 1550,
+          "rawSize": 1560,
+          "compressedSize": 1511,
+          "rawSha256": "439c389ee5d96033dcf1f50fabdc54fcd38001751e7e257bd6bb20b8fb96e0af"
+        },
+        {
+          "blockId": 23,
+          "entryIndex": 2,
+          "dataOffset": 3061,
+          "rawSize": 780,
+          "compressedSize": 787,
+          "rawSha256": "4f00b2a2635eca23ea8823a3181791403da3b2169ea83c94631400e33d266aec"
+        }
+      ]
+    },
+    "8X8D1.DAX": {
+      "path": "Champions of Krynn/8X8D1.DAX",
+      "sha256": "14fd0bed83d383deca6195e3145145ad0ab4c58a5939a6e6fc0d3efc8c4bc915",
+      "byteLength": 14346,
+      "dataBase": 74,
+      "orderedTocBlockIds": [
+        201,
+        202,
+        203,
+        11,
+        12,
+        31,
+        32,
+        23
+      ],
+      "blocks": [
+        {
+          "blockId": 31,
+          "entryIndex": 5,
+          "dataOffset": 8393,
+          "rawSize": 2257,
+          "compressedSize": 2271,
+          "rawSha256": "171fac99ca6a4f878c99ee491be223a03b603242a02b589db86c1e36ddddf6f0"
+        },
+        {
+          "blockId": 32,
+          "entryIndex": 6,
+          "dataOffset": 10664,
+          "rawSize": 2257,
+          "compressedSize": 1215,
+          "rawSha256": "503b22622079cb279032d67a05bc2c31fc207566a44e8bc76f286c1a2614efdc"
+        },
+        {
+          "blockId": 23,
+          "entryIndex": 7,
+          "dataOffset": 11879,
+          "rawSize": 2257,
+          "compressedSize": 2393,
+          "rawSha256": "311afd2934d6eeaf443640bf496bcf8568790d7ae6233726771da871ddd51c25"
+        },
+        {
+          "blockId": 203,
+          "entryIndex": 2,
+          "dataOffset": 2421,
+          "rawSize": 1457,
+          "compressedSize": 1259,
+          "rawSha256": "e9f41ebcbafe3bb37d6f5a92193430910c13999a6d81fcfe625decc6c0bad553"
+        }
+      ]
+    }
+  },
+  "eclControl": {
+    "entry": {
+      "name": "initial_entry",
+      "segment": 257,
+      "vaddr": 32788,
+      "offset": 22
+    },
+    "loadCondition": "Byte [0x4bf2] differs from 34. Equality executes EXIT at 0x801b.",
+    "sites": [
+      {
+        "offset": 22,
+        "vaddr": 32788,
+        "mnemonic": "COMPARE",
+        "operands": [
+          {
+            "code": 1,
+            "value": 19442
+          },
+          {
+            "code": 0,
+            "value": 34
+          }
+        ]
+      },
+      {
+        "offset": 28,
+        "vaddr": 32794,
+        "mnemonic": "IF_EQ",
+        "operands": []
+      },
+      {
+        "offset": 29,
+        "vaddr": 32795,
+        "mnemonic": "EXIT",
+        "operands": []
+      },
+      {
+        "offset": 30,
+        "vaddr": 32796,
+        "mnemonic": "SAVE",
+        "operands": [
+          {
+            "code": 0,
+            "value": 1
+          },
+          {
+            "code": 1,
+            "value": 19431
+          }
+        ]
+      },
+      {
+        "offset": 36,
+        "vaddr": 32802,
+        "mnemonic": "SAVE",
+        "operands": [
+          {
+            "code": 0,
+            "value": 1
+          },
+          {
+            "code": 1,
+            "value": 19432
+          }
+        ]
+      },
+      {
+        "offset": 42,
+        "vaddr": 32808,
+        "mnemonic": "LOAD_FILES",
+        "operands": [
+          {
+            "code": 0,
+            "value": 34
+          },
+          {
+            "code": 0,
+            "value": 2
+          },
+          {
+            "code": 0,
+            "value": 255
+          }
+        ]
+      },
+      {
+        "offset": 49,
+        "vaddr": 32815,
+        "mnemonic": "LOAD_PIECES",
+        "operands": [
+          {
+            "code": 0,
+            "value": 3
+          },
+          {
+            "code": 0,
+            "value": 4
+          },
+          {
+            "code": 0,
+            "value": 23
+          }
+        ]
+      }
+    ],
+    "geoBlockId": 34,
+    "wallDefCalls": [
+      {
+        "symbolSet": 1,
+        "blockId": 3
+      },
+      {
+        "symbolSet": 3,
+        "blockId": 23
+      }
+    ],
+    "skippedOperand": {
+      "symbolSet": 2,
+      "blockId": 4
+    },
+    "twoSetReason": "The two SAVE sites set bytes [0x4be7] and [0x4be8] to 1 before LOAD_PIECES."
+  },
+  "indexConvention": "GEO wall slots and symbol sets are one-based. Map coordinates, TOC entries, record indices, slice indices, columns, byte offsets and tile indices are zero-based.",
+  "mapSlots": [
+    {
+      "wallSlot": 1,
+      "edgeCount": 8,
+      "firstEdge": {
+        "x": 7,
+        "y": 4,
+        "direction": "south",
+        "geoOffset": 329,
+        "wallByte": 22,
+        "wallSlot": 1,
+        "doorOffset": 841,
+        "doorFlag": 1
+      }
+    },
+    {
+      "wallSlot": 2,
+      "edgeCount": 101,
+      "firstEdge": {
+        "x": 0,
+        "y": 0,
+        "direction": "south",
+        "geoOffset": 258,
+        "wallByte": 36,
+        "wallSlot": 2,
+        "doorOffset": 770,
+        "doorFlag": 0
+      }
+    },
+    {
+      "wallSlot": 3,
+      "edgeCount": 87,
+      "firstEdge": {
+        "x": 0,
+        "y": 0,
+        "direction": "north",
+        "geoOffset": 2,
+        "wallByte": 48,
+        "wallSlot": 3,
+        "doorOffset": 770,
+        "doorFlag": 0
+      }
+    },
+    {
+      "wallSlot": 4,
+      "edgeCount": 38,
+      "firstEdge": {
+        "x": 0,
+        "y": 0,
+        "direction": "west",
+        "geoOffset": 258,
+        "wallByte": 36,
+        "wallSlot": 4,
+        "doorOffset": 770,
+        "doorFlag": 1
+      }
+    },
+    {
+      "wallSlot": 5,
+      "edgeCount": 83,
+      "firstEdge": {
+        "x": 7,
+        "y": 4,
+        "direction": "north",
+        "geoOffset": 73,
+        "wallByte": 80,
+        "wallSlot": 5,
+        "doorOffset": 841,
+        "doorFlag": 0
+      }
+    },
+    {
+      "wallSlot": 6,
+      "edgeCount": 101,
+      "firstEdge": {
+        "x": 7,
+        "y": 4,
+        "direction": "west",
+        "geoOffset": 329,
+        "wallByte": 22,
+        "wallSlot": 6,
+        "doorOffset": 841,
+        "doorFlag": 0
+      }
+    },
+    {
+      "wallSlot": 7,
+      "edgeCount": 24,
+      "firstEdge": {
+        "x": 13,
+        "y": 4,
+        "direction": "south",
+        "geoOffset": 335,
+        "wallByte": 118,
+        "wallSlot": 7,
+        "doorOffset": 847,
+        "doorFlag": 2
+      }
+    },
+    {
+      "wallSlot": 8,
+      "edgeCount": 1,
+      "firstEdge": {
+        "x": 3,
+        "y": 13,
+        "direction": "south",
+        "geoOffset": 469,
+        "wallByte": 134,
+        "wallSlot": 8,
+        "doorOffset": 981,
+        "doorFlag": 0
+      }
+    },
+    {
+      "wallSlot": 11,
+      "edgeCount": 57,
+      "firstEdge": {
+        "x": 3,
+        "y": 9,
+        "direction": "north",
+        "geoOffset": 149,
+        "wallByte": 188,
+        "wallSlot": 11,
+        "doorOffset": 917,
+        "doorFlag": 0
+      }
+    },
+    {
+      "wallSlot": 12,
+      "edgeCount": 64,
+      "firstEdge": {
+        "x": 0,
+        "y": 9,
+        "direction": "north",
+        "geoOffset": 146,
+        "wallByte": 192,
+        "wallSlot": 12,
+        "doorOffset": 914,
+        "doorFlag": 0
+      }
+    },
+    {
+      "wallSlot": 13,
+      "edgeCount": 4,
+      "firstEdge": {
+        "x": 2,
+        "y": 10,
+        "direction": "east",
+        "geoOffset": 164,
+        "wallByte": 205,
+        "wallSlot": 13,
+        "doorOffset": 932,
+        "doorFlag": 1
+      }
+    },
+    {
+      "wallSlot": 14,
+      "edgeCount": 1,
+      "firstEdge": {
+        "x": 0,
+        "y": 9,
+        "direction": "west",
+        "geoOffset": 402,
+        "wallByte": 206,
+        "wallSlot": 14,
+        "doorOffset": 914,
+        "doorFlag": 1
+      }
+    },
+    {
+      "wallSlot": 15,
+      "edgeCount": 1,
+      "firstEdge": {
+        "x": 13,
+        "y": 12,
+        "direction": "west",
+        "geoOffset": 463,
+        "wallByte": 191,
+        "wallSlot": 15,
+        "doorOffset": 975,
+        "doorFlag": 1
+      }
+    }
+  ],
+  "mapWitnesses": [
+    {
+      "x": 12,
+      "y": 12,
+      "direction": "east",
+      "geoOffset": 206,
+      "wallByte": 7,
+      "wallSlot": 7,
+      "doorOffset": 974,
+      "doorFlag": 2
+    },
+    {
+      "x": 13,
+      "y": 12,
+      "direction": "west",
+      "geoOffset": 463,
+      "wallByte": 191,
+      "wallSlot": 15,
+      "doorOffset": 975,
+      "doorFlag": 1
+    }
+  ],
+  "openEdges": 454,
+  "unusedSlots": [
+    9,
+    10
+  ],
+  "selectors": [
+    {
+      "wallSlot": 1,
+      "symbolSet": 1,
+      "sliceIndex": 0,
+      "blockOffset": 0,
+      "wallDefBlockId": 3,
+      "recordIndex": 0,
+      "loadSymbolSet": 1,
+      "relocation": 0,
+      "loadedBank": 31
+    },
+    {
+      "wallSlot": 2,
+      "symbolSet": 1,
+      "sliceIndex": 1,
+      "blockOffset": 156,
+      "wallDefBlockId": 3,
+      "recordIndex": 0,
+      "loadSymbolSet": 1,
+      "relocation": 0,
+      "loadedBank": 31
+    },
+    {
+      "wallSlot": 3,
+      "symbolSet": 1,
+      "sliceIndex": 2,
+      "blockOffset": 312,
+      "wallDefBlockId": 3,
+      "recordIndex": 0,
+      "loadSymbolSet": 1,
+      "relocation": 0,
+      "loadedBank": 31
+    },
+    {
+      "wallSlot": 4,
+      "symbolSet": 1,
+      "sliceIndex": 3,
+      "blockOffset": 468,
+      "wallDefBlockId": 3,
+      "recordIndex": 0,
+      "loadSymbolSet": 1,
+      "relocation": 0,
+      "loadedBank": 31
+    },
+    {
+      "wallSlot": 5,
+      "symbolSet": 1,
+      "sliceIndex": 4,
+      "blockOffset": 624,
+      "wallDefBlockId": 3,
+      "recordIndex": 0,
+      "loadSymbolSet": 1,
+      "relocation": 0,
+      "loadedBank": 31
+    },
+    {
+      "wallSlot": 6,
+      "symbolSet": 2,
+      "sliceIndex": 0,
+      "blockOffset": 780,
+      "wallDefBlockId": 3,
+      "recordIndex": 1,
+      "loadSymbolSet": 1,
+      "relocation": 0,
+      "loadedBank": 32
+    },
+    {
+      "wallSlot": 7,
+      "symbolSet": 2,
+      "sliceIndex": 1,
+      "blockOffset": 936,
+      "wallDefBlockId": 3,
+      "recordIndex": 1,
+      "loadSymbolSet": 1,
+      "relocation": 0,
+      "loadedBank": 32
+    },
+    {
+      "wallSlot": 8,
+      "symbolSet": 2,
+      "sliceIndex": 2,
+      "blockOffset": 1092,
+      "wallDefBlockId": 3,
+      "recordIndex": 1,
+      "loadSymbolSet": 1,
+      "relocation": 0,
+      "loadedBank": 32
+    },
+    {
+      "wallSlot": 11,
+      "symbolSet": 3,
+      "sliceIndex": 0,
+      "blockOffset": 0,
+      "wallDefBlockId": 23,
+      "recordIndex": 0,
+      "loadSymbolSet": 3,
+      "relocation": 140,
+      "loadedBank": 23
+    },
+    {
+      "wallSlot": 12,
+      "symbolSet": 3,
+      "sliceIndex": 1,
+      "blockOffset": 156,
+      "wallDefBlockId": 23,
+      "recordIndex": 0,
+      "loadSymbolSet": 3,
+      "relocation": 140,
+      "loadedBank": 23
+    },
+    {
+      "wallSlot": 13,
+      "symbolSet": 3,
+      "sliceIndex": 2,
+      "blockOffset": 312,
+      "wallDefBlockId": 23,
+      "recordIndex": 0,
+      "loadSymbolSet": 3,
+      "relocation": 140,
+      "loadedBank": 23
+    },
+    {
+      "wallSlot": 14,
+      "symbolSet": 3,
+      "sliceIndex": 3,
+      "blockOffset": 468,
+      "wallDefBlockId": 23,
+      "recordIndex": 0,
+      "loadSymbolSet": 3,
+      "relocation": 140,
+      "loadedBank": 23
+    },
+    {
+      "wallSlot": 15,
+      "symbolSet": 3,
+      "sliceIndex": 4,
+      "blockOffset": 624,
+      "wallDefBlockId": 23,
+      "recordIndex": 0,
+      "loadSymbolSet": 3,
+      "relocation": 140,
+      "loadedBank": 23
+    }
+  ],
+  "tileMatchFields": [
+    "geoWallSlot",
+    "wallDefColumn",
+    "rawValue",
+    "relocatedTileId"
+  ],
+  "banks": [
+    {"blockId": 31, "tileCount": 70, "orderedIndexSha256": "e18eab4a0d6841312fc8c47d0d6025430d68c2beb859553820ffd7ff1056c16d", "orderedRgbSha256": "a3bfe5ca2bb9392d2778dc8c49985d2609e1f90eaf2d512c29db88bf6f32cb05", "distinctReferencedTiles": 62, "tableMatchCount": 505, "bootBankExcluded": false, "tiles": [
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/0","tileIndex":0,"indexSha256":"299fa62ffbf8966216add082b277d53a221770b197965973f93f974d5cb51059","pixelSha256":"7c1e51c178d52622a2b51c00f6b7cb7ebb719c33e4d7ee6841f38b409e7169bf","matches":[[2,20,46,46],[2,26,46,46],[2,30,46,46],[2,34,46,46],[2,43,46,46],[2,45,46,46],[2,47,46,46],[2,49,46,46],[2,51,46,46],[2,77,46,46],[2,79,46,46],[2,85,46,46],[2,90,46,46],[2,92,46,46],[2,94,46,46],[2,97,46,46],[2,101,46,46],[2,116,46,46],[2,120,46,46],[2,124,46,46],[2,137,46,46],[2,141,46,46],[2,147,46,46],[4,26,46,46],[4,28,46,46],[4,43,46,46],[4,45,46,46],[4,69,46,46],[4,73,46,46],[4,77,46,46],[4,79,46,46],[4,90,46,46],[4,94,46,46],[4,137,46,46],[4,139,46,46]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/1","tileIndex":1,"indexSha256":"85d254a74b845cbb037ce20f44c04dc874e87f1672d92c37030324eabfdcc36c","pixelSha256":"1e5954a43db9631b958577b7ea14a0e578e3aaf9149bc1f642791c14d3a87706","matches":[[1,68,47,47],[1,96,47,47],[1,138,47,47],[1,142,47,47],[1,146,47,47],[2,17,47,47],[2,28,47,47],[2,31,47,47],[2,32,47,47],[2,62,47,47],[2,64,47,47],[2,66,47,47],[2,70,47,47],[2,72,47,47],[2,76,47,47],[2,78,47,47],[2,80,47,47],[2,83,47,47],[2,87,47,47],[2,91,47,47],[2,93,47,47],[2,98,47,47],[2,100,47,47],[2,104,47,47],[2,106,47,47],[2,108,47,47],[2,114,47,47],[2,117,47,47],[2,118,47,47],[2,121,47,47],[2,122,47,47],[2,125,47,47],[2,126,47,47],[2,135,47,47],[2,138,47,47],[2,139,47,47],[2,142,47,47],[2,143,47,47],[2,145,47,47],[2,146,47,47],[2,149,47,47],[2,151,47,47],[4,62,47,47],[4,64,47,47],[4,66,47,47],[4,70,47,47],[4,72,47,47],[4,76,47,47],[4,78,47,47],[4,80,47,47],[4,83,47,47],[4,87,47,47],[4,117,47,47],[4,121,47,47],[4,125,47,47],[4,135,47,47],[4,138,47,47],[4,142,47,47],[4,146,47,47]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/2","tileIndex":2,"indexSha256":"fa0b3ef19a051f9670f41bf7f84dca35eb84e0dbc058a61ef32395ba3783d9a0","pixelSha256":"f4b1d687903faf16dc110b8ed68820277644e67c6306be7386a5ebe415def676","matches":[[1,26,48,48],[1,43,48,48],[1,61,48,48],[1,75,48,48],[1,89,48,48],[1,136,48,48],[1,140,48,48],[1,144,48,48],[1,148,48,48],[2,29,48,48],[2,33,48,48],[2,46,48,48],[2,69,48,48],[2,71,48,48],[2,73,48,48],[2,84,48,48],[2,86,48,48],[2,99,48,48],[2,105,48,48],[2,107,48,48],[2,112,48,48],[2,115,48,48],[2,119,48,48],[2,123,48,48],[2,127,48,48],[2,128,48,48],[2,136,48,48],[2,140,48,48],[2,144,48,48],[2,148,48,48],[4,29,48,48],[4,44,48,48],[4,71,48,48],[4,112,48,48],[4,114,48,48],[4,115,48,48],[4,116,48,48],[4,119,48,48],[4,123,48,48],[4,127,48,48],[4,136,48,48],[4,140,48,48],[4,144,48,48],[4,148,48,48]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/3","tileIndex":3,"indexSha256":"c9f2538aa6890844a9202136a2060943f88e5aee1f29d9d019c1f3e46b345943","pixelSha256":"ec36d96511d63efe827f3779c20af42b29d2691a6dcd44b34a36a96020f08534","matches":[[1,82,49,49],[1,103,49,49],[1,155,49,49],[2,1,49,49],[2,14,49,49],[2,44,49,49],[2,48,49,49],[2,63,49,49],[2,65,49,49],[2,155,49,49],[3,155,49,49],[4,14,49,49],[4,63,49,49],[4,65,49,49],[4,155,49,49]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/4","tileIndex":4,"indexSha256":"b420f062b974e8181cf42752fd9247870f70ee251b5b19bf3cf3de7b788aaf06","pixelSha256":"9d941abb3ab0c0180ab03d98ce3ee09f1c57d513bd5e02f6376c8b6b027b4024","matches":[[1,129,50,50],[2,5,50,50],[2,35,50,50],[2,36,50,50],[2,129,50,50],[2,130,50,50],[4,129,50,50]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/5","tileIndex":5,"indexSha256":"271c26cd24c478244d12aa664ede77ca9e2dcaba85ba4dcef4ecfe285c9dba09","pixelSha256":"b8ba532ed7f92bf6f2fee2385c9fa9c3d0d8e5cf5d348a5057fcfa98d35a0196","matches":[[1,150,51,51],[2,9,51,51],[2,50,51,51],[2,53,51,51],[2,150,51,51],[2,153,51,51],[4,150,51,51]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/6","tileIndex":6,"indexSha256":"396e0cbff7bb10003f138beb2fc5b768a2c1521d3f1f7d7b4018617b71da37cc","pixelSha256":"935d2e17210c8eaa797ddded8edc370ff9a5f737aa249fb12b72211555736b38","matches":[[1,67,52,52],[1,74,52,52],[1,81,52,52],[1,88,52,52],[1,95,52,52],[1,102,52,52],[1,109,52,52],[1,115,52,52],[1,117,52,52],[1,119,52,52],[1,121,52,52],[1,123,52,52],[1,125,52,52],[1,127,52,52],[2,4,52,52],[2,18,52,52],[2,74,52,52],[2,95,52,52],[2,109,52,52],[4,15,52,52],[4,18,52,52],[4,21,52,52],[4,67,52,52],[4,74,52,52],[4,81,52,52],[4,88,52,52],[4,95,52,52],[4,97,52,52],[4,102,52,52],[4,104,52,52],[4,109,52,52]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/7","tileIndex":7,"indexSha256":"8376aa5125e4f90c4183644fb0d4556fa58de27eb5e8c20226013d77e2204a97","pixelSha256":"2ae0ca93c3a621e4d036ef48be0428b2873d87e2cb5800ac5d87ba64a3e16624","matches":[[2,8,53,53],[2,13,53,53],[2,19,53,53],[2,61,53,53],[2,75,53,53],[2,89,53,53],[4,13,53,53],[4,19,53,53],[4,61,53,53],[4,75,53,53],[4,96,53,53],[4,101,53,53],[4,108,53,53]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/8","tileIndex":8,"indexSha256":"d26880225e414a0c6901d5f5aadfd303082017284ea5d53273e9f5c0c913d622","pixelSha256":"79b729fe7c36e2e0cdc24e6b953ea263b5e1938a39b9da4ccde277372c24b65b","matches":[[1,7,54,54],[1,41,54,54],[1,42,54,54],[1,133,54,54],[1,134,54,54],[2,7,54,54],[2,41,54,54],[2,42,54,54],[2,133,54,54],[2,134,54,54],[4,7,54,54],[4,41,54,54],[4,42,54,54],[4,133,54,54],[4,134,54,54]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/9","tileIndex":9,"indexSha256":"09ca1c5d19550743141b012a070cf5ecb79f38456addf8cc9c03a293bee01665","pixelSha256":"c257f62d5dd79c37a4e3c7a6572eafac6207733c78464eeb263f547852119a8a","matches":[[1,3,55,55],[1,24,55,55],[1,27,55,55],[1,110,55,55],[1,113,55,55],[2,3,55,55],[2,24,55,55],[2,27,55,55],[2,110,55,55],[2,113,55,55],[4,3,55,55],[4,24,55,55],[4,27,55,55],[4,110,55,55],[4,113,55,55]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/10","tileIndex":10,"indexSha256":"1b53f1403dcf4b4b5154b013f88237db124b540cd80218a6a5a0b1eb7adcd5bc","pixelSha256":"7365f55f82d102e2a8e08fe2e87858e8b4649df8afce03c380770cf62ae69504","matches":[[2,16,56,56],[2,68,56,56],[2,82,56,56],[2,96,56,56],[2,103,56,56],[4,16,56,56],[4,68,56,56],[4,82,56,56],[4,89,56,56],[4,103,56,56]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/11","tileIndex":11,"indexSha256":"0db896a8958eaac22d58470cc61d53b421181ce5d955e93f55a7b2b1fb95f6b1","pixelSha256":"ade9859462e8bc2b0658936e1e6e435ac6418e2a335ffa04ecacaa60c71a6b75","matches":[[1,62,57,57],[1,135,57,57]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/12","tileIndex":12,"indexSha256":"4ffa3300052943aba4455113908b2c5e4edda3c7f7fc076c90b6509bf66cca15","pixelSha256":"18f15334cab36c9b7928d985f2c71e0796c7ac77259028061cdccf9abc7dd1d9","matches":[[1,63,58,58],[1,64,58,58],[1,65,58,58]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/13","tileIndex":13,"indexSha256":"0a96746d6ee9c649bed6559cc51bae03b8d59028da7f1174e9b763f2bccd2ee0","pixelSha256":"e050e779ffe823da71f47738475a31962c400d5d94b137619bc93ccc75bd9143","matches":[[1,66,59,59],[1,112,59,59]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/14","tileIndex":14,"indexSha256":"c6b2219663d0eca7b2755d3c6ba3f96079caae14877f0a3bb675ba8d11ced0b4","pixelSha256":"0c5e110c1b97a2cf2694b9b8c56f03f17d3682343bfe5e5ce6e4bbab8ea3d9a0","matches":[[2,15,60,60],[2,21,60,60],[2,67,60,60],[2,81,60,60],[2,88,60,60],[2,102,60,60]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/15","tileIndex":15,"indexSha256":"db30b18ad49eba1d192a9078186c7c6442f0fcbde07059e3c6a1ff6667cfbbd2","pixelSha256":"fed91014227a35710bf1ab24294d6fcbab26e552ccea08fcec358173d4beed04","matches":[[3,1,61,61],[3,26,61,61],[3,29,61,61],[3,30,61,61],[3,33,61,61],[3,34,61,61],[3,43,61,61],[3,46,61,61],[3,47,61,61],[3,51,61,61],[3,63,61,61],[3,70,61,61],[3,72,61,61],[3,79,61,61],[3,83,61,61],[3,90,61,61],[3,100,61,61],[3,105,61,61],[3,112,61,61],[3,115,61,61],[3,118,61,61],[3,121,61,61],[3,123,61,61],[3,126,61,61],[3,135,61,61],[3,139,61,61],[3,143,61,61],[3,147,61,61],[3,151,61,61]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/16","tileIndex":16,"indexSha256":"239a9ea7a15d4678e021daf15c12fb7fde55c0543db97b583e2e960dd4f185ca","pixelSha256":"5e846f9a7499188f7dded4dc19b782dd184c065765a20437c48afb09fdd2a5cc","matches":[[3,14,62,62],[3,20,62,62],[3,31,62,62],[3,44,62,62],[3,48,62,62],[3,65,62,62],[3,69,62,62],[3,71,62,62],[3,73,62,62],[3,77,62,62],[3,85,62,62],[3,87,62,62],[3,91,62,62],[3,92,62,62],[3,93,62,62],[3,98,62,62],[3,101,62,62],[3,104,62,62],[3,106,62,62],[3,114,62,62],[3,117,62,62],[3,120,62,62],[3,124,62,62],[3,127,62,62],[3,136,62,62],[3,140,62,62],[3,141,62,62],[3,142,62,62],[3,145,62,62],[3,146,62,62],[3,148,62,62]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/17","tileIndex":17,"indexSha256":"6cf9f3d22f41d5918815651f4f3ca0c10ffa32a66a5f87ac84cf8c84910fd936","pixelSha256":"9f93bd9e5aaf47fa8771bbdf011e79cf24d6afe16e0a5ad4795e03ea1ed49be1","matches":[[3,17,63,63],[3,28,63,63],[3,32,63,63],[3,45,63,63],[3,49,63,63],[3,62,63,63],[3,64,63,63],[3,66,63,63],[3,76,63,63],[3,78,63,63],[3,80,63,63],[3,84,63,63],[3,86,63,63],[3,94,63,63],[3,97,63,63],[3,99,63,63],[3,107,63,63],[3,108,63,63],[3,116,63,63],[3,119,63,63],[3,122,63,63],[3,125,63,63],[3,128,63,63],[3,137,63,63],[3,138,63,63],[3,144,63,63],[3,149,63,63]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/18","tileIndex":18,"indexSha256":"2ecabcd28b5c031f1ff9bd6a09c5c5b483e66a0ac6b6d72feda486ef04b5d25d","pixelSha256":"06ea39336434284cacc2058cabae06534248a0444aea51e50e36ae4685ee7b2f","matches":[[4,51,64,64]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/19","tileIndex":19,"indexSha256":"45a2917b44eed462b292b7591bf72cde4ca96cad43105a345f5217501b51469f","pixelSha256":"adebe34d63c42e7fc033f52d42227dbaf4912cf50c48b420fc500098069a151a","matches":[[4,32,65,65],[4,34,65,65],[4,48,65,65]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/20","tileIndex":20,"indexSha256":"12cec1bc841c549f339eba872cb5dad1d59cb38bdaadbf61032d1d57e8e656ec","pixelSha256":"33b5c244f3d27b65acf69ccc06a851dee37a3c5c77b931ff3f6f6db1b5060992","matches":[[1,53,66,66]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/21","tileIndex":21,"indexSha256":"3e3eb48640c6cde2cfc84262854e0136de511afad860cb7d4443e37b8fc8e49b","pixelSha256":"31981f03709e1cea27ca9d81dba15764cc04f6883432b1c525fd24464a2fd0e3","matches":[[1,36,67,67]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/22","tileIndex":22,"indexSha256":"4fec5c1b48c4ff7f5f08610104167fc7400d4a4f05a996abf71b7739da3d3646","pixelSha256":"6e8c368d2f449a9ce09a39e8913e75221c2a4f4cffccf85a8ad8dc34755c75d2","matches":[[4,1,68,68]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/23","tileIndex":23,"indexSha256":"04d0e87694a63828eef0b27112a75498dde56c3840668363ab87772b387183d0","pixelSha256":"1509b9327a3efcecfefe2b1facd39374f5f2bdf57fcbb45fc20c0895ba48fd2e","matches":[[3,16,69,69],[3,61,69,69],[3,75,69,69],[3,96,69,69]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/24","tileIndex":24,"indexSha256":"8f91bc1227d8641c3f565059a0244270a57ae4873b0ce2d6bd05b7103737403d","pixelSha256":"e3642b27a58aabdc8d5db9cbf395730caaa37bf9d275f2501962f12ffc5396ab","matches":[[3,8,70,70],[3,13,70,70],[3,19,70,70],[3,68,70,70],[3,82,70,70],[3,89,70,70],[3,103,70,70]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/25","tileIndex":25,"indexSha256":"1d4efc7038a8a454bd5009c84dae44973e993a97c2ec6cd16ff83653074a91f3","pixelSha256":"8753d21297e8a7507f6e884dea0d84ea2e58db91e52b84f4adacf0fc474cfaa7","matches":[[1,30,71,71],[1,32,71,71],[1,34,71,71],[1,46,71,71],[1,48,71,71]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/26","tileIndex":26,"indexSha256":"641f94b199cab856e3494dff67882a200beaf280a8336e0bfab257ffb3ade002","pixelSha256":"0a8de7d0cb30c3cd7ec214f01c1bf3402008ebdc061531fc705edf7fc7ea365d","matches":[[1,31,72,72],[1,33,72,72],[1,47,72,72],[1,49,72,72],[1,51,72,72]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/27","tileIndex":27,"indexSha256":"f1e16e2b3c5c1708e074a236d75db341136b2e77f8ac196fca2f16e029d974fd","pixelSha256":"3a77604fde1ed8d15f82ad743480f64095d237df39e79d0245beb0009f6ff9b5","matches":[[3,15,73,73],[3,21,73,73],[3,67,73,73],[3,88,73,73],[3,102,73,73]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/28","tileIndex":28,"indexSha256":"c2569af1b963ca7a2f7d3c2885297bdf4622d5ceafc5fb24ec1b5034046af4f5","pixelSha256":"3cbb24f3d6692d93cd33d070fbdd498b870901a25a06bd34d3fddbd887bba92f","matches":[[3,4,74,74],[3,18,74,74],[3,74,74,74],[3,81,74,74],[3,95,74,74],[3,109,74,74]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/29","tileIndex":29,"indexSha256":"aeb6d609ad11bce59cd7cc1268fec3273c69937700ae1ac04eaf817bf0f1de39","pixelSha256":"0edcfd48050e266ef90d57cd6319d8863d338dd160c017dd6a9d2306d6ca5f5b","matches":[[6,13,75,75],[6,14,75,75],[6,15,75,75],[6,16,75,75],[6,17,75,75],[6,18,75,75],[6,19,75,75],[6,20,75,75],[6,21,75,75],[6,61,75,75],[6,62,75,75],[6,63,75,75],[6,64,75,75],[6,65,75,75],[6,66,75,75],[6,67,75,75],[6,68,75,75],[6,69,75,75],[6,70,75,75],[6,71,75,75],[6,72,75,75],[6,73,75,75],[6,74,75,75],[6,75,75,75],[6,76,75,75],[6,77,75,75],[6,78,75,75],[6,79,75,75],[6,80,75,75],[6,81,75,75],[6,82,75,75],[6,83,75,75],[6,84,75,75],[6,85,75,75],[6,86,75,75],[6,87,75,75],[6,88,75,75],[6,89,75,75],[6,90,75,75],[6,91,75,75],[6,92,75,75],[6,93,75,75],[6,94,75,75],[6,95,75,75],[6,96,75,75],[6,97,75,75],[6,98,75,75],[6,99,75,75],[6,100,75,75],[6,101,75,75],[6,102,75,75],[6,103,75,75],[6,104,75,75],[6,105,75,75],[6,106,75,75],[6,107,75,75],[6,108,75,75],[6,109,75,75]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/30","tileIndex":30,"indexSha256":"66f5cc5ae24a7b644e040adc06de5673c78b6fde06a1a06449dd2dc942d6a3d0","pixelSha256":"11742971a331c82d4b3652bab6cf1278dce9612fc33683326421cde9f9687b6f","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/31","tileIndex":31,"indexSha256":"29287b05112fe1d5a7fe269031918dd45367bfda00b6a0bb9d73b00480dd19ec","pixelSha256":"80d56d201458f900f0ba4848f654035a0abebcdbf2c1be8250b9490ed0f2ea4b","matches":[[1,4,77,77],[1,8,77,77]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/32","tileIndex":32,"indexSha256":"0076a4f436f4a03a4f8c3bac272b9a959194d21e6c450860c84d2d3498fc03d3","pixelSha256":"1d116dbf4b39b817b1fa8ec13c7cba39b971453126930a88167669a6d4a3baed","matches":[[4,5,78,78]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/33","tileIndex":33,"indexSha256":"c8ff085767448b3569f2f6e3207d90af394dc79791fdd6abda539003e7fe6302","pixelSha256":"cbf225c12382d492983f48e22372b4a3b973791c0705857f4ca184108ec8cfc8","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/34","tileIndex":34,"indexSha256":"74d6b9b695779adede93c72673c92701a5a698c35e77e1b6e2bad665a6adb85c","pixelSha256":"38ac19e7d3f392cf4e58df2b6f51b02fe16358dbb2f6360ec789d02fbf5ff35a","matches":[[4,35,80,80]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/35","tileIndex":35,"indexSha256":"e84498ccb17092ad13c86dbfbfb35fd73196c1d1e59d1211327925534d4a06d1","pixelSha256":"31af535100b94477b203b776a788a7cbe2de5a5c4fc3a0bf1efa33d0cf2d0551","matches":[[4,50,81,81]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/36","tileIndex":36,"indexSha256":"59dc28bb1cd6934855d78d28eab3c8aea7511e05458e32e51cbfe96cd027ee79","pixelSha256":"945f9fc0c2e9c826d56d20e06375509083f9a12dccebb202dd82e98bbf0e6bf8","matches":[[4,36,82,82]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/37","tileIndex":37,"indexSha256":"ef63fe2db4e7b2d18d7c1069e705caee90f6236b014418e062d5c731107cc9bb","pixelSha256":"4718250e423bb23aed65cb472e86a221a4401f8ece25728f85da02e5c4ac3f25","matches":[[4,53,83,83]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/38","tileIndex":38,"indexSha256":"c5e05eca95af8df993dfc3b003635f934e0279449dabb45a3bc0a8f9eca5211d","pixelSha256":"b8d6e6419575d6bafed40d6125dea09471d8e37ab8127f5822c41276ba82ed2b","matches":[[4,33,84,84],[4,49,84,84]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/39","tileIndex":39,"indexSha256":"1c0ba85f38add815dd534826a40697051f52ae87b45fcb5f0bfceeda21641c45","pixelSha256":"e22b108f48e0871c7daa70cea24ac40ca1d5b418d0948ca613f9c95d2549978e","matches":[[1,13,85,85]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/40","tileIndex":40,"indexSha256":"7eaae1c0aaa37f57db8ba5c535b61099c81b3f6cadd0c932bfb1b5332166bc03","pixelSha256":"8c940a7409b0e88b9c82b3d9f2d4a659c3edbf5274c473dabb43d9978179c928","matches":[[1,15,86,86]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/41","tileIndex":41,"indexSha256":"5b84f12d0cea8efcc36890ba260d83d2535b0e45aaaf77c5d5987192f6e8a434","pixelSha256":"4798520d11527e10186eaf0d77907c705b9c8b009a2e0d932ace07a55ef965dd","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/42","tileIndex":42,"indexSha256":"e406933e5ae77c86bff8e44ef85364b2468ec60bbd0a4ec72f8e9ea52ffb9f90","pixelSha256":"00af9c3a9c523d7f4df4eef84d56255769cecc3db5333f72664e7bad161202f5","matches":[[3,5,88,88],[3,35,88,88],[3,36,88,88],[3,129,88,88],[3,130,88,88]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/43","tileIndex":43,"indexSha256":"2b615de5cad477da45ccb3d0d76a82bb204fe87a4affb25cb6cce1f9c9d21ebc","pixelSha256":"b9a96e5e8fb990643b3be55a8d416725c139573e2c1a625308c8959475efe29c","matches":[[3,9,89,89],[3,50,89,89],[3,53,89,89],[3,150,89,89],[3,153,89,89]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/44","tileIndex":44,"indexSha256":"b67440e801d63ca7ad9bb7491c2723ac295fc02f68013ae2a5d4cd59f2b1bdf8","pixelSha256":"d2fe15c6f96c09649450f13add90a047ac5d480647dc8c647334cf72ce32bda1","matches":[[3,7,90,90],[3,41,90,90],[3,42,90,90],[3,133,90,90],[3,134,90,90]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/45","tileIndex":45,"indexSha256":"f15f7d50dd674f216dc4ee37c90f3b6d6d78319eee37245aa9be2a2c6a0864d8","pixelSha256":"830927ee821add34966837280c4468d5703caf690ecee37dfb5ab7d2df66de08","matches":[[3,3,91,91],[3,24,91,91],[3,27,91,91],[3,110,91,91],[3,113,91,91]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/46","tileIndex":46,"indexSha256":"ef83252d7b8f0e3462f8bf143a62f50f0e54f9ea46d43b548f4c834ab8ff8a3b","pixelSha256":"d02d97bfb29463e1027d7ea97df515483fe143f35a0980d13b9514cd07d77ddd","matches":[[1,16,92,92],[1,19,92,92]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/47","tileIndex":47,"indexSha256":"6c00af0bf5207fbe8d1362ce04132a1ef6baed0b4983c44bb84159d8da2bb667","pixelSha256":"a8a2989e18ecdc890ece5f7d434c3037d77fdb9e4aeda2151ba33faabaca8643","matches":[[1,1,93,93]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/48","tileIndex":48,"indexSha256":"7e66f0e772045f6e839d6db1a9421c4be7acc67a5f3c283f8e0a4dd2d172dd27","pixelSha256":"b1f597e694feb3d84675d2636b5e0502dbea5a65915b47744864145f0afc46c9","matches":[[4,9,94,94]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/49","tileIndex":49,"indexSha256":"c02a4aae0466e5a50b87d502d8047a853f9a9fb5a12e13425c787b885db8a167","pixelSha256":"921ffd12ac7ccf42f88e91f8562fb5d2aea2aab16d5bf5f6e0b01c6917329713","matches":[[1,18,95,95],[1,21,95,95]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/50","tileIndex":50,"indexSha256":"5ea33b314d6a559649dcdcb928b9da3c62d661fa6f496eaba32df44752996fed","pixelSha256":"a4c2eb557726b0b07115f3297c1b8564c30ba909e2431a33644645833a2ae3f4","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/51","tileIndex":51,"indexSha256":"f3962d09b3f85a38dd2ea2d2435069c139d24e8adc9eb7788f2c2888df323eb0","pixelSha256":"123bbcd72c4bab57485a860fa7ca375174644f5caf84ba910e001fae7ec27063","matches":[[4,17,97,97]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/52","tileIndex":52,"indexSha256":"637ccfb9aa27a6f6a44a30d0430a1da7d406c43abd3bc81e91899c7955fb46dc","pixelSha256":"5c2436499359067b70a76f9756f89b9f801b1be58ae03e62352835394b818a72","matches":[[4,4,98,98],[4,8,98,98]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/53","tileIndex":53,"indexSha256":"cadc5e0f91afc2331bbe6a1586331576eac1b2673f0059155d103bf9feb75bc3","pixelSha256":"300db446dfc9a977882b02c3c25e3c82bb003455b1b0d150d9d00cdc8dd3c60b","matches":[[1,5,99,99]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/54","tileIndex":54,"indexSha256":"af1294eabfe53144fdcb5dfb030097deb2a5bc93b1c4187acd49f59a542c9c60","pixelSha256":"7152f79ccae30f2b9e622303851be35dcf4f12ffe248f2e2fd4afed468b1392a","matches":[[4,30,100,100],[4,46,100,100]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/55","tileIndex":55,"indexSha256":"28b5d29869dfc98c2a473500fafc681217fbab55eade5ba057786ca3839c2e25","pixelSha256":"91d7977cab73bafc1d38e2a189ba50e4796f0976154f19d4e613b263497ebef8","matches":[[4,31,101,101],[4,47,101,101]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/56","tileIndex":56,"indexSha256":"d4a36081e4ce19595b7cbb573f33b6a5fd5a5020fca1333460c104edd58057c9","pixelSha256":"024d13ae41a5a94ca84997dbac61b69bbfad4af59b3ec85b90808bd6592b7a4c","matches":[[1,14,102,102]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/57","tileIndex":57,"indexSha256":"6c6b633e8f2cd2eb9a95260a13818dd687f67aabe60778e122760c1f54483e83","pixelSha256":"936a67040c0356c178a62305c57c8bc910b7705c4f8d8646854ec988dfb9d20c","matches":[[1,28,103,103],[1,44,103,103]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/58","tileIndex":58,"indexSha256":"d0224543e476e6a9f6c90d25ba8c578db4f2b5c464a0b6d50551da73ed10c690","pixelSha256":"bdc72cda8999c72e407314465d34653b362931f0a962be97c38d3dc40c3b44ad","matches":[[1,29,104,104],[1,45,104,104]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/59","tileIndex":59,"indexSha256":"8a84b717ee28bfef4588b15b9a01655857f771216f561f3ed70a3c98d6030a9e","pixelSha256":"44ecd57dd4979e4bcdefe9c05f27bd497c01eb7ad949fa60620663a32baae6bf","matches":[[7,36,105,105]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/60","tileIndex":60,"indexSha256":"854b0f2add3bd7b64e7d3eb18f384a97f7e1cd0c7cb02451931d4e9c81d372b2","pixelSha256":"2b05624f37626ba5d246804da5b899d2f7265a502c7f3fff4f835405dcdb1b4d","matches":[[7,53,106,106]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/61","tileIndex":61,"indexSha256":"3b6c165066c68450d48f17868c095fdc866a39b457218a44e8fd9f1fa10bb096","pixelSha256":"3ccbb3913158eb5c270e71198032942561f11cd4acd0931026f4e0eef2477e3d","matches":[[7,35,107,107]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/62","tileIndex":62,"indexSha256":"2fb81c6c9dbeef67a34276a07324e0eebfe84a7f0746fa2dfacdc466137871f7","pixelSha256":"9abe1d2cfad9b885ef315fba2f6b68814742fe7d439b3f19bb98ab49ddb4bddc","matches":[[7,50,108,108]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/63","tileIndex":63,"indexSha256":"71c8c262b5ab33ca31f0afe77184e5094fa9af16e91597fd4a64f656ba0d67d2","pixelSha256":"ed7598f321463b85adaa8fd6f6dc923817c521a66a641a6ae769dff7d0eb8d25","matches":[[7,5,109,109]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/64","tileIndex":64,"indexSha256":"4b0162753e8c3cd1efe8a6def731a4c7b92f9a4ee3124945b4c3a71b44f72cd5","pixelSha256":"d1aaf21123a8eeb6a478651b1a1e055f5892e3483403e3b27120e65f33ac9efe","matches":[[7,9,110,110]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/65","tileIndex":65,"indexSha256":"f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b","pixelSha256":"5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/66","tileIndex":66,"indexSha256":"9bb491eb62ba6a74d89c17f4e4c176fbcfcf64d9010968b4854d5c3b502cf75b","pixelSha256":"ca0c6e1c0c1298337d51b4b11bbb809c1dfb41b43dd8c928267c6942faa3a3ac","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/67","tileIndex":67,"indexSha256":"c2b9b89fe07262973e1608f442f5e0ffd943f878b4a31642f0e6a52848a0c44d","pixelSha256":"84297cf1a6ed23fa056208d1d72f4c5659ff874df3d73ffb9991a64975014be0","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/68","tileIndex":68,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/31/tile/69","tileIndex":69,"indexSha256":"ef7bc8a8fe31b9d8e74d47fa10f46e7131870ecaa94e7a0529ab4417685b8afd","pixelSha256":"e4b773e85b58ca1e48db33bdfeb7ca3209c5fb7445c0267d4e9e14c5e3c5db4b","matches":[[1,9,115,115]]}
+    ]},
+    {"blockId": 32, "tileCount": 70, "orderedIndexSha256": "3f0eb96cfa30714492fdfd34fa102d41bf94ec83ad1affc4eba236e7750a4a0b", "orderedRgbSha256": "3c9434121aac10d205794516ef428418f8237d01af519b7c40adcc1ca0865a10", "distinctReferencedTiles": 28, "tableMatchCount": 299, "bootBankExcluded": false, "tiles": [
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/0","tileIndex":0,"indexSha256":"6cfeeb3aa25d3f411dae5eec17d7369ca7153e72dcf54bcf4c3daec0f5b21fc7","pixelSha256":"1052ae7ed79c25c278caa51190d294ed118568138695679b4eef6ede6a0a75fd","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/1","tileIndex":1,"indexSha256":"6cfeeb3aa25d3f411dae5eec17d7369ca7153e72dcf54bcf4c3daec0f5b21fc7","pixelSha256":"1052ae7ed79c25c278caa51190d294ed118568138695679b4eef6ede6a0a75fd","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/2","tileIndex":2,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/3","tileIndex":3,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/4","tileIndex":4,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/5","tileIndex":5,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/6","tileIndex":6,"indexSha256":"03461eb1a02812284f798ba375e90f623472099d9ed04b9052facd31e12e1225","pixelSha256":"929de08786e34dd00868359d3b1abbc6e9d4011613bce1e5cd18b23a52047132","matches":[[5,15,122,122],[5,16,122,122],[5,18,122,122],[5,20,122,122],[5,64,122,122],[5,67,122,122],[5,68,122,122],[5,69,122,122],[5,72,122,122],[5,74,122,122],[5,76,122,122],[5,78,122,122],[5,80,122,122],[5,84,122,122],[5,86,122,122],[5,87,122,122],[5,89,122,122],[5,92,122,122],[5,93,122,122],[5,95,122,122],[5,96,122,122],[5,97,122,122],[5,99,122,122],[5,100,122,122],[5,102,122,122],[5,103,122,122],[5,105,122,122],[5,106,122,122],[5,108,122,122],[7,15,122,122],[7,16,122,122],[7,18,122,122],[7,61,122,122],[7,64,122,122],[7,67,122,122],[7,68,122,122],[7,69,122,122],[7,72,122,122],[7,73,122,122],[7,74,122,122],[7,76,122,122],[7,78,122,122],[7,80,122,122],[7,87,122,122],[7,89,122,122],[7,95,122,122],[7,96,122,122],[7,97,122,122],[7,102,122,122],[7,103,122,122],[7,108,122,122]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/7","tileIndex":7,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/8","tileIndex":8,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/9","tileIndex":9,"indexSha256":"543e0b2a4e8e17640837823bc5e4a3735ff7b07a6a7e2ce622768a475b83925c","pixelSha256":"81c722cd50e74b2cdf6517cd88b46e5d5d67db6cc3ae72f81901049682d0e35e","matches":[[5,14,125,125],[5,17,125,125],[5,19,125,125],[5,61,125,125],[5,62,125,125],[5,65,125,125],[5,66,125,125],[5,73,125,125],[5,75,125,125],[5,79,125,125],[5,82,125,125],[5,85,125,125],[5,91,125,125],[5,98,125,125],[5,101,125,125],[5,104,125,125],[5,107,125,125],[7,14,125,125],[7,19,125,125],[7,62,125,125],[7,65,125,125],[7,66,125,125],[7,75,125,125],[7,79,125,125],[7,82,125,125],[7,101,125,125],[7,104,125,125]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/10","tileIndex":10,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/11","tileIndex":11,"indexSha256":"b1251b27b88c7058ce044a01a178c011782ebac0d3ace93307ac4cf2ccfca0e9","pixelSha256":"6333220646b8a96d971a8d5e5cf16623927f53220e2d6816eb0996f1452771cb","matches":[[5,13,127,127],[5,21,127,127],[5,63,127,127],[5,70,127,127],[5,71,127,127],[5,77,127,127],[5,81,127,127],[5,83,127,127],[5,88,127,127],[5,90,127,127],[5,94,127,127],[5,109,127,127],[7,13,127,127],[7,21,127,127],[7,63,127,127],[7,70,127,127],[7,71,127,127],[7,77,127,127],[7,81,127,127],[7,83,127,127],[7,88,127,127],[7,90,127,127],[7,94,127,127],[7,109,127,127]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/12","tileIndex":12,"indexSha256":"dbb4f7744686ce5b41d51cb83973677fe5f6a7c3f38fd291b7b36e3dca559f1a","pixelSha256":"3504f772b087699f15601a14f8856196e72290c85dd63bfe78674367a8b1fe82","matches":[[6,3,128,128],[6,24,128,128],[6,27,128,128],[6,110,128,128],[6,113,128,128]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/13","tileIndex":13,"indexSha256":"e7309169cbf968df352278168819ac4f094deb8d6383a2afa6c50e4b91f350e2","pixelSha256":"a9445a4de199629098df84d7f37391a0f063d973d64a2cb3db4897d35c21ed99","matches":[[6,7,129,129],[6,41,129,129],[6,42,129,129],[6,133,129,129],[6,134,129,129]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/14","tileIndex":14,"indexSha256":"a41c7c9da715eff29202cd693792d78c343d79f5b422d711ebab04dd6fba3bdc","pixelSha256":"8a6ee17d198706c5d04cbe8b266c0749a0570420cd814864a32b90126d01a1f6","matches":[[5,5,130,130],[5,35,130,130],[5,36,130,130],[5,129,130,130],[5,130,130,130],[7,129,130,130]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/15","tileIndex":15,"indexSha256":"e0e1fbb2ceade3a42da5a192141df7a1b9e5789930b199a43c54600197439135","pixelSha256":"0e1fc256fc2a69d0488bc024a0df3fb3d5508f7f1fad719448e2620a2da041fc","matches":[[5,9,131,131],[5,50,131,131],[5,53,131,131],[5,150,131,131],[5,153,131,131],[7,150,131,131]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/16","tileIndex":16,"indexSha256":"2fb457a0e975486755cea9f81ffc7cb74ffd4272041833fa84b4909d2c683a19","pixelSha256":"5f91c2b70ec5d948eac0ee08b270e17a812d93cd9f02d3bf6bd02a17ba3e034b","matches":[[5,26,132,132],[5,29,132,132],[5,48,132,132],[5,49,132,132],[5,51,132,132],[5,112,132,132],[5,114,132,132],[5,115,132,132],[5,117,132,132],[5,146,132,132],[5,147,132,132],[5,148,132,132],[5,149,132,132],[5,151,132,132],[7,26,132,132],[7,29,132,132],[7,112,132,132],[7,114,132,132],[7,115,132,132],[7,117,132,132],[7,146,132,132],[7,148,132,132]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/17","tileIndex":17,"indexSha256":"26c8f07ee909513674f0146299946c55511f6a0ced7db6250b4e539b78312dc9","pixelSha256":"f8748d23466f643d29bcc359d7f644646df30da74224968e606fbabd93fe9623","matches":[[5,32,133,133],[5,33,133,133],[5,34,133,133],[5,43,133,133],[5,44,133,133],[5,123,133,133],[5,124,133,133],[5,125,133,133],[5,126,133,133],[5,127,133,133],[5,128,133,133],[5,135,133,133],[5,136,133,133],[5,137,133,133],[5,138,133,133],[7,43,133,133],[7,44,133,133],[7,125,133,133],[7,127,133,133],[7,135,133,133],[7,136,133,133],[7,137,133,133],[7,138,133,133]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/18","tileIndex":18,"indexSha256":"d239f378099e74e682fd32379a3a48ea75283809e18e525eaedf2edfde267511","pixelSha256":"1c051bf38ac022f012b55e8b20bd09d18814b174d462e96aa514765226c7f3c2","matches":[[5,30,134,134],[5,31,134,134],[5,45,134,134],[5,116,134,134],[5,118,134,134],[5,119,134,134],[5,142,134,134],[5,143,134,134],[5,144,134,134],[5,145,134,134],[7,45,134,134],[7,139,134,134],[7,140,134,134],[7,142,134,134],[7,144,134,134]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/19","tileIndex":19,"indexSha256":"2148332b552a95d7ed5c01a9e9d935739bb73684152ad10772c2fd8bcaea8867","pixelSha256":"08fe1f2302612403f345e018a3ad7ce4e21554416d8aabef1da4c46bb737b236","matches":[[5,28,135,135],[5,46,135,135],[5,47,135,135],[5,120,135,135],[5,121,135,135],[5,122,135,135],[5,139,135,135],[5,140,135,135],[5,141,135,135],[7,28,135,135],[7,116,135,135],[7,119,135,135],[7,121,135,135],[7,123,135,135]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/20","tileIndex":20,"indexSha256":"60d35e4246653724b592f4f99f6eeb2f61444edfb585de4b521761268905ac2e","pixelSha256":"d8b17a64595f849e9506079950400a94373e6335e66bcfcfe6dd45a8cc68d2f1","matches":[[7,33,136,136],[7,49,136,136]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/21","tileIndex":21,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/22","tileIndex":22,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/23","tileIndex":23,"indexSha256":"553854cadde6d85a160f0a4b02e36db63f8cff9ac8ba939c63fe9f9256cc38bf","pixelSha256":"72ca88763a98a9d4048467294d5790bdb3f215ee1783e975e9da334f75c4baed","matches":[[5,1,139,139],[5,4,139,139],[5,8,139,139],[5,155,139,139],[7,155,139,139]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/24","tileIndex":24,"indexSha256":"87dc70ba313eae400b10d05ebe30a3f9860e5242cede5e23fb058c0b07a5f0b0","pixelSha256":"b98390da2787b15933c2fb27a807617aa7162d8e638945ce0e6121d2bc1cf94e","matches":[[6,1,140,140],[6,4,140,140],[6,8,140,140],[6,155,140,140]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/25","tileIndex":25,"indexSha256":"b0c80ca12ac4aa399960fb4abb915a43ea68ea9525a290d001ac4fb912643a7e","pixelSha256":"77baa2925b2a40557b44440d66a5d22bc01e9627329835fea35ef42c45451718","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/26","tileIndex":26,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/27","tileIndex":27,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/28","tileIndex":28,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/29","tileIndex":29,"indexSha256":"377420f76a2a02743aa7246fe5abc2356c698f47930ac0cbead1e1b62d2f1e44","pixelSha256":"b66f93346c994d1aa890839b84e151b76e3d2b5c5822257f7099f3238504dd88","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/30","tileIndex":30,"indexSha256":"b4b16e9b4296ea078c4ef1237cd095f566f7891d175bfb01c45aa8c9098c5bea","pixelSha256":"870b8b955636a95510163c2f650634bcf509b91b18ff5071411e410e41a0c9ff","matches":[[6,5,146,146],[6,35,146,146],[6,36,146,146],[6,129,146,146],[6,130,146,146]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/31","tileIndex":31,"indexSha256":"38e0bf4cffa9fb7005ed3a1550cb924b980b75f6c2185f2c5dd4d8fc7323cf6d","pixelSha256":"141e7ab36234ff34d04ba8f663bf790f603d9d9f56599ae1511f62158387d331","matches":[[6,9,147,147],[6,50,147,147],[6,53,147,147],[6,150,147,147],[6,153,147,147]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/32","tileIndex":32,"indexSha256":"7c40407a9ff7762d5ff86d4abb121fc2c4a443af39407b3c5b246bb3c6d3322b","pixelSha256":"6d9b5bcfb150125b007a5a91d5ec1bd87a8e0bf9ae70a153c78835b4780bb772","matches":[[6,26,148,148],[6,28,148,148],[6,29,148,148],[6,48,148,148],[6,51,148,148],[6,112,148,148],[6,114,148,148],[6,115,148,148],[6,116,148,148],[6,117,148,148],[6,119,148,148],[6,144,148,148],[6,146,148,148],[6,147,148,148],[6,148,148,148],[6,149,148,148],[6,151,148,148]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/33","tileIndex":33,"indexSha256":"e4d7c6e51ffc0c8f43fbb155267232397b01e6a0aa088980b4cffa89af183af4","pixelSha256":"2ea51b1ccf3ba56cdeacd19af5044f9af9f275f86a97028384641353f981386b","matches":[[6,32,149,149],[6,33,149,149],[6,34,149,149],[6,43,149,149],[6,44,149,149],[6,45,149,149],[6,123,149,149],[6,124,149,149],[6,125,149,149],[6,126,149,149],[6,127,149,149],[6,128,149,149],[6,135,149,149],[6,136,149,149],[6,137,149,149],[6,138,149,149],[6,139,149,149],[6,140,149,149]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/34","tileIndex":34,"indexSha256":"dfe5cc7c55a726934c637d0ab22ea464a214cc3df7e8d0a1b82b9f09d249a6b6","pixelSha256":"a0e7416e91210770d5d2c02542c82bef55d841b3e1ce995f194c83ffbfbb3846","matches":[[6,30,150,150],[6,31,150,150],[6,121,150,150],[6,141,150,150]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/35","tileIndex":35,"indexSha256":"f02e8cb78d3502e44c79459f495fc6b3cb15802bfd8d9f9eb1e18a276c817378","pixelSha256":"53a0fdb132712139927cf1f94bb7e13dc079f7fd099fdff634f315ed8b85fb0a","matches":[[6,46,151,151],[6,47,151,151],[6,49,151,151],[6,118,151,151],[6,120,151,151],[6,122,151,151],[6,142,151,151],[6,143,151,151],[6,145,151,151]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/36","tileIndex":36,"indexSha256":"863b7522aaf686a89dbe783124baf0280d5fbc4a4db809b4d29c91b01621d6a9","pixelSha256":"4300f2bb3e734c8b98c6551e803c5ba52320d4e6a0a57748911687ada433e086","matches":[[7,31,152,152],[7,47,152,152]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/37","tileIndex":37,"indexSha256":"436e7e02f0aad45f7684a0a2d3ec9ebf7df119fbd1b4d0decfa6d4de5b6a7b65","pixelSha256":"923ec84ecd1c1fa2fe4521abb8512fbe0c41a4664a854c6d046c32f838f87d93","matches":[[7,30,153,153],[7,46,153,153]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/38","tileIndex":38,"indexSha256":"ce2b1ce7b9b93576188808cd65748ffaeb2baa586bc9f8bf1f36fcec418419d6","pixelSha256":"4cfe90d704638569a548a121740ac09d3ff9d84a39dbec807430b5c83780e1d4","matches":[[7,17,154,154]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/39","tileIndex":39,"indexSha256":"2212fb5f240750b852ae4cb3f3df3e05fa2a92d4817ba6243b655674e9180b75","pixelSha256":"8ea4a15ed6160abc760dcd1422ea0554d662dd192ed6f60fcaa2d08961f03869","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/40","tileIndex":40,"indexSha256":"7034ad514101714a4b2a381f34d11f756a3250f586eacc497fded78860aa4710","pixelSha256":"a54566331e15b107bf7524f832d31acc5e693b9caf2fe3456d8f0c674f7be03c","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/41","tileIndex":41,"indexSha256":"55d61310ec2b9b84e67c01edb27e1625d12482cf211bcf646db1da070de12258","pixelSha256":"76429b187c5c252090e902c52c71c163b4f09509aae6d622de5b3104d0674387","matches":[[7,1,157,157],[7,4,157,157],[7,8,157,157]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/42","tileIndex":42,"indexSha256":"6c6c519cec407413233a67f16bd24dbbabfc6fb973f263d6a076ec3c78a839f6","pixelSha256":"45f5a6888e5e1b673b2ea1dbcc76957963605ec3059e9bca68d7635df17c7e96","matches":[[7,32,158,158],[7,34,158,158],[7,48,158,158]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/43","tileIndex":43,"indexSha256":"e9aea164679c02782154c84bfe4318aa0fbd3c77ee0271cca7802a1fe0ea1c7c","pixelSha256":"c471107cad78db11402242616fcc95105404c12afb223234973da9616753954c","matches":[[7,51,159,159]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/44","tileIndex":44,"indexSha256":"215488a7ca18e31d90dd8bc2d00c5f3002c2801a983ba96bbb0ceb9b2b3bd498","pixelSha256":"3af3dcfefefdc67f8ab156691ab93c37922e6288f9be5c0d5ece700a5e541df0","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/45","tileIndex":45,"indexSha256":"34bb0ddbaaef14c264fa89af1d76ea141a489a5f95b33d44ce5ce1425ddf1c2b","pixelSha256":"0393ae0cf6cc3823de72d83ebd3481476d311c1d0e17fe215e91ae0d3848d7f4","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/46","tileIndex":46,"indexSha256":"491c0e9a5a1fe2680ecad326e5a4a7920df0f9e348ad8b993c763c95cf886194","pixelSha256":"a13cad2861631e79b222e19b7313e1e1944481a53e2e69cda8a7f1cd25d6aaaa","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/47","tileIndex":47,"indexSha256":"8e60a227b6b39b0fae6019fcd9e477f38a828215ed10b5927b8bb4bdd9ae42f5","pixelSha256":"39d2c5f348f37dccafb98f6fdba8692b4ecd7cbd24f50d6ebd46733d679b0c11","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/48","tileIndex":48,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/49","tileIndex":49,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/50","tileIndex":50,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/51","tileIndex":51,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/52","tileIndex":52,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/53","tileIndex":53,"indexSha256":"df2ed4d807457726f21f34fa6ff3a6e7efe3d10cf6a7636a943fdc9ce4e17594","pixelSha256":"15ce4dfcb5f6d3441efb17dec263a1d9864c0b806577346d06513051d81930ea","matches":[[5,3,169,169],[5,24,169,169],[5,27,169,169],[5,110,169,169],[5,113,169,169],[7,3,169,169],[7,24,169,169],[7,27,169,169],[7,110,169,169],[7,113,169,169]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/54","tileIndex":54,"indexSha256":"c84ab9d2a1c8f6a438770fd414ff201dd7f6bf6fd551efa11cb9fb2aa57d6526","pixelSha256":"783ae43ece82b2ac463db167b0d5e06ad4bde87dd00bccccfc95fc55943e1875","matches":[[5,7,170,170],[5,41,170,170],[5,42,170,170],[5,133,170,170],[5,134,170,170],[7,7,170,170],[7,41,170,170],[7,42,170,170],[7,133,170,170],[7,134,170,170]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/55","tileIndex":55,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/56","tileIndex":56,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/57","tileIndex":57,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/58","tileIndex":58,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/59","tileIndex":59,"indexSha256":"6cfeeb3aa25d3f411dae5eec17d7369ca7153e72dcf54bcf4c3daec0f5b21fc7","pixelSha256":"1052ae7ed79c25c278caa51190d294ed118568138695679b4eef6ede6a0a75fd","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/60","tileIndex":60,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/61","tileIndex":61,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/62","tileIndex":62,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/63","tileIndex":63,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/64","tileIndex":64,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/65","tileIndex":65,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/66","tileIndex":66,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/67","tileIndex":67,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/68","tileIndex":68,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/32/tile/69","tileIndex":69,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[]}
+    ]},
+    {"blockId": 23, "tileCount": 70, "orderedIndexSha256": "e08a84c3891978326f7cb2b51695ffdd550d40f0a632948edb1b066aaed92959", "orderedRgbSha256": "6803e4a903c54e29b7112254c0f387b16313b4eda24eea0e472b12a9355ae549", "distinctReferencedTiles": 69, "tableMatchCount": 741, "bootBankExcluded": false, "tiles": [
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/0","tileIndex":0,"indexSha256":"82e426615674bebfc2730c7a0813cb4d4dba82486f263f495860cdf4ce575678","pixelSha256":"d09175ba96864d612c6923be76343687cf296c518c9775b1702872c1d78db151","matches":[[11,3,46,186],[11,7,46,186],[11,15,46,186],[11,27,46,186],[11,28,46,186],[11,29,46,186],[11,42,46,186],[11,45,46,186],[11,62,46,186],[11,65,46,186],[11,71,46,186],[11,75,46,186],[11,77,46,186],[11,80,46,186],[11,81,46,186],[11,110,46,186],[11,117,46,186],[11,118,46,186],[11,133,46,186],[11,138,46,186],[11,141,46,186],[11,154,46,186],[12,13,46,186],[12,14,46,186],[12,26,46,186],[12,43,46,186],[12,64,46,186],[12,68,46,186],[12,70,46,186],[12,73,46,186],[12,76,46,186],[12,79,46,186],[12,81,46,186],[12,115,46,186],[12,116,46,186],[12,136,46,186],[12,139,46,186],[12,154,46,186],[13,3,46,186],[13,7,46,186],[13,13,46,186],[13,15,46,186],[13,24,46,186],[13,41,46,186],[13,67,46,186],[13,154,46,186],[14,3,46,186],[14,7,46,186],[14,13,46,186],[14,15,46,186],[14,24,46,186],[14,27,46,186],[14,41,46,186],[14,42,46,186],[14,61,46,186],[14,63,46,186],[14,65,46,186],[14,67,46,186],[14,69,46,186],[14,73,46,186],[14,114,46,186],[14,117,46,186],[14,137,46,186],[14,138,46,186],[14,154,46,186],[15,3,46,186],[15,7,46,186],[15,13,46,186],[15,15,46,186],[15,26,46,186],[15,27,46,186],[15,42,46,186],[15,43,46,186],[15,70,46,186],[15,72,46,186],[15,76,46,186],[15,82,46,186],[15,87,46,186],[15,110,46,186],[15,114,46,186],[15,133,46,186],[15,137,46,186],[15,142,46,186],[15,154,46,186]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/1","tileIndex":1,"indexSha256":"e021fb31efd7d23b326bc5261dcecf5486cea070a340840e3659cbf9b462f55d","pixelSha256":"a7ca550be85a0775c2ca4416e2700bdd1fedef53b3ed369a22b42bbc24f68adc","matches":[[11,24,47,187],[11,63,47,187],[11,67,47,187],[11,68,47,187],[11,73,47,187],[11,112,47,187],[11,113,47,187],[11,114,47,187],[11,134,47,187],[11,135,47,187],[11,137,47,187],[12,24,47,187],[12,62,47,187],[12,65,47,187],[12,74,47,187],[14,62,47,187],[14,66,47,187],[14,110,47,187],[14,113,47,187],[14,133,47,187],[14,134,47,187],[15,24,47,187],[15,41,47,187],[15,63,47,187],[15,66,47,187],[15,69,47,187],[15,74,47,187],[15,75,47,187],[15,80,47,187],[15,112,47,187],[15,113,47,187],[15,117,47,187],[15,134,47,187],[15,135,47,187],[15,136,47,187],[15,140,47,187]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/2","tileIndex":2,"indexSha256":"24b4ac9f451a7db63bdb185a05adb84a23a6db977a0545cafa46e6c65c00d800","pixelSha256":"8e1c340a7376dad0457e6ed0fbc67543ee50183e43ea984855f5a30840535b07","matches":[[11,26,48,188],[11,43,48,188],[11,61,48,188],[11,64,48,188],[11,66,48,188],[11,70,48,188],[11,74,48,188],[11,105,48,188],[11,115,48,188],[11,116,48,188],[11,136,48,188],[11,139,48,188],[12,61,48,188],[12,63,48,188],[12,67,48,188],[12,69,48,188],[12,72,48,188],[12,96,48,188],[12,110,48,188],[12,113,48,188],[12,114,48,188],[12,122,48,188],[12,125,48,188],[12,134,48,188],[12,135,48,188],[12,137,48,188],[13,113,48,188],[14,68,48,188],[14,74,48,188],[14,75,48,188],[14,81,48,188],[14,82,48,188],[14,88,48,188],[14,89,48,188],[14,95,48,188],[14,96,48,188],[14,102,48,188],[14,103,48,188],[14,109,48,188],[14,112,48,188],[14,115,48,188],[14,119,48,188],[14,121,48,188],[14,123,48,188],[14,125,48,188],[14,127,48,188],[14,135,48,188],[14,136,48,188],[14,140,48,188],[14,142,48,188],[14,144,48,188],[14,146,48,188],[14,148,48,188],[15,62,48,188],[15,64,48,188],[15,67,48,188],[15,68,48,188],[15,73,48,188],[15,81,48,188],[15,89,48,188],[15,97,48,188],[15,115,48,188],[15,119,48,188],[15,123,48,188],[15,138,48,188],[15,144,48,188]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/3","tileIndex":3,"indexSha256":"b26f06903b2500198b6d0b8bfbdb738e939cc6da1ccce4ca2fd29d362ed8a588","pixelSha256":"3613e8edb2f374a4f100a26861529f292750e5760c7195d589c9e836a6f42de6","matches":[[11,47,49,189],[11,69,49,189],[11,72,49,189],[11,76,49,189],[11,78,49,189],[11,79,49,189],[11,82,49,189],[11,83,49,189],[11,84,49,189],[11,85,49,189],[11,86,49,189],[11,88,49,189],[11,89,49,189],[11,91,49,189],[11,93,49,189],[11,95,49,189],[11,119,49,189],[11,140,49,189],[12,28,49,189],[12,29,49,189],[12,44,49,189],[12,45,49,189],[12,47,49,189],[12,71,49,189],[12,75,49,189],[12,77,49,189],[12,78,49,189],[12,80,49,189],[12,82,49,189],[12,83,49,189],[12,85,49,189],[12,87,49,189],[12,88,49,189],[12,90,49,189],[12,94,49,189],[12,117,49,189],[12,118,49,189],[12,119,49,189],[12,121,49,189],[12,138,49,189],[12,140,49,189],[12,141,49,189],[12,143,49,189],[12,145,49,189],[14,14,49,189],[14,64,49,189],[14,70,49,189],[14,71,49,189],[14,72,49,189],[14,76,49,189],[14,77,49,189],[14,79,49,189],[14,80,49,189],[14,83,49,189],[14,87,49,189],[14,90,49,189],[14,94,49,189],[14,116,49,189],[14,118,49,189],[14,120,49,189],[14,122,49,189],[14,124,49,189],[14,126,49,189],[14,139,49,189],[14,141,49,189],[14,143,49,189],[14,145,49,189],[14,147,49,189],[14,149,49,189],[15,83,49,189]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/4","tileIndex":4,"indexSha256":"6687e1ef878452d97525e76738df4ecd11e1941430fb8125cbe7089647ba3403","pixelSha256":"6398928992e72c87c79159c0412ee62fbbdc4b264db955155c24480f60b3cb40","matches":[[14,16,50,190],[14,26,50,190],[14,28,50,190],[14,30,50,190],[14,32,50,190],[14,34,50,190],[14,44,50,190],[14,46,50,190],[14,48,50,190]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/5","tileIndex":5,"indexSha256":"b5d182b2566e927e734121d8d04943ce7cb3233b76118eb3976916865f831c98","pixelSha256":"2dc6c278858b02283ea4cc83813f1da1f0197506a892a4c74aad36735e9e3e5e","matches":[[14,18,51,191],[14,29,51,191],[14,31,51,191],[14,33,51,191],[14,43,51,191],[14,45,51,191],[14,47,51,191],[14,49,51,191],[14,51,51,191]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/6","tileIndex":6,"indexSha256":"69d00fa7d296140f2247261e0cc071e39152fea4009c9f64f5f35fea6c9f71ae","pixelSha256":"92d71fbb695282cbde469b692123c6566a10bb71afed685a8619621914cb2279","matches":[[14,78,52,192]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/7","tileIndex":7,"indexSha256":"7f094178f0782ea7bbc5c550abd4efd5d668f974a6e7515cb17679010c8434b3","pixelSha256":"638be8da90c18675e8e35599f7f5c5ec5cf40c2ce89a1c8025c7c8eb5f2657a8","matches":[[13,29,53,193],[13,31,53,193],[13,33,53,193],[13,43,53,193],[13,45,53,193],[13,47,53,193],[13,49,53,193],[13,51,53,193],[13,53,53,193]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/8","tileIndex":8,"indexSha256":"e9e2e2cb167b0523d936a77ddb5fb782e86e0e49ae0600d4f171cd6a1af97732","pixelSha256":"1dd5cc63a7328380b1e5164e0bb0fa9635747ad8ed2d4614994000b29f04b44a","matches":[[13,26,54,194],[13,28,54,194],[13,30,54,194],[13,32,54,194],[13,34,54,194],[13,36,54,194],[13,44,54,194],[13,46,54,194],[13,48,54,194]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/9","tileIndex":9,"indexSha256":"df18cdc4e1457ea2a991c86d9930a1bccfd29adbdfaf76dc0aae7b8bff1cbe5a","pixelSha256":"27433e78724685b1e343b9dab8c737d3ce9fbf6141e080151270852c8f493bb5","matches":[[15,5,55,195]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/10","tileIndex":10,"indexSha256":"818c3ad9a4217ae69cfadc13187e6abeccd4ba45376b9e47b9d75b33b336d52c","pixelSha256":"6ff4ed91dc8729ce3107497ff8a65c302967c6e406c09684d06ebd35615675b0","matches":[[15,9,56,196]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/11","tileIndex":11,"indexSha256":"7f6251c8774f8e5a30d80125aa503300e4f10d3878461dcf9df6e8f1888f3e1a","pixelSha256":"2b965636e14e980aaaa7badaa369359425f0e2779daf05d6b590f0cb3021c3fb","matches":[[14,35,57,197]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/12","tileIndex":12,"indexSha256":"651858fc702ea58d9d2b23a9b56ed7b139aea865be3bfa3697cae5b410ba91af","pixelSha256":"0924956dff699a41680b16919c839c3e90f3770f98debe8b654e83914829f5c2","matches":[[14,50,58,198]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/13","tileIndex":13,"indexSha256":"f575f51af00549a28fe53bb2d36be7e707f9bd50841a3ebc27b90be83fcf879d","pixelSha256":"6960d163a365cd8b427a7e8cf6a118be9ee3ef2dbd1383a150abcef8bc71b1ab","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/14","tileIndex":14,"indexSha256":"7395b47fe11ba77d6d151f440a8042c49ee5d19e2a84a7d3df66c61394be21c4","pixelSha256":"3a28328efc5cdb7575929655e76487895c8a93393866b0ca8021bc1221ad655d","matches":[[13,16,60,200],[13,19,60,200],[13,68,60,200],[13,75,60,200],[13,82,60,200],[13,89,60,200],[13,96,60,200],[13,103,60,200],[13,135,60,200],[13,136,60,200],[13,140,60,200],[13,142,60,200],[13,144,60,200],[13,146,60,200],[13,148,60,200]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/15","tileIndex":15,"indexSha256":"e021fb31efd7d23b326bc5261dcecf5486cea070a340840e3659cbf9b462f55d","pixelSha256":"a7ca550be85a0775c2ca4416e2700bdd1fedef53b3ed369a22b42bbc24f68adc","matches":[[13,62,61,201],[13,66,61,201],[13,110,61,201],[13,133,61,201],[13,134,61,201],[15,14,61,201]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/16","tileIndex":16,"indexSha256":"3c3ad651a609783a29ba1d4cb028ea20f397f77cbc3e99359779286be7dbadc8","pixelSha256":"cee3b91ac441c8d14f615f4453a11cfa5cce455cc6906cb992a04e336b4c6411","matches":[[13,14,62,202],[13,63,62,202],[13,64,62,202],[13,65,62,202],[13,69,62,202],[13,73,62,202],[13,114,62,202],[13,137,62,202]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/17","tileIndex":17,"indexSha256":"a423af5ff0312728adeb0f86d4c03963afab8d18a375c47501d34b9a06608a6b","pixelSha256":"64fccd570fba2bbbb3b647781fe921c775565fec023247c5ee474bee4e2bed41","matches":[[12,66,63,203],[12,112,63,203],[12,133,63,203]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/18","tileIndex":18,"indexSha256":"9d1ef74a7bfb277dd7c87052d5a02adde8324453e3b12f65022bc6a7a4090214","pixelSha256":"d8907abc21122c53d016c9e1c30d6c2c1eaa3405d474bc6432cf39cb473e8ebd","matches":[[8,0,204,204],[8,2,204,204],[8,6,204,204],[8,10,204,204],[8,11,204,204],[8,12,204,204],[8,22,204,204],[8,23,204,204],[8,25,204,204],[8,37,204,204],[8,38,204,204],[8,39,204,204],[8,40,204,204],[8,52,204,204],[8,54,204,204],[8,55,204,204],[8,56,204,204],[8,57,204,204],[8,58,204,204],[8,59,204,204],[8,60,204,204],[8,111,204,204],[8,131,204,204],[8,132,204,204],[8,152,204,204],[13,18,64,204],[13,21,64,204],[13,61,64,204],[13,74,64,204],[13,81,64,204],[13,88,64,204],[13,95,64,204],[13,102,64,204],[13,109,64,204],[13,112,64,204],[13,115,64,204],[13,119,64,204],[13,121,64,204],[13,123,64,204],[13,125,64,204],[13,127,64,204]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/19","tileIndex":19,"indexSha256":"e7238db038d6ccf331fb45672c96e2c3bff23e693c9d6efdf7e92ab51e78e1df","pixelSha256":"9bda3c73c05362afe80a7d2df7c64851454353182f9a0d84d8f8f960f1acb5fb","matches":[[11,1,65,205],[11,17,65,205],[11,30,65,205],[11,44,65,205],[11,120,65,205],[12,8,65,205],[12,16,65,205],[12,18,65,205],[12,31,65,205],[12,49,65,205],[12,86,65,205],[12,89,65,205],[12,92,65,205],[12,120,65,205],[15,90,65,205],[15,94,65,205]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/20","tileIndex":20,"indexSha256":"9a2ad6c4aacbf5d4a3c4345c9c89bf724115675f3b518970a9b31484131cee8f","pixelSha256":"3fba6f293614a9f1365a449ac92232154d35f8b13912c318bc2701f3b4e96070","matches":[[15,44,66,206]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/21","tileIndex":21,"indexSha256":"f7720cdf72df709f0d8ee24931a4560ad0c73f698de636c2ff8a241d5c5138a4","pixelSha256":"21709d0dbe4aaea4a1005f8fb18acfe0c1d7ba7799f06b15cf8c0edac63655d1","matches":[[15,29,67,207]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/22","tileIndex":22,"indexSha256":"775348461029e90af4cae4031dc2a29d91cc44cf53070417e169fe671f6d80f3","pixelSha256":"440685b536aaf0fb2eebcc71e030702d5ac9faec28883dae2b35f1dce61865e1","matches":[[15,32,68,208]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/23","tileIndex":23,"indexSha256":"660c9137041df7fee1e07afbab2108910f911684c330bb77996e8f065f964a2e","pixelSha256":"c4e046cb9a44ebf49d45448f0d91a366e97c25fecc1b737a813672011908d587","matches":[[15,33,69,209],[15,45,69,209]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/24","tileIndex":24,"indexSha256":"804150ea362f7d4e857c43c3d8073a4b31bf48eb5f7d97ee7e90a089f7242d51","pixelSha256":"bafd82f14b4dd1647fcb2184e2711311d0eae29159124526356f8b1f1bd55331","matches":[[15,17,70,210],[15,20,70,210]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/25","tileIndex":25,"indexSha256":"4b72147d5936f1968aabd67c6130b4f4c8e2debe0ae9768178e1a87bc87790a6","pixelSha256":"482d072f56b5d79b1942ec6a095cb2e43b7be610f7dade0f0a36e636ba50df6a","matches":[[11,41,71,211],[11,94,71,211],[11,99,71,211],[11,122,71,211],[11,123,71,211],[11,126,71,211],[11,145,71,211],[11,149,71,211],[12,32,71,211],[12,41,71,211],[12,91,71,211],[12,93,71,211],[12,99,71,211],[12,104,71,211],[12,126,71,211],[12,144,71,211],[12,149,71,211],[15,19,71,211],[15,21,71,211],[15,65,71,211],[15,95,71,211],[15,101,71,211]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/26","tileIndex":26,"indexSha256":"6af704b22c5ea1c882fd79443d7123a1dd5b3073bd346fa2ae0c6c6fc5e1beee","pixelSha256":"43821c5214cee9976c1f70e0e70effa3d3c2f4af70e711349f666344c4556dc0","matches":[[15,30,72,212],[15,34,72,212],[15,46,72,212]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/27","tileIndex":27,"indexSha256":"ca6b64ff095bceaa5c6fb4b03242f1bbb255e3cec470a991f64936eb49527dc6","pixelSha256":"39625057bc5d88298a73f58d7865438111ff5b14338ffdf9ace453ca9ea92749","matches":[[15,49,73,213]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/28","tileIndex":28,"indexSha256":"872e7589cb20df8b13a3404dd567c99016fd81fa5b9b3fa2dc78abea740e3ce7","pixelSha256":"913384cc923281b249440695bd0cb3b09476969485f7a12724e3caa7d0ecad7e","matches":[[11,19,74,214],[11,20,74,214],[11,21,74,214],[11,33,74,214],[11,34,74,214],[11,48,74,214],[11,51,74,214],[11,97,74,214],[11,101,74,214],[11,103,74,214],[11,104,74,214],[11,106,74,214],[11,107,74,214],[11,108,74,214],[11,109,74,214],[11,124,74,214],[11,125,74,214],[11,127,74,214],[11,128,74,214],[11,146,74,214],[11,147,74,214],[11,148,74,214],[11,151,74,214],[12,106,74,214],[12,108,74,214],[15,96,74,214],[15,102,74,214],[15,103,74,214],[15,104,74,214],[15,108,74,214],[15,109,74,214],[15,125,74,214],[15,127,74,214],[15,146,74,214],[15,148,74,214]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/29","tileIndex":29,"indexSha256":"58efe999349dacaf0dc5617c211a6ba65b323bab63ebe6ca16423d3549c0cc7d","pixelSha256":"bc21bec839819f6b8df7ac23c12ecbbdffae91208f0effe88c6a757208729dc9","matches":[[11,4,75,215],[11,8,75,215],[11,16,75,215],[11,18,75,215],[11,31,75,215],[11,32,75,215],[11,46,75,215],[11,49,75,215],[11,87,75,215],[11,90,75,215],[11,92,75,215],[11,96,75,215],[11,98,75,215],[11,100,75,215],[11,102,75,215],[11,121,75,215],[11,142,75,215],[11,143,75,215],[11,144,75,215],[11,155,75,215],[12,1,75,215],[12,4,75,215],[12,17,75,215],[12,30,75,215],[12,46,75,215],[12,84,75,215],[12,95,75,215],[12,97,75,215],[12,101,75,215],[12,123,75,215],[12,142,75,215],[12,147,75,215],[12,155,75,215],[13,155,75,215],[14,155,75,215],[15,16,75,215],[15,18,75,215],[15,88,75,215],[15,121,75,215],[15,155,75,215]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/30","tileIndex":30,"indexSha256":"64d33104d9af17f2e4dc542ddb36eb968dfbccc50cf07e0e8bebe2a9b19c0c9e","pixelSha256":"2f29b9ca2cf2e3464af8a686100afe1ed70b3436448e9280c58fde44aba62b7e","matches":[[15,4,76,216],[15,8,76,216]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/31","tileIndex":31,"indexSha256":"1fa4e2ce6d74b082c0bb1621bcc467dcfdc016c21a0af7b825b126c3eed6dfc5","pixelSha256":"77855ec5aca7e665ffea3dc65924719386eac750da7071532438d5819c857c93","matches":[[12,19,77,217],[12,20,77,217],[12,21,77,217],[12,33,77,217],[12,34,77,217],[12,48,77,217],[12,51,77,217],[12,98,77,217],[12,100,77,217],[12,102,77,217],[12,103,77,217],[12,105,77,217],[12,107,77,217],[12,109,77,217],[12,124,77,217],[12,127,77,217],[12,128,77,217],[12,146,77,217],[12,148,77,217],[12,151,77,217]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/32","tileIndex":32,"indexSha256":"2c5197fbe640953856deb55454a7bf8425b9fe5f6ad6dbb94d5df83b1027b90c","pixelSha256":"7a841d1190ed1b20d14c1b750bf7539d3b521f00363459c781fd399094ddbf7f","matches":[[11,9,78,218],[11,50,78,218],[11,53,78,218],[11,150,78,218],[11,153,78,218],[13,150,78,218],[14,150,78,218],[15,150,78,218]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/33","tileIndex":33,"indexSha256":"f3553c7593445c3fa8f7fef81f4805a51ea5828734023b7dfedad32d9e1138b4","pixelSha256":"dfc60689d556f1229db1e66d6666d4753ac66ad3b9f7aecf3fe011e7ba032b63","matches":[[11,5,79,219],[11,35,79,219],[11,36,79,219],[11,129,79,219],[11,130,79,219],[13,129,79,219],[14,129,79,219],[15,129,79,219]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/34","tileIndex":34,"indexSha256":"77dac103c9802f6bdf19718d1a5ab49e1882986e1d99b935dbc294ae6c082de7","pixelSha256":"32a88c9aecacb8eb845cdee4711da9934d37caf91faaf1cd9d3cbf8e62734ecc","matches":[[12,9,80,220],[12,50,80,220],[12,53,80,220],[12,150,80,220],[12,153,80,220]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/35","tileIndex":35,"indexSha256":"20aabcd823ef945d40bd7c24034ed1b5657b35f2293da4f8b35a3dc9775e99d7","pixelSha256":"4257ba86f3b91fc288586cbe23f3a68f7a72afc7b919de2ffbffb0b9826236e3","matches":[[8,7,221,221],[8,41,221,221],[8,42,221,221],[8,133,221,221],[8,134,221,221],[12,5,81,221],[12,35,81,221],[12,36,81,221],[12,129,81,221],[12,130,81,221]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/36","tileIndex":36,"indexSha256":"d4731d2c85b6cee14876895097463ec94420cb59b6ad24c8fd45750895875f2b","pixelSha256":"1fd27405af9ca7c96c772c70332e1bc64086fde7dd9eb835b7c6af34359a8946","matches":[[8,3,222,222],[8,24,222,222],[8,27,222,222],[8,110,222,222],[8,113,222,222],[15,61,82,222]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/37","tileIndex":37,"indexSha256":"8f861d19195aa716528462c605b41c3a57e6d8d9aa1487605aa2c1c6ffd3a678","pixelSha256":"d6bb36eb7f42fd077e310d1faf6c7a79997d7bb9301988aeff216de5bb3e0e30","matches":[[8,8,223,223],[8,17,223,223],[8,47,223,223],[8,48,223,223],[8,51,223,223],[8,66,223,223],[8,67,223,223],[8,68,223,223],[8,69,223,223],[8,71,223,223],[8,75,223,223],[8,76,223,223],[8,82,223,223],[8,84,223,223],[8,85,223,223],[8,92,223,223],[8,93,223,223],[8,95,223,223],[8,96,223,223],[8,97,223,223],[8,102,223,223],[8,103,223,223],[8,105,223,223],[8,107,223,223],[8,117,223,223],[8,118,223,223],[8,123,223,223],[8,124,223,223],[8,127,223,223],[8,128,223,223],[8,139,223,223],[8,140,223,223],[8,143,223,223],[8,147,223,223],[8,148,223,223],[8,151,223,223],[15,31,83,223],[15,47,83,223],[15,51,83,223]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/38","tileIndex":38,"indexSha256":"56b8142d4dabcd7c259cd06f27a787050c26f0215ebfbfca4e55e4abd27b4766","pixelSha256":"a88614a304109607f99ed20d5d9c1fab72b1b3106fe6bd889242b606776a2378","matches":[[8,1,224,224],[8,20,224,224],[8,28,224,224],[8,31,224,224],[8,32,224,224],[8,34,224,224],[8,46,224,224],[8,61,224,224],[8,62,224,224],[8,78,224,224],[8,80,224,224],[8,81,224,224],[8,87,224,224],[8,90,224,224],[8,94,224,224],[8,98,224,224],[8,99,224,224],[8,100,224,224],[8,104,224,224],[8,120,224,224],[8,125,224,224],[8,144,224,224],[8,155,224,224],[15,126,84,224],[15,141,84,224]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/39","tileIndex":39,"indexSha256":"8426a3133edb5af6906f68027ee7ec507d4d7bbfc77cb3ce08366733faae71c7","pixelSha256":"befe99fe5fe805d9ff40887f72036a444845e99dbac37fbfddef4a19741e98ad","matches":[[8,43,225,225],[8,45,225,225],[8,49,225,225],[8,63,225,225],[8,70,225,225],[8,72,225,225],[8,73,225,225],[8,74,225,225],[8,77,225,225],[8,86,225,225],[8,88,225,225],[8,89,225,225],[8,91,225,225],[8,106,225,225],[8,108,225,225],[8,109,225,225],[8,112,225,225],[8,114,225,225],[8,116,225,225],[8,119,225,225],[8,121,225,225],[8,122,225,225],[8,126,225,225],[8,137,225,225],[8,138,225,225],[8,141,225,225],[8,142,225,225],[8,145,225,225],[8,146,225,225],[8,149,225,225],[15,28,85,225],[15,48,85,225]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/40","tileIndex":40,"indexSha256":"47d29547f20da00b4fa9b0c96c0969172f23b6fee2909c054da2fc2c9d0bb359","pixelSha256":"075ada369f709b0bd24f9ffca232a8a039f84d2abedb14fd52cb91afdddf4873","matches":[[13,35,86,226]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/41","tileIndex":41,"indexSha256":"29039d4d7a7186430917b5afde4a85b2c2b6fb90652eca936b93daace889c38a","pixelSha256":"d1c1a3e1cfeb7543ceca02ea9204a6f5e8c9cd814feacda68b0f523abf00e8dc","matches":[[8,44,227,227],[8,135,227,227],[8,136,227,227],[13,50,87,227]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/42","tileIndex":42,"indexSha256":"90b001c6a7b64bba01cc2358316c115fcda1c455b3ea562c509d8fd3faf466b0","pixelSha256":"6a7169670c19a71922a5d079c9baea0509cb65c5ad5a508e7027c6148381cdee","matches":[[8,26,228,228],[8,29,228,228],[8,115,228,228],[14,19,88,228]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/43","tileIndex":43,"indexSha256":"01bd268b7b9d35da2b7ef2f7d5afb4ad90e2a4a606c6b9ae99c3cc87e4996903","pixelSha256":"6a096a85f873e36781a4f7403b4739e4e81f7211cff12c80a4b8b2f5f6aafcd5","matches":[[8,13,229,229],[8,14,229,229],[8,18,229,229],[8,19,229,229],[8,30,229,229],[14,21,89,229]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/44","tileIndex":44,"indexSha256":"60b4e797f2e97d8a1acee32eeffd745eea5a64f01905efdf775b5d1a5c41204d","pixelSha256":"dd403f237ccca9fe05654754bf14642948c737ab70bee3b4684b985511d789d7","matches":[[14,17,90,230]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/45","tileIndex":45,"indexSha256":"8c0966db0cfda52c9b10805569db78e52357811b3b2d5ee47f0ab09addff631b","pixelSha256":"e5c223c377beb5b204a7d017fa981f6fb54b94c63d315fc79a6f077dfd906c91","matches":[[14,1,91,231]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/46","tileIndex":46,"indexSha256":"d3ebff6e3c615e8a4592531eedba57a8d9c7431993de9bb4889d3f8b74176d71","pixelSha256":"d1ffafc6c722b7c3b7115c8003a603183bb234c0428930c2dff0d0b78acd608e","matches":[[14,4,92,232],[14,8,92,232]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/47","tileIndex":47,"indexSha256":"cf54e1993881e2dc8aaba4da672c2701e10601892fc137082f6dc14c35a60bfd","pixelSha256":"91e49fd49c5a22fa792bfa8203c39f58447b27b83550c9fd658f49b0c27add17","matches":[[8,4,233,233],[8,15,233,233],[8,16,233,233],[8,21,233,233],[8,33,233,233],[8,64,233,233],[8,65,233,233],[8,79,233,233],[8,83,233,233],[8,101,233,233],[11,13,93,233],[11,14,93,233],[12,3,93,233],[12,7,93,233],[12,15,93,233],[12,27,93,233],[12,42,93,233],[15,71,93,233]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/48","tileIndex":48,"indexSha256":"ecedb2f50ab9a1fb0f84cf7dd8ec93aa1fca84a61a8ca7500d99ad7ffe034265","pixelSha256":"7d30c08f73aa4a8ce46d3c9003f0c5d55d3945555aff8eaccffed41e601d1932","matches":[[13,27,94,234],[13,117,94,234]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/49","tileIndex":49,"indexSha256":"d92d748b900a94227b4d3f66a3255dc90c869b10d220696a2a6864742f611f7c","pixelSha256":"c23e48500fd41e5dad559f8ee8e40c451d6a82ba8a87491782d6e9b5738e63d7","matches":[[8,9,235,235],[8,50,235,235],[8,53,235,235],[8,150,235,235],[8,153,235,235],[13,42,95,235],[13,138,95,235]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/50","tileIndex":50,"indexSha256":"e877866e6889d531ccdac019835adf31a44eeee4282990fcfc1ecf96d5d7fba7","pixelSha256":"7427566fcc729d7a99338823d855fc8ab314464ff4743d6e0ba3b06448148d35","matches":[[8,5,236,236],[8,35,236,236],[8,36,236,236],[8,129,236,236],[8,130,236,236],[14,5,96,236],[14,36,96,236],[15,36,96,236]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/51","tileIndex":51,"indexSha256":"b190b354fb0e771008ff619602e4b76d79b8af4aab95d9c151101b2e1ba21e01","pixelSha256":"52ea0a559d4bc44954cc3997fd82311c450c5f80a6c1287949091582cc3d0a95","matches":[[14,9,97,237],[14,53,97,237],[15,53,97,237]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/52","tileIndex":52,"indexSha256":"bf21d23fb84e12e1cc5e94f3e7264f7d7fa01fe492fdbe737d6ae842c21ace8d","pixelSha256":"840b8e244f78274e29519c32aacd6e3b342a395e79b3abf44b8abc88f4143b68","matches":[[14,91,98,238],[14,104,98,238]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/53","tileIndex":53,"indexSha256":"1505ef08d8e3dedc9b343c4a1f6852289492ef0fef3087718e272c4ecd207f95","pixelSha256":"aef3a00cf078b3dacba63539a7860a42ae64b28dc9d41f18069387d3c87f0dff","matches":[[14,84,99,239],[14,97,99,239]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/54","tileIndex":54,"indexSha256":"41d615d5b26739f377d56f7926e830dc0c741db6c462e8ad036706850101008d","pixelSha256":"ff6c06d13f879491ba3445eeb6da1493995a12a4ca24f8c5ce3c547db133f813","matches":[[14,86,100,240],[14,101,100,240]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/55","tileIndex":55,"indexSha256":"eee67cf3e78009e4d04b8f8dab1ef1193299af7a22c53c5dacf7c36097829887","pixelSha256":"27bbbb6a782cf67e426e64cd1076092b2dd0b420c820dfed165af11af18f1561","matches":[[14,93,101,241],[14,108,101,241]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/56","tileIndex":56,"indexSha256":"948824f9c6c9487e7559fc5d8d0402f61266a896f6866e45616a46320ce47659","pixelSha256":"035ba4e735aea649a0aca78de08da0ffcab6e42867e4cfc9505869ea83dc0daf","matches":[[14,128,102,242]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/57","tileIndex":57,"indexSha256":"285dda46e2ad02c19d6af46a83203f4108be52a6ce5b865c4f27fb46aa16b266","pixelSha256":"ae40b98b2b6fc15933c4319780f6a6653f397d58b6ad6f74f0ef0a02c2962e05","matches":[[14,151,103,243]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/58","tileIndex":58,"indexSha256":"ad3e4396fa419b4439de424f3d0ef84f0d7630d701e4c845e05c5f7c87e38918","pixelSha256":"bc188ec369c962c38b85d521d3a4343ddb6be7a507ac5de6efd280b6bf4aa0be","matches":[[13,1,104,244],[13,4,104,244],[13,8,104,244]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/59","tileIndex":59,"indexSha256":"bbadc48a9813f1f842bf520e3ffb1e10f46877e53379cf3ecfbcc8d0b6b4fd7e","pixelSha256":"04a88070df5e7be6fead90ec7fbac50da80b1ea18acf1f3d57664a5bd040a608","matches":[[15,1,105,245]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/60","tileIndex":60,"indexSha256":"feaf8019d1f6d57a4bbb02683c3c1b985d94694401d2ee29eec53e5e68cfa7bb","pixelSha256":"33ca69d00cda9cde363338294c6767b48a12042555764b72accb4647c217de13","matches":[[15,35,106,246]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/61","tileIndex":61,"indexSha256":"3a783df04c04de86cdaca6bb06250a7c7d63a4857a33a74262469d074fcab031","pixelSha256":"e24f0cf6c47fb8e8a1acf92d5f16202cc6adf8e76015120a55909687a4c12bda","matches":[[15,50,107,247]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/62","tileIndex":62,"indexSha256":"6ad9a0a3fa1bcce71d0f04a7e3cb660e98263d3aa9f7b36ca1e3ce008adbf180","pixelSha256":"b4580838c1de9997a5054d79b03ec5a95ca71fc5302c99123cac1044b2c0e47d","matches":[[15,77,108,248],[15,139,108,248]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/63","tileIndex":63,"indexSha256":"9548b71e5acc5f612e8a4824a94f5c6a0c3c7931a8b5b6e862c22e22d54a5827","pixelSha256":"7b21af8909ef06008167e34e51edcd33149a767121fa86242142c322b0dec4df","matches":[[15,79,109,249],[15,116,109,249]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/64","tileIndex":64,"indexSha256":"6e600422970b99e9607f0b669344bba7b4d73242483e786a8aa678fe31b27080","pixelSha256":"be4f18ae05e629cf0ab451a6820c21ac6e87ffbf1c04e0c2cd7415b14e1c6880","matches":[[15,84,110,250],[15,98,110,250]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/65","tileIndex":65,"indexSha256":"5c32bb8e4e6a1a2c1a221c85158e343f0f1313f8599349d16d122190dfffbeb0","pixelSha256":"e41f985c73ce5db9ecb924a46c1bab02b83eeb50bbe2694afccce73d2b51ac3e","matches":[[15,85,111,251],[15,86,111,251],[15,99,111,251],[15,100,111,251]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/66","tileIndex":66,"indexSha256":"d06225204176dcc27175a750ae06da4a50ccda521692d1582d105264158e22cf","pixelSha256":"6675677a3ca1949e59d8f5ea9eb7aa1fdb1cfc34415a629890e84864caaabaf9","matches":[[15,118,112,252],[15,149,112,252]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/67","tileIndex":67,"indexSha256":"2d23614b8d361d187365559306b55dcc336e9b5f1ef86a4ac2c6a9490f8cfe06","pixelSha256":"ada8cc083b68830c04b71af207d8593384fa58b23b7b6f568cabcc17b0549c51","matches":[[11,0,113,253],[12,0,113,253],[13,0,113,253],[14,0,113,253],[15,0,113,253]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/68","tileIndex":68,"indexSha256":"2a29aa26af8478eaf539b4fb921f1c0223b63c9e5c9483dc9c2ee2b848daae91","pixelSha256":"f20ef72a4be159ef1b2ea65d107848cde95049a8b5d97dc86f494c58881dce43","matches":[[13,5,114,254]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/23/tile/69","tileIndex":69,"indexSha256":"7f47f9dfc3eac4eead6e568a4a7972e5abf66f7187dd5a064d61b7aa8608e481","pixelSha256":"decef3bcf8ad1c9e6f02936aa295369e8acad6126215107031aeef2766bb8e70","matches":[[13,9,115,255]]}
+    ]},
+    {"blockId": 203, "tileCount": 45, "orderedIndexSha256": "331bcad9f1c00e68c55c6279871be22ae70adb7ec4601a95edc175bb2947a210", "orderedRgbSha256": "eb1c078f32f16363c16f51a8a67d5b68e37a2d23f68bedadff9bf8081d929f3d", "distinctReferencedTiles": 15, "tableMatchCount": 389, "bootBankExcluded": true, "tiles": [
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/0","tileIndex":0,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[[1,0,1,1],[1,2,1,1],[1,6,1,1],[1,10,1,1],[1,11,1,1],[1,12,1,1],[1,22,1,1],[1,23,1,1],[1,25,1,1],[1,38,1,1],[1,39,1,1],[1,40,1,1],[1,54,1,1],[1,55,1,1],[1,56,1,1],[1,57,1,1],[1,58,1,1],[1,59,1,1],[1,60,1,1],[1,111,1,1],[1,132,1,1],[1,154,1,1],[2,0,1,1],[2,2,1,1],[2,6,1,1],[2,10,1,1],[2,11,1,1],[2,12,1,1],[2,22,1,1],[2,23,1,1],[2,25,1,1],[2,38,1,1],[2,39,1,1],[2,40,1,1],[2,54,1,1],[2,55,1,1],[2,56,1,1],[2,57,1,1],[2,58,1,1],[2,59,1,1],[2,60,1,1],[2,111,1,1],[2,132,1,1],[2,154,1,1],[3,0,1,1],[3,2,1,1],[3,6,1,1],[3,10,1,1],[3,11,1,1],[3,12,1,1],[3,22,1,1],[3,23,1,1],[3,25,1,1],[3,38,1,1],[3,39,1,1],[3,40,1,1],[3,54,1,1],[3,55,1,1],[3,56,1,1],[3,57,1,1],[3,58,1,1],[3,59,1,1],[3,60,1,1],[3,111,1,1],[3,132,1,1],[3,154,1,1],[4,0,1,1],[4,2,1,1],[4,6,1,1],[4,10,1,1],[4,11,1,1],[4,12,1,1],[4,22,1,1],[4,23,1,1],[4,25,1,1],[4,38,1,1],[4,39,1,1],[4,40,1,1],[4,54,1,1],[4,55,1,1],[4,56,1,1],[4,57,1,1],[4,58,1,1],[4,59,1,1],[4,60,1,1],[4,111,1,1],[4,132,1,1],[4,154,1,1],[5,0,1,1],[5,2,1,1],[5,6,1,1],[5,10,1,1],[5,11,1,1],[5,12,1,1],[5,22,1,1],[5,23,1,1],[5,25,1,1],[5,38,1,1],[5,39,1,1],[5,40,1,1],[5,54,1,1],[5,55,1,1],[5,56,1,1],[5,57,1,1],[5,58,1,1],[5,59,1,1],[5,60,1,1],[5,111,1,1],[5,132,1,1],[5,154,1,1],[6,0,1,1],[6,2,1,1],[6,6,1,1],[6,10,1,1],[6,11,1,1],[6,12,1,1],[6,22,1,1],[6,23,1,1],[6,25,1,1],[6,38,1,1],[6,39,1,1],[6,40,1,1],[6,54,1,1],[6,55,1,1],[6,56,1,1],[6,57,1,1],[6,58,1,1],[6,59,1,1],[6,60,1,1],[6,111,1,1],[6,132,1,1],[6,154,1,1],[7,0,1,1],[7,2,1,1],[7,6,1,1],[7,10,1,1],[7,11,1,1],[7,12,1,1],[7,22,1,1],[7,23,1,1],[7,25,1,1],[7,38,1,1],[7,39,1,1],[7,40,1,1],[7,54,1,1],[7,55,1,1],[7,56,1,1],[7,57,1,1],[7,58,1,1],[7,59,1,1],[7,60,1,1],[7,111,1,1],[7,132,1,1],[7,154,1,1],[8,154,1,1],[11,2,1,1],[11,6,1,1],[11,10,1,1],[11,11,1,1],[11,12,1,1],[11,22,1,1],[11,23,1,1],[11,25,1,1],[11,38,1,1],[11,39,1,1],[11,40,1,1],[11,54,1,1],[11,55,1,1],[11,56,1,1],[11,57,1,1],[11,58,1,1],[11,59,1,1],[11,60,1,1],[11,111,1,1],[11,132,1,1],[12,2,1,1],[12,6,1,1],[12,10,1,1],[12,11,1,1],[12,12,1,1],[12,22,1,1],[12,23,1,1],[12,25,1,1],[12,38,1,1],[12,39,1,1],[12,40,1,1],[12,54,1,1],[12,55,1,1],[12,56,1,1],[12,57,1,1],[12,58,1,1],[12,59,1,1],[12,60,1,1],[12,111,1,1],[12,132,1,1],[13,2,1,1],[13,6,1,1],[13,10,1,1],[13,11,1,1],[13,12,1,1],[13,22,1,1],[13,23,1,1],[13,25,1,1],[13,38,1,1],[13,39,1,1],[13,40,1,1],[13,54,1,1],[13,55,1,1],[13,56,1,1],[13,57,1,1],[13,58,1,1],[13,59,1,1],[13,60,1,1],[14,2,1,1],[14,6,1,1],[14,10,1,1],[14,11,1,1],[14,12,1,1],[14,22,1,1],[14,23,1,1],[14,25,1,1],[14,38,1,1],[14,39,1,1],[14,40,1,1],[14,54,1,1],[14,55,1,1],[14,56,1,1],[14,57,1,1],[14,58,1,1],[14,59,1,1],[14,60,1,1],[14,111,1,1],[14,132,1,1],[15,2,1,1],[15,6,1,1],[15,10,1,1],[15,11,1,1],[15,12,1,1],[15,22,1,1],[15,23,1,1],[15,25,1,1],[15,38,1,1],[15,39,1,1],[15,40,1,1],[15,54,1,1],[15,55,1,1],[15,56,1,1],[15,57,1,1],[15,58,1,1],[15,59,1,1],[15,60,1,1],[15,111,1,1],[15,132,1,1]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/1","tileIndex":1,"indexSha256":"ed9d9ca42d2000290b3404250bb79544f96360bcf0309205f8f4a001283a5e3f","pixelSha256":"f41ab935d7d28026ab7e0b6f8ac7699c0a3e489f7fdf0d5601e0aeefb9bfdcf7","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/2","tileIndex":2,"indexSha256":"d7659e736405aff65a1b07649b7ffc16075fc1c43827ae547c5261aaa2ce5553","pixelSha256":"a7111e3cbb3c212255896380bab0b8a12c9b35a94c4c37b9671967e7b040f747","matches":[[1,37,3,3],[1,52,3,3],[1,130,3,3],[1,131,3,3],[1,152,3,3],[1,153,3,3],[2,37,3,3],[2,52,3,3],[2,131,3,3],[2,152,3,3],[3,37,3,3],[3,52,3,3],[3,131,3,3],[3,152,3,3],[4,37,3,3],[4,52,3,3],[4,131,3,3],[4,152,3,3],[5,37,3,3],[5,52,3,3],[5,131,3,3],[5,152,3,3],[6,37,3,3],[6,52,3,3],[6,131,3,3],[6,152,3,3],[7,37,3,3],[7,52,3,3],[7,131,3,3],[7,152,3,3],[11,37,3,3],[11,52,3,3],[11,131,3,3],[11,152,3,3],[12,37,3,3],[12,52,3,3],[12,131,3,3],[12,152,3,3],[13,37,3,3],[13,52,3,3],[13,131,3,3],[13,152,3,3],[14,37,3,3],[14,52,3,3],[14,130,3,3],[14,131,3,3],[14,152,3,3],[14,153,3,3],[15,37,3,3],[15,52,3,3],[15,131,3,3],[15,152,3,3]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/3","tileIndex":3,"indexSha256":"6f349af9ea265dadd297d20e7c0ac29cd1f8e71bf46e7cfa090e6ad93e627e6b","pixelSha256":"20b53421d46b300eeed74bf937b2fc8184d033a604565d39745167e7286a2b70","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/4","tileIndex":4,"indexSha256":"27fad7aae451a587684b379d06dc49abbd0280d3047fc5951efdf8142f5fb207","pixelSha256":"8dd36fe90d7b165c525dfd2cb7490772b9c2e40081166858a8bb38d499a72d26","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/5","tileIndex":5,"indexSha256":"3942f43683d8e1f76a10e9d3dc6f608c55938473823fa32514e1100b92f479dc","pixelSha256":"75d6d52183356f648bc5f36f0f9f148d8f8568f24ba4c431ac16320609cf6a89","matches":[[4,84,6,6],[4,141,6,6],[7,84,6,6],[7,141,6,6]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/6","tileIndex":6,"indexSha256":"e05c49674f61413e958d8c57f241968c3e8574d6ae3f1ab06e30507b322d3aae","pixelSha256":"0991cee58661d996df757c23a05263757d4046ebfc869b390151bf34c227a930","matches":[[4,91,7,7],[4,98,7,7],[4,105,7,7],[4,143,7,7],[4,145,7,7],[4,147,7,7],[4,149,7,7],[4,151,7,7],[7,91,7,7],[7,98,7,7],[7,105,7,7],[7,143,7,7],[7,145,7,7],[7,147,7,7],[7,149,7,7],[7,151,7,7],[15,91,7,7],[15,105,7,7],[15,120,7,7],[15,122,7,7],[15,124,7,7],[15,143,7,7],[15,145,7,7],[15,147,7,7],[15,151,7,7]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/7","tileIndex":7,"indexSha256":"5209507af737c23a4e4bd2d8f64d435e5acbb75074ab339a6944028470782798","pixelSha256":"2362e8b0cd0dd458c0d5faa27200e305c60335050199b3c4714519ae95772a1b","matches":[[4,86,8,8],[4,118,8,8],[7,86,8,8],[7,118,8,8]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/8","tileIndex":8,"indexSha256":"84a5e65150d3128b6e080ac8b952f40e90d82f40d0b3c345d2be51f4952c9f10","pixelSha256":"19ea05385cdd33a832957a82bbbed879bd5cfa023f845249531dcd6e596a48d2","matches":[[4,92,9,9],[4,93,9,9],[4,99,9,9],[4,106,9,9],[4,107,9,9],[4,120,9,9],[4,122,9,9],[4,126,9,9],[4,128,9,9],[7,92,9,9],[7,93,9,9],[7,99,9,9],[7,106,9,9],[7,107,9,9],[7,120,9,9],[7,122,9,9],[7,126,9,9],[7,128,9,9],[15,92,9,9],[15,93,9,9],[15,106,9,9],[15,107,9,9],[15,128,9,9]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/9","tileIndex":9,"indexSha256":"5489a60945a1c69e6349b1dbbbfa55e6e0f2a04200f80cb2d4297b8177cee54c","pixelSha256":"7c599fe2f6e6b7e8a94e623890092e38a4199413c1fbe83329cfc7e324ea2432","matches":[[4,85,10,10],[7,85,10,10],[15,78,10,10]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/10","tileIndex":10,"indexSha256":"297ae58620a76aff7e45afd3c6c147f02104a51cd0202ea310ca5b2f4777faad","pixelSha256":"16cd5a688597e3e9ac5bd1be4303dbba322ad67c0686992b6a90d9e28e4ec819","matches":[[4,100,11,11],[7,100,11,11]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/11","tileIndex":11,"indexSha256":"d6e2b36d0c2dfcf9be4a21aa01aa4c5963e746369908bdaea194d40a86b0e2e6","pixelSha256":"40e5c5a4b51dff5a369d4731797b504cf047edba53e724c2800e53d7799884fe","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/12","tileIndex":12,"indexSha256":"6cfeeb3aa25d3f411dae5eec17d7369ca7153e72dcf54bcf4c3daec0f5b21fc7","pixelSha256":"1052ae7ed79c25c278caa51190d294ed118568138695679b4eef6ede6a0a75fd","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/13","tileIndex":13,"indexSha256":"f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b","pixelSha256":"5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5","matches":[[13,111,14,14],[13,132,14,14],[14,20,14,14],[14,85,14,14],[14,92,14,14],[14,98,14,14],[14,99,14,14],[14,100,14,14],[14,105,14,14],[14,106,14,14],[14,107,14,14]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/14","tileIndex":14,"indexSha256":"5cd6a66ea49aab4e8bda09171f5e34f506c3505635929f1e7c6562ecdb35fabd","pixelSha256":"971a8fba0684dbd96848c5e9208eb79c6791084ffb468a43938c1e4bae1c6acc","matches":[[1,35,15,15]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/15","tileIndex":15,"indexSha256":"cf6bcc90da4882e2c026c9cc7a2eea8353bd798c98be0414e07ce1f623aa3ff2","pixelSha256":"8922b9d48c24e217b83fbc168db6a326aa67c2fc52977516307329dbca9d0cb4","matches":[[1,50,16,16]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/16","tileIndex":16,"indexSha256":"831bc49d7c2dac57fa9c218646f79d0443432d719739f37f4b2cbb20dcd6171b","pixelSha256":"e8125a8ae8810b42f021ae33633bce5910177580c7ec14b30c2e771f089076f6","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/17","tileIndex":17,"indexSha256":"96e0b8c074e4c27120783ddfc9778bcbb7cf66e9bc7a31aaa3c46ce273c5f2cb","pixelSha256":"8a34791b720d5d7abee2e3b74c7cb7320f71ce0f64366e7bd03bd88036797156","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/18","tileIndex":18,"indexSha256":"c795e2437501817b129d4b8693bb6761b578b30b15a070048f1db9f9aa31bf0a","pixelSha256":"adba9b09f0a565d8b08438821a929c3b88eda420fc46d650377739367c5048f3","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/19","tileIndex":19,"indexSha256":"deaa012e915bdf12ec803643b3489d9abdef5dcbe1bb0ee9f2a1062cac8a5921","pixelSha256":"2cf9c09412d0176a7786357d3179c915fc9c65875e0c85755e633ae804e2533d","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/20","tileIndex":20,"indexSha256":"443a1d37b41169ba2071ab1719f2598ca3f43e33416ff2f3c249e19f6d90692c","pixelSha256":"86341092a6ef7bf9945e6bcd142fc0585436ebcd9680ca6552f2ba770a472c8a","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/21","tileIndex":21,"indexSha256":"4fcc848a9cd760ab8010cc42d5f2d1b6c6546d21efd1e0d1b4d642e4c866b24a","pixelSha256":"1d431d51e441ad67bb7f832d2357e29eca7c51b93923f915171e75f78d56c73d","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/22","tileIndex":22,"indexSha256":"7fc8447bc99736a1e0a8a6708423fb28b959db71a05d21e5e5dfa58789606bc6","pixelSha256":"1e9b0321effaa8e025d540440c0cdd5aa56517f4fad3a0c05741f749000122c3","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/23","tileIndex":23,"indexSha256":"6e79bfd25d5584d1c81d14612b493f0ed7c12921cb807a42bb7fe4047d6bb3cb","pixelSha256":"9236927faf95ea609066fbee89f9cf413bdb0de3ba7c3ed9950d36dcc5ba42b2","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/24","tileIndex":24,"indexSha256":"6f6f969c8ecb9ff350374472d3b42c7881c4c0c6418453df90ff8b5fe0c02e54","pixelSha256":"30484f1cbd31e98dadeb52b186b55e4a5eb04bc7e650a2b9ccfeb8df66c79e38","matches":[[4,130,25,25],[7,130,25,25],[15,130,25,25]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/25","tileIndex":25,"indexSha256":"b1a848c682938b7be2a115fad17649dbf0601de86b137d1ff263592b8901f129","pixelSha256":"d9ba9309de4788989eb97f3c91af2c718a50861c4ec14bc5449e8d9ad6224a56","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/26","tileIndex":26,"indexSha256":"69a5d92602cc513077b9b730dcf2a53a826935ce23bff892addca3ca4f04f262","pixelSha256":"8c3f5210f0d86f69d1358f928d16b929fa3684f2455a1d6afa78b1fefca5b145","matches":[[4,153,27,27],[7,153,27,27],[15,153,27,27]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/27","tileIndex":27,"indexSha256":"7107621492955c3c523f4528598de4c3b4204fcd0500f82ccf6505676e535fba","pixelSha256":"daa942997fdbe599b8695deb20572dd5cae1a7340ecc2f4efb55263fee91e3ca","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/28","tileIndex":28,"indexSha256":"34d674d615ad4ec68bab6745ba758bf7a601287d1884904a4fc21292999febb8","pixelSha256":"a01d2dcfac025725298c71e88779f802272eed724255cd63ee9a7f5b9853a1a0","matches":[[4,20,29,29],[7,20,29,29]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/29","tileIndex":29,"indexSha256":"8388f70ec9595ce213b8a29a43e4a26b7e1cce30e87739873f77f19bf8adb939","pixelSha256":"d66ba7b0cd6e133be84759a69f5feb5527ad254bd68bdaf433d7326be1dd633b","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/30","tileIndex":30,"indexSha256":"46738bf47808669a87acff94a6807aea20e439559fb862f28ba2703957f79d94","pixelSha256":"a144e2a87e4ce49f58334ca82bcd8ef0af3cd18ba51259053f170d570a2e3d44","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/31","tileIndex":31,"indexSha256":"ef3c0f14e09cd0a99a5237bdb4a3c889f58c4e504b1ae3e89f459782bb37d5d3","pixelSha256":"c69ec5b8bebfba1f4206f0877c91bce06e3b4bc4e4c22a5cba0798a94c667a93","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/32","tileIndex":32,"indexSha256":"3c07cc96383e51ec7fff1b4dea4d6596878feaed2de3ba0343c42ede17ab2f87","pixelSha256":"65aa70a2965fdf6fe1b5f35a7e8a014de3f6ad3ff7d3d3c28e7121303cd11116","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/33","tileIndex":33,"indexSha256":"2f7439721d4efb828caf1d57119a74ff6664fd1175b1d11fef981214aa454478","pixelSha256":"ac0e0c70a8eb011c92074176fac5725ae16c8d0db4b1feb1b0dbed168e066d5e","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/34","tileIndex":34,"indexSha256":"710d69dd54ee43aad61644c6f6a3e30511a4a754ee799ba302836c2cd7e1d9e8","pixelSha256":"522ed1ff8e4ee7833f205851d2e9bfa3e1a153f1fe5a6cb8419fa32e605f5c5a","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/35","tileIndex":35,"indexSha256":"83a47be8f7541c55e4af4555aef88155720e0c7e664b78d7182822ecc183dce7","pixelSha256":"ec4587c5464eb007b273be760dfd61adea89d6bbf64f1b3a540c7ae44e9a4461","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/36","tileIndex":36,"indexSha256":"1d6eb4ed973c205ab636ed57fc8357372bbab20d11e8b9fe42f66222193801fe","pixelSha256":"2e7beef6f457dfef266c6729d055220ce74b8abd692659c903b6c788dfa87135","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/37","tileIndex":37,"indexSha256":"913ec3731829b1e00440bc691c3584db0efd230d4535c50590648260cdbbd6a3","pixelSha256":"5b35bc5b3b6d0e6b05ad03ddcb54f965c78a5c6505a9981a40db2dce4c16e384","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/38","tileIndex":38,"indexSha256":"aa6f4f9ce990cf65ed1292cb8198cd2752df6026bf588a996ef8d667cfafe1a6","pixelSha256":"ee34f26cfb98fe2f1914ed235e0365ef5b069ae55682fb484d5339bc14e4ac41","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/39","tileIndex":39,"indexSha256":"ed11a107e77bf23aaf5e3448407dcf969708c9aeaeedccef7135345f93117730","pixelSha256":"20c643e090028f226e4d5be7d5293de9a407a8cd8ffed064235f7e760bda7d15","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/40","tileIndex":40,"indexSha256":"195e9b93e8621946683a00161346595e0fa7b31ddbbf27fb0214ea3bfbe5c4dc","pixelSha256":"907d9175b3885d790fc137fcfe86147bd8a517a24cba881bb6febe81a6111d8f","matches":[[4,124,41,41],[7,124,41,41]]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/41","tileIndex":41,"indexSha256":"7a128cc02d3a0bf5cb49a3d6c04fb7ef793368a7413172aec694936214d6ecd8","pixelSha256":"29e315d9718283a3e5fc8302a1a128e6bb95951956d5f59f71a0773bf5da189c","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/42","tileIndex":42,"indexSha256":"73b2d348e064961a851853cb4aaff104a6d6de0c25e671f8e96cb8472d5f9406","pixelSha256":"0cf1cfb74725550fb2bb82c07468481c0e2eb550ec9ce4fa09c2dc4d7a81b658","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/43","tileIndex":43,"indexSha256":"97ff4f78b15e4481b61bed70d5dffe6e9ab47632e36ac34439b23705f1f723b5","pixelSha256":"6b9df2c4943f687b94cc54e6e38f4f6d63682a75fb84043808f81ed43e5a6ebd","matches":[]},
+      {"sourceAssetId":"cok/dos-ega/disk1/8x8d1.dax/block/203/tile/44","tileIndex":44,"indexSha256":"0f4b1a9b48d743fb4a96365c9273bdcc00793840f01dba3175c8c70c58681309","pixelSha256":"8cd2e92ec98d7a00de0a025236fee2943cb40c33370869f22a611678641d06df","matches":[]}
+    ]}
+  ]
+}

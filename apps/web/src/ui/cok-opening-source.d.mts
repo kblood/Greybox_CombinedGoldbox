@@ -1,0 +1,12 @@
+import type { DaaArchive, IndexedImage, RgbaArt } from '@goldbox/engine';
+import type { AssetSource } from './assetSource.js';
+import type { DialoguePictureSource, DialoguePictureVariant, DialogueSceneArt } from './dialogue.js';
+export const COK_COTTAGE_BASE_SOURCE: Readonly<DialoguePictureSource>;
+export const COK_COTTAGE_SOURCE: Readonly<DialoguePictureSource>;
+export const COK_COTTAGE_RESTYLE: Readonly<{ pictureId: 112; logicalId: 'opening.cottage'; comparisonId: 'scene_cok_cottage'; stem: '002_scene_cok_cottage'; nativeWidth: 304; nativeHeight: 120; pixelScale: 6; sha256: string }>;
+export const COK_COTTAGE_LINEAGE: Readonly<Record<string,string>>;
+export function matchesCokCottageSource(candidate: Readonly<DialoguePictureSource> | null | undefined, expected?: Readonly<DialoguePictureSource>): boolean;
+export function createCokCottageSceneArt(baseSource: Readonly<DialoguePictureSource> | null | undefined, options: { loadRestyle: () => Promise<RgbaArt>; amigaVariant?: DialoguePictureVariant }): DialogueSceneArt | undefined;
+export function loadSelectedCokCottageOriginal(options: { assetSource: AssetSource | null; isCurrent: () => boolean; decode: (bytes: Uint8Array, name: string) => DaaArchive; rgba: (image: IndexedImage) => Uint8ClampedArray }): Promise<DialoguePictureVariant | undefined>;
+export function validateCokCottageOutput(input: ArrayBuffer | Uint8Array): Promise<Uint8Array>;
+export function requestCokCottageOutput(options: { mode: string; baseSource: Readonly<DialoguePictureSource> | null | undefined; fetchImage: typeof fetch; url: string }): Promise<Uint8Array | null>;

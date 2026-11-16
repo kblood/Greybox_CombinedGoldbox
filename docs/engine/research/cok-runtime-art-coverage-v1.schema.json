@@ -1,0 +1,247 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CoK runtime art source coverage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema", "inputs", "runtimeObservation", "productionPackage", "consumers", "limitations",
+    "summary", "requests", "mappings", "sourceAssets", "restyleRecords", "sourceFrameGroups",
+    "frames", "outputs", "originalVariants", "travelMapLayers", "demoCombat"
+  ],
+  "properties": {
+    "schema": { "const": "cok-runtime-art-coverage-v1" },
+    "inputs": { "type": "object", "additionalProperties": { "$ref": "#/$defs/hash" } },
+    "runtimeObservation": { "const": "unverified" },
+    "productionPackage": { "const": "unverified" },
+    "consumers": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["sources", "modeBehavior"],
+        "properties": {
+          "sources": { "$ref": "#/$defs/ids" },
+          "modeBehavior": {
+            "type": "object",
+            "required": ["DOS-EGA", "Amiga", "Restyle"],
+            "additionalProperties": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "limitations": { "$ref": "#/$defs/ids" },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "combatScan", "eclPictureSites", "mappingEntriesByConsumer", "outputPaths",
+        "distinctOutputHashes", "framesByKind", "frameComponentPlacements", "canonicalSourceIds"
+      ],
+      "properties": {
+        "combatScan": {
+          "type": "object",
+          "required": [
+            "evidenceScope", "complete", "selectedPathOnly", "entrySiteRows", "physicalSites",
+            "representativePathsWithAlternates", "truncatedInstructionOffsets", "blocksAtStateLimit", "byBank"
+          ],
+          "properties": {
+            "evidenceScope": { "const": "representative paths of a static CoK ECL scan" },
+            "complete": { "const": false },
+            "selectedPathOnly": { "const": true },
+            "entrySiteRows": { "$ref": "#/$defs/count" },
+            "physicalSites": { "$ref": "#/$defs/count" },
+            "representativePathsWithAlternates": { "$ref": "#/$defs/count" },
+            "truncatedInstructionOffsets": { "$ref": "#/$defs/count" },
+            "blocksAtStateLimit": { "$ref": "#/$defs/count" },
+            "byBank": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "required": [
+                  "distinctImmediatePictureIds", "withDeclaredMapping", "unmappedPictureIds",
+                  "distinctDynamicSites", "distinctCombatSites", "sitesWithNoLocalRosterEntry", "withoutLocalRosterEntryRows"
+                ],
+                "properties": {
+                  "unmappedPictureIds": {
+                    "type": "array", "uniqueItems": true,
+                    "items": { "type": "integer", "minimum": 0, "maximum": 255 }
+                  }
+                },
+                "additionalProperties": { "$ref": "#/$defs/count" }
+              }
+            }
+          }
+        },
+        "eclPictureSites": {
+          "type": "object",
+          "required": ["total", "dynamic", "withConditionalSource"],
+          "additionalProperties": { "$ref": "#/$defs/count" }
+        },
+        "mappingEntriesByConsumer": { "$ref": "#/$defs/countsById" },
+        "outputPaths": { "$ref": "#/$defs/count" },
+        "distinctOutputHashes": { "$ref": "#/$defs/count" },
+        "framesByKind": { "$ref": "#/$defs/countsById" },
+        "frameComponentPlacements": { "$ref": "#/$defs/count" },
+        "canonicalSourceIds": { "$ref": "#/$defs/count" }
+      }
+    },
+    "requests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "consumer", "evidence", "archive", "archiveSha256", "blockId", "blockSha256", "offset", "status"],
+        "properties": {
+          "kind": { "enum": ["ecl-picture", "combat-entry"] },
+          "archiveSha256": { "$ref": "#/$defs/hash" },
+          "blockSha256": { "$ref": "#/$defs/hash" },
+          "blockId": { "type": "integer", "minimum": 0 },
+          "offset": { "type": "integer", "minimum": 0 },
+          "status": { "type": "string", "minLength": 1 }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "kind": { "const": "ecl-picture" } } },
+            "then": {
+              "required": ["pictureId", "sourceIds", "conditionalMappingIds", "entries"],
+              "properties": {
+                "pictureId": { "type": ["integer", "null"] },
+                "sourceIds": { "$ref": "#/$defs/ids" },
+                "conditionalMappingIds": { "$ref": "#/$defs/ids" }
+              }
+            },
+            "else": {
+              "required": [
+                "bank", "bankArchiveSha256", "entry", "localRoster", "dynamicPictureOperandCount",
+                "alternatePaths", "rosteredPaths", "bindings"
+              ],
+              "properties": {
+                "bankArchiveSha256": { "$ref": "#/$defs/hash" },
+                "localRoster": { "type": "boolean" },
+                "dynamicPictureOperandCount": { "$ref": "#/$defs/count" },
+                "alternatePaths": { "$ref": "#/$defs/count" },
+                "rosteredPaths": { "$ref": "#/$defs/count" },
+                "bindings": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["pictureId", "rawPictureOperands", "sourceId", "mappingId"],
+                    "properties": {
+                      "pictureId": { "type": "integer", "minimum": 0, "maximum": 255 },
+                      "rawPictureOperands": { "type": "array", "items": { "type": "integer" }, "minItems": 1 },
+                      "sourceId": { "type": ["string", "null"] },
+                      "mappingId": { "type": ["string", "null"] }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mappings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "consumer", "evidence", "baseSourceId", "generationSourceId", "sourceStatus", "outputPath",
+          "exactRestyleRecordIds", "admission", "admissionReason", "compositionStatus",
+          "sourcePins", "sourcePngComparison", "automaticRequestAssociation"
+        ],
+        "properties": {
+          "baseSourceId": { "type": ["string", "null"] },
+          "generationSourceId": { "type": ["string", "null"] },
+          "sourceStatus": { "enum": ["source-pinned", "unresolved-locator"] },
+          "exactRestyleRecordIds": { "$ref": "#/$defs/ids" },
+          "admission": { "enum": ["runtime-declared", "admitted", "held"] },
+          "admissionReason": { "type": ["string", "null"] },
+          "compositionStatus": { "enum": ["awaiting-review", "unverified"] },
+          "sourcePins": { "type": "object", "additionalProperties": { "$ref": "#/$defs/hash" } },
+          "sourcePngComparison": { "enum": ["match", "different-render", "unverified"] },
+          "automaticRequestAssociation": { "type": "boolean" }
+        }
+      }
+    },
+    "sourceAssets": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["platform", "archive", "archiveSha256", "locator", "sourcePngSha256", "pixelSha256", "frameGroupId", "restyleRecordIds"],
+        "properties": {
+          "archiveSha256": { "$ref": "#/$defs/hash" },
+          "sourcePngSha256": { "$ref": "#/$defs/nullableHash" },
+          "pixelSha256": { "$ref": "#/$defs/nullableHash" },
+          "restyleRecordIds": { "$ref": "#/$defs/ids" }
+        }
+      }
+    },
+    "restyleRecords": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["registryReview", "promptStatus", "outputs"],
+        "properties": {
+          "registryReview": { "type": "string" },
+          "promptStatus": { "type": "string" },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["sha256", "role"],
+              "properties": { "sha256": { "$ref": "#/$defs/hash" }, "role": { "type": "string" } }
+            }
+          }
+        }
+      }
+    },
+    "sourceFrameGroups": { "type": "object" },
+    "frames": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["kind", "admission", "reason", "consumerIds", "components"],
+        "properties": {
+          "kind": { "enum": ["screen-composition", "player-component-variant"] },
+          "consumerIds": { "$ref": "#/$defs/ids" },
+          "components": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["role", "mappingId"]
+            }
+          }
+        }
+      }
+    },
+    "outputs": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["sha256"],
+        "additionalProperties": false,
+        "properties": { "sha256": { "$ref": "#/$defs/hash" } }
+      }
+    },
+    "originalVariants": { "type": "object", "additionalProperties": { "type": ["string", "null"] } },
+    "demoCombat": {
+      "type": "object",
+      "required": ["archive", "archiveSha256", "blockId", "blockSha256", "offset", "bank", "evidence", "bindings"],
+      "properties": {
+        "archiveSha256": { "$ref": "#/$defs/hash" },
+        "blockSha256": { "$ref": "#/$defs/hash" },
+        "evidence": { "$ref": "#/$defs/ids" },
+        "bindings": {
+          "type": "array",
+          "items": { "type": "object", "required": ["slot", "pictureId", "mappingId", "sourceId"] }
+        }
+      }
+    },
+    "travelMapLayers": { "type": "array", "items": { "type": "object", "required": ["role"] } }
+  },
+  "$defs": {
+    "count": { "type": "integer", "minimum": 0 },
+    "countsById": { "type": "object", "additionalProperties": { "$ref": "#/$defs/count" } },
+    "hash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "nullableHash": { "anyOf": [{ "$ref": "#/$defs/hash" }, { "type": "null" }] },
+    "ids": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } }
+  }
+}

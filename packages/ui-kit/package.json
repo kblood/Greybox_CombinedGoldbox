@@ -1,0 +1,25 @@
+{
+  "name": "@goldbox/ui-kit",
+  "version": "0.1.0",
+  "description": "Gold Box / Greybox shared display code (ScreenSurface) used by both apps/web and apps/author. DOM-dependent — unlike @goldbox/engine, this package is not pure.",
+  "type": "module",
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@goldbox/engine": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

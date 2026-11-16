@@ -1,0 +1,15 @@
+[
+  {
+    "id": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "sourceSet": {
+      "game": "cok",
+      "platform": "DOS-EGA",
+      "edition": "DOS disk 1"
+    },
+    "archive": {
+      "name": "PIC1.DAX",
+      "path": "Champions of Krynn/PIC1.DAX",
+      "sha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97"
+    }
+  }
+]

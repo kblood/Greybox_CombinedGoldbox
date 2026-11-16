@@ -1,0 +1,1228 @@
+{
+  "schema": "goldbox-native-test-ownership/1",
+  "entries": [
+    {
+      "path": "native/cccombat-hlib-moncha-consumer-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cccombat-moncha-bounds-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccbind-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cccombat-dokinit-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cccombat-dqkai-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cccombat-glib-moncha-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cccombat-party8-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cccombat-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccdat-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccdatwiztest.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-ack-resume-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts",
+        "tools/test_native_ack_resume.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-buck-chained-step-scan.ps1",
+      "kind": "scan",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccecl-buck-entry-scan.ps1",
+      "kind": "scan",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccecl-buck-short-menu-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-clock-effects-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-dok-b51-provenance-scan.ps1",
+      "kind": "scan",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccecl-dok-b51-state-scan.ps1",
+      "kind": "scan",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-dok-b51-watch-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/ccecl-dok-chained-step-scan.ps1",
+      "kind": "scan",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccecl-dok-combat-gap-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/ccecl-dok-rng-test.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccecl-dok-route-scan.ps1",
+      "kind": "scan",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccecl-dok-short-menu-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-dok-static-combat-scan.ps1",
+      "kind": "scan",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/ccecl-dok-thief-matrix-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/ccecl-dqk-combat-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/ccecl-dqk-npc-route-test.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccecl-dqk-vmrun-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/ccecl-effects-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts",
+        "tools/test_native_ccecl_effects.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-matrix-op4c-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-matrix-short-menu-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-menu-resume-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-nwn-chained-step-scan.ps1",
+      "kind": "scan",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccecl-pod-short-menu-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-pool-menu-capacity-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-pools-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/ccecl-spell-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccecl-treasures-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/ccefx-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccflow-coab-count-test.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccflow-dqk-area2-test.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccflow-long-text-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccflow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccformats-test.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccfp-dqk-sound-test.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccfp-effects-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccfptest.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccfrontendtest.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/ccgeo-bridge-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccgeotest.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/cchlib-dqk-art-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cchlibtest.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/cchost-dqk-damage-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cchost-npc-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cchost-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccinv-item-query-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccinv-learning-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccinv-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccmenu-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccmusic-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccparty-dqkdice-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccparty-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccsession-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/ccsnd-play-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cctest.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/cgb-gbim-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/ccfp-encounter-art-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbfp-encounter-dos-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/cokability-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "tools/test_cok_native_abilities.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cokcombat-rng-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "tools/test_cok_combat_rng_native.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cokcommit-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "tools/test_cok_native_commit_v3.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cokhost-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "tools/test_cok_native_host.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cokmutation-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "tools/test_cok_native_mutation.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cokremove-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "tools/test_cok_native_removal.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cokrng-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "tools/test_cok_native_rng.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cokstats-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "tools/test_cok_native_stats.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/cokyield-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "tools/test_cok_native_yield.py:subprocess-gate"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/demo-sequence-source-test.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/dok-retail-hoststate-scan.ps1",
+      "kind": "scan",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/gbboot-create-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbboot-item-query-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/gbboot-learn-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/gbboot-lunar-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/gbboot-memorization-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/gbboot-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:gbboot-test.ps1"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/gbbroader-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbbuck-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$optionalFlows",
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbcoab-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$optionalFlows",
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbcok-demo-probe.ps1",
+      "kind": "probe",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/gbcok-playable-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$coreFlows",
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbcombat-icon-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdok-camp-rest-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdok-create-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdok-demo-probe.ps1",
+      "kind": "probe",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/gbdok-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdok-intro-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdok-journal-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdok-playable-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$coreFlows",
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdqk-amiga-glib-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$optionalFlows",
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdqk-area2-menu-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdqk-combat-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdqk-create-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$coreFlows",
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdqk-dispatch-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdqk-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdqk-intro-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdqk-multistep-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdqk-npc-join-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbdqk-playable-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$coreFlows",
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbflow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbgateway-glib-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$optionalFlows",
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbintro-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbpools-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbtreasures-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbgateway-dos-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbmatrix-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbnwn-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$optionalFlows",
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbplayable-suite-test.ps1",
+      "kind": "test",
+      "disposition": "advisory",
+      "owners": [],
+      "artifacts": [],
+      "reason": "Standalone source or focused harness; intentionally absent from the enumerated standing runner owners."
+    },
+    {
+      "path": "native/gbpool-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$optionalFlows",
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbscene-dos-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$flowScripts",
+        "native/test.ps1:direct-invocations"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbsecret-glib-combat-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$optionalFlows",
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbsecret-glib-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$optionalFlows",
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/gbsecret-hlib-flow-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/gbplayable-suite-test.ps1:$optionalFlows",
+        "native/test.ps1:$flowScripts"
+      ],
+      "artifacts": [
+        "native/flow-status.json"
+      ]
+    },
+    {
+      "path": "native/player-session-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/run-cok-session-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    },
+    {
+      "path": "native/run-goldbox-session-test.ps1",
+      "kind": "test",
+      "disposition": "required",
+      "owners": [
+        "native/test.ps1:$scripts"
+      ],
+      "artifacts": []
+    }
+  ]
+}

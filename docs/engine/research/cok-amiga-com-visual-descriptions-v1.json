@@ -1,0 +1,1606 @@
+{
+  "version": 1,
+  "scope": "Visible-appearance descriptions for all currently undescribed Amiga COMSPR, DUNGCOM, WILDCOM, and RANDCOM source identities; no game-role or playback semantics are inferred.",
+  "evidenceImagePathPattern": "apps/web/dist-app-cok57/restyle/cok-generated/images/{sourceSha256}.png",
+  "assets": [
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/0/frame/0",
+      "sourceSha256": "a2ce55888921f65ee0e2d7e9341916ca927636ee3d6597dc4b78e5eba1925cbd",
+      "pixelSha256": "06911583673483658f613b7fa73903093d09780525a701a18c5c13db02080857",
+      "visualDescription": "A narrow vertical brown shaft with a bright red pointed form at the lower end and a small pale tip at the top.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a2ce55888921f65ee0e2d7e9341916ca927636ee3d6597dc4b78e5eba1925cbd.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 a2ce55888921f65ee0e2d7e9341916ca927636ee3d6597dc4b78e5eba1925cbd and decoded pixel SHA-256 06911583673483658f613b7fa73903093d09780525a701a18c5c13db02080857; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/1/frame/0",
+      "sourceSha256": "88169e6ecc3c5637600e9263f93582cb030e707e59eab000de3819dda24d7fff",
+      "pixelSha256": "5d08c4e77b85fa4f67accd5259bac50dbd37d95900964208bbd4657fdd4bcb6c",
+      "visualDescription": "A slender diagonal brown shaft with a red pointed end at lower left and a small pale tip at upper right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/88169e6ecc3c5637600e9263f93582cb030e707e59eab000de3819dda24d7fff.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 88169e6ecc3c5637600e9263f93582cb030e707e59eab000de3819dda24d7fff and decoded pixel SHA-256 5d08c4e77b85fa4f67accd5259bac50dbd37d95900964208bbd4657fdd4bcb6c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/10/frame/0",
+      "sourceSha256": "0f43ffe93b417d2cd6c0a961857576dfbc9f90dbd6d27e7ad9d9d2b72d7c20fb",
+      "pixelSha256": "ad074e8d8689181c4e01454c51378488ac6f62dda6e18974b007b9f9ea8a1bf9",
+      "visualDescription": "A bright irregular central burst of red, orange, yellow, cyan and pale pixels, surrounded by a red outer glow.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/0f43ffe93b417d2cd6c0a961857576dfbc9f90dbd6d27e7ad9d9d2b72d7c20fb.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 0f43ffe93b417d2cd6c0a961857576dfbc9f90dbd6d27e7ad9d9d2b72d7c20fb and decoded pixel SHA-256 ad074e8d8689181c4e01454c51378488ac6f62dda6e18974b007b9f9ea8a1bf9; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/11/frame/0",
+      "sourceSha256": "cf01717fbe549fcafde08164433c439384974d56a71b8dc238b36057b045a636",
+      "pixelSha256": "0e4c066afbcc5e83b307bf3a80428dd9556a7486d72a2522020721b65d198165",
+      "visualDescription": "A pale skull above crossed bones on a deep red square background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/cf01717fbe549fcafde08164433c439384974d56a71b8dc238b36057b045a636.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 cf01717fbe549fcafde08164433c439384974d56a71b8dc238b36057b045a636 and decoded pixel SHA-256 0e4c066afbcc5e83b307bf3a80428dd9556a7486d72a2522020721b65d198165; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/128/frame/0",
+      "sourceSha256": "e25ec92258f90e14544ec5d54260c47e55ffbb1fae68b0260393ae27ff4ab10e",
+      "pixelSha256": "fec8ca5cf20efa413957af11ad1d0cf191bfdf3cb1ffa93b88da31da9d4dfd78",
+      "visualDescription": "A thin vertical brown shaft with a bright red forked shape at the top and a small pale tip at the bottom.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e25ec92258f90e14544ec5d54260c47e55ffbb1fae68b0260393ae27ff4ab10e.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 e25ec92258f90e14544ec5d54260c47e55ffbb1fae68b0260393ae27ff4ab10e and decoded pixel SHA-256 fec8ca5cf20efa413957af11ad1d0cf191bfdf3cb1ffa93b88da31da9d4dfd78; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/129/frame/0",
+      "sourceSha256": "9056ecc825adc9a9f1de0f1960bb04239cf076a8c656a9fa6003d50ca49ae905",
+      "pixelSha256": "dc80148f954ff1191f20a29d8cd273b0d5fe5db86e8a3d315b10246c112d4e01",
+      "visualDescription": "A diagonal dark shaft with a red-orange cluster at the upper-left end and a pale tip at lower right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9056ecc825adc9a9f1de0f1960bb04239cf076a8c656a9fa6003d50ca49ae905.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 9056ecc825adc9a9f1de0f1960bb04239cf076a8c656a9fa6003d50ca49ae905 and decoded pixel SHA-256 dc80148f954ff1191f20a29d8cd273b0d5fe5db86e8a3d315b10246c112d4e01; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/130/frame/0",
+      "sourceSha256": "01dde4c8b29eb8611445b3f2c837fc8dd1bd797bfcf21baa44197d3bec935a3e",
+      "pixelSha256": "a9d4ba5edaeb53bb3cbc68b50efbaf2ecb8f37fc183a3439cf6371e2fd7c0f50",
+      "visualDescription": "A horizontal dark shaft with a pale tip at left and a bright red cluster at the right end.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/01dde4c8b29eb8611445b3f2c837fc8dd1bd797bfcf21baa44197d3bec935a3e.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 01dde4c8b29eb8611445b3f2c837fc8dd1bd797bfcf21baa44197d3bec935a3e and decoded pixel SHA-256 a9d4ba5edaeb53bb3cbc68b50efbaf2ecb8f37fc183a3439cf6371e2fd7c0f50; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/131/frame/0",
+      "sourceSha256": "061ac94c313df7e6990983d297d3396c089f159728933b8114eeb8f036ad4358",
+      "pixelSha256": "caa0a8becd183f11396ece5d9dff0b595c1310feb03516f1ae0d71664911a0de",
+      "visualDescription": "A diagonal brown handle ending in a pale lavender angular head with a blue highlight.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/061ac94c313df7e6990983d297d3396c089f159728933b8114eeb8f036ad4358.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 061ac94c313df7e6990983d297d3396c089f159728933b8114eeb8f036ad4358 and decoded pixel SHA-256 caa0a8becd183f11396ece5d9dff0b595c1310feb03516f1ae0d71664911a0de; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/132/frame/0",
+      "sourceSha256": "71c0a5cd376a4664f82beca26932200497ce319cd166598f2df2874cbf5d92dd",
+      "pixelSha256": "19c0f472e181085a95d2601f8c2802ea1dbcffc6659468b1382b585535929133",
+      "visualDescription": "A diagonal cyan and pale blue rounded shape on a dark brown stem, ending in a small yellow-green tip.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/71c0a5cd376a4664f82beca26932200497ce319cd166598f2df2874cbf5d92dd.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 71c0a5cd376a4664f82beca26932200497ce319cd166598f2df2874cbf5d92dd and decoded pixel SHA-256 19c0f472e181085a95d2601f8c2802ea1dbcffc6659468b1382b585535929133; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/133/frame/0",
+      "sourceSha256": "ad0a8a6d656897b8bad0d6646f2463cc3b9b4527053e19a5b4842c67d0d4eae0",
+      "pixelSha256": "a6b27518ca94c5d609bfe7eb1774bf56d7e2c532ea89adabeae7fba6a306337d",
+      "visualDescription": "Three diagonal colored streaks in pale violet, green and orange-red, separated on a dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ad0a8a6d656897b8bad0d6646f2463cc3b9b4527053e19a5b4842c67d0d4eae0.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ad0a8a6d656897b8bad0d6646f2463cc3b9b4527053e19a5b4842c67d0d4eae0 and decoded pixel SHA-256 a6b27518ca94c5d609bfe7eb1774bf56d7e2c532ea89adabeae7fba6a306337d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/134/frame/0",
+      "sourceSha256": "9964d0f34b528067954c6bc59cf41bdd9b88d341004e73931cc0aaca09a65084",
+      "pixelSha256": "07c9d82fbc2f7a403a744804cb1974b42bd6553910e44851e1a6da0f9392be1e",
+      "visualDescription": "A branching angular cluster of lavender and blue-violet lines, with more empty space toward the upper-right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9964d0f34b528067954c6bc59cf41bdd9b88d341004e73931cc0aaca09a65084.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 9964d0f34b528067954c6bc59cf41bdd9b88d341004e73931cc0aaca09a65084 and decoded pixel SHA-256 07c9d82fbc2f7a403a744804cb1974b42bd6553910e44851e1a6da0f9392be1e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/135/frame/0",
+      "sourceSha256": "07d5bb737232788ad05495ba5c7325d262ead6143ef8c58c227f9aaae0dec839",
+      "pixelSha256": "ddc0c349f65a5d578efbd7604a9c0d86f24494d9641f3ae60da70f2efbbfb91d",
+      "visualDescription": "A round mottled orange-brown and pale gray cluster with a dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/07d5bb737232788ad05495ba5c7325d262ead6143ef8c58c227f9aaae0dec839.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 07d5bb737232788ad05495ba5c7325d262ead6143ef8c58c227f9aaae0dec839 and decoded pixel SHA-256 ddc0c349f65a5d578efbd7604a9c0d86f24494d9641f3ae60da70f2efbbfb91d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/136/frame/0",
+      "sourceSha256": "d515f021a31879005154197ba6d6e388058d5c105d47c08ec362e968f8a6aebc",
+      "pixelSha256": "61630d2f4c27392beb18ee9349b327128d97672ecbf02448e3223756a12492d3",
+      "visualDescription": "A tiny orange-brown pixel cluster near the center of an otherwise dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d515f021a31879005154197ba6d6e388058d5c105d47c08ec362e968f8a6aebc.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 d515f021a31879005154197ba6d6e388058d5c105d47c08ec362e968f8a6aebc and decoded pixel SHA-256 61630d2f4c27392beb18ee9349b327128d97672ecbf02448e3223756a12492d3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/137/frame/0",
+      "sourceSha256": "136ad5079082e8e461c56ef5e61dbcaf291fe002f66642e1aebe3b99ea86d090",
+      "pixelSha256": "36cbe59ee1c666b1e179c1b838de3d24046f8815776b3988cbb7e5b1981c19ae",
+      "visualDescription": "Small star-like green, cyan, violet and pale blue marks scattered across a dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/136ad5079082e8e461c56ef5e61dbcaf291fe002f66642e1aebe3b99ea86d090.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 136ad5079082e8e461c56ef5e61dbcaf291fe002f66642e1aebe3b99ea86d090 and decoded pixel SHA-256 36cbe59ee1c666b1e179c1b838de3d24046f8815776b3988cbb7e5b1981c19ae; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/138/frame/0",
+      "sourceSha256": "735455a05fd4a5601d140fb96b58b32f905a1541736145145e47bcb3c888f1bd",
+      "pixelSha256": "3425e4fbe29bd91a2397db754e6fd187212c71aa33162b4314ea38f72c1f6062",
+      "visualDescription": "A broad dense burst of red, orange, yellow, cyan and pale pixels filling most of a dark gray square.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/735455a05fd4a5601d140fb96b58b32f905a1541736145145e47bcb3c888f1bd.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 735455a05fd4a5601d140fb96b58b32f905a1541736145145e47bcb3c888f1bd and decoded pixel SHA-256 3425e4fbe29bd91a2397db754e6fd187212c71aa33162b4314ea38f72c1f6062; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/139/frame/0",
+      "sourceSha256": "6c712eca91f32f108adcd37d61667035fb62b9b59d54b1763ec6fad359b769af",
+      "pixelSha256": "8194259850dcae5f9eb9d6c23d92d6cdd97ec501b7e93cba17b7c48a383bcfb3",
+      "visualDescription": "A pale skull above crossed bones on a bright red square background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6c712eca91f32f108adcd37d61667035fb62b9b59d54b1763ec6fad359b769af.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 6c712eca91f32f108adcd37d61667035fb62b9b59d54b1763ec6fad359b769af and decoded pixel SHA-256 8194259850dcae5f9eb9d6c23d92d6cdd97ec501b7e93cba17b7c48a383bcfb3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/153/frame/0",
+      "sourceSha256": "fe5d736f1206365fbc0ef341ef3491ea34d55c4c7a89cadbf99102dd67e1b5f8",
+      "pixelSha256": "074f3254984028859d0a0c45809ea2b19ca104e6b0a7a8d9da4bc9b321706c9e",
+      "visualDescription": "A nearly square light gray panel with a dark outline and a narrow bright edge along the left and top.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fe5d736f1206365fbc0ef341ef3491ea34d55c4c7a89cadbf99102dd67e1b5f8.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 fe5d736f1206365fbc0ef341ef3491ea34d55c4c7a89cadbf99102dd67e1b5f8 and decoded pixel SHA-256 074f3254984028859d0a0c45809ea2b19ca104e6b0a7a8d9da4bc9b321706c9e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/154/frame/0",
+      "sourceSha256": "2e467eb78e1824a375dcded3e0a7f84f87c51a50fd6e9c7e5139e3e4ae1484d5",
+      "pixelSha256": "9e665b499131b728fe0e09ab3be69c14b78e357cb9f60b7aa8224a6e33cad422",
+      "visualDescription": "A narrow vertical pale shaft with a bright red forked shape at the top.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/2e467eb78e1824a375dcded3e0a7f84f87c51a50fd6e9c7e5139e3e4ae1484d5.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 2e467eb78e1824a375dcded3e0a7f84f87c51a50fd6e9c7e5139e3e4ae1484d5 and decoded pixel SHA-256 9e665b499131b728fe0e09ab3be69c14b78e357cb9f60b7aa8224a6e33cad422; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/155/frame/0",
+      "sourceSha256": "06ba892474196d4d227ce3073e295ed8117aeec6d810ecbcfbff21bb9f14243d",
+      "pixelSha256": "b6eaa25cc72405ec8e212031c3c1c00ffb508308093fab53500d0660be51651c",
+      "visualDescription": "A diagonal orange-red form with a pale blue tip and a short white trail.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/06ba892474196d4d227ce3073e295ed8117aeec6d810ecbcfbff21bb9f14243d.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 06ba892474196d4d227ce3073e295ed8117aeec6d810ecbcfbff21bb9f14243d and decoded pixel SHA-256 b6eaa25cc72405ec8e212031c3c1c00ffb508308093fab53500d0660be51651c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/156/frame/0",
+      "sourceSha256": "b71c5aed560f7ece15b5020b2568abef968c7a118842cfb42bc7d69086e077ce",
+      "pixelSha256": "59dcab1a4b810f9c156eccf52e7aba9d7acb5e18493de55308db3cd66ad9d81d",
+      "visualDescription": "A horizontal red-orange form with a pointed left end and a thin pale blue shaft extending to the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b71c5aed560f7ece15b5020b2568abef968c7a118842cfb42bc7d69086e077ce.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 b71c5aed560f7ece15b5020b2568abef968c7a118842cfb42bc7d69086e077ce and decoded pixel SHA-256 59dcab1a4b810f9c156eccf52e7aba9d7acb5e18493de55308db3cd66ad9d81d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/2/frame/0",
+      "sourceSha256": "a6c5d36a6d7ebf1f624e76ff3bb197b187aa7591ae2f8b744083f6c958c6237b",
+      "pixelSha256": "629ca72fd0809269d8912a93e5966ff5f7c8483345abebe8092e1d701e0eeaf5",
+      "visualDescription": "A horizontal dark shaft with a bright red cluster at the left end and a small pale tip at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a6c5d36a6d7ebf1f624e76ff3bb197b187aa7591ae2f8b744083f6c958c6237b.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 a6c5d36a6d7ebf1f624e76ff3bb197b187aa7591ae2f8b744083f6c958c6237b and decoded pixel SHA-256 629ca72fd0809269d8912a93e5966ff5f7c8483345abebe8092e1d701e0eeaf5; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/25/frame/0",
+      "sourceSha256": "fe5d736f1206365fbc0ef341ef3491ea34d55c4c7a89cadbf99102dd67e1b5f8",
+      "pixelSha256": "074f3254984028859d0a0c45809ea2b19ca104e6b0a7a8d9da4bc9b321706c9e",
+      "visualDescription": "A nearly square light gray panel with a dark outline and a narrow bright edge along the left and top.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fe5d736f1206365fbc0ef341ef3491ea34d55c4c7a89cadbf99102dd67e1b5f8.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 fe5d736f1206365fbc0ef341ef3491ea34d55c4c7a89cadbf99102dd67e1b5f8 and decoded pixel SHA-256 074f3254984028859d0a0c45809ea2b19ca104e6b0a7a8d9da4bc9b321706c9e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/26/frame/0",
+      "sourceSha256": "8e919f86a37ace9a32b59368c702a9d2cc6edf337292f4a936694f97cff073d3",
+      "pixelSha256": "c2b8796a3d7b83f781e79752fd345d632ffa6205de0c313e7ed15c23f4a63727",
+      "visualDescription": "A thin vertical pale shaft with a bright red and orange forked shape at its lower end.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8e919f86a37ace9a32b59368c702a9d2cc6edf337292f4a936694f97cff073d3.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 8e919f86a37ace9a32b59368c702a9d2cc6edf337292f4a936694f97cff073d3 and decoded pixel SHA-256 c2b8796a3d7b83f781e79752fd345d632ffa6205de0c313e7ed15c23f4a63727; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/27/frame/0",
+      "sourceSha256": "a8f2320fdba14f221011260ea531fbcaa0fecb4fd1a19260772a96d7b6aaa9c7",
+      "pixelSha256": "e205954d5e07df53d5dd0fcea7015c8177a07b88f5a449f42e039e243c3cb736",
+      "visualDescription": "A short diagonal red-orange form with a pale blue tip and a dark brown center.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a8f2320fdba14f221011260ea531fbcaa0fecb4fd1a19260772a96d7b6aaa9c7.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 a8f2320fdba14f221011260ea531fbcaa0fecb4fd1a19260772a96d7b6aaa9c7 and decoded pixel SHA-256 e205954d5e07df53d5dd0fcea7015c8177a07b88f5a449f42e039e243c3cb736; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/28/frame/0",
+      "sourceSha256": "d2f53486d4c8e6554b2aaaeb9829579ec1131376d02a250105ba6f7b808ac374",
+      "pixelSha256": "ddd376c5a5457ef302a24164c8ce2fac84afcb5c4b9750610fcf8fe45047231c",
+      "visualDescription": "A horizontal red-orange shape with two short prongs at the left and a thin pale blue shaft extending right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d2f53486d4c8e6554b2aaaeb9829579ec1131376d02a250105ba6f7b808ac374.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 d2f53486d4c8e6554b2aaaeb9829579ec1131376d02a250105ba6f7b808ac374 and decoded pixel SHA-256 ddd376c5a5457ef302a24164c8ce2fac84afcb5c4b9750610fcf8fe45047231c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/3/frame/0",
+      "sourceSha256": "ec40473125c0c709a3764129581bbfa1bc07824368cb8282329a4757918fd66b",
+      "pixelSha256": "698b82380d41c7d01f18fb685fbf7f1793a6510eedc38ecd226f605ca357f2ac",
+      "visualDescription": "A diagonal brown handle ending in a pale lavender angular head, with a small blue highlight.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ec40473125c0c709a3764129581bbfa1bc07824368cb8282329a4757918fd66b.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ec40473125c0c709a3764129581bbfa1bc07824368cb8282329a4757918fd66b and decoded pixel SHA-256 698b82380d41c7d01f18fb685fbf7f1793a6510eedc38ecd226f605ca357f2ac; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/4/frame/0",
+      "sourceSha256": "8ec41f03464c0879177c607ecca8e84b68eb8bcc39c2832316e473ea71fe47a1",
+      "pixelSha256": "296df5901716fdb8242b68ffafde07f8aca0b23d7a2d36556cf6b117a70a6f9c",
+      "visualDescription": "A diagonal blue and cyan rounded shape with a bright yellow-green tip and a short orange-magenta trail.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8ec41f03464c0879177c607ecca8e84b68eb8bcc39c2832316e473ea71fe47a1.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 8ec41f03464c0879177c607ecca8e84b68eb8bcc39c2832316e473ea71fe47a1 and decoded pixel SHA-256 296df5901716fdb8242b68ffafde07f8aca0b23d7a2d36556cf6b117a70a6f9c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/5/frame/0",
+      "sourceSha256": "6a6f5901cc4d0332d5cf8e707853f23fe808c2da3029335671a3cf9cd238050e",
+      "pixelSha256": "cddb74227de972ab4d917b99f99edba13dd237b6e3af95149cdafd03f54c32e1",
+      "visualDescription": "Three small diagonal colored streaks: green, pale violet and orange-red, each with a light highlight.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6a6f5901cc4d0332d5cf8e707853f23fe808c2da3029335671a3cf9cd238050e.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 6a6f5901cc4d0332d5cf8e707853f23fe808c2da3029335671a3cf9cd238050e and decoded pixel SHA-256 cddb74227de972ab4d917b99f99edba13dd237b6e3af95149cdafd03f54c32e1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/6/frame/0",
+      "sourceSha256": "1b4821193351ac64b34d907fd5aa04c8a06c6812a2dafe8fecdd40e3fd04e399",
+      "pixelSha256": "4282fa1beff326225859a4f4dff425cfd3c2f7931d72b03d70cd44d3c319b44b",
+      "visualDescription": "A tangled branching cluster of thin lavender and blue-violet lines on a dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1b4821193351ac64b34d907fd5aa04c8a06c6812a2dafe8fecdd40e3fd04e399.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 1b4821193351ac64b34d907fd5aa04c8a06c6812a2dafe8fecdd40e3fd04e399 and decoded pixel SHA-256 4282fa1beff326225859a4f4dff425cfd3c2f7931d72b03d70cd44d3c319b44b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/7/frame/0",
+      "sourceSha256": "83aa77f2888b9bc7ecafae89afc441ab17a9d7f0e8ba9cc461224f46b137ac72",
+      "pixelSha256": "d321857f04c7e74ef14f434dadbca5365320314e678585c289df116063ad69ad",
+      "visualDescription": "A round mottled orange-brown and pale gray cluster with a dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/83aa77f2888b9bc7ecafae89afc441ab17a9d7f0e8ba9cc461224f46b137ac72.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 83aa77f2888b9bc7ecafae89afc441ab17a9d7f0e8ba9cc461224f46b137ac72 and decoded pixel SHA-256 d321857f04c7e74ef14f434dadbca5365320314e678585c289df116063ad69ad; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/8/frame/0",
+      "sourceSha256": "93b87a8019546fad39462f6498324a99ea1044192ac5728dd40561869f2196b0",
+      "pixelSha256": "f562e666474b6c5116dab363fec68b6d0099a60547f8b37bc0a0057f32b0f551",
+      "visualDescription": "A tiny orange-brown pixel cluster near the center of an otherwise dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/93b87a8019546fad39462f6498324a99ea1044192ac5728dd40561869f2196b0.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 93b87a8019546fad39462f6498324a99ea1044192ac5728dd40561869f2196b0 and decoded pixel SHA-256 f562e666474b6c5116dab363fec68b6d0099a60547f8b37bc0a0057f32b0f551; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/comspr.daa/block/9/frame/0",
+      "sourceSha256": "d7a116ec9fe55304112be86d7d2086b87de7a58f498ec38267301193a7b67ee5",
+      "pixelSha256": "ab4e0b35a51ec61f492a91eea233d53d06efd2f6cdc3578a8c03be8bce580213",
+      "visualDescription": "Several small star-like cyan, green, violet and pale blue marks scattered across a dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d7a116ec9fe55304112be86d7d2086b87de7a58f498ec38267301193a7b67ee5.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 d7a116ec9fe55304112be86d7d2086b87de7a58f498ec38267301193a7b67ee5 and decoded pixel SHA-256 ab4e0b35a51ec61f492a91eea233d53d06efd2f6cdc3578a8c03be8bce580213; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/0",
+      "sourceSha256": "080616de8311c5d594fadf1a5bb71a59d8daa59480f5a1a8a622727da8b77512",
+      "pixelSha256": "da157768c1d1084db975699d783dd5f1c62b6fed3d21faa3b105f3100daef91e",
+      "visualDescription": "A diagonal orange-brown band crosses a dark gray tile, with small green and brown stone-like patches below it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/080616de8311c5d594fadf1a5bb71a59d8daa59480f5a1a8a622727da8b77512.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 080616de8311c5d594fadf1a5bb71a59d8daa59480f5a1a8a622727da8b77512 and decoded pixel SHA-256 da157768c1d1084db975699d783dd5f1c62b6fed3d21faa3b105f3100daef91e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/1",
+      "sourceSha256": "bb0eb03c839f69cb9f5ca4a79d58aefd65b29ab05ca5e2b143de1b33a35aed8e",
+      "pixelSha256": "fce2ccb8c299b69f881133c79f0039beb6fed9a9d99928915051fcf448e8f787",
+      "visualDescription": "A dense patchwork of reddish brown blocks, dark outlines and scattered green pixels on a dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bb0eb03c839f69cb9f5ca4a79d58aefd65b29ab05ca5e2b143de1b33a35aed8e.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 bb0eb03c839f69cb9f5ca4a79d58aefd65b29ab05ca5e2b143de1b33a35aed8e and decoded pixel SHA-256 fce2ccb8c299b69f881133c79f0039beb6fed9a9d99928915051fcf448e8f787; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/10",
+      "sourceSha256": "e872098e06142ce426c9af32532a6e921bef3b5b2d85e057778b3ae5799b9f8e",
+      "pixelSha256": "2f3708b77bf74fc940402f934a2575770ed147eb59f3794c776fb0194b339e2d",
+      "visualDescription": "Several reddish brown horizontal blocks with green flecks across the upper half; the lower portion is dark gray.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e872098e06142ce426c9af32532a6e921bef3b5b2d85e057778b3ae5799b9f8e.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 e872098e06142ce426c9af32532a6e921bef3b5b2d85e057778b3ae5799b9f8e and decoded pixel SHA-256 2f3708b77bf74fc940402f934a2575770ed147eb59f3794c776fb0194b339e2d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/11",
+      "sourceSha256": "c07abafd2f10817082bf8e0dfef53e89bae6ec611fc0c4461995ecd48b59badb",
+      "pixelSha256": "ed6ce262ee9c2aec3eff520d109026129977c59dd16507c34d465f47618ab1f5",
+      "visualDescription": "A dense staggered patchwork of reddish brown and green blocks with dark borders.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c07abafd2f10817082bf8e0dfef53e89bae6ec611fc0c4461995ecd48b59badb.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 c07abafd2f10817082bf8e0dfef53e89bae6ec611fc0c4461995ecd48b59badb and decoded pixel SHA-256 ed6ce262ee9c2aec3eff520d109026129977c59dd16507c34d465f47618ab1f5; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/12",
+      "sourceSha256": "da19337f25dcd04ed45811008c5486a02a49c79da061fee627b117ec0ea2e35a",
+      "pixelSha256": "bedb4c7bbae05d5732e5637b2ce82cf883bc8f66e1e01eccb5019c86a01835a4",
+      "visualDescription": "A small green and brown corner pattern in the upper-right with a dark diagonal edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/da19337f25dcd04ed45811008c5486a02a49c79da061fee627b117ec0ea2e35a.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 da19337f25dcd04ed45811008c5486a02a49c79da061fee627b117ec0ea2e35a and decoded pixel SHA-256 bedb4c7bbae05d5732e5637b2ce82cf883bc8f66e1e01eccb5019c86a01835a4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/13",
+      "sourceSha256": "ccbf4936b9e9c7f39044152079c6641aaaafb39093674e3e3a9a8555d7506fc6",
+      "pixelSha256": "145fe011178ae90e700ff373586e9f72de6a00f226936e04a1c35fb39938af17",
+      "visualDescription": "A wide orange-brown diagonal band across a dark gray field, with green and brown detail along its edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ccbf4936b9e9c7f39044152079c6641aaaafb39093674e3e3a9a8555d7506fc6.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ccbf4936b9e9c7f39044152079c6641aaaafb39093674e3e3a9a8555d7506fc6 and decoded pixel SHA-256 145fe011178ae90e700ff373586e9f72de6a00f226936e04a1c35fb39938af17; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/14",
+      "sourceSha256": "90fc1e1198f1d1021bdf302ed564c87ac138bd936bb9bfc81b990fd32e181fec",
+      "pixelSha256": "ab35b87b280342f9929e9cdde2f65068b216fdc086d5854d0d9eb75455f14321",
+      "visualDescription": "A brown block pattern with green flecks and a solid reddish brown border at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/90fc1e1198f1d1021bdf302ed564c87ac138bd936bb9bfc81b990fd32e181fec.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 90fc1e1198f1d1021bdf302ed564c87ac138bd936bb9bfc81b990fd32e181fec and decoded pixel SHA-256 ab35b87b280342f9929e9cdde2f65068b216fdc086d5854d0d9eb75455f14321; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/15",
+      "sourceSha256": "db56924c58b8570179765791d5ad38e2697e16ff46ae977d3673d5210030ed72",
+      "pixelSha256": "f50364d67125efd3940980a64ae670ec8d42d13c709db3254a8b12170b0ec4f3",
+      "visualDescription": "A brown and green block pattern with a narrow vertical dark and reddish brown edge at left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/db56924c58b8570179765791d5ad38e2697e16ff46ae977d3673d5210030ed72.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 db56924c58b8570179765791d5ad38e2697e16ff46ae977d3673d5210030ed72 and decoded pixel SHA-256 f50364d67125efd3940980a64ae670ec8d42d13c709db3254a8b12170b0ec4f3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/16",
+      "sourceSha256": "a3ae983d04d05edb1fd2e37c0ee3add4510ce56f301fb611fcf669ec7aa65e13",
+      "pixelSha256": "0e7d79c6f88b920939374bae64df29d2cc08dc8fd998caf15afa4d144256c699",
+      "visualDescription": "A compact brown-and-green corner cluster with a narrow vertical dark border at left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a3ae983d04d05edb1fd2e37c0ee3add4510ce56f301fb611fcf669ec7aa65e13.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 a3ae983d04d05edb1fd2e37c0ee3add4510ce56f301fb611fcf669ec7aa65e13 and decoded pixel SHA-256 0e7d79c6f88b920939374bae64df29d2cc08dc8fd998caf15afa4d144256c699; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/17",
+      "sourceSha256": "4896a2a6d7ca188057b523d62087f1a8f2984028da42f90e184717c226969c20",
+      "pixelSha256": "20b2a487710ae419bd3e96086bba7858dcd9aaffb2446b85f23fbb84a880a800",
+      "visualDescription": "Several reddish brown horizontal blocks with green flecks and dark outlines.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4896a2a6d7ca188057b523d62087f1a8f2984028da42f90e184717c226969c20.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 4896a2a6d7ca188057b523d62087f1a8f2984028da42f90e184717c226969c20 and decoded pixel SHA-256 20b2a487710ae419bd3e96086bba7858dcd9aaffb2446b85f23fbb84a880a800; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/18",
+      "sourceSha256": "1f7bcfb9f0a6fdff8e5594c13b873bab40c925190654bbb7bd1a57c7695538ac",
+      "pixelSha256": "3e9e1f20532ae2028a316e95ef359a1f9125750f80de01c5311d5f45034dae74",
+      "visualDescription": "An orange-brown chevron-like diagonal band crosses a dark field, with green and brown pixels along its inner edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1f7bcfb9f0a6fdff8e5594c13b873bab40c925190654bbb7bd1a57c7695538ac.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 1f7bcfb9f0a6fdff8e5594c13b873bab40c925190654bbb7bd1a57c7695538ac and decoded pixel SHA-256 3e9e1f20532ae2028a316e95ef359a1f9125750f80de01c5311d5f45034dae74; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/19",
+      "sourceSha256": "1f2865c759fba06cd05c6dcd07d25298125a4cdc0886032c9c1d36972ccb7a8c",
+      "pixelSha256": "fa75064c4cc935f8177f6bfd9dd767789027cfcde1627d8d62bdde3b72fb6626",
+      "visualDescription": "A staggered patchwork of reddish brown blocks, dark outlines and green flecks.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1f2865c759fba06cd05c6dcd07d25298125a4cdc0886032c9c1d36972ccb7a8c.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 1f2865c759fba06cd05c6dcd07d25298125a4cdc0886032c9c1d36972ccb7a8c and decoded pixel SHA-256 fa75064c4cc935f8177f6bfd9dd767789027cfcde1627d8d62bdde3b72fb6626; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/2",
+      "sourceSha256": "a8b534d867d8c2c02d9faf1e8ced7d5aaa3f955f571ed0f6c5e917dd3ee70552",
+      "pixelSha256": "6a43de4f9cd44c2fb0c43b1bc33e4199c9ca04242f8701e28aa83cc47b778b29",
+      "visualDescription": "A broad orange-brown diagonal stripe cuts across a dark tile, bordered by green and brown patches.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a8b534d867d8c2c02d9faf1e8ced7d5aaa3f955f571ed0f6c5e917dd3ee70552.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 a8b534d867d8c2c02d9faf1e8ced7d5aaa3f955f571ed0f6c5e917dd3ee70552 and decoded pixel SHA-256 6a43de4f9cd44c2fb0c43b1bc33e4199c9ca04242f8701e28aa83cc47b778b29; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/20",
+      "sourceSha256": "0271b88bbdd1aa4fe90d7aa643964072eedbf148211d64269c6d8310f2c526e1",
+      "pixelSha256": "60056150db6d965ccfbcb01a39bea1b12642b7b4dbaed075ea7bf5b4e36e3d5b",
+      "visualDescription": "A brown and green block pattern beside a solid reddish brown vertical panel on the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/0271b88bbdd1aa4fe90d7aa643964072eedbf148211d64269c6d8310f2c526e1.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 0271b88bbdd1aa4fe90d7aa643964072eedbf148211d64269c6d8310f2c526e1 and decoded pixel SHA-256 60056150db6d965ccfbcb01a39bea1b12642b7b4dbaed075ea7bf5b4e36e3d5b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/21",
+      "sourceSha256": "9d95012b631249ac5d2af3e84a8f643f79c58b37c735c33c06041d063027776e",
+      "pixelSha256": "6e85d65391f49a7de868a3b62e8a1a924125fffb1861c84dfbce4c075efbdb1b",
+      "visualDescription": "A broad orange-brown diagonal stripe crossing a dark gray tile with a few green and brown edge pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9d95012b631249ac5d2af3e84a8f643f79c58b37c735c33c06041d063027776e.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 9d95012b631249ac5d2af3e84a8f643f79c58b37c735c33c06041d063027776e and decoded pixel SHA-256 6e85d65391f49a7de868a3b62e8a1a924125fffb1861c84dfbce4c075efbdb1b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/22",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/23",
+      "sourceSha256": "4590499805650d622c8340680c3c0a257c4d3ca1a32f8443a27316f52aeba9e2",
+      "pixelSha256": "37be3a1d2ecb4674a1d6c1ed6e86a8121e5d873180d53310cac67c4730337e34",
+      "visualDescription": "Two rows of reddish brown block shapes with green flecks along the lower edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4590499805650d622c8340680c3c0a257c4d3ca1a32f8443a27316f52aeba9e2.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 4590499805650d622c8340680c3c0a257c4d3ca1a32f8443a27316f52aeba9e2 and decoded pixel SHA-256 37be3a1d2ecb4674a1d6c1ed6e86a8121e5d873180d53310cac67c4730337e34; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/24",
+      "sourceSha256": "6d941187e01c3943465364da494ba80d5898094497ce6845126ea8a3dff3c9f3",
+      "pixelSha256": "6099e5c6d8d2a886961ef69ac441b66f9bccc165af51a8dd6d406e0577ce592c",
+      "visualDescription": "A dense arrangement of reddish brown blocks, dark outlines and green flecks, with a stepped edge on the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6d941187e01c3943465364da494ba80d5898094497ce6845126ea8a3dff3c9f3.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 6d941187e01c3943465364da494ba80d5898094497ce6845126ea8a3dff3c9f3 and decoded pixel SHA-256 6099e5c6d8d2a886961ef69ac441b66f9bccc165af51a8dd6d406e0577ce592c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/3",
+      "sourceSha256": "3c87afffcc75fd9e8ad3a690798471c059eef079d2a28be0b0d15e558638bf68",
+      "pixelSha256": "429678b32979b177058ee8681ce1067a1e8306bc459003bd530391a368d6f4ea",
+      "visualDescription": "A compact arrangement of reddish brown blocks and bright green flecks, separated by dark outlines.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3c87afffcc75fd9e8ad3a690798471c059eef079d2a28be0b0d15e558638bf68.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 3c87afffcc75fd9e8ad3a690798471c059eef079d2a28be0b0d15e558638bf68 and decoded pixel SHA-256 429678b32979b177058ee8681ce1067a1e8306bc459003bd530391a368d6f4ea; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/4",
+      "sourceSha256": "8dab172e5829a2f915be9f6aaefba236de12a58a461313cabbfccb10b81997c7",
+      "pixelSha256": "88b0fbf351fd27919c677ad9bbc37fe1904cb1ce217a33a377774f38d4dea112",
+      "visualDescription": "A triangular wedge of brown and green pixel clusters in the upper-right corner against a large dark gray area.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8dab172e5829a2f915be9f6aaefba236de12a58a461313cabbfccb10b81997c7.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 8dab172e5829a2f915be9f6aaefba236de12a58a461313cabbfccb10b81997c7 and decoded pixel SHA-256 88b0fbf351fd27919c677ad9bbc37fe1904cb1ce217a33a377774f38d4dea112; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/5",
+      "sourceSha256": "bd80bfad5d7a4a1fa489880d97a30d091c9f9d93d13a83e3eeedbc30343e6ec6",
+      "pixelSha256": "cabd6eb897101b2563e9478f12590fbde035e7622abb2eabaff48c33f7b0a01d",
+      "visualDescription": "Irregular reddish brown blocks with dark outlines and thin green flecks scattered through the tile.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bd80bfad5d7a4a1fa489880d97a30d091c9f9d93d13a83e3eeedbc30343e6ec6.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 bd80bfad5d7a4a1fa489880d97a30d091c9f9d93d13a83e3eeedbc30343e6ec6 and decoded pixel SHA-256 cabd6eb897101b2563e9478f12590fbde035e7622abb2eabaff48c33f7b0a01d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/6",
+      "sourceSha256": "b40c6ce8ba362eb5ed0692e8d0c310318b00edaaac65682162dc0291fee7a63f",
+      "pixelSha256": "43774a004982cb720bd1295fb6bdf87aba33ba667e9837f6a2a6e3e68fbe88c5",
+      "visualDescription": "A broad orange-brown diagonal stripe from upper left to lower right over a dark background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b40c6ce8ba362eb5ed0692e8d0c310318b00edaaac65682162dc0291fee7a63f.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 b40c6ce8ba362eb5ed0692e8d0c310318b00edaaac65682162dc0291fee7a63f and decoded pixel SHA-256 43774a004982cb720bd1295fb6bdf87aba33ba667e9837f6a2a6e3e68fbe88c5; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/7",
+      "sourceSha256": "728ce8ad3c0c0ee7a228d11047056562b557c62ab7602794ff7d87fb4bbddf16",
+      "pixelSha256": "fdf4c7b7989ed1fedaf1896d94dd9f2aee23c96209bb83842750af9d88100b00",
+      "visualDescription": "A brown and green block pattern beside a tall solid reddish brown panel on the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/728ce8ad3c0c0ee7a228d11047056562b557c62ab7602794ff7d87fb4bbddf16.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 728ce8ad3c0c0ee7a228d11047056562b557c62ab7602794ff7d87fb4bbddf16 and decoded pixel SHA-256 fdf4c7b7989ed1fedaf1896d94dd9f2aee23c96209bb83842750af9d88100b00; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/8",
+      "sourceSha256": "8c802f9fdae9e2b32d40b2543d71a22906e76cfb1aaa91f6babc20c5f1665868",
+      "pixelSha256": "a26f01804878e75714209c128ddcb0ce37782a7f12e849c2db4e23d3949d4e0f",
+      "visualDescription": "A small dark brown and green corner cluster beside a vertical reddish brown strip in the upper-right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8c802f9fdae9e2b32d40b2543d71a22906e76cfb1aaa91f6babc20c5f1665868.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 8c802f9fdae9e2b32d40b2543d71a22906e76cfb1aaa91f6babc20c5f1665868 and decoded pixel SHA-256 a26f01804878e75714209c128ddcb0ce37782a7f12e849c2db4e23d3949d4e0f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/dungcom.daa/block/1/tile/9",
+      "sourceSha256": "5d564245860c08d8ffbd01f68dca27ae0d87f359799e8115871723d990161524",
+      "pixelSha256": "8fc4f8cfe9408c8ab16095449a64119ac9737c1bfd458155c58dcbbff00dbfb2",
+      "visualDescription": "A full tile of uneven reddish brown blocks with green flecks and dark dividing lines.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5d564245860c08d8ffbd01f68dca27ae0d87f359799e8115871723d990161524.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 5d564245860c08d8ffbd01f68dca27ae0d87f359799e8115871723d990161524 and decoded pixel SHA-256 8fc4f8cfe9408c8ab16095449a64119ac9737c1bfd458155c58dcbbff00dbfb2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/randcom.daa/block/1/tile/0",
+      "sourceSha256": "762d90705410ad53c9f35f565e41d9da8d23abc20a0ca9aadbb5d8c57d802857",
+      "pixelSha256": "54d0ee7ce9e2cbb53becb15b813d35839be5e4a03f122ff6d205353735c2b8d1",
+      "visualDescription": "A low rectangular brown-orange structure with a horizontal top, dark vertical supports and gray openings.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/762d90705410ad53c9f35f565e41d9da8d23abc20a0ca9aadbb5d8c57d802857.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 762d90705410ad53c9f35f565e41d9da8d23abc20a0ca9aadbb5d8c57d802857 and decoded pixel SHA-256 54d0ee7ce9e2cbb53becb15b813d35839be5e4a03f122ff6d205353735c2b8d1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/randcom.daa/block/1/tile/1",
+      "sourceSha256": "8d3388b496506de0a98b23533d83cefd0f90d30f70851ca674885e01f5425de1",
+      "pixelSha256": "43e9ee703c15e629cb3834e246680535ea728e81c467f41d93793122c8619dcf",
+      "visualDescription": "A compact brown-orange seat-like structure with a raised back, dark supports and a gray opening below.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8d3388b496506de0a98b23533d83cefd0f90d30f70851ca674885e01f5425de1.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 8d3388b496506de0a98b23533d83cefd0f90d30f70851ca674885e01f5425de1 and decoded pixel SHA-256 43e9ee703c15e629cb3834e246680535ea728e81c467f41d93793122c8619dcf; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/randcom.daa/block/1/tile/2",
+      "sourceSha256": "c776240eb389ae89ac0f0afab3f2e7b687a60bd28d379a6a3a5ad41405ae4077",
+      "pixelSha256": "46231717ec06cbb11918875d24b90e8b850f6944817b39f33ea250471de11637",
+      "visualDescription": "A dense cluster of rounded white, pale blue and blue-gray forms outlined in black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c776240eb389ae89ac0f0afab3f2e7b687a60bd28d379a6a3a5ad41405ae4077.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 c776240eb389ae89ac0f0afab3f2e7b687a60bd28d379a6a3a5ad41405ae4077 and decoded pixel SHA-256 46231717ec06cbb11918875d24b90e8b850f6944817b39f33ea250471de11637; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/randcom.daa/block/1/tile/3",
+      "sourceSha256": "fca710f4f7a729a48a39bffd05075a726defb9f87cea466bca4003ce9d301eb2",
+      "pixelSha256": "0478004e590cbd3a0066159495f9899302314f9a3a6ccc8fb370f567e84736a2",
+      "visualDescription": "A low horizontal patch of small green, cyan, blue and pale pixels on a dark background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fca710f4f7a729a48a39bffd05075a726defb9f87cea466bca4003ce9d301eb2.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 fca710f4f7a729a48a39bffd05075a726defb9f87cea466bca4003ce9d301eb2 and decoded pixel SHA-256 0478004e590cbd3a0066159495f9899302314f9a3a6ccc8fb370f567e84736a2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/randcom.daa/block/1/tile/4",
+      "sourceSha256": "5dd865203ef4548c2833e7a17e5057e7b6d7d70ce17d5f26c8db5dfe09c847d5",
+      "pixelSha256": "b4eeddbd7d9854a465457412cc7571eb783ffecf15c88db301d2e1c75bf0f324",
+      "visualDescription": "A rounded dense green and cyan cluster with light green highlights and a dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5dd865203ef4548c2833e7a17e5057e7b6d7d70ce17d5f26c8db5dfe09c847d5.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 5dd865203ef4548c2833e7a17e5057e7b6d7d70ce17d5f26c8db5dfe09c847d5 and decoded pixel SHA-256 b4eeddbd7d9854a465457412cc7571eb783ffecf15c88db301d2e1c75bf0f324; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk1/randcom.daa/block/1/tile/5",
+      "sourceSha256": "67c4f2c83c6af6e767c336ace7a1820e7bb2482c057da679100c990b3d0ede28",
+      "pixelSha256": "cb0c3acd74c73ca3affadb34b360252b426692c4e4883458a1a21889bc2bebfb",
+      "visualDescription": "A low horizontal brown-orange form with a blue-violet patch at left and green pixels extending to the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/67c4f2c83c6af6e767c336ace7a1820e7bb2482c057da679100c990b3d0ede28.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 67c4f2c83c6af6e767c336ace7a1820e7bb2482c057da679100c990b3d0ede28 and decoded pixel SHA-256 cb0c3acd74c73ca3affadb34b360252b426692c4e4883458a1a21889bc2bebfb; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/0",
+      "sourceSha256": "080616de8311c5d594fadf1a5bb71a59d8daa59480f5a1a8a622727da8b77512",
+      "pixelSha256": "da157768c1d1084db975699d783dd5f1c62b6fed3d21faa3b105f3100daef91e",
+      "visualDescription": "A diagonal orange-brown band crosses a dark gray tile, with small green and brown stone-like patches below it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/080616de8311c5d594fadf1a5bb71a59d8daa59480f5a1a8a622727da8b77512.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 080616de8311c5d594fadf1a5bb71a59d8daa59480f5a1a8a622727da8b77512 and decoded pixel SHA-256 da157768c1d1084db975699d783dd5f1c62b6fed3d21faa3b105f3100daef91e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/1",
+      "sourceSha256": "bb0eb03c839f69cb9f5ca4a79d58aefd65b29ab05ca5e2b143de1b33a35aed8e",
+      "pixelSha256": "fce2ccb8c299b69f881133c79f0039beb6fed9a9d99928915051fcf448e8f787",
+      "visualDescription": "A dense patchwork of reddish brown blocks, dark outlines and scattered green pixels on a dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bb0eb03c839f69cb9f5ca4a79d58aefd65b29ab05ca5e2b143de1b33a35aed8e.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 bb0eb03c839f69cb9f5ca4a79d58aefd65b29ab05ca5e2b143de1b33a35aed8e and decoded pixel SHA-256 fce2ccb8c299b69f881133c79f0039beb6fed9a9d99928915051fcf448e8f787; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/10",
+      "sourceSha256": "e872098e06142ce426c9af32532a6e921bef3b5b2d85e057778b3ae5799b9f8e",
+      "pixelSha256": "2f3708b77bf74fc940402f934a2575770ed147eb59f3794c776fb0194b339e2d",
+      "visualDescription": "Several reddish brown horizontal blocks with green flecks across the upper half; the lower portion is dark gray.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e872098e06142ce426c9af32532a6e921bef3b5b2d85e057778b3ae5799b9f8e.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 e872098e06142ce426c9af32532a6e921bef3b5b2d85e057778b3ae5799b9f8e and decoded pixel SHA-256 2f3708b77bf74fc940402f934a2575770ed147eb59f3794c776fb0194b339e2d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/11",
+      "sourceSha256": "c07abafd2f10817082bf8e0dfef53e89bae6ec611fc0c4461995ecd48b59badb",
+      "pixelSha256": "ed6ce262ee9c2aec3eff520d109026129977c59dd16507c34d465f47618ab1f5",
+      "visualDescription": "A dense staggered patchwork of reddish brown and green blocks with dark borders.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c07abafd2f10817082bf8e0dfef53e89bae6ec611fc0c4461995ecd48b59badb.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 c07abafd2f10817082bf8e0dfef53e89bae6ec611fc0c4461995ecd48b59badb and decoded pixel SHA-256 ed6ce262ee9c2aec3eff520d109026129977c59dd16507c34d465f47618ab1f5; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/12",
+      "sourceSha256": "da19337f25dcd04ed45811008c5486a02a49c79da061fee627b117ec0ea2e35a",
+      "pixelSha256": "bedb4c7bbae05d5732e5637b2ce82cf883bc8f66e1e01eccb5019c86a01835a4",
+      "visualDescription": "A small green and brown corner pattern in the upper-right with a dark diagonal edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/da19337f25dcd04ed45811008c5486a02a49c79da061fee627b117ec0ea2e35a.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 da19337f25dcd04ed45811008c5486a02a49c79da061fee627b117ec0ea2e35a and decoded pixel SHA-256 bedb4c7bbae05d5732e5637b2ce82cf883bc8f66e1e01eccb5019c86a01835a4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/13",
+      "sourceSha256": "ccbf4936b9e9c7f39044152079c6641aaaafb39093674e3e3a9a8555d7506fc6",
+      "pixelSha256": "145fe011178ae90e700ff373586e9f72de6a00f226936e04a1c35fb39938af17",
+      "visualDescription": "A wide orange-brown diagonal band across a dark gray field, with green and brown detail along its edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ccbf4936b9e9c7f39044152079c6641aaaafb39093674e3e3a9a8555d7506fc6.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ccbf4936b9e9c7f39044152079c6641aaaafb39093674e3e3a9a8555d7506fc6 and decoded pixel SHA-256 145fe011178ae90e700ff373586e9f72de6a00f226936e04a1c35fb39938af17; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/14",
+      "sourceSha256": "90fc1e1198f1d1021bdf302ed564c87ac138bd936bb9bfc81b990fd32e181fec",
+      "pixelSha256": "ab35b87b280342f9929e9cdde2f65068b216fdc086d5854d0d9eb75455f14321",
+      "visualDescription": "A brown block pattern with green flecks and a solid reddish brown border at the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/90fc1e1198f1d1021bdf302ed564c87ac138bd936bb9bfc81b990fd32e181fec.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 90fc1e1198f1d1021bdf302ed564c87ac138bd936bb9bfc81b990fd32e181fec and decoded pixel SHA-256 ab35b87b280342f9929e9cdde2f65068b216fdc086d5854d0d9eb75455f14321; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/15",
+      "sourceSha256": "db56924c58b8570179765791d5ad38e2697e16ff46ae977d3673d5210030ed72",
+      "pixelSha256": "f50364d67125efd3940980a64ae670ec8d42d13c709db3254a8b12170b0ec4f3",
+      "visualDescription": "A brown and green block pattern with a narrow vertical dark and reddish brown edge at left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/db56924c58b8570179765791d5ad38e2697e16ff46ae977d3673d5210030ed72.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 db56924c58b8570179765791d5ad38e2697e16ff46ae977d3673d5210030ed72 and decoded pixel SHA-256 f50364d67125efd3940980a64ae670ec8d42d13c709db3254a8b12170b0ec4f3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/16",
+      "sourceSha256": "a3ae983d04d05edb1fd2e37c0ee3add4510ce56f301fb611fcf669ec7aa65e13",
+      "pixelSha256": "0e7d79c6f88b920939374bae64df29d2cc08dc8fd998caf15afa4d144256c699",
+      "visualDescription": "A compact brown-and-green corner cluster with a narrow vertical dark border at left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a3ae983d04d05edb1fd2e37c0ee3add4510ce56f301fb611fcf669ec7aa65e13.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 a3ae983d04d05edb1fd2e37c0ee3add4510ce56f301fb611fcf669ec7aa65e13 and decoded pixel SHA-256 0e7d79c6f88b920939374bae64df29d2cc08dc8fd998caf15afa4d144256c699; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/17",
+      "sourceSha256": "4896a2a6d7ca188057b523d62087f1a8f2984028da42f90e184717c226969c20",
+      "pixelSha256": "20b2a487710ae419bd3e96086bba7858dcd9aaffb2446b85f23fbb84a880a800",
+      "visualDescription": "Several reddish brown horizontal blocks with green flecks and dark outlines.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4896a2a6d7ca188057b523d62087f1a8f2984028da42f90e184717c226969c20.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 4896a2a6d7ca188057b523d62087f1a8f2984028da42f90e184717c226969c20 and decoded pixel SHA-256 20b2a487710ae419bd3e96086bba7858dcd9aaffb2446b85f23fbb84a880a800; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/18",
+      "sourceSha256": "1f7bcfb9f0a6fdff8e5594c13b873bab40c925190654bbb7bd1a57c7695538ac",
+      "pixelSha256": "3e9e1f20532ae2028a316e95ef359a1f9125750f80de01c5311d5f45034dae74",
+      "visualDescription": "An orange-brown chevron-like diagonal band crosses a dark field, with green and brown pixels along its inner edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1f7bcfb9f0a6fdff8e5594c13b873bab40c925190654bbb7bd1a57c7695538ac.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 1f7bcfb9f0a6fdff8e5594c13b873bab40c925190654bbb7bd1a57c7695538ac and decoded pixel SHA-256 3e9e1f20532ae2028a316e95ef359a1f9125750f80de01c5311d5f45034dae74; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/19",
+      "sourceSha256": "1f2865c759fba06cd05c6dcd07d25298125a4cdc0886032c9c1d36972ccb7a8c",
+      "pixelSha256": "fa75064c4cc935f8177f6bfd9dd767789027cfcde1627d8d62bdde3b72fb6626",
+      "visualDescription": "A staggered patchwork of reddish brown blocks, dark outlines and green flecks.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1f2865c759fba06cd05c6dcd07d25298125a4cdc0886032c9c1d36972ccb7a8c.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 1f2865c759fba06cd05c6dcd07d25298125a4cdc0886032c9c1d36972ccb7a8c and decoded pixel SHA-256 fa75064c4cc935f8177f6bfd9dd767789027cfcde1627d8d62bdde3b72fb6626; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/2",
+      "sourceSha256": "a8b534d867d8c2c02d9faf1e8ced7d5aaa3f955f571ed0f6c5e917dd3ee70552",
+      "pixelSha256": "6a43de4f9cd44c2fb0c43b1bc33e4199c9ca04242f8701e28aa83cc47b778b29",
+      "visualDescription": "A broad orange-brown diagonal stripe cuts across a dark tile, bordered by green and brown patches.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a8b534d867d8c2c02d9faf1e8ced7d5aaa3f955f571ed0f6c5e917dd3ee70552.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 a8b534d867d8c2c02d9faf1e8ced7d5aaa3f955f571ed0f6c5e917dd3ee70552 and decoded pixel SHA-256 6a43de4f9cd44c2fb0c43b1bc33e4199c9ca04242f8701e28aa83cc47b778b29; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/20",
+      "sourceSha256": "0271b88bbdd1aa4fe90d7aa643964072eedbf148211d64269c6d8310f2c526e1",
+      "pixelSha256": "60056150db6d965ccfbcb01a39bea1b12642b7b4dbaed075ea7bf5b4e36e3d5b",
+      "visualDescription": "A brown and green block pattern beside a solid reddish brown vertical panel on the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/0271b88bbdd1aa4fe90d7aa643964072eedbf148211d64269c6d8310f2c526e1.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 0271b88bbdd1aa4fe90d7aa643964072eedbf148211d64269c6d8310f2c526e1 and decoded pixel SHA-256 60056150db6d965ccfbcb01a39bea1b12642b7b4dbaed075ea7bf5b4e36e3d5b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/21",
+      "sourceSha256": "9d95012b631249ac5d2af3e84a8f643f79c58b37c735c33c06041d063027776e",
+      "pixelSha256": "6e85d65391f49a7de868a3b62e8a1a924125fffb1861c84dfbce4c075efbdb1b",
+      "visualDescription": "A broad orange-brown diagonal stripe crossing a dark gray tile with a few green and brown edge pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9d95012b631249ac5d2af3e84a8f643f79c58b37c735c33c06041d063027776e.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 9d95012b631249ac5d2af3e84a8f643f79c58b37c735c33c06041d063027776e and decoded pixel SHA-256 6e85d65391f49a7de868a3b62e8a1a924125fffb1861c84dfbce4c075efbdb1b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/22",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/23",
+      "sourceSha256": "4590499805650d622c8340680c3c0a257c4d3ca1a32f8443a27316f52aeba9e2",
+      "pixelSha256": "37be3a1d2ecb4674a1d6c1ed6e86a8121e5d873180d53310cac67c4730337e34",
+      "visualDescription": "Two rows of reddish brown block shapes with green flecks along the lower edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4590499805650d622c8340680c3c0a257c4d3ca1a32f8443a27316f52aeba9e2.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 4590499805650d622c8340680c3c0a257c4d3ca1a32f8443a27316f52aeba9e2 and decoded pixel SHA-256 37be3a1d2ecb4674a1d6c1ed6e86a8121e5d873180d53310cac67c4730337e34; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/24",
+      "sourceSha256": "6d941187e01c3943465364da494ba80d5898094497ce6845126ea8a3dff3c9f3",
+      "pixelSha256": "6099e5c6d8d2a886961ef69ac441b66f9bccc165af51a8dd6d406e0577ce592c",
+      "visualDescription": "A dense arrangement of reddish brown blocks, dark outlines and green flecks, with a stepped edge on the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6d941187e01c3943465364da494ba80d5898094497ce6845126ea8a3dff3c9f3.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 6d941187e01c3943465364da494ba80d5898094497ce6845126ea8a3dff3c9f3 and decoded pixel SHA-256 6099e5c6d8d2a886961ef69ac441b66f9bccc165af51a8dd6d406e0577ce592c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/3",
+      "sourceSha256": "3c87afffcc75fd9e8ad3a690798471c059eef079d2a28be0b0d15e558638bf68",
+      "pixelSha256": "429678b32979b177058ee8681ce1067a1e8306bc459003bd530391a368d6f4ea",
+      "visualDescription": "A compact arrangement of reddish brown blocks and bright green flecks, separated by dark outlines.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3c87afffcc75fd9e8ad3a690798471c059eef079d2a28be0b0d15e558638bf68.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 3c87afffcc75fd9e8ad3a690798471c059eef079d2a28be0b0d15e558638bf68 and decoded pixel SHA-256 429678b32979b177058ee8681ce1067a1e8306bc459003bd530391a368d6f4ea; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/4",
+      "sourceSha256": "8dab172e5829a2f915be9f6aaefba236de12a58a461313cabbfccb10b81997c7",
+      "pixelSha256": "88b0fbf351fd27919c677ad9bbc37fe1904cb1ce217a33a377774f38d4dea112",
+      "visualDescription": "A triangular wedge of brown and green pixel clusters in the upper-right corner against a large dark gray area.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8dab172e5829a2f915be9f6aaefba236de12a58a461313cabbfccb10b81997c7.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 8dab172e5829a2f915be9f6aaefba236de12a58a461313cabbfccb10b81997c7 and decoded pixel SHA-256 88b0fbf351fd27919c677ad9bbc37fe1904cb1ce217a33a377774f38d4dea112; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/5",
+      "sourceSha256": "bd80bfad5d7a4a1fa489880d97a30d091c9f9d93d13a83e3eeedbc30343e6ec6",
+      "pixelSha256": "cabd6eb897101b2563e9478f12590fbde035e7622abb2eabaff48c33f7b0a01d",
+      "visualDescription": "Irregular reddish brown blocks with dark outlines and thin green flecks scattered through the tile.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bd80bfad5d7a4a1fa489880d97a30d091c9f9d93d13a83e3eeedbc30343e6ec6.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 bd80bfad5d7a4a1fa489880d97a30d091c9f9d93d13a83e3eeedbc30343e6ec6 and decoded pixel SHA-256 cabd6eb897101b2563e9478f12590fbde035e7622abb2eabaff48c33f7b0a01d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/6",
+      "sourceSha256": "b40c6ce8ba362eb5ed0692e8d0c310318b00edaaac65682162dc0291fee7a63f",
+      "pixelSha256": "43774a004982cb720bd1295fb6bdf87aba33ba667e9837f6a2a6e3e68fbe88c5",
+      "visualDescription": "A broad orange-brown diagonal stripe from upper left to lower right over a dark background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b40c6ce8ba362eb5ed0692e8d0c310318b00edaaac65682162dc0291fee7a63f.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 b40c6ce8ba362eb5ed0692e8d0c310318b00edaaac65682162dc0291fee7a63f and decoded pixel SHA-256 43774a004982cb720bd1295fb6bdf87aba33ba667e9837f6a2a6e3e68fbe88c5; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/7",
+      "sourceSha256": "728ce8ad3c0c0ee7a228d11047056562b557c62ab7602794ff7d87fb4bbddf16",
+      "pixelSha256": "fdf4c7b7989ed1fedaf1896d94dd9f2aee23c96209bb83842750af9d88100b00",
+      "visualDescription": "A brown and green block pattern beside a tall solid reddish brown panel on the right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/728ce8ad3c0c0ee7a228d11047056562b557c62ab7602794ff7d87fb4bbddf16.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 728ce8ad3c0c0ee7a228d11047056562b557c62ab7602794ff7d87fb4bbddf16 and decoded pixel SHA-256 fdf4c7b7989ed1fedaf1896d94dd9f2aee23c96209bb83842750af9d88100b00; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/8",
+      "sourceSha256": "8c802f9fdae9e2b32d40b2543d71a22906e76cfb1aaa91f6babc20c5f1665868",
+      "pixelSha256": "a26f01804878e75714209c128ddcb0ce37782a7f12e849c2db4e23d3949d4e0f",
+      "visualDescription": "A small dark brown and green corner cluster beside a vertical reddish brown strip in the upper-right.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8c802f9fdae9e2b32d40b2543d71a22906e76cfb1aaa91f6babc20c5f1665868.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 8c802f9fdae9e2b32d40b2543d71a22906e76cfb1aaa91f6babc20c5f1665868 and decoded pixel SHA-256 a26f01804878e75714209c128ddcb0ce37782a7f12e849c2db4e23d3949d4e0f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/dungcom.daa/block/1/tile/9",
+      "sourceSha256": "5d564245860c08d8ffbd01f68dca27ae0d87f359799e8115871723d990161524",
+      "pixelSha256": "8fc4f8cfe9408c8ab16095449a64119ac9737c1bfd458155c58dcbbff00dbfb2",
+      "visualDescription": "A full tile of uneven reddish brown blocks with green flecks and dark dividing lines.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5d564245860c08d8ffbd01f68dca27ae0d87f359799e8115871723d990161524.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 5d564245860c08d8ffbd01f68dca27ae0d87f359799e8115871723d990161524 and decoded pixel SHA-256 8fc4f8cfe9408c8ab16095449a64119ac9737c1bfd458155c58dcbbff00dbfb2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/0",
+      "sourceSha256": "018bd5b7a1163d3a69ba649aa3d776ee5526ed4730d965853ffa87eb3405a09c",
+      "pixelSha256": "2e8028fae422330a7b55820f93b758d974b80e8fa6f99732021f8572c9b01a7a",
+      "visualDescription": "A rounded irregular brown-orange cluster outlined in dark pixels, with gray gaps inside.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/018bd5b7a1163d3a69ba649aa3d776ee5526ed4730d965853ffa87eb3405a09c.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 018bd5b7a1163d3a69ba649aa3d776ee5526ed4730d965853ffa87eb3405a09c and decoded pixel SHA-256 2e8028fae422330a7b55820f93b758d974b80e8fa6f99732021f8572c9b01a7a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/1",
+      "sourceSha256": "3a6ab15b5508d58f8b6bfc6a022e43bbdd43eb6664ff998754f651b24cb8815f",
+      "pixelSha256": "ee2f8942b505e99ff54bffe757e104ee54b73b39d7f9637a1bf85df5f0ae0210",
+      "visualDescription": "A tall branching brown-orange form with dark outlines and small lighter orange patches.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3a6ab15b5508d58f8b6bfc6a022e43bbdd43eb6664ff998754f651b24cb8815f.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 3a6ab15b5508d58f8b6bfc6a022e43bbdd43eb6664ff998754f651b24cb8815f and decoded pixel SHA-256 ee2f8942b505e99ff54bffe757e104ee54b73b39d7f9637a1bf85df5f0ae0210; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/10",
+      "sourceSha256": "5ce9106da081f23c0ffd01f54976029034c0e4b172b9b670d798ddb8febd721f",
+      "pixelSha256": "286c82f6647d2561e328a26e187e1d1cc47a23b19a81bce07238a0518542267d",
+      "visualDescription": "A low brown-orange horizontal shape with a pale circular patch at left and green pixels beneath it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5ce9106da081f23c0ffd01f54976029034c0e4b172b9b670d798ddb8febd721f.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 5ce9106da081f23c0ffd01f54976029034c0e4b172b9b670d798ddb8febd721f and decoded pixel SHA-256 286c82f6647d2561e328a26e187e1d1cc47a23b19a81bce07238a0518542267d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/11",
+      "sourceSha256": "0bc052016841efef1a26263d339ffe997a8a5bcb11f230565c648982b623b40f",
+      "pixelSha256": "d12af5969209a209a58b19180842325707309c442261aeffe5bfa2c862b0019d",
+      "visualDescription": "An irregular brown-orange branched form with small green pixels along its lower edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/0bc052016841efef1a26263d339ffe997a8a5bcb11f230565c648982b623b40f.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 0bc052016841efef1a26263d339ffe997a8a5bcb11f230565c648982b623b40f and decoded pixel SHA-256 d12af5969209a209a58b19180842325707309c442261aeffe5bfa2c862b0019d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/12",
+      "sourceSha256": "aa9d468d80cade4938b1c185f0151703239c8a0e96564b8c8e61a28bd71a92af",
+      "pixelSha256": "3eb08fb912b96726feb1ba3a9f332f5a76efe11550aae3cc6f818afd70aedefd",
+      "visualDescription": "Several separated bright green horizontal tufts on a dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/aa9d468d80cade4938b1c185f0151703239c8a0e96564b8c8e61a28bd71a92af.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 aa9d468d80cade4938b1c185f0151703239c8a0e96564b8c8e61a28bd71a92af and decoded pixel SHA-256 3eb08fb912b96726feb1ba3a9f332f5a76efe11550aae3cc6f818afd70aedefd; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/13",
+      "sourceSha256": "497c2f1726b78f68533c1ae747427a3864c6d1228e694cf7a0fc7752c99f1f37",
+      "pixelSha256": "0e93600f22b0bab51b3bb4aeeae16cc7465ec01e02f26e1e4a17f93f7b0762e2",
+      "visualDescription": "A few small green tufts and isolated pixels scattered along the lower portion of a dark field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/497c2f1726b78f68533c1ae747427a3864c6d1228e694cf7a0fc7752c99f1f37.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 497c2f1726b78f68533c1ae747427a3864c6d1228e694cf7a0fc7752c99f1f37 and decoded pixel SHA-256 0e93600f22b0bab51b3bb4aeeae16cc7465ec01e02f26e1e4a17f93f7b0762e2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/14",
+      "sourceSha256": "8d2564e5af2ab10511018afa49f4ad3e2c1703e3ff4bb91ac9ee0f19b54a012a",
+      "pixelSha256": "8a610afb82178d305593e283db262e7c89aff487332ebaceb25ed3fa4ad0bfb4",
+      "visualDescription": "Three bright green grass-like clusters spaced across a dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8d2564e5af2ab10511018afa49f4ad3e2c1703e3ff4bb91ac9ee0f19b54a012a.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 8d2564e5af2ab10511018afa49f4ad3e2c1703e3ff4bb91ac9ee0f19b54a012a and decoded pixel SHA-256 8a610afb82178d305593e283db262e7c89aff487332ebaceb25ed3fa4ad0bfb4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/15",
+      "sourceSha256": "b1bf9d7bf1003ac65f6f98fbcbcc0b4e29fc1cf8bca53b686c2ad15749b9cb36",
+      "pixelSha256": "b9996e232673ceddef9db8131b4af97212e680d5aaa2c5c15b8dd2fffca12c9d",
+      "visualDescription": "Several green tufts with a few isolated brown and dark pixels near the bottom.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b1bf9d7bf1003ac65f6f98fbcbcc0b4e29fc1cf8bca53b686c2ad15749b9cb36.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 b1bf9d7bf1003ac65f6f98fbcbcc0b4e29fc1cf8bca53b686c2ad15749b9cb36 and decoded pixel SHA-256 b9996e232673ceddef9db8131b4af97212e680d5aaa2c5c15b8dd2fffca12c9d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/16",
+      "sourceSha256": "ae8473c9abef251ed3b38a1f8b64be4e0654d130e0bddffd74419b3c6d6ca171",
+      "pixelSha256": "2653c9ed14b5fdf7d85623abe11ad9f950e7988a39c0de9de057259216392468",
+      "visualDescription": "A leafless branching brown-orange silhouette with dark edges and small green flecks at the base.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ae8473c9abef251ed3b38a1f8b64be4e0654d130e0bddffd74419b3c6d6ca171.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ae8473c9abef251ed3b38a1f8b64be4e0654d130e0bddffd74419b3c6d6ca171 and decoded pixel SHA-256 2653c9ed14b5fdf7d85623abe11ad9f950e7988a39c0de9de057259216392468; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/17",
+      "sourceSha256": "15848f75790c0ddf85897cd67e0a0de2ff5f1ffc687c705ae084c4c992ae5fbf",
+      "pixelSha256": "6e71708a28227919bac80bde4da6ee3aa6ac6de39e35b09909980060aae4d246",
+      "visualDescription": "A rounded dense brown-orange cluster with green pixels along its bottom edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/15848f75790c0ddf85897cd67e0a0de2ff5f1ffc687c705ae084c4c992ae5fbf.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 15848f75790c0ddf85897cd67e0a0de2ff5f1ffc687c705ae084c4c992ae5fbf and decoded pixel SHA-256 6e71708a28227919bac80bde4da6ee3aa6ac6de39e35b09909980060aae4d246; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/18",
+      "sourceSha256": "c6cdea1ccc3cfbcc508515ba2dd5ddfefbd208c7a52d006b6a4962fb27b5c139",
+      "pixelSha256": "84eb5a5a6dc26c14c0aff7bbfe45eaf72793431e1dba84609f11bc28932fc390",
+      "visualDescription": "A low brown-orange mound with a dark underside on a gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c6cdea1ccc3cfbcc508515ba2dd5ddfefbd208c7a52d006b6a4962fb27b5c139.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 c6cdea1ccc3cfbcc508515ba2dd5ddfefbd208c7a52d006b6a4962fb27b5c139 and decoded pixel SHA-256 84eb5a5a6dc26c14c0aff7bbfe45eaf72793431e1dba84609f11bc28932fc390; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/19",
+      "sourceSha256": "1429c3938b298fc66b14fb09d22813df2dc1097b1b4946566c82ed3cbc502ff2",
+      "pixelSha256": "06970086558cb15e796acaa1de9aee49916010b4b63fa8cf7626b3cf84afe60c",
+      "visualDescription": "A small brown-orange mound with a few separate colored pixels nearby.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1429c3938b298fc66b14fb09d22813df2dc1097b1b4946566c82ed3cbc502ff2.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 1429c3938b298fc66b14fb09d22813df2dc1097b1b4946566c82ed3cbc502ff2 and decoded pixel SHA-256 06970086558cb15e796acaa1de9aee49916010b4b63fa8cf7626b3cf84afe60c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/2",
+      "sourceSha256": "c252780fb4a53efc4bf73d0edf5129e5a0bb116af1445647c24baca195b6e603",
+      "pixelSha256": "854d03c9c9d0ae0c2b311fdb1cd14f5312535ac49840e3552de2ca7dc60bc6eb",
+      "visualDescription": "An angular curved brown-orange form with a pale gray interior and dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c252780fb4a53efc4bf73d0edf5129e5a0bb116af1445647c24baca195b6e603.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 c252780fb4a53efc4bf73d0edf5129e5a0bb116af1445647c24baca195b6e603 and decoded pixel SHA-256 854d03c9c9d0ae0c2b311fdb1cd14f5312535ac49840e3552de2ca7dc60bc6eb; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/20",
+      "sourceSha256": "fc2db3325c3952ac6dd36f64d4098afef86ddfde46be6571b0bb96c853f7bf38",
+      "pixelSha256": "4992c743572330595cc55581c8a15642b4d4e2e71c21bf6b1566e3d4f60c5557",
+      "visualDescription": "Two low brown-orange mounds with scattered green pixels below them.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fc2db3325c3952ac6dd36f64d4098afef86ddfde46be6571b0bb96c853f7bf38.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 fc2db3325c3952ac6dd36f64d4098afef86ddfde46be6571b0bb96c853f7bf38 and decoded pixel SHA-256 4992c743572330595cc55581c8a15642b4d4e2e71c21bf6b1566e3d4f60c5557; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/21",
+      "sourceSha256": "9ec36ff6684a37db3196d860d5e68d703a448ba048d8152dbdbdfafade5a30d9",
+      "pixelSha256": "2176042549c93c3474821f9633df441aebf458f0851d45a5cb95debfb0c3ee57",
+      "visualDescription": "A brown-orange ground patch with several bright green tufts along its right edge.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9ec36ff6684a37db3196d860d5e68d703a448ba048d8152dbdbdfafade5a30d9.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 9ec36ff6684a37db3196d860d5e68d703a448ba048d8152dbdbdfafade5a30d9 and decoded pixel SHA-256 2176042549c93c3474821f9633df441aebf458f0851d45a5cb95debfb0c3ee57; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/22",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/23",
+      "sourceSha256": "947e1002b225b599507e1e3ce25ff387db96b14c2bfe51c1c88f4cf674b9369b",
+      "pixelSha256": "9d0b820c1f28cef3a89709beb5c93e40e7f9790065476e7f5b0cfc4e43802abc",
+      "visualDescription": "A few tiny brown and green pixels forming a low broken line on a dark gray field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/947e1002b225b599507e1e3ce25ff387db96b14c2bfe51c1c88f4cf674b9369b.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 947e1002b225b599507e1e3ce25ff387db96b14c2bfe51c1c88f4cf674b9369b and decoded pixel SHA-256 9d0b820c1f28cef3a89709beb5c93e40e7f9790065476e7f5b0cfc4e43802abc; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/24",
+      "sourceSha256": "57a1bdb9e3895e2790f5afbb560349db7d3f4e16d015f03e3af6881abceadd80",
+      "pixelSha256": "203ead986841a5aed96c8a5c635e6416ef3a18024143ee91eac6e3a8eb9fd8f3",
+      "visualDescription": "Two small isolated brown and green pixel clusters near the lower edge of a dark field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/57a1bdb9e3895e2790f5afbb560349db7d3f4e16d015f03e3af6881abceadd80.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 57a1bdb9e3895e2790f5afbb560349db7d3f4e16d015f03e3af6881abceadd80 and decoded pixel SHA-256 203ead986841a5aed96c8a5c635e6416ef3a18024143ee91eac6e3a8eb9fd8f3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/25",
+      "sourceSha256": "5983009481ee77e77d41f9ac2a09174c55cc4d3f1683aa41454de52291b5a02b",
+      "pixelSha256": "8327a3d48a497438ea18f130109b8172a2ce78e097f9018ef73021c15ecdf21b",
+      "visualDescription": "A few tiny brown and green pixels, widely spaced along the lower edge of a dark field.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5983009481ee77e77d41f9ac2a09174c55cc4d3f1683aa41454de52291b5a02b.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 5983009481ee77e77d41f9ac2a09174c55cc4d3f1683aa41454de52291b5a02b and decoded pixel SHA-256 8327a3d48a497438ea18f130109b8172a2ce78e097f9018ef73021c15ecdf21b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/26",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/27",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/28",
+      "sourceSha256": "ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521",
+      "pixelSha256": "9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a",
+      "visualDescription": "An almost uniform dark gray field with no prominent colored structure.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 ed145b738da1a92b9e59cd56318185e555a5518171004581ee93530c9d3e6521 and decoded pixel SHA-256 9bbe909341153d9872f7e98ffbace1783284988ba26af945b955858731ade18a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/29",
+      "sourceSha256": "23c2ce800555c3a824cd19e6405cc1e1560d119d2a928d70f910adfc6294db8b",
+      "pixelSha256": "eabab06bf07a161aff56c58c53cd26b258e6913446aea3fefe75e8985a7cb973",
+      "visualDescription": "A diagonal bank of vivid blue and white pixels bordered by dark and brown-orange shapes.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/23c2ce800555c3a824cd19e6405cc1e1560d119d2a928d70f910adfc6294db8b.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 23c2ce800555c3a824cd19e6405cc1e1560d119d2a928d70f910adfc6294db8b and decoded pixel SHA-256 eabab06bf07a161aff56c58c53cd26b258e6913446aea3fefe75e8985a7cb973; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/3",
+      "sourceSha256": "55f783528475653992ff078820c0df9d6add151ca57c00d67e42f228a95dd612",
+      "pixelSha256": "9c831ce0662798a4e89b9259ae47ded6969cb2c943f59692435d644bd03002c3",
+      "visualDescription": "A rounded brown-orange loop-like cluster with dark interior gaps and a gray background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/55f783528475653992ff078820c0df9d6add151ca57c00d67e42f228a95dd612.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 55f783528475653992ff078820c0df9d6add151ca57c00d67e42f228a95dd612 and decoded pixel SHA-256 9c831ce0662798a4e89b9259ae47ded6969cb2c943f59692435d644bd03002c3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/30",
+      "sourceSha256": "d9fc486dbe77764651ef053f45e8cfe473573ad0d44d04b163afa9023e072852",
+      "pixelSha256": "cde2108a2472930c62ba19ba38f0e42683bc691ec21f42a3fa710908a04411c2",
+      "visualDescription": "A diagonal band of blue and white pixels crossing brown-orange and green ground details.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d9fc486dbe77764651ef053f45e8cfe473573ad0d44d04b163afa9023e072852.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 d9fc486dbe77764651ef053f45e8cfe473573ad0d44d04b163afa9023e072852 and decoded pixel SHA-256 cde2108a2472930c62ba19ba38f0e42683bc691ec21f42a3fa710908a04411c2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/31",
+      "sourceSha256": "716e158cd02c4d413df6cd9ca5c025ee13e0d8fa301c9dd42a9d59a515977e21",
+      "pixelSha256": "689e0629cd8aa3c2762cb405460819c8e3d3e7c9913cdc22d12a49130c070119",
+      "visualDescription": "A broad blue-white diagonal surface with brown-orange edging and dark shadow pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/716e158cd02c4d413df6cd9ca5c025ee13e0d8fa301c9dd42a9d59a515977e21.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 716e158cd02c4d413df6cd9ca5c025ee13e0d8fa301c9dd42a9d59a515977e21 and decoded pixel SHA-256 689e0629cd8aa3c2762cb405460819c8e3d3e7c9913cdc22d12a49130c070119; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/32",
+      "sourceSha256": "64b6c749e16451d085ec90aa7538ae9116f097f3ac75260239ecd892335a5bd8",
+      "pixelSha256": "69c5ec7ded289c9fd14b261db7056f99409902f97bb12fa93fb590711ab537de",
+      "visualDescription": "A diagonal blue-white pattern with brown-orange blocks and a few green and pale gray details.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/64b6c749e16451d085ec90aa7538ae9116f097f3ac75260239ecd892335a5bd8.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 64b6c749e16451d085ec90aa7538ae9116f097f3ac75260239ecd892335a5bd8 and decoded pixel SHA-256 69c5ec7ded289c9fd14b261db7056f99409902f97bb12fa93fb590711ab537de; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/33",
+      "sourceSha256": "a5c8b36a71e584b8799ab2796c0c3a3806c3387a6f390f5e6b9866806aa8cad4",
+      "pixelSha256": "4ab85f3e7441476d3aafe3b154e882f303e3d73aad96203e7e38b7e4c9299277",
+      "visualDescription": "A blue-white diagonal area over brown-orange ground, with small pale and dark accents.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a5c8b36a71e584b8799ab2796c0c3a3806c3387a6f390f5e6b9866806aa8cad4.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 a5c8b36a71e584b8799ab2796c0c3a3806c3387a6f390f5e6b9866806aa8cad4 and decoded pixel SHA-256 4ab85f3e7441476d3aafe3b154e882f303e3d73aad96203e7e38b7e4c9299277; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/34",
+      "sourceSha256": "9287fe2f3a07531694cb9c5d368e0cc9894313c49427bffaf953e126a31cfcd4",
+      "pixelSha256": "0e29e744634b73e7c2776c4595f3f322aba6a20915c957f731cc83e73e2da64d",
+      "visualDescription": "A blue-white diagonal surface with a stepped brown-orange border and dark pixels.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9287fe2f3a07531694cb9c5d368e0cc9894313c49427bffaf953e126a31cfcd4.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 9287fe2f3a07531694cb9c5d368e0cc9894313c49427bffaf953e126a31cfcd4 and decoded pixel SHA-256 0e29e744634b73e7c2776c4595f3f322aba6a20915c957f731cc83e73e2da64d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/4",
+      "sourceSha256": "1a5296602eb509b8c78c4c574f98c083e934e86473e3fb55ed2a7d5023d78e01",
+      "pixelSha256": "41a05aa0967167cee7c2260fe46117e5ac4fc9e8d1ace8d6d478a7987b0a53b1",
+      "visualDescription": "A dense patch of bright green and pale green pixels on a dark background.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1a5296602eb509b8c78c4c574f98c083e934e86473e3fb55ed2a7d5023d78e01.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 1a5296602eb509b8c78c4c574f98c083e934e86473e3fb55ed2a7d5023d78e01 and decoded pixel SHA-256 41a05aa0967167cee7c2260fe46117e5ac4fc9e8d1ace8d6d478a7987b0a53b1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/5",
+      "sourceSha256": "15f44115163a178c05ef55c011e2616b569b80d81a8c1c9ce6e17b67880a3a4d",
+      "pixelSha256": "0cc962694dbba022695765935e14819e6a486ad42bf00d87ef1527f820c78822",
+      "visualDescription": "A dense green and pale green pixel patch with a few yellow highlights.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/15f44115163a178c05ef55c011e2616b569b80d81a8c1c9ce6e17b67880a3a4d.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 15f44115163a178c05ef55c011e2616b569b80d81a8c1c9ce6e17b67880a3a4d and decoded pixel SHA-256 0cc962694dbba022695765935e14819e6a486ad42bf00d87ef1527f820c78822; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/6",
+      "sourceSha256": "b7aacad4dcbd1a23a56fcf64d44df5aeda599ab03dc184f4a6e0b54328e303d7",
+      "pixelSha256": "89e62b03598c0a0757ade6f2ba2a4290e9e81d1eb5d54d5c387b4540cc1092bd",
+      "visualDescription": "A branching brown trunk-like shape with dark edges and green pixels along the base.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b7aacad4dcbd1a23a56fcf64d44df5aeda599ab03dc184f4a6e0b54328e303d7.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 b7aacad4dcbd1a23a56fcf64d44df5aeda599ab03dc184f4a6e0b54328e303d7 and decoded pixel SHA-256 89e62b03598c0a0757ade6f2ba2a4290e9e81d1eb5d54d5c387b4540cc1092bd; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/7",
+      "sourceSha256": "82d5b2c29be786a25fb13fca0a206308c23d1c43fef462971e47f99aac889daa",
+      "pixelSha256": "40c20e7484ba33415ff7b4aa0766b954430d534086c2e701e17b53541e0f29fc",
+      "visualDescription": "A diagonal brown-orange limb with dark outlines and green flecks along the bottom.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/82d5b2c29be786a25fb13fca0a206308c23d1c43fef462971e47f99aac889daa.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 82d5b2c29be786a25fb13fca0a206308c23d1c43fef462971e47f99aac889daa and decoded pixel SHA-256 40c20e7484ba33415ff7b4aa0766b954430d534086c2e701e17b53541e0f29fc; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/8",
+      "sourceSha256": "a54bf18f81fc232e7d012a92514f49fc86b15c8a228c7a7eca7f54d4e08d91d9",
+      "pixelSha256": "b6af0d882f59021d95fc50c0eeeaa83e7a8c032dba8e4f08acd325a9cfb0b8cc",
+      "visualDescription": "A forked brown-orange branching form with dark outlines and a green base.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a54bf18f81fc232e7d012a92514f49fc86b15c8a228c7a7eca7f54d4e08d91d9.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 a54bf18f81fc232e7d012a92514f49fc86b15c8a228c7a7eca7f54d4e08d91d9 and decoded pixel SHA-256 b6af0d882f59021d95fc50c0eeeaa83e7a8c032dba8e4f08acd325a9cfb0b8cc; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/wildcom.daa/block/1/tile/9",
+      "sourceSha256": "814f1e54235717e9fc66614042c86345b94f8a48b4e34e33faf8634deca4063c",
+      "pixelSha256": "5d151c80c7c38b9f2261ea80543b7b42d56766d94a9256c3539f844273865471",
+      "visualDescription": "A branching brown form with several short limbs and a line of green pixels at its base.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/814f1e54235717e9fc66614042c86345b94f8a48b4e34e33faf8634deca4063c.png",
+          "note": "Visible appearance only; reviewed using exact preview PNG SHA-256 814f1e54235717e9fc66614042c86345b94f8a48b4e34e33faf8634deca4063c and decoded pixel SHA-256 5d151c80c7c38b9f2261ea80543b7b42d56766d94a9256c3539f844273865471; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    }
+  ]
+}

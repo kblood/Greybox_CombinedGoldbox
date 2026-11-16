@@ -1,0 +1,695 @@
+{
+  "schema": "dok-graphics-source-roster-v1",
+  "inventoryReference": "docs/dos-inventory.md",
+  "files": [
+    {
+      "path": "8X8D1.DAX",
+      "sha256": "375b687e49ab842f256291ad847225894e0ce32d90366bdae944e3fe1fc0d217",
+      "bytes": 11191,
+      "tocBlockIds": [
+        201,
+        202,
+        203,
+        204,
+        1
+      ]
+    },
+    {
+      "path": "8X8D2.DAX",
+      "sha256": "5de95d585b24a793efbe112a9d8118eb230fa8b09008a120eceedf4411cb60fd",
+      "bytes": 14092,
+      "tocBlockIds": [
+        3,
+        4
+      ]
+    },
+    {
+      "path": "8X8D3.DAX",
+      "sha256": "1f0d778dbcf260fb710720d78258d5715436551d56a0b55d2ed7d91c9032166f",
+      "bytes": 14221,
+      "tocBlockIds": [
+        5,
+        6
+      ]
+    },
+    {
+      "path": "8X8D4.DAX",
+      "sha256": "7b6ceb3159df3a5e224cf09a299e42cf927d591c9e14ca1776dfc7968a29a180",
+      "bytes": 8053,
+      "tocBlockIds": [
+        2
+      ]
+    },
+    {
+      "path": "8X8D5.DAX",
+      "sha256": "e152925abedfd9053e62061007ce4bb78c5350dbbc0aca83a8e77bbee673ccec",
+      "bytes": 8308,
+      "tocBlockIds": [
+        7
+      ]
+    },
+    {
+      "path": "BACK1.DAX",
+      "sha256": "7f82fa23593c211789309142dbf443177eae9918ac669d603caa627371e665d5",
+      "bytes": 1619,
+      "tocBlockIds": [
+        1
+      ]
+    },
+    {
+      "path": "BACK2.DAX",
+      "sha256": "aae168f54c4f80403710cc6e8893887f7b08a7a6712994eddd8ba5810e3a7dac",
+      "bytes": 5904,
+      "tocBlockIds": [
+        3,
+        4
+      ]
+    },
+    {
+      "path": "BACK3.DAX",
+      "sha256": "add1c1cfd5d39474a774d763696306eebb5b8209ccef052741e5fa675ae98ab7",
+      "bytes": 6507,
+      "tocBlockIds": [
+        5,
+        6
+      ]
+    },
+    {
+      "path": "BACK4.DAX",
+      "sha256": "d0f1a3f2d4973f2d9e233c35d3fbf2539837af0bea7c5d7a58d859eaf43b277d",
+      "bytes": 2639,
+      "tocBlockIds": [
+        2
+      ]
+    },
+    {
+      "path": "BACK5.DAX",
+      "sha256": "6ddf6cd3a29c9b4135eb86853c5ba221edac5092e5bc8f9fc77dde8b1a2cfa3d",
+      "bytes": 3684,
+      "tocBlockIds": [
+        7
+      ]
+    },
+    {
+      "path": "BIGPIC1.DAX",
+      "sha256": "29ba9df21876330065a2e684bc948bf98f7c0f0c43b5a8430ce50c14382c3b74",
+      "bytes": 31959,
+      "tocBlockIds": [
+        112,
+        113
+      ]
+    },
+    {
+      "path": "BIGPIC2.DAX",
+      "sha256": "0b0189fb0e506b2c0d5af9b7a0266957131e9ea2626c22f5e0e6a6618af63368",
+      "bytes": 15480,
+      "tocBlockIds": [
+        114
+      ]
+    },
+    {
+      "path": "BIGPIC3.DAX",
+      "sha256": "99e825bb93d477099e5588d0f85fd763febd4a25427f77f9bb71599398c18724",
+      "bytes": 17236,
+      "tocBlockIds": [
+        115
+      ]
+    },
+    {
+      "path": "CBODY.DAX",
+      "sha256": "0c93206b020e30eecc1f761a9408b5befc20113fde18a8b401ae2ddad2c103bd",
+      "bytes": 23889,
+      "tocBlockIds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
+      ]
+    },
+    {
+      "path": "CHEAD.DAX",
+      "sha256": "8e61d8cf23b7094353425224f02be4423b880c5e8a7e168d478ec851bfaea568",
+      "bytes": 3428,
+      "tocBlockIds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205
+      ]
+    },
+    {
+      "path": "COMSPR.DAX",
+      "sha256": "34acdd09aee4835dcc292a19a17b669be545fcad5e67fdc03b40203bd3e696e0",
+      "bytes": 8053,
+      "tocBlockIds": [
+        0,
+        128,
+        1,
+        129,
+        2,
+        130,
+        3,
+        131,
+        4,
+        132,
+        5,
+        133,
+        6,
+        134,
+        7,
+        135,
+        8,
+        136,
+        9,
+        137,
+        10,
+        138,
+        11,
+        139,
+        12,
+        140,
+        13,
+        141,
+        14,
+        142,
+        15,
+        143,
+        16,
+        144,
+        17,
+        145,
+        18,
+        146,
+        19,
+        147,
+        20,
+        148,
+        21,
+        149
+      ]
+    },
+    {
+      "path": "CPIC1.DAX",
+      "sha256": "16fff33df5db6cf799d0af2fe76297211442afc6a12a7adda0529330339915fa",
+      "bytes": 44087,
+      "tocBlockIds": [
+        0,
+        128,
+        1,
+        129,
+        2,
+        130,
+        3,
+        131,
+        4,
+        132,
+        5,
+        133,
+        7,
+        135,
+        8,
+        136,
+        9,
+        137,
+        10,
+        138,
+        11,
+        139,
+        12,
+        140,
+        13,
+        141,
+        14,
+        142,
+        15,
+        143,
+        16,
+        144,
+        17,
+        145,
+        18,
+        146,
+        19,
+        147,
+        22,
+        150,
+        24,
+        152,
+        25,
+        153,
+        26,
+        154,
+        27,
+        155,
+        28,
+        156,
+        29,
+        157,
+        30,
+        158,
+        31,
+        159,
+        32,
+        160,
+        33,
+        161,
+        34,
+        162,
+        35,
+        163,
+        36,
+        164,
+        37,
+        165,
+        38,
+        166,
+        39,
+        167,
+        42,
+        170,
+        43,
+        171,
+        44,
+        172,
+        45,
+        173,
+        48,
+        176,
+        49,
+        177,
+        50,
+        178,
+        64,
+        192,
+        66,
+        194,
+        69,
+        197,
+        70,
+        198,
+        72,
+        200,
+        74,
+        202,
+        75,
+        203,
+        78,
+        206,
+        80,
+        208,
+        97,
+        225
+      ]
+    },
+    {
+      "path": "DUNGCOM.DAX",
+      "sha256": "827176e941f24176f1907bde40a81928cb4c2da66231ca6b07c72b0b03a0bf2a",
+      "bytes": 5542,
+      "tocBlockIds": [
+        1
+      ]
+    },
+    {
+      "path": "PIC1.DAX",
+      "sha256": "8dcace556a500be3d0c0c7a0d1c3841897101798327bd0df1e7d1f4cfb4e35c2",
+      "bytes": 19630,
+      "tocBlockIds": [
+        6,
+        84,
+        85,
+        86,
+        93,
+        95
+      ]
+    },
+    {
+      "path": "PIC2.DAX",
+      "sha256": "a321515da514acef8ccb81983b212ec2d1ad74d1de5fd87e3ee8bf28af56207e",
+      "bytes": 45756,
+      "tocBlockIds": [
+        1,
+        4,
+        9,
+        22,
+        76,
+        82,
+        89,
+        90,
+        91,
+        96
+      ]
+    },
+    {
+      "path": "PIC3.DAX",
+      "sha256": "c041773e95657db639003d28cdcbff405c5c230f96b83b0bad483150f2156aec",
+      "bytes": 71128,
+      "tocBlockIds": [
+        7,
+        14,
+        15,
+        26,
+        29,
+        30,
+        36,
+        75,
+        79,
+        81,
+        87,
+        88,
+        92,
+        94
+      ]
+    },
+    {
+      "path": "PIC4.DAX",
+      "sha256": "76c737f7f4f1cce59ed610616558287c82b3ab1dc53ec28c333e64a0a76cbe46",
+      "bytes": 8610,
+      "tocBlockIds": [
+        59,
+        60,
+        78
+      ]
+    },
+    {
+      "path": "PIC5.DAX",
+      "sha256": "f1f73063c5abf2e3a29c24aea7c58c91b2aa1fb493e49a1335c6a98b1a39cd4e",
+      "bytes": 19847,
+      "tocBlockIds": [
+        5,
+        24,
+        77,
+        96
+      ]
+    },
+    {
+      "path": "PIC6.DAX",
+      "sha256": "26a3add49d45577a53bbfbe2d0adb45eae2389bd73c1c44eeb4ba497af199edf",
+      "bytes": 19243,
+      "tocBlockIds": [
+        16,
+        17,
+        19,
+        74,
+        80
+      ]
+    },
+    {
+      "path": "PIC7.DAX",
+      "sha256": "7a68563bb95635aaab10ebbc7baa23f9782a0e99276faa69c85561d3fa316588",
+      "bytes": 3386,
+      "tocBlockIds": [
+        83
+      ]
+    },
+    {
+      "path": "SKYGRND.DAX",
+      "sha256": "592e258c4d0cb92fc4f0aca744d4c3f8a76ea85cc7befa97969dc891bb7959b1",
+      "bytes": 5257,
+      "tocBlockIds": [
+        1,
+        2
+      ]
+    },
+    {
+      "path": "SPRIT1.DAX",
+      "sha256": "573a1024e4db256ec85ea77423503fc100485259d5b992de579e58feeb0f5829",
+      "bytes": 4542,
+      "tocBlockIds": [
+        33,
+        98
+      ]
+    },
+    {
+      "path": "SPRIT2.DAX",
+      "sha256": "2e940a151ac564030f150159770287276775e6ade86c631dce522facff71af3b",
+      "bytes": 8462,
+      "tocBlockIds": [
+        8,
+        10,
+        39
+      ]
+    },
+    {
+      "path": "SPRIT3.DAX",
+      "sha256": "cd6c191411d55af0a97d9fa8232c69fa56982ce03d3195eae392d4b6819e63eb",
+      "bytes": 14714,
+      "tocBlockIds": [
+        13,
+        18,
+        25,
+        27,
+        31,
+        32,
+        72
+      ]
+    },
+    {
+      "path": "SPRIT4.DAX",
+      "sha256": "cc4abbfadf4b012d834b102ae8f595b996bb115aff434c874e137321edd3d25b",
+      "bytes": 7321,
+      "tocBlockIds": [
+        2,
+        64,
+        66,
+        70
+      ]
+    },
+    {
+      "path": "TITLE.DAX",
+      "sha256": "53157905e76886a6601767600622daa01000efe2cdeaec87c2279264777fdd83",
+      "bytes": 68110,
+      "tocBlockIds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "path": "WALLDEF1.DAX",
+      "sha256": "f0a30e9bb820cb928a64efd1b76371c85468cd231da6b31666dc18ed97a8e934",
+      "bytes": 2182,
+      "tocBlockIds": [
+        1
+      ]
+    },
+    {
+      "path": "WALLDEF2.DAX",
+      "sha256": "f4418630ff6819d5e950baf2c98ccb64bcabf7f91ada76f5aa8b964cedcae922",
+      "bytes": 3847,
+      "tocBlockIds": [
+        3,
+        4
+      ]
+    },
+    {
+      "path": "WALLDEF3.DAX",
+      "sha256": "2a1297551ed14c6aadcb26223855f5532664cc2c9b7466f25f0cbc1720cd6b71",
+      "bytes": 4010,
+      "tocBlockIds": [
+        5,
+        6
+      ]
+    },
+    {
+      "path": "WALLDEF4.DAX",
+      "sha256": "3fc6436f8b83c8533e0a874ec6c60f90825bbf89bb3f4ae94a6869a17088d642",
+      "bytes": 1510,
+      "tocBlockIds": [
+        2
+      ]
+    },
+    {
+      "path": "WALLDEF5.DAX",
+      "sha256": "d9352545229fb1c17e6c4f2d2d08800b8c776ea8ad68f604af1a0ea6a761c252",
+      "bytes": 1778,
+      "tocBlockIds": [
+        7
+      ]
+    },
+    {
+      "path": "WILDCOM.DAX",
+      "sha256": "d3e26e13dc031431432de9bc1b3586610cd62664aed2f2b2e3d6e1fdf0263c0a",
+      "bytes": 7213,
+      "tocBlockIds": [
+        1
+      ]
+    }
+  ]
+}

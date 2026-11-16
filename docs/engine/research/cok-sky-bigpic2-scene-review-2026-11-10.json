@@ -1,0 +1,117 @@
+{
+  "schema": "cok-sky-bigpic2-scene-review-v1",
+  "scope": "Amiga SKY.DAA and BIGPIC2.DAA block-frame gap rows from the 2026-11-10 gap review queue, against their location peers (same archive family and block number). Each outcome is a visual judgment from a contact sheet (skybig-sheet-1), not a metric.",
+  "reviewer": "Claude (visual review, 2026-11-10)",
+  "sameSceneCount": 6,
+  "pairCount": 6,
+  "pairs": [
+    {
+      "index": 0,
+      "gap": "cok/amiga/disk1/sky.daa/block/250/frame/0",
+      "peer": "cok/dos-ega/disk1/sky.dax/block/250/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "1a2fa2d8f027f4143d4774dc35f01425f5d2851c42ec1bff81f5eb5d75518c1b",
+      "peerPixelSha256": "86c4e7b9101e179adf33c2c646438ea45f626e483082fb11c0b839af85e328a8",
+      "sizeGap": [
+        88,
+        16
+      ],
+      "sizePeer": [
+        88,
+        16
+      ],
+      "differingChannelValues": 2764,
+      "channelValues": 4224
+    },
+    {
+      "index": 1,
+      "gap": "cok/amiga/disk1/sky.daa/block/251/frame/0",
+      "peer": "cok/dos-ega/disk1/sky.dax/block/251/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "10ac66b5ee12535ee55931b0de5d4e2828c89514b8f90568c29e30c0e790d6a7",
+      "peerPixelSha256": "f51e749ee00af27bb71cdb48e1ea7d2dff8e55f37dac5d470c9add29dea4bdbb",
+      "sizeGap": [
+        24,
+        24
+      ],
+      "sizePeer": [
+        24,
+        24
+      ],
+      "differingChannelValues": 1153,
+      "channelValues": 1728
+    },
+    {
+      "index": 2,
+      "gap": "cok/amiga/disk3/bigpic2.daa/block/117/frame/0",
+      "peer": "cok/dos-ega/disk3/bigpic3.dax/block/117/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "fa746a46cc0976ec6215d6afa2ef02c1dc415c185786fa836a3e5a3de682b818",
+      "peerPixelSha256": "70628b2e5e2fdae4bce0ac13731dd35a5277fd7964efe042cb9505e53c5778fa",
+      "sizeGap": [
+        304,
+        120
+      ],
+      "sizePeer": [
+        304,
+        120
+      ],
+      "differingChannelValues": 39452,
+      "channelValues": 109440
+    },
+    {
+      "index": 3,
+      "gap": "cok/amiga/disk3/bigpic2.daa/block/118/frame/0",
+      "peer": "cok/dos-ega/disk3/bigpic3.dax/block/118/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "14722795e16e7429981f6f98b3a8d76810bdb8612e899f3b7da0917a8c6063fe",
+      "peerPixelSha256": "ec2984025d3c6b18a5d277cbb4f062a2597a28e18a0fc0c8de4d4070006e51db",
+      "sizeGap": [
+        304,
+        120
+      ],
+      "sizePeer": [
+        304,
+        120
+      ],
+      "differingChannelValues": 54397,
+      "channelValues": 109440
+    },
+    {
+      "index": 4,
+      "gap": "cok/amiga/disk3/bigpic2.daa/block/119/frame/0",
+      "peer": "cok/dos-ega/disk2/bigpic2.dax/block/119/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "f970a697b8d10f5e01be6870af19b732248496b489b1b3bacc38cf18eedd40b1",
+      "peerPixelSha256": "6a77d2f4e4db982d307cf08cfa42ff0e22cfb06773f97b2f355e2909e7a707ca",
+      "sizeGap": [
+        304,
+        120
+      ],
+      "sizePeer": [
+        304,
+        120
+      ],
+      "differingChannelValues": 45478,
+      "channelValues": 109440
+    },
+    {
+      "index": 5,
+      "gap": "cok/amiga/disk3/bigpic2.daa/block/120/frame/0",
+      "peer": "cok/dos-ega/disk3/bigpic3.dax/block/120/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "0b168bb766abd9c92265f3f94d00d6ef9b68ab6d494b1ff728eb4ca1ac1b5a7a",
+      "peerPixelSha256": "e6fde96a4cf5ebd9bff967f3773767a8422a6acef45f98ca827ed3ed071ea121",
+      "sizeGap": [
+        304,
+        120
+      ],
+      "sizePeer": [
+        304,
+        120
+      ],
+      "differingChannelValues": 58452,
+      "channelValues": 109440
+    }
+  ]
+}

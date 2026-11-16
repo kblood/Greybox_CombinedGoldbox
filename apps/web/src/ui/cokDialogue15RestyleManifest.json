@@ -1,0 +1,29 @@
+{
+  "game": "cok",
+  "system": "DOS-EGA",
+  "archive": "Champions of Krynn/PIC1.DAX",
+  "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+  "blockId": 15,
+  "frameIndex": 0,
+  "source": {
+    "file": "batch03/native/004_face_cok_dos_pic1_015_f0.png",
+    "sha256": "f0e0d4a4e2eae51fed55c8f36ccbba30503898bb7beaab115ddd7eb245e33286",
+    "width": 88,
+    "height": 88,
+    "colorType": 6,
+    "prompt": "batch03/004_face_cok_dos_pic1_015_f0_prompt.txt",
+    "promptSha256": "c8e68fcfcb31e7c850c4f76e640a1622fdc9e59cd45a72dc4861987a04956da2",
+    "input": "batch03/004_face_cok_dos_pic1_015_f0_input.png",
+    "inputSha256": "2ce472f099f66acb41dd67df02950796b69fcba5989b1026e97657d2f5977a5a"
+  },
+  "restyle": {
+    "file": "PIC1_015_f0_restyle.png",
+    "reviewedImport": "batch03_work/dist-app-cok-pic1-58-dialogue-candidate-20261026/restyle/out/004_face_cok_dos_pic1_015_f0.png",
+    "sha256": "fafe65676a2fdeb3ad94727f07ab4ca836fce495064c9ca2e8cb60a54b96ed82",
+    "nativeWidth": 88,
+    "nativeHeight": 88,
+    "pixelScale": 16,
+    "colorType": 2,
+    "destination": "dialogue/PIC1_015_f0_restyle.png"
+  }
+}

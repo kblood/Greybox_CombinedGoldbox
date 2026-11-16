@@ -1,0 +1,4142 @@
+{
+  "schema": "cok-ecl-picture-sites-v1",
+  "task": "SCENE-ROUTES-114",
+  "ecl": {
+    "archive": "ECL1.DAX",
+    "archiveSha256": "6387021ed8c84f2834d32d7c5e66dd03b88322d0c5072cba6cfb64a48e9ccf79",
+    "blockId": 16,
+    "blockSha256": "826dd124d05280ab588e94d6bf6c6c4994fdc99acf250d6ae5aa1d304fff4537",
+    "rawBytes": 3813,
+    "compressedFileOffset": 65,
+    "compressedBytes": 3918
+  },
+  "register": {
+    "entries": [
+      {
+        "entry": "vm_run_1",
+        "segment": 257,
+        "vaddr": 33109,
+        "offset": 343
+      },
+      {
+        "entry": "search_location",
+        "segment": 257,
+        "vaddr": 33470,
+        "offset": 704
+      },
+      {
+        "entry": "pre_camp_check",
+        "segment": 257,
+        "vaddr": 33395,
+        "offset": 629
+      },
+      {
+        "entry": "camp_interrupted",
+        "segment": 257,
+        "vaddr": 33438,
+        "offset": 672
+      },
+      {
+        "entry": "initial_entry",
+        "segment": 257,
+        "vaddr": 32788,
+        "offset": 22
+      }
+    ],
+    "pictureSites": [
+      {
+        "offset": 76,
+        "vaddr": 32842,
+        "operand": {
+          "kind": "immediate",
+          "code": 0,
+          "value": 121
+        },
+        "pictureId": 121,
+        "entries": [
+          "initial_entry"
+        ],
+        "paths": [
+          {
+            "entry": "initial_entry",
+            "steps": [
+              {
+                "offset": 22,
+                "vaddr": 32788,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19512
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 28,
+                "vaddr": 32794,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19430
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 34,
+                "vaddr": 32800,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19703
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 40,
+                "vaddr": 32806,
+                "mnemonic": "LOAD_FILES",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 127
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 127
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 127
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 47,
+                "vaddr": 32813,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 75
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32454
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 53,
+                "vaddr": 32819,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19442
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 36
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 59,
+                "vaddr": 32825,
+                "mnemonic": "IF_NE",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 60,
+                "vaddr": 32826,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32842
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 76,
+                "vaddr": 32842,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 121
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "offset": 1376,
+        "vaddr": 34142,
+        "operand": {
+          "kind": "immediate",
+          "code": 0,
+          "value": 114
+        },
+        "pictureId": 114,
+        "entries": [
+          "search_location"
+        ],
+        "paths": [
+          {
+            "entry": "search_location",
+            "steps": [
+              {
+                "offset": 704,
+                "vaddr": 33470,
+                "mnemonic": "DESTROY_ITEMS",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 63
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 707,
+                "vaddr": 33473,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19463
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 713,
+                "vaddr": 33479,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 33655
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 717,
+                "vaddr": 33483,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 129,
+                    "value": 31532
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 3
+                  }
+                ],
+                "inlineStrings": [
+                  "WILD"
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 721,
+                    "packedBytes": 3,
+                    "packedSha256": "5dbd34877835cf720bbb8f253264ab8d49face7575a65cc2677eefbdb9e53a86"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 726,
+                "vaddr": 33492,
+                "mnemonic": "IF_EQ",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 727,
+                "vaddr": 33493,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 34131
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 1365,
+                "vaddr": 34131,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19501
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1371,
+                "vaddr": 34137,
+                "mnemonic": "IF_NE",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 1376,
+                "vaddr": 34142,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 114
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "compressedOpcodeOrigin": {
+          "kind": "literal",
+          "controlFileOffset": 1499,
+          "valueFileOffset": 1502
+        }
+      },
+      {
+        "offset": 1651,
+        "vaddr": 34417,
+        "operand": {
+          "kind": "immediate",
+          "code": 0,
+          "value": 18
+        },
+        "pictureId": 18,
+        "entries": [
+          "search_location"
+        ],
+        "paths": [
+          {
+            "entry": "search_location",
+            "steps": [
+              {
+                "offset": 704,
+                "vaddr": 33470,
+                "mnemonic": "DESTROY_ITEMS",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 63
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 707,
+                "vaddr": 33473,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19463
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 713,
+                "vaddr": 33479,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 33655
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 717,
+                "vaddr": 33483,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 129,
+                    "value": 31532
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 3
+                  }
+                ],
+                "inlineStrings": [
+                  "WILD"
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 721,
+                    "packedBytes": 3,
+                    "packedSha256": "5dbd34877835cf720bbb8f253264ab8d49face7575a65cc2677eefbdb9e53a86"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 726,
+                "vaddr": 33492,
+                "mnemonic": "IF_EQ",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 727,
+                "vaddr": 33493,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 34131
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 1365,
+                "vaddr": 34131,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19501
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1371,
+                "vaddr": 34137,
+                "mnemonic": "IF_NE",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 1376,
+                "vaddr": 34142,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 114
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1379,
+                "vaddr": 34145,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 33
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1380,
+                    "packedBytes": 33,
+                    "packedSha256": "cb761b450accfc690b0d8918773a5344d3c67994ec731c776a2857721f650ec7"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1415,
+                "vaddr": 34181,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 38
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1416,
+                    "packedBytes": 38,
+                    "packedSha256": "be1890889086993a9a97fc3a6047419f6ebcd2b5ff98f68fd0240027ba7415d9"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1456,
+                "vaddr": 34222,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 41
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1457,
+                    "packedBytes": 41,
+                    "packedSha256": "f0a81a655883f6f082b529844a980fa5cd4601633774f1a693df351c20d8d318"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1500,
+                "vaddr": 34266,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 34
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1501,
+                    "packedBytes": 34,
+                    "packedSha256": "f5a075c6db817595783770b0b07d64c2520450ff9c0cc73cbb08bfd8ba7bfd0e"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1537,
+                "vaddr": 34303,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36270
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 1541,
+                "vaddr": 34307,
+                "mnemonic": "SETUP_MONSTER",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 9
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 9
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1548,
+                "vaddr": 34314,
+                "mnemonic": "CLEARMONSTERS",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1549,
+                "vaddr": 34315,
+                "mnemonic": "LOAD_MONSTER",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 4
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1556,
+                "vaddr": 34322,
+                "mnemonic": "COMBAT",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1557,
+                "vaddr": 34323,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 37
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1558,
+                    "packedBytes": 37,
+                    "packedSha256": "6b05266f486ba22c17a58e37057327aecc6ac453885c0253c87fb668a18b19f5"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1597,
+                "vaddr": 34363,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 40
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1598,
+                    "packedBytes": 40,
+                    "packedSha256": "e93c7e477edc6ddccae8e0e83d359943fc9f2192c6a9c9dc710efe550754647f"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1640,
+                "vaddr": 34406,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36270
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 1644,
+                "vaddr": 34410,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19430
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1650,
+                "vaddr": 34416,
+                "mnemonic": "CLEAR_BOX",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1651,
+                "vaddr": 34417,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 18
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "offset": 1800,
+        "vaddr": 34566,
+        "operand": {
+          "kind": "immediate",
+          "code": 0,
+          "value": 121
+        },
+        "pictureId": 121,
+        "entries": [
+          "search_location"
+        ],
+        "paths": [
+          {
+            "entry": "search_location",
+            "steps": [
+              {
+                "offset": 704,
+                "vaddr": 33470,
+                "mnemonic": "DESTROY_ITEMS",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 63
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 707,
+                "vaddr": 33473,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19463
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 713,
+                "vaddr": 33479,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 33655
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 717,
+                "vaddr": 33483,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 129,
+                    "value": 31532
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 3
+                  }
+                ],
+                "inlineStrings": [
+                  "WILD"
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 721,
+                    "packedBytes": 3,
+                    "packedSha256": "5dbd34877835cf720bbb8f253264ab8d49face7575a65cc2677eefbdb9e53a86"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 726,
+                "vaddr": 33492,
+                "mnemonic": "IF_EQ",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 727,
+                "vaddr": 33493,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 34131
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 1365,
+                "vaddr": 34131,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19501
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1371,
+                "vaddr": 34137,
+                "mnemonic": "IF_NE",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 1376,
+                "vaddr": 34142,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 114
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1379,
+                "vaddr": 34145,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 33
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1380,
+                    "packedBytes": 33,
+                    "packedSha256": "cb761b450accfc690b0d8918773a5344d3c67994ec731c776a2857721f650ec7"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1415,
+                "vaddr": 34181,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 38
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1416,
+                    "packedBytes": 38,
+                    "packedSha256": "be1890889086993a9a97fc3a6047419f6ebcd2b5ff98f68fd0240027ba7415d9"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1456,
+                "vaddr": 34222,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 41
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1457,
+                    "packedBytes": 41,
+                    "packedSha256": "f0a81a655883f6f082b529844a980fa5cd4601633774f1a693df351c20d8d318"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1500,
+                "vaddr": 34266,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 34
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1501,
+                    "packedBytes": 34,
+                    "packedSha256": "f5a075c6db817595783770b0b07d64c2520450ff9c0cc73cbb08bfd8ba7bfd0e"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1537,
+                "vaddr": 34303,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36270
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 1541,
+                "vaddr": 34307,
+                "mnemonic": "SETUP_MONSTER",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 9
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 9
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1548,
+                "vaddr": 34314,
+                "mnemonic": "CLEARMONSTERS",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1549,
+                "vaddr": 34315,
+                "mnemonic": "LOAD_MONSTER",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 4
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1556,
+                "vaddr": 34322,
+                "mnemonic": "COMBAT",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1557,
+                "vaddr": 34323,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 37
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1558,
+                    "packedBytes": 37,
+                    "packedSha256": "6b05266f486ba22c17a58e37057327aecc6ac453885c0253c87fb668a18b19f5"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1597,
+                "vaddr": 34363,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 40
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1598,
+                    "packedBytes": 40,
+                    "packedSha256": "e93c7e477edc6ddccae8e0e83d359943fc9f2192c6a9c9dc710efe550754647f"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1640,
+                "vaddr": 34406,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36270
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 1644,
+                "vaddr": 34410,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19430
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1650,
+                "vaddr": 34416,
+                "mnemonic": "CLEAR_BOX",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1651,
+                "vaddr": 34417,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 18
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1654,
+                "vaddr": 34420,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19430
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1660,
+                "vaddr": 34426,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 35
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1661,
+                    "packedBytes": 35,
+                    "packedSha256": "ab9ad8d10aa077d5935ad9ce47a56c22f866f36d6c0e01a9406aa2c36004e6ff"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1698,
+                "vaddr": 34464,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 23
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1699,
+                    "packedBytes": 23,
+                    "packedSha256": "dda3a0f571d588311779e7cec36cbb154d55fa04e084d963c9bb028a54b2a594"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1724,
+                "vaddr": 34490,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 38
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1725,
+                    "packedBytes": 38,
+                    "packedSha256": "4c62628dccfd79f61fbd83a55b35d00d19aeaaf702da8bbab786aabd0d61f33c"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1765,
+                "vaddr": 34531,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 21
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 1766,
+                    "packedBytes": 21,
+                    "packedSha256": "8787c0235fc18d49d63491db34b1a433a0073b6a7cf94e88bcdb0561f824c15c"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1789,
+                "vaddr": 34555,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19501
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1795,
+                "vaddr": 34561,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36270
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 1799,
+                "vaddr": 34565,
+                "mnemonic": "CLEAR_BOX",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1800,
+                "vaddr": 34566,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 121
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "offset": 3004,
+        "vaddr": 35770,
+        "operand": {
+          "kind": "immediate",
+          "code": 0,
+          "value": 58
+        },
+        "pictureId": 58,
+        "entries": [
+          "search_location"
+        ],
+        "paths": [
+          {
+            "entry": "search_location",
+            "steps": [
+              {
+                "offset": 704,
+                "vaddr": 33470,
+                "mnemonic": "DESTROY_ITEMS",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 63
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 707,
+                "vaddr": 33473,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19463
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 713,
+                "vaddr": 33479,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 33655
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 717,
+                "vaddr": 33483,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 129,
+                    "value": 31532
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 3
+                  }
+                ],
+                "inlineStrings": [
+                  "WILD"
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 721,
+                    "packedBytes": 3,
+                    "packedSha256": "5dbd34877835cf720bbb8f253264ab8d49face7575a65cc2677eefbdb9e53a86"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 726,
+                "vaddr": 33492,
+                "mnemonic": "IF_EQ",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 727,
+                "vaddr": 33493,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 34131
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 1365,
+                "vaddr": 34131,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19501
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1371,
+                "vaddr": 34137,
+                "mnemonic": "IF_NE",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 1372,
+                "vaddr": 34138,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 34835
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 2069,
+                "vaddr": 34835,
+                "mnemonic": "ADD",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2078,
+                "vaddr": 34844,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 10
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2084,
+                "vaddr": 34850,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2086,
+                "vaddr": 34852,
+                "mnemonic": "DIVIDE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19395
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 3
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2095,
+                "vaddr": 34861,
+                "mnemonic": "DIVIDE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19396
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 3
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32634
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2104,
+                "vaddr": 34870,
+                "mnemonic": "ADD",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32634
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32635
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2114,
+                "vaddr": 34880,
+                "mnemonic": "ADD",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 10
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32635
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32636
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2123,
+                "vaddr": 34889,
+                "mnemonic": "RANDOM",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 99
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32637
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2129,
+                "vaddr": 34895,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32637
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32636
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2136,
+                "vaddr": 34902,
+                "mnemonic": "IF_GT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2138,
+                "vaddr": 34904,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2144,
+                "vaddr": 34910,
+                "mnemonic": "RANDOM",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 99
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2150,
+                "vaddr": 34916,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 50
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2156,
+                "vaddr": 34922,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2161,
+                "vaddr": 34927,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 70
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2167,
+                "vaddr": 34933,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2172,
+                "vaddr": 34938,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 80
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2178,
+                "vaddr": 34944,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 2179,
+                "vaddr": 34945,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 35397
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 2631,
+                "vaddr": 35397,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 37
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 2632,
+                    "packedBytes": 37,
+                    "packedSha256": "cb4bc7ec5e0e47c40f2ef2552b9178ee711df7822bde0f022093e69f98bc984e"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2671,
+                "vaddr": 35437,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 25
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 2672,
+                    "packedBytes": 25,
+                    "packedSha256": "a43a985f502fb76ecdbbf7e213a4b5aa50c223ac676f32df4d95e583fdd2d130"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2699,
+                "vaddr": 35465,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36309
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 2703,
+                "vaddr": 35469,
+                "mnemonic": "IF_EQ",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2705,
+                "vaddr": 35471,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 35725
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-target"
+              },
+              {
+                "offset": 2959,
+                "vaddr": 35725,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 25
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 2960,
+                    "packedBytes": 25,
+                    "packedSha256": "7c5668bea49f5f8a8d293048959af3699c234307417f8d57c68c1e2ecad985d5"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2987,
+                "vaddr": 35753,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36270
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 2991,
+                "vaddr": 35757,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19430
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2997,
+                "vaddr": 35763,
+                "mnemonic": "CLEAR_BOX",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2998,
+                "vaddr": 35764,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19430
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 3004,
+                "vaddr": 35770,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 58
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "offset": 3027,
+        "vaddr": 35793,
+        "operand": {
+          "kind": "immediate",
+          "code": 0,
+          "value": 58
+        },
+        "pictureId": 58,
+        "entries": [
+          "search_location"
+        ],
+        "paths": [
+          {
+            "entry": "search_location",
+            "steps": [
+              {
+                "offset": 704,
+                "vaddr": 33470,
+                "mnemonic": "DESTROY_ITEMS",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 63
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 707,
+                "vaddr": 33473,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19463
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 713,
+                "vaddr": 33479,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 33655
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 717,
+                "vaddr": 33483,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 129,
+                    "value": 31532
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 3
+                  }
+                ],
+                "inlineStrings": [
+                  "WILD"
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 721,
+                    "packedBytes": 3,
+                    "packedSha256": "5dbd34877835cf720bbb8f253264ab8d49face7575a65cc2677eefbdb9e53a86"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 726,
+                "vaddr": 33492,
+                "mnemonic": "IF_EQ",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 727,
+                "vaddr": 33493,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 34131
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 1365,
+                "vaddr": 34131,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19501
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1371,
+                "vaddr": 34137,
+                "mnemonic": "IF_NE",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 1372,
+                "vaddr": 34138,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 34835
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 2069,
+                "vaddr": 34835,
+                "mnemonic": "ADD",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2078,
+                "vaddr": 34844,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 10
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2084,
+                "vaddr": 34850,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2086,
+                "vaddr": 34852,
+                "mnemonic": "DIVIDE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19395
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 3
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2095,
+                "vaddr": 34861,
+                "mnemonic": "DIVIDE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19396
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 3
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32634
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2104,
+                "vaddr": 34870,
+                "mnemonic": "ADD",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32634
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32635
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2114,
+                "vaddr": 34880,
+                "mnemonic": "ADD",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 10
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32635
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32636
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2123,
+                "vaddr": 34889,
+                "mnemonic": "RANDOM",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 99
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32637
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2129,
+                "vaddr": 34895,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32637
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32636
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2136,
+                "vaddr": 34902,
+                "mnemonic": "IF_GT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2138,
+                "vaddr": 34904,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2144,
+                "vaddr": 34910,
+                "mnemonic": "RANDOM",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 99
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2150,
+                "vaddr": 34916,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 50
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2156,
+                "vaddr": 34922,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2161,
+                "vaddr": 34927,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 70
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2167,
+                "vaddr": 34933,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2172,
+                "vaddr": 34938,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 80
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2178,
+                "vaddr": 34944,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 2179,
+                "vaddr": 34945,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 35397
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 2631,
+                "vaddr": 35397,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 37
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 2632,
+                    "packedBytes": 37,
+                    "packedSha256": "cb4bc7ec5e0e47c40f2ef2552b9178ee711df7822bde0f022093e69f98bc984e"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2671,
+                "vaddr": 35437,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 25
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 2672,
+                    "packedBytes": 25,
+                    "packedSha256": "a43a985f502fb76ecdbbf7e213a4b5aa50c223ac676f32df4d95e583fdd2d130"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2699,
+                "vaddr": 35465,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36309
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 2703,
+                "vaddr": 35469,
+                "mnemonic": "IF_EQ",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2705,
+                "vaddr": 35471,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 35725
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 2709,
+                "vaddr": 35475,
+                "mnemonic": "CLEARMONSTERS",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2710,
+                "vaddr": 35476,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32482
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2716,
+                "vaddr": 35482,
+                "mnemonic": "COMBAT",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2717,
+                "vaddr": 35483,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 21
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 2718,
+                    "packedBytes": 21,
+                    "packedSha256": "96531c7ee20db1f5e995f11ff74537cbd068b7cb4dcbd7dc7d94d478c33e259c"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2741,
+                "vaddr": 35507,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36270
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 2745,
+                "vaddr": 35511,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 35780
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 3014,
+                "vaddr": 35780,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19430
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 3020,
+                "vaddr": 35786,
+                "mnemonic": "CLEAR_BOX",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 3021,
+                "vaddr": 35787,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19430
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 3027,
+                "vaddr": 35793,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 58
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "offset": 3036,
+        "vaddr": 35802,
+        "operand": {
+          "kind": "immediate",
+          "code": 0,
+          "value": 121
+        },
+        "pictureId": 121,
+        "entries": [
+          "search_location"
+        ],
+        "paths": [
+          {
+            "entry": "search_location",
+            "steps": [
+              {
+                "offset": 704,
+                "vaddr": 33470,
+                "mnemonic": "DESTROY_ITEMS",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 63
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 707,
+                "vaddr": 33473,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19463
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 713,
+                "vaddr": 33479,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 33655
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 717,
+                "vaddr": 33483,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 129,
+                    "value": 31532
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 3
+                  }
+                ],
+                "inlineStrings": [
+                  "WILD"
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 721,
+                    "packedBytes": 3,
+                    "packedSha256": "5dbd34877835cf720bbb8f253264ab8d49face7575a65cc2677eefbdb9e53a86"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 726,
+                "vaddr": 33492,
+                "mnemonic": "IF_EQ",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 727,
+                "vaddr": 33493,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 34131
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 1365,
+                "vaddr": 34131,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19501
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 1371,
+                "vaddr": 34137,
+                "mnemonic": "IF_NE",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 1372,
+                "vaddr": 34138,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 34835
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 2069,
+                "vaddr": 34835,
+                "mnemonic": "ADD",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2078,
+                "vaddr": 34844,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 10
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2084,
+                "vaddr": 34850,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2086,
+                "vaddr": 34852,
+                "mnemonic": "DIVIDE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19395
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 3
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2095,
+                "vaddr": 34861,
+                "mnemonic": "DIVIDE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19396
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 3
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32634
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2104,
+                "vaddr": 34870,
+                "mnemonic": "ADD",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32634
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32635
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2114,
+                "vaddr": 34880,
+                "mnemonic": "ADD",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 10
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32635
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32636
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2123,
+                "vaddr": 34889,
+                "mnemonic": "RANDOM",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 99
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32637
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2129,
+                "vaddr": 34895,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32637
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32636
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2136,
+                "vaddr": 34902,
+                "mnemonic": "IF_GT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2138,
+                "vaddr": 34904,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19462
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2144,
+                "vaddr": 34910,
+                "mnemonic": "RANDOM",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 99
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2150,
+                "vaddr": 34916,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 50
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2156,
+                "vaddr": 34922,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2161,
+                "vaddr": 34927,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 70
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2167,
+                "vaddr": 34933,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2172,
+                "vaddr": 34938,
+                "mnemonic": "COMPARE",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32633
+                  },
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 80
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2178,
+                "vaddr": 34944,
+                "mnemonic": "IF_LT",
+                "operands": []
+              },
+              {
+                "edge": "IF-taken"
+              },
+              {
+                "offset": 2179,
+                "vaddr": 34945,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 35397
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 2631,
+                "vaddr": 35397,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 37
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 2632,
+                    "packedBytes": 37,
+                    "packedSha256": "cb4bc7ec5e0e47c40f2ef2552b9178ee711df7822bde0f022093e69f98bc984e"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2671,
+                "vaddr": 35437,
+                "mnemonic": "PRINT",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 25
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 2672,
+                    "packedBytes": 25,
+                    "packedSha256": "a43a985f502fb76ecdbbf7e213a4b5aa50c223ac676f32df4d95e583fdd2d130"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2699,
+                "vaddr": 35465,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36309
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 2703,
+                "vaddr": 35469,
+                "mnemonic": "IF_EQ",
+                "operands": []
+              },
+              {
+                "edge": "IF-not-taken"
+              },
+              {
+                "offset": 2705,
+                "vaddr": 35471,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 35725
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 2709,
+                "vaddr": 35475,
+                "mnemonic": "CLEARMONSTERS",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2710,
+                "vaddr": 35476,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 32482
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2716,
+                "vaddr": 35482,
+                "mnemonic": "COMBAT",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2717,
+                "vaddr": 35483,
+                "mnemonic": "PRINTCLEAR",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 128,
+                    "value": 21
+                  }
+                ],
+                "inlineStringPins": [
+                  {
+                    "operandOffset": 2718,
+                    "packedBytes": 21,
+                    "packedSha256": "96531c7ee20db1f5e995f11ff74537cbd068b7cb4dcbd7dc7d94d478c33e259c"
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 2741,
+                "vaddr": 35507,
+                "mnemonic": "GOSUB",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 36270
+                  }
+                ]
+              },
+              {
+                "edge": "GOSUB-conservative-continuation"
+              },
+              {
+                "offset": 2745,
+                "vaddr": 35511,
+                "mnemonic": "GOTO",
+                "operands": [
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 35780
+                  }
+                ]
+              },
+              {
+                "edge": "GOTO-target"
+              },
+              {
+                "offset": 3014,
+                "vaddr": 35780,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 1
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19430
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 3020,
+                "vaddr": 35786,
+                "mnemonic": "CLEAR_BOX",
+                "operands": []
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 3021,
+                "vaddr": 35787,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19430
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 3027,
+                "vaddr": 35793,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 58
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 3030,
+                "vaddr": 35796,
+                "mnemonic": "SAVE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 0
+                  },
+                  {
+                    "kind": "dynamic",
+                    "code": 1,
+                    "value": 19512
+                  }
+                ]
+              },
+              {
+                "edge": "fallthrough"
+              },
+              {
+                "offset": 3036,
+                "vaddr": 35802,
+                "mnemonic": "PICTURE",
+                "operands": [
+                  {
+                    "kind": "immediate",
+                    "code": 0,
+                    "value": 121
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dispatchSites": [
+      {
+        "offset": 371,
+        "vaddr": 33137,
+        "mnemonic": "ON_GOTO",
+        "operands": [
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 32633
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 3
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33152
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33166
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33180
+          }
+        ],
+        "fallthroughRetained": true
+      },
+      {
+        "offset": 453,
+        "vaddr": 33219,
+        "mnemonic": "ON_GOTO",
+        "operands": [
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 32633
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 3
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33234
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33248
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33262
+          }
+        ],
+        "fallthroughRetained": true
+      },
+      {
+        "offset": 976,
+        "vaddr": 33742,
+        "mnemonic": "ON_GOTO",
+        "operands": [
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 32633
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 12
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33784
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33794
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33818
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33828
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33861
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33899
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33922
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33946
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 33994
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 34039
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 34064
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 34076
+          }
+        ],
+        "fallthroughRetained": true
+      }
+    ],
+    "issues": [],
+    "instructionCount": 435,
+    "expandedEntryStates": 466,
+    "complete": false,
+    "claim": "Conservative static site candidates, not a campaign/runtime denominator.",
+    "limitations": [
+      "IF outcomes are both retained; comparisons/memory conditions are not solved.",
+      "GOSUB continuation is conservative; call/return feasibility is not proven.",
+      "Engine reachability.ts omits ON_GOTO fallthrough; this register retains the VM's fallthrough.",
+      "NEWECL chains, host CALL effects and runtime/campaign reachability are outside this block register."
+    ]
+  },
+  "hostSource": [
+    {
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "async function cokDialoguePictures(",
+      "endSymbol": "\nasync function cokThrotlPresentation(",
+      "sha256": "8f9ccd9ca3f880d7143bcd128720bc1a94cbf021063c54644ed91314e83320f2"
+    },
+    {
+      "path": "apps/web/src/ui/explore.ts",
+      "startSymbol": "async function openCokTravel(",
+      "endSymbol": "    const travelMonsterLookup",
+      "sha256": "5e5764a7dd7189d3298586e968474feca28c253fe39fa7e6ff1ae529cbe7eeae"
+    },
+    {
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "function selectPresentationPicture(",
+      "endSymbol": "\nfunction wrapDialogueText(",
+      "sha256": "9fa023dba4194c2efa39bd543e1da0f59b40619f865420ee14b939c1794feaee"
+    },
+    {
+      "path": "apps/web/src/ui/dialogue.ts",
+      "startSymbol": "  let viewport = null;",
+      "endSymbol": "  const selectedMode",
+      "sha256": "4c24bbf2de9d968a601e9c4d716dfc95a9e36cc89586adda08def7c29557f2f1"
+    }
+  ],
+  "caravanJoin": {
+    "sourceAssetId": "cok/dos-ega/disk1/bigpic1.dax/block/114/frame/0",
+    "pictureSite": {
+      "offset": 1376,
+      "vaddr": 34142,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 114
+      },
+      "pictureId": 114,
+      "entries": [
+        "search_location"
+      ],
+      "paths": [
+        {
+          "entry": "search_location",
+          "steps": [
+            {
+              "offset": 704,
+              "vaddr": 33470,
+              "mnemonic": "DESTROY_ITEMS",
+              "operands": [
+                {
+                  "kind": "immediate",
+                  "code": 0,
+                  "value": 63
+                }
+              ]
+            },
+            {
+              "edge": "fallthrough"
+            },
+            {
+              "offset": 707,
+              "vaddr": 33473,
+              "mnemonic": "SAVE",
+              "operands": [
+                {
+                  "kind": "immediate",
+                  "code": 0,
+                  "value": 0
+                },
+                {
+                  "kind": "dynamic",
+                  "code": 1,
+                  "value": 19463
+                }
+              ]
+            },
+            {
+              "edge": "fallthrough"
+            },
+            {
+              "offset": 713,
+              "vaddr": 33479,
+              "mnemonic": "GOSUB",
+              "operands": [
+                {
+                  "kind": "dynamic",
+                  "code": 1,
+                  "value": 33655
+                }
+              ]
+            },
+            {
+              "edge": "GOSUB-conservative-continuation"
+            },
+            {
+              "offset": 717,
+              "vaddr": 33483,
+              "mnemonic": "COMPARE",
+              "operands": [
+                {
+                  "kind": "dynamic",
+                  "code": 129,
+                  "value": 31532
+                },
+                {
+                  "kind": "dynamic",
+                  "code": 128,
+                  "value": 3
+                }
+              ],
+              "inlineStrings": [
+                "WILD"
+              ],
+              "inlineStringPins": [
+                {
+                  "operandOffset": 721,
+                  "packedBytes": 3,
+                  "packedSha256": "5dbd34877835cf720bbb8f253264ab8d49face7575a65cc2677eefbdb9e53a86"
+                }
+              ]
+            },
+            {
+              "edge": "fallthrough"
+            },
+            {
+              "offset": 726,
+              "vaddr": 33492,
+              "mnemonic": "IF_EQ",
+              "operands": []
+            },
+            {
+              "edge": "IF-taken"
+            },
+            {
+              "offset": 727,
+              "vaddr": 33493,
+              "mnemonic": "GOTO",
+              "operands": [
+                {
+                  "kind": "dynamic",
+                  "code": 1,
+                  "value": 34131
+                }
+              ]
+            },
+            {
+              "edge": "GOTO-target"
+            },
+            {
+              "offset": 1365,
+              "vaddr": 34131,
+              "mnemonic": "COMPARE",
+              "operands": [
+                {
+                  "kind": "dynamic",
+                  "code": 1,
+                  "value": 19501
+                },
+                {
+                  "kind": "immediate",
+                  "code": 0,
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "edge": "fallthrough"
+            },
+            {
+              "offset": 1371,
+              "vaddr": 34137,
+              "mnemonic": "IF_NE",
+              "operands": []
+            },
+            {
+              "edge": "IF-not-taken"
+            },
+            {
+              "offset": 1376,
+              "vaddr": 34142,
+              "mnemonic": "PICTURE",
+              "operands": [
+                {
+                  "kind": "immediate",
+                  "code": 0,
+                  "value": 114
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "compressedOpcodeOrigin": {
+        "kind": "literal",
+        "controlFileOffset": 1499,
+        "valueFileOffset": 1502
+      }
+    },
+    "controllingWildSites": [
+      {
+        "offset": 717,
+        "vaddr": 33483,
+        "mnemonic": "COMPARE",
+        "operands": [
+          {
+            "kind": "dynamic",
+            "code": 129,
+            "value": 31532
+          },
+          {
+            "kind": "dynamic",
+            "code": 128,
+            "value": 3
+          }
+        ],
+        "inlineStrings": [
+          "WILD"
+        ],
+        "inlineStringPins": [
+          {
+            "operandOffset": 721,
+            "packedBytes": 3,
+            "packedSha256": "5dbd34877835cf720bbb8f253264ab8d49face7575a65cc2677eefbdb9e53a86"
+          }
+        ]
+      },
+      {
+        "offset": 726,
+        "vaddr": 33492,
+        "mnemonic": "IF_EQ",
+        "operands": []
+      },
+      {
+        "offset": 727,
+        "vaddr": 33493,
+        "mnemonic": "GOTO",
+        "operands": [
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 34131
+          }
+        ]
+      },
+      {
+        "offset": 1365,
+        "vaddr": 34131,
+        "mnemonic": "COMPARE",
+        "operands": [
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 19501
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 0
+          }
+        ]
+      },
+      {
+        "offset": 1371,
+        "vaddr": 34137,
+        "mnemonic": "IF_NE",
+        "operands": []
+      }
+    ],
+    "caravanTextContext": {
+      "marker": "CARAVAN UNDER",
+      "instruction": {
+        "offset": 1379,
+        "vaddr": 34145,
+        "mnemonic": "PRINTCLEAR",
+        "operands": [
+          {
+            "kind": "dynamic",
+            "code": 128,
+            "value": 33
+          }
+        ],
+        "inlineStringPins": [
+          {
+            "operandOffset": 1380,
+            "packedBytes": 33,
+            "packedSha256": "cb761b450accfc690b0d8918773a5344d3c67994ec731c776a2857721f650ec7"
+          }
+        ]
+      }
+    },
+    "source": {
+      "archive": "BIGPIC1.DAX",
+      "archiveSha256": "34cf5207584cb859817e1fc9b579cd51beea2e00e3393adbdc251e07f93483ec",
+      "blockId": 114,
+      "blockSha256": "7ff458d604556e54a5b430c37364a2f766421d73d0c3087378445e58bd8b3e73",
+      "rawBytes": 18257,
+      "compressedFileOffset": 38,
+      "compressedBytes": 17169,
+      "geometry": [
+        304,
+        120,
+        0,
+        0
+      ],
+      "pixelSha256": "a790826925a8de9fed65f705442ea429e1d230d14793c00939e2237830eda9f9",
+      "pngSha256": "14b73d78b3758a083aa94dfcc5388b58c8debeac64e273d18187f3f9fff32d7e"
+    },
+    "laterBankCollisionProof": {
+      "archive": "PIC1.DAX",
+      "archiveSha256": "2f62dab8b7f776226d6c6c35847382de3baa758a836220639d2c46c2dd74ae97",
+      "hasBlock114": false
+    },
+    "hostBinding": "openCokTravel loads ECL1/BIGPIC1/PIC1; cokDialoguePictures retains each decoded frame's source identity. PIC1 has no 114 collision. selectPresentationPicture resolves the event through those maps; width304 uses the big-picture compositor at (8,8).",
+    "existingAcceptanceDefinition": "apps/web/test/e2e.mjs runCokRetailTravel: cursor (1,3)->(2,3), CARAVAN UNDER ATTACK, combat and aftermath. Not run in this source-only slice.",
+    "runtimeAdmission": "not-admitted",
+    "campaignReachability": "not established by conservative static paths"
+  }
+}

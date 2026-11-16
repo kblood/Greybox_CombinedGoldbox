@@ -1,0 +1,1813 @@
+{
+  "animationGroups": [
+    {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/12/frames",
+      "semantics": "unknown",
+      "playback": "unknown",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "research-doc",
+          "reference": "tools/dax_complex_decode.py + pinned DOS PIC archives",
+          "note": "Frame membership and storage order are decoded; temporal, pose, distance, compositing, and caller semantics are not inferred."
+        }
+      ],
+      "frames": [
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/12/frame/0",
+          "order": 0,
+          "role": "stored frame 0"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/12/frame/1",
+          "order": 1,
+          "role": "stored frame 1"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/12/frame/2",
+          "order": 2,
+          "role": "stored frame 2"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/12/frame/3",
+          "order": 3,
+          "role": "stored frame 3"
+        }
+      ]
+    },
+    {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/23/frames",
+      "semantics": "unknown",
+      "playback": "unknown",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "research-doc",
+          "reference": "tools/dax_complex_decode.py + pinned DOS PIC archives",
+          "note": "Frame membership and storage order are decoded; temporal, pose, distance, compositing, and caller semantics are not inferred."
+        }
+      ],
+      "frames": [
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/0",
+          "order": 0,
+          "role": "stored frame 0"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/1",
+          "order": 1,
+          "role": "stored frame 1"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/2",
+          "order": 2,
+          "role": "stored frame 2"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/3",
+          "order": 3,
+          "role": "stored frame 3"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/4",
+          "order": 4,
+          "role": "stored frame 4"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/5",
+          "order": 5,
+          "role": "stored frame 5"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/6",
+          "order": 6,
+          "role": "stored frame 6"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/7",
+          "order": 7,
+          "role": "stored frame 7"
+        }
+      ]
+    },
+    {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/30/frames",
+      "semantics": "unknown",
+      "playback": "unknown",
+      "status": "unknown",
+      "evidence": [
+        {
+          "kind": "research-doc",
+          "reference": "tools/dax_complex_decode.py + pinned DOS PIC archives",
+          "note": "Frame membership and storage order are decoded; temporal, pose, distance, compositing, and caller semantics are not inferred."
+        }
+      ],
+      "frames": [
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/30/frame/0",
+          "order": 0,
+          "role": "stored frame 0"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/30/frame/1",
+          "order": 1,
+          "role": "stored frame 1"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/30/frame/2",
+          "order": 2,
+          "role": "stored frame 2"
+        },
+        {
+          "assetId": "cok/dos-ega/disk1/pic1.dax/block/30/frame/3",
+          "order": 3,
+          "role": "stored frame 3"
+        }
+      ]
+    }
+  ],
+  "restyles": [
+    {
+      "id": "restyle/cok-dos-pic1-057",
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/57/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": null,
+        "inputSha256": null,
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "dialogue/PIC1_057_f0_restyle.png",
+          "sha256": "a2d2126c903d61afa46085693e9decfd08b789f33c96fba0292b6bda73441cbe",
+          "role": "accepted-restyle"
+        }
+      ],
+      "reviewStatus": "runtime-admitted",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "apps/web/src/ui/cokDialogueRestyleManifest.json"
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0079-07da4dafadea",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0079-07da4dafadea",
+          "reference": "restyle/cok-generated/manifest.json#asset-0079-07da4dafadea"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/15/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/c006a1fb81405d4f59fbd05704f2bdef53bf9aa89488c510f7ec28a02f6cb920.png",
+        "inputSha256": "c006a1fb81405d4f59fbd05704f2bdef53bf9aa89488c510f7ec28a02f6cb920",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/aef4c1d1629e2d6dedb7ade004a54ade9fba06ec3d2d580e88ab50e8672f2159.png",
+          "sha256": "aef4c1d1629e2d6dedb7ade004a54ade9fba06ec3d2d580e88ab50e8672f2159",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0079-07da4dafadea",
+          "note": "Exact source/output hashes c006a1fb81405d4f59fbd05704f2bdef53bf9aa89488c510f7ec28a02f6cb920 → aef4c1d1629e2d6dedb7ade004a54ade9fba06ec3d2d580e88ab50e8672f2159; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0099-09d160a2770f",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0099-09d160a2770f",
+          "reference": "restyle/cok-generated/manifest.json#asset-0099-09d160a2770f"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/18/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/d05e643ac4e4e58dc8bb232e6e1ef3d8994b80258d70d1321e9ea451d3ebc0b8.png",
+        "inputSha256": "d05e643ac4e4e58dc8bb232e6e1ef3d8994b80258d70d1321e9ea451d3ebc0b8",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/2bb5068721e69adb08853f3adabed4550115fd60d6b3116648e48cc6377f0df4.png",
+          "sha256": "2bb5068721e69adb08853f3adabed4550115fd60d6b3116648e48cc6377f0df4",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0099-09d160a2770f",
+          "note": "Exact source/output hashes d05e643ac4e4e58dc8bb232e6e1ef3d8994b80258d70d1321e9ea451d3ebc0b8 → 2bb5068721e69adb08853f3adabed4550115fd60d6b3116648e48cc6377f0df4; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0153-0fce369e098d",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0153-0fce369e098d",
+          "reference": "restyle/cok-generated/manifest.json#asset-0153-0fce369e098d"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/23/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/3858d73cd9a7920cfd0ef7a480ca481fc9ad70c2d4407774ba8873177c4fe010.png",
+        "inputSha256": "3858d73cd9a7920cfd0ef7a480ca481fc9ad70c2d4407774ba8873177c4fe010",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/7dfd75aed3152bcadc4ad76460a3447dd6f357f6b97434cd5f04dd67fdcfff79.png",
+          "sha256": "7dfd75aed3152bcadc4ad76460a3447dd6f357f6b97434cd5f04dd67fdcfff79",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0153-0fce369e098d",
+          "note": "Exact source/output hashes 3858d73cd9a7920cfd0ef7a480ca481fc9ad70c2d4407774ba8873177c4fe010 → 7dfd75aed3152bcadc4ad76460a3447dd6f357f6b97434cd5f04dd67fdcfff79; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0165-115ea5280994",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0165-115ea5280994",
+          "reference": "restyle/cok-generated/manifest.json#asset-0165-115ea5280994"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/60/frame/0",
+        "cok/dos-ega/disk3/pic3.dax/block/60/frame/0"
+      ],
+      "sourceRelation": "shared-output",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/7e40d6c7987839bf0400e187a986dacf3c8764dda3516380f7f2c71a87e11620.png",
+        "inputSha256": "7e40d6c7987839bf0400e187a986dacf3c8764dda3516380f7f2c71a87e11620",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/93d64ce407231e00597747d7436d6a8e95ee8939f9bb03b4cf2b989327095a2e.png",
+          "sha256": "93d64ce407231e00597747d7436d6a8e95ee8939f9bb03b4cf2b989327095a2e",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0165-115ea5280994",
+          "note": "Exact source/output hashes 7e40d6c7987839bf0400e187a986dacf3c8764dda3516380f7f2c71a87e11620 → 93d64ce407231e00597747d7436d6a8e95ee8939f9bb03b4cf2b989327095a2e; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0204-1585f56fad2a",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0204-1585f56fad2a",
+          "reference": "restyle/cok-generated/manifest.json#asset-0204-1585f56fad2a"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/12/frame/2"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/ddd559ff768eb6dbe33ed817193f79f3e1f8286267ebd17af9ca4af819305b96.png",
+        "inputSha256": "ddd559ff768eb6dbe33ed817193f79f3e1f8286267ebd17af9ca4af819305b96",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/7e1e3929619c533e526be6c27e6503db9737017e1c55eab1d84384606a74cd98.png",
+          "sha256": "7e1e3929619c533e526be6c27e6503db9737017e1c55eab1d84384606a74cd98",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0204-1585f56fad2a",
+          "note": "Exact source/output hashes ddd559ff768eb6dbe33ed817193f79f3e1f8286267ebd17af9ca4af819305b96 → 7e1e3929619c533e526be6c27e6503db9737017e1c55eab1d84384606a74cd98; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0286-1d23daf88bcb",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0286-1d23daf88bcb",
+          "reference": "restyle/cok-generated/manifest.json#asset-0286-1d23daf88bcb"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/23/frame/2"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d.png",
+        "inputSha256": "abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/bbdb93284d2f28219ce7e6c3381084d39b4aff603e7bdf1a3957688272c6bd4a.png",
+          "sha256": "bbdb93284d2f28219ce7e6c3381084d39b4aff603e7bdf1a3957688272c6bd4a",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0286-1d23daf88bcb",
+          "note": "Exact source/output hashes abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d → bbdb93284d2f28219ce7e6c3381084d39b4aff603e7bdf1a3957688272c6bd4a; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0296-1e488f24e846",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0296-1e488f24e846",
+          "reference": "restyle/cok-generated/manifest.json#asset-0296-1e488f24e846"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/12/frame/1"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/cfc596a49aa764724ce2c557a61b231c242ba3dc45701c4863bf815c9af28ec6.png",
+        "inputSha256": "cfc596a49aa764724ce2c557a61b231c242ba3dc45701c4863bf815c9af28ec6",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/9abc27e530b8b387db6a2c494b2d1c2a931d377469cd96048747472de64b8822.png",
+          "sha256": "9abc27e530b8b387db6a2c494b2d1c2a931d377469cd96048747472de64b8822",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0296-1e488f24e846",
+          "note": "Exact source/output hashes cfc596a49aa764724ce2c557a61b231c242ba3dc45701c4863bf815c9af28ec6 → 9abc27e530b8b387db6a2c494b2d1c2a931d377469cd96048747472de64b8822; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0641-40a5486486d8",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0641-40a5486486d8",
+          "reference": "restyle/cok-generated/manifest.json#asset-0641-40a5486486d8"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/58/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/ab274f539c435b02685a5b612360071906fa93294317846c0fe93e7022d67fc9.png",
+        "inputSha256": "ab274f539c435b02685a5b612360071906fa93294317846c0fe93e7022d67fc9",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/91c02ee7d578055a6422d22f0cd0421d2e4f42bb38628548bd5273b7c5cfef97.png",
+          "sha256": "91c02ee7d578055a6422d22f0cd0421d2e4f42bb38628548bd5273b7c5cfef97",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0641-40a5486486d8",
+          "note": "Exact source/output hashes ab274f539c435b02685a5b612360071906fa93294317846c0fe93e7022d67fc9 → 91c02ee7d578055a6422d22f0cd0421d2e4f42bb38628548bd5273b7c5cfef97; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0651-41dd2d68d769",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0651-41dd2d68d769",
+          "reference": "restyle/cok-generated/manifest.json#asset-0651-41dd2d68d769"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/30/frame/2"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/1a9ffbc144e42930c6f7c894bec58324d18ad9d5f85c8d1358cf7c19e86bd563.png",
+        "inputSha256": "1a9ffbc144e42930c6f7c894bec58324d18ad9d5f85c8d1358cf7c19e86bd563",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/4910cb5e380a3b6d88e09f2c730b666a47c828aebccefa45139a148ee0e0492c.png",
+          "sha256": "4910cb5e380a3b6d88e09f2c730b666a47c828aebccefa45139a148ee0e0492c",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0651-41dd2d68d769",
+          "note": "Exact source/output hashes 1a9ffbc144e42930c6f7c894bec58324d18ad9d5f85c8d1358cf7c19e86bd563 → 4910cb5e380a3b6d88e09f2c730b666a47c828aebccefa45139a148ee0e0492c; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0735-484a70346a38",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0735-484a70346a38",
+          "reference": "restyle/cok-generated/manifest.json#asset-0735-484a70346a38"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/30/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/51e33339de50bfd2646b0d56832cb974a179f06cc55d3a6b0e330213688ea213.png",
+        "inputSha256": "51e33339de50bfd2646b0d56832cb974a179f06cc55d3a6b0e330213688ea213",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/f8bf3a50a90554dd0f86e2fdd6f0b6b25f48ad652cb47242c82b2b1f6ea60650.png",
+          "sha256": "f8bf3a50a90554dd0f86e2fdd6f0b6b25f48ad652cb47242c82b2b1f6ea60650",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0735-484a70346a38",
+          "note": "Exact source/output hashes 51e33339de50bfd2646b0d56832cb974a179f06cc55d3a6b0e330213688ea213 → f8bf3a50a90554dd0f86e2fdd6f0b6b25f48ad652cb47242c82b2b1f6ea60650; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0910-5a5d27907724",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0910-5a5d27907724",
+          "reference": "restyle/cok-generated/manifest.json#asset-0910-5a5d27907724"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/30/frame/1"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/7c670d2420ba5a9de35116a1ebdef65c43ae8775306713057d797838466fa447.png",
+        "inputSha256": "7c670d2420ba5a9de35116a1ebdef65c43ae8775306713057d797838466fa447",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/8b5e130f45abde4990a129e4a1f7e04e782c0cf57a08cc1e4d465fa39a3d003a.png",
+          "sha256": "8b5e130f45abde4990a129e4a1f7e04e782c0cf57a08cc1e4d465fa39a3d003a",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0910-5a5d27907724",
+          "note": "Exact source/output hashes 7c670d2420ba5a9de35116a1ebdef65c43ae8775306713057d797838466fa447 → 8b5e130f45abde4990a129e4a1f7e04e782c0cf57a08cc1e4d465fa39a3d003a; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0918-5b1d01aea1de",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0918-5b1d01aea1de",
+          "reference": "restyle/cok-generated/manifest.json#asset-0918-5b1d01aea1de"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/34/entry/12/frame/0",
+        "cok/dos-ega/disk1/pic1.dax/block/34/entry/3/frame/0"
+      ],
+      "sourceRelation": "shared-output",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b.png",
+        "inputSha256": "8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/4fdfdea4dd38eff13c6ab00c5f2aff4b7f6456a46732fa7be7544e79e4e01c58.png",
+          "sha256": "4fdfdea4dd38eff13c6ab00c5f2aff4b7f6456a46732fa7be7544e79e4e01c58",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0918-5b1d01aea1de",
+          "note": "Exact source/output hashes 8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b → 4fdfdea4dd38eff13c6ab00c5f2aff4b7f6456a46732fa7be7544e79e4e01c58; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0947-5e699f7183cf",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0947-5e699f7183cf",
+          "reference": "restyle/cok-generated/manifest.json#asset-0947-5e699f7183cf"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/41/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/c8787dc2e775c83e85ed33f50f2dc1613986edefba270468f2f7bd57dd68e4bd.png",
+        "inputSha256": "c8787dc2e775c83e85ed33f50f2dc1613986edefba270468f2f7bd57dd68e4bd",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/147bc5e305842c3d64533667c2d2f998e7134203023aa8094bec9c3b05f417d8.png",
+          "sha256": "147bc5e305842c3d64533667c2d2f998e7134203023aa8094bec9c3b05f417d8",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0947-5e699f7183cf",
+          "note": "Exact source/output hashes c8787dc2e775c83e85ed33f50f2dc1613986edefba270468f2f7bd57dd68e4bd → 147bc5e305842c3d64533667c2d2f998e7134203023aa8094bec9c3b05f417d8; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-0949-5e7d92dc135f",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-0949-5e7d92dc135f",
+          "reference": "restyle/cok-generated/manifest.json#asset-0949-5e7d92dc135f"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/23/frame/3",
+        "cok/dos-ega/disk1/pic1.dax/block/23/frame/5",
+        "cok/dos-ega/disk2/pic2.dax/block/23/frame/3",
+        "cok/dos-ega/disk2/pic2.dax/block/23/frame/5"
+      ],
+      "sourceRelation": "shared-output",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790.png",
+        "inputSha256": "38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790.png",
+          "sha256": "38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-0949-5e7d92dc135f",
+          "note": "Exact source/output hashes 38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790 → 38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1078-6a3e9fa96dd0",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1078-6a3e9fa96dd0",
+          "reference": "restyle/cok-generated/manifest.json#asset-1078-6a3e9fa96dd0"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/8/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/96dad50a66476ca42f23022b3809e77e8421c7e146376a2576f399a4dde87225.png",
+        "inputSha256": "96dad50a66476ca42f23022b3809e77e8421c7e146376a2576f399a4dde87225",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/22ba7a324e388ea6c81ea9469ca71c39d9de335b0b699280a293f126617d4e26.png",
+          "sha256": "22ba7a324e388ea6c81ea9469ca71c39d9de335b0b699280a293f126617d4e26",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1078-6a3e9fa96dd0",
+          "note": "Exact source/output hashes 96dad50a66476ca42f23022b3809e77e8421c7e146376a2576f399a4dde87225 → 22ba7a324e388ea6c81ea9469ca71c39d9de335b0b699280a293f126617d4e26; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1244-7c21691028b0",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1244-7c21691028b0",
+          "reference": "restyle/cok-generated/manifest.json#asset-1244-7c21691028b0"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/62/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/5fbcf24ec6555cac122c5bccf899d87ca779a8ff8bbb251e761eef864ea07a5d.png",
+        "inputSha256": "5fbcf24ec6555cac122c5bccf899d87ca779a8ff8bbb251e761eef864ea07a5d",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/40679aa215ac6bcd11801eb2bb42d270e97c9dac44a53ba63e210717585848c7.png",
+          "sha256": "40679aa215ac6bcd11801eb2bb42d270e97c9dac44a53ba63e210717585848c7",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1244-7c21691028b0",
+          "note": "Exact source/output hashes 5fbcf24ec6555cac122c5bccf899d87ca779a8ff8bbb251e761eef864ea07a5d → 40679aa215ac6bcd11801eb2bb42d270e97c9dac44a53ba63e210717585848c7; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1377-88c3d806b92f",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1377-88c3d806b92f",
+          "reference": "restyle/cok-generated/manifest.json#asset-1377-88c3d806b92f"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/59/frame/0",
+        "cok/dos-ega/disk3/pic3.dax/block/59/frame/0"
+      ],
+      "sourceRelation": "shared-output",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/e600ff970cf1e45edb955226b2c118ee7fbf1e0259f5692c694018feea7d36b9.png",
+        "inputSha256": "e600ff970cf1e45edb955226b2c118ee7fbf1e0259f5692c694018feea7d36b9",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/3c0b223169634193eb9c3808eb3517c6cec1467586521c93daf70075f1cfae96.png",
+          "sha256": "3c0b223169634193eb9c3808eb3517c6cec1467586521c93daf70075f1cfae96",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1377-88c3d806b92f",
+          "note": "Exact source/output hashes e600ff970cf1e45edb955226b2c118ee7fbf1e0259f5692c694018feea7d36b9 → 3c0b223169634193eb9c3808eb3517c6cec1467586521c93daf70075f1cfae96; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1459-90aae8d335ce",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1459-90aae8d335ce",
+          "reference": "restyle/cok-generated/manifest.json#asset-1459-90aae8d335ce"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/23/frame/1"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526.png",
+        "inputSha256": "298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/d930157d95958bef6233e41b3161491f9081390058c4c694ddf3fe8201fa48fa.png",
+          "sha256": "d930157d95958bef6233e41b3161491f9081390058c4c694ddf3fe8201fa48fa",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1459-90aae8d335ce",
+          "note": "Exact source/output hashes 298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526 → d930157d95958bef6233e41b3161491f9081390058c4c694ddf3fe8201fa48fa; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1484-9345b11c9a03",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1484-9345b11c9a03",
+          "reference": "restyle/cok-generated/manifest.json#asset-1484-9345b11c9a03"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/30/frame/3"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/a43710e852427da80adaf247a5c2257520381fd9ec3058c99751a3e7e3fe894c.png",
+        "inputSha256": "a43710e852427da80adaf247a5c2257520381fd9ec3058c99751a3e7e3fe894c",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/ad495f66ec789902876f751e2403f981186bbaae3c6978173af7ba8f7b8a9886.png",
+          "sha256": "ad495f66ec789902876f751e2403f981186bbaae3c6978173af7ba8f7b8a9886",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1484-9345b11c9a03",
+          "note": "Exact source/output hashes a43710e852427da80adaf247a5c2257520381fd9ec3058c99751a3e7e3fe894c → ad495f66ec789902876f751e2403f981186bbaae3c6978173af7ba8f7b8a9886; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1631-a5421b3f494e",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1631-a5421b3f494e",
+          "reference": "restyle/cok-generated/manifest.json#asset-1631-a5421b3f494e"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/57/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/f854debb99b65c412e49e90a7606263341e83bae5dca0ba8b5ba36d51d671191.png",
+        "inputSha256": "f854debb99b65c412e49e90a7606263341e83bae5dca0ba8b5ba36d51d671191",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/a2d2126c903d61afa46085693e9decfd08b789f33c96fba0292b6bda73441cbe.png",
+          "sha256": "a2d2126c903d61afa46085693e9decfd08b789f33c96fba0292b6bda73441cbe",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1631-a5421b3f494e",
+          "note": "Exact source/output hashes f854debb99b65c412e49e90a7606263341e83bae5dca0ba8b5ba36d51d671191 → a2d2126c903d61afa46085693e9decfd08b789f33c96fba0292b6bda73441cbe; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1634-a5866f3eab10",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1634-a5866f3eab10",
+          "reference": "restyle/cok-generated/manifest.json#asset-1634-a5866f3eab10"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/12/frame/3"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/08b271b0491c40a590b74a47a12b66421539d14cc18a899937e57c073737aed7.png",
+        "inputSha256": "08b271b0491c40a590b74a47a12b66421539d14cc18a899937e57c073737aed7",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/f7021ba84333003b0ca8e0bce61fd5c41a4145462997cfc552bf84c9db4d49ad.png",
+          "sha256": "f7021ba84333003b0ca8e0bce61fd5c41a4145462997cfc552bf84c9db4d49ad",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1634-a5866f3eab10",
+          "note": "Exact source/output hashes 08b271b0491c40a590b74a47a12b66421539d14cc18a899937e57c073737aed7 → f7021ba84333003b0ca8e0bce61fd5c41a4145462997cfc552bf84c9db4d49ad; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1696-aca140f1c82f",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1696-aca140f1c82f",
+          "reference": "restyle/cok-generated/manifest.json#asset-1696-aca140f1c82f"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/23/frame/7"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526.png",
+        "inputSha256": "298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/9f07e5b21ad8e528f3d461e4944d91f6a9522da8141c215888ab6f3ae729d419.png",
+          "sha256": "9f07e5b21ad8e528f3d461e4944d91f6a9522da8141c215888ab6f3ae729d419",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1696-aca140f1c82f",
+          "note": "Exact source/output hashes 298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526 → 9f07e5b21ad8e528f3d461e4944d91f6a9522da8141c215888ab6f3ae729d419; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1741-b1b18d0efbfb",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1741-b1b18d0efbfb",
+          "reference": "restyle/cok-generated/manifest.json#asset-1741-b1b18d0efbfb"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/23/frame/6"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d.png",
+        "inputSha256": "abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/487f0902f06819fc8258059581c9a96b516025897a8bad22729da681753cb349.png",
+          "sha256": "487f0902f06819fc8258059581c9a96b516025897a8bad22729da681753cb349",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1741-b1b18d0efbfb",
+          "note": "Exact source/output hashes abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d → 487f0902f06819fc8258059581c9a96b516025897a8bad22729da681753cb349; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1817-ba5b6cf9524a",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1817-ba5b6cf9524a",
+          "reference": "restyle/cok-generated/manifest.json#asset-1817-ba5b6cf9524a"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/1/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/023a1dd6a7690b70ac95f81d98f800c0a999f1dea501dc21bec8e80cc9c20e0b.png",
+        "inputSha256": "023a1dd6a7690b70ac95f81d98f800c0a999f1dea501dc21bec8e80cc9c20e0b",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/6f54cdfdd779b67d8e4a4482d2b4d58773a0f6899e710589b34f881d02fe9e87.png",
+          "sha256": "6f54cdfdd779b67d8e4a4482d2b4d58773a0f6899e710589b34f881d02fe9e87",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1817-ba5b6cf9524a",
+          "note": "Exact source/output hashes 023a1dd6a7690b70ac95f81d98f800c0a999f1dea501dc21bec8e80cc9c20e0b → 6f54cdfdd779b67d8e4a4482d2b4d58773a0f6899e710589b34f881d02fe9e87; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-1867-bf36bc838dce",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-1867-bf36bc838dce",
+          "reference": "restyle/cok-generated/manifest.json#asset-1867-bf36bc838dce"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/12/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/f66aa6d5ecc033dd1727b89dd8db3a018bfd9cfa2f6de51f3fa0df634636fad8.png",
+        "inputSha256": "f66aa6d5ecc033dd1727b89dd8db3a018bfd9cfa2f6de51f3fa0df634636fad8",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/b66a210ac1c23dfa2dc2b37b2a2040994f3359539c76b7438b5c0907ce894e59.png",
+          "sha256": "b66a210ac1c23dfa2dc2b37b2a2040994f3359539c76b7438b5c0907ce894e59",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-1867-bf36bc838dce",
+          "note": "Exact source/output hashes f66aa6d5ecc033dd1727b89dd8db3a018bfd9cfa2f6de51f3fa0df634636fad8 → b66a210ac1c23dfa2dc2b37b2a2040994f3359539c76b7438b5c0907ce894e59; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-2323-ebea9beb63a2",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-2323-ebea9beb63a2",
+          "reference": "restyle/cok-generated/manifest.json#asset-2323-ebea9beb63a2"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/61/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/514d31291c71984463b404f93eea97baa7f921478544edf8af76cb204f3e5ab0.png",
+        "inputSha256": "514d31291c71984463b404f93eea97baa7f921478544edf8af76cb204f3e5ab0",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/0772bb4796e81593949081bf3572a91effe239f13292651bd2bbec2b782fe802.png",
+          "sha256": "0772bb4796e81593949081bf3572a91effe239f13292651bd2bbec2b782fe802",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-2323-ebea9beb63a2",
+          "note": "Exact source/output hashes 514d31291c71984463b404f93eea97baa7f921478544edf8af76cb204f3e5ab0 → 0772bb4796e81593949081bf3572a91effe239f13292651bd2bbec2b782fe802; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-2409-f4c7a16b4b6e",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-2409-f4c7a16b4b6e",
+          "reference": "restyle/cok-generated/manifest.json#asset-2409-f4c7a16b4b6e"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/63/frame/0"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/73cdc32fd3cb00571d37109dbe9219a412fa7277ad6cdfc76ba513e2461a28c4.png",
+        "inputSha256": "73cdc32fd3cb00571d37109dbe9219a412fa7277ad6cdfc76ba513e2461a28c4",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/40dce22afc5f679115ec934b98d586145ccca360462e3b600bded6dfbebaa378.png",
+          "sha256": "40dce22afc5f679115ec934b98d586145ccca360462e3b600bded6dfbebaa378",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-2409-f4c7a16b4b6e",
+          "note": "Exact source/output hashes 73cdc32fd3cb00571d37109dbe9219a412fa7277ad6cdfc76ba513e2461a28c4 → 40dce22afc5f679115ec934b98d586145ccca360462e3b600bded6dfbebaa378; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-2456-f8f65997afa7",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-2456-f8f65997afa7",
+          "reference": "restyle/cok-generated/manifest.json#asset-2456-f8f65997afa7"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/23/frame/4"
+      ],
+      "sourceRelation": "one-to-one",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526.png",
+        "inputSha256": "298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/8b293aed28eb49eb9b6b4399f71de0d4981a032a4839b56b8e9c1dfcd9466ae6.png",
+          "sha256": "8b293aed28eb49eb9b6b4399f71de0d4981a032a4839b56b8e9c1dfcd9466ae6",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-2456-f8f65997afa7",
+          "note": "Exact source/output hashes 298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526 → 8b293aed28eb49eb9b6b4399f71de0d4981a032a4839b56b8e9c1dfcd9466ae6; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    },
+    {
+      "id": "restyle/cok-generated/asset-2503-fd86b930a18b",
+      "externalReferences": [
+        {
+          "system": "cok-restyle-inventory-v1",
+          "id": "asset-2503-fd86b930a18b",
+          "reference": "restyle/cok-generated/manifest.json#asset-2503-fd86b930a18b"
+        }
+      ],
+      "sourceAssetIds": [
+        "cok/dos-ega/disk1/pic1.dax/block/35/frame/0",
+        "cok/dos-ega/disk3/pic3.dax/block/35/frame/0"
+      ],
+      "sourceRelation": "shared-output",
+      "prompt": {
+        "status": "unknown",
+        "batch": null,
+        "path": null,
+        "sha256": null,
+        "textSha256": null,
+        "inputPath": "images/cbc6c74eb44e1ac89c3407a08d90f629c58430fc3ff054c2dcd4c00c47a0150b.png",
+        "inputSha256": "cbc6c74eb44e1ac89c3407a08d90f629c58430fc3ff054c2dcd4c00c47a0150b",
+        "text": null,
+        "references": [],
+        "referenceAssetIds": []
+      },
+      "outputs": [
+        {
+          "path": "images/b5f8af96fb84072373d1bcf8759dcf2c1544b7d3ed72554c819c8639f77d5db4.png",
+          "sha256": "b5f8af96fb84072373d1bcf8759dcf2c1544b7d3ed72554c819c8639f77d5db4",
+          "role": "gallery-copy"
+        }
+      ],
+      "reviewStatus": "generated",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "restyle/cok-generated/manifest.json#asset-2503-fd86b930a18b",
+          "note": "Exact source/output hashes cbc6c74eb44e1ac89c3407a08d90f629c58430fc3ff054c2dcd4c00c47a0150b → b5f8af96fb84072373d1bcf8759dcf2c1544b7d3ed72554c819c8639f77d5db4; source frame is archive-decoded and pixel-verified; composition review remains separate."
+        }
+      ]
+    }
+  ],
+  "crossVersionLinks": [
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/1/frame/0",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/1/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 b2be6eec0b747cb99f48bafb996c85d5686ec61bf5580ef92fea8ba14c1b9076."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 b2be6eec0b747cb99f48bafb996c85d5686ec61bf5580ef92fea8ba14c1b9076 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/18/frame/0",
+      "toAssetId": "cok/dos-ega/disk3/pic3.dax/block/18/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 eecd9e7c03da30d517b40e8fcf34ffb2a512097e1979eb28004dd6be68ba1f42."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 eecd9e7c03da30d517b40e8fcf34ffb2a512097e1979eb28004dd6be68ba1f42 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/0",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 09b26589751f5511b51c0c975a86a9c9423ad3e7f487b297f24a4b450e94f1f8."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 09b26589751f5511b51c0c975a86a9c9423ad3e7f487b297f24a4b450e94f1f8 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/1",
+      "toAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/4",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/1",
+      "toAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/7",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/1",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/1",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/1",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/4",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/1",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/7",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/2",
+      "toAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/6",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/2",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/2",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/2",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/6",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/3",
+      "toAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/5",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/3",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/3",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/3",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/5",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/4",
+      "toAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/7",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/5",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/3",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 85bc17b683cdaa476521ebcf747f37ed6f6b3730cb6482b072f9707a68a5d367 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/6",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/2",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 7d2e04e88a573deea2ebedfb8345b38f836d4697ec85cf840bbbc1b705549bd4 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/23/frame/7",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/1",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 9694d672ebd2d00be58d63810c9d1f72ca0321b0eed13482fca66e8a7163cee9 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/34/entry/12/frame/0",
+      "toAssetId": "cok/dos-ega/disk1/pic1.dax/block/34/entry/3/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/34/entry/12/frame/0",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/34/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/34/entry/3/frame/0",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/34/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 f9a80fc4efcab76a1c8cc69af0c6b3384aa9baf90cfac8e8b299cb846ff1ef24 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/35/frame/0",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/35/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 aef1391869cb0ec8bd85a5b91ec399ae1036352470e5aa015366defe48f326b5."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 aef1391869cb0ec8bd85a5b91ec399ae1036352470e5aa015366defe48f326b5 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/35/frame/0",
+      "toAssetId": "cok/dos-ega/disk3/pic3.dax/block/35/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 aef1391869cb0ec8bd85a5b91ec399ae1036352470e5aa015366defe48f326b5."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/41/frame/0",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/41/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 0c8db08daa99cc0f64ad33271cec98a95d1edc37760d03a22c4d3242f138701f."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 0c8db08daa99cc0f64ad33271cec98a95d1edc37760d03a22c4d3242f138701f at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/57/frame/0",
+      "toAssetId": "cok/amiga/disk2/pic1.daa/block/57/frame/0",
+      "relation": "possible-counterpart",
+      "confidence": "possible",
+      "evidence": [
+        {
+          "kind": "existing-manifest",
+          "reference": "apps/web/src/ui/cokAmigaDialogue57RestyleManifest.json",
+          "note": "Its baseSource points to DOS PIC1.DAX#57, but that association alone does not prove runtime or pixel equivalence."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/59/frame/0",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/59/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 68e0eabba1e128abaa3d78b923a80742f83da369777a8673b7b952ec470506d0."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 68e0eabba1e128abaa3d78b923a80742f83da369777a8673b7b952ec470506d0 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/59/frame/0",
+      "toAssetId": "cok/dos-ega/disk3/pic3.dax/block/59/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 68e0eabba1e128abaa3d78b923a80742f83da369777a8673b7b952ec470506d0."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/60/frame/0",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/60/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 86dd43b686124b3c5910b43cc4ecc15165b637b4f55fa56847867d0271577985."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 86dd43b686124b3c5910b43cc4ecc15165b637b4f55fa56847867d0271577985 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/60/frame/0",
+      "toAssetId": "cok/dos-ega/disk3/pic3.dax/block/60/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 86dd43b686124b3c5910b43cc4ecc15165b637b4f55fa56847867d0271577985."
+        }
+      ]
+    },
+    {
+      "fromAssetId": "cok/dos-ega/disk1/pic1.dax/block/8/frame/0",
+      "toAssetId": "cok/dos-ega/disk2/pic2.dax/block/8/frame/0",
+      "relation": "pixel-identical",
+      "confidence": "verified",
+      "evidence": [
+        {
+          "kind": "decoded-pixels",
+          "reference": "tools/import_cok_dos_pic_registry.py + pinned PIC1/2/3.DAX",
+          "note": "Exact decoded row-major RGB equality at 88×88; source locators remain distinct. Pixel SHA-256 2fd51677f3d30bdf09d20e5fa97c1106a9ef9b8308bc071604cec2b1e608c9f6."
+        },
+        {
+          "kind": "decoded-pixels",
+          "reference": "docs/engine/research/cok-amiga-pic-decode-receipt-v1.json",
+          "note": "Exact row-major RGB SHA-256 2fd51677f3d30bdf09d20e5fa97c1106a9ef9b8308bc071604cec2b1e608c9f6 at 88×88; distinct archive/frame IDs are retained."
+        }
+      ]
+    }
+  ],
+  "appearanceSets": []
+}

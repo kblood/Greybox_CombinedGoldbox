@@ -1,0 +1,68 @@
+{
+  "schema": "cok-amiga-player-candidate-v1",
+  "id": "cok/amiga/candidate/chart-head5-body1",
+  "game": "cok",
+  "platform": "Amiga",
+  "atlasSelector": 2,
+  "headSelector": 5,
+  "bodySelector": 1,
+  "archive": {
+    "path": "disk2/charT.LBM",
+    "sha256": "e17783a48aec7d7708bc3d3af4c7cc3adc496376d11aa4cf2abbea4ac9d1ce72",
+    "width": 320,
+    "height": 200,
+    "planes": 5,
+    "masking": 0
+  },
+  "cellSize": { "width": 24, "height": 24 },
+  "cells": [
+    {
+      "role": "head",
+      "assetId": "cok/amiga/disk2/lbm/chart.lbm/cell/67",
+      "cell": 67,
+      "x": 144,
+      "y": 120,
+      "rawSha256": "c16ae6024f26497cb3d5e0db63cdd8d6a8cb77f7042866717f4056dd3f4f5d41",
+      "opaqueSha256": "10b95930d6221318f2cc87831513e563305493f60927460fa6d0e894b43bc5ca"
+    },
+    {
+      "role": "body",
+      "assetId": "cok/amiga/disk2/lbm/chart.lbm/cell/1",
+      "variant": 0,
+      "cell": 1,
+      "x": 0,
+      "y": 0,
+      "rawSha256": "d9cee48c65c0ef7579ad93979a73ba6dbd746218fae3836b0e3f7df3a8efb585",
+      "opaqueSha256": "f9d1ca2fd376cee2597b988d443824c110986e22248831e844ff546d78743aab"
+    },
+    {
+      "role": "body",
+      "assetId": "cok/amiga/disk2/lbm/chart.lbm/cell/32",
+      "variant": 1,
+      "cell": 32,
+      "x": 168,
+      "y": 48,
+      "rawSha256": "4ee6edc24d17b246e40bee987544f1000f498cd165b6c04733b9d182a0b36fe2",
+      "opaqueSha256": "afcd9411d9bcfe0a4d4c183397bb4f493887f7afd947835cc84f32a6580594a5"
+    }
+  ],
+  "compositionReview": {
+    "status": "unverified-hypothesis",
+    "reason": "No Amiga runtime compositor trace or pixel-parity review establishes the two-cell composition model."
+  },
+  "paletteMapping": {
+    "status": "unverified",
+    "bytes": null,
+    "reason": "The candidate runtime palette values have not been traced or observed."
+  },
+  "provenance": {
+    "retailMedia": "unverified",
+    "runtimeObservation": "unverified",
+    "evidence": "docs/engine/research/cok-player-icon-source-contract-2026-10-26.md",
+    "basis": "Retained static creation trace and local extracted atlas pins; no named character or live creation observation."
+  },
+  "dosIdentityBridge": null,
+  "runtimeAdmission": "held",
+  "restyleAdmission": "held",
+  "playbackAdmission": "held"
+}

@@ -1,0 +1,769 @@
+{
+  "schema": "cok-graphics-alias-registry-review-v1",
+  "status": "reviewed-amiga-comspr-hash-correction",
+  "inputs": {
+    "priorSidecarSha256": "0b5c275ceba03eaa6fce52ad23f46ebe63e90c92259e9ba677e201a00bf1920d",
+    "priorRegistrySha256": "d6b7e4962e56151aca6a93da39657e96a4d446a5ca631ca4be931676e116466f",
+    "currentRegistrySha256": "d6b7e4962e56151aca6a93da39657e96a4d446a5ca631ca4be931676e116466f",
+    "inventorySha256": "d5fc9c9a49680f9a7825c2394126887a315105d4cf2686622706fbf30c8669c9",
+    "curatedManifestSha256": "1cb3e1eca86d42dc53bfbfaebe8949d9e89bca1b3fd48bca4ecb43fe95cb1ee2",
+    "runtimeComparisonSha256": "aced0dee1dcce6f651260e058c88bfcf1e7c05792faa8ce5112e47108e4106eb"
+  },
+  "counts": {
+    "generatedAliasesBefore": 6151,
+    "generatedAliasesAfter": 6151,
+    "externalAliasesBefore": 1,
+    "externalAliasesAfter": 1,
+    "boundAliasesAfter": 5790,
+    "boundAliasesWithLocatorArchiveSourceOutputAndCardEvidence": 5790,
+    "unresolvedAliasesRetained": 362,
+    "aliasCandidateSetsUnchanged": 6088,
+    "curatedCardsBefore": 27,
+    "curatedCardsAfter": 27,
+    "curatedSourceLinksAfter": 31,
+    "curatedMultiSourceCardsAfter": 4,
+    "curatedUnresolvedCardsRetained": 4,
+    "inventoryPngFilesExpected": 4840,
+    "inventoryPngFilesVerified": 4840,
+    "inventoryPngFilesMissing": 0,
+    "inventoryPngFilesHashMismatch": 0,
+    "semanticDifferences": 64,
+    "nullEntryIndexPromotions": 0,
+    "frameIndexHashPromotions": 0,
+    "blockIndexHashPromotions": 0,
+    "blockIndexCandidateRowsDisclosed": 0,
+    "amigaComsprHashPromotions": 60,
+    "amigaComsprCandidateRowsDisclosed": 4
+  },
+  "semanticProjectionSha256": "58487d17b92399b168be7f1c61aa24d88b0cdceea040d43badcc4f788908510d",
+  "updatedSidecarSha256": "c652dd0a7d67d7ca49f15e587c2920699e9013fa51ff9d307bdff6d8a9b28897",
+  "differences": [
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0075-078d2bbab5ff/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0075-078d2bbab5ff/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0118-0ba0e85eb62a/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0118-0ba0e85eb62a/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0158-103c7b83943d/alias/000",
+      "fields": [
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "sourceAssetIds"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0158-103c7b83943d/alias/001",
+      "fields": [
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "sourceAssetIds"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0174-1235fcc87351/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0174-1235fcc87351/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0401-274dfec84422/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0401-274dfec84422/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0426-2a0ac9a72e54/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0426-2a0ac9a72e54/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0549-3689ef5b7ed1/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0549-3689ef5b7ed1/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0559-3772ce4a0ffa/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0559-3772ce4a0ffa/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0594-3b2a74ef1459/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0594-3b2a74ef1459/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0602-3ba2075c2165/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0602-3ba2075c2165/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0730-48039f21f103/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0730-48039f21f103/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0909-5a341dccc967/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0909-5a341dccc967/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0929-5c6459e79fab/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0929-5c6459e79fab/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0940-5d5af4877014/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0940-5d5af4877014/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0990-6143e11dacfd/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-0990-6143e11dacfd/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1014-639061a576bb/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1014-639061a576bb/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1141-70498efeda50/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1141-70498efeda50/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1215-78aa829c9fcf/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1215-78aa829c9fcf/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1286-7aaea548184b/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1286-7aaea548184b/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1523-99c4e0bbb71e/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1523-99c4e0bbb71e/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1623-a467e88e0cba/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1623-a467e88e0cba/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1667-a8b84ccb8816/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1667-a8b84ccb8816/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1716-ae84c30d7183/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1716-ae84c30d7183/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1834-bbaf63cbe87c/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1834-bbaf63cbe87c/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1948-c6dd25546c73/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1948-c6dd25546c73/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1986-ca0237b92e2f/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-1986-ca0237b92e2f/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2069-d1976685bc9c/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2069-d1976685bc9c/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2321-eb8b17931d8e/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2321-eb8b17931d8e/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2361-f03e0186e9e3/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2361-f03e0186e9e3/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2382-f1d08ffb5144/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2382-f1d08ffb5144/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2451-f8afc8f84837/alias/000",
+      "fields": [
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "sourceAssetIds"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2451-f8afc8f84837/alias/001",
+      "fields": [
+        "candidateCount",
+        "reason",
+        "sourceAssetCandidates",
+        "sourceAssetIds"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2477-fb58274f6ed4/alias/000",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    },
+    {
+      "collection": "generatedAliasRows",
+      "id": "generated/asset-2477-fb58274f6ed4/alias/001",
+      "fields": [
+        "bindings",
+        "reason",
+        "sourceAssetIds",
+        "status"
+      ]
+    }
+  ],
+  "nullEntryIndexPromotions": [],
+  "frameIndexHashPromotions": [],
+  "blockIndexHashPromotions": [],
+  "blockIndexCandidateRowsDisclosed": [],
+  "limitations": [
+    "Unresolved aliases and curated cards remain unresolved; registry growth alone never promotes them.",
+    "The null-entry-index correction promotes only a single exact source candidate whose canonical locator explicitly has no TOC entry ordinal; it does not infer a missing ordinal.",
+    "The frame-index correction promotes only a unique exact decoded-source match inside the structured archive/block; ambiguous frames remain unresolved.",
+    "The block-index correction promotes only a unique exact decoded-source match inside a structured DOS archive family; ambiguous candidates remain unresolved.",
+    "Exact byte/locator relationships do not establish depicted subject, runtime use, or animation semantics.",
+    "Missing or hash-mismatched local image files are reported unavailable and are never treated as verified.",
+    "Amiga COMSPR source bindings are scoped to the hash-pinned local candidate/fixture archive; they do not establish retail/WHDLoad provenance, game use, or animation semantics."
+  ],
+  "amigaComsprHashPromotions": [
+    "generated/asset-0075-078d2bbab5ff/alias/000",
+    "generated/asset-0075-078d2bbab5ff/alias/001",
+    "generated/asset-0118-0ba0e85eb62a/alias/000",
+    "generated/asset-0118-0ba0e85eb62a/alias/001",
+    "generated/asset-0174-1235fcc87351/alias/000",
+    "generated/asset-0174-1235fcc87351/alias/001",
+    "generated/asset-0401-274dfec84422/alias/000",
+    "generated/asset-0401-274dfec84422/alias/001",
+    "generated/asset-0426-2a0ac9a72e54/alias/000",
+    "generated/asset-0426-2a0ac9a72e54/alias/001",
+    "generated/asset-0549-3689ef5b7ed1/alias/000",
+    "generated/asset-0549-3689ef5b7ed1/alias/001",
+    "generated/asset-0559-3772ce4a0ffa/alias/000",
+    "generated/asset-0559-3772ce4a0ffa/alias/001",
+    "generated/asset-0594-3b2a74ef1459/alias/000",
+    "generated/asset-0594-3b2a74ef1459/alias/001",
+    "generated/asset-0602-3ba2075c2165/alias/000",
+    "generated/asset-0602-3ba2075c2165/alias/001",
+    "generated/asset-0730-48039f21f103/alias/000",
+    "generated/asset-0730-48039f21f103/alias/001",
+    "generated/asset-0909-5a341dccc967/alias/000",
+    "generated/asset-0909-5a341dccc967/alias/001",
+    "generated/asset-0929-5c6459e79fab/alias/000",
+    "generated/asset-0929-5c6459e79fab/alias/001",
+    "generated/asset-0940-5d5af4877014/alias/000",
+    "generated/asset-0940-5d5af4877014/alias/001",
+    "generated/asset-0990-6143e11dacfd/alias/000",
+    "generated/asset-0990-6143e11dacfd/alias/001",
+    "generated/asset-1014-639061a576bb/alias/000",
+    "generated/asset-1014-639061a576bb/alias/001",
+    "generated/asset-1141-70498efeda50/alias/000",
+    "generated/asset-1141-70498efeda50/alias/001",
+    "generated/asset-1215-78aa829c9fcf/alias/000",
+    "generated/asset-1215-78aa829c9fcf/alias/001",
+    "generated/asset-1286-7aaea548184b/alias/000",
+    "generated/asset-1286-7aaea548184b/alias/001",
+    "generated/asset-1523-99c4e0bbb71e/alias/000",
+    "generated/asset-1523-99c4e0bbb71e/alias/001",
+    "generated/asset-1623-a467e88e0cba/alias/000",
+    "generated/asset-1623-a467e88e0cba/alias/001",
+    "generated/asset-1667-a8b84ccb8816/alias/000",
+    "generated/asset-1667-a8b84ccb8816/alias/001",
+    "generated/asset-1716-ae84c30d7183/alias/000",
+    "generated/asset-1716-ae84c30d7183/alias/001",
+    "generated/asset-1834-bbaf63cbe87c/alias/000",
+    "generated/asset-1834-bbaf63cbe87c/alias/001",
+    "generated/asset-1948-c6dd25546c73/alias/000",
+    "generated/asset-1948-c6dd25546c73/alias/001",
+    "generated/asset-1986-ca0237b92e2f/alias/000",
+    "generated/asset-1986-ca0237b92e2f/alias/001",
+    "generated/asset-2069-d1976685bc9c/alias/000",
+    "generated/asset-2069-d1976685bc9c/alias/001",
+    "generated/asset-2321-eb8b17931d8e/alias/000",
+    "generated/asset-2321-eb8b17931d8e/alias/001",
+    "generated/asset-2361-f03e0186e9e3/alias/000",
+    "generated/asset-2361-f03e0186e9e3/alias/001",
+    "generated/asset-2382-f1d08ffb5144/alias/000",
+    "generated/asset-2382-f1d08ffb5144/alias/001",
+    "generated/asset-2477-fb58274f6ed4/alias/000",
+    "generated/asset-2477-fb58274f6ed4/alias/001"
+  ],
+  "amigaComsprCandidateRowsDisclosed": [
+    "generated/asset-0158-103c7b83943d/alias/000",
+    "generated/asset-0158-103c7b83943d/alias/001",
+    "generated/asset-2451-f8afc8f84837/alias/000",
+    "generated/asset-2451-f8afc8f84837/alias/001"
+  ],
+  "amigaComsprArchivePin": {
+    "name": "comspr.daa",
+    "sha256": "4b2aaf61b11bc65ac15b7fa4c2587480523f36d94415a6183ad16795ae54a222",
+    "actualSha256": "4b2aaf61b11bc65ac15b7fa4c2587480523f36d94415a6183ad16795ae54a222",
+    "scope": "hash-pinned local candidate/fixture copy only; independent retail/WHDLoad provenance is not established"
+  }
+}

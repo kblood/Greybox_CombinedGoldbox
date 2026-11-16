@@ -1,0 +1,430 @@
+{
+  "schema": "cok-demo-picture-joins-v1",
+  "task": "SCENE-JOIN-DEMO-57",
+  "eclArchiveSha256": "4f4ba999b0d46817091e82fe5ccf27cb6eee95cd833389353d7285c2a8dccbea",
+  "eclBlockId": 57,
+  "eclBlockSha256": "96230e908f62a14a289c3cda086c8dc0e43e93e1e8d755a83cde6730300bff8e",
+  "eclRawBytes": 1096,
+  "hostSource": [
+    {
+      "role": "profile",
+      "path": "apps/web/src/ui/demo.ts",
+      "startSymbol": "const COK_DEMO_PROFILE:",
+      "endSymbol": "\nexport type DemoHooks",
+      "sha256": "1e58d1d2e03276defc2c00faec32f01b9d6f9ed1f90fea8e939b54112bf97152"
+    },
+    {
+      "role": "start",
+      "path": "apps/web/src/ui/demo.ts",
+      "startSymbol": "export function startDemo(",
+      "endSymbol": null,
+      "sha256": "673c72415cfa878bee060033db561ad34ee2cbfd136a169914df28b090f69399"
+    },
+    {
+      "role": "fetch",
+      "path": "apps/web/src/ui/demoGen1.ts",
+      "startSymbol": "  let eclBytes:",
+      "endSymbol": "  // Merge every configured",
+      "sha256": "be17d1c3c552de764c879d57ba47d7637f12541a24beb3a9a028c982bb21e4bb"
+    },
+    {
+      "role": "firstWins",
+      "path": "apps/web/src/ui/demoGen1.ts",
+      "startSymbol": "  // Merge every configured",
+      "endSymbol": "  if (profile.runtimeArt && amigaPictureBytes)",
+      "sha256": "63cdc1f6cbd87adc60565897a83387784fc0b558e90b0d74c36241b7a1a91800"
+    },
+    {
+      "role": "composite",
+      "path": "apps/web/src/ui/demoGen1.ts",
+      "startSymbol": "  // CoK's shopkeeper",
+      "endSymbol": "  const walkBackdropFrames",
+      "sha256": "9653e8edaaa81393b50de66a12d32376d61f250292cc5b263079b1e7bbb72df4"
+    },
+    {
+      "role": "flatten",
+      "path": "apps/web/src/ui/demoGen1.ts",
+      "startSymbol": "function flattenOne(",
+      "endSymbol": "function walkToPause(",
+      "sha256": "f2beab00e1a844f11dd48cd2a12f64cd8a8c9edc59aeeb6173717b35b78023bf"
+    },
+    {
+      "role": "walk",
+      "path": "apps/web/src/ui/demoGen1.ts",
+      "startSymbol": "function walkToPause(",
+      "endSymbol": "function toEclCombatOutcome(",
+      "sha256": "11b1f3f088210e4d571dd790032f5f65b44dd72b5c2cc41c86dda57605c4edf0"
+    },
+    {
+      "role": "apply",
+      "path": "apps/web/src/ui/demoGen1.ts",
+      "startSymbol": "function applyBeat(",
+      "endSymbol": "function driveCombat(",
+      "sha256": "fcf5593c7dffe3da66af815dc9a1e2d093b06f43bb24a238b0805dbd96618ca6"
+    },
+    {
+      "role": "render",
+      "path": "apps/web/src/ui/demoGen1.ts",
+      "startSymbol": "function renderDemoScreen(",
+      "endSymbol": "function ensureDemoRestyle(",
+      "sha256": "a0f8d37ec556db6a020725ac5a2bc07fa8e37b7b7bf517cc4fb8b6e18114fd81"
+    },
+    {
+      "role": "initialVm",
+      "path": "apps/web/src/ui/demoGen1.ts",
+      "startSymbol": "  const vm = new EclVm(block.raw,",
+      "endSymbol": "  const restyleCanvas = profile.runtimeArt",
+      "sha256": "3ca014a3b4367a761bfd4758cb72ed71f8635c70a1f2aa5fc3d06a179b423ef1"
+    },
+    {
+      "role": "tick",
+      "path": "apps/web/src/ui/demoGen1.ts",
+      "startSymbol": "function tick():",
+      "endSymbol": "export async function startGen1Demo(",
+      "sha256": "93c7d8592f2a3e243b61845573c632cce6a858f19d29f06f24786a774ef0f58c"
+    },
+    {
+      "role": "standardOpaque",
+      "path": "packages/engine/src/loaders/dax.ts",
+      "startSymbol": "    const fr = parseStandardFrame(blk.raw);",
+      "endSymbol": "    // Gateway VGA-extended single-frame picture",
+      "sha256": "26df6c7fdc57ec3e0ded6867da04e5555f90e10479e1f25c683e221b306eae52"
+    },
+    {
+      "role": "standardDeroll",
+      "path": "packages/engine/src/loaders/dax.ts",
+      "startSymbol": "function derollFrameIndices(",
+      "endSymbol": "\nconst ANIM_FRAME_HEADER",
+      "sha256": "05bb38a188467b36aa4ad1a69040783acf4532014211937346c900f37cd439ec"
+    },
+    {
+      "role": "blit",
+      "path": "packages/engine/src/render/screen.ts",
+      "startSymbol": "export function blitIndexed(",
+      "endSymbol": "/**",
+      "sha256": "c1ae24a34dcda6429012dd0dfd308da19f505e5edb976b3ae0198697ea35fcbb"
+    },
+    {
+      "role": "vmPicture",
+      "path": "packages/engine/src/ecl/vm.ts",
+      "startSymbol": "      case 0x0e: // PICTURE id",
+      "endSymbol": "\n      case 0x3d:",
+      "sha256": "6016f7ee0b0822f5e4409469294f433cecae5718400ebda0b32f058c67846ecd"
+    },
+    {
+      "role": "dialogueLastPicture",
+      "path": "packages/engine/src/world/dialogue.ts",
+      "startSymbol": "function lastPicture(",
+      "endSymbol": "\n/** The most recent prompt",
+      "sha256": "486cbc30b14e20792c16b065170ad199bb94c4734dc54722d0d622ded717fe8f"
+    }
+  ],
+  "sourceFrames": [
+    {
+      "sourceAssetId": "cok/dos-ega/disk2/pic2.dax/block/70/frame/0",
+      "archive": "PIC2.DAX",
+      "archiveSha256": "b4c07f963edcb88973ba7f3caa80cbcae4c88b3c71aa4c7ad3132ccbed1dbc51",
+      "blockId": 70,
+      "blockSha256": "2c5abdae637317882e9ae0b57fa08ed6ef5bebd521ba5132bc01c546f10d981d",
+      "rawBytes": 3894,
+      "storedFrames": 1,
+      "frameIndex": 0,
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "pixelSha256": "441c8ffccf51aa1504825281fac6d5be9980c74c6f1a717ae9f949d9d24456c2",
+      "pngSha256": "66fb79c211c2eb157683ff1728e5e91c1ab55cd3df06bf789c3cd8f452954ac9"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/head2.dax/block/69/frame/0",
+      "archive": "HEAD2.DAX",
+      "archiveSha256": "9b26657869b3d033866de66ace9e8ebde3dedfcdae5ed05fa00fc9d00bbec27b",
+      "blockId": 69,
+      "blockSha256": "ca9d8db91a83c7acb85583dff49d495cb311d48a394efb8f8c9bbe5342905425",
+      "rawBytes": 1777,
+      "storedFrames": 1,
+      "frameIndex": 0,
+      "geometry": [
+        88,
+        40,
+        0,
+        0
+      ],
+      "pixelSha256": "34b5f0dbb720b1e4240a908addde9c2f55786692aa989f007645b4183debee7d",
+      "pngSha256": "bbc1a2ee865060ad4add766989154258aa14b365e84c01e242ec237fe03b2942"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk1/body2.dax/block/68/frame/0",
+      "archive": "BODY2.DAX",
+      "archiveSha256": "7edd8e0841581b1643828a21787594f6c96dddc1718710de9a8159575bef467f",
+      "blockId": 68,
+      "blockSha256": "ef02943328a8ba0cc54e9135655bff74788a3a4b47dcc11a92df617c17f26490",
+      "rawBytes": 2129,
+      "storedFrames": 1,
+      "frameIndex": 0,
+      "geometry": [
+        88,
+        48,
+        0,
+        0
+      ],
+      "pixelSha256": "c904fd706db499b395558fb44fdcac6b73ad9cdc67bac1a1a4d516cb6eb54d76",
+      "pngSha256": "edbaebee8325a280125987853aea7a28e6fd30a44131bd245bfa7fe2f3238bbe"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk2/bigpic2.dax/block/116/frame/0",
+      "archive": "BIGPIC2.DAX",
+      "archiveSha256": "553dc458be8209bea0ca5f1dea6406b5cd8a96750d3badc05658f5a8ef241f0a",
+      "blockId": 116,
+      "blockSha256": "9c2f3cfc44bd9f04ad7703e00e59a887b385f2b3d3051ead6128d5fa587847fd",
+      "rawBytes": 18257,
+      "storedFrames": 1,
+      "frameIndex": 0,
+      "geometry": [
+        304,
+        120,
+        0,
+        0
+      ],
+      "pixelSha256": "dd0863b9d2ede3176693778e1a48af9d7937b2f5988294c163ce9d7013aa7ecc",
+      "pngSha256": "a73dfc3744f1e70e940d0e1facf47415103eec79d83e81aecea4365e89fdc4d2"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk2/pic2.dax/block/59/frame/0",
+      "archive": "PIC2.DAX",
+      "archiveSha256": "b4c07f963edcb88973ba7f3caa80cbcae4c88b3c71aa4c7ad3132ccbed1dbc51",
+      "blockId": 59,
+      "blockSha256": "795149f8458b559d72a34e13b004ddc4f06c8c6916a6d96fa4e2160d5c5a1866",
+      "rawBytes": 3894,
+      "storedFrames": 1,
+      "frameIndex": 0,
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "pixelSha256": "68e0eabba1e128abaa3d78b923a80742f83da369777a8673b7b952ec470506d0",
+      "pngSha256": "e600ff970cf1e45edb955226b2c118ee7fbf1e0259f5692c694018feea7d36b9"
+    },
+    {
+      "sourceAssetId": "cok/dos-ega/disk2/pic2.dax/block/23/frame/0",
+      "archive": "PIC2.DAX",
+      "archiveSha256": "b4c07f963edcb88973ba7f3caa80cbcae4c88b3c71aa4c7ad3132ccbed1dbc51",
+      "blockId": 23,
+      "blockSha256": "2a10157f1f46017a10c0053fd8fb101167e6a811441eacaf5952ca2a450333fa",
+      "rawBytes": 31145,
+      "storedFrames": 8,
+      "frameIndex": 0,
+      "geometry": [
+        88,
+        88,
+        0,
+        0
+      ],
+      "pixelSha256": "09b26589751f5511b51c0c975a86a9c9423ad3e7f487b297f24a4b450e94f1f8",
+      "pngSha256": "3858d73cd9a7920cfd0ef7a480ca481fc9ad70c2d4407774ba8873177c4fe010"
+    }
+  ],
+  "sites": [
+    {
+      "offset": 97,
+      "vaddr": 32863,
+      "pictureId": 70,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 70
+      },
+      "entries": [
+        "initial_entry"
+      ],
+      "conditionalBinding": {
+        "status": "conditional-original-source",
+        "sourceAssetIds": [
+          "cok/dos-ega/disk2/pic2.dax/block/70/frame/0"
+        ],
+        "initialFrame": 0
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 14,
+          "offsetPathSha256": "be98924af5f81651bbc34fc0eeecf3fb83b9f8eea5298a276d1817e35675e237",
+          "branchEdgeCount": 0,
+          "branchEdgesSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "offset": 401,
+      "vaddr": 33167,
+      "pictureId": 68,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 68
+      },
+      "entries": [
+        "initial_entry"
+      ],
+      "conditionalBinding": {
+        "status": "conditional-original-source",
+        "sourceAssetIds": [
+          "cok/dos-ega/disk1/head2.dax/block/69/frame/0",
+          "cok/dos-ega/disk1/body2.dax/block/68/frame/0"
+        ],
+        "initialFrame": 0
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 45,
+          "offsetPathSha256": "a0d1fe095d3939cf1d1492f3b145bf88e186e0fe03db18b71510f6875ba2119d",
+          "branchEdgeCount": 7,
+          "branchEdgesSha256": "3bedf73a34616d4c671453745a304bbf7d8ba11ad0b8bd3ec154912cd98f867e"
+        }
+      ]
+    },
+    {
+      "offset": 590,
+      "vaddr": 33356,
+      "pictureId": 116,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 116
+      },
+      "entries": [
+        "initial_entry"
+      ],
+      "conditionalBinding": {
+        "status": "conditional-original-source",
+        "sourceAssetIds": [
+          "cok/dos-ega/disk2/bigpic2.dax/block/116/frame/0"
+        ],
+        "initialFrame": 0
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 73,
+          "offsetPathSha256": "996f2439b3be9d859009a1476a8f73bc3c9b8d99df3abee8e834a7ab218c2d5c",
+          "branchEdgeCount": 15,
+          "branchEdgesSha256": "abaf04160304769b3260c8f309ff6856d3ca2c08541ed4d5ced0d31e5f6e977c"
+        }
+      ]
+    },
+    {
+      "offset": 690,
+      "vaddr": 33456,
+      "pictureId": 59,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 59
+      },
+      "entries": [
+        "initial_entry"
+      ],
+      "conditionalBinding": {
+        "status": "conditional-original-source",
+        "sourceAssetIds": [
+          "cok/dos-ega/disk2/pic2.dax/block/59/frame/0"
+        ],
+        "initialFrame": 0
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 85,
+          "offsetPathSha256": "3b1f57db9e5e00e09f5d0337f6854239948fbbd7497acfe761ad26766954567f",
+          "branchEdgeCount": 15,
+          "branchEdgesSha256": "abaf04160304769b3260c8f309ff6856d3ca2c08541ed4d5ced0d31e5f6e977c"
+        }
+      ]
+    },
+    {
+      "offset": 855,
+      "vaddr": 33621,
+      "pictureId": 23,
+      "operand": {
+        "kind": "immediate",
+        "code": 0,
+        "value": 23
+      },
+      "entries": [
+        "initial_entry"
+      ],
+      "conditionalBinding": {
+        "status": "conditional-original-source",
+        "sourceAssetIds": [
+          "cok/dos-ega/disk2/pic2.dax/block/23/frame/0"
+        ],
+        "initialFrame": 0
+      },
+      "entryWitnesses": [
+        {
+          "entry": "initial_entry",
+          "instructionSteps": 117,
+          "offsetPathSha256": "0c6ebb772f6eba25ba70efd6f350b31119600b28d2d699cfdc7fd5d3fdc122e1",
+          "branchEdgeCount": 17,
+          "branchEdgesSha256": "98e18fe1cf3f7707b4dcc9bbb2089b5a6cdd53dfbf2c29d1e4028e2e5c91db53"
+        }
+      ]
+    }
+  ],
+  "composition": {
+    "pictureId": 68,
+    "geometry": [
+      88,
+      88
+    ],
+    "parts": [
+      {
+        "sourceAssetId": "cok/dos-ega/disk1/head2.dax/block/69/frame/0",
+        "frameIndex": 0,
+        "x": 0,
+        "y": 0,
+        "transparentIndex": null
+      },
+      {
+        "sourceAssetId": "cok/dos-ega/disk1/body2.dax/block/68/frame/0",
+        "frameIndex": 0,
+        "x": 0,
+        "y": 40,
+        "transparentIndex": null
+      }
+    ],
+    "rgbSha256": "473b68836ba72a5f64e0dd27bc5a916ec0e4ad27f0e1c1498865ef89a6ccb55b",
+    "complete": true,
+    "newCanonicalId": null
+  },
+  "batchContract": {
+    "demoPictureBeatOrder": [
+      70,
+      68,
+      116,
+      59,
+      23
+    ],
+    "dialogueRunnerLastPicture": 23,
+    "sameConsumer": false,
+    "visibleSceneCount": null,
+    "note": "Demo flattenOne retains each picture beat; tick groups following text. DialogueRunner lastPicture batch collapse is a separate host. No runtime timing/visibility observation."
+  },
+  "mapContract": "Pinned CoK demo profile loads PIC2 before BIGPIC2; first decoded ID wins. Only a complete HEAD2#69 + BODY2#68 composite replaces map id68; missing parts do not replace an existing entry.",
+  "conditions": [
+    "Pinned CoK profile ECL2#57, ECL_GEN1 and exact source archives; original candidates only, not general campaign sources.",
+    "applyBeat initially selects frame0; later animate beats may advance stored frames. PIC2#23 frames1-7 timing/playback remain unknown.",
+    "DOS original portrait placement defaults to (24,24) and big pictures to (8,8), each with source offsets; profile/mode/overlay conditions still apply.",
+    "Demo keeps ordered picture beats; DialogueRunner lastPicture batching is a separate consumer. No scene-count or pause-visibility proof.",
+    "No VM/browser/runtime observation, campaign reachability, Amiga equivalence or new DOS/Restyle admission follows from these joins.",
+    "BIGPIC2#116 DOS source is distinct from the Amiga BIGPIC1#116 Restyle source; existing metadata/admission states are preserved.",
+    "Failure/unavailable assets, non-DOS modes and other profiles remain unresolved. Source pins identify local copies, not independent retail provenance."
+  ],
+  "issues": []
+}

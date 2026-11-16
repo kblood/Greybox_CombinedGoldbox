@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dionysus.dk/schemas/cok-graphics-alias-bindings-v1.json",
+  "title": "CoK generated and curated graphics alias bindings",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "evidenceScope", "inputs", "counts", "generatedAliasRows", "externalComparisonAliases", "curatedCards", "explicitUnresolvedCases", "limitations"],
+  "properties": {
+    "schema": { "const": "cok-graphics-alias-bindings-v1" },
+    "evidenceScope": { "type": "string", "minLength": 1 },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["registry", "generatedInventory", "curatedManifest", "runtimeComparisonManifest", "generatedInventoryImages", "curatedImageDirectory"],
+      "properties": {
+        "registry": { "$ref": "#/$defs/pinnedFile" },
+        "generatedInventory": { "$ref": "#/$defs/pinnedFile" },
+        "curatedManifest": { "$ref": "#/$defs/pinnedFile" },
+        "runtimeComparisonManifest": { "$ref": "#/$defs/pinnedFile" },
+        "generatedInventoryImages": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["expectedUniquePngFiles", "verifiedUniquePngFiles", "missingFiles", "hashMismatches", "verifiedBytes", "expectedBytesFromInventory", "fileSetSha256"],
+          "properties": {
+            "expectedUniquePngFiles": { "type": "integer", "minimum": 0 },
+            "verifiedUniquePngFiles": { "type": "integer", "minimum": 0 },
+            "missingFiles": { "type": "integer", "minimum": 0 },
+            "hashMismatches": { "type": "integer", "minimum": 0 },
+            "verifiedBytes": { "type": "integer", "minimum": 0 },
+            "expectedBytesFromInventory": { "type": "integer", "minimum": 0 },
+            "fileSetSha256": { "$ref": "#/$defs/hash" }
+          }
+        },
+        "curatedImageDirectory": { "type": "string", "minLength": 1 }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["generatedAliasRows", "generatedAliasRowsBound", "generatedAliasRowsUnresolved", "generatedAliasRowsAccountedExactlyOnce", "externalComparisonAliasRows", "externalComparisonAliasRowsBound", "curatedCoKCards", "curatedSourceLinks", "curatedCardsExact", "curatedCardsUnresolved", "pic1_23SourceLinksPreserved", "pic1_23DistinctSourceIds", "inventoryPngFilesExpected", "inventoryPngFilesVerified", "inventoryPngFilesMissing", "inventoryPngFilesHashMismatch"],
+      "properties": {
+        "generatedAliasRows": { "const": 6151 },
+        "generatedAliasRowsBound": { "type": "integer", "minimum": 0 },
+        "generatedAliasRowsUnresolved": { "type": "integer", "minimum": 0 },
+        "generatedAliasRowsAccountedExactlyOnce": { "const": true },
+        "externalComparisonAliasRows": { "const": 1 },
+        "externalComparisonAliasRowsBound": { "type": "integer", "minimum": 0, "maximum": 1 },
+        "curatedCoKCards": { "const": 27 },
+        "curatedSourceLinks": { "type": "integer", "minimum": 0 },
+        "curatedCardsExact": { "type": "integer", "minimum": 0 },
+        "curatedCardsUnresolved": { "type": "integer", "minimum": 0 },
+        "pic1_23SourceLinksPreserved": { "const": 6 },
+        "pic1_23DistinctSourceIds": { "const": 6 },
+        "inventoryPngFilesExpected": { "type": "integer", "minimum": 0 },
+        "inventoryPngFilesVerified": { "type": "integer", "minimum": 0 },
+        "inventoryPngFilesMissing": { "type": "integer", "minimum": 0 },
+        "inventoryPngFilesHashMismatch": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "generatedAliasRows": { "type": "array", "minItems": 6151, "maxItems": 6151, "items": { "$ref": "#/$defs/aliasRow" } },
+    "externalComparisonAliases": { "type": "array", "minItems": 1, "maxItems": 1, "items": { "$ref": "#/$defs/aliasRow" } },
+    "curatedCards": { "type": "array", "minItems": 27, "maxItems": 27, "items": { "$ref": "#/$defs/curatedCard" } },
+    "explicitUnresolvedCases": { "type": "array", "items": { "type": "object" } },
+    "limitations": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+  },
+  "$defs": {
+    "hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "pinnedFile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": { "path": { "type": "string", "minLength": 1 }, "sha256": { "$ref": "#/$defs/hash" } }
+    },
+    "aliasRow": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["rowId", "inventoryAssetId", "sourceSha256", "outputSha256", "aliasKey", "aliasHash", "aliasOccurrenceIndex", "alias", "status", "reason", "sourceAssetIds", "sourceAssetCandidates", "bindings", "archiveNamesConsidered", "candidateCount"],
+      "properties": {
+        "rowId": { "type": "string", "minLength": 1 },
+        "inventoryAssetId": { "type": "string", "minLength": 1 },
+        "sourceSha256": { "$ref": "#/$defs/hash" },
+        "outputSha256": { "$ref": "#/$defs/hash" },
+        "aliasKey": { "$ref": "#/$defs/hash" },
+        "aliasHash": { "$ref": "#/$defs/hash" },
+        "aliasOccurrenceIndex": { "oneOf": [{ "type": "integer", "minimum": 0 }, { "type": "null" }] },
+        "alias": { "type": "object" },
+        "status": { "enum": ["bound", "unresolved"] },
+        "reason": { "oneOf": [{ "type": "string", "minLength": 1 }, { "type": "null" }] },
+        "sourceAssetIds": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "sourceAssetCandidates": { "type": "array", "items": { "$ref": "#/$defs/sourceCandidate" } },
+        "bindings": { "type": "array", "items": { "$ref": "#/$defs/sourceBinding" } },
+        "archiveNamesConsidered": { "type": "array", "items": { "type": "string" } },
+        "candidateCount": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "sourceCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceAssetId", "locator", "archive", "decodedSourceSha256", "exactOutputSha256", "restyleIdsForExactOutput", "matchingCardReferences"],
+      "properties": {
+        "sourceAssetId": { "type": "string", "minLength": 1 },
+        "locator": { "type": "object" },
+        "archive": { "type": "object" },
+        "decodedSourceSha256": { "$ref": "#/$defs/hash" },
+        "exactOutputSha256": { "$ref": "#/$defs/hash" },
+        "restyleIdsForExactOutput": { "type": "array", "items": { "type": "string" } },
+        "matchingCardReferences": { "type": "array", "items": { "$ref": "#/$defs/cardReference" } }
+      }
+    },
+    "sourceBinding": {
+      "allOf": [
+        { "$ref": "#/$defs/sourceCandidate" },
+        { "type": "object", "required": ["evidence"] , "properties": { "evidence": { "type": "array", "minItems": 1, "items": { "type": "string" } } } }
+      ]
+    },
+    "cardReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["system", "id", "reference", "restyleId", "outputSha256"],
+      "properties": {
+        "system": { "type": "string", "minLength": 1 },
+        "id": { "type": "string", "minLength": 1 },
+        "reference": { "type": ["string", "null"] },
+        "restyleId": { "type": "string", "minLength": 1 },
+        "outputSha256": { "$ref": "#/$defs/hash" }
+      }
+    },
+    "filePin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "status", "expectedSha256", "actualSha256"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["hash-match", "hash-mismatch", "missing"] },
+        "expectedSha256": { "$ref": "#/$defs/hash" },
+        "actualSha256": { "oneOf": [{ "$ref": "#/$defs/hash" }, { "type": "null" }] }
+      }
+    },
+    "curatedCard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cardId", "stem", "manifestDescription", "sourceLinks", "sourceFile", "outputFile", "sourceHashes", "outputHashes", "sourceIdCount", "status", "unresolvedReason"],
+      "properties": {
+        "cardId": { "type": "string", "minLength": 1 },
+        "stem": { "type": "string", "minLength": 1 },
+        "manifestDescription": { "type": ["string", "null"] },
+        "sourceLinks": { "type": "array", "items": { "type": "object" } },
+        "sourceFile": { "$ref": "#/$defs/filePin" },
+        "outputFile": { "$ref": "#/$defs/filePin" },
+        "sourceHashes": { "type": "array", "items": { "$ref": "#/$defs/hash" } },
+        "outputHashes": { "type": "array", "items": { "$ref": "#/$defs/hash" } },
+        "sourceIdCount": { "type": "integer", "minimum": 0 },
+        "status": { "enum": ["exact", "unresolved"] },
+        "unresolvedReason": { "oneOf": [{ "type": "string" }, { "type": "null" }] }
+      }
+    }
+  }
+}

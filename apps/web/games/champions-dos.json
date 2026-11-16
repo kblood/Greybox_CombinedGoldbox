@@ -1,0 +1,46 @@
+{
+  "id": "champions-dos",
+  "title": "Champions of Krynn",
+  "platform": "DOS (EGA)",
+  "container": "DAX (little-endian, fixed EGA-16 palette, signed-byte RLE)",
+  "endianness": "little",
+  "display": { "width": 320, "height": 200, "pixelAspect": 1.2, "defaultZoom": 2 },
+  "files": [
+    { "path": "Champions of Krynn/TITLE.DAX", "category": "title", "label": "TITLE (title screen)" },
+
+    { "path": "Champions of Krynn/BIGPIC1.DAX", "category": "scenes", "label": "BIGPIC1 (scenes)" },
+    { "path": "Champions of Krynn/BIGPIC2.DAX", "category": "scenes", "label": "BIGPIC2 (scenes)" },
+    { "path": "Champions of Krynn/BIGPIC3.DAX", "category": "scenes", "label": "BIGPIC3 (scenes)" },
+
+    { "path": "Champions of Krynn/CPIC1.DAX", "category": "portraits", "label": "CPIC1 (combat portraits)" },
+    { "path": "Champions of Krynn/CPIC2.DAX", "category": "portraits", "label": "CPIC2 (combat portraits)" },
+    { "path": "Champions of Krynn/CPIC3.DAX", "category": "portraits", "label": "CPIC3 (combat portraits)" },
+    { "path": "Champions of Krynn/CHEAD.DAX", "category": "portraits", "label": "CHEAD (character heads)" },
+    { "path": "Champions of Krynn/HEAD2.DAX", "category": "portraits", "label": "HEAD2 (character heads)" },
+    { "path": "Champions of Krynn/HEAD3.DAX", "category": "portraits", "label": "HEAD3 (character heads)" },
+
+    { "path": "Champions of Krynn/8X8D1.DAX", "category": "tiles", "label": "8X8D1 (8x8 dungeon tiles)", "note": "8x8 plane-order/shared palette gap — cells sized, colors may be off" },
+    { "path": "Champions of Krynn/8X8D2.DAX", "category": "tiles", "label": "8X8D2 (8x8 dungeon tiles)" },
+    { "path": "Champions of Krynn/8X8D3.DAX", "category": "tiles", "label": "8X8D3 (8x8 dungeon tiles)" },
+
+    { "path": "Champions of Krynn/COMSPR.DAX", "category": "sprites", "label": "COMSPR (combat sprites)" },
+    { "path": "Champions of Krynn/DUNGCOM.DAX", "category": "sprites", "label": "DUNGCOM (dungeon combat)" },
+    { "path": "Champions of Krynn/SPRIT1.DAX", "category": "sprites", "label": "SPRIT1 (monster sprites, 3 view-sizes)" },
+    { "path": "Champions of Krynn/SPRIT2.DAX", "category": "sprites", "label": "SPRIT2 (monster sprites)" },
+    { "path": "Champions of Krynn/SPRIT3.DAX", "category": "sprites", "label": "SPRIT3 (monster sprites)" },
+
+    { "path": "Champions of Krynn/PIC1.DAX", "category": "portraits", "label": "PIC1 (animated portraits, XOR-delta)" },
+    { "path": "Champions of Krynn/PIC2.DAX", "category": "portraits", "label": "PIC2 (animated portraits)" },
+    { "path": "Champions of Krynn/PIC3.DAX", "category": "portraits", "label": "PIC3 (animated portraits)" },
+
+    { "path": "Champions of Krynn/CBODY.DAX", "category": "ui", "label": "CBODY (paperdoll body)" },
+    { "path": "Champions of Krynn/BODY2.DAX", "category": "ui", "label": "BODY2 (paperdoll body)" },
+    { "path": "Champions of Krynn/CURSOR.DAX", "category": "ui", "label": "CURSOR (UI cursor)" },
+
+    { "path": "Champions of Krynn/GEO1.DAX", "category": "data", "label": "GEO1 (dungeon maps)", "decode": false, "note": "GEO map data — decoder in progress (M1.S4)" },
+    { "path": "Champions of Krynn/MON1CHA.DAX", "category": "data", "label": "MON1CHA (monster tables)", "decode": false, "note": "monster data — Phase 5" },
+    { "path": "Champions of Krynn/ITEM1.DAX", "category": "data", "label": "ITEM1 (item tables)", "decode": false, "note": "item data — Phase 3" },
+    { "path": "Champions of Krynn/ECL1.DAX", "category": "data", "label": "ECL1 (event scripts)", "decode": false, "note": "ECL bytecode — decoder in progress (M2)" },
+    { "path": "Champions of Krynn/SOUND.DAX", "category": "data", "label": "SOUND (DOS sound bank)", "decode": false, "note": "One block (id 1), 14,064 bytes. Round 34 R6 (docs/engine/research/cok-sound-bank.md): the block's own first word is a driver-verified stream-start pointer (0x007d = 125, seeded into the resident driver's tick cursor by `mov ax, es:[0]` at install time), and decoding the running-status grammar from 125 runs to a literal 0xFC terminator with 0 malformed bytes -- 11,090 real events plus the decoder's own end marker. It segments into 14 streams, 3 of which are large, balanced, five-voice passages (4,801 / 1,141 / 5,132 events, Note-On and Note-Off within 6 of each other in each) -- the shape of music, not one-shot effects. Against a histogram-preserving shuffle of all 814 corpus sources the null's best is 368 events and no source terminates cleanly at all, so this block ranks #1 of 814 by >30x. THIS IS A DECODE CENSUS, NOT PLAYBACK: nothing in the engine renders these events to audio, and the dashboard row says so. The web build's Champions music is the Amiga path, which is unrelated to this file." }
+  ]
+}

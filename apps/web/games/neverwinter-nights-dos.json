@@ -1,0 +1,47 @@
+{
+  "id": "neverwinter-nights-dos",
+  "title": "Neverwinter Nights (DOS/AOL)",
+  "platform": "DOS (EGA)",
+  "container": "DAX (little-endian, fixed EGA-16 palette, signed-byte RLE)",
+  "endianness": "little",
+  "display": { "width": 320, "height": 200, "pixelAspect": 1.2, "defaultZoom": 2 },
+  "files": [
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/TITLE.DAX", "category": "title", "label": "TITLE (Stormfront/AOL title screens)" },
+
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/PIC.DAX", "category": "scenes", "label": "PIC (animated scenes)" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/BACK.DAX", "category": "backdrops", "label": "BACK (combat/backdrop art)" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/SKY.DAX", "category": "backdrops", "label": "SKY (sky/backdrop bands)" },
+
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/CPIC.DAX", "category": "portraits", "label": "CPIC (combat portraits)" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/HEAD.DAX", "category": "portraits", "label": "HEAD (large character heads)" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/CHEAD.DAX", "category": "portraits", "label": "CHEAD (character heads)" },
+
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/8X8D.DAX", "category": "tiles", "label": "8X8D (dungeon wall/tile art)" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/DUNGCOM.DAX", "category": "tiles", "label": "DUNGCOM (dungeon combat terrain)" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/RANDCOM.DAX", "category": "tiles", "label": "RANDCOM (random combat terrain)" },
+
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/SPRIT.DAX", "category": "sprites", "label": "SPRIT (creature sprites)" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/COMSPR.DAX", "category": "sprites", "label": "COMSPR (combat sprites)" },
+
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/BODY.DAX", "category": "ui", "label": "BODY (paperdoll/body art)" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/CBODY.DAX", "category": "ui", "label": "CBODY (compact body art)" },
+
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/GEO0.DAX", "category": "data", "label": "GEO0 (map data)", "decode": false, "note": "NWN map data — native/engine route work in progress" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/GEO1.DAX", "category": "data", "label": "GEO1 (map data)", "decode": false, "note": "NWN map data — native/engine route work in progress" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/GEO2.DAX", "category": "data", "label": "GEO2 (map data)", "decode": false, "note": "NWN map data — native/engine route work in progress" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/GEO3.DAX", "category": "data", "label": "GEO3 (map data)", "decode": false, "note": "NWN map data — native/engine route work in progress" },
+
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/ECL0.DAX", "category": "data", "label": "ECL0 (event scripts)", "decode": false, "note": "ECL bytecode — disassembly exists; browser dashboard shows raw file presence for now" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/ECL1.DAX", "category": "data", "label": "ECL1 (event scripts)", "decode": false, "note": "ECL bytecode — disassembly exists; browser dashboard shows raw file presence for now" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/ECL2.DAX", "category": "data", "label": "ECL2 (event scripts)", "decode": false, "note": "ECL bytecode — disassembly exists; browser dashboard shows raw file presence for now" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/ECL3.DAX", "category": "data", "label": "ECL3 (event scripts)", "decode": false, "note": "ECL bytecode — disassembly exists; browser dashboard shows raw file presence for now" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/ECL5.DAX", "category": "data", "label": "ECL5 (event scripts)", "decode": false, "note": "ECL bytecode — disassembly exists; browser dashboard shows raw file presence for now" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/ECL7.DAX", "category": "data", "label": "ECL7 (event/combat scripts)", "decode": false, "note": "Contains the selector-125 combat branch used by the native NWN smoke" },
+
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/MONCHA.DAX", "category": "data", "label": "MONCHA (monster tables)", "decode": false, "note": "NWN monster records — native bridge can consume selected combat handoffs" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/MONITM.DAX", "category": "data", "label": "MONITM (monster items)", "decode": false, "note": "Monster side-table — not surfaced in the browser dashboard yet" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/MONSPC.DAX", "category": "data", "label": "MONSPC (monster specials)", "decode": false, "note": "Monster side-table — not surfaced in the browser dashboard yet" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/ITEM.DAX", "category": "data", "label": "ITEM (item table)", "decode": false, "note": "NWN item table — not surfaced in the browser dashboard yet" },
+    { "path": "D:/Games/Neverwinter Nights DOS/neverwinter-nights/neverwint/WALLDEF.DAX", "category": "data", "label": "WALLDEF (wall definitions)", "decode": false, "note": "Wall metadata — first-person renderer integration is native-side for now" }
+  ]
+}

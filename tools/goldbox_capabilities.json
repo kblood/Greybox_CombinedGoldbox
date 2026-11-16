@@ -1,0 +1,1439 @@
+{
+  "schema_version": 1,
+  "evidence_date": "2026-09-05",
+  "charter": "docs/engine/ALL-GAMES-IMPLEMENTATION-PLAN-2026-07-22.md § Phase 0 — Make compatibility claims executable",
+  "profiles": [
+    {
+      "profile_id": "champions-of-krynn",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "The browser and Electron share the Greybox AD&D/Krynn party, exploration, dialogue, service, tactical-turn, treasure, and persistence systems used by the verified route.",
+          "gaps": [
+            "Exhaustive retail spell, item, class, AI, and combat-rule parity is not claimed."
+          ]
+        },
+        "ecl": {
+          "status": "proven",
+          "detail": "Krynn Gen1 long-frame ECL is byte-decoded and the clean route executes retail ECL1 blocks 36, 16, 17, and 32 with shared memory and natural outcome resume.",
+          "gaps": [
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, restated round 34 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so a clean-EXIT count is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 22 retail blocks: 0 shallow desync block(s), 0 deep desync site(s). ROUND 34 CORRECTION: this line read 33 deep sites until round 34 R1 added ECL opcode 0x41 to the SHARED Gen1 base table at wordSet 2 (packages/engine/src/ecl/opcodes.ts, ECL_OPCODE_MAX 0x40 -> 0x41). That single entry closed EVERY deep desync site this title had (33 -> 0), with zero shallow-census regression. R1 shipped this as UNKNOWN_0x41 with semantics explicitly unclaimed, because EclDump's own SetupCommandTable is dense only over 0x00..0x40, so its silence about 0x41 is a property of EclDump, not of the bytes. THAT IS NO LONGER THE STATE OF THE EVIDENCE. A round 34 follow-up (docs/engine/research/gen1-opcode-41.md) went and read the handlers: all three base-table titles carry their OWN 0x41 dispatch entry -- CoK GAME.OVR 0x4048, DoK 0x2e0e (reproducing the pre-existing build/dok-ecl-dispatch-map.json row byte-for-byte, which checks the tooling), Secret 0x43ff -- located by structural match against the CoAB oracle. Each reads exactly 2 operands from its own `mov al,2; push ax; lcall <parser>` prologue, so wordSet 2 is now confirmed from BINARY GROUND TRUTH and not only from the eight independent derivations that already agreed on it (Gateway, Treasures at GAME.OVR 0x2c40, Pools at 0x240c, Buck, Matrix, DQK Gen2, R1's byte-shape derivation, and now this one). All three handlers share one idiom: read a 0/1 flag and a round word amount, count the ACTIVE party members, divide, and ADD/ADC the share into a 32-bit per-character accumulator (flag=1 walks the party chain, flag=0 hits one target). CoK's walks that chain through CCH +0x17F/+0x181 -- the SAME 'next combatant' far pointer that CoK's already byte-verified post-combat calc_battle_exp uses (docs/engine/research/decompile-ovr006-xp-treasure.md), from an investigation that borrowed nothing from this one. The mnemonic is therefore now GEN1_AWARD_XP. uncertain STAYS TRUE and the reason is specific: no loader or save-format doc in this repo names the accumulator field (CoK +0x116/+0x118) as the canonical experience field, and no oracle certifies the label -- what is proven is the STRUCTURE, not the name. Note also that these handlers DIVIDE where Pools'/Treasures' own 0x41 (POOLS_AWARD_XP / TREASURES_AWARD_XP) MULTIPLIES by 100, so the dialects stay correctly separate. ONE OF R1'S OWN CLAIMS IS CORRECTED HERE: 'the operand is always a multiple of 500' is measured at 98.4% (121/123) on an exhaustive walk of every reached site in all three titles' ECL1-3.DAX, with two genuine CoK exceptions (ECL1.DAX block 32 @0x1cec = 300; ECL2.DAX block 67 @0x1bff = 32633), both in the flag=0 single-target branch. Stratified by the flag -- which R1's sample could not do -- flag=1 is 95/95 = 100%. The null: word-kind operands of every OTHER reached instruction in the same blocks are multiples of 500 just 0.53% of the time (n = 29,954), a ~185x enrichment, so the roundness is a property of THIS argument. Caveat kept: that follow-up's from-scratch walker reproduces walkEclReachable's CoK (33) and Secret (40) counts exactly but finds 50 DoK sites where the engine's numbers imply 43 -- a difference in its simplified control-flow rules, not a disputed fact about the opcode. The engine's pinned counts in eclReachability.test.ts are the authoritative ones. Pinned in packages/engine/test/eclReachability.test.ts; deep counts are SITES and shallow counts are BLOCKS, so the two are not directly subtractable."
+          ]
+        },
+        "map_container": {
+          "status": "proven",
+          "detail": "Retail DAX archives and 16x16 GEO maps drive the selected-folder route, legal first-person movement, destination pose, and tactical handoff."
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "The selected-folder route renders retail DOS EGA dialogue/travel/map assets and switches the mounted campaign area between calibrated DOS EGA and Amiga wall graphics.",
+          "gaps": [
+            "Not every picture placement, animation, palette edge case, or native compositor screen has pixel-exact parity."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "Shared step and UI audio paths exist, but audio is not part of the Verified route gate.",
+          "gaps": [
+            "CoK's five MIDI.DAX blocks are measured as five disjoint per-hardware DRIVERS, not five songs: block 1 C/MS 0x221/0x223, block 2 Roland MPU-401 0x330/0x331, block 3 AdLib 0x388, block 4 Tandy 0xC0, block 5 PIT+PC speaker 0x42/0x43/0x61 — matching START.EXE's SOUND TYPE menu in order, with a mean pairwise port-set overlap of 0.014 against the ~1.0 that the 'one block per song' reading predicts (docs/midi-dax-format.md 1.5a). The note-event buffer a driver receives through its CX/ES install handshake is still UNLOCATED: not in any DAX block, any carved GAME.OVR segment or START.EXE, and a live 1MB RAM dump could not settle it because GameLink exposes no CPU registers. Song decoding remains unresolved. Note the search's null: 55 of 100 random 32-byte RAM windows also map to some on-disk file span, because overlay code is resident verbatim — any future RAM-to-file match must clear that bar, not merely exist.",
+            "ROUND 33 R6 (2026-09-04) SPLIT THE GAP ABOVE IN TWO, and only one half moved. RESOLVED: the CX/ES install handshake itself, previously 'UNLOCATED', is now directly observed. Two live GameLink RAM captures read a nonzero segment at the exact mov [0x0012], cx cell (0x5f39 and 0x6173, differing between snapshots) against a universal on-disk default of 0x0000, which falsifies the alternative that ES lives only in registers with no stored word. STILL UNFOUND, and now as a MEASURED NEGATIVE rather than an unattempted question: the MIDI.DAX music-timeline buffer. Both captured buffers decode cleanly under the format grammar (11,090 events, 0 malformed, clean 0xFC termination each) but BOTH appear verbatim inside Champions of Krynn/SOUND.DAX block 1 -- they are SFX-bank installs through the same generic slot-1 mechanism, not music. No static candidate cleared both its x86-code-alias disqualifier and its score bar either: the paragraph self-reference predicate returned 1 hit in 3 of 4 dumps against a shuffled-dump null of 0, and every survivor was disqualified as ordinary code or scored below the null's own maximum. Two pre-existing measurement bugs were fixed before any of it: a null sampler that drew 938 of an intended 1000 windows, and a case-insensitive-filesystem double-glob that counted every CoK .DAX twice (sources 1,592 -> 814, windows 45,504 -> 25,271) and had corrupted round 32's own top-5 with literal duplicate entries. Also corrected: the round plan's own driver-copy base formula (stub - 0x1b) matches block 3's on-disk bytes at 52/2151 = 2.4%, chance level, while the corrected formula matches 2096/2151 = 97.4% with every mismatch landing on the handshake cell and the AdLib scratch tables. A plan-supplied formula is a hypothesis, not a constant. tools/mididax_song_locate.py, docs/midi-dax-format.md 1.8.",
+            "ROUND 34 R6 (2026-09-04) CORRECTS THE 'MEASURED NEGATIVE' DIRECTLY ABOVE, not just narrows it (docs/engine/research/cok-sound-bank.md): SOUND.DAX block 1 is not merely an SFX bank. Its own header's first word (0x007d = 125, not the round-33 report's manually chosen 128) is a genuine, driver-disassembly-confirmed stream-start pointer -- the SAME 'mov ax, es:[0]; mov [cell], ax' install-time idiom independently confirmed in both MIDI.DAX block 1 and block 3. Segmenting the 13,936-byte stream on control-change markers finds three long, balanced, multi-voice passages (1,141 / 4,801 / 5,132 events, 5 voices each, Note-On/Off balance 0.994-0.999; corpus-wide totals 5,538 Note-On == 5,538 Note-Off exactly) -- the shape of real music, not short one-shot SFX. Three independent live GameLink RAM captures kept from round 33 (no new DOSBox-X session run this round) show the resident AdLib driver's own persisted cursor cell (block 3's 0x340, correcting the block-1-specific 0x2b7 the round-33 doc under-specified as universal) landing inside the largest, 4,801-event segment at two different points in a real session (an 'SSI presents' splash and live demo gameplay), with the cursor value itself advancing between nominally-identical captures -- evidence of a live, advancing playback position, not a frozen artifact. Round 33's 'this is SFX, not a song' verdict answered a different question (is this the MISSING music-timeline buffer) than this round's (does this SAME buffer ALSO hold song-shaped content the driver visits during play) -- the buffer holds BOTH short SFX-shaped fragments and long song-shaped passages. NOT (yet) claimed: that a real 0x388 AdLib OUT instruction fires from this exact code path during these specific captures -- block 3's static AdLib identity (port 0x388) was established in an earlier round from the driver's own disassembly, not re-verified against a live OUT trace this round, so audible hardware output remains inferred from driver identity, not directly observed this round. packages/engine/src/audio/dosSong.ts ports the decoder/segmenter to TypeScript (11/11 tests) but is NOT wired into apps/web/src/audio/gameAudio.ts as of this item (Phase B).",
+            "ROUND 35 R2 (2026-09-05) CORRECTS THE EVENT-FRAMING NUMBERS IN THE PARAGRAPH ABOVE: the event record is THREE bytes (2 data bytes + 1 trailing wait byte for 0x90/0x80 note events, 1 + 1 for 0xC0 program changes), measured from the driver's own code, not one. tools/mididax_event_frame.py derives each MIDI.DAX block's interpreter entry from its own slot-0 stub, disassembles it (capstone) and counts SI advancement per dispatch branch; blocks 1 (C/MS), 3 (AdLib), 4 (Tandy) and 5 (PC speaker) agree exactly, and block 2 (MPU-401) uses MIDI's own widths for 0xB0/0xD0/0xC0 plus the same trailing wait byte. That wait byte is the [0x2BD] per-tick counter (block 1: fetched 0x493, stored 0x4a0; block 3: fetched 0x4d3, stored to [0x346] at 0x4e0). Round 34's directional conclusion is strengthened, not overturned -- only the counts moved: 11,090 -> 3,699 real events (3,700 with the terminal 0xFC marker), 14 -> 7 segments (3 still song-like: 1,601 / 381 / 1,712 events, five voices each), 5,538/5,538 -> 1,846/1,846 Note-On/Note-Off pairs (against a shuffled-column null of 0.540), pitches 36..96, six velocity values, 7,860 ticks of timing. NOT a discriminator between framings: a clean 0xFC end with 0 malformed bytes passes under BOTH the old 1-byte grammar and the corrected 3-byte one, because malformed can only increment when a stream does not open on a status byte, which this one does either way -- so that count was never evidence for either framing and should not be cited as if it discriminated. Still decode-only; no playback, and no CoK tick rate is claimed, so no duration follows from the tick count. The pre-round-35 \"#1 of 814 by >30x\" corpus ranking was measured under the OLD 1-byte framing and has not been re-run under the corrected one. docs/engine/research/cok-sound-bank-framing.md, docs/midi-dax-format.md 1.10."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox save version 2 fully round-trips the verified campaign slice; original CoK save interoperability is narrower and reported separately below.",
+          "gaps": [
+            "There is no complete bidirectional CoK party/quest save-set bridge."
+          ],
+          "import": {
+            "status": "partial",
+            "scope": "The shipping importer reads six statically bundled 409-byte CHRDATA{n}.SAV character records and converts verified character fields into a Greybox party.",
+            "evidence": [
+              "packages/engine/src/loaders/savedCharacter.ts",
+              "packages/engine/test/savedCharacter.test.ts",
+              "apps/web/src/ui/importParty.ts"
+            ],
+            "gaps": [
+              "It is not an arbitrary selected-folder full-save import; unresolved classes/fields are inferred or defaulted; STF/SFX and party/quest state are not imported."
+            ]
+          },
+          "export": {
+            "status": "partial",
+            "scope": "encodeSavedCharacter can overlay verified editable fields onto an existing 409-byte CoK record while preserving every unmodelled byte.",
+            "evidence": [
+              "packages/engine/src/loaders/savedCharacter.ts",
+              "packages/engine/test/savedCharacter.test.ts",
+              "apps/web/test/e2e.mjs"
+            ],
+            "gaps": [
+              "This is an engine/editor record codec, not a Greybox-session exporter; it requires source bytes and cannot write party/quest state or STF/SFX sidecars."
+            ]
+          }
+        },
+        "towns": {
+          "status": "partial",
+          "detail": "The clean route enters ECL1#17's retail town menu, invokes the Commandant service, receives the mission, and leaves through the retail dispatcher.",
+          "gaps": [
+            "The full set of shops, temples, training, mission branches, and every town is not covered by the clean release route."
+          ]
+        },
+        "wilderness": {
+          "status": "partial",
+          "detail": "BIGPIC1#121 and ECL1#16's embedded coordinate tables provide a retail-scripted overland destination selector and NEWECL transition.",
+          "gaps": [
+            "Continuous step-by-step wilderness-map time/distance progression and its encounter cadence are not yet emulated.",
+            "Closed 2026-09-05 (round 35 R5): the CoK Throtl arrival previously mounted without native art in some paths. Measured: 3 distinct block-17 branches (destination menu / courier scene / escort-Sir-Karl) exercised under 4 memory states all emit a picture, non-silently -- id 58 alone, or 58 then 57, depending on arrival memory. openCokThrotlArrival now builds its own DialoguePresentation when the caller has none. packages/engine/test/cokThrotlPaths.test.ts (9 new pins), docs/engine/research/cok-throtl-presentation-paths.md."
+          ]
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "The verified route reproduces the Commandant interaction and retail FIRST MISSION IS TO PATROL THROTL assignment while carrying ECL memory into travel, combat, and save/reload. A separate bounded browser route starts from explicitly seeded prior-campaign state, lets ECL1#16 arm 3 and ECL1#17's normal entry produce the seventh-visit landmark and Outpost flag, then returns through the same travel host and enters ECL2#68 through arm 11 with save/restart/load persistence.",
+          "gaps": [
+            "Continuous wilderness stepping and visit cadence, a fresh-campaign [0x4C5C] setter, and the complete quest graph remain unresolved; the bounded route does not claim those prerequisites."
+          ]
+        },
+        "companion": {
+          "status": "partial",
+          "detail": "Selected-folder Journal, Reference DB, Automap, and Character/party panels are exercised from the live campaign session and coexist with natural combat and persistence.",
+          "gaps": [
+            "Companion databases and journal semantics are not exhaustive for every campaign state."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "death-knights-of-krynn",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "Browser and Electron use the shared Greybox Krynn party, exploration, dialogue, tactical-turn, treasure, and persistence systems throughout the clean DoK route.",
+          "gaps": [
+            "Exhaustive retail spell, item, class, AI, morale, encounter-placement, and combat-rule parity is not claimed."
+          ]
+        },
+        "ecl": {
+          "status": "proven",
+          "detail": "DoK's Gen1 short-frame ECL dialect is byte-decoded; the clean route executes retail ECL1 blocks 16, 36, 17, and 34 with shared global memory, native menus, NEWECL transitions, and combat outcome resume.",
+          "gaps": [
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, restated round 34 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so a clean-EXIT count is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 25 retail blocks: 1 shallow desync block(s), 29 deep desync site(s). ROUND 34 CORRECTION: this line read 72 deep sites until round 34 R1 added ECL opcode 0x41 to the SHARED Gen1 base table at wordSet 2 (packages/engine/src/ecl/opcodes.ts, ECL_OPCODE_MAX 0x40 -> 0x41). That single entry closed 43 of this title's 72 deep desync sites; the residual 29 are a SEPARATE, still-open gap and are not attributed to 0x41. R1 shipped this as UNKNOWN_0x41 with semantics explicitly unclaimed, because EclDump's own SetupCommandTable is dense only over 0x00..0x40, so its silence about 0x41 is a property of EclDump, not of the bytes. THAT IS NO LONGER THE STATE OF THE EVIDENCE. A round 34 follow-up (docs/engine/research/gen1-opcode-41.md) went and read the handlers: all three base-table titles carry their OWN 0x41 dispatch entry -- CoK GAME.OVR 0x4048, DoK 0x2e0e (reproducing the pre-existing build/dok-ecl-dispatch-map.json row byte-for-byte, which checks the tooling), Secret 0x43ff -- located by structural match against the CoAB oracle. Each reads exactly 2 operands from its own `mov al,2; push ax; lcall <parser>` prologue, so wordSet 2 is now confirmed from BINARY GROUND TRUTH and not only from the eight independent derivations that already agreed on it (Gateway, Treasures at GAME.OVR 0x2c40, Pools at 0x240c, Buck, Matrix, DQK Gen2, R1's byte-shape derivation, and now this one). All three handlers share one idiom: read a 0/1 flag and a round word amount, count the ACTIVE party members, divide, and ADD/ADC the share into a 32-bit per-character accumulator (flag=1 walks the party chain, flag=0 hits one target). CoK's walks that chain through CCH +0x17F/+0x181 -- the SAME 'next combatant' far pointer that CoK's already byte-verified post-combat calc_battle_exp uses (docs/engine/research/decompile-ovr006-xp-treasure.md), from an investigation that borrowed nothing from this one. The mnemonic is therefore now GEN1_AWARD_XP. uncertain STAYS TRUE and the reason is specific: no loader or save-format doc in this repo names the accumulator field (CoK +0x116/+0x118) as the canonical experience field, and no oracle certifies the label -- what is proven is the STRUCTURE, not the name. Note also that these handlers DIVIDE where Pools'/Treasures' own 0x41 (POOLS_AWARD_XP / TREASURES_AWARD_XP) MULTIPLIES by 100, so the dialects stay correctly separate. ONE OF R1'S OWN CLAIMS IS CORRECTED HERE: 'the operand is always a multiple of 500' is measured at 98.4% (121/123) on an exhaustive walk of every reached site in all three titles' ECL1-3.DAX, with two genuine CoK exceptions (ECL1.DAX block 32 @0x1cec = 300; ECL2.DAX block 67 @0x1bff = 32633), both in the flag=0 single-target branch. Stratified by the flag -- which R1's sample could not do -- flag=1 is 95/95 = 100%. The null: word-kind operands of every OTHER reached instruction in the same blocks are multiples of 500 just 0.53% of the time (n = 29,954), a ~185x enrichment, so the roundness is a property of THIS argument. Caveat kept: that follow-up's from-scratch walker reproduces walkEclReachable's CoK (33) and Secret (40) counts exactly but finds 50 DoK sites where the engine's numbers imply 43 -- a difference in its simplified control-flow rules, not a disputed fact about the opcode. The engine's pinned counts in eclReachability.test.ts are the authoritative ones. Pinned in packages/engine/test/eclReachability.test.ts; deep counts are SITES and shallow counts are BLOCKS, so the two are not directly subtractable.",
+            "ROUND 35 R1 CORRECTION (2026-09-05): the paragraph above's claim that 'the residual 29 remain a SEPARATE, still-open gap and are not attributed to 0x41' is WRONG. There was no second opcode gap: DoK's residual 29 deep-desync sites were an artifact of running DoK's own ECL under the SHARED ECL_GEN1_SHORT dialect. DoK has its own distinct dialect, ECL_GEN1_SHORT_DOK, decoded in an earlier round but left CRITICALLY SOLVED-BUT-UNWIRED (no app code imported it -- verified: packages/engine/src/index.ts did not export it). Exercised directly (packages/engine/test/eclReachability.test.ts, dokEclDispatchRound35.test.ts), the dialect closes the deep-desync residual to 0 across all 25 retail ECL1-3.DAX blocks (misaligned targets 202 -> 2, reachable bytes 132,423 -> 140,730). Under DoK's own dialect the pre-0x41 reconstruction is 58 of 58 sites first-byte 0x41 (100%, up from 47 of 72 = 65% under the shared dialect), so DoK joins CoK and Secret as a corpus 0x41 fully explains. The block-33/offset-0x51b/first-byte-0x80 site a from-cold VM run reached in an earlier round is also closed by this same fix -- it was DoK's own operand-count drift under the wrong dialect, not a second gap. STILL SOLVED BUT UNWIRED AT THE APP LEVEL as of this measurement (2026-09-05): packages/engine/src/index.ts does not re-export ECL_GEN1_SHORT_DOK, and apps/web/src/ui/explore.ts (openDokTravel, the DoK overland dialogue call, and both DoK VM constructions), apps/web/src/ui/gen1Profiles.ts's DOK_DEMO_PROFILE, and tools/build-dqk-dir.mts still construct DoK's ECL VM under the shared ECL_GEN1_SHORT dialect, not its own -- no gameplay route has exercised the 0-residual reading yet. docs/engine/research/dok-ecl-word-sets.md."
+          ]
+        },
+        "map_container": {
+          "status": "proven",
+          "detail": "Retail DAX, GEO, WALLDEF, and 8X8D/BIGPIC bytes drive legal two-level Gargath movement, the 38x15 overland coordinate layer, Cekos exploration, and the tactical handoff."
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "The selected-folder route renders DoK's retail opening pictures, calibrated native frame/corner/moon layout, BIGPIC1#112 overland art, and switches between DOS-EGA and Amiga wall sources, with full Amiga coverage across all three wall categories.",
+          "gaps": [
+            "RETRACTION (R1, 2026-09-03). This gap previously read that the Amiga single-bank wall-brick reassembly was EXHAUSTED and rejected — 96 hypotheses swept, plus a second blocker that the chunks' own palette is all-zero so no reassembly could be coloured. That was a TOOL BUG, not a property of the data: the sweep read the DOS bank with an 8-byte tile-STRIP parser when DoK's 256-tile banks are a 17-byte tile-ARRAY, so correct Amiga tiles were scored against garbage. With the corrected reader and a colour map derived from boot block 202's own palette, the natural chunk order (id, id+20, id+40, id+60) reproduces the DOS bank at 1786/1792 tiles byte-identical (99.7%), beating the best of the other 23 orders by 127 tiles on series 1 (255 vs 128 — that margin is measured on series 1, not aggregated over all seven) against a 1000-shuffle null of mean 3.37 / max 11. The all-zero-palette observation was true, and broader than reported (all 28 wall chunks carry one), but the inference drawn from it was wrong: the colours live in block 202.",
+            "Scope of that win, stated plainly: this is the SAME art DOS has, read from Amiga bytes. The toggle became truthful for DoK's walls; it did not make them richer. Six tiles (7 pixels, all in tile 255's bottom row) still differ.",
+            "It no longer falls back to DOS-EGA, but not every retail screen, animation, palette edge case, or picture placement is pixel-exact.",
+            "See docs/engine/research/dok-8x8d-amiga-format.md §3 for the corrected numbers, all three nulls, and the superseded original sections kept alongside them."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "Shared step/UI and decoded music/sound paths exist, but audio sequencing is not part of the DoK Verified route gate.",
+          "gaps": [
+            "Full retail MUSIC.DAX/SOUND.DAX playback, timing, and scene-transition parity remain incomplete.",
+            "DOS SOUND.DAX, ROUND 34 PHASE B -- and the provenance matters: round 34 R6's research (docs/engine/research/cok-sound-bank.md) is CHAMPIONS-ONLY and says nothing about this title. An earlier draft of this round's ledger brief asserted a DoK finding on R6's authority; the agent holding this file declined to write it, which was correct. What IS measured here, directly: Death Knights' own SOUND.DAX is BYTE-IDENTICAL to Champions' (sha256 7df3bde460feacf8372e01a282b99691d61dfa0a832f2cfd06ce5f39cd4246a5 on both files, one block, id 1, 14,064 bytes each). Run through the same decoder it therefore produces the same census -- 14 segments, 3 song-like, 11,091 events, clean 0xFC end, 0 malformed -- and the dashboard now shows it (packages/engine/src/game/loadGame.ts, e2e case cok-sound-bank). BECAUSE THE FILES ARE IDENTICAL, THIS IS FILE IDENTITY, NOT A SECOND CONFIRMATION of R6's Champions result: it inherits every one of that result's limits and adds no independent evidence. It is a DECODE census only. Nothing here claims playback, and no DoK-specific driver analysis has been done.",
+            "ROUND 35 R2 (2026-09-05): the census this title inherits by file identity from Champions' SOUND.DAX (see the paragraph above) is corrected the same way -- 7 segments, 3 song-like, 3,700 events (was 14 segments / 11,091 events), because the underlying event-framing correction is about the shared decoder, not about either title's bytes. The \"file identity, not a second independent confirmation\" caveat directly above is unchanged and still governs this entry: this title's own SOUND.DAX is still only byte-identical to Champions', not independently analysed. docs/engine/research/cok-sound-bank-framing.md."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox save version 2 round-trips the verified DoK campaign slice; original DoK binary-save interoperability is narrower and reported separately below.",
+          "gaps": [
+            "There is no complete bidirectional DoK party/quest save-set bridge or retail-executable acceptance proof."
+          ],
+          "import": {
+            "status": "partial",
+            "scope": "The shipping importer reads CHRDATA{n}.GAM/.JNK/.WIZ records by case-insensitive basename from a retained user-selected DoK folder, with no selected-source fallback, while preserving the legacy bundled-asset path when no source is supplied; it converts verified character, armour/shield, and memorized-spell-list fields into a Greybox party.",
+            "evidence": [
+              "packages/engine/src/loaders/dokSavedCharacter.ts",
+              "packages/engine/test/dokSavedCharacter.test.ts",
+              "packages/engine/test/dokSpellCrosswalk.test.ts",
+              "apps/web/src/ui/importDokParty.ts",
+              "packages/engine/test/dokImportAssetSource.test.ts",
+              "apps/electron/test/e2e.mjs"
+            ],
+            "gaps": [
+              "HP/class/level and several combat fields are derived; .EFF and SAVGAMA.PTY are not imported; unique/magic item coverage is incomplete, so this is selected-folder character import rather than full-save interoperability."
+            ]
+          },
+          "export": {
+            "status": "partial",
+            "scope": "Engine primitives synthesize the verified .GAM fields, the Ring/Plate Mail/Shield .JNK subset, and the confirmed .WIZ memorized-spell-list region.",
+            "evidence": [
+              "packages/engine/src/loaders/dokSavedCharacter.ts",
+              "packages/engine/src/items/dokGearCrosswalk.ts",
+              "packages/engine/src/ruleset/addnd1e-dragonlance/dokSpellCrosswalk.ts",
+              "packages/engine/test/dokSavedCharacter.test.ts",
+              "packages/engine/test/dokGearCrosswalk.test.ts",
+              "packages/engine/test/dokSpellCrosswalk.test.ts"
+            ],
+            "gaps": [
+              "These codecs are not wired as a Greybox-session retail exporter; SAVGAMA.PTY, .EFF, .WIZ offsets 74-219, weapons/magic gear, exact class codes, and retail-executable acceptance remain unsupported."
+            ]
+          }
+        },
+        "towns": {
+          "status": "partial",
+          "detail": "The clean route legally traverses both Gargath levels, applies selector 15's native movePositionForward host CALL from (8,7,E) to (9,7,E), returns through the no-move descent, reports to Commander Bertil, and completes Ayn Rampike's patrol handoff.",
+          "gaps": [
+            "Full service, shop, temple, training, duty-branch, and every-town coverage is not claimed."
+          ]
+        },
+        "wilderness": {
+          "detail": "ECL1#17's fifteen embedded 38-byte rows and BIGPIC1#112 provide a live 38x15 overland layer; every move updates retail coordinates and runs the real landmark/random-event dispatcher through Cekos.",
+          "evidence": [
+            "packages/engine/test/dokOverlandPictureSites.test.ts",
+            "apps/web/src/ui/explore.ts",
+            "apps/web/src/ui/dialogue.ts"
+          ],
+          "gaps": [
+            "The full overland campaign, camping/transport UI, every random branch, and retail encounter cadence remain unverified.",
+            "Measured 2026-09-05 (round 35 R5): ECL1#17's per-cell dispatcher emits 0 PICTURE effects across all 570 cells of the 38x15 map under EMPTY area memory with choose(0) at every step (also swept across all 8 backdrop values, 4,560 probes total, same result); the block's initial entry emits exactly picture 112, the id the host already hardcodes and paints. This is a scoped negative, not a general one: the block's own raw bytes contain two further PICTURE immediates the probe never reaches -- id 83 at block offset 4274 and id 85 at block offset 4587 -- and 17 of the 570 cells emit a `chain` whose target blocks were not measured. Not wired this round by design.",
+            "ROUND 36 R5 FOLLOW-UP (2026-09-05): the two PICTURE immediates round 35 R5's scoped negative named but never reached (id 83 at block offset 4274, id 85 at block offset 4587) ARE genuinely reachable, under a gate round 35's fresh-per-cell probe memory could never satisfy. walkEclReachable confirms both offsets decode to PICTURE and are statically reachable from ECL1#17's own header entries. The path condition, read off the disassembly and then run: [0x4cd0]==1 (the only live door into the encounter table -- [0x4cd0] has exactly ONE writer in the whole DoK ECL corpus, ECL3.DAX#98 at block offset 3245, reached via the retail chain ECL1#17 -> ECL3#96 -> ECL3#97 -> ECL3#98) AND [0x4c39]>=3 (the steps-since-last-encounter counter the ECL itself increments and zeroes; round 35's fresh-memory-per-cell probe could never carry it past 1). Swept over 16 memory configurations (the counter 0..7 x the flag {0,1}) x 570 retail cells = 9,120 probes: exactly 5 of 16 configurations fire (flag=1, counter in 3..7), 0 in the other 11, and the (0,0) corner of this grid reproduces round 35's own 0-picture baseline exactly. At a firing configuration: picture 85 is emitted 2 times by the VM and is host-visible 2 of 2 times -- it precedes COMBAT, which pauses the runner and lands it in DialogueTurn.pictureId. Picture 83 is emitted 6 times by the VM and is host-visible 0 of 6 times: it runs on, un-paused, into PICTURE #112 and EXIT inside the SAME effect batch, so the turn's last-wins pictureId reports 112 (the travel backdrop) at all 6 of those sites, never 83. Neither picture is ever painted regardless of that: openDokTravel calls openDialogueAt(runner, first, {title, spawn, onClose, onChain}) with no presentation, so renderPresentation's `if (!state?.presentation ...) return` (apps/web/src/ui/dialogue.ts:281) fires and currentPictureId stays null -- the same round-34 DialoguePresentation bug class as CoK's Throtl arrival (closed, round 35 R5) and Pool of Radiance's regional hosts (still open, see that profile's wilderness gap). It also decodes exactly one retail archive, BIGPIC1.DAX (blocks [112,113]); the actual art for both dropped sites lives elsewhere entirely -- block 83 is the sole block of PIC7.DAX, block 85 is in PIC1.DAX -- so a presentation fix alone would still need those two archives loaded. NOT FIXED THIS ROUND: apps/web belongs to another agent this round, so this is reported as a gap, not claimed as a capability. Pinned by packages/engine/test/dokOverlandPictureSites.test.ts, whose reachability and emission-count assertions were mutation-tested to RED (the site offset, the expected [0x4cd0] writer block/offset, the [0x4cd0] gate itself -- forcing it to 0 across the grid collapses the firing set from 5 to 0 -- picture 83 leaking from the effect batch into the host collector, and the PIC7.DAX block id). A further two-sided disclosure pin naming the missing-presentation defect directly (0 of 8 emissions painted, positive-controlled against the 3-4 of 18 other explore.ts call sites that DO pass a presentation) was being added to the same file concurrently this round (round 36 R7); its exact case count is not restated here since it was still being edited by that agent as this entry was written."
+          ],
+          "status": "partial"
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "The verified route carries Bertil's patrol assignment through Ayn's fourth-wall-pass handoff, overland travel, Cekos, Sivak combat, and save/reload using the exact ECL memory words.",
+          "gaps": [
+            "The broader quest graph and all six campaign-matrix legs retain engine evidence but are not all reproduced as one live browser/Electron campaign."
+          ]
+        },
+        "companion": {
+          "status": "partial",
+          "detail": "The selected-folder Electron route exercises live Journal, Reference DB, Automap, HUD, and Character panels without changing campaign pose, then continues through combat and persistence.",
+          "gaps": [
+            "Companion databases, journal interpretation, and campaign-state annotations are not exhaustive."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "pool-of-radiance",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "The verified slice uses Greybox's shared AD&D party, first-person exploration, dialogue, tactical combat, treasure, carried-item, and version-2 persistence systems.",
+          "gaps": [
+            "Full retail spell, item, class, AI, encounter-placement, economy, and combat-rule parity is not claimed."
+          ]
+        },
+        "ecl": {
+          "status": "proven",
+          "detail": "Retail Pool ECL1 blocks 18 and 24 plus regional ECL7 block 26 are byte-decoded and execute the ORC LEADER treasure, eight-way regional transition, Temple FIND_ITEM gate, combat outcome, and resume from a selected folder.",
+          "gaps": [
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so every clean-EXIT count this project has ever published is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 29 retail blocks: 1 shallow desync block(s), 1 deep desync site(s). Deep and shallow agree here (1 each), which is a result and not a default -- 6 of the 11 Gen1 titles disagree. Pinned in packages/engine/test/eclReachability.test.ts; the deep counts are SITES and the shallow counts are BLOCKS, so the two are not directly subtractable."
+          ]
+        },
+        "map_container": {
+          "status": "proven",
+          "detail": "The selected-folder DAX, GEO, WALLDEF, 8X8D, monster, and item archives drive legal Slums and Temple movement, regional collision, tactical handoff, and the carried Holy Symbol record."
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "The selected-folder route renders Pool's calibrated DOS-EGA dungeon source; release acceptance explicitly confirms that no unverified alternate graphics mode is exposed.",
+          "gaps": [
+            "The exact 88x88 DrawAreaMap viewport is live, but its surrounding native 320x200 chrome/text cadence is not recovered; no alternate retail art source is calibrated, and broad screen, animation, palette, and compositor parity is not claimed."
+          ]
+        },
+        "audio": {
+          "status": "structurally-absent",
+          "detail": "The audited Pool DOS and Amiga corpora contain no audio-bearing retail files; shared Greybox UI and step sounds are therefore not presented as retail Pool audio.",
+          "gaps": [
+            "This proven file-level absence does not claim that shared Greybox sounds reproduce undocumented platform or host-generated behavior."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox save version 2 round-trips the verified cross-block Holy Symbol slice, including area, pose, regional words, party inventory, and ECL memory; original Pool save interoperability is outside this contract.",
+          "gaps": [
+            "There is no complete bidirectional Pool party/quest save-set bridge or retail-executable acceptance proof."
+          ],
+          "import": {
+            "status": "unsupported",
+            "scope": "No selected-folder Pool retail party or campaign-save importer is shipped.",
+            "evidence": [
+              "docs/engine/research/pool-verified-release-contract.md"
+            ],
+            "gaps": [
+              "Pool character, party, quest, and sidecar save structures have not been mapped into a shipping importer."
+            ]
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-Pool retail save exporter is shipped.",
+            "evidence": [
+              "docs/engine/research/pool-verified-release-contract.md"
+            ],
+            "gaps": [
+              "No retail-compatible Pool party, quest, or sidecar encoder and no retail-executable acceptance proof exist."
+            ]
+          }
+        },
+        "towns": {
+          "status": "partial",
+          "detail": "The release evidence includes New Phlan's GEO-backed Slums ward, the Temple of Ilmater service, and the Temple of Bane Holy Symbol gate.",
+          "gaps": [
+            "Every district, shop, temple, training branch, civic service, and town state is not covered by the release slice."
+          ]
+        },
+        "wilderness": {
+          "status": "partial",
+          "detail": "The verified route executes ECL1#18's regional handoff and the real eight-direction candidate/search loop; the hosted ECL6#25, ECL7#26, and ECL8#27 strip crosses all four directed seams, renders the exact 88x88 DrawAreaMap viewport, and can launch the deterministically step-seeded MON7 Bandit encounter.",
+          "gaps": [
+            "The visible entry control substitutes for an unbound upstream native selector; native regional RNG algorithm/state/continuity/cadence/probability, the surrounding native screen chrome, retail overland-combat terrain, and broader regional coverage remain unrecovered.",
+            "Measured 2026-09-05 (round 35 R5): the regional hosts open their dialogues with no DialoguePresentation, so five real picture ids the retail scripts do emit are dropped -- ECL6#25 (10,9) picture 32, ECL7#26 (12,11) picture 30 and (6,14) picture 36, ECL8#27 (11,8) picture 24 and (6,15) picture 27, each resolving in that sector's own PIC6/7/8 archive. vm_run_1 movement emits none across 6,144 probes. Not wired this round by design."
+          ]
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "One continuous selected-folder route acquires ITEM1#22's type-74 Leather Holy Symbol from the ORC LEADER, carries it across ECL7#26 into ECL1#24, and satisfies the Temple of Bane FIND_ITEM gate; the no-item eight-ORC branch is also browser-proven.",
+          "gaps": [
+            "The wider Pool quest graph and every quest-item producer/consumer chain are not reproduced as one live campaign."
+          ]
+        },
+        "companion": {
+          "status": "partial",
+          "detail": "The selected-folder Electron route opens populated Journal, Reference DB, Automap, HUD, and Character panels without changing the Pool campaign pose, then continues through the quest and save/load.",
+          "gaps": [
+            "Companion database coverage, journal semantics, and campaign-state annotations are not exhaustive for Pool."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "curse-of-the-azure-bonds",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "The verified slice uses Greybox's shared AD&D party, first-person exploration, dialogue, tactical combat, treasure, and version-2 persistence systems.",
+          "gaps": [
+            "Full retail spell, item, class, AI, encounter-placement, economy, and combat-rule parity is not claimed."
+          ]
+        },
+        "ecl": {
+          "status": "proven",
+          "detail": "Retail CoAB ECL4 block 37 is byte-decoded and executes the GEO descriptor-148 Medusa/Griffon encounter, combat outcome, consumed-memory write, and resume from a selected folder.",
+          "gaps": [
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so every clean-EXIT count this project has ever published is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 25 retail blocks: 0 shallow desync block(s), 0 deep desync site(s). Deep and shallow agree here (0 each), which is a result and not a default -- 6 of the 11 Gen1 titles disagree. Pinned in packages/engine/test/eclReachability.test.ts; the deep counts are SITES and the shallow counts are BLOCKS, so the two are not directly subtractable."
+          ]
+        },
+        "map_container": {
+          "status": "proven",
+          "detail": "The selected-folder ECL4, GEO4, WALLDEF4, 8X8D4, and MON4 archives drive the legal area-37 walk, dungeon rendering, and tactical handoff."
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "The selected-folder route renders CoAB's calibrated DOS-EGA dungeon source and explicitly exposes no unverified alternate graphics switch.",
+          "gaps": [
+            "No alternate CoAB art source is calibrated, and broad screen, animation, palette, picture-placement, and compositor parity is not claimed."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "Shared Greybox step and UI audio paths exist, but retail CoAB music and sound sequencing are not part of the Verified route gate.",
+          "gaps": [
+            "Retail song/effect decoding, selection, timing, and scene-transition parity remain incomplete."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox save version 2 round-trips the verified CoAB area, pose, clock, party, and consumed ECL memory; original CoAB save interoperability is outside this contract.",
+          "gaps": [
+            "There is no complete bidirectional CoAB party/quest save-set bridge or retail-executable acceptance proof."
+          ],
+          "import": {
+            "status": "partial",
+            "scope": "?import=coab reads all six real SAVE/CHRDATA{1..6}.SAV pregens byte-faithfully (name, abilities including the raw str00 percentile, race/class bytes, ClassLevel[8], hp, thac0) and builds a playable party. The offset oracle — agreement between the class byte and the ClassLevel[8] array — accepts 6/6 at the true offset and 0/6 at one byte either side.",
+            "evidence": [
+              "packages/engine/src/loaders/coabSavedCharacter.ts",
+              "packages/engine/test/coabSavedCharacter.test.ts",
+              "apps/web/src/ui/importCoabParty.ts",
+              "docs/engine/research/original-save-import-export-status.md"
+            ],
+            "gaps": [
+              "Only the six CHRDATA pregens are read: no quest, sidecar, or campaign-progress import.",
+              "Class and race are TRANSLATED onto this engine's single Dragonlance ruleset, not carried 1:1 — paladins fold into fighters, dwarf and elf take one fixed variant each. Every substitution is listed per hero in the import panel rather than smoothed over.",
+              "Spells known and equipment are not decoded.",
+              "The layout does not generalise: the same offsets accept 1/6 of Secret of the Silver Blades' 439-byte records, 0/6 of Pools' 510-byte and 0/8 of Treasures'. That cross-title null is now a STANDING TEST (packages/engine/test/coabSavedCharacter.test.ts's 'cross-title null' describe block, one skipIf case per title), so it goes red if any of the four counts drift, matching the shifted-offset oracle's own coverage. Round 29 also found the raw sweep is swamped by degenerate matches — byte 0 is a valid cleric code, so any constant-zero window trivially agrees — and requiring the class byte to vary collapses Curse to exactly its two known real offsets, which is what makes the cross-title zeros meaningful. Secret's own class/level offsets were located separately at 0x6c/0x111 and are NOT a single contiguous insertion relative to Curse's 0x75/0x109 (the class byte moves 9 bytes earlier, the level array 8 later; only the 17-byte gap growth matches the record-size delta) — docs/engine/research/secret-chrdata-layout.md. Round 30 built that importer (?import=secret, packages/engine/src/loaders/secretSavedCharacter.ts): it imports 5 of the 6 pregens, and the sixth is refused for a located reason rather than a mystery — Secret's race byte reads 6, which is not a value in Curse's Race enum, so the race defaults to human and this ruleset's non-humans-only multi-class rule rejects MALACHITE, the party's only fighter/thief. Round 30 also corrected the closing claim below. Pools' and Treasures' 510-byte layouts are no longer 'unknown (0 discriminating pairs each)': that 0 was a THRESHOLD ARTEFACT. Full n-of-n agreement is indeed still 0 for both, but at the same two-field oracle Curse's own loader rests on, class byte 0xae + ClassLevel[8] window 0x151 scores 5/6 on Pools and 7/8 on Treasures — one miss each — and that clears a shuffled null built for the honest alternative (how high can ANY pair score by chance) rather than the null that only ever restates the 0. The two misses (Pools' ABAGAIL, Treasures' OUGO) are reported as misses, not resolved, because each is the sole example of its own anomaly and no predicate built from n=1 can be checked against a null without circularity — docs/engine/research/pools-treasures-chrdata-layout.md."
+            ]
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-CoAB retail save exporter is shipped.",
+            "evidence": [
+              "docs/engine/research/coab-verified-release-contract.md"
+            ],
+            "gaps": [
+              "No retail-compatible CoAB party, quest, or sidecar encoder and no retail-executable acceptance proof exist."
+            ]
+          }
+        },
+        "towns": {
+          "status": "partial",
+          "detail": "Campaign evidence includes the authentic BIGPIC1#121 regional selector, ECL5#49/GEO5#50 DUNGCOM-backed village, Dark Elf Patrol, save/reload, and exact return to the city cursor/menu.",
+          "gaps": [
+            "This village is not a distinct Town engine mode, and every city, shop, temple, training branch, service, and town state is not covered by the release slice."
+          ]
+        },
+        "wilderness": {
+          "status": "partial",
+          "detail": "CoAB's regional BIGPIC selector, 56 directed edges, cursor cadence, and cross-archive city dispatch/return are source-backed and browser-proven.",
+          "gaps": [
+            "The regional picture remains a route-owned menu/cursor surface rather than a global picker or free-walk map; broader travel branches and encounter cadence are incomplete."
+          ]
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "A real-byte engine golden proves ECL2#3's Tilverton help flag is read by distinct-archive ECL6#64 to produce the temple-diversion consequence.",
+          "gaps": [
+            "The Tilverton-to-temple dependency is not a continuous selected-folder browser journey, and the wider quest graph is incomplete."
+          ]
+        },
+        "companion": {
+          "status": "partial",
+          "detail": "The selected-folder Electron route opens populated Journal, Reference DB, Automap, HUD, and Character panels without changing the CoAB campaign pose, then continues through combat and persistence.",
+          "gaps": [
+            "Companion database coverage, journal semantics, and campaign-state annotations are not exhaustive for CoAB."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "treasures-of-the-savage-frontier",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "The selected-folder route uses Greybox's shared AD&D party, exploration, dialogue, tactical-combat, treasure, and persistence systems together with Treasures' title-scoped 510-byte monster records and compact carried-item expansion.",
+          "gaps": [
+            "Full retail spell, item, class, AI, encounter-placement, economy, visible full-roster, and AD&D 2e combat-rule parity is not claimed."
+          ]
+        },
+        "ecl": {
+          "status": "proven",
+          "detail": "Treasures' title-specific short ECL dialect is byte-decoded for ECL1#34: both full monster requests, tactical continuations, rescued-miners narration, terminal writes [0x022D]=1 and [0x0232]=1, and the consumed revisit are engine-verified. UPDATED 2026-09-04 (round 33 Phase B): two Treasures-only operand frames that had been measured and withheld are now SHIPPED, and both changed what the engine plays. 0x27 TREASURE is wordSet 4 / countAt 3, transcribed from Treasures' own GAME.OVR handler at file 0x1afd -- retail block ECL1#47 carries an explicit 1..8 count ladder, which treasuresEndingRoute.test.ts's test C had been proving against a test-local dialect all along. 0x37 is wordSet 2, the two-operand party-name lookup, from Treasures' own handler at file 0x2577, dispatched by a straight-line cmp al,0x37 / call 0x2577 pair at 0x33c1 that shares no target with either neighbour -- which falsifies round 32's 'fallthrough-merge misattribution' doubt directly from the dispatcher bytes. Round 32 had bisected 0x37 and called it falsified, but that bisection toggled 0x37 while holding 0x27 at its OWN wrong base frame, so it was never a single-variable test. With both shipped, Treasures' campaign-ending script (block 38) plays end to end under the SHIPPED dialect -- full retail narration through 'IT HAS, INDEED, BEEN GLORIOUS!', the terminal memory writes and the NEWECL #51 chain -- where it previously died on a bad opcode at 0xA1B6.",
+          "gaps": [
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so every clean-EXIT count this project has ever published is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 30 retail blocks: 0 shallow desync block(s), 0 deep desync site(s). Deep and shallow agree here (0 each), which is a result and not a default -- 6 of the 11 Gen1 titles disagree. Pinned in packages/engine/test/eclReachability.test.ts; the deep counts are SITES and the shallow counts are BLOCKS, so the two are not directly subtractable.",
+            "TWO PINS THAT LOOKED LIKE ORACLES AND WERE NOT, recorded because the shape will recur. treasuresQuestFlag.test.ts pinned status === 'halted' and its own comment named the cause as 'the disclosed Sec.8.4.2 TREASURE/bad-opcode gap at 0xA1B6' -- halted carries haltReason 'bad opcode at <pc>', so the assertion was pinning the defect BY NAME. The Pools route goldens were generated by the very VM whose opcode table was under test, which poolsMiddleRoute.test.ts's header discloses in as many words. A golden produced by the code under test cannot adjudicate that code. Four route assertions were regenerated rather than obeyed; the shipped frames were mutation-tested (removing 0x27 turns 12 tests red while a mirror test reconstructing the legacy flat frame stays green).",
+            "A MNEMONIC-PLUMBING TRAP that reproduces round 32's crash signature exactly, recorded so it is not read as a third falsification: vm.ts's case 0x37 selects the two-operand lookup by MNEMONIC, not by word set. Shipping 0x37 with a name vm.ts did not know sent the instruction down the inherited three-operand loadPieces path, which read an operand the frame never decoded and threw 'Cannot read properties of undefined (reading code)' in EclVm.rvalue -- round 32's literal error text, from a plumbing bug rather than a wrong frame. vm.ts now matches a set (FIND_CHARACTER_MNEMONICS) so Pools and Treasures each keep their own label; eclGen1DispatchRound32.test.ts pins that."
+          ]
+        },
+        "map_container": {
+          "status": "proven",
+          "detail": "A retained selected-folder AssetSource supplies ECL1, GEO1, WALLDEF1, 8X8D0/1, MON1CHA/SPC/ITM, and ITEM0 archives for legal area-34 movement and combat. CORRECTED 2026-08-08: the earlier claim that Treasures' ECL corpus contains no LOAD_PIECES instruction was our decoder's, not the game's. Treasures carries its own combined loader 0x42 LOAD_AREA_PIECES, and 19 of ECL1's 30 blocks supply a real WALLDEF1 piece triple through it (block 16 = 9/10/11). The source-backed wall fallback [1,255,255] is still needed for the 9 blocks that load through plain 0x21 LOAD_FILES."
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "The selected-folder route renders Treasures' source-specific VGA wall palette and split 8X8D wall/frame banks; release acceptance explicitly confirms that no unverified alternate graphics mode is exposed.",
+          "gaps": [
+            "No Amiga wall-art toggle, and this is now a MEASURED rejection rather than an untried one (2026-08-09): the Amiga WallDef.glb shipped with Treasures is byte-identical to Gateway's across all 12 shared ids — the Savage Frontier duology's shared/stale file — while Treasures' own DOS walldefs are a different 2340-byte format indexing VGA-extended tile ids. The thirds hypothesis (2340 = 3 x 780) was tested and refuted. Mounting that Amiga art over Treasures geometry would render plausible-looking wrong walls, so the toggle is deliberately not offered.",
+            "Native 320x200 screen composition, broad picture and animation coverage, exact palette timing, and pixel-level compositor parity remain incomplete."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "Shared Greybox UI, step, and tactical audio hooks exist, but retail Treasures audio is not part of the selected-folder release contract.",
+          "gaps": [
+            "ZOUNDS.DAX decoding, title-specific music and sound mapping, sequencing, timing, and scene-transition playback remain unverified."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox save version 2 round-trips the exact Treasures area, pose, clock, party, inventory, and ECL memory after both Yeti waves; this is not original-DOS save interoperability.",
+          "gaps": [
+            "There is no complete bidirectional Treasures party or campaign-save bridge and no retail-executable save acceptance proof."
+          ],
+          "import": {
+            "evidence": [
+              "docs/engine/research/treasures-natural-route.md",
+              "apps/web/test/e2e.mjs",
+              "docs/engine/research/pools-treasures-race-table.md",
+              "apps/web/src/ui/importPoolsTreasuresParty.ts",
+              "packages/engine/src/loaders/poolsTreasuresSavedCharacter.ts",
+              "tools/test_round36_r6_roster_ledger.py"
+            ],
+            "gaps": [
+              "ROSTER OUTCOME OF ?import=treasures, ADDED 2026-09-05 (round 36 R6). THIS IS AN ADDITION, NOT A CORRECTION, and establishing which it is was this task's own null: measured on the pre-edit file, this profile contained 0 occurrences each of OUGO, CHERROD, SMOKE, 'pregen' and 'party cap' and made no roster claim at all. The ledger was SILENT here, not wrong -- an addition dressed as a correction would have hidden that the measurement and the pin existed while the ledger entry did not. MEASURED OUTCOME, denominator 8 (every retail SAVE/CHRDATA{1..8}.SAV): 6 join in file order -- MAXWELL, TRISTLE, MELLIA, CHERROD, SPARKLE, FRAZZLE -- with 0 rule-rejections and exactly 2 rejections by the shared six-hero party cap, OUGO and SMOKE in that order. WHAT MOVED (round 35 R4): under Treasures' OWN compiled race table at unpacked GAME.EXE 0xD454 (stride 9, 7 entries, Elf/Half-Elf/Dwarf/Gnome/Halfling/Human/Monster; fencepost null 7 of 7 plausible short PStrings at the real base against 0 at all 16 bases shifted by +/-1..8), CHERROD's race byte 0x01 at record offset 0xad reads Half-Elf, so her fighter 3 / magic-user 3 / thief 4 multi-class (class byte 0x0f, classLevel[8]@0x151 = [0,0,3,0,0,3,4,0]) is legal and she takes the sixth slot. The retired borrowed CoAB enum read that same byte as a mountainDwarf and rejected her outright, which is the only reason OUGO used to fall through into the party. The 0-based reading of the race byte is argued by consequence, indexing instruction not located -- imul r16, imm8 has zero hits in these 8086-targeted builds -- and is NOT to be upgraded to 'proven'. Every byte quoted in this bullet and the next was re-read first-hand from the retail GOG install on 2026-09-05 rather than carried over from the round-35 memo. DERIVATION OF THE RULE-REJECTION COUNT, recorded 2026-09-05 because the figure was weaker than it looked when first written: round 36 R6 INHERITED the 0 from browser e2e case import-treasures and disclosed that it could not re-derive it in Python, and the pin asserts only that this string is present. It has since been reproduced independently twice against the retail bytes -- once by this round's adversarial verifier and once while correcting the falsified comment at apps/web/src/ui/main.ts -- both replaying the legality path under each title's OWN race table, both returning 0 rule-rejections, with BINKY and CHERROD joining and OUGO and SMOKE cut by the cap. So the number is corroborated -- but note WHAT is pinned: the e2e case and the Python replays share the same race-table premise, so they are not independent OF that premise. If it is ever overturned, this figure moves with it.",
+              "DISCLOSED DATA CONFLICT, CARRIED NOT RESOLVED (added 2026-09-05, round 36 R6) -- OUGO disagrees WITH HERSELF, and the party-cap rejection above must not be read as burying that. In SAVE/CHRDATA7.SAV her class byte at record offset 0xae is 0x02 = fighter, while her own classLevel[8] window at 0x151 reads [8,0,0,0,0,0,0,0]: the single nonzero slot is index 0, which in this record's own slot order (cleric/druid/fighter/paladin/ranger/magic_user/thief/monk) is CLERIC, level 8. Her bytes are unchanged by round 35 R4 -- only her position relative to the cap changed. She is the one record of Treasures' eight that fails the class/classLevel agreement oracle (7 of 8 agree; Pools' ABAGAIL is the equivalent 5-of-6 miss, see that profile). Nothing translates the conflict away: the importer always builds the sheet from the level array, never from the class byte, and shows the class byte raw behind a bold 'class byte and level array disagree -- shown raw, not translated' badge. Because CHERROD now fills the sixth slot, OUGO is cut by the cap rather than joining, which would have removed her row -- and that badge -- from the shown summary entirely; the disclosure is instead carried by PoolsTreasuresImportResult.rejectedPartyFullDisagreements and re-rendered as the identical badge in the rejected list. Pinned two-sidedly by e2e case import-treasures (the rejected list must be exactly OUGO,SMOKE AND the rendered .import-rejected row for OUGO must still match /disagree/) and by tools/test_round36_r6_roster_ledger.py, which re-derives these byte facts from the retail records and fails if this bullet and the ledger stop agreeing with them.",
+              "Party, quest, and sidecar save structures are unmapped; the per-character CHRDATA record IS decoded and imported (see docs/engine/research/pools-treasures-race-table.md), and its race byte is now translated from this title's own compiled table (GAME.EXE 0xD454) rather than a borrowed enum (round 35 R4)."
+            ],
+            "scope": "No selected-folder Treasures retail party or campaign-save importer is shipped, and no quest, sidecar or campaign-save import of any kind. A BUNDLED URL ROUTE DOES SHIP, so this status must not be read as 'nothing imports': ?import=treasures (apps/web/src/ui/importPoolsTreasuresParty.ts, armed from apps/web/src/ui/main.ts) reads the eight retail SAVE/CHRDATA{1..8}.SAV pregens through the shared 510-byte POOLS_TREASURES_SAVED_CHARACTER_LAYOUT and builds a playable six-hero party. The measured roster outcome and the one disclosed data conflict in it are the two bullets below.",
+            "status": "unsupported"
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-Treasures retail save exporter is shipped.",
+            "evidence": [
+              "docs/engine/research/treasures-natural-route.md",
+              "apps/web/test/e2e.mjs"
+            ],
+            "gaps": [
+              "No retail-compatible Treasures party, quest, or sidecar encoder and no retail-executable acceptance proof exist."
+            ]
+          }
+        },
+        "towns": {
+          "status": "partial",
+          "detail": "The ?explore=treasures-town route mounts Llorkh (ECL1/GEO1 block 16, the area retail opens in) and walks its own 56-cell service route: every cell asserted at its step, the armoury, training hall, temple and inn prompts answered through the live host, and each accepted service's retail host word read back from area memory ([0x0004]=1, [0x0028]=16, [0x0030]=127, [0x00c8]=1) with the declined temple's [0x0014]=0 as the negative control. Block 16 was unmountable until Treasures' own combined area loader 0x42 LOAD_AREA_PIECES was decoded; 19 of ECL1's 30 blocks load through it.",
+          "evidence": [
+            "docs/engine/research/treasures-town-route.md",
+            "packages/engine/test/treasuresTownRoute.test.ts",
+            "packages/engine/test/treasuresLoadArea42.test.ts",
+            "apps/web/test/e2e.mjs"
+          ],
+          "gaps": [
+            "One town of the 21 byte-identified settlement blocks is routed; the other 20 are identified but unwalked.",
+            "Town ENTRY and EXIT are not wired: the route mounts block 16 directly at its byte-derived overland arrival pose rather than crossing into it from the wilderness.",
+            "Shop stock is never surfaced: PROTECTION (0x3C) is a VM no-op and its operand-to-inventory mapping is UNLOCATED, so the armoury proves the prompt and the host flags, not a purchase.",
+            "The NPC reaction menu (HAUGHTY/SLY/NICE/MEEK/ABUSIVE) reached from several service answers is not modelled; the route closes it.",
+            "The declined tavern encounter's monsters carry into the next combat under this engine's global-roster model; that behaviour is asserted but not verified against a retail DOS trace."
+          ]
+        },
+        "wilderness": {
+          "status": "unsupported",
+          "detail": "The current Treasures routes are fixed GEO dungeon routes and do not mount a title-specific overland travel controller.",
+          "gaps": [
+            "Retail wilderness movement, transitions, encounter cadence, RNG continuity, and persistence are not implemented."
+          ]
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "The area-34 route wins both retail-scripted battles, displays the rescued-miners result, writes [0x022D]/[0x0232], and proves the completed room remains silent after reload.",
+          "gaps": [
+            "The wider quest graph, campaign choices, cross-area dependencies, and ending state are not covered."
+          ]
+        },
+        "companion": {
+          "status": "partial",
+          "detail": "The selected-folder Electron route opens populated Journal, Reference DB, Automap, HUD, and Character panels without changing the mounted Treasures pose.",
+          "gaps": [
+            "Companion databases, journal semantics, and campaign-state annotations are not exhaustive for Treasures."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "gateway-to-the-savage-frontier",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "Gateway runs on Greybox's shared AD&D party, first-person exploration, dialogue, tactical combat, treasure, and version-2 persistence systems, plus this title's own NPC-companion handling (roster order and the companion-gated wilderness exit are exercised by dedicated browser acceptances).",
+          "gaps": [
+            "Exhaustive retail spell, item, class, XP-table, monster-AI, and combat-rule parity is not claimed.",
+            "Savage Frontier NPC join/leave rules are covered only where a routed leg exercises them."
+          ]
+        },
+        "ecl": {
+          "status": "proven",
+          "detail": "Gateway has its own byte-justified dialect ECL_GEN1_SHORT_GATEWAY (headerLen 22, vbase 0x7FFE, short 0x1D/0x22/0x2C, but the LONG 3-operand 0x0C SETUP_MONSTER frame — 237 of 238 reachable sites decode cleanly only under 3 operands, which is what splits it from the DoK/Treasures/PoD sibling). Blocks from all five ECL archives execute against retail bytes: ECL2#1 (Yartar start), ECL4#12 (shipwreck island), ECL5#19 (Sundabar), ECL6#20 (Ascore ending), ECL6#21 (overland), and the cross-archive ECL3#5 -> ECL2#1/#4, ECL3#14 quest-flag dependency.",
+          "gaps": [
+            "Coverage is of REACHABLE code on the routed blocks; the archives' unreached arms are decoded but unexecuted.",
+            "The RANDOM (0x08) inclusive-maximum host quirk is byte-proven from GAME.OVR, and as of 2026-09-03 Gateway's full opcode dispatch IS mapped from its own retail bytes: dispatcher 0.9880 at 0x43f3 (runner-up null 0.3419, same-length non-dispatcher null 0.2994), operand parser 0.9917 at 0x9471, 65 handlers (docs/engine/research/gateway-ecl-dispatch-map.md). Six word sets were corrected against the binary (0x1D/0x22/0x2C/0x32/0x40/0x41); five are corpus-null and 0x41 fixes a real desync at ECL5.DAX#99@0x428. Remaining: 6 desyncs where the binary contradicts BOTH the shipped dialect and the plain-Gen1 alternative — these sit in the 'free' partition, which a shipped-vs-alternative comparison structurally cannot see, and 31 of the opcodes stay vacuous because the binary yields no count.",
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so every clean-EXIT count this project has ever published is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 26 retail blocks: 0 shallow desync block(s), 0 deep desync site(s). Deep and shallow agree here (0 each), which is a result and not a default -- 6 of the 11 Gen1 titles disagree. Pinned in packages/engine/test/eclReachability.test.ts; the deep counts are SITES and the shallow counts are BLOCKS, so the two are not directly subtractable."
+          ]
+        },
+        "map_container": {
+          "status": "partial",
+          "detail": "The selected-folder source drives numbered DAX banks (ECL/GEO/WALLDEF/8X8D/MON*/ITEM per disk) plus Gateway's shared WALLDEF.DAX/8X8D.DAX and its block-201 font / block-202 frame out of 8X8D1, for legal movement on ECL5/GEO5#19 and the ECL6#21 overland map with all six dynamic GEO selectors and their banks.",
+          "gaps": [
+            "No repacking or write-side support for Gateway's archives is claimed."
+          ]
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "Gateway's VGA picture family (TITLE, BIGPIC1, BODY, CPIC2..6) is decoded as 17-byte header + 33-byte prefix + five one-bit planes, LSB plane first — a layout corrected against a native CPIC/RAM oracle after an earlier same-byte-count reading was refuted. The intro renders five non-blank retail frames and the wilderness uses the same planar5 compositor over Gateway's recovered 50x25 WILDCOM/RANDCOM floor. EXTENDED 2026-08-09: Gateway is the second GLIB/DataLib-era title with a live in-dungeon DOS-EGA<->Amiga wall-art toggle (?explore=gateway-amiga, ECL2/GEO2 block 2), source-verified rather than approximated — 13 of the Amiga WallDef.glb records are BYTE-IDENTICAL to the DOS WALLDEF blocks of the same id (780 bytes each), tile alignment is shift 0, and the Amiga bank 3 is a complete redraw of every painted wall tile in GEO2#2 with zero padding/painted disagreements. The 5-plane Walls.tlb master carries no colour table, so the palette comes from DiskA/Always.tlb.",
+          "gaps": [
+            "The toggle is area-scoped, not title-wide: 25 of the 26 paired Amiga banks are slot-for-slot stand-ins but block 15 carries real art in slots 186-189 that the DOS bank pads flat, and ECL5#19's LOAD_PIECES (7,15,30) mounts it, so the bankSwapParity guard keeps the Sundabar campaign areas on DOS art.",
+            "Default tactical-combat chrome is a presentation gap rather than retail composition.",
+            "Native 320x200 screen composition, broad picture/animation coverage, and palette timing parity remain incomplete."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "Shared Greybox UI, step, and tactical audio hooks are available to Gateway's routes.",
+          "gaps": [
+            "No Gateway retail music or sound-effect archive is decoded, mapped, or sequenced, and none is part of any Gateway acceptance."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox save version 2 round-trips Gateway's routed state — area, pose, clock, party, and ECL memory — including the wilderness controller's own dedicated save/reload, and the Sundabar route's consumed word [0x4C6C] survives it. This is Greybox persistence, not original-DOS save interoperability.",
+          "gaps": [
+            "No Greybox reader or writer for Gateway's own SAVGAM/CHRDAT sidecar format exists."
+          ],
+          "import": {
+            "status": "unsupported",
+            "scope": "No selected-folder importer for Gateway retail party or campaign saves is shipped. A native GameLink session did produce and re-load a genuine 13,149-byte SAVGAMA.DAT (hash/offset manifest committed as gateway-sundabar-native-evidence.json, retail bytes not redistributed), which shows the format is reachable — not that Greybox reads it.",
+            "evidence": [
+              "docs/engine/research/gateway-save-acquisition.md",
+              "docs/engine/research/gateway-sundabar-native-evidence.json"
+            ],
+            "gaps": [
+              "Gateway character, party, quest, and sidecar save structures are not mapped into a shipping importer."
+            ]
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-Gateway retail save exporter is shipped.",
+            "evidence": [
+              "docs/engine/research/gateway-save-acquisition.md",
+              "apps/web/test/e2e.mjs"
+            ],
+            "gaps": [
+              "No retail-compatible Gateway party or campaign-save encoder and no retail-executable acceptance proof exist."
+            ]
+          }
+        },
+        "towns": {
+          "status": "partial",
+          "detail": "Sundabar is a real GEO-backed town map (GEO5.DAX#19, 16x16, shops at descriptors 6/10, the Auld Macdon tavern at 18, city gates) and is mounted by two browser routes: ?explore=gateway at the natively-captured (15,2,W) arrival pose, and ?explore=gateway-natural at the (0,10,E) west gate the block's own initial_entry writes for the wilderness-arrival branch. Both walk retail GEO to descriptor 18's WHAT'LL IT BE? / FIGHT / LEAVE encounter and on to descriptor 122's one-shot Griffon ambush, whose consumed word [0x4C6C] is written before the fight and survives save/reload.",
+          "gaps": [
+            "One town of Gateway's several is routed; the shops at descriptors 6/10 are identified but never entered.",
+            "Town ENTRY and EXIT are not wired live: the routes mount block 19 directly rather than crossing in from ECL6#21's ENTER SUNDABAR? NEWECL.",
+            "No town-level economy, training, or temple flow is exercised."
+          ]
+        },
+        "wilderness": {
+          "status": "partial",
+          "detail": "ECL6.DAX#21 is mounted as an interactive overland layer from its authentic GEO24 checkpoint: all six dynamic GEO selectors and their 8X8D banks, boundary remounts, the recovered ovr012 current_city consumer and three procedural floor passes, retail wandering combat over the rebuilt 50x25 WILDCOM/RANDCOM floor with source placement and cloud/downed tile lifecycle, prompt pause/resume, a dedicated wilderness save/reload, companion roster order, and the boat-abandon and companion-gated exit branches. Six browser acceptances cover it.",
+          "gaps": [
+            "Native RNG continuity is not claimed; encounter cadence is engine-modelled, not correlated to a retail trace.",
+            "The ECL2#1 entrance into ECL6#21 has no direct native evidence.",
+            "A fixed-map mapPos-floorOrigin placement delta is unrecovered, so the combat-floor contract stays scoped to the wandering-encounter context.",
+            "The native campaign capture corroborating flee/failed-flee is visual only — its gameplay file log is boot-only, so it is not promoted as a file-I/O- or RAM-correlated runtime trace."
+          ]
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "The cross-archive quest flag [0x4C21] ('Amanitas rescued') is proven engine-level from static retail bytes: written by exactly one instruction in the whole five-archive corpus (ECL3.DAX#5, Everlund) and read by ECL2.DAX#1, ECL2.DAX#4 and ECL3.DAX#14, with the consumers' available content demonstrably changing. A browser route (?explore=gateway-quest) now walks both arms: winning the Amanitas-rescue combat sets the flag and hands the party from Everlund to Yartar's (11,0,south) re-entry spawn, where a six-KRAKEN-SPY ambush is waiting; the negative control (?explore=gateway-quest&yartar=1) reseeds the same host inputs without the flag and lands at the identical spawn with a plain 'WHAT'LL IT BE?' tavern menu (FIGHT/LEAVE) and no combat.",
+          "gaps": [
+            "The Everlund-to-Yartar handover is memory-carry modelled, not natively walked: the engine reseeds [0x4BF2]/[0x03B2] and switches area on combat victory rather than crossing a single continuous GEO map over the disk boundary, so the crossing itself (as opposed to its two endpoints) has no native evidence.",
+            "The wider quest graph, journal semantics, campaign choices, and ending state are not covered.",
+            "No DOSBox-X or native capture was used for this leg and none is claimed."
+          ]
+        },
+        "companion": {
+          "status": "unsupported",
+          "detail": "No Gateway-specific Gold Box Companion route exists. The Electron selected-folder acceptances cover Secret and Treasures only, and no Gateway acceptance opens the Journal, Reference DB, Automap, HUD, or Character panels against a mounted Gateway campaign.",
+          "gaps": [
+            "No Gateway Electron selected-folder route is shipped or tested.",
+            "Companion databases and journal semantics are not populated for Gateway campaign state."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "pools-of-darkness",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "Pools of Darkness runs on Greybox's shared AD&D party, first-person exploration, dialogue, tactical combat, treasure, and version-2 persistence systems.",
+          "gaps": [
+            "Exhaustive retail spell, item, class, XP-table, monster-AI, and combat-rule parity is not claimed.",
+            "This title's high-level (post-Secret) rules — its extended spell ranges and its own scaling — are not modelled beyond the shared systems."
+          ]
+        },
+        "ecl": {
+          "status": "proven",
+          "detail": "Pools has its own byte-justified dialect ECL_GEN1_SHORT_POOLS (word sets {0x0C:4, 0x1D:0, 0x1F:1, 0x21:2, 0x22:0, 0x23:0, 0x2C:1, 0x37:2}; vbase 0x7FFE, cellDescAddr 0x002D, lastBlockIdAddr 0x0016) and the dialect is load-bearing, not cosmetic: under ECL_GEN1_SHORT or plain ECL_GEN1 the routed setter and all three quest consumers run to an immediate empty exited/halted with no roster and no text. The browser route executes the retail ECL1#69 -> ECL1#72 chain as one paused runner across the tactical overlay.",
+          "gaps": [
+            "Coverage is of reachable code on the routed blocks; the archive's unreached arms are decoded but unexecuted.",
+            "Pools' GAME.OVR dispatcher and operand parser now structurally match the CoAB oracle on Pools' own retail bytes (dispatcher 0.9680 at 0x28cb against a runner-up null of 0.2948 and a same-length non-dispatcher null of 0.1497; parser 1.0000 at 0x65eb; 66 handlers dispatched) — see docs/engine/research/pools-ecl-dispatch-map.md. The four ECL_GEN1_SHORT_POOLS overrides (0x1F:1, 0x21:2, 0x37:2, 0x41:2) are read from Pools' own handlers at +0x264a, +0x0e9e, +0x1eca and +0x240c, which this sentence previously denied: the dialect docblock was right and this ledger entry was the wrong artifact. Remaining: 1 shallow desync, and 33 opcodes vacuous (the binary gives no count). Opcode 0x27 measures wordSet 4 against base 8 in both Pools and Treasures and WAS deliberately withheld — Pools' handler has a countAt-shaped dynamic tail a flat override cannot represent, and it improves the 56-block shallow census only 3 to 1, not to 0. SHIPPED 2026-09-04 (round 33 Phase B) as wordSet 4 / countAt 3, which the dialect CAN represent -- opcodeOverrides[op].countAt already existed and ECL_GEN2 already shipped exactly this frame for its own 0x27, so the stated blocker was never real. Pools' handler at GAME.OVR:0x1626 was transcribed instruction by instruction: 8 reached sites, all 8 with an IMMEDIATE count (0 of 8 memory-coded), 7 of 8 with a non-empty tail that a flat 4-word frame misparses as instructions. THE SHALLOW CENSUS DID NOT DECIDE THIS and still reads 1 either way -- its one remaining stop (ECL1.DAX#49@0x698) is an unrelated 0x29 problem, and the round plan's own prediction that countAt would clear it is FALSE and recorded as such. What decided it: the two retail handlers; R1's independent execution-coverage oracle (12 Pools offsets executed by the VM but unreached by the deep walk, going to 0 under the frame); and the fact that the four route goldens which turned red were generated by the very VM under test, which poolsMiddleRoute.test.ts's own header discloses. They were regenerated, not obeyed. Effect on real content: the (4,13) ki-rin cell now awards the 15 items its own retail text promises instead of misparsing them, and Pools' deep desync count falls 18 -> 3 (shallow 3 -> 1).",
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so every clean-EXIT count this project has ever published is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 56 retail blocks: 1 shallow desync block(s), 3 deep desync site(s). DEEP EXCEEDS SHALLOW HERE (3 vs 1), so any clean-EXIT count quoted elsewhere in this entry is a lower bound on this title's decode health, not a measure of it. Pinned in packages/engine/test/eclReachability.test.ts; the deep counts are SITES and the shallow counts are BLOCKS, so the two are not directly subtractable."
+          ]
+        },
+        "map_container": {
+          "status": "partial",
+          "detail": "The selected-folder DAX source (ECL1, GEO1, WALLDEF1, 8X8D0/1, MON1CHA/SPC/ITM, ITEM0) drives legal movement from the GEO1#69 mount at (8,8,N) to the descriptor-23 tactical handoff, including the retail automatic-door edge on the final step.",
+          "gaps": [
+            "The routed block emits no LOAD_PIECES, so the wall set comes from the explicit [1,255,255] source-backed fallback rather than from the script.",
+            "No repacking or write-side support for Pools' archives is claimed."
+          ]
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "The selected-folder route renders Pools' own wall, tile and frame banks for the mounted area and takes the tactical handoff. CORRECTED 2026-08-09: this row previously said no alternate graphics source was exposed as a switch. Pools is now the first GLIB/DataLib-era title with a live in-dungeon DOS-EGA<->Amiga wall-art toggle, and it is source-verified rather than approximated -- the Amiga port's WALLDEF.GLB records are BYTE-IDENTICAL to the DOS WALLDEF1.DAX blocks 1..6 (2340 bytes each) under the same id table, against banks of 256 8x8 tiles on both platforms, so the shared wall geometry indexes the Amiga art exactly.",
+          "gaps": [
+            "Wall art on the routed area comes from the fallback piece set (see map_container), not from a script-supplied triple.",
+            "The Amiga toggle covers WALL art only: boot/UI tile sets 0 and 4 live in the other disk's 8X8DA.TLB and stay on DOS art, and no other Amiga asset family (pictures, sprites, portraits) is switched.",
+            "The toggle is only visible on maps that HAVE walls -- ?explore=pools mounts block 18, the zero-wall 'island in limbo', where both sources render an identical frame.",
+            "Native 320x200 screen composition, broad picture/animation coverage, palette timing, and pixel-level compositor parity remain incomplete."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "Shared Greybox UI, step, and tactical audio hooks are available to the Pools route.",
+          "gaps": [
+            "No Pools retail music or sound archive is decoded, mapped, or sequenced, and none is part of any Pools acceptance."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox save version 2 round-trips the routed Pools state — area, pose, clock, party, inventory, and ECL memory. This is Greybox persistence, not original-DOS save interoperability.",
+          "gaps": [
+            "No Greybox reader or writer for Pools' own save/sidecar format exists, and no retail-executable acceptance proof exists."
+          ],
+          "import": {
+            "evidence": [
+              "docs/engine/research/pools-ending-route.md",
+              "apps/web/test/e2e.mjs",
+              "docs/engine/research/pools-treasures-race-table.md",
+              "apps/web/src/ui/importPoolsTreasuresParty.ts",
+              "packages/engine/src/loaders/poolsTreasuresSavedCharacter.ts",
+              "tools/test_round36_r6_roster_ledger.py"
+            ],
+            "gaps": [
+              "ROSTER OUTCOME OF ?import=pools, ADDED 2026-09-05 (round 36 R6). AN ADDITION, NOT A CORRECTION -- measured on the pre-edit file this profile contained 0 occurrences each of BINKY, ABAGAIL, 'pregen' and 'party cap' and made no roster claim, so the ledger was silent here rather than wrong. MEASURED OUTCOME, denominator 6 (every retail SAVE/CHRDATA{1..6}.SAV): 6 of 6 join, 0 rule-rejections, 0 party-cap rejections -- unlike Treasures, whose 8 records overflow the shared six-hero cap. WHAT MOVED (round 35 R4): under Pools' OWN compiled race table at unpacked GAME.EXE 0xAEAD (stride 9, 7 entries, same seven names as Treasures' but at its own offset, derived independently; fencepost null 7 of 7 plausible short PStrings at the real base against 0 at all 16 bases shifted by +/-1..8), BINKY's race byte 0x01 at record offset 0xad reads Half-Elf rather than the borrowed CoAB enum's mountainDwarf, so her thief 13 (class byte 0x0e, classLevel[8]@0x151 = [0,0,8,0,0,0,13,0]) no longer exceeds a dwarf level cap of 8 and she is no longer rejected. The 0-based reading of the race byte is argued by consequence, indexing instruction not located -- imul r16, imm8 has zero hits in these 8086-targeted builds -- and is NOT to be upgraded to 'proven'. DERIVATION OF THE RULE-REJECTION COUNT, recorded 2026-09-05 because the figure was weaker than it looked when first written: round 36 R6 INHERITED the 0 from browser e2e case import-treasures and disclosed that it could not re-derive it in Python, and the pin asserts only that this string is present. It has since been reproduced independently twice against the retail bytes -- once by this round's adversarial verifier and once while correcting the falsified comment at apps/web/src/ui/main.ts -- both replaying the legality path under each title's OWN race table, both returning 0 rule-rejections, with BINKY and CHERROD joining and OUGO and SMOKE cut by the cap. So the number is corroborated -- but note WHAT is pinned: the e2e case and the Python replays share the same race-table premise, so they are not independent OF that premise. If it is ever overturned, this figure moves with it.",
+              "DISCLOSED DATA CONFLICT, CARRIED NOT RESOLVED (added 2026-09-05, round 36 R6) -- ABAGAIL disagrees WITH HERSELF, the Pools-side twin of Treasures' OUGO. In SAVE/CHRDATA5.SAV her class byte at 0xae is 0x05 = magic_user, which expects exactly one nonzero level slot, while her own classLevel[8] window at 0x151 reads [0,0,0,0,0,12,0,11]: magic_user 12 AND monk 11, two slots. She is the one record of Pools' six that fails the class/classLevel agreement oracle (5 of 6 agree). She JOINS -- the party is not full at her position -- so her disclosure rides the shown summary row's bold 'class byte and level array disagree -- shown raw, not translated' badge and does NOT need Treasures' rejectedPartyFullDisagreements channel; her monk level is separately disclosed as a dropped class, monk having no Dragonlance analog. The sheet is always built from the level array, never from the class byte. Bytes re-read first-hand from the retail GOG install on 2026-09-05 and re-derived by tools/test_round36_r6_roster_ledger.py, which fails if this bullet and the records stop agreeing.",
+              "Party, quest, and sidecar save structures are unmapped; the per-character CHRDATA record IS decoded and imported (see docs/engine/research/pools-treasures-race-table.md), and its race byte is now translated from this title's own compiled table (GAME.EXE 0xAEAD) rather than a borrowed enum (round 35 R4)."
+            ],
+            "scope": "No selected-folder importer for Pools retail party or campaign saves is shipped, and no quest, sidecar or campaign-save import of any kind. A BUNDLED URL ROUTE DOES SHIP, so this status must not be read as 'nothing imports': ?import=pools (apps/web/src/ui/importPoolsTreasuresParty.ts, armed from apps/web/src/ui/main.ts) reads the six retail SAVE/CHRDATA{1..6}.SAV pregens through the shared 510-byte POOLS_TREASURES_SAVED_CHARACTER_LAYOUT and builds a playable party. The measured roster outcome and the one disclosed data conflict in it are the bullet below.",
+            "status": "unsupported"
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-Pools retail save exporter is shipped.",
+            "evidence": [
+              "docs/engine/research/pools-ending-route.md",
+              "apps/web/test/e2e.mjs"
+            ],
+            "gaps": [
+              "No retail-compatible Pools party or campaign-save encoder and no retail-executable acceptance proof exist."
+            ]
+          }
+        },
+        "towns": {
+          "status": "partial",
+          "detail": "Pools' town leg is proven at the engine layer from independently re-measured retail bytes (ECL1.DAX 329,456 B / 56 blocks, GEO1.DAX 28,349 B / 32 blocks), with the dialect's effect on every VM result measured rather than assumed, and is now walked live: ?explore=pools-town boots Phlan's civic block at the cold-boot pose (15,0) facing west and walks 44 steps through the sign and service arms to the Sunrise Inn door.",
+          "gaps": [
+            "Only the routed civic block is covered; the wider settlement set is not.",
+            "\"Town\" is not an engine mode here. Phlan is an ordinary stepped grid whose GEO descriptors dispatch to scripts through the same search_location every other Pools area uses — the same honest note Treasures' town leg carries."
+          ]
+        },
+        "wilderness": {
+          "status": "partial",
+          "detail": "Pools' wilderness leg is proven at the data/VM level from static retail bytes, independently re-measured by a second pass in which every load-bearing number, vaddr, offset, coordinate, count and roster was re-derived rather than carried over.",
+          "gaps": [
+            "Static and engine-level only — no native trace, and no browser route mounts a Pools overland layer.",
+            "Encounter cadence, RNG continuity, and travel-time progression are not emulated."
+          ]
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "The script-corpus quest flag [0x0208] is proven engine-level: a single literal-address writer in the whole corpus (ECL1.DAX#82) with three consumers whose available content demonstrably changes, and the dialect dependence of that result was measured.",
+          "gaps": [
+            "The flag's label is coined for this analysis — no such retail string exists anywhere in the install.",
+            "Engine-level only: no browser route wires the setter to its consumers.",
+            "The wider quest graph, campaign choices, and ending state are not covered."
+          ]
+        },
+        "companion": {
+          "status": "unsupported",
+          "detail": "No Pools-specific Gold Box Companion route exists. The Electron selected-folder acceptances cover Secret and Treasures only.",
+          "gaps": [
+            "No Pools Electron selected-folder route is shipped or tested.",
+            "Companion databases and journal semantics are not populated for Pools campaign state."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "neverwinter-nights-dos",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "The DOS/AOL Neverwinter Nights client runs on Greybox's shared AD&D party, first-person exploration, dialogue, tactical combat, treasure, and version-2 persistence systems.",
+          "gaps": [
+            "Exhaustive retail spell, item, class, XP-table, monster-AI, and combat-rule parity is not claimed.",
+            "This title's online/multiplayer service layer is out of scope entirely; only its shipped single-client content is modelled."
+          ]
+        },
+        "ecl": {
+          "status": "proven",
+          "detail": "NWN-DOS uses the plain long-frame ECL_GEN1 dialect (verified: no cellDescAddr override is needed — this title's own scripts read the same [0xC04F] primeSearchLocation already seeds). Retail blocks execute across archives: ECL1#10 (area 1), ECL1#17 (the Zhentarim temple of Bane beneath Longsaddle), ECL0#1 (Neverwinter town), and the cross-archive Kraken Society dock-password flag. One real finding was needed to boot area 1 at all: block 10's default entry is a non-local GOTO trampoline into block 19 and emits no LOAD_FILES, while the block's OWN eclInitialEntry header pointer (byte 149, vaddr 0x80D3) is a self-contained boot leg.",
+          "gaps": [
+            "Coverage is of reachable code on the routed blocks; the archives' unreached arms are decoded but unexecuted.",
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so every clean-EXIT count this project has ever published is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 33 retail blocks: 4 shallow desync block(s), 1 deep desync site(s). Deep is BELOW shallow here (1 vs 4): the shallow scan's stop sits on a path no entry point actually reaches, so it is not a defect in reachable code. Pinned in packages/engine/test/eclReachability.test.ts; the deep counts are SITES and the shallow counts are BLOCKS, so the two are not directly subtractable."
+          ]
+        },
+        "map_container": {
+          "status": "proven",
+          "detail": "Retail DAX archives and 16x16 GEO maps drive the routed areas, including the script-supplied LOAD_PIECES [33,27,16] triple that block 10's own header entry emits, legal door-edge movement, and the tactical handoff.",
+          "gaps": [
+            "No repacking or write-side support for NWN's archives is claimed."
+          ]
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "The selected-folder route renders NWN's own wall/tile/frame banks and its intro and preview screens, each covered by its own browser acceptance.",
+          "gaps": [
+            "Native 320x200 screen composition, broad picture/animation coverage, palette timing, and pixel-level compositor parity remain incomplete."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "Shared Greybox UI, step, and tactical audio hooks are available to the NWN routes.",
+          "gaps": [
+            "No NWN retail music or sound archive is decoded, mapped, or sequenced, and none is part of any NWN acceptance."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox save version 2 round-trips the routed NWN state — area, pose, clock, party, inventory, and ECL memory. This is Greybox persistence, not original-client save interoperability.",
+          "gaps": [
+            "No Greybox reader or writer for the NWN-DOS client's own character/save format exists, and no retail-executable acceptance proof exists."
+          ],
+          "import": {
+            "status": "unsupported",
+            "scope": "No selected-folder importer for NWN-DOS retail character or campaign saves is shipped.",
+            "evidence": [
+              "docs/engine/research/neverwinter-nights-dos-archive-analysis.md",
+              "apps/web/test/e2e.mjs"
+            ],
+            "gaps": [
+              "NWN-DOS character, party, and quest save structures have not been mapped into a shipping importer."
+            ]
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-NWN-DOS retail save exporter is shipped.",
+            "evidence": [
+              "docs/engine/research/neverwinter-nights-dos-archive-analysis.md",
+              "apps/web/test/e2e.mjs"
+            ],
+            "gaps": [
+              "No retail-compatible NWN-DOS character or campaign-save encoder and no retail-executable acceptance proof exist."
+            ]
+          }
+        },
+        "towns": {
+          "status": "partial",
+          "detail": "The town leg is proven on ECL0.DAX#1 / GEO0.DAX#1 (Neverwinter) with a retail-byte-backed engine golden, and the routed area-1 map is itself a real Neverwinter town map — its sign narration ('CROSSERGATE GEMS AND JEWELRY STORE', 'TO THE EAST LIES A RESIDENTIAL NEIGHBORHOOD') is crossed by the live browser walk.",
+          "gaps": [
+            "The ECL0#1 town leg is engine-level: no browser route mounts it, so town entry, exit, and services are not exercised live.",
+            "Area 1 is genuinely hostile — 15 other cells on that GEO carry their own scripted COMBAT dispatches — so the live walk is a routed path through a town, not a town-services flow."
+          ]
+        },
+        "wilderness": {
+          "status": "structurally-absent",
+          "detail": "Investigation found NWN-DOS does not ship the continuous overland layer the campaign-matrix wilderness checkpoint represents. This is a proven negative carrying the same two independent evidences Secret's wilderness verdict was closed on, including a whole-corpus scanner zero from a scan that actually ran.",
+          "gaps": [
+            "A proven negative is a statement about the shipped corpus, not about the wider AOL service this client connected to."
+          ]
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "The cross-archive Kraken Society dock-password flag [0x32C8]/[0x32CA] is proven engine-level over all 33 blocks of the corpus, with the setter-uniqueness claim explicitly narrowed rather than overstated.",
+          "gaps": [
+            "Engine-level only: no browser route wires the setter to its consumers.",
+            "The wider quest graph, journal semantics, and campaign choices are not covered.",
+            "NWN's `ending` campaign leg is separately recorded as structurally-absent; no ending state is modelled."
+          ]
+        },
+        "companion": {
+          "status": "unsupported",
+          "detail": "No NWN-specific Gold Box Companion route exists. The Electron selected-folder acceptances cover Secret and Treasures only.",
+          "gaps": [
+            "No NWN Electron selected-folder route is shipped or tested.",
+            "Companion databases and journal semantics are not populated for NWN campaign state."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "dark-queen-of-krynn",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "DQK runs on Greybox's shared AD&D party, exploration, dialogue, tactical combat, treasure, and version-2 persistence systems, plus this title's OWN rules where they diverge from the Gen1 siblings: its Training Hall enforces DQK's own real finite level cap (not CoK's and not 'none'), and leaving its Town returns to the DQK dungeon rather than a Gen1 wilderness. Both are browser acceptances.",
+          "gaps": [
+            "Exhaustive retail spell, item, class, XP-table, monster-AI, and combat-rule parity is not claimed.",
+            "Gen2-specific rule divergences beyond the two pinned above are covered only where a routed leg exercises them.",
+            "DQK dungeon fights are now fought on a 50x25 surface transcribed from DQK.EXE's own population cluster (dispatcher 0x02cb60, population 0x02c397, cell writer 0x02bcf0), covering 20 of DQK's 21 GEO dungeon areas; buildDqkDungeonCombatMap carries the DQK.EXE file offset on every branch. One limit remains, and one closed. (1) CLOSED 2026-09-04 (round 33 R3): area 5, DQK's ECL-owned wilderness area with no GEO grid, was the last DQK fight still on the engine's generic flat 13x9 fallback. Its wilderness-population routine is now transcribed and buildDqkWildernessCombatMap gives area 5 its own real 50x25 field, so all 21 DQK areas now fight at retail size. The e2e explore-dqk case pins the area-5 field at 50x25 inside the existing case, and the disclosure paragraph that carried this gap was retired in the same commit rather than left standing. (2) The evidence separating DQK's routine from CoAB's SetupDungeonFloor is thin and is reported as such: on a real GEO area the two builders agree on 1250 of 1250 cells, but so does the shuffled-wall null, because that area has no doors -- the entire discriminating set is a single crafted door cell (527) where DQK writes tile 8 and CoAB writes tile 2, via the northOfEast==3 branch of the NE-corner helper. Read that as 'CoAB's routine differing in one helper branch', not as an independent reconstruction. DQK reads the RNG 0 times (proved with a poisoned throwing RNG), against CoAB's addRandomFurniture at 0 on the same input and 140 when its own 0x40 gate bit is forced open."
+          ]
+        },
+        "ecl": {
+          "status": "proven",
+          "detail": "DQK is the only Gen2/HLIB title in the corpus and its ECL is executed, not merely decoded: the Gen2 dispatch table is located at 2033:0d34 with exactly one extended opcode (0x41; anything above it is a silent no-op), the per-cell descriptor dispatch and the vmRun1 per-step main loop both run, and area 5's route enters the real CampInterrupted handler only after vmRun1 selects table byte 0xE5 at (30,3). All six campaign legs are pinned in packages/engine/test/dqkCampaignLegs.test.ts, each independently re-derived from the retail bytes by the operator before its status was written — agent findings alone were not accepted as evidence.",
+          "gaps": [
+            "The campaign legs are STATIC/BYTE-ONLY: no DOSBox-X, GameLink, emulator or screenshot evidence backs them.",
+            "Coverage is of reachable code on the routed areas; the 47-area corpus's unreached arms are decoded but unexecuted.",
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so every clean-EXIT count this project has ever published is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 47 retail blocks: 2 shallow desync block(s), 0 deep desync site(s). Deep is BELOW shallow here (0 vs 2): the shallow scan's stop sits on a path no entry point actually reaches, so it is not a defect in reachable code. Pinned in packages/engine/test/eclReachability.test.ts; the deep counts are SITES and the shallow counts are BLOCKS, so the two are not directly subtractable."
+          ]
+        },
+        "map_container": {
+          "status": "proven",
+          "detail": "DQK's HLIB 'DataLib' containers are read for real: .TLB/.GLB with typed TILE (frames plus embedded 6-bit-DAC VGA palette), DATA (ECL scripts and GEO maps) and DIG4 sub-chunks. The browser route mounts 20 maps out of GEO.GLB/ECL.GLB and walks them.",
+          "gaps": [
+            "Write-side HLIB support exists for the rebuild tooling but is not part of any DQK playback acceptance."
+          ]
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "The route renders DQK's native VGA 256-colour art from its own TILE chunks and their embedded palettes — dungeon views, the VGA overland, the title screen, and the real decoded attract demo (ECL.GLB id 7) rather than a synthetic substitute.",
+          "gaps": [
+            "Native 320x200 screen composition, broad picture/animation coverage, palette timing, and pixel-level compositor parity remain incomplete.",
+            "The demo route carries its own two disclosed honest gaps (see dqkDemo.ts).",
+            "ROUND 35 R3 (2026-09-05): HLIB method-25 / GLIB method-0x19 composite assembly, previously decoded but not wired into any `?game=` route (loadGameComposites.test.ts), now reaches the DOS route (dark-queen-dos gains exactly 3 composite frames, all from DISK3/FRAME.TLB) and the Amiga route (dark-queen-amiga gains exactly 3 composite frames via the GLIB method-0x19 twin decoder). HONEST GAP KEPT WITH THE WIN: DQK DISK2/PICC.TLB holds 4 more composites (measured, decode verified) but that file is in no manifest, so those 4 are reachable only through the single-file asset browser, not through any `?game=` route -- 12 of the 16 DOS composites are route-reachable, not 16. packages/engine/test/loadGameComposites.test.ts, docs/engine/research/hlib-glib-composites.md."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "DQK is the best-covered title for audio decoding: its Miles AIL XMIDI music (ADDQ1..3.XMI plus the Roland/Tandy/PC-speaker variants), its OPL2/AdLib instrument bank and player, and BOTH of its digitized SFX banks (SFXDQ.VOC 4-bit ADPCM and the SOUNDS.GLB DIG4 library, 13 effects in a fixed order) have real decoders, and a SoundDispatcher drives per-event combat sound.",
+          "gaps": [
+            "No DQK acceptance asserts retail music playback in a routed session — the decoders are proven, the in-route sequencing is not.",
+            "Music timing, instrument-patch fidelity, and scene-transition parity with the original are unverified."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox save version 2 round-trips the routed DQK state. Separately, and unlike the Gen1 siblings, DQK's OWN save file is decoded roster-and-all and a shipping ?import=dqk route converts its six pre-generated heroes into a live Greybox party: see the import row below.",
+          "gaps": [
+            "There is no complete bidirectional DQK party/campaign save bridge and no retail-executable save acceptance proof."
+          ],
+          "import": {
+            "status": "partial",
+            "scope": "The engine decodes the SAVGAMA.QSV global game-state header — the party flags, position and time that prefix the file — re-verified field by field against the real 7,965-byte shipped DQK save rather than trusting the classic-era SAVGAM.TXT documentation (partySize @31 = 6, speed @17 = 4, currentModule @18 and eclMemberId @21 = 0, with the @21 label corrected from the CoK-era 'initiated' reading against DQK runtime traces). It also decodes the file's six per-character roster records (reusing moncha.ts's decodeNpcRecord at the same ability offset MONCHA framing already uses), and a shipping ?import=dqk route converts them into a live Greybox party — not just a build-tooling sanity check — pinned against the real save's six named heroes: SIR DRYDEN, JORIS THE WISE, LENDUIRA, neacail, ALARIC THE BOLD and MAIGUREIGNE.",
+            "evidence": [
+              "packages/engine/src/loaders/dqkSave.ts",
+              "docs/engine/research/dqk-save-format.md",
+              "apps/web/src/ui/importDqkParty.ts",
+              "packages/engine/test/dqkSave.test.ts",
+              "apps/web/test/e2e.mjs"
+            ],
+            "gaps": [
+              "Name, the twelve stored current/max ability bytes, HP and level are byte-faithful. Class is byte-faithful only for neacail (code 6, the sole one of the six that lands in the validated M37 NPC-class enum); the other five saved codes (16, 130, 11, 9, 3) fall outside that enum, so their classes are derived from the same disclosed ability-score heuristic importParty.ts's CoK importer uses, and every imported hero is labelled classSource: 'code' | 'ability-heuristic' accordingly.",
+              "The save has no established player-race enum, so all six imported heroes are built as race: 'human' (disclosed); three of the six saved DEX 19s (JORIS, neacail, ALARIC) clamp to the human 3-18 range's 18. The built sheet's ac/thac0 are recomputed by createCharacter() from the inferred class+level table, shown beside — not replacing — the save's own raw bytes, so they will not equal the save's stored values."
+            ]
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-DQK retail save exporter is shipped.",
+            "evidence": [
+              "docs/engine/research/dqk-save-format.md",
+              "apps/web/test/e2e.mjs"
+            ],
+            "gaps": [
+              "No retail-compatible DQK party or campaign-save encoder and no retail-executable acceptance proof exist."
+            ]
+          }
+        },
+        "towns": {
+          "status": "partial",
+          "detail": "DQK's own Town is mounted and two of its behaviours are pinned by browser acceptances against this title's own data: the Training Hall's real finite level cap, and leaving Town returning to the DQK dungeon. The campaign-matrix town leg is separately proven from retail bytes.",
+          "gaps": [
+            "Only the routed town behaviours are covered; the full set of shops, temples, and service branches is not.",
+            "Town entry from the campaign map is not exercised live."
+          ]
+        },
+        "wilderness": {
+          "status": "partial",
+          "detail": "The browser route renders and walks DQK's VGA overland layer, and the campaign-matrix wilderness leg is proven from retail bytes.",
+          "gaps": [
+            "Static/byte-only for the campaign leg — no native trace.",
+            "Travel-time progression, encounter cadence, and RNG continuity are not emulated."
+          ]
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "The quest and ending legs are proven from retail bytes and pinned in packages/engine/test/dqkCampaignLegs.test.ts. The ending leg is a genuine correction of a prior BLOCKED verdict: 'nothing in the 47-area ECL corpus ever writes [0x0032] nonzero' is true but irrelevant, because [0x0032] is not a story flag. The QUEST leg now also runs in the browser: ?dqk=quest drives both arms of [0x0187] bit 0x20 — area 55's BE FRIENDLY is the sole setter in the whole 47-area corpus, and area 54's house cell is the reader, chaining to the Hamhand scene before the flag and printing 'THE HOUSE IS EMPTY AND DARK.' after it.",
+          "gaps": [
+            "The Hamhand HORIZONTAL_MENU is auto-answered by the route (BE FRIENDLY, index 0) rather than presented as a live menu the player clicks. The panel says so on its face.",
+            "One leg only: the wider quest graph, journal semantics, and campaign choices are not covered."
+          ]
+        },
+        "companion": {
+          "status": "partial",
+          "detail": "DQK has an in-play Companion host in the browser route: live Automap, HUD and Databases open over the mounted Gen2 session alongside the full 98-name MONCHA bestiary and faithful-stat combat.",
+          "gaps": [
+            "Browser only — no DQK Electron selected-folder Companion route exists (those acceptances cover Secret and Treasures).",
+            "Companion databases, journal semantics, and campaign-state annotations are not exhaustive for DQK."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "forgotten-realms-unlimited-adventures",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "FRUA designs run on Greybox's shared AD&D party, exploration, dialogue, tactical combat, and persistence systems. The routed HEIRS.DSN Caravan slice executes a source-decoded do-once Combat event and emits the exact-once source-backed reward receipt with all three event-46 statements.",
+          "gaps": [
+            "Exhaustive retail spell, item, class, XP-table, monster-AI, and combat-rule parity is not claimed.",
+            "The reward path deliberately does NOT mutate party inventory, equipment, or spendable wealth.",
+            "Defeat/flee outcomes and equipment execution are outside the bounded contract."
+          ]
+        },
+        "ecl": {
+          "status": "partial",
+          "detail": "FRUA ships no ECL bytecode at all — it is a construction set, and its per-cell logic lives in the .DSN design's own event records. That format is decoded rather than guessed: GEOxxx.DAT is transcribed from hackdocs GEODATA/GEOGRIDS/GEOENTRY/GEOEVENT and arithmetic-verified against the file's own marker lines (grid start 322 + 576x6 = 3778 'encr'; event table 3786 + 100x20 = 5786 'strg'), with a matching event compiler, runtime, and state layer. The routed HEIRS events (12, 14, 45, 46) are pinned to exact record bytes and SHA-256-pinned source files.",
+          "gaps": [
+            "The event-type table is decoded broadly, but only the routed HEIRS event types are executed end to end.",
+            "Coverage is per-design: a claim about HEIRS.DSN is not a claim about arbitrary user modules."
+          ]
+        },
+        "map_container": {
+          "status": "partial",
+          "detail": "A user-selected UA root supplies the design (HEIRS.DSN/GEOxxx.DAT) and the shared archives (DISK2/MONST.GLB, DISK1/ITEM.DAT and ITEMS.DAT), each SHA-256-pinned in the bounded source contract, and the browser and Electron routes both mount from that selected root.",
+          "gaps": [
+            "Only the routed design's containers are exercised; the full UA/DSN container surface is not.",
+            "No write-side support for FRUA's own design containers is claimed (Greybox authoring writes its own .gbmod format instead)."
+          ]
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "The routed slice renders through Greybox's shared module/exploration and tactical presentation from the selected UA root.",
+          "gaps": [
+            "Source pictures and source terrain are explicitly outside the bounded contract and are not executed.",
+            "Native screen composition, palette timing, and pixel-level compositor parity are not claimed for FRUA designs.",
+            "ROUND 35 R3 (2026-09-05): HLIB method-25 composite assembly now reaches this title's `?game=` route as well -- 9 composite frames across 3 files (PICA.TLB 1, PICD.TLB 4, FRAME.TLB 4). packages/engine/test/loadGameComposites.test.ts, docs/engine/research/hlib-glib-composites.md."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "FRUA shares the DQK-era SFXDQ.VOC bank (13 Creative 4-bit ADPCM effects, named by marker index from hackdocs UASOUND.TXT), which has a real decoder in the engine.",
+          "gaps": [
+            "No FRUA acceptance asserts audio playback in a routed session.",
+            "FRUA music and any design-specific sound selection are not decoded, mapped, or sequenced."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox persistence covers the routed FRUA state, including the do-once event state that makes the Caravan reward exact-once across a reload. Greybox's authoring side additionally has its own versioned module format with a save key, validation, and a byte-stable reference-campaign golden — that is Greybox's format, not FRUA's.",
+          "gaps": [
+            "There is no bridge to FRUA's own saved-game files in either direction."
+          ],
+          "import": {
+            "status": "unsupported",
+            "scope": "No importer for FRUA/UA saved games is shipped. The engine imports DESIGNS (GEOxxx.DAT, monsters, items) from a selected UA root, which is a different thing from reading a saved party or campaign.",
+            "evidence": [
+              "packages/engine/src/module/frua/importer.ts",
+              "docs/engine/research/frua-heirs-caravan-combat.md"
+            ],
+            "gaps": [
+              "FRUA saved-game party, journal, and campaign-state structures have not been mapped into a shipping importer."
+            ]
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-FRUA saved-game exporter is shipped, and no writer for FRUA's own design containers exists.",
+            "evidence": [
+              "docs/engine/research/frua-heirs-caravan-treasure.md",
+              "apps/web/test/e2e.mjs"
+            ],
+            "gaps": [
+              "No retail-compatible FRUA save or design encoder and no retail-executable acceptance proof exist."
+            ]
+          }
+        },
+        "towns": {
+          "status": "unsupported",
+          "detail": "No FRUA town flow is routed. The bounded HEIRS slice is a wilderness-caravan encounter, and the module layer ships no title-specific town, shop, temple, or training implementation.",
+          "gaps": [
+            "FRUA designs can define town-like areas; nothing in the routed slice or the module layer exercises one."
+          ]
+        },
+        "wilderness": {
+          "status": "unsupported",
+          "detail": "No FRUA overland travel layer is implemented. The routed slice mounts a single design area rather than a continuous travel map.",
+          "gaps": [
+            "FRUA designs can define overland areas; no travel-time progression, encounter cadence, or transition handling exists for them."
+          ]
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "The routed slice proves do-once quest-shaped state end to end: event 12's Combat is selected by HELP THEM and fires once, and event 46's reward receipt is emitted exactly once and survives persistence.",
+          "gaps": [
+            "One design's single encounter chain is covered; there is no quest graph, journal, or campaign-state model for FRUA designs.",
+            "Claims are scoped to the SHA-256-pinned HEIRS.DSN source files."
+          ]
+        },
+        "companion": {
+          "status": "unsupported",
+          "detail": "No FRUA-specific Gold Box Companion route exists.",
+          "gaps": [
+            "No FRUA Companion acceptance opens Journal, Reference DB, Automap, HUD, or Character panels against a mounted design.",
+            "Companion databases and journal semantics are not populated for FRUA designs."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "secret-of-the-silver-blades",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "The verified slice uses Greybox's shared AD&D party, first-person exploration, dialogue, tactical combat, treasure, and version-2 persistence systems.",
+          "gaps": [
+            "Full retail spell, item, class, AI, encounter-placement, and combat-rule parity is not claimed."
+          ]
+        },
+        "ecl": {
+          "status": "proven",
+          "detail": "Retail Secret Gen1 ECL3 block 97 and GEO3 block 97 are byte-decoded and execute the natural Hydra encounter, consumed write, and outcome resume from a selected folder.",
+          "gaps": [
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, restated round 34 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so a clean-EXIT count is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 22 retail blocks: 0 shallow desync block(s), 0 deep desync site(s). ROUND 34 CORRECTION: this line read 40 deep sites until round 34 R1 added ECL opcode 0x41 to the SHARED Gen1 base table at wordSet 2 (packages/engine/src/ecl/opcodes.ts, ECL_OPCODE_MAX 0x40 -> 0x41). That single entry closed EVERY deep desync site this title had (40 -> 0), with zero shallow-census regression. R1 shipped this as UNKNOWN_0x41 with semantics explicitly unclaimed, because EclDump's own SetupCommandTable is dense only over 0x00..0x40, so its silence about 0x41 is a property of EclDump, not of the bytes. THAT IS NO LONGER THE STATE OF THE EVIDENCE. A round 34 follow-up (docs/engine/research/gen1-opcode-41.md) went and read the handlers: all three base-table titles carry their OWN 0x41 dispatch entry -- CoK GAME.OVR 0x4048, DoK 0x2e0e (reproducing the pre-existing build/dok-ecl-dispatch-map.json row byte-for-byte, which checks the tooling), Secret 0x43ff -- located by structural match against the CoAB oracle. Each reads exactly 2 operands from its own `mov al,2; push ax; lcall <parser>` prologue, so wordSet 2 is now confirmed from BINARY GROUND TRUTH and not only from the eight independent derivations that already agreed on it (Gateway, Treasures at GAME.OVR 0x2c40, Pools at 0x240c, Buck, Matrix, DQK Gen2, R1's byte-shape derivation, and now this one). All three handlers share one idiom: read a 0/1 flag and a round word amount, count the ACTIVE party members, divide, and ADD/ADC the share into a 32-bit per-character accumulator (flag=1 walks the party chain, flag=0 hits one target). CoK's walks that chain through CCH +0x17F/+0x181 -- the SAME 'next combatant' far pointer that CoK's already byte-verified post-combat calc_battle_exp uses (docs/engine/research/decompile-ovr006-xp-treasure.md), from an investigation that borrowed nothing from this one. The mnemonic is therefore now GEN1_AWARD_XP. uncertain STAYS TRUE and the reason is specific: no loader or save-format doc in this repo names the accumulator field (CoK +0x116/+0x118) as the canonical experience field, and no oracle certifies the label -- what is proven is the STRUCTURE, not the name. Note also that these handlers DIVIDE where Pools'/Treasures' own 0x41 (POOLS_AWARD_XP / TREASURES_AWARD_XP) MULTIPLIES by 100, so the dialects stay correctly separate. ONE OF R1'S OWN CLAIMS IS CORRECTED HERE: 'the operand is always a multiple of 500' is measured at 98.4% (121/123) on an exhaustive walk of every reached site in all three titles' ECL1-3.DAX, with two genuine CoK exceptions (ECL1.DAX block 32 @0x1cec = 300; ECL2.DAX block 67 @0x1bff = 32633), both in the flag=0 single-target branch. Stratified by the flag -- which R1's sample could not do -- flag=1 is 95/95 = 100%. The null: word-kind operands of every OTHER reached instruction in the same blocks are multiples of 500 just 0.53% of the time (n = 29,954), a ~185x enrichment, so the roundness is a property of THIS argument. Caveat kept: that follow-up's from-scratch walker reproduces walkEclReachable's CoK (33) and Secret (40) counts exactly but finds 50 DoK sites where the engine's numbers imply 43 -- a difference in its simplified control-flow rules, not a disputed fact about the opcode. The engine's pinned counts in eclReachability.test.ts are the authoritative ones. Pinned in packages/engine/test/eclReachability.test.ts; deep counts are SITES and shallow counts are BLOCKS, so the two are not directly subtractable."
+          ]
+        },
+        "map_container": {
+          "status": "proven",
+          "detail": "The selected-folder DAX/GEO/WALLDEF/8X8D source drives legal movement from the ECL3 area-97 mount to the retail descriptor-131 tactical handoff."
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "The selected-folder route renders its calibrated DOS-EGA source; the release acceptance test explicitly confirms that no unverified alternate graphics source is exposed as a switch.",
+          "gaps": [
+            "No alternate Secret art source or multi-mode pixel-parity switch is verified; broad screen, animation, palette, and compositor parity is not claimed."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "Shared Greybox UI/step audio paths exist, but Secret retail music and sound sequencing are not in the selected-folder release gate.",
+          "gaps": [
+            "Retail Secret MUSIC.DAX/SOUND.DAX decoding, timing, and scene-transition playback remain unverified."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "Greybox save version 2 round-trips the verified Secret Hydra slice; original Secret save interoperability is not part of this contract.",
+          "gaps": [
+            "There is no complete bidirectional Secret party/quest save-set bridge or retail-executable acceptance proof."
+          ],
+          "import": {
+            "status": "unsupported",
+            "scope": "No selected-folder Secret retail party/save importer is shipped.",
+            "evidence": [
+              "docs/engine/research/secret-verified-release-contract.md"
+            ],
+            "gaps": [
+              "CHRDATA, party, quest, and sidecar save structures have not been mapped into a Secret importer."
+            ]
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-Secret retail save exporter is shipped.",
+            "evidence": [
+              "docs/engine/research/secret-verified-release-contract.md"
+            ],
+            "gaps": [
+              "No retail-compatible Secret party/quest/sidecar encoder or retail-executable acceptance proof exists."
+            ]
+          }
+        },
+        "towns": {
+          "status": "partial",
+          "detail": "New Verdigris entry, a Marcus/residence action, and the retail town-exit chain are engine/browser evidenced.",
+          "gaps": [
+            "Full service, shop, temple, training, branch, and every-town coverage is not part of the release slice."
+          ]
+        },
+        "wilderness": {
+          "status": "structurally-absent",
+          "detail": "Investigation found Secret does not ship the continuous WILDCOM-style overland layer represented by the campaign-matrix wilderness checkpoint.",
+          "gaps": [
+            "This status does not imply support for a non-existent continuous wilderness system; scripted travel branches remain separately scoped."
+          ]
+        },
+        "quests": {
+          "status": "partial",
+          "detail": "The cross-block persistent alert-flag setter/read relationship is retail-byte, engine, and bounded-browser evidenced.",
+          "gaps": [
+            "The natural [0x7ED5] host setter and unseeded entry into the alert route remain unproven, and the wider quest graph is not complete."
+          ]
+        },
+        "companion": {
+          "status": "partial",
+          "detail": "The selected-folder Electron route opens populated Journal, Reference DB, Automap, HUD, and Character panels without altering the mounted campaign pose.",
+          "gaps": [
+            "Companion database coverage, journal semantics, and annotations are not exhaustive for Secret campaign state."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "buck-rogers-countdown-to-doomsday",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "packages/engine/src/ruleset/buckrogers/index.ts defines a buckrogers ruleset that extends addnd1e with a naming/approximation layer only: BUCK_ROGERS_CAREERS maps Buck's 5 real player careers (warrior, rogue, medic, engineer, rocketJock) onto existing 1e classes (fighter, thief, cleric, magicUser, ranger). Ability modifiers, XP tables, and THAC0 are the unmodified addnd1e originals, and the ruleset resolves through the default registry (defaultRulesets().resolve('buckrogers') = [addnd1e, buckrogers]).",
+          "evidence": [
+            "packages/engine/src/ruleset/buckrogers/index.ts",
+            "packages/engine/test/buckrogers.test.ts"
+          ],
+          "gaps": [
+            "No Buck Rogers XXVc-specific combat, weapon, vehicle, or XP math exists; every mechanical number used is the AD&D 1e original, not a science-fiction rule.",
+            "No gameplay route ever instantiates a character on this ruleset; it is exercised only by its own unit tests, not by exploration, combat, or import.",
+            "ROUND 35 R4 (2026-09-05): the detail above undersells the game's own data. BUCK_CAREER_LABEL (read from START.EXE 0xECDC) has SEVEN entries, not five -- six non-monster careers, INCLUDING Scout, plus one sentinel. The ruleset overlay's mapping to five 1e classes therefore omits a sixth real career the retail table defines. Whether the character-creation screen actually offers Scout is UNMEASURED. Separately, no career/race/sex field is decoded from the saved-character record at all: the plan's own null swept (column 39/40) x (career/race table) x (0-based/1-based) -- 8 combinations -- and came back 8/8 non-discriminating, i.e. every reading is equally plausible, which is why none is claimed. docs/engine/research/buck-string-tables.md, tools/test_buck_string_tables.py, packages/engine/test/buckSavedCharacter.test.ts."
+          ]
+        },
+        "ecl": {
+          "status": "partial",
+          "detail": "ECL_GEN1_BUCK (headerLen 22, vbase 0x7ffe, 8 word-set overrides at opcodes 0x0c/0x1d/0x22/0x23/0x27/0x3c/0x3f/0x40, plus 11 opcode-table extensions at 0x41 and 0x43..0x4c that Gen1's 0x00-0x40 ceiling has no entry for) was derived from Buck's own retail GAME.OVR dispatcher and operand parser by tools/map_buck_ecl_dispatch.py (docs/engine/research/buck-ecl-dispatch-map.md), not borrowed from a sibling title's dialect. Every operand count is read from its handler's own prefetch (mov al,N; push ax; lcall 0xb8,0x2a), NOT fitted to make the corpus decode: for both swept opcodes the corpus actively prefers a different value than the binary states, and the binary was taken anyway (0x4c binary=2 yields 4 desyncs where corpus-best 0 yields 1; 0x43 binary=1 is tied for the worst value swept). Measured against Buck's own 25 retail blocks across ecl1..ecl6.dax (packages/engine/test/buckEclDialect.test.ts): 21 disassemble to a clean terminating EXIT and 4 desync (ecl1#17@0xec, ecl1#18@0x395, ecl6#94@0x50, ecl6#99@0x2c0). A single-step browser inspector (?ecl=buck, documented in docs.ts) opens ecl2.dax#32-35 under this dialect; e2e case ecl-buck pins the dialect-dependent first-instruction address (0x8014) and an 8-instruction clean EXIT.",
+          "evidence": [
+            "packages/engine/src/ecl/disassemble.ts",
+            "packages/engine/test/buckEclDialect.test.ts",
+            "tools/map_buck_ecl_dispatch.py",
+            "docs/engine/research/buck-ecl-dispatch-map.md",
+            "apps/web/src/ui/eclInspector.ts",
+            "apps/web/test/e2e.mjs"
+          ],
+          "gaps": [
+            "2 of 25 retail blocks still desync under this dialect -- ecl1#18@0x395 and ecl6#99@0x2c0 -- and both are explicitly UNATTRIBUTED rather than explained: neither sits downstream of any opcode this project has modeled, and ecl6#99 stops at byte 0x80, whose handler calls an unidentified far routine. The count reached 2 in two recorded steps, neither smoothed into the other: 7 -> 4 in round 29 (R6's attribution of opcode 0x4c), then 4 -> 2 in round 32 (0x29/0x2c/0x42 given a measured wordSet 0). ecl1#17@0xec and ecl6#94@0x50, both immediately downstream of a decoded 0x29, now resync cleanly and have left the sample. ROUND 32 RETRACTS ROUND 31'S NEGATIVE ON THOSE THREE OPCODES, and that retraction is why the count moved. Round 31 reported that 0 of 140 CoAB oracle calls land on Borland function prologues and called the result decisive; round 32 (R5) found that measurement was taken against still-EXEPACK-compressed bytes. All eight Gen1 loaders are genuine Microsoft EXEPACK v1 (relocations 0, 'RB' at CS:0010, the standard entry stub, dest_len in PARAGRAPHS not bytes). Against the unpacked resident image the same measurement reads 66 of 140 (47%) at shift 0 versus 0 of 140 at +/-1 byte. A negative measured through an un-inverted transform is not a negative about the data. This is a retraction, not a narrowing -- round 31 had already narrowed the sentence once. What round 30 and round 31 established about far-call resolution still stands and is kept here rather than dropped, because it is the machinery the round-32 read runs on: following those routines needs a segment-to-file-offset mapping; a LINEAR mapping calibrated on Curse of the Azure Bonds (where an oracle names each call's true target) landed only 9 of 103 calls against that round's 10-call bar and its winning constant did not generalize, so no address from that attempt was ever written into the dialect. Round 31 partially retracted the FRAMING of that negative, not its arithmetic: the linear fit really does fail, but a linear fit cannot describe a descriptor/stub lookup, and the non-linear resolver in tools/vroomm_layout.py already handled exactly that. Calibrated on the same CoAB oracle (0x4c:0x2a lands exactly on 0x810a; 229 of 240 distinct stub-routed targets land on real oracle function starts, against a shifted null of 1/0/0/0 at +/-1 and +/-16 bytes and a uniform-random null averaging 0.72 hits that never exceeded 6 in 3000 trials), it resolves 3 of the 7 blocking targets: 0xb8:0x7f -> 0x1e0f2, 0xb8:0xb6 -> 0x1e98e, 0x10f:0x4d -> 0x2d9cd. That claim is scoped to those three of seven, not to Buck's binary as a whole, which carries 16 distinct unresolved segments. STILL OPEN after all of it: the remaining two desyncs, the four unresolved targets of the seven, and the semantics of 0x29/0x2c/0x42 -- round 32 measured their operand WIDTH from the unpacked handlers' own prefetches, which is what a wordSet is; it did not establish what they do, and their mnemonics remain inherited Gen1 labels. AND THE CORPUS CENSUS IS NOT EVIDENCE FOR THIS DIALECT, in either direction. On the same 25 blocks ECL_GEN1, ECL_GEN1_SHORT and ECL_GEN1_SHORT_GATEWAY all score 7/18, so beating them only shows that modeling 0x4c helps; and ECL_GEN1_SHORT_POOLS -- a dialect that is wrong for Buck -- scores 5 desyncs by trading them for a wrong 0x21 read. The dialect's support comes from the binary dispatch map, not from this count. tools/buck_far_targets.py, tools/map_buck_ecl_dispatch.py, docs/engine/research/buck-ecl-desyncs.md.",
+            "The corpus cross-check of the override table is partial at best: of the watched overrides only 0x0c is reached (twice), every other one zero times, so most of the table's correctness still rests entirely on the binary dispatcher map. Eleven extension opcodes carry uncertain: true, and 0x42 and 0x2c PARLAY were disassembled and left deliberately unmeasured because their handlers call far routines this pass could not identify.",
+            "No gameplay route ever executes Buck ECL against a live game state (no ?explore= route, no GEO map, no combat or dialogue outcome); the only consumer is the standalone single-step inspector.",
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so every clean-EXIT count this project has ever published is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 25 retail blocks: 2 shallow desync block(s), 195 deep desync site(s). DEEP EXCEEDS SHALLOW HERE (195 vs 2), so any clean-EXIT count quoted elsewhere in this entry is a lower bound on this title's decode health, not a measure of it. Pinned in packages/engine/test/eclReachability.test.ts; the deep counts are SITES and the shallow counts are BLOCKS, so the two are not directly subtractable.",
+            "ROUND 35 R1 CORRECTION (2026-09-05, re-verified against packages/engine/test/buckEclDialect.test.ts, 12/12 green): the paragraph above's '4 -> 2 in round 32 (0x29/0x2c/0x42 given a measured wordSet 0)' mis-attributes that movement to 0x42. Opcode 0x42 was INERT through round 34 -- its wordSetOverrides entry had no matching opcodeOverrides definition, so byte 0x42 still decoded as a bad opcode -- so the round-32 movement came from 0x29/0x2c alone; drop the '/0x42' from that clause. Round 35 R1 moved 0x42 from a bare wordSetOverrides key to a real opcodeOverrides entry ({wordSet: 0, mnemonic: 'BUCK_EXT_42', uncertain: true}) in both ECL_GEN1_BUCK and ECL_GEN1_MATRIX, which is what actually makes it decode. With 0x42 now live, ecl1.dax#18@0x395 closes this round (it sat on that opcode), leaving ONE residual desync, not two: ecl6.dax#99@0x2c0 (pinned: {desync: 1, cleanExit: 24, desyncSample: ['ecl6.dax#99@0x2c0']}). No semantics beyond operand width are claimed for 0x42; BUCK_EXT_42 is a deliberately opaque mnemonic. docs/engine/research/buck-matrix-opcode-42.md."
+          ]
+        },
+        "map_container": {
+          "status": "partial",
+          "detail": "CORRECTED 2026-09-04 (round 33 R4, docs/engine/research/buck-containers.md). This entry read unsupported and said Buck's containers 'have not been reverse-engineered'. That was wrong: every GEO, WALLDEF and ECL block decodes with the SAME Gen1 loaders already proven on CoK/DoK, measured on real bytes -- 17 GEO blocks all exactly 1026 bytes (100% decodeGeoBlock), 9 WALLDEF blocks each a multiple of 780 (100% decodeWalldefBlock), 25 ECL blocks all carrying the Gen1 0x1388 magic. Every size quoted is the DECOMPRESSED size, i.e. the bytes a loader actually consumes, not the compressed bytes on disk. listPairedGen1Areas finds 16 paired GEO/ECL areas across Buck's six C64 disk sides (1/2/4/3/2/4) under the exact criterion gen1AreaIndex.ts uses; the alternative ('Buck's ids are not paired the CoK way') predicts 0 on every disk and is rejected. Pinned in packages/engine/test/buckContainers.test.ts and tools/test_buck_container_census.py.",
+          "evidence": [
+            "apps/web/games/buck-rogers-countdown-to-doomsday.json"
+          ],
+          "gaps": [
+            "MONSTER RECORDS ARE PARTIALLY MAPPED, ITEM RECORDS REMAIN GENUINELY UNMAPPED. UPDATED 2026-09-04 (round 34 R2, docs/engine/research/buck-record-layout.md): mon0cha.dax's 54 name-plausible 263-byte records and Matrix Cubed's MON0CHA.DAX's 63 name-plausible 259-byte records are ONE XXVc record family, also shared with Buck's own six pregenerated chrdata{n}.sav party saves (259 bytes, uncompressed, no DAX wrapper) -- Buck's own monster record is that SAME 259-byte layout with 4 bytes inserted near offset 249-255 (best single estimate 251, located by a per-offset A/B crossover analysis; the plan's own shuffled-pairing null numbers, 662 vs 1111, did NOT reproduce and are VOID as stated -- a different, more discriminating oracle was used instead). packages/engine/src/loaders/buckSavedCharacter.ts locates name@1, a 7-byte ability septet@16 (order STR/DEX/CON/INT/WIS/CHA/TECH is this round's hypothesis, NOT independently verified against any digitized Buck Rogers reference), hitPoints@69 mirrored @227 (100% agreement on both full corpora: 54/54 Buck, 63/63 Matrix), and a control_morale-gated moralePercent@231 (reusing monster.ts's decodeMorale). AC, THAC0, damage, category, hitDice and XP were NOT located -- no copy/lookup routine was found in GAME.OVR (a TPOV overlay pool) or START.EXE, and no Buck Rogers monster-manual table is digitized in this repo to cross-check against -- so no MonsterLayoutProfile was added to monster.ts (MonsterLayout.ac/.thac0 are non-optional fields; fabricating an offset was rejected per this project's own standing warning against fitting to the nearest size). CORRECTED 2026-09-05 (round 35 R6, docs/engine/research/prose-wiring-claims.md): this bullet used to end 'buckSavedCharacter.ts is not yet called from packages/engine/src/index.ts or any UI import route (Phase B)'. The tree falsified that one commit later. buckSavedCharacter.ts IS called from packages/engine/src/index.ts (the barrel re-exports decodeBuckSavedCharacter / sniffBuckSavedCharacter / BUCK_SAVED_CHARACTER_SIZE at index.ts:1134-1138) and from the live ?import=buck panel (apps/web/src/ui/importBuckParty.ts:33 imports it, main.ts:2070 arms the route), both landed in commit e156eec. The SCOPE of that wiring is display-only and is the part that must not be dropped: unlike Secret's importSecretParty.ts, importBuckParty.ts deliberately never calls createCharacter / addToParty, because no race, class or level field has been located in this record -- so no decoded Buck value reaches the rules layer or a playable party. This is still a DECODE finding, not a rules one. item0.dax is unchanged by this item: still 1456 bytes, still no seventh profile, still just the 16-byte/91-record plausible reading (raw[0:2] a sequential item id) with no field offsets derived.",
+            "Still NO ROUTE mounts a legal Buck dungeon or overland walk, and no Buck leg is claimed in the campaign matrix. Container decode is not gameplay.",
+            "The C64 disk set corroborates GEO identity but not the other families, and the numbers are not uniform. 15 of 17 shared GEO ids are byte-identical (88.2%) against a 200-trial shuffled-pairing null whose maximum was 4/17 (23.5%) -- clearing the null by about 3.7x, though NOT reproducing the plan's predicted 'at least 30 shared ids, 100% identical'. WALLDEF is 0 of 10 identical (98-99% DIFFERENT, so it is not an identity oracle at all) and ECL is 1 of 25. The two non-identical GEO pairs (DOS ids 67 and 82, 28 and 19 of 1024 bytes differing) were not diagnosed. ITEMFILE00 is byte-identical (0 of 1456 differing) -- a positive result the project's blanket 'compare from offset 2' rule had been hiding as '72% different', because only GEO and ECL carry a DOS-side 2-byte header.",
+            "Monster and item container layouts for Buck remain unmapped (see the first gap above); GEO and WALLDEF ARE reverse-engineered (see detail above), correcting this bullet's earlier blanket denial. None of the four families -- GEO, WALLDEF, monster, or item -- is wired to any exploration or combat surface (round 34 R5, docs/engine/research/ledger-stale-claims.md).",
+            "The 25-block ECL corpus is disassembled (see ecl above) but never executed against a GEO map or live game state."
+          ]
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "Two full asset manifests are shipped and reachable from the Library game picker (apps/web/src/ui/gameview.ts GAME_IDS): buck-rogers-countdown-to-doomsday (DOS VGA, 489 frames across TITLE/PIC/CHARS/COMSPR/SPRIT/MARSCOM/VENUSCOM/HITEK/LOTEK/SHIPS/8X8D1, pinned by e2e case buck-rogers-view) and buck-rogers-amiga (WHDLoad Amiga dump, 454 frames across the equivalent DAA families, pinned by e2e case buck-rogers-amiga-view). Both decode with the SAME unmodified DAX/DAA decoders already shipped for CoK/DoK; no new decoder was written for either platform, and TS decodeDaa pixel-parity with the Python reference decoder is proven on 3 real Amiga blocks (packages/engine/test/buckAmigaArt.test.ts).",
+          "evidence": [
+            "apps/web/games/buck-rogers-countdown-to-doomsday.json",
+            "apps/web/games/buck-rogers-amiga.json",
+            "apps/web/src/ui/gameview.ts",
+            "apps/web/test/e2e.mjs",
+            "packages/engine/test/buckAmigaArt.test.ts",
+            "packages/engine/src/loaders/daxVgaCompressedPicture.ts",
+            "packages/engine/test/dax-vga-compressed-picture.test.ts"
+          ],
+          "gaps": [
+            "This is asset-browser-level graphics only: no exploration, town, wilderness, or combat screen composites this art in a live route.",
+            "DOS SPRIT1..6 (35 blocks x 3 view distances) are missing their entire 32..175 palette range; both the manifest's own note and the loader's module docblock report 8.81% of non-transparent pixels rendering as flat white placeholder, and no in-file colour source exists anywhere in Buck's own DAX corpus to recover them. That 8.81% figure is documented in two independent places but is not asserted by any standing test; an independent re-derivation this round bracketed it at 8.53%-8.96% under two plausible 'non-transparent' definitions, confirming the order of magnitude without pinning the exact original formula.",
+            "The DOS 8X8D1.DAX block-201 text font is decoded (packages/engine/test/gen1Font.test.ts) but, like every Gen1 title, is deliberately excluded from the whole-game GraphicSet dashboard and, unlike Champions of Krynn's cok-8x8d1 precedent, has no single-asset catalog entry of its own, so it is unreachable in the UI.",
+            "Amiga SHIPS.daa is not cross-mapped block-for-block against the DOS SHIPS.dax; only block-id overlap is noted, not identity."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "PARTIAL as of 2026-09-04 (round 33 R5), upgraded from unsupported: the DOS install's MUSIC.DAX is now DECODED, not merely catalogued. Its song blocks carry the GLBR magic and decode through the same already-shipped Gen1 note-event decoder proven on Death Knights, Gateway, Treasures and Pools of Darkness -- making GLBR a FIVE-title DOS format (Death Knights, Gateway, Treasures, Pools of Darkness, and this title), not the four docs/glbr-format.md originally claimed, and NOT the SIX round 33 briefly claimed -- CORRECTED 2026-09-04 (round 34 R4, docs/engine/research/matrix-cubed-audio.md): Matrix Cubed's own MUSIC.DAX, byte-identical to this title's file, is a leftover copy that Matrix's own engine never opens; Matrix's real music is Miles AIL XMI, unrelated to GLBR (see Matrix Cubed's own audio entry). loadGame reports a {songs, events, channels} census and the game-view header renders it: 8 songs, 1959 events, 31 channel streams. THE DECODER WAS ALREADY CORRECT AND CALLED BY NOTHING; wiring the census is what makes it reachable rather than merely tested (packages/engine/test/loadGameGlbrMusic.test.ts, plus the buck-rogers-view / matrix-cubed-view e2e cases, which pin the exact three numbers rather than a loose 'some songs' match).",
+          "evidence": [
+            "apps/web/games/buck-rogers-countdown-to-doomsday.json"
+          ],
+          "gaps": [
+            "THIS IS A DECODE-AND-CENSUS CLAIM, NOT A PLAYBACK CLAIM. No route plays a Buck song, there is no sequencer, no timing model and no instrument mapping, and no acceptance asserts audible output. The song data decodes; nothing here shows it reaching sound hardware.",
+            "The Buck/Matrix driver does NOT generalize from the other four GLBR titles, and that is measured rather than assumed: docs/midi-dax-format.md 1.5a's byte-level scan finds no AdLib (0x388) or C/MS (0x220) port immediate anywhere in the shared 11,358-byte block-1 driver blob, while it writes the same PIT/speaker/Tandy ports as DoK's. The two titles' driver blobs are byte-identical to each other, which is also why both censuses are the same three numbers -- that agreement is file identity, not two independent confirmations. NOTE (round 34 R4 correction): this driver-blob byte-identity is still an accurate statement about the two MUSIC.DAX FILES, but Matrix's own engine never opens its copy of that file, so this is no longer evidence about Matrix's own playback path -- see Matrix Cubed's own audio entry.",
+            "MUSIC.DAX is catalogued one level further as of 2026-09-03: its block-1 driver blob is byte-identical to Matrix Cubed's (11358 bytes) and writes the same PIT/speaker/Tandy ports as DoK's shared driver, with no AdLib (0x388) or C/MS (0x220) port literal anywhere in the blob — so the hardware backends are a measured gap, not an unknown one (docs/midi-dax-format.md 1.5a). Still no decoder, note-event mapping, or playback path. NOTE (round 34 R4 correction): the comparison to 'Matrix Cubed's' block-1 driver blob above is a comparison to bytes Matrix's own engine never reads -- see Matrix Cubed's own audio entry for its real (XMI) music path."
+          ]
+        },
+        "retail_save": {
+          "status": "partial",
+          "detail": "UPDATED 2026-09-04 (round 34 R2, docs/engine/research/buck-record-layout.md): Buck's own chrdata{1..6}.sav pregenerated-party save format IS now identified, located and decoded -- six plain, uncompressed 259-byte files (no DAX container, no TOC) via the new packages/engine/src/loaders/buckSavedCharacter.ts. Decoded fields: name (PString@1), a 7-byte ability septet@16 (STR/DEX/CON/INT/WIS/CHA/TECH order is this round's hypothesis, NOT independently verified against any digitized Buck Rogers reference), hitPoints@69 (mirrored @227, matching this codebase's Gen1 'HP stored twice' convention), and a control_morale-gated moralePercent@231. All 6 real pregens decode with names matching the embedded PString length byte, 6 distinct nonzero HP values, and 6/6 HP-mirror agreement. This is a DECODE-ONLY result: there is still no encoder. CORRECTED 2026-09-05 (round 35 R6, docs/engine/research/prose-wiring-claims.md): this detail used to continue 'and buckSavedCharacter.ts is not yet wired into packages/engine/src/index.ts or any selected-folder import UI (unlike Secret's importSecretParty.ts) -- both are Phase B work'. Phase B did that work in commit e156eec, and the sentence outlived it. The loader IS exported from packages/engine/src/index.ts (:1134-1138) and IS consumed by the live ?import=buck panel (apps/web/src/ui/importBuckParty.ts:33/99, armed at main.ts:2070). The comparison to importSecretParty.ts still holds in the one way that matters and is retained deliberately: Buck's panel is DISPLAY-ONLY. It never calls createCharacter / addToParty, because no race, class or level byte has been located in the 259-byte record, so nothing it decodes reaches the rules layer, a playable party, or a save writer.",
+          "gaps": [
+            "The decoder covers only the six shipped pregens' name/abilities/HP/morale; class, race, THAC0, AC, skills, equipment, alignment and every other CHRDATA field remain raw/unnamed (see buckSavedCharacter.ts's own doc comment for the full disclosed field list, including why ability field ORDER is unverified).",
+            "No importer route (selected-folder or bundled) or exporter exists yet; buckSavedCharacter.ts is a decoder with no index.ts or UI wiring as of this item."
+          ],
+          "import": {
+            "status": "unsupported",
+            "scope": "No selected-folder or bundled Buck Rogers retail character, party, or campaign-save importer exists.",
+            "evidence": [
+              "docs/engine/research/buck-capability-profile.md"
+            ],
+            "gaps": [
+              "Buck's save file format IS now identified and decoded for the six pregens (round 34 R2, buckSavedCharacter.ts), but no selected-folder or bundled importer routes it into the engine or UI yet -- decode-only, unwired."
+            ]
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-Buck retail save exporter exists.",
+            "evidence": [
+              "docs/engine/research/buck-capability-profile.md"
+            ],
+            "gaps": [
+              "No retail-compatible Buck save encoder exists; the format is now understood for the decoded fields (round 34 R2) but nothing round-trips it back to disk."
+            ]
+          }
+        },
+        "towns": {
+          "status": "unsupported",
+          "detail": "No Buck GEO block has been identified as a town/station, and no route mounts one.",
+          "gaps": [
+            "Town-equivalent structures (space stations, bases) have not been located in Buck's own GEO/ECL corpus."
+          ]
+        },
+        "wilderness": {
+          "status": "unsupported",
+          "detail": "No overland/travel layer is implemented for Buck; SHIPS/SPACETVL/MARSCOM/VENUSCOM assets exist only as raw catalogued pictures, not as a live travel controller.",
+          "gaps": [
+            "No travel-time progression, encounter cadence, or transition handling exists for Buck's space/planet travel model."
+          ]
+        },
+        "quests": {
+          "status": "unsupported",
+          "detail": "No cross-block quest-flag relationship has been identified in Buck's ECL corpus; the 25-block disassembly (see ecl above) has not been searched for writer/reader pairs the way Gateway, Pools, Treasures, and NWN were.",
+          "gaps": [
+            "No quest graph or flag census exists for Buck at any level, engine or browser."
+          ]
+        },
+        "companion": {
+          "status": "unsupported",
+          "detail": "No Buck-specific Gold Box Companion route exists. The Electron selected-folder acceptances cover Secret and Treasures only.",
+          "gaps": [
+            "No Buck Electron selected-folder route is shipped or tested.",
+            "Companion databases and journal semantics are not populated for Buck campaign state."
+          ]
+        }
+      }
+    },
+    {
+      "profile_id": "buck-rogers-matrix-cubed",
+      "capabilities": {
+        "ruleset": {
+          "status": "partial",
+          "detail": "packages/engine/src/detect/profiles.ts assigns ruleset: 'buckrogers' to buck-rogers-matrix-cubed, the SAME generic buckrogers ruleset module Countdown to Doomsday uses (packages/engine/src/ruleset/buckrogers/index.ts): BUCK_ROGERS_CAREERS maps 5 real player careers onto existing AD&D 1e classes, with ability modifiers/XP/THAC0 the unmodified addnd1e originals. The module contains zero game-specific data or logic for either Buck title, so this claim transfers unchanged -- it was not re-measured against Matrix Cubed's own bytes because there is nothing in Matrix Cubed's own files for a purely generic engine module to be measured against.",
+          "evidence": [
+            "packages/engine/src/ruleset/buckrogers/index.ts",
+            "packages/engine/test/buckrogers.test.ts",
+            "packages/engine/src/detect/profiles.ts"
+          ],
+          "gaps": [
+            "No Buck Rogers XXVc-specific combat, weapon, vehicle, or XP math exists; every mechanical number used is the AD&D 1e original, not a science-fiction rule.",
+            "No gameplay route ever instantiates a character on this ruleset for Matrix Cubed specifically; it is exercised only by the ruleset's own unit tests, which are Countdown-flavoured and never load a Matrix Cubed file."
+          ]
+        },
+        "ecl": {
+          "status": "partial",
+          "detail": "Round 31 built a dispatch map from Matrix Cubed's OWN GAME.OVR (tools/map_matrix_ecl_dispatch.py) and shipped the result as ECL_GEN1_MATRIX in packages/engine/src/ecl/disassemble.ts, wired to the ?ecl=matrix inspector route. The starting point remains true and is why this is not a copy of Countdown's entry: Matrix's GAME.OVR carries FBOV -- Curse of the Azure Bonds' overlay magic -- not Countdown's TPOV, so nothing was assumed to carry over. The dispatcher and operand parser were located by the same structural match against the CoAB oracle that Countdown's own tool uses (dispatcher similarity 0.8885/trigram 0.6087; operand parser 0.8750/0.9059). Header shape was read from Matrix's own ECL1.DAX bytes, not inherited: all 33 blocks open with the 0x1388 magic and put the fifth far pointer's vaddr at 0x8014, giving headerLen 22 / vbase 0x7ffe. Matrix dispatches the same 75 opcodes as Countdown with an identical measured word set and 0 disagreements. How much of that agreement is DISCRIMINATING was computed after an adversarial pass attacked the original wording, which said '53 agreeing on a concrete value, 22 both-unmeasured, 0 disagreements' without naming the alternative: the alternative is 'Matrix follows the plain Gen1/CoAB base table', and on most opcodes Countdown's dialect never diverged from that base, so agreeing there costs the alternative nothing. The real arm is 16 of 75, not 53 -- 8 opcodes where the effective word set differs from the base table AND Matrix's own handler yields a concrete value (0x0c, 0x1d, 0x22, 0x23, 0x27, 0x31, 0x3f, 0x40, including 0x27 jumping from base 8 to 2), plus the 8 beyond-0x40 extension opcodes with a measured width, for which the base table has no row at all. Matrix matches Countdown on 16 of 16. 56 shared-range opcodes carry the same word set under plain Gen1 as under ECL_GEN1_MATRIX and so separate nothing, and 22 are vacuous because neither handler reaches the parser. 0x3c is the instructive near-miss: Buck overrides it (base 1 -> 0) so it looks discriminating, but Matrix's own handler is no_far_call and measured nothing, which is why the arm is 8 and not 9. packages/engine/test/matrixEclDialect.test.ts computes this partition rather than restating it. Also 0x2b/0x31 share one compiled handler at offset 0x1c99 in Matrix's binary too, the code-identity evidence Countdown's SHORT_MENU override rests on. Against the corpus, 29 of the 33 retail blocks reach a clean terminating EXIT and 4 desync (blocks 1, 18, 20, 24) -- but that census is NOT the evidence and must not be read as it. Plain Gen1 scores 26/7 on the same blocks, and ECL_GEN1_SHORT_POOLS, a dialect that is wrong for Matrix, ties at exactly 29/4. A raw clean-exit count does not discriminate here; the binary does. WHY THIS IS 'partial' AND NOT 'supported': the derived table came back field-for-field equal to ECL_GEN1_BUCK, so the corpus census under the two dialects is identical BY CONSTRUCTION, not because it was measured twice -- that agreement is arithmetic and is evidence about the two dispatchers, not about these blocks. The eleven beyond-0x40 extension opcodes keep uncertain:true here for the same reason they do in Countdown: their word set was read from a handler prefetch, their MEANING never was. ECL_GEN1_MATRIX is a separate literal rather than an alias precisely so the deep-equal pin in packages/engine/test/matrixEclDialect.test.ts stays able to fail.",
+          "evidence": [
+            "packages/engine/src/ecl/disassemble.ts",
+            "packages/engine/test/matrixEclDialect.test.ts",
+            "tools/map_matrix_ecl_dispatch.py",
+            "docs/engine/research/matrix-ecl-dispatch-map.md",
+            "docs/engine/research/matrix-ecl-dialect.md",
+            "docs/engine/research/matrix-cubed-profile.md"
+          ],
+          "gaps": [
+            "3 of the 33 retail ECL blocks still desync under ECL_GEN1_MATRIX (blocks 18@0x14b0, 20@0x2f2, 24@0x26c) -- the same unresolved class as Countdown's own remaining two. Round 31 recorded 4 (1@0x66e, 18@0x135, 20@0x2f2, 24@0x26c); round 32 gave 0x29/0x2c/0x42 a measured wordSet 0, read from Matrix's OWN handlers under a stated claim boundary that forbids inheriting from Countdown, and the sample moved for two DIFFERENT reasons that are kept apart here. Block 1 is FULLY RESOLVED -- its stop sat on what is now a decoded 0x2c. Block 18 is ATTRIBUTED BUT NOT CLOSED: decoding runs much further, past the old 0x29 stop at 0x135, and then hits a NEW, later, previously-masked desync at 0x14b0. That is a site this patch REVEALS rather than fixes, and counting it as progress would be counting the same block twice. Blocks 20 and 24 are untouched and unrelated to the three opcodes. TWO NUMBERS HERE MUST NOT BE OVERSTATED. First, the census is weak evidence for the dialect: in the four-way null on these same blocks, ECL_GEN1 and ECL_GEN1_SHORT score 7/26 and ECL_GEN1_SHORT_POOLS -- wrong for Matrix -- scores 4/29. Through round 31 Pools TIED ECL_GEN1_MATRIX exactly; it now trails by one block only because Buck/Matrix moved and Pools did not. The tie was never evidence, and its disappearance is not evidence either. Second, the discriminating share of the 75-opcode Countdown agreement moves 16 -> 18, NOT 19: 0x42 does not join the extension bucket, because it carries a bare wordSetOverrides value with no opcodeOverrides mnemonic entry (unlike 0x41 and 0x43+), so the partition helper cannot read its width at all. The other 56 of the 75 remain free for the plain-Gen1 alternative and 22 are vacuous. tools/map_matrix_ecl_dispatch.py, docs/engine/research/matrix-ecl-dialect.md.",
+            "The eleven 0x41..0x4c extension opcodes carry a measured operand width and an INVENTED mnemonic; none of their semantics has been established from Matrix's binary, and all eleven stay uncertain:true.",
+            "The mnemonic strings across the whole table are inherited Gen1 labels. Matrix's binary evidence proves operand counts and the 0x2b/0x31 code identity; it does not independently name any opcode.",
+            "The ?ecl=matrix route single-steps four blocks in an inspector. No gameplay route executes a Matrix Cubed ECL block, and no Matrix leg is claimed in the campaign matrix.",
+            "ECL DECODE CENSUS, SHALLOW AND DEEP (round 33 R1, 2026-09-04): disassembleEclBlock stops at each block's FIRST EXIT, so every clean-EXIT count this project has ever published is a LOWER BOUND -- it never walks the combat, quest or descriptor subroutines placed later in a block's own bytes. walkEclReachable (packages/engine/src/ecl/reachability.ts) follows all five ECL header entry points and every GOTO/GOSUB/ON_GOTO/ON_GOSUB. Measured on this title's 33 retail blocks: 3 shallow desync block(s), 452 deep desync site(s). DEEP EXCEEDS SHALLOW HERE (452 vs 3), so any clean-EXIT count quoted elsewhere in this entry is a lower bound on this title's decode health, not a measure of it. Pinned in packages/engine/test/eclReachability.test.ts; the deep counts are SITES and the shallow counts are BLOCKS, so the two are not directly subtractable.",
+            "ROUND 35 R1 CORRECTION (2026-09-05, re-verified against packages/engine/test/matrixEclDialect.test.ts and eclReachability.test.ts, both green): the same false '/0x42' attribution applies to this row's round-32 clause -- 0x42 was inert through round 34, so that wordSet-0 read came from 0x29/0x2c alone. Wiring 0x42 into a real opcodeOverrides entry this round (same value in both dialects, {wordSet: 0, mnemonic: 'BUCK_EXT_42', uncertain: true}) closes block 24@0x26c, leaving TWO residual desyncs, not three: 18@0x14b0 and 20@0x2f2 (pinned: {desync: 2, cleanExit: 31}). Deep reachability moves too once 0x42 stops being a dead key: deep desync sites 452 -> 16, shallow 3 -> 2, reachable bytes 217,569 -> 236,375, with 528 0x42 instructions across 24 blocks now decoding. DECLINED, NOT CORRECTED HERE: this row's '16 -> 18, NOT 19' discriminating-opcode-share claim and its stated reason ('0x42 ... carries a bare wordSetOverrides entry with no opcodeOverrides mnemonic in either dialect') are also stale -- 0x42 DOES carry an opcodeOverrides entry in both dialects as of this round -- but packages/engine/test/matrixEclDialect.test.ts's own pinned MATRIX_MEASURED set still explicitly excludes 0x42 from that computation as read on 2026-09-05 (discriminatingOverrides stays at 10 entries, extensionsBeyondBase at 7, total 17), which disagrees with a same-round handoff claim that the share becomes 19. Re-measure that specific number against the test file's own pinned arrays before restating it either way; this entry does not adjudicate it. docs/engine/research/buck-matrix-opcode-42.md."
+          ]
+        },
+        "map_container": {
+          "status": "partial",
+          "detail": "Matrix Cubed's own GEO1, ECL1, WALLDEF1, MON0CHA/MON0ITM/MON0SPC, and ITEM0 DAX archives are all extracted and offset-chain-verified (tools/test_matrix_cubed_inventory.py) but none has been parsed for content, and no route mounts a legal Matrix Cubed dungeon, station, or overland walk. UPDATED 2026-09-04 (round 33 R4): 'none has been parsed for content' is no longer accurate for three of the families. Matrix's 25 GEO blocks are all exactly 1026 bytes and decode 100% under decodeGeoBlock, its 11 WALLDEF blocks are each a multiple of 780 and decode 100% under decodeWalldefBlock, and all 33 ECL blocks carry the Gen1 0x1388 magic. Sizes are decompressed sizes. docs/engine/research/buck-containers.md. PROMOTED unsupported -> partial (round 34 R5, docs/engine/research/ledger-stale-claims.md): listPairedGen1Areas pairs 22 of Matrix's own GEO1.DAX/ECL1.DAX area ids (1,17,18,21,33,34,35,38,49,50,64,65,66,80,81,82,84,96,97,112,113,114) under the exact criterion gen1AreaIndex.ts uses -- MORE paired areas than Countdown's 16 across its six disks, on the same criterion that earns Countdown's own partial status. All 25 sniffed GEO blocks and all 11 WALLDEF1.DAX blocks (each 2340 = 3x780 bytes) independently decode without throwing under decodeGeoBlock/decodeWalldefBlock. The alternative (\"Matrix's ids are not paired the CoK way\", predicting 0) is rejected.",
+          "evidence": [
+            "docs/engine/research/matrix-cubed-profile.md"
+          ],
+          "gaps": [
+            "Monster and item container layouts for Matrix Cubed remain unmapped (259-byte monster records and a 1456-byte item table match no existing layout profile; see Countdown's own map_container entry for the measurement); GEO and WALLDEF ARE reverse-engineered (see detail above). None of the four families is wired to any exploration or combat surface (round 34 R5, docs/engine/research/ledger-stale-claims.md).",
+            "CORRECTED 2026-09-04: this gap said ECL1.DAX's 33 blocks 'have not even been disassembled', which was already false when written -- round 31 shipped ECL_GEN1_MATRIX and this profile's own ecl entry describes the resulting 33-block census in detail. Two entries in the same ledger contradicted each other for two rounds. What remains true: no Matrix ECL block is executed against a GEO map or live game state, and no Matrix leg is claimed in the campaign matrix. Monster and item record layouts also remain unmapped (259-byte monster records match no existing profile; see Countdown's own map_container entry for the measurement)."
+          ]
+        },
+        "graphics": {
+          "status": "partial",
+          "detail": "Extracted from the read-only D:/Games/Emulator/DOS/Goldbox/buckrogers2_dos_win.7z bundle into matrixcubed_extracted/ (git-ignored, never vendored). All 19 graphics-bearing .DAX files (TITLE/BIGPIC1/PIC1/PIC7/PIC8/SPRIT1/BACK1/BORDERS/CPIC1/CHARS/8X8D0/8X8D1/COMSPR/MARSCOM/VENUSCOM/HITEK/LOTEK/SHIPS/CURSOR) decode with the SAME unmodified DAX decoder path (tools/dax_decode.py's own vga-chunky-items / vga-compressed-picture classifiers, the same classification order its main() uses) already shipped for Countdown to Doomsday; no new decoder was written. Measured total: 3603 standard frames, pinned per-file by tools/test_matrix_cubed_inventory.py, plus 7 blocks the classifier leaves complex/unsupported (the 8X8D1 font block at id 201, and SHIPS' 6 non-picture 108-byte records at ids 40/41/42/43/44/50 -- both structurally identical in shape and even block id to Countdown's own equivalents). Every single block across the whole picture corpus classifies as one of the two embedded-6-bit-DAC-palette VGA formats and ZERO as a plain EGA 4bpp frame, which is the byte evidence for correcting packages/engine/src/detect/profiles.ts's buck-rogers-matrix-cubed graphicSet from 'dos-ega' to 'dos-vga' (packages/engine/test/detect.test.ts asserts the correction).",
+          "evidence": [
+            "apps/web/games/buck-rogers-matrix-cubed.json",
+            "tools/dax_decode.py",
+            "tools/test_matrix_cubed_inventory.py",
+            "packages/engine/src/detect/profiles.ts",
+            "packages/engine/test/detect.test.ts",
+            "docs/engine/research/matrix-cubed-profile.md"
+          ],
+          "gaps": [
+            "This is asset-browser-level graphics only: no exploration, town, wilderness, or combat screen composites this art in a live route, and no e2e case exercises it until Phase B lands one.",
+            "8X8D1 block 201 (the likely text font, by byte-size analogy with Countdown's own font block) is carried in the manifest but not independently decoded or verified as a font here.",
+            "SHIPS' 6 non-picture 108-byte records are catalogued by id only; their field contents were not parsed (Countdown's own SHIPS note describes its equivalent fields, but that was not re-derived against Matrix Cubed's own bytes).",
+            "Whether SPRIT1's DAC 32..175 range is padded the same way Countdown's own SPRIT family is (documented 8.81% white-placeholder gap) was not checked for Matrix Cubed."
+          ]
+        },
+        "audio": {
+          "status": "partial",
+          "detail": "UPDATED 2026-09-04 (round 34 R4, docs/engine/research/matrix-cubed-audio.md): Matrix Cubed's OWN music is NOT its MUSIC.DAX. That file is byte-identical (sha256) to Buck Rogers: Countdown to Doomsday's own MUSIC.DAX and is never opened by Matrix's own unpacked START.EXE or GAME.OVR (tools/matrix_music_strings.py: 0 file-open references in either binary, against Countdown's own 2 -- a Pascal-string 'MUSIC'+'.dax' construction found only in Countdown's loader). Matrix's real music is Miles AIL: three XMI files (BUCKA/B/C.XMI, 7 songs each -- BUCKA 897/134/244/82/213/146/968 events per song, BUCKB 844/109/209/62/221/139/1039, BUCKC 153/27/68/30/24/11/82) plus a 152-instrument FATV9.AD timbre bank (the same container shape as DQK's own 199-instrument INSTR.AD, a smaller bank as predicted), decoded through the EXISTING packages/engine/src/audio/xmi.ts / instrAd.ts decoders with ZERO code changes. apps/web/src/audio/gameAudio.ts's ensureLoaded() now routes game === 'matrix' through this XMI path (MATRIX_MUSIC_XMI / MATRIX_INSTR_AD, mirroring DQK's ADDQ1.XMI + INSTR.AD wiring) instead of GLBR_MUSIC_GAMES, which no longer lists 'matrix' at all.",
+          "evidence": [
+            "docs/engine/research/matrix-cubed-profile.md"
+          ],
+          "gaps": [
+            "THIS CORRECTS ROUND 33's OWN CLAIM FOR THIS TITLE: the '8 GLBR songs, 1959 events, 31 channel streams' this entry previously reported for Matrix was Countdown's file identity, not two independent confirmations of Matrix's own music -- Matrix's own engine never opens that file.",
+            "CLOSED IN ROUND 34 PHASE B (this gap read 'THE DASHBOARD CENSUS HAS NOT CAUGHT UP' when R4 measured it, because the manifest had not yet been patched). apps/web/games/buck-rogers-matrix-cubed.json now lists BUCKA/B/C.XMI (plus FATV9.AD/.BNK/.CAT and the five .ADV drivers), which flips loadGame.ts's manifest-driven hasXmiSiblings rule: the GLBR census is suppressed for this title's leftover MUSIC.DAX and xmiMusicCensus reports 21 songs / 5702 events / 95 channel streams instead. Those three numbers were re-measured through the SHIPPED code path (not the test-local manifest clone R4 used) and agree with R4 exactly, per file: BUCKA 7/2684/45, BUCKB 7/2623/43, BUCKC 7/395/7. GameMusicSummary gained a `format` field so the dashboard stops labelling every census 'GLBR'. Pinned two-sided in apps/web/test/e2e.mjs's matrix-cubed-view case (MATRIX_MUSIC_ROW must match AND Countdown's GLBR row must NOT), and in packages/engine/test/loadGameGlbrMusic.test.ts, whose test-local clone is now inverted: it STRIPS the .XMI rows and shows the same MUSIC.DAX bytes revert to 8/1959/31, so hasXmiSiblings is proven to be what drives the switch.",
+            "Which of the five .ADV hardware drivers (ADLIB/MT32MPU/SBFM/TANDY/PCSPKR) Matrix selects at runtime, and which of BUCKA/BUCKB/BUCKC.XMI plays at which scene, are both undetermined -- gameAudio.ts's own choice of BUCKA.XMI's first song is an honest-arbitrary pick, not a verified 'this is the title theme' claim, the same evidentiary level DQK's own ADDQ1.XMI pick already carries.",
+            "This remains a decode-and-playback-WIRING claim, not an audible-output proof: no acceptance test asserts that sound actually reaches the speaker."
+          ]
+        },
+        "retail_save": {
+          "status": "unsupported",
+          "detail": "Matrix Cubed's own save-game format has not been identified, located, or decoded. Two raw save files ARE present in the extracted archive (SAVE/ME.STF, 124 bytes; SAVE/ME.WHO, 259 bytes) but neither has been examined at all -- their presence is noted as a lead for a future importer, not evidence of understanding.",
+          "gaps": [
+            "There is no bidirectional or one-way bridge to any Matrix Cubed save/campaign file, and the file format itself is unrecovered."
+          ],
+          "import": {
+            "status": "unsupported",
+            "scope": "No selected-folder or bundled Matrix Cubed retail character, party, or campaign-save importer exists.",
+            "evidence": [
+              "docs/engine/research/matrix-cubed-profile.md"
+            ],
+            "gaps": [
+              "Matrix Cubed's save file format has not even been identified, let alone mapped into an importer. SAVE/ME.STF and SAVE/ME.WHO exist in the extracted archive and have not been opened."
+            ]
+          },
+          "export": {
+            "status": "unsupported",
+            "scope": "No Greybox session-to-Matrix-Cubed retail save exporter exists.",
+            "evidence": [
+              "docs/engine/research/matrix-cubed-profile.md"
+            ],
+            "gaps": [
+              "No retail-compatible Matrix Cubed save encoder or format understanding exists."
+            ]
+          }
+        },
+        "towns": {
+          "status": "unsupported",
+          "detail": "No Matrix Cubed GEO block has been identified as a town/station, and no route mounts one.",
+          "gaps": [
+            "Town-equivalent structures have not been located in Matrix Cubed's own GEO/ECL corpus."
+          ]
+        },
+        "wilderness": {
+          "status": "unsupported",
+          "detail": "No overland/travel layer is implemented for Matrix Cubed; its SHIPS/MARSCOM/VENUSCOM assets exist only as raw catalogued pictures, not as a live travel controller.",
+          "gaps": [
+            "No travel-time progression, encounter cadence, or transition handling exists for Matrix Cubed's space/planet travel model."
+          ]
+        },
+        "quests": {
+          "status": "unsupported",
+          "detail": "No cross-block quest-flag relationship has been identified in Matrix Cubed's ECL corpus. CORRECTED 2026-09-04 (round 34 R5, docs/engine/research/ledger-stale-claims.md): this entry previously said the corpus \"has not even been disassembled\", which was already false when written -- this profile's own ecl entry describes an extensive dispatch-map-derived disassembly (ECL_GEN1_MATRIX, round 31; 30 of 33 retail blocks reach a clean terminating EXIT, round 32). The corpus IS disassembled; what remains true is that it has not been searched for cross-block quest-flag writer/reader pairs the way Gateway, Pools, Treasures, and NWN were.",
+          "gaps": [
+            "No quest graph or flag census exists for Matrix Cubed at any level, engine or browser."
+          ]
+        },
+        "companion": {
+          "status": "unsupported",
+          "detail": "No Matrix Cubed-specific Gold Box Companion route exists.",
+          "gaps": [
+            "No Matrix Cubed Electron selected-folder route is shipped or tested.",
+            "Companion databases and journal semantics are not populated for Matrix Cubed campaign state."
+          ]
+        }
+      }
+    }
+  ]
+}

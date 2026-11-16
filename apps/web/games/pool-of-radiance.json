@@ -1,0 +1,63 @@
+{
+  "id": "pool-of-radiance",
+  "title": "Pool of Radiance",
+  "platform": "DOS (EGA)",
+  "container": "DAX (little-endian, fixed EGA-16 palette, signed-byte RLE) + FBOV overlay pool",
+  "endianness": "little",
+  "display": { "width": 320, "height": 200, "pixelAspect": 1.2, "defaultZoom": 2 },
+  "files": [
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/TITLE.DAX", "category": "title", "label": "TITLE (title screen)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/PIC1.DAX", "category": "scenes", "label": "PIC1 (animated scenes)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/PIC2.DAX", "category": "scenes", "label": "PIC2 (animated scenes)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/PIC3.DAX", "category": "scenes", "label": "PIC3 (animated scenes)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/PIC4.DAX", "category": "scenes", "label": "PIC4 (animated scenes)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/PIC5.DAX", "category": "scenes", "label": "PIC5 (animated scenes)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/PIC6.DAX", "category": "scenes", "label": "PIC6 (animated scenes)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/PIC7.DAX", "category": "scenes", "label": "PIC7 (animated scenes)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/PIC8.DAX", "category": "scenes", "label": "PIC8 (animated scenes)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/CPIC1.DAX", "category": "portraits", "label": "CPIC1 (combat portraits)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/CPIC2.DAX", "category": "portraits", "label": "CPIC2 (combat portraits)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/CPIC3.DAX", "category": "portraits", "label": "CPIC3 (combat portraits)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/CPIC4.DAX", "category": "portraits", "label": "CPIC4 (combat portraits)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/CPIC5.DAX", "category": "portraits", "label": "CPIC5 (combat portraits)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/CPIC6.DAX", "category": "portraits", "label": "CPIC6 (combat portraits)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/CPIC7.DAX", "category": "portraits", "label": "CPIC7 (combat portraits)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/CPIC8.DAX", "category": "portraits", "label": "CPIC8 (combat portraits)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/CHEAD.DAX", "category": "portraits", "label": "CHEAD (character heads)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/8X8D1.DAX", "category": "tiles", "label": "8X8D1 (dungeon wall/tile art)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/8X8D2.DAX", "category": "tiles", "label": "8X8D2 (dungeon wall/tile art)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/8X8D3.DAX", "category": "tiles", "label": "8X8D3 (dungeon wall/tile art)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/8X8D4.DAX", "category": "tiles", "label": "8X8D4 (dungeon wall/tile art)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/8X8D5.DAX", "category": "tiles", "label": "8X8D5 (dungeon wall/tile art)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/8X8D6.DAX", "category": "tiles", "label": "8X8D6 (dungeon wall/tile art)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/8X8D7.DAX", "category": "tiles", "label": "8X8D7 (dungeon wall/tile art)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/8X8D8.DAX", "category": "tiles", "label": "8X8D8 (dungeon wall/tile art)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/DUNGCOM.DAX", "category": "tiles", "label": "DUNGCOM (dungeon combat terrain)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/WILDCOM.DAX", "category": "tiles", "label": "WILDCOM (wilderness combat terrain)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/RANDCOM.DAX", "category": "tiles", "label": "RANDCOM (random combat terrain)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/SPRIT1.DAX", "category": "sprites", "label": "SPRIT1 (creature sprites)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/SPRIT2.DAX", "category": "sprites", "label": "SPRIT2 (creature sprites)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/SPRIT3.DAX", "category": "sprites", "label": "SPRIT3 (creature sprites)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/SPRIT4.DAX", "category": "sprites", "label": "SPRIT4 (creature sprites)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/SPRIT5.DAX", "category": "sprites", "label": "SPRIT5 (creature sprites)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/SPRIT6.DAX", "category": "sprites", "label": "SPRIT6 (creature sprites)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/SPRIT7.DAX", "category": "sprites", "label": "SPRIT7 (creature sprites)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/SPRIT8.DAX", "category": "sprites", "label": "SPRIT8 (creature sprites)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/COMSPR.DAX", "category": "sprites", "label": "COMSPR (combat sprites)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/CBODY.DAX", "category": "ui", "label": "CBODY (paperdoll/body art)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/BACPAC.DAX", "category": "ui", "label": "BACPAC (UI/backpack art)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/GEO1.DAX", "category": "data", "label": "GEO1 (map data)", "decode": false, "note": "ECL1#18 route proof uses GEO block 18" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/ECL1.DAX", "category": "data", "label": "ECL1 (event scripts)", "decode": false, "note": "Browser route uses block 18 with entry offset 0x73" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/WALLDEF1.DAX", "category": "data", "label": "WALLDEF1 (wall definitions)", "decode": false, "note": "Route proof resolves WALLDEF blocks 1, 3, 5" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/MON1CHA.DAX", "category": "data", "label": "MON1CHA (monster tables)", "decode": false, "note": "15 decoded 285-byte Pool monster records" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/MON1ITM.DAX", "category": "data", "label": "MON1ITM (monster items)", "decode": false, "note": "Monster item side-table present" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/ITEM1.DAX", "category": "data", "label": "ITEM1 (item table)", "decode": false, "note": "63-byte family item table blocks present" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pool of Radiance/POOLRAD/GAME.OVR", "category": "data", "label": "GAME.OVR (FBOV overlay pool)", "decode": false, "note": "35 FBOV overlay descriptors recovered by tools/gen1_map.py" }
+  ]
+}

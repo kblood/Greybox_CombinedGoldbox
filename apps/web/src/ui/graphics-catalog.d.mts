@@ -1,0 +1,21 @@
+export type GraphicsCatalog = {
+  scopes: { game: string; sourceCount: number; platforms: string[]; editions: string[]; completeness: 'not-established' }[];
+  source(id: string): any | null;
+  sourcesFor(ids: readonly string[]): (any | null)[];
+  sources: any[];
+  crossVersionLinksFor(id: string): any[];
+  restylesFor(id: string): any[];
+  restyleOutputGroupsFor(id: string): { sha256: string; uses: { restyle: any; output: any }[] }[];
+  inspectRestyleReuse(id: string): { sourceId: string; generationRecommendation: 'none';
+    alreadyLinkedOutputs: { sha256: string; uses: { restyle: any; output: any }[];
+      otherByteIdenticalUses: { restyle: any; output: any }[] }[];
+    possibleReuse: { sha256: string; reason: string;
+      uses: { sourceId: string; link: any; restyle: any; output: any }[] }[];
+    unresolvedLineage: { sourceId: string; link: any; restyleId?: string; reason: string }[] };
+  animationGroupsFor(id: string): { id: string; semantics: string; playback: string; status: string; evidence: any[];
+    frames: { assetId: string; order: number; role: string }[] }[];
+  animationGroupMatchesFor(groupId: string): { sourceGroupId: string; targetGroupId: string; frameCount: number; candidateCount: number;
+    sourceGroup: any; targetGroup: any; framePairs: { order: number; sourceAssetId: string; targetAssetId: string }[] }[];
+  appearanceMembershipsFor(id: string): { appearance: any; variantIndex: number; role: string }[];
+};
+export function createGraphicsCatalog(registry: any): GraphicsCatalog;

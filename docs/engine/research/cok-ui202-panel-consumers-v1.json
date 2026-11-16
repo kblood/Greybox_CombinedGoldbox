@@ -1,0 +1,407 @@
+{
+  "schema": "cok-ui202-panel-consumers-v1",
+  "scope": "Current CoK UI panels using DOS block-202 tiles 20\u201325 as the COK_FRAME_LAYOUT outer border.",
+  "sourceArchive": {
+    "path": "Champions of Krynn/8X8D1.DAX",
+    "sha256": "14fd0bed83d383deca6195e3145145ad0ab4c58a5939a6e6fc0d3efc8c4bc915",
+    "entry": {
+      "entryIndex": 1,
+      "blockId": 202,
+      "offset": 1415,
+      "storedBytes": 1080,
+      "declaredRawBytes": 1233,
+      "payloadSha256": "6c3e04ebbc1124b083a2fd64d7f2e608921af153af27827009df054d9c51727a",
+      "rawSha256": "348d454b20f8504385b6e115f8463e61d727cb734da15a7f41a87d13212a2b4a",
+      "drawableCount": 38
+    }
+  },
+  "baseReceipt": {
+    "path": "docs/engine/research/cok-ui202-consumers-v1.json",
+    "sha256": "4984c0cf822ad468aa9217d4b02bae15580611001a1433fd7bed290877fb61b5"
+  },
+  "sourcePins": {
+    "tools/cok_ui202_consumers.py": "e3caf40a68083ce7fa8b2b48d9fefadf5558c40a4d5f14fb531d91bef4216d45",
+    "apps/web/src/ui/gameData.ts": "92f958814cbaa7db0d92e3317d71a3a7a5971905930a46733db27d5eed12da9c",
+    "apps/web/src/ui/explore.ts": "78e14ad80b8084ad3114fa7119d4ec7832f41c2d0966bb1a84d848767d7a4a0c",
+    "apps/web/src/ui/charSheet.ts": "2deaabeb425c60692bc11107585a90ec77c503cfdca9f0d95a096b38074a6d3b",
+    "apps/web/src/ui/automapPanel.ts": "19275d720a32078bc6f3277f2f08d272065aa181d235d6ce21164d36587b7036",
+    "apps/web/src/ui/hudPanel.ts": "d73638fb4f537d5682677dff8addff08664d4a25003c88bdcce10b37eb41f162",
+    "apps/web/src/ui/inventory.ts": "488d403e9094de88b354105afb7bd2678d41e986ce5e4fed128fe3524105f860",
+    "apps/web/src/ui/journal.ts": "0e1b33d0d2646407ed46038515c6fbf850d6b60de811c04b887d3403ba02df92",
+    "apps/web/src/ui/mainMenu.ts": "c15dcb2203b47697d82a4f14644245828ad524c52664ad285336e9927bd0967c",
+    "apps/web/src/ui/referenceDb.ts": "78fb5905438ec7acdeaf0c14251cf6a49cae631df5314c1c0f18c75447353413",
+    "apps/web/src/ui/magic.ts": "60dc71327153caa3c8244ca60e7c3e4eed786bb1ae06b5942ca89e37f51201dd",
+    "apps/web/src/ui/town.ts": "da01e0d952a619823776e151336c9b026d7d768ed9130f75b1360b9a931a657c",
+    "apps/web/src/ui/wilderness.ts": "9adf80a0fdcc41a8585f910c8e1dd2c0288d1391c5ca35aeb54000e343fbf792",
+    "apps/web/src/ui/combat.ts": "e755d05e77ae96c74e9778490c34f4ded37c01e98f4b602234669878585a8a4f",
+    "apps/web/src/ui/companionPanel.ts": "988fcb3c7d787973b1728c8322fd3d38f24b3049da30a6e23ead9b33ac7a945b",
+    "packages/engine/src/render/exploreScreen.ts": "7af5d42793d590b4cfc3dfcbf5a5efc180dfec1584e123115bbbb68803985736",
+    "packages/engine/src/render/charSheet.ts": "d5f8994ae66ed52f9fbeb3373807362b6deb2d4e5381987d8b8fcf59f050d321",
+    "packages/engine/src/render/automapPanel.ts": "f8cddb97fde615b6ea7fb90430bf9e6efeb9d3b6b20a0d945a2154690f4445fc",
+    "packages/engine/src/render/hudPanel.ts": "aea08bdf981f09be07b086ef8bfb635ece52332ced79dd276b6c55b4c7902960",
+    "packages/engine/src/render/inventory.ts": "ea9d4bd3a82417ac85d588505ecc9eac0f6d0ce6b126ab6200f4c996f635763a",
+    "packages/engine/src/render/journalScreen.ts": "c1fd56e19294de120b4d1a4442c1d6e9445e5e6514eb911f3af625d19c51d5da",
+    "packages/engine/src/render/mainMenu.ts": "11cbfd8c15ea49634db1b245705f7286c063f683ffa7e1b6503cb2c8f924e467",
+    "packages/engine/src/render/referenceDb.ts": "80f5d06231f6c932f041ee3ac7440064f0a88265d2257970be8618ca028cabbb",
+    "packages/engine/src/render/spellbook.ts": "4ef5e16e7bd4275f535b5f7893cb0b070b678141e1d4fd89bbd396796e448217",
+    "packages/engine/src/render/townScreen.ts": "80e1b659eaecf78c87a68832680d4e2ea9696af7bce7519940118686c349ee42",
+    "packages/engine/src/render/treasure.ts": "5191fa399ad540c3d496e6aef165b73e9d8c2d32ed68edc3b67ae06f854d9a7d",
+    "packages/engine/src/render/wildernessScreen.ts": "da5c6d038df2af2add015c509fb98e3a3e345f333307c186278bf6a3a8898e7e"
+  },
+  "sharedRenderer": {
+    "layout": "COK_FRAME_LAYOUT",
+    "path": "packages/engine/src/render/exploreScreen.ts",
+    "drawChain": [
+      "drawOuterBorder",
+      "putFrame",
+      "frameTile",
+      "blitTile"
+    ],
+    "tileValues": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "condition": "frameTiles is non-null, a target tile exists, and no caller overrides the CoK layout."
+  },
+  "panels": [
+    {
+      "id": "character-sheet",
+      "routes": [
+        {
+          "id": "main-menu-view",
+          "producer": "mainMenu View action forwards CoK `frameTiles`",
+          "consumer": "openCharSheet \u2192 charSheet.paint \u2192 composeCharSheet \u2192 drawOuterBorder"
+        },
+        {
+          "id": "exploration-view",
+          "producer": "explore View action forwards CoK `frameTiles`",
+          "consumer": "openCharSheet \u2192 charSheet.paint \u2192 composeCharSheet \u2192 drawOuterBorder"
+        },
+        {
+          "id": "combat-view",
+          "producer": "combat View action enters the shared character-sheet route with CoK `frameTiles`",
+          "consumer": "openCharSheet \u2192 charSheet.paint \u2192 composeCharSheet \u2192 drawOuterBorder"
+        },
+        {
+          "id": "companion-character-tab",
+          "producer": "companionPanel.paint forwards `source.frameTiles` and `source.frameLayout`",
+          "consumer": "composeCharSheet \u2192 drawOuterBorder"
+        }
+      ]
+    },
+    {
+      "id": "automap",
+      "routes": [
+        {
+          "id": "standalone-inspector",
+          "producer": "startAutomap \u2192 gameData('cok').tilesPath \u2192 block-202 loadChrome",
+          "consumer": "drawScreen \u2192 composeAutomapPanel \u2192 drawOuterBorder",
+          "condition": "Development-only standalone inspector."
+        },
+        {
+          "id": "companion-automap-tab",
+          "producer": "companionPanel.paint forwards `source.frameTiles` and `source.frameLayout`",
+          "consumer": "composeAutomapPanel \u2192 drawOuterBorder"
+        }
+      ]
+    },
+    {
+      "id": "party-hud",
+      "routes": [
+        {
+          "id": "standalone-hud",
+          "producer": "startHud \u2192 CoK TILES_PATH \u2192 block-202 loadChrome",
+          "consumer": "drawScreen \u2192 composeHudPanel \u2192 drawOuterBorder"
+        },
+        {
+          "id": "companion-hud-tab",
+          "producer": "companionPanel.paint forwards `source.frameTiles` and `source.frameLayout`",
+          "consumer": "composeHudPanel \u2192 drawOuterBorder"
+        }
+      ]
+    },
+    {
+      "id": "inventory",
+      "routes": [
+        {
+          "id": "standalone-inventory",
+          "producer": "startInventory \u2192 CoK TILES_PATH \u2192 block-202 decode",
+          "consumer": "paint \u2192 composeInventory \u2192 drawOuterBorder"
+        },
+        {
+          "id": "character-sheet-items",
+          "producer": "charSheet forwards its CoK tiles to openInventory",
+          "consumer": "paint \u2192 composeInventory \u2192 drawOuterBorder"
+        }
+      ]
+    },
+    {
+      "id": "journal",
+      "routes": [
+        {
+          "id": "standalone-journal",
+          "producer": "startJournal \u2192 CoK TILES_PATH \u2192 block-202 loadChrome",
+          "consumer": "drawScreen \u2192 composeJournalScreen \u2192 drawOuterBorder"
+        },
+        {
+          "id": "companion-journal-tab",
+          "producer": "companionPanel.paint forwards `source.frameTiles` and `source.frameLayout`",
+          "consumer": "composeJournalScreen \u2192 drawOuterBorder"
+        }
+      ]
+    },
+    {
+      "id": "main-menu",
+      "routes": [
+        {
+          "id": "standalone-main-menu",
+          "producer": "startMainMenu \u2192 CoK TILES_PATH \u2192 block-202 loadChrome",
+          "consumer": "draw \u2192 composeMainMenu \u2192 drawOuterBorder"
+        }
+      ]
+    },
+    {
+      "id": "reference-database",
+      "routes": [
+        {
+          "id": "standalone-reference-database",
+          "producer": "startReferenceDb \u2192 CoK TILES_PATH \u2192 block-202 loadChrome",
+          "consumer": "drawScreen \u2192 composeReferenceDb \u2192 drawOuterBorder"
+        },
+        {
+          "id": "companion-reference-tab",
+          "producer": "companionPanel.paint forwards `source.frameTiles` and `source.frameLayout`",
+          "consumer": "composeReferenceDb \u2192 drawOuterBorder"
+        }
+      ]
+    },
+    {
+      "id": "spellbook",
+      "routes": [
+        {
+          "id": "exploration-spellbook",
+          "producer": "CoK exploration forwards its current `frameTiles`",
+          "consumer": "openMemorize \u2192 paint \u2192 composeSpellbook \u2192 drawOuterBorder"
+        }
+      ]
+    },
+    {
+      "id": "town",
+      "routes": [
+        {
+          "id": "standalone-town",
+          "producer": "startTown defaults to CoK \u2192 CoK TILES_PATH \u2192 block-202 loadChrome",
+          "consumer": "drawScreen \u2192 composeTownScreen \u2192 drawOuterBorder"
+        }
+      ]
+    },
+    {
+      "id": "treasure",
+      "routes": [
+        {
+          "id": "combat-treasure",
+          "producer": "CoK combat loads `frameTileBytes` or its CoK tiles source, defaults to block 202 and extracts frame tiles",
+          "consumer": "combat treasure branch \u2192 composeTreasure \u2192 drawOuterBorder",
+          "condition": "The call omits a layout override; composeTreasure defaults to COK_FRAME_LAYOUT."
+        }
+      ]
+    },
+    {
+      "id": "wilderness",
+      "routes": [
+        {
+          "id": "standalone-wilderness",
+          "producer": "startWilderness \u2192 CoK TILES_PATH \u2192 block-202 loadChrome",
+          "consumer": "drawScreen \u2192 composeWildernessScreen \u2192 drawOuterBorder"
+        }
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/20",
+      "tileIndex": 20,
+      "pixelSha256": "77f94fae983ff3f36d8eb258c4f68999fbd784b39722ccb1f582e1253168532d",
+      "locator": {
+        "kind": "tile",
+        "blockId": 202,
+        "entryIndex": null,
+        "frameIndex": null,
+        "tileIndex": 20,
+        "cellIndex": null
+      },
+      "decodedPngPath": "images/efa0866fb618dd6d2cc0a7bb23377d7f78e856d561fde95a0f230c2b307b5c59.png",
+      "decodedPngRepoPath": "apps/web/dist-app-cok57/restyle/cok-generated/images/efa0866fb618dd6d2cc0a7bb23377d7f78e856d561fde95a0f230c2b307b5c59.png",
+      "decodedPngSha256": "efa0866fb618dd6d2cc0a7bb23377d7f78e856d561fde95a0f230c2b307b5c59",
+      "panelIds": [
+        "character-sheet",
+        "automap",
+        "party-hud",
+        "inventory",
+        "journal",
+        "main-menu",
+        "reference-database",
+        "spellbook",
+        "town",
+        "treasure",
+        "wilderness"
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/21",
+      "tileIndex": 21,
+      "pixelSha256": "afb707f8001c89de2a40e168e5c4acad81dcd54633c3d5a5461425a5743e8611",
+      "locator": {
+        "kind": "tile",
+        "blockId": 202,
+        "entryIndex": null,
+        "frameIndex": null,
+        "tileIndex": 21,
+        "cellIndex": null
+      },
+      "decodedPngPath": "images/e0b028d3fda8ee947e5aa99d3a1ab4c6b26c5807762072e17b068a98e02d1ef8.png",
+      "decodedPngRepoPath": "apps/web/dist-app-cok57/restyle/cok-generated/images/e0b028d3fda8ee947e5aa99d3a1ab4c6b26c5807762072e17b068a98e02d1ef8.png",
+      "decodedPngSha256": "e0b028d3fda8ee947e5aa99d3a1ab4c6b26c5807762072e17b068a98e02d1ef8",
+      "panelIds": [
+        "character-sheet",
+        "automap",
+        "party-hud",
+        "inventory",
+        "journal",
+        "main-menu",
+        "reference-database",
+        "spellbook",
+        "town",
+        "treasure",
+        "wilderness"
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/22",
+      "tileIndex": 22,
+      "pixelSha256": "18fbad7458ee7c6d8e3daf8e22131e2110d2f546dc0d7cc76ebc88eb407bcb30",
+      "locator": {
+        "kind": "tile",
+        "blockId": 202,
+        "entryIndex": null,
+        "frameIndex": null,
+        "tileIndex": 22,
+        "cellIndex": null
+      },
+      "decodedPngPath": "images/f11c4a12936ed9da8042869097d932a5d9c7885ac728100eb78d4cab5670df25.png",
+      "decodedPngRepoPath": "apps/web/dist-app-cok57/restyle/cok-generated/images/f11c4a12936ed9da8042869097d932a5d9c7885ac728100eb78d4cab5670df25.png",
+      "decodedPngSha256": "f11c4a12936ed9da8042869097d932a5d9c7885ac728100eb78d4cab5670df25",
+      "panelIds": [
+        "character-sheet",
+        "automap",
+        "party-hud",
+        "inventory",
+        "journal",
+        "main-menu",
+        "reference-database",
+        "spellbook",
+        "town",
+        "treasure",
+        "wilderness"
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/23",
+      "tileIndex": 23,
+      "pixelSha256": "c1bcc802f17b6843d84fbfc34c5551817617d6d4b88f067e0bb05a4ca935dc8d",
+      "locator": {
+        "kind": "tile",
+        "blockId": 202,
+        "entryIndex": null,
+        "frameIndex": null,
+        "tileIndex": 23,
+        "cellIndex": null
+      },
+      "decodedPngPath": "images/c4550440423f426098d50688e5a459cedcdc3aa2e4fefe8fa803a7b49eba375c.png",
+      "decodedPngRepoPath": "apps/web/dist-app-cok57/restyle/cok-generated/images/c4550440423f426098d50688e5a459cedcdc3aa2e4fefe8fa803a7b49eba375c.png",
+      "decodedPngSha256": "c4550440423f426098d50688e5a459cedcdc3aa2e4fefe8fa803a7b49eba375c",
+      "panelIds": [
+        "character-sheet",
+        "automap",
+        "party-hud",
+        "inventory",
+        "journal",
+        "main-menu",
+        "reference-database",
+        "spellbook",
+        "town",
+        "treasure",
+        "wilderness"
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/24",
+      "tileIndex": 24,
+      "pixelSha256": "88c14e6fbe4559b0fabc5e997f4c872c4ca0b1df6757173211ca1fbd9bea3812",
+      "locator": {
+        "kind": "tile",
+        "blockId": 202,
+        "entryIndex": null,
+        "frameIndex": null,
+        "tileIndex": 24,
+        "cellIndex": null
+      },
+      "decodedPngPath": "images/60b18d650137c1f50f40fa43f758e902bdad7c713f095622d99e8687b8317afa.png",
+      "decodedPngRepoPath": "apps/web/dist-app-cok57/restyle/cok-generated/images/60b18d650137c1f50f40fa43f758e902bdad7c713f095622d99e8687b8317afa.png",
+      "decodedPngSha256": "60b18d650137c1f50f40fa43f758e902bdad7c713f095622d99e8687b8317afa",
+      "panelIds": [
+        "character-sheet",
+        "automap",
+        "party-hud",
+        "inventory",
+        "journal",
+        "main-menu",
+        "reference-database",
+        "spellbook",
+        "town",
+        "treasure",
+        "wilderness"
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/25",
+      "tileIndex": 25,
+      "pixelSha256": "a3d0b6a078ef6fa584ac519dedc916733d1b953e160742a280cb5af4966a7879",
+      "locator": {
+        "kind": "tile",
+        "blockId": 202,
+        "entryIndex": null,
+        "frameIndex": null,
+        "tileIndex": 25,
+        "cellIndex": null
+      },
+      "decodedPngPath": "images/dbefc8c74b5d15ab2f73efc0a9d10add45ffd9c96554b49328ab3a7264c0eb2f.png",
+      "decodedPngRepoPath": "apps/web/dist-app-cok57/restyle/cok-generated/images/dbefc8c74b5d15ab2f73efc0a9d10add45ffd9c96554b49328ab3a7264c0eb2f.png",
+      "decodedPngSha256": "dbefc8c74b5d15ab2f73efc0a9d10add45ffd9c96554b49328ab3a7264c0eb2f",
+      "panelIds": [
+        "character-sheet",
+        "automap",
+        "party-hud",
+        "inventory",
+        "journal",
+        "main-menu",
+        "reference-database",
+        "spellbook",
+        "town",
+        "treasure",
+        "wilderness"
+      ]
+    }
+  ],
+  "limits": [
+    "This records current source-code routes, conditional on supplying the pinned DOS archive's block 202; it does not establish original-game panel behavior or runtime observation.",
+    "The UI loaders select block 202 by block ID. They do not verify this archive hash at load time; the receipt pins the audited source correspondence only.",
+    "Amiga IDs remain separate. No cross-version pixel identity, Restyle counterpart, new asset ID or animation meaning is added.",
+    "Only the outer border is covered. Separators, inner frames, moons, tiles 0\u201319, editor/debug surfaces and route-specific availability are outside this receipt.",
+    "A null frame set or absent target tile does not prove that this tile was drawn; the frame helper may fall back to its straight tile."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "reviewVersion": 1,
+  "date": "2026-11-04",
+  "scope": "Bound CoK DOS 8X8D1 block-202 tiles 20\u201337 to the current source-code consumers and refresh runtime-ledger registry pins.",
+  "source": {
+    "archive": "Champions of Krynn/8X8D1.DAX",
+    "archiveSha256": "14fd0bed83d383deca6195e3145145ad0ab4c58a5939a6e6fc0d3efc8c4bc915",
+    "entryIndex": 1,
+    "blockId": 202,
+    "drawableTiles": 38
+  },
+  "consumerReceipt": {
+    "path": "docs/engine/research/cok-ui202-consumers-v1.json",
+    "sha256": "4984c0cf822ad468aa9217d4b02bae15580611001a1433fd7bed290877fb61b5",
+    "tilesEnriched": 18,
+    "newAssetIds": 0,
+    "validationErrors": 0,
+    "validationWarnings": 7046
+  },
+  "registry": {
+    "path": "docs/engine/research/cok-graphics-identity-registry-v1.json",
+    "sha256": "3324bdaa50f0c1b230654ba580cc6027da5748ef18638e087bc91807c04bf9e2",
+    "sourceAssetCount": 6067,
+    "restyleRecords": 2596,
+    "animationGroups": 104
+  },
+  "runtimeLedgers": {
+    "v1ContractSha256": "126da919460053ac878d38556edaf83441176d5f1f450efc5aec4d36ecee9e30",
+    "v1ReportSha256": "f29162e554c6c59d17067cab67e9345c119e596444d011775fc8de5f91fcbdb6",
+    "v2ContractSha256": "5873c8e14998a86732ba681fc98e09871c5f1eb8b2845d9de94faedc2592819d",
+    "v2ReportSha256": "ec8385114671434d6d6d584fa45cb9ecd166f51d95e2025a9dbd6b5e53f1be0b",
+    "reportChecks": "pass",
+    "mappingDelta": "none"
+  },
+  "consumerSummary": {
+    "tiles20to25": "COK_FRAME_LAYOUT values consumed by the current exploration/combat screen chrome renderer.",
+    "tiles26to37": "The current UI moon-disc groups and phase offsets (red, white, black; four offsets each).",
+    "demoSelectors": [
+      28,
+      32,
+      36
+    ],
+    "demoSemantics": "Static attract-demo selectors only; no animation timing or runtime observation inferred."
+  },
+  "limits": [
+    "This describes the current CoK implementation's source-code use and does not establish original DOS game selector behavior.",
+    "Existing visual descriptions, canonical source IDs, animation groups and runtime admission were not changed.",
+    "No Amiga counterpart, cross-version identity, Restyle counterpart or animation sequence was added.",
+    "Browser runtime, production package and publication remain unverified."
+  ],
+  "producerTool": {
+    "path": "tools/cok_ui202_consumers.py",
+    "sha256": "e3caf40a68083ce7fa8b2b48d9fefadf5558c40a4d5f14fb531d91bef4216d45"
+  }
+}

@@ -1,0 +1,1411 @@
+{
+  "version": 1,
+  "scope": "Cautious visible-appearance descriptions for 108 DOS SPRIT1/SPRIT2/SPRIT3 source frames. Descriptions do not establish frame playback, temporal animation, game use, or subject identity. Exact decoded-pixel duplicates reuse one wording while source IDs remain distinct.",
+  "evidenceImagePathPattern": "apps/web/dist-app-cok57/restyle/cok-generated/images/{sourceSha256}.png",
+  "assets": [
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/1/frame/0",
+      "sourceSha256": "6809b7306e6ce4ea8c15b3a8c8dc6517f9fe496a9cafe97d10ba32ee4aceb017",
+      "pixelSha256": "652965de0acff37d5bc6e083acfbbc25bd5a26db479b2294a52d563edcf28dbb",
+      "visualDescription": "Full-body armored humanoid with blue, violet and magenta surfaces, yellow-orange accents, a curved blade projecting to the upper left, and a round blue shield at the right, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6809b7306e6ce4ea8c15b3a8c8dc6517f9fe496a9cafe97d10ba32ee4aceb017.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 6809b7306e6ce4ea8c15b3a8c8dc6517f9fe496a9cafe97d10ba32ee4aceb017 and decoded pixel SHA-256 652965de0acff37d5bc6e083acfbbc25bd5a26db479b2294a52d563edcf28dbb; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/1/frame/1",
+      "sourceSha256": "416d91576ae14b690b8e9b5b5f3bb9ee113bcac390c4002555f29e56bcba15fe",
+      "pixelSha256": "0f60760a479306b91ed87b12b9649bd6fae89799f6bd355178a894b070b55ad6",
+      "visualDescription": "Compact blue-violet armored figure with a round blue disk at the right and a narrow pale weapon extending left, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/416d91576ae14b690b8e9b5b5f3bb9ee113bcac390c4002555f29e56bcba15fe.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 416d91576ae14b690b8e9b5b5f3bb9ee113bcac390c4002555f29e56bcba15fe and decoded pixel SHA-256 0f60760a479306b91ed87b12b9649bd6fae89799f6bd355178a894b070b55ad6; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/1/frame/2",
+      "sourceSha256": "60afb6177918c4f0b14a5bc77ddf109df00a165255eb62db03c43428330937be",
+      "pixelSha256": "29be74d1148044a7fc315e0408e68c98a67b9b9895d21a56f1c6edcbcfebdc9c",
+      "visualDescription": "Tiny blue-purple figure with a small yellow-orange center and a round blue shape at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/60afb6177918c4f0b14a5bc77ddf109df00a165255eb62db03c43428330937be.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 60afb6177918c4f0b14a5bc77ddf109df00a165255eb62db03c43428330937be and decoded pixel SHA-256 29be74d1148044a7fc315e0408e68c98a67b9b9895d21a56f1c6edcbcfebdc9c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/12/frame/0",
+      "sourceSha256": "8bcaf4ccf3c3f78bb542849f9937efdcb3eba60b776d3a53441b137db165d6b8",
+      "pixelSha256": "fc32462d810738332efdd95baa5bc291f7a950c6fe6915255e6c63d3044a018e",
+      "visualDescription": "Upright pale-pink humanoid with one arm raised around a small cyan detail, the other arm bent, and blue-magenta lower clothing, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8bcaf4ccf3c3f78bb542849f9937efdcb3eba60b776d3a53441b137db165d6b8.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 8bcaf4ccf3c3f78bb542849f9937efdcb3eba60b776d3a53441b137db165d6b8 and decoded pixel SHA-256 fc32462d810738332efdd95baa5bc291f7a950c6fe6915255e6c63d3044a018e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/12/frame/1",
+      "sourceSha256": "2afbd18c07a8ae9af017b20f70d89cf3ab527e084e0cdd0f8a8cfd452d02cef9",
+      "pixelSha256": "093d335bb86080324052e476e11fa055a308c28e9622b10470abc25a0bbca9df",
+      "visualDescription": "Compact pale-pink figure with bent arms and legs, a small cyan accent, and a blue-magenta lower section, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/2afbd18c07a8ae9af017b20f70d89cf3ab527e084e0cdd0f8a8cfd452d02cef9.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 2afbd18c07a8ae9af017b20f70d89cf3ab527e084e0cdd0f8a8cfd452d02cef9 and decoded pixel SHA-256 093d335bb86080324052e476e11fa055a308c28e9622b10470abc25a0bbca9df; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/12/frame/2",
+      "sourceSha256": "27754ac083f4c2b1d0d305d9622dba7b2e61884639f2caceef30c3235d36e5f5",
+      "pixelSha256": "acb8b6a5c5466447be4d2c1eb50805fbbcca6854a6af430a043a22ea4e8a2ca4",
+      "visualDescription": "Tiny pale-pink and magenta upright shape with a blue center and angular lower edge, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/27754ac083f4c2b1d0d305d9622dba7b2e61884639f2caceef30c3235d36e5f5.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 27754ac083f4c2b1d0d305d9622dba7b2e61884639f2caceef30c3235d36e5f5 and decoded pixel SHA-256 acb8b6a5c5466447be4d2c1eb50805fbbcca6854a6af430a043a22ea4e8a2ca4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/30/frame/0",
+      "sourceSha256": "31941124c80dbfdf572175fb8f46ac0f588c4dd9bb5da64b397e80751c95fd77",
+      "pixelSha256": "844230420bcda0391bf91579de278c4c8ff53c7f68220811a2d030ff26377ec3",
+      "visualDescription": "Frontal green-cyan face-like form above a banded torso, framed by two tall curved magenta-violet wings and small dark details, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/31941124c80dbfdf572175fb8f46ac0f588c4dd9bb5da64b397e80751c95fd77.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 31941124c80dbfdf572175fb8f46ac0f588c4dd9bb5da64b397e80751c95fd77 and decoded pixel SHA-256 844230420bcda0391bf91579de278c4c8ff53c7f68220811a2d030ff26377ec3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/30/frame/1",
+      "sourceSha256": "f96a4eb74b391661af3ffe4c687cc60735222f08f0725c9a35bc625ed6ed28e9",
+      "pixelSha256": "76a74e6943443bf17147600466a61e927bc4d0a1997af702815965f5af42c3b0",
+      "visualDescription": "Smaller frontal green-cyan form with a banded center and two raised pink-violet wings, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f96a4eb74b391661af3ffe4c687cc60735222f08f0725c9a35bc625ed6ed28e9.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 f96a4eb74b391661af3ffe4c687cc60735222f08f0725c9a35bc625ed6ed28e9 and decoded pixel SHA-256 76a74e6943443bf17147600466a61e927bc4d0a1997af702815965f5af42c3b0; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/30/frame/2",
+      "sourceSha256": "e26c499402570dd1a2c06de7711f6b6472f11211541fdde584a553e1f2c07212",
+      "pixelSha256": "357cd426731852ccfd0b8231efa1930e7c0587ee06a4d205d955c870da573e14",
+      "visualDescription": "Tiny cyan and magenta cluster with short upward projections over a dark base, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e26c499402570dd1a2c06de7711f6b6472f11211541fdde584a553e1f2c07212.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 e26c499402570dd1a2c06de7711f6b6472f11211541fdde584a553e1f2c07212 and decoded pixel SHA-256 357cd426731852ccfd0b8231efa1930e7c0587ee06a4d205d955c870da573e14; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/35/frame/0",
+      "sourceSha256": "bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f",
+      "pixelSha256": "0247d8df83d3a2c748945a589375af34fc71eec22e9a2219ad08455582e8c388",
+      "visualDescription": "Upright blue and magenta armored or robed figure carrying a tall curved pale staff at the left and a round orange disk at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f and decoded pixel SHA-256 0247d8df83d3a2c748945a589375af34fc71eec22e9a2219ad08455582e8c388; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/35/frame/1",
+      "sourceSha256": "eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43",
+      "pixelSha256": "47ceee6f4a2d5e9fface2301bd131e64d9ee1d1447946571cc31cbd782cdf707",
+      "visualDescription": "Compact blue-magenta side-facing figure with a round orange disk near the shoulder and a thin pale curved staff or shaft, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43 and decoded pixel SHA-256 47ceee6f4a2d5e9fface2301bd131e64d9ee1d1447946571cc31cbd782cdf707; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/35/frame/2",
+      "sourceSha256": "ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a",
+      "pixelSha256": "a8ad3f36745108f856fa8adcb5e318da6c6475d634aeba6fe2cdd91985c68680",
+      "visualDescription": "Tiny blue-pink figure with a short pale extension at the right, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a and decoded pixel SHA-256 a8ad3f36745108f856fa8adcb5e318da6c6475d634aeba6fe2cdd91985c68680; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/8/frame/0",
+      "sourceSha256": "dea28e871b51857aab32370dc7ae206e9444b5828fad73c35c5c6002a91fd187",
+      "pixelSha256": "36b1dba89291d964f9cc289391d3b9ec9cd9f6d891e974e48fa4f3ae89aa8f00",
+      "visualDescription": "Crouched pink-orange figure-like form with a broad rounded upper mass, green and yellow details, bent lower projections, and a dark outline, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/dea28e871b51857aab32370dc7ae206e9444b5828fad73c35c5c6002a91fd187.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 dea28e871b51857aab32370dc7ae206e9444b5828fad73c35c5c6002a91fd187 and decoded pixel SHA-256 36b1dba89291d964f9cc289391d3b9ec9cd9f6d891e974e48fa4f3ae89aa8f00; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/8/frame/1",
+      "sourceSha256": "d7ee96e85e866436dae9fcb1da6f00649b9e7bd7e9464b9d9fd46335cb651c97",
+      "pixelSha256": "ad1954a54580652c01291453fffa0cf7979a5e944159c619826b638eef342b8a",
+      "visualDescription": "Compact pink-orange upright form with a broad top, a small green center and two short lower projections, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d7ee96e85e866436dae9fcb1da6f00649b9e7bd7e9464b9d9fd46335cb651c97.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 d7ee96e85e866436dae9fcb1da6f00649b9e7bd7e9464b9d9fd46335cb651c97 and decoded pixel SHA-256 ad1954a54580652c01291453fffa0cf7979a5e944159c619826b638eef342b8a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit1.dax/block/8/frame/2",
+      "sourceSha256": "c90d698b8a3fc33799ea3d5c51cdb9f4035050e21c1b825bc3a559f86d310583",
+      "pixelSha256": "bb5785b18f7a6c20c8097fea661fa8a142061d2a03768b6f39483c2b92bf7724",
+      "visualDescription": "Tiny pink-orange triangular cluster with a small green center and a dark outline, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c90d698b8a3fc33799ea3d5c51cdb9f4035050e21c1b825bc3a559f86d310583.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 c90d698b8a3fc33799ea3d5c51cdb9f4035050e21c1b825bc3a559f86d310583 and decoded pixel SHA-256 bb5785b18f7a6c20c8097fea661fa8a142061d2a03768b6f39483c2b92bf7724; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/1/frame/0",
+      "sourceSha256": "6809b7306e6ce4ea8c15b3a8c8dc6517f9fe496a9cafe97d10ba32ee4aceb017",
+      "pixelSha256": "652965de0acff37d5bc6e083acfbbc25bd5a26db479b2294a52d563edcf28dbb",
+      "visualDescription": "Full-body armored humanoid with blue, violet and magenta surfaces, yellow-orange accents, a curved blade projecting to the upper left, and a round blue shield at the right, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6809b7306e6ce4ea8c15b3a8c8dc6517f9fe496a9cafe97d10ba32ee4aceb017.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 6809b7306e6ce4ea8c15b3a8c8dc6517f9fe496a9cafe97d10ba32ee4aceb017 and decoded pixel SHA-256 652965de0acff37d5bc6e083acfbbc25bd5a26db479b2294a52d563edcf28dbb; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/1/frame/1",
+      "sourceSha256": "416d91576ae14b690b8e9b5b5f3bb9ee113bcac390c4002555f29e56bcba15fe",
+      "pixelSha256": "0f60760a479306b91ed87b12b9649bd6fae89799f6bd355178a894b070b55ad6",
+      "visualDescription": "Compact blue-violet armored figure with a round blue disk at the right and a narrow pale weapon extending left, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/416d91576ae14b690b8e9b5b5f3bb9ee113bcac390c4002555f29e56bcba15fe.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 416d91576ae14b690b8e9b5b5f3bb9ee113bcac390c4002555f29e56bcba15fe and decoded pixel SHA-256 0f60760a479306b91ed87b12b9649bd6fae89799f6bd355178a894b070b55ad6; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/1/frame/2",
+      "sourceSha256": "60afb6177918c4f0b14a5bc77ddf109df00a165255eb62db03c43428330937be",
+      "pixelSha256": "29be74d1148044a7fc315e0408e68c98a67b9b9895d21a56f1c6edcbcfebdc9c",
+      "visualDescription": "Tiny blue-purple figure with a small yellow-orange center and a round blue shape at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/60afb6177918c4f0b14a5bc77ddf109df00a165255eb62db03c43428330937be.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 60afb6177918c4f0b14a5bc77ddf109df00a165255eb62db03c43428330937be and decoded pixel SHA-256 29be74d1148044a7fc315e0408e68c98a67b9b9895d21a56f1c6edcbcfebdc9c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/0",
+      "sourceSha256": "9cc4814c6573b41a65cef32e33d4a211d36edb26b126b6ab9a0a852fd7a38f6f",
+      "pixelSha256": "7799266344cca32aeff85ba26492e3dbce3ad5005bda94b7b882945bef3c0607",
+      "visualDescription": "Frontal green and magenta symmetrical face-like shape with long leaf-shaped extensions rising on both sides and a horizontally banded lower section, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9cc4814c6573b41a65cef32e33d4a211d36edb26b126b6ab9a0a852fd7a38f6f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 9cc4814c6573b41a65cef32e33d4a211d36edb26b126b6ab9a0a852fd7a38f6f and decoded pixel SHA-256 7799266344cca32aeff85ba26492e3dbce3ad5005bda94b7b882945bef3c0607; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/1",
+      "sourceSha256": "e0377f63365e1d178ea1bb322cfde8d3cd1ffb188e7e65b03abb1625fa10fd10",
+      "pixelSha256": "b7ebe9a5e6d67970d613e2c08f6b61608f6d3c20f02521eb7f2f62ba31850261",
+      "visualDescription": "Smaller green-magenta frontal shape with two raised curved extensions and a narrow striped center, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e0377f63365e1d178ea1bb322cfde8d3cd1ffb188e7e65b03abb1625fa10fd10.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 e0377f63365e1d178ea1bb322cfde8d3cd1ffb188e7e65b03abb1625fa10fd10 and decoded pixel SHA-256 b7ebe9a5e6d67970d613e2c08f6b61608f6d3c20f02521eb7f2f62ba31850261; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/10/frame/2",
+      "sourceSha256": "23b32e588278e0f67148930d5aa5b132283cd770094e51d5c9dc7d78f460b151",
+      "pixelSha256": "9841ffd066272da525c9d608be540901bdc483c411d2668d9fb912f55c2549ec",
+      "visualDescription": "Low green and magenta form with two rounded upward-curving side lobes around a small central section, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/23b32e588278e0f67148930d5aa5b132283cd770094e51d5c9dc7d78f460b151.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 23b32e588278e0f67148930d5aa5b132283cd770094e51d5c9dc7d78f460b151 and decoded pixel SHA-256 9841ffd066272da525c9d608be540901bdc483c411d2668d9fb912f55c2549ec; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/14/entry/12/frame/0",
+      "sourceSha256": "7c6af9708e5940f80496a11ef60c217baead30474ab1b5c69edc52e0ed84d7e6",
+      "pixelSha256": "464ff8bdb1d441189046d3134167ec1be1081b7d3d0496beca83e89be35baef7",
+      "visualDescription": "Full-body blue-magenta armored figure with an orange round shield at the right and a long pale blade raised diagonally above the head, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/7c6af9708e5940f80496a11ef60c217baead30474ab1b5c69edc52e0ed84d7e6.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 7c6af9708e5940f80496a11ef60c217baead30474ab1b5c69edc52e0ed84d7e6 and decoded pixel SHA-256 464ff8bdb1d441189046d3134167ec1be1081b7d3d0496beca83e89be35baef7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/14/entry/12/frame/1",
+      "sourceSha256": "3e9a6e9f92ebae207eac86f24d6401195c070b3411d6c15b7a7ec70cd0c782f1",
+      "pixelSha256": "5c2899b367204f715ace006f60a05c6b0b93939c6244c8e1df666f8fd91e62a3",
+      "visualDescription": "Compact blue-pink armored figure with a pale angled blade projecting over the head and a round orange disk at the side, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3e9a6e9f92ebae207eac86f24d6401195c070b3411d6c15b7a7ec70cd0c782f1.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 3e9a6e9f92ebae207eac86f24d6401195c070b3411d6c15b7a7ec70cd0c782f1 and decoded pixel SHA-256 5c2899b367204f715ace006f60a05c6b0b93939c6244c8e1df666f8fd91e62a3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/14/entry/12/frame/2",
+      "sourceSha256": "e383a3e76c2a7e18ddeb37e414ab3a30bbc723f0fb0bd2e65896ac7dbe50918f",
+      "pixelSha256": "b130e11ab52e9de02caf0294c1a7e2f72ac787af9117e46d46ed6144a3a16344",
+      "visualDescription": "Tiny pink-blue upright figure with a small orange side detail and one pale projecting line, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e383a3e76c2a7e18ddeb37e414ab3a30bbc723f0fb0bd2e65896ac7dbe50918f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 e383a3e76c2a7e18ddeb37e414ab3a30bbc723f0fb0bd2e65896ac7dbe50918f and decoded pixel SHA-256 b130e11ab52e9de02caf0294c1a7e2f72ac787af9117e46d46ed6144a3a16344; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/14/entry/5/frame/0",
+      "sourceSha256": "6809b7306e6ce4ea8c15b3a8c8dc6517f9fe496a9cafe97d10ba32ee4aceb017",
+      "pixelSha256": "652965de0acff37d5bc6e083acfbbc25bd5a26db479b2294a52d563edcf28dbb",
+      "visualDescription": "Full-body armored humanoid with blue, violet and magenta surfaces, yellow-orange accents, a curved blade projecting to the upper left, and a round blue shield at the right, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6809b7306e6ce4ea8c15b3a8c8dc6517f9fe496a9cafe97d10ba32ee4aceb017.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 6809b7306e6ce4ea8c15b3a8c8dc6517f9fe496a9cafe97d10ba32ee4aceb017 and decoded pixel SHA-256 652965de0acff37d5bc6e083acfbbc25bd5a26db479b2294a52d563edcf28dbb; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/14/entry/5/frame/1",
+      "sourceSha256": "416d91576ae14b690b8e9b5b5f3bb9ee113bcac390c4002555f29e56bcba15fe",
+      "pixelSha256": "0f60760a479306b91ed87b12b9649bd6fae89799f6bd355178a894b070b55ad6",
+      "visualDescription": "Compact blue-violet armored figure with a round blue disk at the right and a narrow pale weapon extending left, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/416d91576ae14b690b8e9b5b5f3bb9ee113bcac390c4002555f29e56bcba15fe.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 416d91576ae14b690b8e9b5b5f3bb9ee113bcac390c4002555f29e56bcba15fe and decoded pixel SHA-256 0f60760a479306b91ed87b12b9649bd6fae89799f6bd355178a894b070b55ad6; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/14/entry/5/frame/2",
+      "sourceSha256": "60afb6177918c4f0b14a5bc77ddf109df00a165255eb62db03c43428330937be",
+      "pixelSha256": "29be74d1148044a7fc315e0408e68c98a67b9b9895d21a56f1c6edcbcfebdc9c",
+      "visualDescription": "Tiny blue-purple figure with a small yellow-orange center and a round blue shape at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/60afb6177918c4f0b14a5bc77ddf109df00a165255eb62db03c43428330937be.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 60afb6177918c4f0b14a5bc77ddf109df00a165255eb62db03c43428330937be and decoded pixel SHA-256 29be74d1148044a7fc315e0408e68c98a67b9b9895d21a56f1c6edcbcfebdc9c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/17/frame/0",
+      "sourceSha256": "68c21c18255640e76ead6c9b5793c912bc4e6c91b2ad4309d58cbd5c308bc54d",
+      "pixelSha256": "6527bc9e7bd9a01ae8dd06563002381accb8caa3532e192f14a4724b5bc0f257",
+      "visualDescription": "Flying bat-like form with broad outstretched orange-pink wings, a small patterned central body and separated magenta patches below, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/68c21c18255640e76ead6c9b5793c912bc4e6c91b2ad4309d58cbd5c308bc54d.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 68c21c18255640e76ead6c9b5793c912bc4e6c91b2ad4309d58cbd5c308bc54d and decoded pixel SHA-256 6527bc9e7bd9a01ae8dd06563002381accb8caa3532e192f14a4724b5bc0f257; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/17/frame/1",
+      "sourceSha256": "f031a240fbf50f09c8c5380045a758274d9f600706608961ad4f8f44a9fb16b5",
+      "pixelSha256": "bff90e0279ad7f1136e61e0900d00820f48bc6cb717a2907b80d9dffdc4bd363",
+      "visualDescription": "Horizontal pink-orange wing strip with dark central markings and a few detached magenta fragments below, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f031a240fbf50f09c8c5380045a758274d9f600706608961ad4f8f44a9fb16b5.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 f031a240fbf50f09c8c5380045a758274d9f600706608961ad4f8f44a9fb16b5 and decoded pixel SHA-256 bff90e0279ad7f1136e61e0900d00820f48bc6cb717a2907b80d9dffdc4bd363; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/17/frame/2",
+      "sourceSha256": "51a81d55658388537b16cd31407098440e15297cbc480964188d5edd69e63a0a",
+      "pixelSha256": "ab9f6d4961ea23a19d61aef283ffd6926959803493194f6f3b3644c551401f06",
+      "visualDescription": "Small magenta-orange curved arch with a dark center and detached pink fragments underneath, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/51a81d55658388537b16cd31407098440e15297cbc480964188d5edd69e63a0a.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 51a81d55658388537b16cd31407098440e15297cbc480964188d5edd69e63a0a and decoded pixel SHA-256 ab9f6d4961ea23a19d61aef283ffd6926959803493194f6f3b3644c551401f06; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/19/frame/0",
+      "sourceSha256": "433287e4c5e2ab430f1a2e400e735f573d949bc0085c333b722904b39b05c3e0",
+      "pixelSha256": "a76b37a978f94a0f5f8d189cca8d4baa94fcad0c90ddcb4b70caf3485213b9f5",
+      "visualDescription": "Broad-stance orange-red humanoid with a patterned blue-pink torso, one hand holding a short pale upright blade at the left and a bent arm at the right, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/433287e4c5e2ab430f1a2e400e735f573d949bc0085c333b722904b39b05c3e0.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 433287e4c5e2ab430f1a2e400e735f573d949bc0085c333b722904b39b05c3e0 and decoded pixel SHA-256 a76b37a978f94a0f5f8d189cca8d4baa94fcad0c90ddcb4b70caf3485213b9f5; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/19/frame/1",
+      "sourceSha256": "39eb984d78b351430e9e903cd97782e3a564bc4ab54bb5b324dae7a52e706dcc",
+      "pixelSha256": "db81bdaa60497277ead3bd2a399a5de2daecc47a543e931d2c3adf5cf8abc0cf",
+      "visualDescription": "Compact orange-magenta humanoid with a blue patterned torso and a short pale weapon raised at the left, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/39eb984d78b351430e9e903cd97782e3a564bc4ab54bb5b324dae7a52e706dcc.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 39eb984d78b351430e9e903cd97782e3a564bc4ab54bb5b324dae7a52e706dcc and decoded pixel SHA-256 db81bdaa60497277ead3bd2a399a5de2daecc47a543e931d2c3adf5cf8abc0cf; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/19/frame/2",
+      "sourceSha256": "b59661a73e6f7b7339b280ce7ec8e746568ef9514ae2b1380d4111fb08870ca5",
+      "pixelSha256": "754470de2cdd2098e2d6adcc9081a8cd08626ff8d994a2ea7381b422e1044282",
+      "visualDescription": "Tiny orange-pink figure with a narrow pale line raised at the left, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b59661a73e6f7b7339b280ce7ec8e746568ef9514ae2b1380d4111fb08870ca5.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 b59661a73e6f7b7339b280ce7ec8e746568ef9514ae2b1380d4111fb08870ca5 and decoded pixel SHA-256 754470de2cdd2098e2d6adcc9081a8cd08626ff8d994a2ea7381b422e1044282; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/2/frame/0",
+      "sourceSha256": "d9c0d67b2a36fa60bacbcc91ff8551d84ebcc7856da60be7466990886933f2bf",
+      "pixelSha256": "bca2520aa483e701f304dcaadc7f5005be1c74f09af15c3b98514ddc56fda357",
+      "visualDescription": "Frontal pale-pink winged figure with long curved wings framing its head and torso, a ribbed central body and darker lower details, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d9c0d67b2a36fa60bacbcc91ff8551d84ebcc7856da60be7466990886933f2bf.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 d9c0d67b2a36fa60bacbcc91ff8551d84ebcc7856da60be7466990886933f2bf and decoded pixel SHA-256 bca2520aa483e701f304dcaadc7f5005be1c74f09af15c3b98514ddc56fda357; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/2/frame/1",
+      "sourceSha256": "b89427a4cfb571d4cd31bf05ef087902c68349c16e28d8770fe256597107c4fb",
+      "pixelSha256": "879bdc506f5df31f17192bee9eefac79c1ae484f9d32a05876d97b8b478d7e8f",
+      "visualDescription": "Smaller pink-violet winged figure with curved side panels around a banded central torso, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b89427a4cfb571d4cd31bf05ef087902c68349c16e28d8770fe256597107c4fb.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 b89427a4cfb571d4cd31bf05ef087902c68349c16e28d8770fe256597107c4fb and decoded pixel SHA-256 879bdc506f5df31f17192bee9eefac79c1ae484f9d32a05876d97b8b478d7e8f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/2/frame/2",
+      "sourceSha256": "573a7a5f5e09a03e76af6683d228fc05838f9e8c6e05fbe5eaa8f50a18b2675d",
+      "pixelSha256": "198be7693096993738d9f16d59fc582b3a63d1819b4a262509c47e251b226d24",
+      "visualDescription": "Tiny magenta-pink upright cluster with two small side projections and a darker center, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/573a7a5f5e09a03e76af6683d228fc05838f9e8c6e05fbe5eaa8f50a18b2675d.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 573a7a5f5e09a03e76af6683d228fc05838f9e8c6e05fbe5eaa8f50a18b2675d and decoded pixel SHA-256 198be7693096993738d9f16d59fc582b3a63d1819b4a262509c47e251b226d24; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/25/frame/0",
+      "sourceSha256": "087957e1f3091bd9fcb595d2f977f6c0755ee64b00bd8740b6a791fa1de8c4e3",
+      "pixelSha256": "2e8d029111802fbdf4b6734fe820f2450bcce9194f900da5e4a6fd1a0ad1e8f6",
+      "visualDescription": "Upright teal-blue and magenta figure-like form with a long narrow shaft projecting diagonally upward, a rounded patterned center and short lower projections, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/087957e1f3091bd9fcb595d2f977f6c0755ee64b00bd8740b6a791fa1de8c4e3.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 087957e1f3091bd9fcb595d2f977f6c0755ee64b00bd8740b6a791fa1de8c4e3 and decoded pixel SHA-256 2e8d029111802fbdf4b6734fe820f2450bcce9194f900da5e4a6fd1a0ad1e8f6; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/25/frame/1",
+      "sourceSha256": "8b4a210cc8f1c3abffcd7d6daf6705c022d53abdc8a31d3262d9e106bb2a83bc",
+      "pixelSha256": "fff23d3e2f9fcc09344807601f0a75235787ffca5882da33836c635a46759d45",
+      "visualDescription": "Compact teal-pink upright form with a small patterned center and short side projections, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8b4a210cc8f1c3abffcd7d6daf6705c022d53abdc8a31d3262d9e106bb2a83bc.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 8b4a210cc8f1c3abffcd7d6daf6705c022d53abdc8a31d3262d9e106bb2a83bc and decoded pixel SHA-256 fff23d3e2f9fcc09344807601f0a75235787ffca5882da33836c635a46759d45; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/25/frame/2",
+      "sourceSha256": "f496fe2c2c241186dec648b5c71eb2286910cb3bd12b99c6b024785d35e14f8a",
+      "pixelSha256": "5a5de215c29e8d4fbec98d261a36d97fac47f8ea57a426311247df5e1b3de53b",
+      "visualDescription": "Tiny blue-magenta cluster with a small bright center and angular lower edge, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f496fe2c2c241186dec648b5c71eb2286910cb3bd12b99c6b024785d35e14f8a.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 f496fe2c2c241186dec648b5c71eb2286910cb3bd12b99c6b024785d35e14f8a and decoded pixel SHA-256 5a5de215c29e8d4fbec98d261a36d97fac47f8ea57a426311247df5e1b3de53b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/0",
+      "sourceSha256": "f27af8247995a7e7c0d3d0ceb0a34fb3ff466a7343228ffd92eb697ddfa7cf77",
+      "pixelSha256": "441c885d8662f5a121cd26be8ec9de4f4c1ab59ce5b04c7c945b56a375d5fda9",
+      "visualDescription": "Full-body blue-pink armored humanoid in a wide stance, holding a curved pale blade overhead and a round blue shield at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f27af8247995a7e7c0d3d0ceb0a34fb3ff466a7343228ffd92eb697ddfa7cf77.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 f27af8247995a7e7c0d3d0ceb0a34fb3ff466a7343228ffd92eb697ddfa7cf77 and decoded pixel SHA-256 441c885d8662f5a121cd26be8ec9de4f4c1ab59ce5b04c7c945b56a375d5fda9; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/1",
+      "sourceSha256": "851e69f5589b2c4ebd75d68d9de7f68bf08868876fa42618cf9f737468617e01",
+      "pixelSha256": "a6d1e4d7fec959d85a9f0adb1c50b48527ea3a728c6bc185483f493b2a72e67c",
+      "visualDescription": "Bent blue-magenta figure with a pale curved blade extending over the head and a round blue shield at the side, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/851e69f5589b2c4ebd75d68d9de7f68bf08868876fa42618cf9f737468617e01.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 851e69f5589b2c4ebd75d68d9de7f68bf08868876fa42618cf9f737468617e01 and decoded pixel SHA-256 a6d1e4d7fec959d85a9f0adb1c50b48527ea3a728c6bc185483f493b2a72e67c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/26/frame/2",
+      "sourceSha256": "a4373d45484d1c80fa0450e305354eafc50421d611993201cb14649e6eb04f2f",
+      "pixelSha256": "3a9fc599775a6a11df954ec3ed5dae407b8900e80fea05eb411c7430d3ab7c40",
+      "visualDescription": "Tiny blue-pink figure with a short curved pale projection and a small round blue side shape, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a4373d45484d1c80fa0450e305354eafc50421d611993201cb14649e6eb04f2f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 a4373d45484d1c80fa0450e305354eafc50421d611993201cb14649e6eb04f2f and decoded pixel SHA-256 3a9fc599775a6a11df954ec3ed5dae407b8900e80fea05eb411c7430d3ab7c40; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/28/frame/0",
+      "sourceSha256": "cdac571fae2898f7c31a275370e1d1d91a9f0b3024083c2bca6c9acb5aad65a4",
+      "pixelSha256": "851c10b7d10531171b0cccd02c70ffa252d2e6e7b94431955757f53f04b5f253",
+      "visualDescription": "Compact blue-cyan armored humanoid leaning forward with a round blue shield at the right and a pale weapon raised, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/cdac571fae2898f7c31a275370e1d1d91a9f0b3024083c2bca6c9acb5aad65a4.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 cdac571fae2898f7c31a275370e1d1d91a9f0b3024083c2bca6c9acb5aad65a4 and decoded pixel SHA-256 851c10b7d10531171b0cccd02c70ffa252d2e6e7b94431955757f53f04b5f253; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/28/frame/1",
+      "sourceSha256": "9ddbb0e191c68d560b67aa788b9cad10f845cea696681c2b297eca54ff80fa9c",
+      "pixelSha256": "d094a2ac7687728f0f95f79dc748e3e21806c322923c052af653c35e54315cf7",
+      "visualDescription": "Smaller blue-cyan figure with one arm raised, a round blue disk at the right and bent legs, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9ddbb0e191c68d560b67aa788b9cad10f845cea696681c2b297eca54ff80fa9c.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 9ddbb0e191c68d560b67aa788b9cad10f845cea696681c2b297eca54ff80fa9c and decoded pixel SHA-256 d094a2ac7687728f0f95f79dc748e3e21806c322923c052af653c35e54315cf7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/28/frame/2",
+      "sourceSha256": "3c6295a6c72d65473b538a6a37d24ddd513cac3dd73339e1e818256e455cdd2c",
+      "pixelSha256": "6258fadb08d40478265b146251277a3856ec28dd6378b0bce7f396c54285b5eb",
+      "visualDescription": "Tiny blue-purple figure with a pale upper detail and a small round blue shape at the side, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3c6295a6c72d65473b538a6a37d24ddd513cac3dd73339e1e818256e455cdd2c.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 3c6295a6c72d65473b538a6a37d24ddd513cac3dd73339e1e818256e455cdd2c and decoded pixel SHA-256 6258fadb08d40478265b146251277a3856ec28dd6378b0bce7f396c54285b5eb; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/35/frame/0",
+      "sourceSha256": "bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f",
+      "pixelSha256": "0247d8df83d3a2c748945a589375af34fc71eec22e9a2219ad08455582e8c388",
+      "visualDescription": "Upright blue and magenta armored or robed figure carrying a tall curved pale staff at the left and a round orange disk at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f and decoded pixel SHA-256 0247d8df83d3a2c748945a589375af34fc71eec22e9a2219ad08455582e8c388; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/35/frame/1",
+      "sourceSha256": "eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43",
+      "pixelSha256": "47ceee6f4a2d5e9fface2301bd131e64d9ee1d1447946571cc31cbd782cdf707",
+      "visualDescription": "Compact blue-magenta side-facing figure with a round orange disk near the shoulder and a thin pale curved staff or shaft, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43 and decoded pixel SHA-256 47ceee6f4a2d5e9fface2301bd131e64d9ee1d1447946571cc31cbd782cdf707; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/35/frame/2",
+      "sourceSha256": "ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a",
+      "pixelSha256": "a8ad3f36745108f856fa8adcb5e318da6c6475d634aeba6fe2cdd91985c68680",
+      "visualDescription": "Tiny blue-pink figure with a short pale extension at the right, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a and decoded pixel SHA-256 a8ad3f36745108f856fa8adcb5e318da6c6475d634aeba6fe2cdd91985c68680; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/4/frame/0",
+      "sourceSha256": "7c6af9708e5940f80496a11ef60c217baead30474ab1b5c69edc52e0ed84d7e6",
+      "pixelSha256": "464ff8bdb1d441189046d3134167ec1be1081b7d3d0496beca83e89be35baef7",
+      "visualDescription": "Full-body blue-magenta armored figure with an orange round shield at the right and a long pale blade raised diagonally above the head, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/7c6af9708e5940f80496a11ef60c217baead30474ab1b5c69edc52e0ed84d7e6.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 7c6af9708e5940f80496a11ef60c217baead30474ab1b5c69edc52e0ed84d7e6 and decoded pixel SHA-256 464ff8bdb1d441189046d3134167ec1be1081b7d3d0496beca83e89be35baef7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/4/frame/1",
+      "sourceSha256": "3e9a6e9f92ebae207eac86f24d6401195c070b3411d6c15b7a7ec70cd0c782f1",
+      "pixelSha256": "5c2899b367204f715ace006f60a05c6b0b93939c6244c8e1df666f8fd91e62a3",
+      "visualDescription": "Compact blue-pink armored figure with a pale angled blade projecting over the head and a round orange disk at the side, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3e9a6e9f92ebae207eac86f24d6401195c070b3411d6c15b7a7ec70cd0c782f1.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 3e9a6e9f92ebae207eac86f24d6401195c070b3411d6c15b7a7ec70cd0c782f1 and decoded pixel SHA-256 5c2899b367204f715ace006f60a05c6b0b93939c6244c8e1df666f8fd91e62a3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/4/frame/2",
+      "sourceSha256": "e383a3e76c2a7e18ddeb37e414ab3a30bbc723f0fb0bd2e65896ac7dbe50918f",
+      "pixelSha256": "b130e11ab52e9de02caf0294c1a7e2f72ac787af9117e46d46ed6144a3a16344",
+      "visualDescription": "Tiny pink-blue upright figure with a small orange side detail and one pale projecting line, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e383a3e76c2a7e18ddeb37e414ab3a30bbc723f0fb0bd2e65896ac7dbe50918f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 e383a3e76c2a7e18ddeb37e414ab3a30bbc723f0fb0bd2e65896ac7dbe50918f and decoded pixel SHA-256 b130e11ab52e9de02caf0294c1a7e2f72ac787af9117e46d46ed6144a3a16344; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/48/frame/0",
+      "sourceSha256": "71f83817ae2c2d85d37dda1523862f7421970459c0fd78ca18e04fe87ef739bd",
+      "pixelSha256": "035aee5249a13e101e26e201cdf520805503174f4d5684836cda6df3aa9cf0a8",
+      "visualDescription": "Upright orange-red humanoid with a bright patterned torso, legs apart and a long pale blade angled upward in one hand, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/71f83817ae2c2d85d37dda1523862f7421970459c0fd78ca18e04fe87ef739bd.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 71f83817ae2c2d85d37dda1523862f7421970459c0fd78ca18e04fe87ef739bd and decoded pixel SHA-256 035aee5249a13e101e26e201cdf520805503174f4d5684836cda6df3aa9cf0a8; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/48/frame/1",
+      "sourceSha256": "8eeaba68a5e585d32663e85b9f7993f87cf61453b7546f51e175b4cc59eb1a73",
+      "pixelSha256": "0c1b9265ccf6a625c20aff42ce305ebc0ff50e8ffd80295f4a74310decbdb8ba",
+      "visualDescription": "Compact orange-pink humanoid with a pale blade raised diagonally and a bent opposite arm, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8eeaba68a5e585d32663e85b9f7993f87cf61453b7546f51e175b4cc59eb1a73.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 8eeaba68a5e585d32663e85b9f7993f87cf61453b7546f51e175b4cc59eb1a73 and decoded pixel SHA-256 0c1b9265ccf6a625c20aff42ce305ebc0ff50e8ffd80295f4a74310decbdb8ba; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/48/frame/2",
+      "sourceSha256": "abce019f26689d329276b4286db0b8508e1f37bedaf4c29f1b6510e77df3fb3f",
+      "pixelSha256": "4aa0c300cfd1d1bd09cd8458ef2310387efa10866307899257940ebeee290e0a",
+      "visualDescription": "Tiny orange-magenta figure with a short pale weapon-like line above one shoulder, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/abce019f26689d329276b4286db0b8508e1f37bedaf4c29f1b6510e77df3fb3f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 abce019f26689d329276b4286db0b8508e1f37bedaf4c29f1b6510e77df3fb3f and decoded pixel SHA-256 4aa0c300cfd1d1bd09cd8458ef2310387efa10866307899257940ebeee290e0a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/5/frame/0",
+      "sourceSha256": "bf6ec7b8465a1665f58514743de433da1a585627ffaa87d42f96dfd8998d7851",
+      "pixelSha256": "47e91a760780e6ed85f490ba3eea159120a21b7933757e6bf7fbd9783eba207b",
+      "visualDescription": "Low bulky cyan-pink form with a rounded upper shell, ribbed central bands and thick curved side appendages, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bf6ec7b8465a1665f58514743de433da1a585627ffaa87d42f96dfd8998d7851.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 bf6ec7b8465a1665f58514743de433da1a585627ffaa87d42f96dfd8998d7851 and decoded pixel SHA-256 47e91a760780e6ed85f490ba3eea159120a21b7933757e6bf7fbd9783eba207b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/5/frame/1",
+      "sourceSha256": "5fb194ada95b4317a608e9d03c242b08e4dcd2276cfb07c0a738e6393f3aa9e2",
+      "pixelSha256": "9ca03f03f8ea9c54b93dfd714faf629fc7ba94f0746a66a204cdcdc2d1865074",
+      "visualDescription": "Compact pink-cyan rounded form with a raised central section and two curled side projections, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5fb194ada95b4317a608e9d03c242b08e4dcd2276cfb07c0a738e6393f3aa9e2.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 5fb194ada95b4317a608e9d03c242b08e4dcd2276cfb07c0a738e6393f3aa9e2 and decoded pixel SHA-256 9ca03f03f8ea9c54b93dfd714faf629fc7ba94f0746a66a204cdcdc2d1865074; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/5/frame/2",
+      "sourceSha256": "9a6b1c325b34d7f8f7543d246a908369856b9ed7a6a29d1abbeab4991b87b6ee",
+      "pixelSha256": "83c5f8c7f262ea2425e19acbb1b104557381db129117ddc2a48f8fff11d52003",
+      "visualDescription": "Small magenta-cyan cluster of rounded fragments near the center of black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9a6b1c325b34d7f8f7543d246a908369856b9ed7a6a29d1abbeab4991b87b6ee.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 9a6b1c325b34d7f8f7543d246a908369856b9ed7a6a29d1abbeab4991b87b6ee and decoded pixel SHA-256 83c5f8c7f262ea2425e19acbb1b104557381db129117ddc2a48f8fff11d52003; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/51/frame/0",
+      "sourceSha256": "71f83817ae2c2d85d37dda1523862f7421970459c0fd78ca18e04fe87ef739bd",
+      "pixelSha256": "035aee5249a13e101e26e201cdf520805503174f4d5684836cda6df3aa9cf0a8",
+      "visualDescription": "Upright orange-red humanoid with a bright patterned torso, legs apart and a long pale blade angled upward in one hand, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/71f83817ae2c2d85d37dda1523862f7421970459c0fd78ca18e04fe87ef739bd.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 71f83817ae2c2d85d37dda1523862f7421970459c0fd78ca18e04fe87ef739bd and decoded pixel SHA-256 035aee5249a13e101e26e201cdf520805503174f4d5684836cda6df3aa9cf0a8; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/51/frame/1",
+      "sourceSha256": "8eeaba68a5e585d32663e85b9f7993f87cf61453b7546f51e175b4cc59eb1a73",
+      "pixelSha256": "0c1b9265ccf6a625c20aff42ce305ebc0ff50e8ffd80295f4a74310decbdb8ba",
+      "visualDescription": "Compact orange-pink humanoid with a pale blade raised diagonally and a bent opposite arm, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8eeaba68a5e585d32663e85b9f7993f87cf61453b7546f51e175b4cc59eb1a73.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 8eeaba68a5e585d32663e85b9f7993f87cf61453b7546f51e175b4cc59eb1a73 and decoded pixel SHA-256 0c1b9265ccf6a625c20aff42ce305ebc0ff50e8ffd80295f4a74310decbdb8ba; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/51/frame/2",
+      "sourceSha256": "abce019f26689d329276b4286db0b8508e1f37bedaf4c29f1b6510e77df3fb3f",
+      "pixelSha256": "4aa0c300cfd1d1bd09cd8458ef2310387efa10866307899257940ebeee290e0a",
+      "visualDescription": "Tiny orange-magenta figure with a short pale weapon-like line above one shoulder, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/abce019f26689d329276b4286db0b8508e1f37bedaf4c29f1b6510e77df3fb3f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 abce019f26689d329276b4286db0b8508e1f37bedaf4c29f1b6510e77df3fb3f and decoded pixel SHA-256 4aa0c300cfd1d1bd09cd8458ef2310387efa10866307899257940ebeee290e0a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/56/frame/0",
+      "sourceSha256": "38a63d743beb6507a559bf69eecb091701766e51794c06d9b144f6a814867850",
+      "pixelSha256": "f1ffa7a4a5830fbd50381a3913a8676de6eee59476f0ef2d86671b6dc3c78752",
+      "visualDescription": "Large pale cyan-pink winged figure with a rounded head, broad ribbed torso and long curved side wings, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/38a63d743beb6507a559bf69eecb091701766e51794c06d9b144f6a814867850.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 38a63d743beb6507a559bf69eecb091701766e51794c06d9b144f6a814867850 and decoded pixel SHA-256 f1ffa7a4a5830fbd50381a3913a8676de6eee59476f0ef2d86671b6dc3c78752; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/56/frame/1",
+      "sourceSha256": "69f99259512e6dc28b613d338cca9407d32ed7d1557cccd5abfba943e9d44682",
+      "pixelSha256": "2e4dab18e032ebd77b102f51922d90e16485d1af92b0f79176fe60c8917ef517",
+      "visualDescription": "Medium pale-pink and cyan winged form with two curled side panels and a segmented center, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/69f99259512e6dc28b613d338cca9407d32ed7d1557cccd5abfba943e9d44682.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 69f99259512e6dc28b613d338cca9407d32ed7d1557cccd5abfba943e9d44682 and decoded pixel SHA-256 2e4dab18e032ebd77b102f51922d90e16485d1af92b0f79176fe60c8917ef517; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/56/frame/2",
+      "sourceSha256": "75e54067a1dd32e8d24a986a1cdd2503545fa5106004086f920a8e07432a320d",
+      "pixelSha256": "a334515e78e23064bc106842d166f6b30988e6e5a622d6d17ca22e505da88562",
+      "visualDescription": "Tiny pink-cyan cluster with two short raised side projections, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/75e54067a1dd32e8d24a986a1cdd2503545fa5106004086f920a8e07432a320d.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 75e54067a1dd32e8d24a986a1cdd2503545fa5106004086f920a8e07432a320d and decoded pixel SHA-256 a334515e78e23064bc106842d166f6b30988e6e5a622d6d17ca22e505da88562; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/6/frame/0",
+      "sourceSha256": "c9148887e43b0cd5d23c8ab7a1edbea073165a20d688cc3e2bdba40bbdde97c5",
+      "pixelSha256": "7884ccb7e3888f10f2030679964c33dc85c1e279ab65c515d50abafaba0c2557",
+      "visualDescription": "Green outlined humanoid in a wide stance, both arms bent upward, with bright magenta highlights, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c9148887e43b0cd5d23c8ab7a1edbea073165a20d688cc3e2bdba40bbdde97c5.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 c9148887e43b0cd5d23c8ab7a1edbea073165a20d688cc3e2bdba40bbdde97c5 and decoded pixel SHA-256 7884ccb7e3888f10f2030679964c33dc85c1e279ab65c515d50abafaba0c2557; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/6/frame/1",
+      "sourceSha256": "d4ee812a5f2497acf8c189592e58c3588d5446cba6c35d1c817fcaef35981c6d",
+      "pixelSha256": "44dc55a4007243cd9b9f7d2d5b866076ff8a25a4fd86982c2747d76efc33f1dd",
+      "visualDescription": "Compact green-pink figure with bent arms held near the torso and short legs, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d4ee812a5f2497acf8c189592e58c3588d5446cba6c35d1c817fcaef35981c6d.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 d4ee812a5f2497acf8c189592e58c3588d5446cba6c35d1c817fcaef35981c6d and decoded pixel SHA-256 44dc55a4007243cd9b9f7d2d5b866076ff8a25a4fd86982c2747d76efc33f1dd; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/6/frame/2",
+      "sourceSha256": "075a92d69f72162d13c7460ebecc637e88cca8e5ad3a8f11fbb146011adf8036",
+      "pixelSha256": "28675281d1d6149e3bb015df1cf4561986cd29a5db7a7d0e62303452945f9bf3",
+      "visualDescription": "Tiny green-magenta upright shape with a small central body and short side projections, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/075a92d69f72162d13c7460ebecc637e88cca8e5ad3a8f11fbb146011adf8036.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 075a92d69f72162d13c7460ebecc637e88cca8e5ad3a8f11fbb146011adf8036 and decoded pixel SHA-256 28675281d1d6149e3bb015df1cf4561986cd29a5db7a7d0e62303452945f9bf3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/8/frame/0",
+      "sourceSha256": "dea28e871b51857aab32370dc7ae206e9444b5828fad73c35c5c6002a91fd187",
+      "pixelSha256": "36b1dba89291d964f9cc289391d3b9ec9cd9f6d891e974e48fa4f3ae89aa8f00",
+      "visualDescription": "Crouched pink-orange figure-like form with a broad rounded upper mass, green and yellow details, bent lower projections, and a dark outline, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/dea28e871b51857aab32370dc7ae206e9444b5828fad73c35c5c6002a91fd187.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 dea28e871b51857aab32370dc7ae206e9444b5828fad73c35c5c6002a91fd187 and decoded pixel SHA-256 36b1dba89291d964f9cc289391d3b9ec9cd9f6d891e974e48fa4f3ae89aa8f00; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/8/frame/1",
+      "sourceSha256": "d7ee96e85e866436dae9fcb1da6f00649b9e7bd7e9464b9d9fd46335cb651c97",
+      "pixelSha256": "ad1954a54580652c01291453fffa0cf7979a5e944159c619826b638eef342b8a",
+      "visualDescription": "Compact pink-orange upright form with a broad top, a small green center and two short lower projections, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d7ee96e85e866436dae9fcb1da6f00649b9e7bd7e9464b9d9fd46335cb651c97.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 d7ee96e85e866436dae9fcb1da6f00649b9e7bd7e9464b9d9fd46335cb651c97 and decoded pixel SHA-256 ad1954a54580652c01291453fffa0cf7979a5e944159c619826b638eef342b8a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit2.dax/block/8/frame/2",
+      "sourceSha256": "c90d698b8a3fc33799ea3d5c51cdb9f4035050e21c1b825bc3a559f86d310583",
+      "pixelSha256": "bb5785b18f7a6c20c8097fea661fa8a142061d2a03768b6f39483c2b92bf7724",
+      "visualDescription": "Tiny pink-orange triangular cluster with a small green center and a dark outline, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c90d698b8a3fc33799ea3d5c51cdb9f4035050e21c1b825bc3a559f86d310583.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 c90d698b8a3fc33799ea3d5c51cdb9f4035050e21c1b825bc3a559f86d310583 and decoded pixel SHA-256 bb5785b18f7a6c20c8097fea661fa8a142061d2a03768b6f39483c2b92bf7724; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/0",
+      "sourceSha256": "a5f4ea95aeacb02c1e6559895a049c8a739d65230808c86bad7168c3d8927442",
+      "pixelSha256": "afb4d4126eeda75a544e48ff7e95ae1160d51edb2dad9ef33dee36070349b9bb",
+      "visualDescription": "Full-body orange-yellow humanoid with blue-red patterned armor, a pale head, a flared side panel and bent arms, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a5f4ea95aeacb02c1e6559895a049c8a739d65230808c86bad7168c3d8927442.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 a5f4ea95aeacb02c1e6559895a049c8a739d65230808c86bad7168c3d8927442 and decoded pixel SHA-256 afb4d4126eeda75a544e48ff7e95ae1160d51edb2dad9ef33dee36070349b9bb; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/1",
+      "sourceSha256": "9f04de5e69800b12b537a0c21a02b490c94aec94d35532cd59f8939f161c2a8f",
+      "pixelSha256": "c58077387e6b33fb18f4f43e9af99a4d76a3acd6f0bcdd0d0ad2a7016784bb10",
+      "visualDescription": "Compact pink-orange figure with a blue patterned center and short side projections, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/9f04de5e69800b12b537a0c21a02b490c94aec94d35532cd59f8939f161c2a8f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 9f04de5e69800b12b537a0c21a02b490c94aec94d35532cd59f8939f161c2a8f and decoded pixel SHA-256 c58077387e6b33fb18f4f43e9af99a4d76a3acd6f0bcdd0d0ad2a7016784bb10; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/0/frame/2",
+      "sourceSha256": "40113fceabb63478f1996ca0ad0b281a993d914952e0c538b48f96050145fbc7",
+      "pixelSha256": "cf41399dd5b1c5be2abfd25203b1f3765b30da49dca2dbcc9d5b41f9a658de70",
+      "visualDescription": "Tiny orange-pink cluster with a blue center and angular lower pixels, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/40113fceabb63478f1996ca0ad0b281a993d914952e0c538b48f96050145fbc7.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 40113fceabb63478f1996ca0ad0b281a993d914952e0c538b48f96050145fbc7 and decoded pixel SHA-256 cf41399dd5b1c5be2abfd25203b1f3765b30da49dca2dbcc9d5b41f9a658de70; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/0",
+      "sourceSha256": "f2d8d19373974cf8f0c2d97271ef77b4e8ae64636c9b4ea0337a72910d380833",
+      "pixelSha256": "10f5f58e5e78f0bc4193be28004b9a8f7f2364c3a72e90c0161ae2079628f863",
+      "visualDescription": "Full-body red-blue armored figure with pale highlights, arms extended in a broad pose and a yellow-orange lower section, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f2d8d19373974cf8f0c2d97271ef77b4e8ae64636c9b4ea0337a72910d380833.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 f2d8d19373974cf8f0c2d97271ef77b4e8ae64636c9b4ea0337a72910d380833 and decoded pixel SHA-256 10f5f58e5e78f0bc4193be28004b9a8f7f2364c3a72e90c0161ae2079628f863; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/1",
+      "sourceSha256": "43ea95121459d40a2d79967147c4d1ffe3c8d373eb2a3c6e25e3ebadd403468e",
+      "pixelSha256": "6bab1ba709b026b6fe2fb6244d531fcfff8bc0907d93f94f036e7169792dd1f6",
+      "visualDescription": "Compact red-pink figure with a cyan-blue center, bent arms and short legs, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/43ea95121459d40a2d79967147c4d1ffe3c8d373eb2a3c6e25e3ebadd403468e.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 43ea95121459d40a2d79967147c4d1ffe3c8d373eb2a3c6e25e3ebadd403468e and decoded pixel SHA-256 6bab1ba709b026b6fe2fb6244d531fcfff8bc0907d93f94f036e7169792dd1f6; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/16/frame/2",
+      "sourceSha256": "fb1c6daf54c23555efda7b96faaca9efad44ac986207e95ae5d93f26de73749e",
+      "pixelSha256": "f3887416b24188e40a5b1179f7147216e43c1cfcdf32f474189b63e912aa055f",
+      "visualDescription": "Tiny pink-cyan cluster with an orange center and short lower projections, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/fb1c6daf54c23555efda7b96faaca9efad44ac986207e95ae5d93f26de73749e.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 fb1c6daf54c23555efda7b96faaca9efad44ac986207e95ae5d93f26de73749e and decoded pixel SHA-256 f3887416b24188e40a5b1179f7147216e43c1cfcdf32f474189b63e912aa055f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/17/frame/0",
+      "sourceSha256": "68c21c18255640e76ead6c9b5793c912bc4e6c91b2ad4309d58cbd5c308bc54d",
+      "pixelSha256": "6527bc9e7bd9a01ae8dd06563002381accb8caa3532e192f14a4724b5bc0f257",
+      "visualDescription": "Flying bat-like form with broad outstretched orange-pink wings, a small patterned central body and separated magenta patches below, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/68c21c18255640e76ead6c9b5793c912bc4e6c91b2ad4309d58cbd5c308bc54d.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 68c21c18255640e76ead6c9b5793c912bc4e6c91b2ad4309d58cbd5c308bc54d and decoded pixel SHA-256 6527bc9e7bd9a01ae8dd06563002381accb8caa3532e192f14a4724b5bc0f257; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/17/frame/1",
+      "sourceSha256": "f031a240fbf50f09c8c5380045a758274d9f600706608961ad4f8f44a9fb16b5",
+      "pixelSha256": "bff90e0279ad7f1136e61e0900d00820f48bc6cb717a2907b80d9dffdc4bd363",
+      "visualDescription": "Horizontal pink-orange wing strip with dark central markings and a few detached magenta fragments below, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f031a240fbf50f09c8c5380045a758274d9f600706608961ad4f8f44a9fb16b5.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 f031a240fbf50f09c8c5380045a758274d9f600706608961ad4f8f44a9fb16b5 and decoded pixel SHA-256 bff90e0279ad7f1136e61e0900d00820f48bc6cb717a2907b80d9dffdc4bd363; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/17/frame/2",
+      "sourceSha256": "51a81d55658388537b16cd31407098440e15297cbc480964188d5edd69e63a0a",
+      "pixelSha256": "ab9f6d4961ea23a19d61aef283ffd6926959803493194f6f3b3644c551401f06",
+      "visualDescription": "Small magenta-orange curved arch with a dark center and detached pink fragments underneath, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/51a81d55658388537b16cd31407098440e15297cbc480964188d5edd69e63a0a.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 51a81d55658388537b16cd31407098440e15297cbc480964188d5edd69e63a0a and decoded pixel SHA-256 ab9f6d4961ea23a19d61aef283ffd6926959803493194f6f3b3644c551401f06; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/19/frame/0",
+      "sourceSha256": "433287e4c5e2ab430f1a2e400e735f573d949bc0085c333b722904b39b05c3e0",
+      "pixelSha256": "a76b37a978f94a0f5f8d189cca8d4baa94fcad0c90ddcb4b70caf3485213b9f5",
+      "visualDescription": "Broad-stance orange-red humanoid with a patterned blue-pink torso, one hand holding a short pale upright blade at the left and a bent arm at the right, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/433287e4c5e2ab430f1a2e400e735f573d949bc0085c333b722904b39b05c3e0.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 433287e4c5e2ab430f1a2e400e735f573d949bc0085c333b722904b39b05c3e0 and decoded pixel SHA-256 a76b37a978f94a0f5f8d189cca8d4baa94fcad0c90ddcb4b70caf3485213b9f5; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/19/frame/1",
+      "sourceSha256": "39eb984d78b351430e9e903cd97782e3a564bc4ab54bb5b324dae7a52e706dcc",
+      "pixelSha256": "db81bdaa60497277ead3bd2a399a5de2daecc47a543e931d2c3adf5cf8abc0cf",
+      "visualDescription": "Compact orange-magenta humanoid with a blue patterned torso and a short pale weapon raised at the left, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/39eb984d78b351430e9e903cd97782e3a564bc4ab54bb5b324dae7a52e706dcc.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 39eb984d78b351430e9e903cd97782e3a564bc4ab54bb5b324dae7a52e706dcc and decoded pixel SHA-256 db81bdaa60497277ead3bd2a399a5de2daecc47a543e931d2c3adf5cf8abc0cf; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/19/frame/2",
+      "sourceSha256": "b59661a73e6f7b7339b280ce7ec8e746568ef9514ae2b1380d4111fb08870ca5",
+      "pixelSha256": "754470de2cdd2098e2d6adcc9081a8cd08626ff8d994a2ea7381b422e1044282",
+      "visualDescription": "Tiny orange-pink figure with a narrow pale line raised at the left, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b59661a73e6f7b7339b280ce7ec8e746568ef9514ae2b1380d4111fb08870ca5.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 b59661a73e6f7b7339b280ce7ec8e746568ef9514ae2b1380d4111fb08870ca5 and decoded pixel SHA-256 754470de2cdd2098e2d6adcc9081a8cd08626ff8d994a2ea7381b422e1044282; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/0",
+      "sourceSha256": "aee6c413352b56a75daeda610d9030216119f78afe1502e7ec2e4d1f80f9de19",
+      "pixelSha256": "2c2251384fbe46450ca387b0fcaa8f5d639b1ee9ff79fa82d097ed6cbf64f9df",
+      "visualDescription": "Large red-pink winged creature-like form with long pointed wings arching upward, a patterned central body and a narrow lower extension, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/aee6c413352b56a75daeda610d9030216119f78afe1502e7ec2e4d1f80f9de19.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 aee6c413352b56a75daeda610d9030216119f78afe1502e7ec2e4d1f80f9de19 and decoded pixel SHA-256 2c2251384fbe46450ca387b0fcaa8f5d639b1ee9ff79fa82d097ed6cbf64f9df; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/1",
+      "sourceSha256": "56f9df73db61b97b3afb3f451dd23ea7489993b9f78e5c6f83d33746c4738fb6",
+      "pixelSha256": "ec5494c05c219750a87a02ba0873aba4c3bf8e7d656674e66c4fdb31a5757b6f",
+      "visualDescription": "Medium pink winged form with two tall pointed side panels around a small central body, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/56f9df73db61b97b3afb3f451dd23ea7489993b9f78e5c6f83d33746c4738fb6.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 56f9df73db61b97b3afb3f451dd23ea7489993b9f78e5c6f83d33746c4738fb6 and decoded pixel SHA-256 ec5494c05c219750a87a02ba0873aba4c3bf8e7d656674e66c4fdb31a5757b6f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/22/frame/2",
+      "sourceSha256": "3e059bbe84620accc6e7d46c5c05baa38f2f42f6c94a5f5a54efe6ec737add32",
+      "pixelSha256": "d44622477f2be38485cadeb67eb6a7148d2a960e50921032ac160c88284ab6f5",
+      "visualDescription": "Tiny pink-red cluster with two upward side points and a dark center, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3e059bbe84620accc6e7d46c5c05baa38f2f42f6c94a5f5a54efe6ec737add32.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 3e059bbe84620accc6e7d46c5c05baa38f2f42f6c94a5f5a54efe6ec737add32 and decoded pixel SHA-256 d44622477f2be38485cadeb67eb6a7148d2a960e50921032ac160c88284ab6f5; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/0",
+      "sourceSha256": "f4c9c62cd82611f47a0d17bdd3a9a63eecfabe881f22d2a13d213e692fdaeb6c",
+      "pixelSha256": "b4fb832bd0795fa9592589fe3d0ff3996601e05c5622ec459592190b1a87a676",
+      "visualDescription": "Full-body pale blue-violet armored humanoid with a long bright blade extending upper left and a round blue shield at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f4c9c62cd82611f47a0d17bdd3a9a63eecfabe881f22d2a13d213e692fdaeb6c.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 f4c9c62cd82611f47a0d17bdd3a9a63eecfabe881f22d2a13d213e692fdaeb6c and decoded pixel SHA-256 b4fb832bd0795fa9592589fe3d0ff3996601e05c5622ec459592190b1a87a676; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/1",
+      "sourceSha256": "f7fd257a531d30a52309bb9544539f5f731a775be81a8c10153ab97755744e3a",
+      "pixelSha256": "bea76569b8a15f2360846595b039c82b8ce1d0d4b865a89449a3ab26f9f48e08",
+      "visualDescription": "Compact blue-violet figure with a pale diagonal weapon and a round blue side disk, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f7fd257a531d30a52309bb9544539f5f731a775be81a8c10153ab97755744e3a.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 f7fd257a531d30a52309bb9544539f5f731a775be81a8c10153ab97755744e3a and decoded pixel SHA-256 bea76569b8a15f2360846595b039c82b8ce1d0d4b865a89449a3ab26f9f48e08; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/24/frame/2",
+      "sourceSha256": "76309d2e0945e9579f2aede43c4d32951ad9ace4c6411b7c7ac7fb07c91ffff4",
+      "pixelSha256": "7656d1fa64cfd59f01bbf93cc523f4d4f100bc822fd5534a24e6b0405c65acfe",
+      "visualDescription": "Tiny pale blue-purple figure with a small round blue detail at the right, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/76309d2e0945e9579f2aede43c4d32951ad9ace4c6411b7c7ac7fb07c91ffff4.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 76309d2e0945e9579f2aede43c4d32951ad9ace4c6411b7c7ac7fb07c91ffff4 and decoded pixel SHA-256 7656d1fa64cfd59f01bbf93cc523f4d4f100bc822fd5534a24e6b0405c65acfe; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/25/frame/0",
+      "sourceSha256": "087957e1f3091bd9fcb595d2f977f6c0755ee64b00bd8740b6a791fa1de8c4e3",
+      "pixelSha256": "2e8d029111802fbdf4b6734fe820f2450bcce9194f900da5e4a6fd1a0ad1e8f6",
+      "visualDescription": "Upright teal-blue and magenta figure-like form with a long narrow shaft projecting diagonally upward, a rounded patterned center and short lower projections, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/087957e1f3091bd9fcb595d2f977f6c0755ee64b00bd8740b6a791fa1de8c4e3.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 087957e1f3091bd9fcb595d2f977f6c0755ee64b00bd8740b6a791fa1de8c4e3 and decoded pixel SHA-256 2e8d029111802fbdf4b6734fe820f2450bcce9194f900da5e4a6fd1a0ad1e8f6; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/25/frame/1",
+      "sourceSha256": "8b4a210cc8f1c3abffcd7d6daf6705c022d53abdc8a31d3262d9e106bb2a83bc",
+      "pixelSha256": "fff23d3e2f9fcc09344807601f0a75235787ffca5882da33836c635a46759d45",
+      "visualDescription": "Compact teal-pink upright form with a small patterned center and short side projections, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8b4a210cc8f1c3abffcd7d6daf6705c022d53abdc8a31d3262d9e106bb2a83bc.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 8b4a210cc8f1c3abffcd7d6daf6705c022d53abdc8a31d3262d9e106bb2a83bc and decoded pixel SHA-256 fff23d3e2f9fcc09344807601f0a75235787ffca5882da33836c635a46759d45; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/25/frame/2",
+      "sourceSha256": "f496fe2c2c241186dec648b5c71eb2286910cb3bd12b99c6b024785d35e14f8a",
+      "pixelSha256": "5a5de215c29e8d4fbec98d261a36d97fac47f8ea57a426311247df5e1b3de53b",
+      "visualDescription": "Tiny blue-magenta cluster with a small bright center and angular lower edge, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f496fe2c2c241186dec648b5c71eb2286910cb3bd12b99c6b024785d35e14f8a.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 f496fe2c2c241186dec648b5c71eb2286910cb3bd12b99c6b024785d35e14f8a and decoded pixel SHA-256 5a5de215c29e8d4fbec98d261a36d97fac47f8ea57a426311247df5e1b3de53b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/0",
+      "sourceSha256": "f27af8247995a7e7c0d3d0ceb0a34fb3ff466a7343228ffd92eb697ddfa7cf77",
+      "pixelSha256": "441c885d8662f5a121cd26be8ec9de4f4c1ab59ce5b04c7c945b56a375d5fda9",
+      "visualDescription": "Full-body blue-pink armored humanoid in a wide stance, holding a curved pale blade overhead and a round blue shield at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f27af8247995a7e7c0d3d0ceb0a34fb3ff466a7343228ffd92eb697ddfa7cf77.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 f27af8247995a7e7c0d3d0ceb0a34fb3ff466a7343228ffd92eb697ddfa7cf77 and decoded pixel SHA-256 441c885d8662f5a121cd26be8ec9de4f4c1ab59ce5b04c7c945b56a375d5fda9; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/1",
+      "sourceSha256": "851e69f5589b2c4ebd75d68d9de7f68bf08868876fa42618cf9f737468617e01",
+      "pixelSha256": "a6d1e4d7fec959d85a9f0adb1c50b48527ea3a728c6bc185483f493b2a72e67c",
+      "visualDescription": "Bent blue-magenta figure with a pale curved blade extending over the head and a round blue shield at the side, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/851e69f5589b2c4ebd75d68d9de7f68bf08868876fa42618cf9f737468617e01.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 851e69f5589b2c4ebd75d68d9de7f68bf08868876fa42618cf9f737468617e01 and decoded pixel SHA-256 a6d1e4d7fec959d85a9f0adb1c50b48527ea3a728c6bc185483f493b2a72e67c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/26/frame/2",
+      "sourceSha256": "a4373d45484d1c80fa0450e305354eafc50421d611993201cb14649e6eb04f2f",
+      "pixelSha256": "3a9fc599775a6a11df954ec3ed5dae407b8900e80fea05eb411c7430d3ab7c40",
+      "visualDescription": "Tiny blue-pink figure with a short curved pale projection and a small round blue side shape, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a4373d45484d1c80fa0450e305354eafc50421d611993201cb14649e6eb04f2f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 a4373d45484d1c80fa0450e305354eafc50421d611993201cb14649e6eb04f2f and decoded pixel SHA-256 3a9fc599775a6a11df954ec3ed5dae407b8900e80fea05eb411c7430d3ab7c40; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/0",
+      "sourceSha256": "081ac47fb100389864647fd9ddff122cdcd36f02855915ab6d22d9a8d7f50c50",
+      "pixelSha256": "18d9c4a1ca6bf29052c5b322fe65173af535ea6e382161218f13ecdfec32fc47",
+      "visualDescription": "Large blue-violet winged creature-like form with a centered head, tall broad wings and an orange-green patterned throat or chest, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/081ac47fb100389864647fd9ddff122cdcd36f02855915ab6d22d9a8d7f50c50.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 081ac47fb100389864647fd9ddff122cdcd36f02855915ab6d22d9a8d7f50c50 and decoded pixel SHA-256 18d9c4a1ca6bf29052c5b322fe65173af535ea6e382161218f13ecdfec32fc47; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/1",
+      "sourceSha256": "3fb82255e2682affae9e07e756d9a46321b87bd692c0e72208ec8057edba5c19",
+      "pixelSha256": "2a885384a403ca1f71a73a1018bd10f49c05b718337f4401eef9b1d8e11342f7",
+      "visualDescription": "Medium blue-violet frontal winged form with a rounded head and orange patterned center, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3fb82255e2682affae9e07e756d9a46321b87bd692c0e72208ec8057edba5c19.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 3fb82255e2682affae9e07e756d9a46321b87bd692c0e72208ec8057edba5c19 and decoded pixel SHA-256 2a885384a403ca1f71a73a1018bd10f49c05b718337f4401eef9b1d8e11342f7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/3/frame/2",
+      "sourceSha256": "099c1eead3b2a450dc94b61494115ad4cefb1696c0b1cf854617b0ecf42a9897",
+      "pixelSha256": "c6754393eb028bcdc9d71c6e52841bba006aa6b73f55ca7f6d050888b40d44b8",
+      "visualDescription": "Tiny blue-magenta frontal figure with two short raised wing-like projections and a small orange center, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/099c1eead3b2a450dc94b61494115ad4cefb1696c0b1cf854617b0ecf42a9897.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 099c1eead3b2a450dc94b61494115ad4cefb1696c0b1cf854617b0ecf42a9897 and decoded pixel SHA-256 c6754393eb028bcdc9d71c6e52841bba006aa6b73f55ca7f6d050888b40d44b8; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/35/entry/12/frame/0",
+      "sourceSha256": "bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f",
+      "pixelSha256": "0247d8df83d3a2c748945a589375af34fc71eec22e9a2219ad08455582e8c388",
+      "visualDescription": "Upright blue and magenta armored or robed figure carrying a tall curved pale staff at the left and a round orange disk at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f and decoded pixel SHA-256 0247d8df83d3a2c748945a589375af34fc71eec22e9a2219ad08455582e8c388; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/35/entry/12/frame/1",
+      "sourceSha256": "eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43",
+      "pixelSha256": "47ceee6f4a2d5e9fface2301bd131e64d9ee1d1447946571cc31cbd782cdf707",
+      "visualDescription": "Compact blue-magenta side-facing figure with a round orange disk near the shoulder and a thin pale curved staff or shaft, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43 and decoded pixel SHA-256 47ceee6f4a2d5e9fface2301bd131e64d9ee1d1447946571cc31cbd782cdf707; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/35/entry/12/frame/2",
+      "sourceSha256": "ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a",
+      "pixelSha256": "a8ad3f36745108f856fa8adcb5e318da6c6475d634aeba6fe2cdd91985c68680",
+      "visualDescription": "Tiny blue-pink figure with a short pale extension at the right, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a and decoded pixel SHA-256 a8ad3f36745108f856fa8adcb5e318da6c6475d634aeba6fe2cdd91985c68680; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/35/entry/6/frame/0",
+      "sourceSha256": "bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f",
+      "pixelSha256": "0247d8df83d3a2c748945a589375af34fc71eec22e9a2219ad08455582e8c388",
+      "visualDescription": "Upright blue and magenta armored or robed figure carrying a tall curved pale staff at the left and a round orange disk at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f and decoded pixel SHA-256 0247d8df83d3a2c748945a589375af34fc71eec22e9a2219ad08455582e8c388; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/35/entry/6/frame/1",
+      "sourceSha256": "eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43",
+      "pixelSha256": "47ceee6f4a2d5e9fface2301bd131e64d9ee1d1447946571cc31cbd782cdf707",
+      "visualDescription": "Compact blue-magenta side-facing figure with a round orange disk near the shoulder and a thin pale curved staff or shaft, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43 and decoded pixel SHA-256 47ceee6f4a2d5e9fface2301bd131e64d9ee1d1447946571cc31cbd782cdf707; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/35/entry/6/frame/2",
+      "sourceSha256": "ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a",
+      "pixelSha256": "a8ad3f36745108f856fa8adcb5e318da6c6475d634aeba6fe2cdd91985c68680",
+      "visualDescription": "Tiny blue-pink figure with a short pale extension at the right, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a and decoded pixel SHA-256 a8ad3f36745108f856fa8adcb5e318da6c6475d634aeba6fe2cdd91985c68680; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/4/frame/0",
+      "sourceSha256": "7c6af9708e5940f80496a11ef60c217baead30474ab1b5c69edc52e0ed84d7e6",
+      "pixelSha256": "464ff8bdb1d441189046d3134167ec1be1081b7d3d0496beca83e89be35baef7",
+      "visualDescription": "Full-body blue-magenta armored figure with an orange round shield at the right and a long pale blade raised diagonally above the head, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/7c6af9708e5940f80496a11ef60c217baead30474ab1b5c69edc52e0ed84d7e6.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 7c6af9708e5940f80496a11ef60c217baead30474ab1b5c69edc52e0ed84d7e6 and decoded pixel SHA-256 464ff8bdb1d441189046d3134167ec1be1081b7d3d0496beca83e89be35baef7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/4/frame/1",
+      "sourceSha256": "3e9a6e9f92ebae207eac86f24d6401195c070b3411d6c15b7a7ec70cd0c782f1",
+      "pixelSha256": "5c2899b367204f715ace006f60a05c6b0b93939c6244c8e1df666f8fd91e62a3",
+      "visualDescription": "Compact blue-pink armored figure with a pale angled blade projecting over the head and a round orange disk at the side, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3e9a6e9f92ebae207eac86f24d6401195c070b3411d6c15b7a7ec70cd0c782f1.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 3e9a6e9f92ebae207eac86f24d6401195c070b3411d6c15b7a7ec70cd0c782f1 and decoded pixel SHA-256 5c2899b367204f715ace006f60a05c6b0b93939c6244c8e1df666f8fd91e62a3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/4/frame/2",
+      "sourceSha256": "e383a3e76c2a7e18ddeb37e414ab3a30bbc723f0fb0bd2e65896ac7dbe50918f",
+      "pixelSha256": "b130e11ab52e9de02caf0294c1a7e2f72ac787af9117e46d46ed6144a3a16344",
+      "visualDescription": "Tiny pink-blue upright figure with a small orange side detail and one pale projecting line, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e383a3e76c2a7e18ddeb37e414ab3a30bbc723f0fb0bd2e65896ac7dbe50918f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 e383a3e76c2a7e18ddeb37e414ab3a30bbc723f0fb0bd2e65896ac7dbe50918f and decoded pixel SHA-256 b130e11ab52e9de02caf0294c1a7e2f72ac787af9117e46d46ed6144a3a16344; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/48/frame/0",
+      "sourceSha256": "bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f",
+      "pixelSha256": "0247d8df83d3a2c748945a589375af34fc71eec22e9a2219ad08455582e8c388",
+      "visualDescription": "Upright blue and magenta armored or robed figure carrying a tall curved pale staff at the left and a round orange disk at the right, against black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 bd7e11d7200092cab8fb7179fd10060080a325137bb72d5e4d489a727d85988f and decoded pixel SHA-256 0247d8df83d3a2c748945a589375af34fc71eec22e9a2219ad08455582e8c388; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/48/frame/1",
+      "sourceSha256": "eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43",
+      "pixelSha256": "47ceee6f4a2d5e9fface2301bd131e64d9ee1d1447946571cc31cbd782cdf707",
+      "visualDescription": "Compact blue-magenta side-facing figure with a round orange disk near the shoulder and a thin pale curved staff or shaft, on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 eb963d67215bb54fadf19c36ccdd31d9704ca93c7994d3c3cea856f7d8b3bf43 and decoded pixel SHA-256 47ceee6f4a2d5e9fface2301bd131e64d9ee1d1447946571cc31cbd782cdf707; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/dos-ega/dos-install/sprit3.dax/block/48/frame/2",
+      "sourceSha256": "ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a",
+      "pixelSha256": "a8ad3f36745108f856fa8adcb5e318da6c6475d634aeba6fe2cdd91985c68680",
+      "visualDescription": "Tiny blue-pink figure with a short pale extension at the right, isolated on black.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a.png",
+          "note": "Visible appearance only; manually reviewed against exact source PNG SHA-256 ee626a64e388f202fdcfd183df76d5ddba58191138f5ae3e3b4f1ccc11894c5a and decoded pixel SHA-256 a8ad3f36745108f856fa8adcb5e318da6c6475d634aeba6fe2cdd91985c68680; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "schema": "cok-ecl2-49-cpic-consumers-v1",
+  "task": "COK-ECL2-49-NATURAL-CPIC-JOIN",
+  "claimLimit": "Source-linked to the existing route golden. Depicted subject, visible icons, new runtime observations and Restyle admission remain unestablished by this slice.",
+  "runtimeObservations": 0,
+  "archives": {
+    "ECL2.DAX": {
+      "path": "Champions of Krynn/ECL2.DAX",
+      "sha256": "4f4ba999b0d46817091e82fe5ccf27cb6eee95cd833389353d7285c2a8dccbea",
+      "byteLength": 49982,
+      "dataBase": 74,
+      "orderedTocBlockIds": [
+        48,
+        49,
+        50,
+        57,
+        64,
+        66,
+        67,
+        68
+      ],
+      "blocks": [
+        {
+          "blockId": 49,
+          "entryIndex": 1,
+          "dataOffset": 7657,
+          "compressedBytes": 7114,
+          "rawBytes": 6956,
+          "blockSha256": "58640ee7c75ca1cba9a98c6b1eebe3cf9963440b5957f51a92041e602aa49b9c"
+        }
+      ]
+    },
+    "GEO2.DAX": {
+      "path": "Champions of Krynn/GEO2.DAX",
+      "sha256": "8030dd8b50828cbdb0e53fa32e75a4f9d56778a21618cd44c650c5a2bd61af05",
+      "byteLength": 6365,
+      "dataBase": 65,
+      "orderedTocBlockIds": [
+        48,
+        49,
+        50,
+        64,
+        66,
+        67,
+        68
+      ],
+      "blocks": [
+        {
+          "blockId": 49,
+          "entryIndex": 1,
+          "dataOffset": 985,
+          "compressedBytes": 860,
+          "rawBytes": 1026,
+          "blockSha256": "a3e2767e05644fab3cdf3d4e6ab951535ce9cf935e2bf00cda3884c6a4c27308"
+        }
+      ]
+    },
+    "MON2CHA.DAX": {
+      "path": "Champions of Krynn/MON2CHA.DAX",
+      "sha256": "b6034b1accae8964d724c033f99a8b7c95c370a31c9f5ac7329e47604d5008df",
+      "byteLength": 3418,
+      "dataBase": 290,
+      "orderedTocBlockIds": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        14,
+        19,
+        27,
+        31,
+        36,
+        39,
+        42,
+        44,
+        46,
+        49,
+        52,
+        54,
+        60,
+        61,
+        62,
+        4,
+        10,
+        17,
+        23,
+        25,
+        28,
+        33,
+        37,
+        40,
+        55,
+        56
+      ],
+      "blocks": [
+        {
+          "blockId": 1,
+          "entryIndex": 0,
+          "dataOffset": 0,
+          "compressedBytes": 92,
+          "rawBytes": 409,
+          "blockSha256": "3933e926b3281c75c2d19bae0297929ba0a2fd24f0b72b2a51b0906c881bf606"
+        },
+        {
+          "blockId": 14,
+          "entryIndex": 6,
+          "dataOffset": 540,
+          "compressedBytes": 92,
+          "rawBytes": 409,
+          "blockSha256": "3f3678579bcf090d5704dd546bf7f63b70ff5125cbe815e7894806c85820996c"
+        }
+      ]
+    },
+    "CPIC2.DAX": {
+      "path": "Champions of Krynn/CPIC2.DAX",
+      "sha256": "7925da2db12a4e42ffc2df737fce830fddede11ae9d350e61a9a53f2950b94e4",
+      "byteLength": 19604,
+      "dataBase": 542,
+      "orderedTocBlockIds": [
+        129,
+        1,
+        130,
+        2,
+        132,
+        4,
+        133,
+        5,
+        134,
+        6,
+        136,
+        8,
+        138,
+        10,
+        140,
+        12,
+        141,
+        13,
+        142,
+        14,
+        145,
+        17,
+        147,
+        19,
+        151,
+        23,
+        153,
+        25,
+        154,
+        26,
+        155,
+        27,
+        156,
+        28,
+        159,
+        31,
+        161,
+        33,
+        163,
+        35,
+        166,
+        38,
+        169,
+        41,
+        173,
+        45,
+        176,
+        48,
+        179,
+        51,
+        182,
+        54,
+        184,
+        56,
+        188,
+        60,
+        189,
+        61,
+        190,
+        62
+      ],
+      "blocks": [
+        {
+          "blockId": 1,
+          "entryIndex": 1,
+          "dataOffset": 252,
+          "compressedBytes": 272,
+          "rawBytes": 305,
+          "blockSha256": "39ea39fa52c4d9f07f757ae04113064d3856bdfce9a243e36fe4d689bbd35a00"
+        },
+        {
+          "blockId": 14,
+          "entryIndex": 19,
+          "dataOffset": 5974,
+          "compressedBytes": 307,
+          "rawBytes": 305,
+          "blockSha256": "581fbf41fe4c5744e30fecb18043e893b62b7240b4a646231d62f10db6fb449b"
+        }
+      ]
+    }
+  },
+  "ecl": {
+    "profile": "champions-of-krynn",
+    "addressAddend": 32768,
+    "selector": {
+      "value": 28,
+      "mask": 63,
+      "dispatchVaddr": 33321,
+      "targetVaddr": 37217
+    },
+    "consumedBit": {
+      "address": 19566,
+      "mask": 32,
+      "checkedBeforeCombat": true,
+      "writeVaddr": 37231
+    },
+    "sites": [
+      {
+        "offset": 546,
+        "vaddr": 33312,
+        "mnemonic": "AND",
+        "operands": [
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 49231
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 63
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 32633
+          }
+        ]
+      },
+      {
+        "offset": 4451,
+        "vaddr": 37217,
+        "mnemonic": "AND",
+        "operands": [
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 19566
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 32
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 32633
+          }
+        ]
+      },
+      {
+        "offset": 4460,
+        "vaddr": 37226,
+        "mnemonic": "IF_NE",
+        "operands": []
+      },
+      {
+        "offset": 4461,
+        "vaddr": 37227,
+        "mnemonic": "GOTO",
+        "operands": [
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 37409
+          }
+        ]
+      },
+      {
+        "offset": 4465,
+        "vaddr": 37231,
+        "mnemonic": "ADD",
+        "operands": [
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 32
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 19566
+          },
+          {
+            "kind": "dynamic",
+            "code": 1,
+            "value": 19566
+          }
+        ]
+      },
+      {
+        "offset": 4627,
+        "vaddr": 37393,
+        "mnemonic": "CLEARMONSTERS",
+        "operands": []
+      },
+      {
+        "offset": 4628,
+        "vaddr": 37394,
+        "mnemonic": "LOAD_MONSTER",
+        "operands": [
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 1
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 5
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 1
+          }
+        ]
+      },
+      {
+        "offset": 4635,
+        "vaddr": 37401,
+        "mnemonic": "LOAD_MONSTER",
+        "operands": [
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 14
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 4
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 14
+          }
+        ]
+      },
+      {
+        "offset": 4642,
+        "vaddr": 37408,
+        "mnemonic": "COMBAT",
+        "operands": []
+      }
+    ],
+    "scan": {
+      "address_addend": 32768,
+      "header_entries": [
+        {
+          "name": "vm_run_1",
+          "offset": 190,
+          "vaddr": 32956
+        },
+        {
+          "name": "search_location",
+          "offset": 525,
+          "vaddr": 33291
+        },
+        {
+          "name": "pre_camp_check",
+          "offset": 143,
+          "vaddr": 32909
+        },
+        {
+          "name": "camp_interrupted",
+          "offset": 185,
+          "vaddr": 32951
+        },
+        {
+          "name": "initial_entry",
+          "offset": 22,
+          "vaddr": 32788
+        }
+      ],
+      "decoded_instruction_offsets": 757,
+      "explored_states": 1191,
+      "state_limit_reached": false,
+      "truncated_offsets": 0,
+      "unknown_opcodes": {}
+    },
+    "candidate": {
+      "entry": "search_location",
+      "combat_offset": 4642,
+      "combat_vaddr": 37408,
+      "roster": [
+        [
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 1
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 5
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 1
+          }
+        ],
+        [
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 14
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 4
+          },
+          {
+            "kind": "immediate",
+            "code": 0,
+            "value": 14
+          }
+        ]
+      ],
+      "path_offsets": [
+        525,
+        531,
+        6758,
+        6764,
+        6765,
+        6771,
+        6778,
+        535,
+        541,
+        546,
+        555,
+        4451,
+        4460,
+        4465,
+        4474,
+        4507,
+        4546,
+        6668,
+        6703,
+        4550,
+        4586,
+        4606,
+        4613,
+        4625,
+        4626,
+        4627,
+        4628,
+        4635,
+        4642
+      ],
+      "path_vaddrs": [
+        33291,
+        33297,
+        39524,
+        39530,
+        39531,
+        39537,
+        39544,
+        33301,
+        33307,
+        33312,
+        33321,
+        37217,
+        37226,
+        37231,
+        37240,
+        37273,
+        37312,
+        39434,
+        39469,
+        37316,
+        37352,
+        37372,
+        37379,
+        37391,
+        37392,
+        37393,
+        37394,
+        37401,
+        37408
+      ],
+      "branch_decisions": [
+        "0x9a6a:condition-true",
+        "0x9a71:condition-false",
+        "0x821b:condition-false",
+        "0x8229:selector-target",
+        "0x916a:condition-false"
+      ],
+      "roster_source": "local-load-monster",
+      "requires_runtime_seed": true,
+      "confidence": "decoded-static-path-with-roster",
+      "alternate_path_count": 0,
+      "rostered_path_variants": 1
+    },
+    "seedInterpretation": "The scanner flags conditional branches. The pinned existing engine golden enters with empty ECL memory and a deterministic PRNG seed."
+  },
+  "geo": {
+    "spawn": [
+      6,
+      9,
+      "north"
+    ],
+    "target": [
+      6,
+      10,
+      "south"
+    ],
+    "descriptorByteOffset": 680,
+    "descriptor": 156,
+    "selectorMask": 63,
+    "selector": 28,
+    "actions": [
+      "right",
+      "right",
+      "forward"
+    ],
+    "directedEdge": {
+      "direction": "south",
+      "wall": 0,
+      "door": 0
+    }
+  },
+  "roster": [
+    {
+      "monsterId": 1,
+      "recordName": "BAAZ",
+      "count": 5,
+      "sourceAssetId": "cok/dos-ega/disk2/cpic2.dax/block/1/frame/0",
+      "pictureId": 1,
+      "frameIndex": 0,
+      "nativeGeometry": [
+        24,
+        24,
+        0,
+        0
+      ],
+      "nativeRgbSha256": "c3fdd8c7d4c31397b55c709ecf1cb5fde88da0d185266e065c67ce58ad697fff",
+      "preview": {
+        "path": "images/fc604d4757fa4209bc31349c34405993ef78b5e373a8ed3516567a4f2820836a.png",
+        "sha256": "fc604d4757fa4209bc31349c34405993ef78b5e373a8ed3516567a4f2820836a",
+        "width": 96,
+        "height": 96,
+        "nearestScale": 4
+      }
+    },
+    {
+      "monsterId": 14,
+      "recordName": "KAPAK",
+      "count": 4,
+      "sourceAssetId": "cok/dos-ega/disk2/cpic2.dax/block/14/frame/0",
+      "pictureId": 14,
+      "frameIndex": 0,
+      "nativeGeometry": [
+        24,
+        24,
+        0,
+        0
+      ],
+      "nativeRgbSha256": "d60817503a1a7201d891dc29bf4707b1147b89ac857d15bba8ccaf89683a6c3c",
+      "preview": {
+        "path": "images/1f08c680bd8af1e7c0646d4af8e8384ffb26ae13aa671106b13002c47cf79c27.png",
+        "sha256": "1f08c680bd8af1e7c0646d4af8e8384ffb26ae13aa671106b13002c47cf79c27",
+        "width": 96,
+        "height": 96,
+        "nearestScale": 4
+      }
+    }
+  ],
+  "tacticalSourceBinding": {
+    "disk": 2,
+    "archive": "CPIC2.DAX",
+    "byCombatantSlot": {
+      "e0": 1,
+      "e1": 1,
+      "e2": 1,
+      "e3": 1,
+      "e4": 1,
+      "e5": 14,
+      "e6": 14,
+      "e7": 14,
+      "e8": 14
+    }
+  },
+  "hostSource": {
+    "hashInput": "UTF-8 LF-normalized fragments",
+    "fragments": [
+      {
+        "role": "profile",
+        "path": "apps/web/src/ui/gameData.ts",
+        "start": "  'cok-natural-2': {",
+        "endExclusive": "  'cok-natural-3': {",
+        "sha256": "6a00f61d2dca85fbd2c91d70ac19061bb2c1447cbe39b6f131d093c2cd2475d2"
+      },
+      {
+        "role": "spawn",
+        "path": "apps/web/src/ui/explore.ts",
+        "start": "function chooseStart(",
+        "endExclusive": "\n/** Current party pose",
+        "sha256": "a659c78042316679c63b6a9f1728a3d126e0e34ebb64dcba0996d7a7eb589fdb"
+      },
+      {
+        "role": "cellDispatch",
+        "path": "apps/web/src/ui/explore.ts",
+        "start": "function runStepEvent(",
+        "endExclusive": "\n/**\n * Pool's wilderness/overland crossing",
+        "sha256": "c20d43296be7029eef5ba886321cec4de8dd22b17847b8fe312bc9bd6d7a5a19"
+      },
+      {
+        "role": "searchLocation",
+        "path": "packages/engine/src/world/dungeonEvents.ts",
+        "start": "export function primeSearchLocation(",
+        "endExclusive": "\n/**\n * Position a VM at `block`'s **vmRun1**",
+        "sha256": "5064110480ee9cf8fb17a5d83abc69b4788b87543713c46da1ef94b84c62104c"
+      },
+      {
+        "role": "loadMonster",
+        "path": "packages/engine/src/ecl/vm.ts",
+        "start": "      case 0x0b: {",
+        "endExclusive": "\n      case 0x1d:",
+        "sha256": "3b80f27f24e56b11bdbc8e49a3aa1eafdfdc8ae35d0167237ea2ae04a90095b4"
+      },
+      {
+        "role": "diskBanks",
+        "path": "apps/web/src/ui/explore.ts",
+        "start": "const COK_CPIC_PATHS:",
+        "endExclusive": "\n/**\n * Square-pixel variant",
+        "sha256": "2a885243ace10e825f803a297020d78581b2303f61b58c96be1524d886b39eaf"
+      },
+      {
+        "role": "activeDisk",
+        "path": "apps/web/src/ui/explore.ts",
+        "start": "function combatBackdropPaths(",
+        "endExclusive": "\nfunction persistGraphicsMode(",
+        "sha256": "817d50c2cea04442f13445104dc7818768838ad1cb3cffaba8a24063a0b765d5"
+      },
+      {
+        "role": "enemyMap",
+        "path": "apps/web/src/ui/explore.ts",
+        "start": "function combatantPictureIdsFor(",
+        "endExclusive": "\nfunction setStatus(",
+        "sha256": "50a2f93b0c3ad65c5f1635d80e830cbc5ef6c74872bc0a7d21b9b9be2c22cdf1"
+      },
+      {
+        "role": "combatLaunch",
+        "path": "apps/web/src/ui/explore.ts",
+        "start": "function resolveCombat(",
+        "endExclusive": "    onEnd: (res) => {",
+        "sha256": "aa530756f1ac92880f17255ac9d4e9bc7a2f14c5b50994de5887028f77958796"
+      },
+      {
+        "role": "decodeIcon",
+        "path": "apps/web/src/ui/combat.ts",
+        "start": "function iconLibraryFrom(",
+        "endExclusive": "\n/** Load combat assets",
+        "sha256": "8b5600da2534bacfa2a7da11fd06aaca6f4c21a8a798f7ac004cc81e7a3dc7e7"
+      },
+      {
+        "role": "lookupIcon",
+        "path": "apps/web/src/ui/combat.ts",
+        "start": "  for (const [combatantId, pictureId] of cfg.combatantPictureIds ?? []) {",
+        "endExclusive": "  const playerPreparations",
+        "sha256": "0d8c37b35526c7a35e7bf009a90915ea07c541a46118c0137e9c66116e5c3c60"
+      },
+      {
+        "role": "engineGolden",
+        "path": "packages/engine/test/dungeonEvents.test.ts",
+        "start": "const ecl2 = resolve(",
+        "endExclusive": "// --- investigation: DoK ECL1/GEO1 block 33",
+        "sha256": "2740e091f2f910a6c378492c0fc65ea5d5aee1faeea9c34604e4781a6d764e9b"
+      },
+      {
+        "role": "browserTest",
+        "path": "apps/web/test/e2e.mjs",
+        "start": "async function runExploreCok2NaturalCombat(",
+        "endExclusive": "        prefix: 'cok2-persistent'",
+        "sha256": "af72904302617da0f44bff5a0ec8939017eb63cfb9f2b9002816e701bc9a5df6"
+      }
+    ]
+  },
+  "priorTestEvidence": "The engine golden asserts the empty-memory encounter roster and eager consumed-bit write. The browser test source asserts the disk-2 icon archive, nine icon bindings and five plus four roster counts.",
+  "previewEvidence": "Hash-pinned 96x96 source previews, compared at every RGB pixel with a 4x nearest-neighbor render of each native DAX frame."
+}

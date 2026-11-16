@@ -1,0 +1,1333 @@
+{
+  "version": 1,
+  "scope": "Visible-appearance-only descriptions for all 102 decoded CoK Amiga SPRIT1.DAA/SPRIT2.DAA frames previously missing visual descriptions. Descriptions cover visible forms, colors, and posture only; no source selector, subject identity, frame progression, animation playback, or game use is inferred. Exact pixel duplicates reuse one description while retaining distinct archive/frame IDs.",
+  "evidenceImagePathPattern": "apps/web/dist-app-cok57/restyle/cok-generated/images/{sourceSha256}.png",
+  "assets": [
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/1/frame/0",
+      "sourceSha256": "c25f65d8b964b1f0492b975e2045bac9770b408a2480a13fed2a5dbd91902865",
+      "pixelSha256": "5ccb398e1215f9441596595b8749b00605711d82868782538ed539bba1b442ee",
+      "visualDescription": "A tall humanoid in orange and gold plate-like armor with a horned helmet, a round gray shield, and a raised blade.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c25f65d8b964b1f0492b975e2045bac9770b408a2480a13fed2a5dbd91902865.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 c25f65d8b964b1f0492b975e2045bac9770b408a2480a13fed2a5dbd91902865 and decoded pixel SHA-256 5ccb398e1215f9441596595b8749b00605711d82868782538ed539bba1b442ee; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/1/frame/1",
+      "sourceSha256": "1208a15d3e9e87dc23001c84ee1651d3f636f9a95b99cc01627d083c4cc00108",
+      "pixelSha256": "fffd367309ee6b73406c2a53fcad0d16014672cedc6e3de48e06b1fd159a82f7",
+      "visualDescription": "A compact orange-gold armored humanoid with a horned helmet, round shield, and a narrow blade extending to the left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1208a15d3e9e87dc23001c84ee1651d3f636f9a95b99cc01627d083c4cc00108.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 1208a15d3e9e87dc23001c84ee1651d3f636f9a95b99cc01627d083c4cc00108 and decoded pixel SHA-256 fffd367309ee6b73406c2a53fcad0d16014672cedc6e3de48e06b1fd159a82f7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/1/frame/2",
+      "sourceSha256": "115de2e0db42e4b0d8656b4617e35707d37cadb89374aa5c2eca1ec968f537fc",
+      "pixelSha256": "2e3745d10312fa9b4186c1018fcb683f092cd7fd1fb7c259fb83d66de5ef7ee4",
+      "visualDescription": "A very small orange-gold armored figure with a dark outline and a gray circular shield at its side.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/115de2e0db42e4b0d8656b4617e35707d37cadb89374aa5c2eca1ec968f537fc.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 115de2e0db42e4b0d8656b4617e35707d37cadb89374aa5c2eca1ec968f537fc and decoded pixel SHA-256 2e3745d10312fa9b4186c1018fcb683f092cd7fd1fb7c259fb83d66de5ef7ee4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/12/frame/0",
+      "sourceSha256": "487fd9bb6b489e582cbaf71ab88678c7cd4a09cc6154ac59fbffabdb9f1280bd",
+      "pixelSha256": "03881cc901349c08684256218355e25016c2aa3af090cc45ed209d40ea7ffb0b",
+      "visualDescription": "A blue-white and magenta-clad humanoid in a wide stance, holding a short pale object up in one hand and a long blade diagonally across the body.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/487fd9bb6b489e582cbaf71ab88678c7cd4a09cc6154ac59fbffabdb9f1280bd.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 487fd9bb6b489e582cbaf71ab88678c7cd4a09cc6154ac59fbffabdb9f1280bd and decoded pixel SHA-256 03881cc901349c08684256218355e25016c2aa3af090cc45ed209d40ea7ffb0b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/12/frame/1",
+      "sourceSha256": "a349a4b736ceb275dba16c797a6478a74cecaa51b2ab267aa839fd551276d7a7",
+      "pixelSha256": "b9470dbcb5771357649a9d12a3b1ae486223de2ce31d9d98e2aa6db733795248",
+      "visualDescription": "A smaller blue-white and magenta figure in a wide stance, with a pale object raised and a diagonal blade.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/a349a4b736ceb275dba16c797a6478a74cecaa51b2ab267aa839fd551276d7a7.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 a349a4b736ceb275dba16c797a6478a74cecaa51b2ab267aa839fd551276d7a7 and decoded pixel SHA-256 b9470dbcb5771357649a9d12a3b1ae486223de2ce31d9d98e2aa6db733795248; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/12/frame/2",
+      "sourceSha256": "d88985991c464300ee563bb3d80820fbb63903b810b0a3b9cb8fcc8073765bae",
+      "pixelSha256": "7acbbe9e879a076b7539315b7fbfbae3081a705bd993531d6b010827f07c9fac",
+      "visualDescription": "A tiny blue, white, and magenta upright figure with extended arms and a dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/d88985991c464300ee563bb3d80820fbb63903b810b0a3b9cb8fcc8073765bae.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 d88985991c464300ee563bb3d80820fbb63903b810b0a3b9cb8fcc8073765bae and decoded pixel SHA-256 7acbbe9e879a076b7539315b7fbfbae3081a705bd993531d6b010827f07c9fac; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/14/frame/0",
+      "sourceSha256": "c25f65d8b964b1f0492b975e2045bac9770b408a2480a13fed2a5dbd91902865",
+      "pixelSha256": "5ccb398e1215f9441596595b8749b00605711d82868782538ed539bba1b442ee",
+      "visualDescription": "A tall humanoid in orange and gold plate-like armor with a horned helmet, a round gray shield, and a raised blade.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c25f65d8b964b1f0492b975e2045bac9770b408a2480a13fed2a5dbd91902865.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 c25f65d8b964b1f0492b975e2045bac9770b408a2480a13fed2a5dbd91902865 and decoded pixel SHA-256 5ccb398e1215f9441596595b8749b00605711d82868782538ed539bba1b442ee; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/14/frame/1",
+      "sourceSha256": "1208a15d3e9e87dc23001c84ee1651d3f636f9a95b99cc01627d083c4cc00108",
+      "pixelSha256": "fffd367309ee6b73406c2a53fcad0d16014672cedc6e3de48e06b1fd159a82f7",
+      "visualDescription": "A compact orange-gold armored humanoid with a horned helmet, round shield, and a narrow blade extending to the left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1208a15d3e9e87dc23001c84ee1651d3f636f9a95b99cc01627d083c4cc00108.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 1208a15d3e9e87dc23001c84ee1651d3f636f9a95b99cc01627d083c4cc00108 and decoded pixel SHA-256 fffd367309ee6b73406c2a53fcad0d16014672cedc6e3de48e06b1fd159a82f7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/14/frame/2",
+      "sourceSha256": "115de2e0db42e4b0d8656b4617e35707d37cadb89374aa5c2eca1ec968f537fc",
+      "pixelSha256": "2e3745d10312fa9b4186c1018fcb683f092cd7fd1fb7c259fb83d66de5ef7ee4",
+      "visualDescription": "A very small orange-gold armored figure with a dark outline and a gray circular shield at its side.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/115de2e0db42e4b0d8656b4617e35707d37cadb89374aa5c2eca1ec968f537fc.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 115de2e0db42e4b0d8656b4617e35707d37cadb89374aa5c2eca1ec968f537fc and decoded pixel SHA-256 2e3745d10312fa9b4186c1018fcb683f092cd7fd1fb7c259fb83d66de5ef7ee4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/17/frame/0",
+      "sourceSha256": "5b7e60aa5566373ece16f83fa8acaafeb04f7aa49cf80bc764ff4bb46df14fb4",
+      "pixelSha256": "6bd4a314295f25b64cb50ec08760ba68d5fa3a38ad38c0312b1835151d302d7f",
+      "visualDescription": "A brown bat-like creature with a small central body and two broad, pointed wings spread to either side.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5b7e60aa5566373ece16f83fa8acaafeb04f7aa49cf80bc764ff4bb46df14fb4.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5b7e60aa5566373ece16f83fa8acaafeb04f7aa49cf80bc764ff4bb46df14fb4 and decoded pixel SHA-256 6bd4a314295f25b64cb50ec08760ba68d5fa3a38ad38c0312b1835151d302d7f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/17/frame/1",
+      "sourceSha256": "c0547a49f1b21e3b0d051283d3c6d97cbd5a4286ac5f76ecaed5df845e2356e8",
+      "pixelSha256": "c5c43954eb02a9c75ce63aa39cc7aefb57ca6986f63931b18eadc5e10dcf305e",
+      "visualDescription": "A small brown winged creature with its wings stretched horizontally and a dark shadow-like strip below.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c0547a49f1b21e3b0d051283d3c6d97cbd5a4286ac5f76ecaed5df845e2356e8.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 c0547a49f1b21e3b0d051283d3c6d97cbd5a4286ac5f76ecaed5df845e2356e8 and decoded pixel SHA-256 c5c43954eb02a9c75ce63aa39cc7aefb57ca6986f63931b18eadc5e10dcf305e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/17/frame/2",
+      "sourceSha256": "5b6cd665895197ccedcf03826576655d5239d33731731254857ef8ff52de3565",
+      "pixelSha256": "396bd30947a77031393ee0c930173e2d4eea6f25b3f5e0e2ad0c462cc3d774c4",
+      "visualDescription": "A tiny brown winged shape with short angular extensions and a narrow dark mark beneath it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5b6cd665895197ccedcf03826576655d5239d33731731254857ef8ff52de3565.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5b6cd665895197ccedcf03826576655d5239d33731731254857ef8ff52de3565 and decoded pixel SHA-256 396bd30947a77031393ee0c930173e2d4eea6f25b3f5e0e2ad0c462cc3d774c4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/19/frame/0",
+      "sourceSha256": "57f9707c3819dd7e1163f8512c604005f0f506d09233703e6bba65ebab1f944f",
+      "pixelSha256": "bea47c9e4f475aae99d6354659911b6727751c2c4c82484db1461a279a457039",
+      "visualDescription": "A broad, muscular bare-armed humanoid with dark hair, a patterned yellow-orange garment, and a narrow object held in one hand.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/57f9707c3819dd7e1163f8512c604005f0f506d09233703e6bba65ebab1f944f.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 57f9707c3819dd7e1163f8512c604005f0f506d09233703e6bba65ebab1f944f and decoded pixel SHA-256 bea47c9e4f475aae99d6354659911b6727751c2c4c82484db1461a279a457039; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/19/frame/1",
+      "sourceSha256": "742c3d0fe0f58206ff2f1cf865bdfae02c821de26c4f3364bccd5d68da89dad1",
+      "pixelSha256": "e3f099767d65be9dfb09fa144d12ef8764c7f41fa8ddde715d1d9932e8a247a3",
+      "visualDescription": "A smaller bare-armed humanoid in a yellow-orange patterned garment, standing with a narrow object held upright.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/742c3d0fe0f58206ff2f1cf865bdfae02c821de26c4f3364bccd5d68da89dad1.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 742c3d0fe0f58206ff2f1cf865bdfae02c821de26c4f3364bccd5d68da89dad1 and decoded pixel SHA-256 e3f099767d65be9dfb09fa144d12ef8764c7f41fa8ddde715d1d9932e8a247a3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/19/frame/2",
+      "sourceSha256": "4ec165b7665f49df8a51eff31234d9473c9a0601e4d74725c3b9660c9b5c3cb0",
+      "pixelSha256": "6950f79aeb7853c21b253748157414e3c2092006ee441a3601db3379ecc804df",
+      "visualDescription": "A tiny orange and yellow humanoid silhouette with a dark outline and a narrow upright extension.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4ec165b7665f49df8a51eff31234d9473c9a0601e4d74725c3b9660c9b5c3cb0.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 4ec165b7665f49df8a51eff31234d9473c9a0601e4d74725c3b9660c9b5c3cb0 and decoded pixel SHA-256 6950f79aeb7853c21b253748157414e3c2092006ee441a3601db3379ecc804df; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/2/frame/0",
+      "sourceSha256": "90cd9647cd3f478731f7d0664446d9c36fe1abc0e3a3b40f08e97807383b3f71",
+      "pixelSha256": "fcf1965967eab84fb8f79fb50b215d3bd46d24efc13af887b08f456f3de61c76",
+      "visualDescription": "A large dark green-black winged reptilian figure with a ridged head, clawed limbs, and pale green highlights.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/90cd9647cd3f478731f7d0664446d9c36fe1abc0e3a3b40f08e97807383b3f71.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 90cd9647cd3f478731f7d0664446d9c36fe1abc0e3a3b40f08e97807383b3f71 and decoded pixel SHA-256 fcf1965967eab84fb8f79fb50b215d3bd46d24efc13af887b08f456f3de61c76; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/2/frame/1",
+      "sourceSha256": "5598c3a7ec217cb3f8b75bd776719b8c2fcb69c272db2549a170d79835ed23dc",
+      "pixelSha256": "dd48345850c11199398ad8829d727219aa43349517d7a82a084c49c290c16d36",
+      "visualDescription": "A smaller dark green winged reptilian figure with a curled body and bright green edge details.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5598c3a7ec217cb3f8b75bd776719b8c2fcb69c272db2549a170d79835ed23dc.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5598c3a7ec217cb3f8b75bd776719b8c2fcb69c272db2549a170d79835ed23dc and decoded pixel SHA-256 dd48345850c11199398ad8829d727219aa43349517d7a82a084c49c290c16d36; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/2/frame/2",
+      "sourceSha256": "e33b6f456e2b613fc49e9f24ddd677379b64e0c3f87b5ff6af22fe594d3614da",
+      "pixelSha256": "d4c2f8cfdc56547419c2cfcf3f44a487bbffbd5a26f8ad3e09e74be72260c699",
+      "visualDescription": "A tiny dark green winged shape with a rounded center and two short angular extensions.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e33b6f456e2b613fc49e9f24ddd677379b64e0c3f87b5ff6af22fe594d3614da.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 e33b6f456e2b613fc49e9f24ddd677379b64e0c3f87b5ff6af22fe594d3614da and decoded pixel SHA-256 d4c2f8cfdc56547419c2cfcf3f44a487bbffbd5a26f8ad3e09e74be72260c699; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/25/frame/0",
+      "sourceSha256": "458dc447702d23d6660b776bc483d896b565aaf93c06ba33cf7a414a728bcc64",
+      "pixelSha256": "b7992995d319d8e3ae8d9ddab1d351fa9f576cb75b80cc02210e405d45b57192",
+      "visualDescription": "A tall blue-green armored humanoid with a long pale weapon, a round shield, and trailing dark details.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/458dc447702d23d6660b776bc483d896b565aaf93c06ba33cf7a414a728bcc64.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 458dc447702d23d6660b776bc483d896b565aaf93c06ba33cf7a414a728bcc64 and decoded pixel SHA-256 b7992995d319d8e3ae8d9ddab1d351fa9f576cb75b80cc02210e405d45b57192; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/25/frame/1",
+      "sourceSha256": "1bd79b16a8fc5315fa2fe8e811ca431ba92184ed11228070658e37887ed35ee5",
+      "pixelSha256": "3aeea346f1727f93488d40912233ba1988caa9a48269490811b37cf8b9735092",
+      "visualDescription": "A compact blue-green armored figure with a pale weapon angled downward and a round shield.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1bd79b16a8fc5315fa2fe8e811ca431ba92184ed11228070658e37887ed35ee5.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 1bd79b16a8fc5315fa2fe8e811ca431ba92184ed11228070658e37887ed35ee5 and decoded pixel SHA-256 3aeea346f1727f93488d40912233ba1988caa9a48269490811b37cf8b9735092; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/25/frame/2",
+      "sourceSha256": "968894fd5e33a5b0ec8c809da2205f4cfe116e768256b38f87acafde6c0d0cc8",
+      "pixelSha256": "3eadbf11a18e967a095f80cc726ab5201549cb4464676ddf6ca055c38425010e",
+      "visualDescription": "A tiny blue-green armored figure with a pale diagonal weapon and a dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/968894fd5e33a5b0ec8c809da2205f4cfe116e768256b38f87acafde6c0d0cc8.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 968894fd5e33a5b0ec8c809da2205f4cfe116e768256b38f87acafde6c0d0cc8 and decoded pixel SHA-256 3eadbf11a18e967a095f80cc726ab5201549cb4464676ddf6ca055c38425010e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/28/frame/0",
+      "sourceSha256": "6b73fa08130d539dfbde20a80481b1e7437083be72a51d3019a4948182f03646",
+      "pixelSha256": "16336eaa604a899fcefabb87d6e068b558119911e30df2f4146a2de4c7f0cd46",
+      "visualDescription": "A large blue-white winged creature with a horned head, broad raised wings, and a segmented torso.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6b73fa08130d539dfbde20a80481b1e7437083be72a51d3019a4948182f03646.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 6b73fa08130d539dfbde20a80481b1e7437083be72a51d3019a4948182f03646 and decoded pixel SHA-256 16336eaa604a899fcefabb87d6e068b558119911e30df2f4146a2de4c7f0cd46; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/28/frame/1",
+      "sourceSha256": "f6b1d7d446fb9f292163a24bd4118b6ec402f8e2175258b26bcd58628b86d52e",
+      "pixelSha256": "96ec0b889296c4e3ec8c90cfd34a91f35d60529761a873ed713d180863b6672b",
+      "visualDescription": "A small blue-white winged creature with a horned head and folded lower body.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f6b1d7d446fb9f292163a24bd4118b6ec402f8e2175258b26bcd58628b86d52e.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 f6b1d7d446fb9f292163a24bd4118b6ec402f8e2175258b26bcd58628b86d52e and decoded pixel SHA-256 96ec0b889296c4e3ec8c90cfd34a91f35d60529761a873ed713d180863b6672b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/28/frame/2",
+      "sourceSha256": "8a1ba10a4e26b32429a19d9cf131b3450bb9c3d5dcda1417d37e8b48e6e480c2",
+      "pixelSha256": "18b767b8eb59468c09aebfdf0073ce7300b700770122cb138e302829cb11e44e",
+      "visualDescription": "A tiny blue-white winged figure with pointed upper extensions and a dark base.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8a1ba10a4e26b32429a19d9cf131b3450bb9c3d5dcda1417d37e8b48e6e480c2.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 8a1ba10a4e26b32429a19d9cf131b3450bb9c3d5dcda1417d37e8b48e6e480c2 and decoded pixel SHA-256 18b767b8eb59468c09aebfdf0073ce7300b700770122cb138e302829cb11e44e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/30/frame/0",
+      "sourceSha256": "e5fd709b1523a0f17c8f2d2a72f60a604371bc43992d7a02ab4eccd338869d47",
+      "pixelSha256": "942fbadc8354d86827d0b54e66de8504f828ec5934a1d98b3dea79c3a8b32514",
+      "visualDescription": "A large pale blue and white dragon-like head and upper body framed by two tall angular wings.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/e5fd709b1523a0f17c8f2d2a72f60a604371bc43992d7a02ab4eccd338869d47.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 e5fd709b1523a0f17c8f2d2a72f60a604371bc43992d7a02ab4eccd338869d47 and decoded pixel SHA-256 942fbadc8354d86827d0b54e66de8504f828ec5934a1d98b3dea79c3a8b32514; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/30/frame/1",
+      "sourceSha256": "5828faeb554aba5bfc179d6b08a26e29cf237261511067aa212b9bbc8d95935d",
+      "pixelSha256": "ca5531e3a31d8fafc4fe9979b26cc65994b988a7dfdafcef3aabd0d4179a378b",
+      "visualDescription": "A smaller pale blue winged creature with a pointed head, curved body, and dark underside.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5828faeb554aba5bfc179d6b08a26e29cf237261511067aa212b9bbc8d95935d.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5828faeb554aba5bfc179d6b08a26e29cf237261511067aa212b9bbc8d95935d and decoded pixel SHA-256 ca5531e3a31d8fafc4fe9979b26cc65994b988a7dfdafcef3aabd0d4179a378b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/30/frame/2",
+      "sourceSha256": "2931333ad92590fcf1854cfe7069c2e556a032e4be1885555de303f3a476b09d",
+      "pixelSha256": "fe1180f05dc0ee3d0b88f0eeafa019369d8c974d2ee18c7a50067c987ffc1d61",
+      "visualDescription": "A tiny pale blue winged shape with two high pointed extensions and a dark base.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/2931333ad92590fcf1854cfe7069c2e556a032e4be1885555de303f3a476b09d.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 2931333ad92590fcf1854cfe7069c2e556a032e4be1885555de303f3a476b09d and decoded pixel SHA-256 fe1180f05dc0ee3d0b88f0eeafa019369d8c974d2ee18c7a50067c987ffc1d61; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/35/frame/0",
+      "sourceSha256": "5bc47e94f8b920a90b174cce25bd955099c22cdf44f90fc8580f2387ad972647",
+      "pixelSha256": "fd00bcb6bd2749190784b111160dabae0882c49cc01e1a86f9b18c1ab335517a",
+      "visualDescription": "A standing humanoid in a purple cloak and orange-gold clothing, holding a round orange shield and a narrow staff or blade.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5bc47e94f8b920a90b174cce25bd955099c22cdf44f90fc8580f2387ad972647.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5bc47e94f8b920a90b174cce25bd955099c22cdf44f90fc8580f2387ad972647 and decoded pixel SHA-256 fd00bcb6bd2749190784b111160dabae0882c49cc01e1a86f9b18c1ab335517a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/35/frame/1",
+      "sourceSha256": "08894ebe3792eeb37502a4fcd9c234daa9d506201416bbbbc0b28061531235d7",
+      "pixelSha256": "aa9b45079f86f4fd4b064456afc98ae1a500e70abd35f422913c8ad6b2159ac2",
+      "visualDescription": "A smaller cloaked humanoid with a round orange shield, dark purple clothing, and a narrow object held at its side.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/08894ebe3792eeb37502a4fcd9c234daa9d506201416bbbbc0b28061531235d7.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 08894ebe3792eeb37502a4fcd9c234daa9d506201416bbbbc0b28061531235d7 and decoded pixel SHA-256 aa9b45079f86f4fd4b064456afc98ae1a500e70abd35f422913c8ad6b2159ac2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/35/frame/2",
+      "sourceSha256": "94ac67ec2d19501d4237c6b954600cc5d0f9870a52383470e16bf70fd9cde017",
+      "pixelSha256": "666ac45dfa630a3e8230a649a3d57ed9590eb46823f673e7ccf4dbb75c0d361b",
+      "visualDescription": "A tiny purple, orange, and teal humanoid silhouette with a rounded side shape.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/94ac67ec2d19501d4237c6b954600cc5d0f9870a52383470e16bf70fd9cde017.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 94ac67ec2d19501d4237c6b954600cc5d0f9870a52383470e16bf70fd9cde017 and decoded pixel SHA-256 666ac45dfa630a3e8230a649a3d57ed9590eb46823f673e7ccf4dbb75c0d361b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/4/frame/0",
+      "sourceSha256": "7e6944fcf693f0ec3f94b4b052bdf3d9ebf7c6c89bb4ab96ee4fb2760bfcb9bd",
+      "pixelSha256": "b1e079464e66e12cf5e9b1f7c77ff919771a979ec2af3853888bdaa2e81ec918",
+      "visualDescription": "A crouched green-brown reptilian figure with a long tail, bent legs, and one arm extended.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/7e6944fcf693f0ec3f94b4b052bdf3d9ebf7c6c89bb4ab96ee4fb2760bfcb9bd.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 7e6944fcf693f0ec3f94b4b052bdf3d9ebf7c6c89bb4ab96ee4fb2760bfcb9bd and decoded pixel SHA-256 b1e079464e66e12cf5e9b1f7c77ff919771a979ec2af3853888bdaa2e81ec918; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/4/frame/1",
+      "sourceSha256": "8da473a6039ccb8010e2774c8427f91736df4c9c206cd6311b7f9b7ddcdea863",
+      "pixelSha256": "1daf4a809c6d746be61107381cb887c6396f251fdca9d2ab66974be940aab3fd",
+      "visualDescription": "A smaller green-brown reptilian figure with a curved tail and bent limbs.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8da473a6039ccb8010e2774c8427f91736df4c9c206cd6311b7f9b7ddcdea863.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 8da473a6039ccb8010e2774c8427f91736df4c9c206cd6311b7f9b7ddcdea863 and decoded pixel SHA-256 1daf4a809c6d746be61107381cb887c6396f251fdca9d2ab66974be940aab3fd; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/4/frame/2",
+      "sourceSha256": "5768ab5f92bd1e9d5a3d3ca27d729bb6231552c4052747abfab01079e516e219",
+      "pixelSha256": "324af4602cc5023d74dc0a1517a80eac76a6272bdd8d5e36415e1bff7375e61c",
+      "visualDescription": "A tiny green-brown upright figure with a short tail-like extension.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5768ab5f92bd1e9d5a3d3ca27d729bb6231552c4052747abfab01079e516e219.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5768ab5f92bd1e9d5a3d3ca27d729bb6231552c4052747abfab01079e516e219 and decoded pixel SHA-256 324af4602cc5023d74dc0a1517a80eac76a6272bdd8d5e36415e1bff7375e61c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/48/frame/0",
+      "sourceSha256": "42e1466429a9fc1e09db2fa8bc6c33cc4e6d660f48353feaaa864c05bb45d8a1",
+      "pixelSha256": "38dada2b3d89ad35c67327aa6d809cb6defaca33bcdaccf320d90b4e2d672a2f",
+      "visualDescription": "A small orange-clad humanoid with one arm raised and a dark curved shape around its upper body.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/42e1466429a9fc1e09db2fa8bc6c33cc4e6d660f48353feaaa864c05bb45d8a1.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 42e1466429a9fc1e09db2fa8bc6c33cc4e6d660f48353feaaa864c05bb45d8a1 and decoded pixel SHA-256 38dada2b3d89ad35c67327aa6d809cb6defaca33bcdaccf320d90b4e2d672a2f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/48/frame/1",
+      "sourceSha256": "55e09b31322d6f7a45f14231a046ffe7c57957d249fedc8385b58522a93e774c",
+      "pixelSha256": "7c15aec4c640e6cb3df53821b5fed0c3e6019a3a38eebbb6a73e02eb5e2be9ee",
+      "visualDescription": "A compact orange and green humanoid with an angular torso, bent legs, and extended arms.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/55e09b31322d6f7a45f14231a046ffe7c57957d249fedc8385b58522a93e774c.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 55e09b31322d6f7a45f14231a046ffe7c57957d249fedc8385b58522a93e774c and decoded pixel SHA-256 7c15aec4c640e6cb3df53821b5fed0c3e6019a3a38eebbb6a73e02eb5e2be9ee; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/48/frame/2",
+      "sourceSha256": "8f0ad4149344ae7a38dd3092674536ae5461de6878ddc9a73733a9784aa60194",
+      "pixelSha256": "ff7bebb7ae8e99664c04b6cc273cc6bc0b1ce084a93ff5f4e966fc34cc283203",
+      "visualDescription": "A tiny orange-green humanoid silhouette with two short arms and a dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8f0ad4149344ae7a38dd3092674536ae5461de6878ddc9a73733a9784aa60194.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 8f0ad4149344ae7a38dd3092674536ae5461de6878ddc9a73733a9784aa60194 and decoded pixel SHA-256 ff7bebb7ae8e99664c04b6cc273cc6bc0b1ce084a93ff5f4e966fc34cc283203; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/5/frame/0",
+      "sourceSha256": "422e4e222fadb76579cd61c05d8cc3eaa7d15ddc69f5033272a5eb74a4f35f88",
+      "pixelSha256": "e11706393b3c32aaff96e9847e16c7a8f86a1cd57ee45817458eef5b0f563f8f",
+      "visualDescription": "A dark blue-black armored creature with a rounded, ribbed body, cyan highlights, and several short projections.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/422e4e222fadb76579cd61c05d8cc3eaa7d15ddc69f5033272a5eb74a4f35f88.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 422e4e222fadb76579cd61c05d8cc3eaa7d15ddc69f5033272a5eb74a4f35f88 and decoded pixel SHA-256 e11706393b3c32aaff96e9847e16c7a8f86a1cd57ee45817458eef5b0f563f8f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/5/frame/1",
+      "sourceSha256": "cd596d903fac474b21e47f0d0cd102a3a0a04eb8a3064b349b7bb2a9714b6a99",
+      "pixelSha256": "eb01a437f05c27a9388621f858f49d689496d9b124e54688b3f7458671e16bd1",
+      "visualDescription": "A smaller dark armored creature with a rounded ribbed body and bright cyan details.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/cd596d903fac474b21e47f0d0cd102a3a0a04eb8a3064b349b7bb2a9714b6a99.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 cd596d903fac474b21e47f0d0cd102a3a0a04eb8a3064b349b7bb2a9714b6a99 and decoded pixel SHA-256 eb01a437f05c27a9388621f858f49d689496d9b124e54688b3f7458671e16bd1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/5/frame/2",
+      "sourceSha256": "2555e9d7e6635f9a3a1b462b87fd36540c2a111a5f5566795664955685d98446",
+      "pixelSha256": "ea353e1b2208140e21f31803adc7632c8b95c0cd07e1a4bbc721ce9b18cfa6c2",
+      "visualDescription": "A tiny dark blue-black figure with a rounded center and short side projections.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/2555e9d7e6635f9a3a1b462b87fd36540c2a111a5f5566795664955685d98446.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 2555e9d7e6635f9a3a1b462b87fd36540c2a111a5f5566795664955685d98446 and decoded pixel SHA-256 ea353e1b2208140e21f31803adc7632c8b95c0cd07e1a4bbc721ce9b18cfa6c2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/51/frame/0",
+      "sourceSha256": "42e1466429a9fc1e09db2fa8bc6c33cc4e6d660f48353feaaa864c05bb45d8a1",
+      "pixelSha256": "38dada2b3d89ad35c67327aa6d809cb6defaca33bcdaccf320d90b4e2d672a2f",
+      "visualDescription": "A small orange-clad humanoid with one arm raised and a dark curved shape around its upper body.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/42e1466429a9fc1e09db2fa8bc6c33cc4e6d660f48353feaaa864c05bb45d8a1.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 42e1466429a9fc1e09db2fa8bc6c33cc4e6d660f48353feaaa864c05bb45d8a1 and decoded pixel SHA-256 38dada2b3d89ad35c67327aa6d809cb6defaca33bcdaccf320d90b4e2d672a2f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/51/frame/1",
+      "sourceSha256": "55e09b31322d6f7a45f14231a046ffe7c57957d249fedc8385b58522a93e774c",
+      "pixelSha256": "7c15aec4c640e6cb3df53821b5fed0c3e6019a3a38eebbb6a73e02eb5e2be9ee",
+      "visualDescription": "A compact orange and green humanoid with an angular torso, bent legs, and extended arms.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/55e09b31322d6f7a45f14231a046ffe7c57957d249fedc8385b58522a93e774c.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 55e09b31322d6f7a45f14231a046ffe7c57957d249fedc8385b58522a93e774c and decoded pixel SHA-256 7c15aec4c640e6cb3df53821b5fed0c3e6019a3a38eebbb6a73e02eb5e2be9ee; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/51/frame/2",
+      "sourceSha256": "8f0ad4149344ae7a38dd3092674536ae5461de6878ddc9a73733a9784aa60194",
+      "pixelSha256": "ff7bebb7ae8e99664c04b6cc273cc6bc0b1ce084a93ff5f4e966fc34cc283203",
+      "visualDescription": "A tiny orange-green humanoid silhouette with two short arms and a dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8f0ad4149344ae7a38dd3092674536ae5461de6878ddc9a73733a9784aa60194.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 8f0ad4149344ae7a38dd3092674536ae5461de6878ddc9a73733a9784aa60194 and decoded pixel SHA-256 ff7bebb7ae8e99664c04b6cc273cc6bc0b1ce084a93ff5f4e966fc34cc283203; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/56/frame/0",
+      "sourceSha256": "df8c20d570e14cc271bac8b7d8c9531c0f5db0bb16b60acfc5719e027d29d658",
+      "pixelSha256": "0b790118901ab70fb0129ab3f54d27996a106dfdfd8eba4630875f1c4ed11705",
+      "visualDescription": "A large skeletal winged figure with a skull-like head, exposed rib-like lines, and broad red-pink wings.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/df8c20d570e14cc271bac8b7d8c9531c0f5db0bb16b60acfc5719e027d29d658.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 df8c20d570e14cc271bac8b7d8c9531c0f5db0bb16b60acfc5719e027d29d658 and decoded pixel SHA-256 0b790118901ab70fb0129ab3f54d27996a106dfdfd8eba4630875f1c4ed11705; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/56/frame/1",
+      "sourceSha256": "98304d8c3eadd443bdd3e7156ff739a737f766b2f1ba2d4ee60705e1911e1bf8",
+      "pixelSha256": "a94f4481151430f848046b8f0640fc254e4075338ba8e91b7cc4a0ec7f2c8190",
+      "visualDescription": "A smaller skeletal winged figure with a skull-like head, pale ribs, and red-pink wings.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/98304d8c3eadd443bdd3e7156ff739a737f766b2f1ba2d4ee60705e1911e1bf8.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 98304d8c3eadd443bdd3e7156ff739a737f766b2f1ba2d4ee60705e1911e1bf8 and decoded pixel SHA-256 a94f4481151430f848046b8f0640fc254e4075338ba8e91b7cc4a0ec7f2c8190; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/56/frame/2",
+      "sourceSha256": "cdd11a46741afbe90b0f26130f1682f1dbcc3b0ba02064504410af1a86afa297",
+      "pixelSha256": "ba07fb9f88b55dcecc04c7d064acc5dac2f8d08c95b39cc0a73d248bc6942541",
+      "visualDescription": "A tiny skeletal form with a pale head and short reddish wing-like projections.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/cdd11a46741afbe90b0f26130f1682f1dbcc3b0ba02064504410af1a86afa297.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 cdd11a46741afbe90b0f26130f1682f1dbcc3b0ba02064504410af1a86afa297 and decoded pixel SHA-256 ba07fb9f88b55dcecc04c7d064acc5dac2f8d08c95b39cc0a73d248bc6942541; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/6/frame/0",
+      "sourceSha256": "33d72d4d9bb13c051421cfcdade1e263811d1cdeb5c304be5c451e9397a8977d",
+      "pixelSha256": "fdf3066a55e58d98a1e6cc496d83403142c2c53c3bf43ab20caf54b6d4f8b281",
+      "visualDescription": "A thin tan humanoid with both arms raised above its head and angular legs.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/33d72d4d9bb13c051421cfcdade1e263811d1cdeb5c304be5c451e9397a8977d.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 33d72d4d9bb13c051421cfcdade1e263811d1cdeb5c304be5c451e9397a8977d and decoded pixel SHA-256 fdf3066a55e58d98a1e6cc496d83403142c2c53c3bf43ab20caf54b6d4f8b281; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/6/frame/1",
+      "sourceSha256": "c890b957332b0c70ae9f770e31fd10c1ebb07d45642ba7f65a4e99988454266b",
+      "pixelSha256": "ad55bd6a4d743fde0b32cda6450fcc5fce35b8ed07c9cd0684d0f34dd9784fe0",
+      "visualDescription": "A smaller tan humanoid with raised arms and bent legs.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c890b957332b0c70ae9f770e31fd10c1ebb07d45642ba7f65a4e99988454266b.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 c890b957332b0c70ae9f770e31fd10c1ebb07d45642ba7f65a4e99988454266b and decoded pixel SHA-256 ad55bd6a4d743fde0b32cda6450fcc5fce35b8ed07c9cd0684d0f34dd9784fe0; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/6/frame/2",
+      "sourceSha256": "f324ebb720d722bb2c75cbbc936331dab261232ea38c12ee3357e01786b6a5a6",
+      "pixelSha256": "0c17d6db0842725a229102948e843291775e326d4c751264ec47901f93f73bb9",
+      "visualDescription": "A tiny tan upright silhouette with short raised arm-like extensions.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f324ebb720d722bb2c75cbbc936331dab261232ea38c12ee3357e01786b6a5a6.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 f324ebb720d722bb2c75cbbc936331dab261232ea38c12ee3357e01786b6a5a6 and decoded pixel SHA-256 0c17d6db0842725a229102948e843291775e326d4c751264ec47901f93f73bb9; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/8/frame/0",
+      "sourceSha256": "2244b46f1fa69a11c09084cb6352fe7ca931c35c5a551d0fc90f2d9919bc3d86",
+      "pixelSha256": "1e1033e602c8a51f3d38c4c5c1a1abc460865a7de00eb7a657d5627119297687",
+      "visualDescription": "A broad crouching brown figure with a rounded head, long arms, and a curved loop-like line above it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/2244b46f1fa69a11c09084cb6352fe7ca931c35c5a551d0fc90f2d9919bc3d86.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 2244b46f1fa69a11c09084cb6352fe7ca931c35c5a551d0fc90f2d9919bc3d86 and decoded pixel SHA-256 1e1033e602c8a51f3d38c4c5c1a1abc460865a7de00eb7a657d5627119297687; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/8/frame/1",
+      "sourceSha256": "42e0f5f7ac4b9ea39c4091a7fa26862a4a44f3937887a52011e0ac8119eba87c",
+      "pixelSha256": "fe722fbbd03bc59436e78d6c8ea93d3efdf9e2f1c3e7de23307193a53c140585",
+      "visualDescription": "A smaller crouched brown figure with a rounded head and a curved line looping above its back.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/42e0f5f7ac4b9ea39c4091a7fa26862a4a44f3937887a52011e0ac8119eba87c.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 42e0f5f7ac4b9ea39c4091a7fa26862a4a44f3937887a52011e0ac8119eba87c and decoded pixel SHA-256 fe722fbbd03bc59436e78d6c8ea93d3efdf9e2f1c3e7de23307193a53c140585; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk2/sprit1.daa/block/8/frame/2",
+      "sourceSha256": "1eee0d645a4d3cd65f24194226247f8f732fbc8df52823b1ddde3ac9eaff8dd8",
+      "pixelSha256": "0a665a0225db822e4a16dff677a08e5ca39c2d582ad52d5104c0475ae1828794",
+      "visualDescription": "A tiny brown crouching figure with a rounded upper body and short curved extension.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1eee0d645a4d3cd65f24194226247f8f732fbc8df52823b1ddde3ac9eaff8dd8.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 1eee0d645a4d3cd65f24194226247f8f732fbc8df52823b1ddde3ac9eaff8dd8 and decoded pixel SHA-256 0a665a0225db822e4a16dff677a08e5ca39c2d582ad52d5104c0475ae1828794; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/0/frame/0",
+      "sourceSha256": "4dfae9814e974954fe52bff4c81093c5b2c9a36f11e6de5286968a65a4872b2f",
+      "pixelSha256": "0b8d2e85924a1afc4abbf39e56c42440c96dbcf0d1db7571454a5b23614656a6",
+      "visualDescription": "A tall ornate purple, red, and gold figure with a bright patterned front and arms held slightly outward.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4dfae9814e974954fe52bff4c81093c5b2c9a36f11e6de5286968a65a4872b2f.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 4dfae9814e974954fe52bff4c81093c5b2c9a36f11e6de5286968a65a4872b2f and decoded pixel SHA-256 0b8d2e85924a1afc4abbf39e56c42440c96dbcf0d1db7571454a5b23614656a6; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/0/frame/1",
+      "sourceSha256": "998a421ad14f53581209d3ab4a74cc91ad9bde1e01eeb7c74b7ea1f68a1680a3",
+      "pixelSha256": "301e12c8224d81d67900aa43b50306f0c07af30f6a8ed900698a9aba2cf5276a",
+      "visualDescription": "A smaller purple-red figure with a bright vertical panel down the front and blue lower sections.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/998a421ad14f53581209d3ab4a74cc91ad9bde1e01eeb7c74b7ea1f68a1680a3.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 998a421ad14f53581209d3ab4a74cc91ad9bde1e01eeb7c74b7ea1f68a1680a3 and decoded pixel SHA-256 301e12c8224d81d67900aa43b50306f0c07af30f6a8ed900698a9aba2cf5276a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/0/frame/2",
+      "sourceSha256": "14076b410a649d295ddfdf3ba29be7d6ae83af886df7cc8fac3380f4096bfb36",
+      "pixelSha256": "5e2bdb20630a3a1e8314d3ed3861b97a95d933ca2ffc8152d1cf616cc5c611ab",
+      "visualDescription": "A tiny purple, red, and gold upright figure with a bright patterned center.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/14076b410a649d295ddfdf3ba29be7d6ae83af886df7cc8fac3380f4096bfb36.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 14076b410a649d295ddfdf3ba29be7d6ae83af886df7cc8fac3380f4096bfb36 and decoded pixel SHA-256 5e2bdb20630a3a1e8314d3ed3861b97a95d933ca2ffc8152d1cf616cc5c611ab; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/10/frame/0",
+      "sourceSha256": "69f9509a507f3cf089799bac80357e62f6d02f3c56211a20331f9711955f4033",
+      "pixelSha256": "8a842537f81137dcbd93dd67ade221e97d25df0fc68c34a6582c68ae9ae3fbaf",
+      "visualDescription": "A large green winged creature with a long ridged head, outstretched pointed wings, and a segmented brown underside.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/69f9509a507f3cf089799bac80357e62f6d02f3c56211a20331f9711955f4033.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 69f9509a507f3cf089799bac80357e62f6d02f3c56211a20331f9711955f4033 and decoded pixel SHA-256 8a842537f81137dcbd93dd67ade221e97d25df0fc68c34a6582c68ae9ae3fbaf; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/10/frame/1",
+      "sourceSha256": "ae3c47ececcdaa48f796e1119ae90eddc415671d86f67091b7ed97d00f4724b3",
+      "pixelSha256": "eed3413c010bcf5424bb16a335a0fbb46352200db24c8e3b23142fc7774685e9",
+      "visualDescription": "A smaller green winged creature with a ridged head and short, pointed wings.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ae3c47ececcdaa48f796e1119ae90eddc415671d86f67091b7ed97d00f4724b3.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 ae3c47ececcdaa48f796e1119ae90eddc415671d86f67091b7ed97d00f4724b3 and decoded pixel SHA-256 eed3413c010bcf5424bb16a335a0fbb46352200db24c8e3b23142fc7774685e9; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/10/frame/2",
+      "sourceSha256": "3479076af66ffc5e78b611e068f97edd07be525ba3a2297e6e0208f5e237b671",
+      "pixelSha256": "65af71f967c0713455fb5491c501a4b7ea6696f62ece6e79e5de4a5bca044f2c",
+      "visualDescription": "A tiny green winged form with a narrow center and short side extensions.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3479076af66ffc5e78b611e068f97edd07be525ba3a2297e6e0208f5e237b671.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 3479076af66ffc5e78b611e068f97edd07be525ba3a2297e6e0208f5e237b671 and decoded pixel SHA-256 65af71f967c0713455fb5491c501a4b7ea6696f62ece6e79e5de4a5bca044f2c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/14/frame/0",
+      "sourceSha256": "c25f65d8b964b1f0492b975e2045bac9770b408a2480a13fed2a5dbd91902865",
+      "pixelSha256": "5ccb398e1215f9441596595b8749b00605711d82868782538ed539bba1b442ee",
+      "visualDescription": "A tall humanoid in orange and gold plate-like armor with a horned helmet, a round gray shield, and a raised blade.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c25f65d8b964b1f0492b975e2045bac9770b408a2480a13fed2a5dbd91902865.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 c25f65d8b964b1f0492b975e2045bac9770b408a2480a13fed2a5dbd91902865 and decoded pixel SHA-256 5ccb398e1215f9441596595b8749b00605711d82868782538ed539bba1b442ee; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/14/frame/1",
+      "sourceSha256": "1208a15d3e9e87dc23001c84ee1651d3f636f9a95b99cc01627d083c4cc00108",
+      "pixelSha256": "fffd367309ee6b73406c2a53fcad0d16014672cedc6e3de48e06b1fd159a82f7",
+      "visualDescription": "A compact orange-gold armored humanoid with a horned helmet, round shield, and a narrow blade extending to the left.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1208a15d3e9e87dc23001c84ee1651d3f636f9a95b99cc01627d083c4cc00108.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 1208a15d3e9e87dc23001c84ee1651d3f636f9a95b99cc01627d083c4cc00108 and decoded pixel SHA-256 fffd367309ee6b73406c2a53fcad0d16014672cedc6e3de48e06b1fd159a82f7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/14/frame/2",
+      "sourceSha256": "115de2e0db42e4b0d8656b4617e35707d37cadb89374aa5c2eca1ec968f537fc",
+      "pixelSha256": "2e3745d10312fa9b4186c1018fcb683f092cd7fd1fb7c259fb83d66de5ef7ee4",
+      "visualDescription": "A very small orange-gold armored figure with a dark outline and a gray circular shield at its side.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/115de2e0db42e4b0d8656b4617e35707d37cadb89374aa5c2eca1ec968f537fc.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 115de2e0db42e4b0d8656b4617e35707d37cadb89374aa5c2eca1ec968f537fc and decoded pixel SHA-256 2e3745d10312fa9b4186c1018fcb683f092cd7fd1fb7c259fb83d66de5ef7ee4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/16/frame/0",
+      "sourceSha256": "226603ec99c4fd36e8f76ccd4eab2133d26bb8e9c56fdf6d1c5edf82648ee71c",
+      "pixelSha256": "c75f88a724f2bd84e369fe37deb13ce2f97db7e496c58838e09a69c6b3fa00c8",
+      "visualDescription": "A tall orange-red and blue-clad humanoid with both arms raised near its head and a dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/226603ec99c4fd36e8f76ccd4eab2133d26bb8e9c56fdf6d1c5edf82648ee71c.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 226603ec99c4fd36e8f76ccd4eab2133d26bb8e9c56fdf6d1c5edf82648ee71c and decoded pixel SHA-256 c75f88a724f2bd84e369fe37deb13ce2f97db7e496c58838e09a69c6b3fa00c8; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/16/frame/1",
+      "sourceSha256": "0412bc6bc3a68f53ef1dfcf058d09e010be70e9fdd953afb1133b92f49efc5d5",
+      "pixelSha256": "1a5cf1d947a436ed390673645d684627868fb15706b1f4c4562b0943c6bd57ff",
+      "visualDescription": "A smaller orange-red and blue humanoid with one arm extended and a narrow pale object at its side.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/0412bc6bc3a68f53ef1dfcf058d09e010be70e9fdd953afb1133b92f49efc5d5.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 0412bc6bc3a68f53ef1dfcf058d09e010be70e9fdd953afb1133b92f49efc5d5 and decoded pixel SHA-256 1a5cf1d947a436ed390673645d684627868fb15706b1f4c4562b0943c6bd57ff; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/16/frame/2",
+      "sourceSha256": "f606cddf7c4cbbf7c91d96c1143931722a57fce7478b32ad1ec6a2d8a49a61a6",
+      "pixelSha256": "6d0b8596edaa5a0bbca4a3ce571b212863ab99c8d8c7660ef2eafbc64b00e9de",
+      "visualDescription": "A tiny orange and blue humanoid silhouette with short arms and legs.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f606cddf7c4cbbf7c91d96c1143931722a57fce7478b32ad1ec6a2d8a49a61a6.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 f606cddf7c4cbbf7c91d96c1143931722a57fce7478b32ad1ec6a2d8a49a61a6 and decoded pixel SHA-256 6d0b8596edaa5a0bbca4a3ce571b212863ab99c8d8c7660ef2eafbc64b00e9de; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/17/frame/0",
+      "sourceSha256": "5b7e60aa5566373ece16f83fa8acaafeb04f7aa49cf80bc764ff4bb46df14fb4",
+      "pixelSha256": "6bd4a314295f25b64cb50ec08760ba68d5fa3a38ad38c0312b1835151d302d7f",
+      "visualDescription": "A brown bat-like creature with a small central body and two broad, pointed wings spread to either side.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5b7e60aa5566373ece16f83fa8acaafeb04f7aa49cf80bc764ff4bb46df14fb4.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5b7e60aa5566373ece16f83fa8acaafeb04f7aa49cf80bc764ff4bb46df14fb4 and decoded pixel SHA-256 6bd4a314295f25b64cb50ec08760ba68d5fa3a38ad38c0312b1835151d302d7f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/17/frame/1",
+      "sourceSha256": "c0547a49f1b21e3b0d051283d3c6d97cbd5a4286ac5f76ecaed5df845e2356e8",
+      "pixelSha256": "c5c43954eb02a9c75ce63aa39cc7aefb57ca6986f63931b18eadc5e10dcf305e",
+      "visualDescription": "A small brown winged creature with its wings stretched horizontally and a dark shadow-like strip below.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/c0547a49f1b21e3b0d051283d3c6d97cbd5a4286ac5f76ecaed5df845e2356e8.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 c0547a49f1b21e3b0d051283d3c6d97cbd5a4286ac5f76ecaed5df845e2356e8 and decoded pixel SHA-256 c5c43954eb02a9c75ce63aa39cc7aefb57ca6986f63931b18eadc5e10dcf305e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/17/frame/2",
+      "sourceSha256": "5b6cd665895197ccedcf03826576655d5239d33731731254857ef8ff52de3565",
+      "pixelSha256": "396bd30947a77031393ee0c930173e2d4eea6f25b3f5e0e2ad0c462cc3d774c4",
+      "visualDescription": "A tiny brown winged shape with short angular extensions and a narrow dark mark beneath it.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5b6cd665895197ccedcf03826576655d5239d33731731254857ef8ff52de3565.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5b6cd665895197ccedcf03826576655d5239d33731731254857ef8ff52de3565 and decoded pixel SHA-256 396bd30947a77031393ee0c930173e2d4eea6f25b3f5e0e2ad0c462cc3d774c4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/19/frame/0",
+      "sourceSha256": "57f9707c3819dd7e1163f8512c604005f0f506d09233703e6bba65ebab1f944f",
+      "pixelSha256": "bea47c9e4f475aae99d6354659911b6727751c2c4c82484db1461a279a457039",
+      "visualDescription": "A broad, muscular bare-armed humanoid with dark hair, a patterned yellow-orange garment, and a narrow object held in one hand.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/57f9707c3819dd7e1163f8512c604005f0f506d09233703e6bba65ebab1f944f.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 57f9707c3819dd7e1163f8512c604005f0f506d09233703e6bba65ebab1f944f and decoded pixel SHA-256 bea47c9e4f475aae99d6354659911b6727751c2c4c82484db1461a279a457039; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/19/frame/1",
+      "sourceSha256": "742c3d0fe0f58206ff2f1cf865bdfae02c821de26c4f3364bccd5d68da89dad1",
+      "pixelSha256": "e3f099767d65be9dfb09fa144d12ef8764c7f41fa8ddde715d1d9932e8a247a3",
+      "visualDescription": "A smaller bare-armed humanoid in a yellow-orange patterned garment, standing with a narrow object held upright.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/742c3d0fe0f58206ff2f1cf865bdfae02c821de26c4f3364bccd5d68da89dad1.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 742c3d0fe0f58206ff2f1cf865bdfae02c821de26c4f3364bccd5d68da89dad1 and decoded pixel SHA-256 e3f099767d65be9dfb09fa144d12ef8764c7f41fa8ddde715d1d9932e8a247a3; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/19/frame/2",
+      "sourceSha256": "4ec165b7665f49df8a51eff31234d9473c9a0601e4d74725c3b9660c9b5c3cb0",
+      "pixelSha256": "6950f79aeb7853c21b253748157414e3c2092006ee441a3601db3379ecc804df",
+      "visualDescription": "A tiny orange and yellow humanoid silhouette with a dark outline and a narrow upright extension.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/4ec165b7665f49df8a51eff31234d9473c9a0601e4d74725c3b9660c9b5c3cb0.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 4ec165b7665f49df8a51eff31234d9473c9a0601e4d74725c3b9660c9b5c3cb0 and decoded pixel SHA-256 6950f79aeb7853c21b253748157414e3c2092006ee441a3601db3379ecc804df; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/22/frame/0",
+      "sourceSha256": "dfdf8fd2b125aeeb1a1fc24a9d539896211148c7fa0c42c04e155cc7b2084a2e",
+      "pixelSha256": "5d4f5164ace167f25e9885b01b219538c29833c3c17cf31a3c7d28dad07f8baa",
+      "visualDescription": "A large red dragon-like creature with a broad folded wing on either side, a horned head, and a low crouching body.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/dfdf8fd2b125aeeb1a1fc24a9d539896211148c7fa0c42c04e155cc7b2084a2e.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 dfdf8fd2b125aeeb1a1fc24a9d539896211148c7fa0c42c04e155cc7b2084a2e and decoded pixel SHA-256 5d4f5164ace167f25e9885b01b219538c29833c3c17cf31a3c7d28dad07f8baa; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/22/frame/1",
+      "sourceSha256": "ef4d68712c4f90d4913c92638e20466a5038b903aa2f5b008ffc4839bf940408",
+      "pixelSha256": "bb1c43ea0382d853330034a67120b089aa9c152ae5d15c0c597c95dbe56c359b",
+      "visualDescription": "A smaller red winged creature crouched low, with a dark horned head and angular folded wings.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/ef4d68712c4f90d4913c92638e20466a5038b903aa2f5b008ffc4839bf940408.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 ef4d68712c4f90d4913c92638e20466a5038b903aa2f5b008ffc4839bf940408 and decoded pixel SHA-256 bb1c43ea0382d853330034a67120b089aa9c152ae5d15c0c597c95dbe56c359b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/22/frame/2",
+      "sourceSha256": "855ab37f4b4dd45cd959705993b69bee1e8d3e07295678c90c857a9f0d7519bd",
+      "pixelSha256": "05b65679e4791be16f43cac89908a71f323a2b6c0bc545bff73a79ce2f47ae6f",
+      "visualDescription": "A tiny red winged figure with a dark central body and two pointed upper extensions.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/855ab37f4b4dd45cd959705993b69bee1e8d3e07295678c90c857a9f0d7519bd.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 855ab37f4b4dd45cd959705993b69bee1e8d3e07295678c90c857a9f0d7519bd and decoded pixel SHA-256 05b65679e4791be16f43cac89908a71f323a2b6c0bc545bff73a79ce2f47ae6f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/24/frame/0",
+      "sourceSha256": "90dd08f30371152d162f58150ee4e3b97c34db96f5a7bc766c5e1fc335413523",
+      "pixelSha256": "1cf9fafbebe349fa42b5ff22dcc8dff4f879e86b50ee4171c159bd453c4e7209",
+      "visualDescription": "A tall blue-silver armored humanoid carrying a round shield and holding a long blade raised diagonally overhead.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/90dd08f30371152d162f58150ee4e3b97c34db96f5a7bc766c5e1fc335413523.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 90dd08f30371152d162f58150ee4e3b97c34db96f5a7bc766c5e1fc335413523 and decoded pixel SHA-256 1cf9fafbebe349fa42b5ff22dcc8dff4f879e86b50ee4171c159bd453c4e7209; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/24/frame/1",
+      "sourceSha256": "3fa6eca918895bed7897f9dbf6021fbef8d24b0be777028f46a242c9e7f794d1",
+      "pixelSha256": "81fb57679225b52c5cd738e773fc33021ee342cc85baddb2cb82e30526f4ebf4",
+      "visualDescription": "A smaller blue-silver armored figure with a round shield and a pale blade raised over one shoulder.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/3fa6eca918895bed7897f9dbf6021fbef8d24b0be777028f46a242c9e7f794d1.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 3fa6eca918895bed7897f9dbf6021fbef8d24b0be777028f46a242c9e7f794d1 and decoded pixel SHA-256 81fb57679225b52c5cd738e773fc33021ee342cc85baddb2cb82e30526f4ebf4; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/24/frame/2",
+      "sourceSha256": "544c8226244b8f3f7c1463db020191433fa9472321ca327dfd5516ec9a5698de",
+      "pixelSha256": "a91b99f77bc3b4135b9180250ec980c22d2b042fbcc8dcb36972acbd9f741d73",
+      "visualDescription": "A tiny blue-silver armored figure with one arm raised and a rounded side shape.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/544c8226244b8f3f7c1463db020191433fa9472321ca327dfd5516ec9a5698de.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 544c8226244b8f3f7c1463db020191433fa9472321ca327dfd5516ec9a5698de and decoded pixel SHA-256 a91b99f77bc3b4135b9180250ec980c22d2b042fbcc8dcb36972acbd9f741d73; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/25/frame/0",
+      "sourceSha256": "458dc447702d23d6660b776bc483d896b565aaf93c06ba33cf7a414a728bcc64",
+      "pixelSha256": "b7992995d319d8e3ae8d9ddab1d351fa9f576cb75b80cc02210e405d45b57192",
+      "visualDescription": "A tall blue-green armored humanoid with a long pale weapon, a round shield, and trailing dark details.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/458dc447702d23d6660b776bc483d896b565aaf93c06ba33cf7a414a728bcc64.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 458dc447702d23d6660b776bc483d896b565aaf93c06ba33cf7a414a728bcc64 and decoded pixel SHA-256 b7992995d319d8e3ae8d9ddab1d351fa9f576cb75b80cc02210e405d45b57192; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/25/frame/1",
+      "sourceSha256": "1bd79b16a8fc5315fa2fe8e811ca431ba92184ed11228070658e37887ed35ee5",
+      "pixelSha256": "3aeea346f1727f93488d40912233ba1988caa9a48269490811b37cf8b9735092",
+      "visualDescription": "A compact blue-green armored figure with a pale weapon angled downward and a round shield.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/1bd79b16a8fc5315fa2fe8e811ca431ba92184ed11228070658e37887ed35ee5.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 1bd79b16a8fc5315fa2fe8e811ca431ba92184ed11228070658e37887ed35ee5 and decoded pixel SHA-256 3aeea346f1727f93488d40912233ba1988caa9a48269490811b37cf8b9735092; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/25/frame/2",
+      "sourceSha256": "968894fd5e33a5b0ec8c809da2205f4cfe116e768256b38f87acafde6c0d0cc8",
+      "pixelSha256": "3eadbf11a18e967a095f80cc726ab5201549cb4464676ddf6ca055c38425010e",
+      "visualDescription": "A tiny blue-green armored figure with a pale diagonal weapon and a dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/968894fd5e33a5b0ec8c809da2205f4cfe116e768256b38f87acafde6c0d0cc8.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 968894fd5e33a5b0ec8c809da2205f4cfe116e768256b38f87acafde6c0d0cc8 and decoded pixel SHA-256 3eadbf11a18e967a095f80cc726ab5201549cb4464676ddf6ca055c38425010e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/26/frame/0",
+      "sourceSha256": "06b085baad9970f4d6a60d2477b0750cf08c2bb26765f7f2c698e03532ef7bff",
+      "pixelSha256": "512d1197c2d088af746a431ecaff0a1ada9e0c6caf887ad8ade3011f7ffafaf2",
+      "visualDescription": "A tall gold-brown skeletal-looking humanoid with a round shield and a long blade raised overhead.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/06b085baad9970f4d6a60d2477b0750cf08c2bb26765f7f2c698e03532ef7bff.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 06b085baad9970f4d6a60d2477b0750cf08c2bb26765f7f2c698e03532ef7bff and decoded pixel SHA-256 512d1197c2d088af746a431ecaff0a1ada9e0c6caf887ad8ade3011f7ffafaf2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/26/frame/1",
+      "sourceSha256": "353fc551191ced6675ec7d849f424b7b8564726a4cb643f7bab8f5375dee5579",
+      "pixelSha256": "f8c5d4047b3350efc85458bf89f2aecabb71fc7eddeae33b5e1528cc5dd33b57",
+      "visualDescription": "A smaller gold-brown armored figure with a round shield and a raised pale blade.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/353fc551191ced6675ec7d849f424b7b8564726a4cb643f7bab8f5375dee5579.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 353fc551191ced6675ec7d849f424b7b8564726a4cb643f7bab8f5375dee5579 and decoded pixel SHA-256 f8c5d4047b3350efc85458bf89f2aecabb71fc7eddeae33b5e1528cc5dd33b57; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/26/frame/2",
+      "sourceSha256": "44ab32e5e6eb2936347e5cbf6edb9739a77a2deca93868171cf784b4ca49a76e",
+      "pixelSha256": "ad1ccf3046f096b77997294190c2a85e926a6c9c5de0ea5d7de7a1d8fb94e95f",
+      "visualDescription": "A tiny gold and brown humanoid with a pale diagonal extension and dark outline.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/44ab32e5e6eb2936347e5cbf6edb9739a77a2deca93868171cf784b4ca49a76e.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 44ab32e5e6eb2936347e5cbf6edb9739a77a2deca93868171cf784b4ca49a76e and decoded pixel SHA-256 ad1ccf3046f096b77997294190c2a85e926a6c9c5de0ea5d7de7a1d8fb94e95f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/28/frame/0",
+      "sourceSha256": "6b73fa08130d539dfbde20a80481b1e7437083be72a51d3019a4948182f03646",
+      "pixelSha256": "16336eaa604a899fcefabb87d6e068b558119911e30df2f4146a2de4c7f0cd46",
+      "visualDescription": "A large blue-white winged creature with a horned head, broad raised wings, and a segmented torso.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/6b73fa08130d539dfbde20a80481b1e7437083be72a51d3019a4948182f03646.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 6b73fa08130d539dfbde20a80481b1e7437083be72a51d3019a4948182f03646 and decoded pixel SHA-256 16336eaa604a899fcefabb87d6e068b558119911e30df2f4146a2de4c7f0cd46; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/28/frame/1",
+      "sourceSha256": "f6b1d7d446fb9f292163a24bd4118b6ec402f8e2175258b26bcd58628b86d52e",
+      "pixelSha256": "96ec0b889296c4e3ec8c90cfd34a91f35d60529761a873ed713d180863b6672b",
+      "visualDescription": "A small blue-white winged creature with a horned head and folded lower body.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/f6b1d7d446fb9f292163a24bd4118b6ec402f8e2175258b26bcd58628b86d52e.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 f6b1d7d446fb9f292163a24bd4118b6ec402f8e2175258b26bcd58628b86d52e and decoded pixel SHA-256 96ec0b889296c4e3ec8c90cfd34a91f35d60529761a873ed713d180863b6672b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/28/frame/2",
+      "sourceSha256": "8a1ba10a4e26b32429a19d9cf131b3450bb9c3d5dcda1417d37e8b48e6e480c2",
+      "pixelSha256": "18b767b8eb59468c09aebfdf0073ce7300b700770122cb138e302829cb11e44e",
+      "visualDescription": "A tiny blue-white winged figure with pointed upper extensions and a dark base.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8a1ba10a4e26b32429a19d9cf131b3450bb9c3d5dcda1417d37e8b48e6e480c2.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 8a1ba10a4e26b32429a19d9cf131b3450bb9c3d5dcda1417d37e8b48e6e480c2 and decoded pixel SHA-256 18b767b8eb59468c09aebfdf0073ce7300b700770122cb138e302829cb11e44e; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/3/frame/0",
+      "sourceSha256": "5fab1366b59378236671091d8a9ca80dea075d69684a2cdd6c55d89414753ab8",
+      "pixelSha256": "6d10678aa34957b36b7aa5c841cfe26830fd7fc38935f95fddb0895116944b01",
+      "visualDescription": "A large blue-violet winged creature with a horned head, tall curved wings, and a bright orange-red chest.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5fab1366b59378236671091d8a9ca80dea075d69684a2cdd6c55d89414753ab8.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5fab1366b59378236671091d8a9ca80dea075d69684a2cdd6c55d89414753ab8 and decoded pixel SHA-256 6d10678aa34957b36b7aa5c841cfe26830fd7fc38935f95fddb0895116944b01; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/3/frame/1",
+      "sourceSha256": "b1438de937829cfed2fe80d604d78b38696b00c7db65cfd1ee95fd108fae144f",
+      "pixelSha256": "cc82083e55b61f509f30c465720f84caad558a26ff9435ba37cf908a45dc86b7",
+      "visualDescription": "A smaller blue-violet winged figure with a horned head and orange-red chest details.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b1438de937829cfed2fe80d604d78b38696b00c7db65cfd1ee95fd108fae144f.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 b1438de937829cfed2fe80d604d78b38696b00c7db65cfd1ee95fd108fae144f and decoded pixel SHA-256 cc82083e55b61f509f30c465720f84caad558a26ff9435ba37cf908a45dc86b7; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/3/frame/2",
+      "sourceSha256": "b5c07ed41e5e8b3102cf91b98371bb0c876b8d33c34a45454a9ab7c80e3a40ab",
+      "pixelSha256": "9847cbd5e6e0b1cabddb5f524394da63836124964dba81dd4c1a4d83aab13b1d",
+      "visualDescription": "A tiny blue-violet winged shape with a narrow center and short pointed wings.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/b5c07ed41e5e8b3102cf91b98371bb0c876b8d33c34a45454a9ab7c80e3a40ab.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 b5c07ed41e5e8b3102cf91b98371bb0c876b8d33c34a45454a9ab7c80e3a40ab and decoded pixel SHA-256 9847cbd5e6e0b1cabddb5f524394da63836124964dba81dd4c1a4d83aab13b1d; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/35/frame/0",
+      "sourceSha256": "5bc47e94f8b920a90b174cce25bd955099c22cdf44f90fc8580f2387ad972647",
+      "pixelSha256": "fd00bcb6bd2749190784b111160dabae0882c49cc01e1a86f9b18c1ab335517a",
+      "visualDescription": "A standing humanoid in a purple cloak and orange-gold clothing, holding a round orange shield and a narrow staff or blade.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5bc47e94f8b920a90b174cce25bd955099c22cdf44f90fc8580f2387ad972647.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5bc47e94f8b920a90b174cce25bd955099c22cdf44f90fc8580f2387ad972647 and decoded pixel SHA-256 fd00bcb6bd2749190784b111160dabae0882c49cc01e1a86f9b18c1ab335517a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/35/frame/1",
+      "sourceSha256": "08894ebe3792eeb37502a4fcd9c234daa9d506201416bbbbc0b28061531235d7",
+      "pixelSha256": "aa9b45079f86f4fd4b064456afc98ae1a500e70abd35f422913c8ad6b2159ac2",
+      "visualDescription": "A smaller cloaked humanoid with a round orange shield, dark purple clothing, and a narrow object held at its side.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/08894ebe3792eeb37502a4fcd9c234daa9d506201416bbbbc0b28061531235d7.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 08894ebe3792eeb37502a4fcd9c234daa9d506201416bbbbc0b28061531235d7 and decoded pixel SHA-256 aa9b45079f86f4fd4b064456afc98ae1a500e70abd35f422913c8ad6b2159ac2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/35/frame/2",
+      "sourceSha256": "94ac67ec2d19501d4237c6b954600cc5d0f9870a52383470e16bf70fd9cde017",
+      "pixelSha256": "666ac45dfa630a3e8230a649a3d57ed9590eb46823f673e7ccf4dbb75c0d361b",
+      "visualDescription": "A tiny purple, orange, and teal humanoid silhouette with a rounded side shape.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/94ac67ec2d19501d4237c6b954600cc5d0f9870a52383470e16bf70fd9cde017.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 94ac67ec2d19501d4237c6b954600cc5d0f9870a52383470e16bf70fd9cde017 and decoded pixel SHA-256 666ac45dfa630a3e8230a649a3d57ed9590eb46823f673e7ccf4dbb75c0d361b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/4/frame/0",
+      "sourceSha256": "7e6944fcf693f0ec3f94b4b052bdf3d9ebf7c6c89bb4ab96ee4fb2760bfcb9bd",
+      "pixelSha256": "b1e079464e66e12cf5e9b1f7c77ff919771a979ec2af3853888bdaa2e81ec918",
+      "visualDescription": "A crouched green-brown reptilian figure with a long tail, bent legs, and one arm extended.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/7e6944fcf693f0ec3f94b4b052bdf3d9ebf7c6c89bb4ab96ee4fb2760bfcb9bd.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 7e6944fcf693f0ec3f94b4b052bdf3d9ebf7c6c89bb4ab96ee4fb2760bfcb9bd and decoded pixel SHA-256 b1e079464e66e12cf5e9b1f7c77ff919771a979ec2af3853888bdaa2e81ec918; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/4/frame/1",
+      "sourceSha256": "8da473a6039ccb8010e2774c8427f91736df4c9c206cd6311b7f9b7ddcdea863",
+      "pixelSha256": "1daf4a809c6d746be61107381cb887c6396f251fdca9d2ab66974be940aab3fd",
+      "visualDescription": "A smaller green-brown reptilian figure with a curved tail and bent limbs.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/8da473a6039ccb8010e2774c8427f91736df4c9c206cd6311b7f9b7ddcdea863.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 8da473a6039ccb8010e2774c8427f91736df4c9c206cd6311b7f9b7ddcdea863 and decoded pixel SHA-256 1daf4a809c6d746be61107381cb887c6396f251fdca9d2ab66974be940aab3fd; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/4/frame/2",
+      "sourceSha256": "5768ab5f92bd1e9d5a3d3ca27d729bb6231552c4052747abfab01079e516e219",
+      "pixelSha256": "324af4602cc5023d74dc0a1517a80eac76a6272bdd8d5e36415e1bff7375e61c",
+      "visualDescription": "A tiny green-brown upright figure with a short tail-like extension.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5768ab5f92bd1e9d5a3d3ca27d729bb6231552c4052747abfab01079e516e219.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5768ab5f92bd1e9d5a3d3ca27d729bb6231552c4052747abfab01079e516e219 and decoded pixel SHA-256 324af4602cc5023d74dc0a1517a80eac76a6272bdd8d5e36415e1bff7375e61c; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/48/frame/0",
+      "sourceSha256": "5bc47e94f8b920a90b174cce25bd955099c22cdf44f90fc8580f2387ad972647",
+      "pixelSha256": "fd00bcb6bd2749190784b111160dabae0882c49cc01e1a86f9b18c1ab335517a",
+      "visualDescription": "A standing humanoid in a purple cloak and orange-gold clothing, holding a round orange shield and a narrow staff or blade.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/5bc47e94f8b920a90b174cce25bd955099c22cdf44f90fc8580f2387ad972647.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 5bc47e94f8b920a90b174cce25bd955099c22cdf44f90fc8580f2387ad972647 and decoded pixel SHA-256 fd00bcb6bd2749190784b111160dabae0882c49cc01e1a86f9b18c1ab335517a; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/48/frame/1",
+      "sourceSha256": "08894ebe3792eeb37502a4fcd9c234daa9d506201416bbbbc0b28061531235d7",
+      "pixelSha256": "aa9b45079f86f4fd4b064456afc98ae1a500e70abd35f422913c8ad6b2159ac2",
+      "visualDescription": "A smaller cloaked humanoid with a round orange shield, dark purple clothing, and a narrow object held at its side.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/08894ebe3792eeb37502a4fcd9c234daa9d506201416bbbbc0b28061531235d7.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 08894ebe3792eeb37502a4fcd9c234daa9d506201416bbbbc0b28061531235d7 and decoded pixel SHA-256 aa9b45079f86f4fd4b064456afc98ae1a500e70abd35f422913c8ad6b2159ac2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/48/frame/2",
+      "sourceSha256": "94ac67ec2d19501d4237c6b954600cc5d0f9870a52383470e16bf70fd9cde017",
+      "pixelSha256": "666ac45dfa630a3e8230a649a3d57ed9590eb46823f673e7ccf4dbb75c0d361b",
+      "visualDescription": "A tiny purple, orange, and teal humanoid silhouette with a rounded side shape.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/94ac67ec2d19501d4237c6b954600cc5d0f9870a52383470e16bf70fd9cde017.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 94ac67ec2d19501d4237c6b954600cc5d0f9870a52383470e16bf70fd9cde017 and decoded pixel SHA-256 666ac45dfa630a3e8230a649a3d57ed9590eb46823f673e7ccf4dbb75c0d361b; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/5/frame/0",
+      "sourceSha256": "422e4e222fadb76579cd61c05d8cc3eaa7d15ddc69f5033272a5eb74a4f35f88",
+      "pixelSha256": "e11706393b3c32aaff96e9847e16c7a8f86a1cd57ee45817458eef5b0f563f8f",
+      "visualDescription": "A dark blue-black armored creature with a rounded, ribbed body, cyan highlights, and several short projections.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/422e4e222fadb76579cd61c05d8cc3eaa7d15ddc69f5033272a5eb74a4f35f88.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 422e4e222fadb76579cd61c05d8cc3eaa7d15ddc69f5033272a5eb74a4f35f88 and decoded pixel SHA-256 e11706393b3c32aaff96e9847e16c7a8f86a1cd57ee45817458eef5b0f563f8f; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/5/frame/1",
+      "sourceSha256": "cd596d903fac474b21e47f0d0cd102a3a0a04eb8a3064b349b7bb2a9714b6a99",
+      "pixelSha256": "eb01a437f05c27a9388621f858f49d689496d9b124e54688b3f7458671e16bd1",
+      "visualDescription": "A smaller dark armored creature with a rounded ribbed body and bright cyan details.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/cd596d903fac474b21e47f0d0cd102a3a0a04eb8a3064b349b7bb2a9714b6a99.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 cd596d903fac474b21e47f0d0cd102a3a0a04eb8a3064b349b7bb2a9714b6a99 and decoded pixel SHA-256 eb01a437f05c27a9388621f858f49d689496d9b124e54688b3f7458671e16bd1; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/5/frame/2",
+      "sourceSha256": "2555e9d7e6635f9a3a1b462b87fd36540c2a111a5f5566795664955685d98446",
+      "pixelSha256": "ea353e1b2208140e21f31803adc7632c8b95c0cd07e1a4bbc721ce9b18cfa6c2",
+      "visualDescription": "A tiny dark blue-black figure with a rounded center and short side projections.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/2555e9d7e6635f9a3a1b462b87fd36540c2a111a5f5566795664955685d98446.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 2555e9d7e6635f9a3a1b462b87fd36540c2a111a5f5566795664955685d98446 and decoded pixel SHA-256 ea353e1b2208140e21f31803adc7632c8b95c0cd07e1a4bbc721ce9b18cfa6c2; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/56/frame/0",
+      "sourceSha256": "df8c20d570e14cc271bac8b7d8c9531c0f5db0bb16b60acfc5719e027d29d658",
+      "pixelSha256": "0b790118901ab70fb0129ab3f54d27996a106dfdfd8eba4630875f1c4ed11705",
+      "visualDescription": "A large skeletal winged figure with a skull-like head, exposed rib-like lines, and broad red-pink wings.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/df8c20d570e14cc271bac8b7d8c9531c0f5db0bb16b60acfc5719e027d29d658.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 df8c20d570e14cc271bac8b7d8c9531c0f5db0bb16b60acfc5719e027d29d658 and decoded pixel SHA-256 0b790118901ab70fb0129ab3f54d27996a106dfdfd8eba4630875f1c4ed11705; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/56/frame/1",
+      "sourceSha256": "98304d8c3eadd443bdd3e7156ff739a737f766b2f1ba2d4ee60705e1911e1bf8",
+      "pixelSha256": "a94f4481151430f848046b8f0640fc254e4075338ba8e91b7cc4a0ec7f2c8190",
+      "visualDescription": "A smaller skeletal winged figure with a skull-like head, pale ribs, and red-pink wings.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/98304d8c3eadd443bdd3e7156ff739a737f766b2f1ba2d4ee60705e1911e1bf8.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 98304d8c3eadd443bdd3e7156ff739a737f766b2f1ba2d4ee60705e1911e1bf8 and decoded pixel SHA-256 a94f4481151430f848046b8f0640fc254e4075338ba8e91b7cc4a0ec7f2c8190; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    },
+    {
+      "assetId": "cok/amiga/disk3/sprit2.daa/block/56/frame/2",
+      "sourceSha256": "cdd11a46741afbe90b0f26130f1682f1dbcc3b0ba02064504410af1a86afa297",
+      "pixelSha256": "ba07fb9f88b55dcecc04c7d064acc5dac2f8d08c95b39cc0a73d248bc6942541",
+      "visualDescription": "A tiny skeletal form with a pale head and short reddish wing-like projections.",
+      "evidence": [
+        {
+          "kind": "visual-review",
+          "reference": "apps/web/dist-app-cok57/restyle/cok-generated/images/cdd11a46741afbe90b0f26130f1682f1dbcc3b0ba02064504410af1a86afa297.png",
+          "note": "Visible appearance only; reviewed against exact source PNG SHA-256 cdd11a46741afbe90b0f26130f1682f1dbcc3b0ba02064504410af1a86afa297 and decoded pixel SHA-256 ba07fb9f88b55dcecc04c7d064acc5dac2f8d08c95b39cc0a73d248bc6942541; does not infer subject identity, game use, selector, or playback semantics."
+        }
+      ]
+    }
+  ]
+}

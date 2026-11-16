@@ -1,0 +1,40 @@
+{
+  "id": "pools-of-darkness",
+  "title": "Pools of Darkness",
+  "platform": "DOS (EGA)",
+  "container": "DAX (little-endian, fixed EGA-16 palette, signed-byte RLE) + FBOV overlay pool",
+  "endianness": "little",
+  "display": { "width": 320, "height": 200, "pixelAspect": 1.2, "defaultZoom": 2 },
+  "files": [
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/TITLE.DAX", "category": "title", "label": "TITLE (title screen)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/BIGPIC1.DAX", "category": "scenes", "label": "BIGPIC1 (scenes)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/PIC1.DAX", "category": "scenes", "label": "PIC1 (animated scenes)", "note": "VGA compressed picture, 49 blocks / 81 frames of 88x88: 41 stills plus 8 multi-cel animations of 2, 3, 3, 4, 6, 6, 8 and 8 frames. The cel count is the DAX header's item_count at byte 8." },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/SKYGRND.DAX", "category": "backdrops", "label": "SKYGRND (sky/ground bands)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/BACK1.DAX", "category": "backdrops", "label": "BACK1 (combat backdrops)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/BORDERS.DAX", "category": "backdrops", "label": "BORDERS (frame backdrops)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/CPIC1.DAX", "category": "portraits", "label": "CPIC1 (combat portraits)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/CHEAD.DAX", "category": "portraits", "label": "CHEAD (character heads)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/8X8D0.DAX", "category": "tiles", "label": "8X8D0 (8x8 dungeon tiles)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/8X8D1.DAX", "category": "tiles", "label": "8X8D1 (8x8 dungeon tiles)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/COMSPR.DAX", "category": "sprites", "label": "COMSPR (combat sprites)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/DUNGCOM.DAX", "category": "sprites", "label": "DUNGCOM (dungeon combat)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/WILDCOM.DAX", "category": "sprites", "label": "WILDCOM (wilderness combat)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/SPRIT1.DAX", "category": "sprites", "label": "SPRIT1 (monster sprites, 3 view-sizes)", "note": "VGA compressed picture, 29 blocks x 3 frames of 88x88. All 29 declare DAC entries 32..255, but they split into two groups at 32..175: 26 blocks share ONE identical black (0,0,0) window there and carry their own distinct real colours at 176..254; only 3 blocks (ids 5/8/96) instead pad 32..175 with white (63,63,63). 0.58% of non-transparent pixels index into that 32..175 range and render whatever that block declares there (black for the 26, white for the 3) rather than a real sprite colour. The 3 padded blocks' own 176..254 colours are not a match for any of the 26 siblings' (best overlap 34/79, 29/79, 26/79 positions) — resolving them through the 26-block window would only supply the shared black, not new sprite colour." },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/CBODY.DAX", "category": "ui", "label": "CBODY (paperdoll body)" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/CURSOR.DAX", "category": "ui", "label": "CURSOR (UI cursor)" },
+
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/GEO1.DAX", "category": "data", "label": "GEO1 (map data)", "decode": false, "note": "56 blocks, all 1026-byte 16x16 dungeon shapes" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/ECL1.DAX", "category": "data", "label": "ECL1 (event scripts)", "decode": false, "note": "Pools-specific ECL framing is retail-handler-proven. GEO1#69 cell (8,6) naturally selects ECL1#72's four-group Drow combat; Greybox resumes ordinary victory through the Oracle's text answer, durable [0x0278] completion, silent revisit, and save-v2 reload. Native tactical-board parity and original-save interoperability remain open. See docs/engine/research/pools-ecl69-72-natural-route-2026-07-29.md" },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/WALLDEF1.DAX", "category": "data", "label": "WALLDEF1 (wall definitions)", "decode": false },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/MON1CHA.DAX", "category": "data", "label": "MON1CHA (monster tables)", "decode": false },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/MON1ITM.DAX", "category": "data", "label": "MON1ITM (monster items)", "decode": false },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/MON1SPC.DAX", "category": "data", "label": "MON1SPC (monster specials)", "decode": false },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/ITEM0.DAX", "category": "data", "label": "ITEM0 (item table)", "decode": false },
+    { "path": "C:/Program Files (x86)/GOG Galaxy/Games/Pools of Darkness/GAME.OVR", "category": "data", "label": "GAME.OVR (FBOV overlay pool)", "decode": false }
+  ]
+}

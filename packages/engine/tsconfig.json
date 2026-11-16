@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    // PURE CORE (ADR-0002, ARCHITECTURE §1): the engine must build with NO DOM
+    // and NO Node typings, so `tsc --noEmit` here mechanically enforces the
+    // "engine imports no shell / no platform" rule. Only the standard ES libs.
+    "lib": ["ES2022"],
+    "types": [],
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "exactOptionalPropertyTypes": false,
+    "forceConsistentCasingInFileNames": true,
+
+    "noEmit": true,
+    "declaration": false,
+    "sourceMap": false,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "test"]
+}

@@ -1,0 +1,476 @@
+{
+  "schema": "cok-ui202-consumers-v1",
+  "scope": "CoK DOS-EGA 8X8D1.DAX block 202; source-code consumers only",
+  "sourceArchive": {
+    "path": "Champions of Krynn/8X8D1.DAX",
+    "sha256": "14fd0bed83d383deca6195e3145145ad0ab4c58a5939a6e6fc0d3efc8c4bc915",
+    "entry": {
+      "entryIndex": 1,
+      "blockId": 202,
+      "offset": 1415,
+      "storedBytes": 1080,
+      "declaredRawBytes": 1233,
+      "payloadSha256": "6c3e04ebbc1124b083a2fd64d7f2e608921af153af27827009df054d9c51727a",
+      "rawSha256": "348d454b20f8504385b6e115f8463e61d727cb734da15a7f41a87d13212a2b4a",
+      "drawableCount": 38
+    }
+  },
+  "census": {
+    "path": "docs/engine/research/cok-graphics-source-census-v1.json",
+    "sha256": "b02ce088c1395e2159850f3f78b8cddccb34b2ddadaf4bbb61b1d8ea7c9a8742"
+  },
+  "consumerSources": {
+    "apps/web/src/ui/gameData.ts": "92f958814cbaa7db0d92e3317d71a3a7a5971905930a46733db27d5eed12da9c",
+    "apps/web/src/ui/explore.ts": "78e14ad80b8084ad3114fa7119d4ec7832f41c2d0966bb1a84d848767d7a4a0c",
+    "apps/web/src/ui/demo.ts": "621c2f964e45a38cf0b1b1c155a3b1d675c14d41df7ab1a3a11e0ed45e255908",
+    "apps/web/src/ui/demoGen1.ts": "8b52220297ae0763a0775ed5b0f960ed15642b10f102c6b8fc69a51ba13be9f4",
+    "packages/engine/src/render/exploreScreen.ts": "7af5d42793d590b4cfc3dfcbf5a5efc180dfec1584e123115bbbb68803985736"
+  },
+  "tiles": [
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/20",
+      "tileIndex": 20,
+      "pixelSha256": "77f94fae983ff3f36d8eb258c4f68999fbd784b39722ccb1f582e1253168532d",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK exploration/combat screen chrome via COK_FRAME_LAYOUT value selection.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "packages/engine/src/render/exploreScreen.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/21",
+      "tileIndex": 21,
+      "pixelSha256": "afb707f8001c89de2a40e168e5c4acad81dcd54633c3d5a5461425a5743e8611",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK exploration/combat screen chrome via COK_FRAME_LAYOUT value selection.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "packages/engine/src/render/exploreScreen.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/22",
+      "tileIndex": 22,
+      "pixelSha256": "18fbad7458ee7c6d8e3daf8e22131e2110d2f546dc0d7cc76ebc88eb407bcb30",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK exploration/combat screen chrome via COK_FRAME_LAYOUT value selection.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "packages/engine/src/render/exploreScreen.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/23",
+      "tileIndex": 23,
+      "pixelSha256": "c1bcc802f17b6843d84fbfc34c5551817617d6d4b88f067e0bb05a4ca935dc8d",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK exploration/combat screen chrome via COK_FRAME_LAYOUT value selection.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "packages/engine/src/render/exploreScreen.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/24",
+      "tileIndex": 24,
+      "pixelSha256": "88c14e6fbe4559b0fabc5e997f4c872c4ca0b1df6757173211ca1fbd9bea3812",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK exploration/combat screen chrome via COK_FRAME_LAYOUT value selection.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "packages/engine/src/render/exploreScreen.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/25",
+      "tileIndex": 25,
+      "pixelSha256": "a3d0b6a078ef6fa584ac519dedc916733d1b953e160742a280cb5af4966a7879",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK exploration/combat screen chrome via COK_FRAME_LAYOUT value selection.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "packages/engine/src/render/exploreScreen.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/26",
+      "tileIndex": 26,
+      "pixelSha256": "f5381768cce596350a5b7b4a673dea339084a9b8d417e00c086438301ebc71f3",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group red, phase offset 0 (lowSanction), selected from block-202 tile 26.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/27",
+      "tileIndex": 27,
+      "pixelSha256": "b3ae74402e143618fe607decb13dc639817f4133c573c5979e91a269fe9941b7",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group red, phase offset 1 (waxing), selected from block-202 tile 27.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/28",
+      "tileIndex": 28,
+      "pixelSha256": "cea135603ce8cbcb182a4a3cc07c9ec8a11501f1ab1d8157a99fbed0146f34e2",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group red, phase offset 2 (highSanction), selected from block-202 tile 28. The CoK attract demo also uses this tile as a fixed demoMoonTiles selector.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/demo.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/demoGen1.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/29",
+      "tileIndex": 29,
+      "pixelSha256": "a3c52d742195ac2c76796b27588967b89c47bdd9d5f2ccb25b6c802c30c386c2",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group red, phase offset 3 (waning), selected from block-202 tile 29.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/30",
+      "tileIndex": 30,
+      "pixelSha256": "d6d5a123b84fb1f69e2f23067b0f2f901fedc0e0389f78b85911394c6de2a186",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group white, phase offset 0 (lowSanction), selected from block-202 tile 30.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/31",
+      "tileIndex": 31,
+      "pixelSha256": "371a8706446336f57bdf5055f29ac6cbb66cedc50bea18b3803f64b61de550da",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group white, phase offset 1 (waxing), selected from block-202 tile 31.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/32",
+      "tileIndex": 32,
+      "pixelSha256": "3d7f6fe10d014d89d0f9781767b7cad10e4b11d5ba5cad494c799ec978e90474",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group white, phase offset 2 (highSanction), selected from block-202 tile 32. The CoK attract demo also uses this tile as a fixed demoMoonTiles selector.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/demo.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/demoGen1.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/33",
+      "tileIndex": 33,
+      "pixelSha256": "abff266e28235603470b3e59c713ca2e894676e478294b8136a2ba426b6685b4",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group white, phase offset 3 (waning), selected from block-202 tile 33.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/34",
+      "tileIndex": 34,
+      "pixelSha256": "010027d6c0047a72ee6fad17558db24f8379ec6ec0a016542894de7f7822cdbb",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group black, phase offset 0 (lowSanction), selected from block-202 tile 34.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/35",
+      "tileIndex": 35,
+      "pixelSha256": "adbe8860f092a63b17c5059b386ca593370e7258839bb40d16aeb32f48319d8c",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group black, phase offset 1 (waxing), selected from block-202 tile 35.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/36",
+      "tileIndex": 36,
+      "pixelSha256": "bf9a25512181650bdd72ca0abffae5d9430be1a87e1d5091fce1036b3759bfdf",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group black, phase offset 2 (highSanction), selected from block-202 tile 36. The CoK attract demo also uses this tile as a fixed demoMoonTiles selector.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/demo.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/demoGen1.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    },
+    {
+      "assetId": "cok/dos-ega/disk1/8x8d1.dax/block/202/tile/37",
+      "tileIndex": 37,
+      "pixelSha256": "3a305d8bd3829ec5ac0866fbcc34f92fbbab42aa2ab812fb49bdefc8b5b5a145",
+      "consumer": {
+        "status": "partial",
+        "use": "CoK moon-disc slice group black, phase offset 3 (waning), selected from block-202 tile 37.",
+        "evidence": [
+          {
+            "kind": "source-code",
+            "reference": "apps/web/src/ui/explore.ts",
+            "note": "Pinned current source defines the tile selector/call site; see the per-tile selector and limitations in this receipt."
+          },
+          {
+            "kind": "research-doc",
+            "reference": "docs/engine/research/cok-ui202-consumers-v1.json",
+            "note": "Exact DOS archive, entry, tile ID and pixel-hash join; no runtime admission or original-game behavior claim."
+          }
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "The receipt maps the current CoK implementation's consumers; it does not claim every consumer matches the original game's implementation.",
+    "Frame values are layout selectors and may use the renderer's straight-tile fallback if a selected tile is absent.",
+    "Moon group and phase selectors describe the UI implementation; timing or original-game animation behavior is not established.",
+    "The attract demo's fixed selectors are static source use, not an animation sequence or runtime observation.",
+    "No Amiga cross-version identity, Restyle counterpart, new canonical asset ID or runtime-art admission is established."
+  ]
+}

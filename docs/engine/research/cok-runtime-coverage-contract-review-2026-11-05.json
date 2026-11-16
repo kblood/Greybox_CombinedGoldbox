@@ -1,0 +1,266 @@
+{
+  "after": {
+    "v1Contract": {
+      "inputCount": 82,
+      "path": "docs/engine/research/cok-runtime-art-consumers-v1.json",
+      "sha256": "c1cdf1cff6941d2bc36ae9718759117066c1fef194df23a51021843b04622132"
+    },
+    "v1Report": {
+      "path": "docs/engine/research/cok-runtime-art-coverage-v1.json",
+      "semanticSummary": {
+        "canonicalSourceIds": 403,
+        "combatScan": {
+          "blocksAtStateLimit": 0,
+          "byBank": {
+            "CPIC1": {
+              "distinctCombatSites": 38,
+              "distinctDynamicSites": 4,
+              "distinctImmediatePictureIds": 14,
+              "sitesWithNoLocalRosterEntry": 10,
+              "unmappedPictureIds": [
+                1,
+                4,
+                6,
+                13,
+                21,
+                25,
+                30,
+                31,
+                38,
+                41
+              ],
+              "withDeclaredMapping": 4,
+              "withoutLocalRosterEntryRows": 16
+            },
+            "CPIC2": {
+              "distinctCombatSites": 75,
+              "distinctDynamicSites": 5,
+              "distinctImmediatePictureIds": 24,
+              "sitesWithNoLocalRosterEntry": 10,
+              "unmappedPictureIds": [],
+              "withDeclaredMapping": 24,
+              "withoutLocalRosterEntryRows": 10
+            },
+            "CPIC3": {
+              "distinctCombatSites": 79,
+              "distinctDynamicSites": 4,
+              "distinctImmediatePictureIds": 22,
+              "sitesWithNoLocalRosterEntry": 12,
+              "unmappedPictureIds": [],
+              "withDeclaredMapping": 22,
+              "withoutLocalRosterEntryRows": 12
+            }
+          },
+          "complete": false,
+          "entrySiteRows": 221,
+          "evidenceScope": "representative paths of a static CoK ECL scan",
+          "physicalSites": 192,
+          "representativePathsWithAlternates": 101,
+          "selectedPathOnly": true,
+          "truncatedInstructionOffsets": 0
+        },
+        "distinctOutputHashes": 324,
+        "eclPictureSites": {
+          "dynamic": 1,
+          "total": 146,
+          "withConditionalSource": 26
+        },
+        "frameComponentPlacements": 21,
+        "framesByKind": {
+          "player-component-variant": 8,
+          "screen-composition": 3
+        },
+        "mappingEntriesByConsumer": {
+          "combat-icons": 108,
+          "combat-terrain": 25,
+          "cottage": 1,
+          "demo-picture": 1,
+          "dialogue-pictures": 5,
+          "dungeon-walls": 210,
+          "player-loader": 16,
+          "title": 4,
+          "travel-map": 1
+        },
+        "outputPaths": 334
+      },
+      "sha256": "ea3b6163a13231f4f4a194e02ea7e9a9baa95d61cb01f451efe018983445a151"
+    },
+    "v2Contract": {
+      "inputCount": 11,
+      "path": "docs/engine/research/cok-runtime-art-consumers-v2.json",
+      "sha256": "6412ba541a06a7821dedfaf1622f2d92c85eed49615322414f2c9981640fc452"
+    },
+    "v2Report": {
+      "path": "docs/engine/research/cok-runtime-art-coverage-v2.json",
+      "semanticSummary": {
+        "canonicalSourceIds": 403,
+        "combatScan": {
+          "blocksAtStateLimit": 0,
+          "byBank": {
+            "CPIC1": {
+              "blocksAtStateLimit": 0,
+              "distinctImmediatePictureIds": 14,
+              "distinctRosterVariants": 59,
+              "entrySiteAssociations": 48,
+              "entryVariantAssociations": 76,
+              "exploredStates": 8442,
+              "frontierEventsByReason": {},
+              "physicalSites": 38,
+              "sitesWithDynamicPictureVariant": 4,
+              "sitesWithEmptyRosterVariant": 11,
+              "unmappedPictureIds": [
+                1,
+                4,
+                6,
+                13,
+                21,
+                25,
+                30,
+                31,
+                38,
+                41
+              ],
+              "unresolvedSourcePictureIds": [],
+              "withDeclaredMapping": 4
+            },
+            "CPIC2": {
+              "blocksAtStateLimit": 0,
+              "distinctImmediatePictureIds": 25,
+              "distinctRosterVariants": 112,
+              "entrySiteAssociations": 83,
+              "entryVariantAssociations": 132,
+              "exploredStates": 10268,
+              "frontierEventsByReason": {},
+              "physicalSites": 75,
+              "sitesWithDynamicPictureVariant": 6,
+              "sitesWithEmptyRosterVariant": 13,
+              "unmappedPictureIds": [],
+              "unresolvedSourcePictureIds": [],
+              "withDeclaredMapping": 25
+            },
+            "CPIC3": {
+              "blocksAtStateLimit": 0,
+              "distinctImmediatePictureIds": 22,
+              "distinctRosterVariants": 96,
+              "entrySiteAssociations": 90,
+              "entryVariantAssociations": 115,
+              "exploredStates": 9047,
+              "frontierEventsByReason": {},
+              "physicalSites": 79,
+              "sitesWithDynamicPictureVariant": 5,
+              "sitesWithEmptyRosterVariant": 15,
+              "unmappedPictureIds": [],
+              "unresolvedSourcePictureIds": [],
+              "withDeclaredMapping": 22
+            }
+          },
+          "campaignComplete": false,
+          "distinctImmediatePictureIds": 61,
+          "distinctRosterVariants": 267,
+          "entrySiteAssociations": 221,
+          "entryVariantAssociations": 323,
+          "evidenceScope": "bounded CoK ECL traversal",
+          "exploredStates": 27757,
+          "frontierEventsByReason": {},
+          "hasExplorationFrontiers": false,
+          "physicalSites": 192,
+          "sitesWithDynamicPictureVariant": 15,
+          "sitesWithEmptyRosterVariant": 39,
+          "variantRetention": "all-distinct-discovered-rosters",
+          "withDeclaredMapping": 51
+        },
+        "distinctOutputHashes": 324,
+        "eclPictureSites": {
+          "dynamic": 1,
+          "total": 146,
+          "withConditionalSource": 26
+        },
+        "frameComponentPlacements": 21,
+        "framesByKind": {
+          "player-component-variant": 8,
+          "screen-composition": 3
+        },
+        "mappingEntriesByConsumer": {
+          "combat-icons": 108,
+          "combat-terrain": 25,
+          "cottage": 1,
+          "demo-picture": 1,
+          "dialogue-pictures": 5,
+          "dungeon-walls": 210,
+          "player-loader": 16,
+          "title": 4,
+          "travel-map": 1
+        },
+        "outputPaths": 334
+      },
+      "sha256": "14e599dac65292f09c663382129f1ce13415f80708c31acb585ede6c157e98ae"
+    }
+  },
+  "changedReviewedInput": {
+    "afterSha256": "a39c7366df0f7bcc0e731fade01dab9c46d8daf8ae1129a290d64f9e2ea8b287",
+    "beforeSha256": "9acc0fa90f9eecdfaf9bdcd6866b1a18478e55329e409090f2854ef0fc259624",
+    "path": "packages/engine/test/daa.test.ts",
+    "review": "Terminology now describes stored frames rather than zoom-distance frames; explicit stored TOC entry-index assertions were added. This changes the reviewed test bytes, not the DAA runtime decoder or a graphics mapping."
+  },
+  "date": "2026-11-05",
+  "limits": [
+    "These are source and unit-test checks only; production build, browser acceptance, runtime use and deployment remain unverified.",
+    "The full tools pytest corpus failed separately and remains an open release gate.",
+    "The CoK coverage reports remain incomplete and do not establish full campaign or all-art coverage."
+  ],
+  "priorRecordedV1Pins": {
+    "contractSha256": "d1adc9396a163a9859c30b5ce29819fe00c24cfb74fe0055fd76a8db281fec0c",
+    "reportSha256": "9ede192394cbce2d39939726362d52ffec76bbfd7de8f0c0e16ed2b21b79f139"
+  },
+  "reviewVersion": 1,
+  "scope": "Refresh the CoK V1/V2 source-only runtime-art coverage contracts and reports after correcting the reviewed DAA test terminology and TOC-index assertions. No runtime mapping or admission was changed.",
+  "semanticDelta": {
+    "canonicalSourceIds": 403,
+    "combatPhysicalSites": 192,
+    "distinctOutputHashes": 324,
+    "mappingEntriesByConsumer": {
+      "combat-icons": 108,
+      "combat-terrain": 25,
+      "cottage": 1,
+      "demo-picture": 1,
+      "dialogue-pictures": 5,
+      "dungeon-walls": 210,
+      "player-loader": 16,
+      "title": 4,
+      "travel-map": 1
+    },
+    "outputPaths": 334,
+    "pictureSites": 146,
+    "productionPackage": "unverified",
+    "runtimeAdmission": "unchanged; source-only contract, no production approval",
+    "runtimeObservation": "unverified"
+  },
+  "verification": {
+    "aliasBindingTests": "25/25 pass",
+    "aliasNodeSchemaAndIntegrationTests": "23/23 pass",
+    "eclPictureConsumerImporterTests": "23/23 pass",
+    "engineVitest": "2447 pass; 745 data-dependent skips across 270 files",
+    "fullToolsCorpusAfterRefresh": {
+      "command": "python -m pytest tools/ -q (temporary Python 3.13 venv)",
+      "durationSeconds": 1108.01,
+      "errors": 4725,
+      "exitCode": 1,
+      "failed": 1958,
+      "passed": 4796,
+      "remainingObservedFailures": [
+        "Unicorn mem_map access violations",
+        "missing NASM/executable fixtures"
+      ],
+      "repairedGraphicsModulesInFailureCache": false,
+      "skipped": 3646,
+      "status": "failed environment-wide release gate",
+      "subtestsPassed": 620,
+      "warnings": 90
+    },
+    "runtimeCoveragePythonTests": "19/19 pass",
+    "v1ReportCheck": "pass",
+    "v2ReportCheck": "pass",
+    "webUnitTests": "411/411 pass across 41 explicit *.test.mjs files",
+    "workspaceTypecheck": "pass"
+  }
+}

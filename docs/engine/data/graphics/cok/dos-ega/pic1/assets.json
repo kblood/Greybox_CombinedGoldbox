@@ -1,0 +1,805 @@
+[
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/1/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 1,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/6917c8430efec62f9357389c133c837f070b593ac23c065a5ba93f7bdd19664e",
+    "decoded": {
+      "path": "images/023a1dd6a7690b70ac95f81d98f800c0a999f1dea501dc21bec8e80cc9c20e0b.png",
+      "sha256": "023a1dd6a7690b70ac95f81d98f800c0a999f1dea501dc21bec8e80cc9c20e0b"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/12/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 12,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/12/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/8a75b28fed7e233b4c10c3070cfe8d7f6ae3481225e19e11b76760f37624429e",
+    "decoded": {
+      "path": "images/f66aa6d5ecc033dd1727b89dd8db3a018bfd9cfa2f6de51f3fa0df634636fad8.png",
+      "sha256": "f66aa6d5ecc033dd1727b89dd8db3a018bfd9cfa2f6de51f3fa0df634636fad8"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/12/frame/1",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 12,
+        "entryIndex": null,
+        "frameIndex": 1,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/12/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/b5cfc21b81301d64e8d62d54a36f5edbf4e8418d4176be58fc6fc43fcbd087c9",
+    "decoded": {
+      "path": "images/cfc596a49aa764724ce2c557a61b231c242ba3dc45701c4863bf815c9af28ec6.png",
+      "sha256": "cfc596a49aa764724ce2c557a61b231c242ba3dc45701c4863bf815c9af28ec6"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/12/frame/2",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 12,
+        "entryIndex": null,
+        "frameIndex": 2,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/12/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/3e93b01dab912b5cd3b05e52598774aa7cd4001d298bb2d2c52399fda7140793",
+    "decoded": {
+      "path": "images/ddd559ff768eb6dbe33ed817193f79f3e1f8286267ebd17af9ca4af819305b96.png",
+      "sha256": "ddd559ff768eb6dbe33ed817193f79f3e1f8286267ebd17af9ca4af819305b96"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/12/frame/3",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 12,
+        "entryIndex": null,
+        "frameIndex": 3,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/12/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/597e7d3f66929fcef6d68453d14b46827d40ffbb21b17fc3f97691f91fd7e4c3",
+    "decoded": {
+      "path": "images/08b271b0491c40a590b74a47a12b66421539d14cc18a899937e57c073737aed7.png",
+      "sha256": "08b271b0491c40a590b74a47a12b66421539d14cc18a899937e57c073737aed7"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/15/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 15,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null,
+      "galleryReferences": [
+        {
+          "system": "cok-curated-restyle-v1",
+          "id": "face_cok_dos_pic1_015_f0",
+          "manifest": "apps/web/dist-app-cok57/restyle/manifest.json",
+          "manifestSha256": "1cb3e1eca86d42dc53bfbfaebe8949d9e89bca1b3fd48bca4ecb43fe95cb1ee2",
+          "sourceSha256": "c006a1fb81405d4f59fbd05704f2bdef53bf9aa89488c510f7ec28a02f6cb920",
+          "outputSha256": "fafe65676a2fdeb3ad94727f07ab4ca836fce495064c9ca2e8cb60a54b96ed82",
+          "label": "Portrait · PIC1.DAX #15 (DOS)",
+          "description": "DOS PIC1.DAX block 15, frame 0: square portrait of a fair-haired woman in a turquoise blouse and orange-brown tunic holding a wooden staff at her right; opaque black background. Preserve the face, pose, clothing and staff.",
+          "promptFile": null,
+          "inputFile": null
+        }
+      ]
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/5b2dba2feb6933e61b674d689258dbb5cb2d29c55dd45ebf3119f3dbdf2e3935",
+    "decoded": {
+      "path": "images/c006a1fb81405d4f59fbd05704f2bdef53bf9aa89488c510f7ec28a02f6cb920.png",
+      "sha256": "c006a1fb81405d4f59fbd05704f2bdef53bf9aa89488c510f7ec28a02f6cb920"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/18/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 18,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/6a284c0547124c77a7bfa9ab96e3bff687b77e59134af24222b5e9619b00eee8",
+    "decoded": {
+      "path": "images/d05e643ac4e4e58dc8bb232e6e1ef3d8994b80258d70d1321e9ea451d3ebc0b8.png",
+      "sha256": "d05e643ac4e4e58dc8bb232e6e1ef3d8994b80258d70d1321e9ea451d3ebc0b8"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 23,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/23/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/4b6da309f83cf29003575cbd09e6fc94e21b5be3a0cbaf1d53d552a89bcd6ca8",
+    "decoded": {
+      "path": "images/3858d73cd9a7920cfd0ef7a480ca481fc9ad70c2d4407774ba8873177c4fe010.png",
+      "sha256": "3858d73cd9a7920cfd0ef7a480ca481fc9ad70c2d4407774ba8873177c4fe010"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/1",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 23,
+        "entryIndex": null,
+        "frameIndex": 1,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/23/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/34dd24921265c6496069b0fb6a16e3cfd343394e99716eba5572699b5f66c0d8",
+    "decoded": {
+      "path": "images/298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526.png",
+      "sha256": "298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/2",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 23,
+        "entryIndex": null,
+        "frameIndex": 2,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/23/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/08f6f04bf04b07fa065541268af327170063cdf73343bba7ecd94479b6048251",
+    "decoded": {
+      "path": "images/abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d.png",
+      "sha256": "abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/3",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 23,
+        "entryIndex": null,
+        "frameIndex": 3,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/23/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/d003e50ccda11c443f0d07e9d2212ad3417bb587925a35484061531535b9704f",
+    "decoded": {
+      "path": "images/38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790.png",
+      "sha256": "38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/4",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 23,
+        "entryIndex": null,
+        "frameIndex": 4,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/23/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/34dd24921265c6496069b0fb6a16e3cfd343394e99716eba5572699b5f66c0d8",
+    "decoded": {
+      "path": "images/298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526.png",
+      "sha256": "298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/5",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 23,
+        "entryIndex": null,
+        "frameIndex": 5,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/23/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/d003e50ccda11c443f0d07e9d2212ad3417bb587925a35484061531535b9704f",
+    "decoded": {
+      "path": "images/38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790.png",
+      "sha256": "38275b496c9e958839102f82e905ecfde5e8b9c9563b349562f8be8d18a88790"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/6",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 23,
+        "entryIndex": null,
+        "frameIndex": 6,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/23/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/08f6f04bf04b07fa065541268af327170063cdf73343bba7ecd94479b6048251",
+    "decoded": {
+      "path": "images/abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d.png",
+      "sha256": "abcbd5bb4213d54ac7dd011b5351403e0059f4dc5b6826f6eb9355390d2b018d"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/23/frame/7",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 23,
+        "entryIndex": null,
+        "frameIndex": 7,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/23/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/34dd24921265c6496069b0fb6a16e3cfd343394e99716eba5572699b5f66c0d8",
+    "decoded": {
+      "path": "images/298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526.png",
+      "sha256": "298ec69e32e0e8d37bfe6dca6864c92b4ef8e6c309cc204f144d87ef7b43b526"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/30/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 30,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/30/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/d313fd2057175f426f5a360d00d04375210566a3b826b243db30be60ffb2cf0c",
+    "decoded": {
+      "path": "images/51e33339de50bfd2646b0d56832cb974a179f06cc55d3a6b0e330213688ea213.png",
+      "sha256": "51e33339de50bfd2646b0d56832cb974a179f06cc55d3a6b0e330213688ea213"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/30/frame/1",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 30,
+        "entryIndex": null,
+        "frameIndex": 1,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/30/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/8a5919b192a714a5160362a10a3657146b9afebed1d488a9bf3dc060574f61ac",
+    "decoded": {
+      "path": "images/7c670d2420ba5a9de35116a1ebdef65c43ae8775306713057d797838466fa447.png",
+      "sha256": "7c670d2420ba5a9de35116a1ebdef65c43ae8775306713057d797838466fa447"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/30/frame/2",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 30,
+        "entryIndex": null,
+        "frameIndex": 2,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/30/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/8a1b46e764cbbc7ad1dd34f18c3ccc6d072aeccf2b717953e2da22c369ff2803",
+    "decoded": {
+      "path": "images/1a9ffbc144e42930c6f7c894bec58324d18ad9d5f85c8d1358cf7c19e86bd563.png",
+      "sha256": "1a9ffbc144e42930c6f7c894bec58324d18ad9d5f85c8d1358cf7c19e86bd563"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/30/frame/3",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 30,
+        "entryIndex": null,
+        "frameIndex": 3,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": "cok/dos-ega/disk1/pic1.dax/block/30/frames"
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/679c13a53a8b44fdaf3387c6a081d538978006926b26cd677fccaca9222939fd",
+    "decoded": {
+      "path": "images/a43710e852427da80adaf247a5c2257520381fd9ec3058c99751a3e7e3fe894c.png",
+      "sha256": "a43710e852427da80adaf247a5c2257520381fd9ec3058c99751a3e7e3fe894c"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/34/entry/12/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 34,
+        "entryIndex": 12,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/e19664788eebecbaa7d76a936877d0d966ba4a442b193c2e5dc5efaed01f6dd3",
+    "decoded": {
+      "path": "images/8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b.png",
+      "sha256": "8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/34/entry/3/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 34,
+        "entryIndex": 3,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/e19664788eebecbaa7d76a936877d0d966ba4a442b193c2e5dc5efaed01f6dd3",
+    "decoded": {
+      "path": "images/8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b.png",
+      "sha256": "8da07808b0cf88339669332e5479f948e3dd7d3f0d0b3f1f64bd418fb5f3247b"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/35/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 35,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/57e2d0e9b48f772b1f69a570237d79c04f8f89f83784cd9025c464f9ae7990a6",
+    "decoded": {
+      "path": "images/cbc6c74eb44e1ac89c3407a08d90f629c58430fc3ff054c2dcd4c00c47a0150b.png",
+      "sha256": "cbc6c74eb44e1ac89c3407a08d90f629c58430fc3ff054c2dcd4c00c47a0150b"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/41/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 41,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/9fe3f195d31b7396ba0fad55763e0ff1a65ade1acfb91dde81ae51f557455970",
+    "decoded": {
+      "path": "images/c8787dc2e775c83e85ed33f50f2dc1613986edefba270468f2f7bd57dd68e4bd.png",
+      "sha256": "c8787dc2e775c83e85ed33f50f2dc1613986edefba270468f2f7bd57dd68e4bd"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/57/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 57,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/45007f634331bc4b78a95a0f38476b2ae080f53074f9bd4968a35adef59411cc",
+    "decoded": {
+      "path": "images/f854debb99b65c412e49e90a7606263341e83bae5dca0ba8b5ba36d51d671191.png",
+      "sha256": "f854debb99b65c412e49e90a7606263341e83bae5dca0ba8b5ba36d51d671191"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/58/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 58,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null,
+      "galleryReferences": [
+        {
+          "system": "cok-curated-restyle-v1",
+          "id": "scene_cok_dos_pic1_058_f0",
+          "manifest": "apps/web/dist-app-cok57/restyle/manifest.json",
+          "manifestSha256": "1cb3e1eca86d42dc53bfbfaebe8949d9e89bca1b3fd48bca4ecb43fe95cb1ee2",
+          "sourceSha256": "ab274f539c435b02685a5b612360071906fa93294317846c0fe93e7022d67fc9",
+          "outputSha256": "8fc50df402ea2f44001312e1556445ad7ac45a12506be60920e565232657dceb",
+          "label": "Village scene · PIC1.DAX #58 (DOS)",
+          "description": "DOS PIC1.DAX block 58, frame 0: square village view with red-roofed houses in the foreground, a path and green trees, low brown hills and a pale turquoise sky. Preserve the buildings and composition.",
+          "promptFile": null,
+          "inputFile": null
+        }
+      ]
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/df0f00093077d34fe4147d3726cd7dd541503795247b2d0db79de489b5d31e9f",
+    "decoded": {
+      "path": "images/ab274f539c435b02685a5b612360071906fa93294317846c0fe93e7022d67fc9.png",
+      "sha256": "ab274f539c435b02685a5b612360071906fa93294317846c0fe93e7022d67fc9"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/59/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 59,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/6fb4bb4835ba055aa5f6242b03af5bde92cad743056f9a7fa4c2a03dd3787572",
+    "decoded": {
+      "path": "images/e600ff970cf1e45edb955226b2c118ee7fbf1e0259f5692c694018feea7d36b9.png",
+      "sha256": "e600ff970cf1e45edb955226b2c118ee7fbf1e0259f5692c694018feea7d36b9"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/60/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 60,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/05e281fc4f4d82bbaaec0abd5fd3f3f5c1a4e354e35dbd02d63e6de73435991e",
+    "decoded": {
+      "path": "images/7e40d6c7987839bf0400e187a986dacf3c8764dda3516380f7f2c71a87e11620.png",
+      "sha256": "7e40d6c7987839bf0400e187a986dacf3c8764dda3516380f7f2c71a87e11620"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/61/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 61,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/e4b74b71b9c2290bbe86efd58c5bd133225a2e2f1d85fb20e13e2a4fa21d9b64",
+    "decoded": {
+      "path": "images/514d31291c71984463b404f93eea97baa7f921478544edf8af76cb204f3e5ab0.png",
+      "sha256": "514d31291c71984463b404f93eea97baa7f921478544edf8af76cb204f3e5ab0"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/62/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 62,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/182c1dc65d62313c8070b36ed4b795e2283c4f7f0320c40a4566d0b333fd75bd",
+    "decoded": {
+      "path": "images/5fbcf24ec6555cac122c5bccf899d87ca779a8ff8bbb251e761eef864ea07a5d.png",
+      "sha256": "5fbcf24ec6555cac122c5bccf899d87ca779a8ff8bbb251e761eef864ea07a5d"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/63/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 63,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/6dabbf8d949f0648a895125f7577e5756e427fe1e251c1e02bbeda7447f2dee7",
+    "decoded": {
+      "path": "images/73cdc32fd3cb00571d37109dbe9219a412fa7277ad6cdfc76ba513e2461a28c4.png",
+      "sha256": "73cdc32fd3cb00571d37109dbe9219a412fa7277ad6cdfc76ba513e2461a28c4"
+    },
+    "decodedPresent": true
+  },
+  {
+    "record": {
+      "id": "cok/dos-ega/disk1/pic1.dax/block/8/frame/0",
+      "game": "cok",
+      "edition": "DOS disk 1",
+      "platform": "DOS-EGA",
+      "locator": {
+        "kind": "block-frame",
+        "blockId": 8,
+        "entryIndex": null,
+        "frameIndex": 0,
+        "tileIndex": null,
+        "cellIndex": null
+      },
+      "identityStatus": "source-pinned",
+      "animationGroupId": null
+    },
+    "archiveId": "archive/770c9b68ea63c2369b704cef28cb7dab5b330fb6e253e4ff752e8f5ba2ea5563",
+    "appearanceId": "appearance/9cd3a3912a6108e1f948a5e06adf295f1a8348ae5f41c4ca74cfda054d7d59d4",
+    "decoded": {
+      "path": "images/96dad50a66476ca42f23022b3809e77e8421c7e146376a2576f399a4dde87225.png",
+      "sha256": "96dad50a66476ca42f23022b3809e77e8421c7e146376a2576f399a4dde87225"
+    },
+    "decodedPresent": true
+  }
+]

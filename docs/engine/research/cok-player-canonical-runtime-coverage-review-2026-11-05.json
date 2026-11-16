@@ -1,0 +1,233 @@
+{
+  "schema": "cok-player-canonical-runtime-coverage-review-v1",
+  "date": "2026-11-05",
+  "scope": "static source/dependency-pin refresh after the canonical player-icon bridge; no browser observation or production-package acceptance",
+  "before": {
+    "docs/engine/research/cok-player-consumer-contract-v1.json": {
+      "sha256": "da7e5c6136af714d871dff1ab2cff27881c352e7926232b3879b8998f7d5a299",
+      "bytes": 4302
+    },
+    "docs/engine/research/cok-player-runtime-coverage-v1.json": {
+      "sha256": "779aabe0144c1a96e95ba9e121497f1258ffce2b7bdec990209559aeaf83470b",
+      "bytes": 52985
+    },
+    "docs/engine/research/cok-runtime-art-consumers-v1.json": {
+      "sha256": "42b93e1c69412978dc8dfdaf2c702262da6fb70866cbdf17a1551c47108dee52",
+      "bytes": 34179
+    },
+    "docs/engine/research/cok-runtime-art-coverage-v1.json": {
+      "sha256": "cf70356d460bc82942467121cc9cbff05b5d01b0f3f4e207e964ea31cad9089a",
+      "bytes": 892605
+    },
+    "docs/engine/research/cok-runtime-art-consumers-v2.json": {
+      "sha256": "bf4fcdf2549ffd10afad2165c97de29189accb05eb570259d29383efe351db19",
+      "bytes": 4696
+    },
+    "docs/engine/research/cok-runtime-art-coverage-v2.json": {
+      "sha256": "aab032009447f152fb11e377427f074b1dd5bb9f3ddc666cbb955a3083f63d3e",
+      "bytes": 787277
+    }
+  },
+  "after": {
+    "docs/engine/research/cok-player-consumer-contract-v1.json": {
+      "sha256": "57bd45f67c8a8b2d28aebbdae6a67aa0fd2e25537f1b358c707afa88b7e1bbfa",
+      "bytes": 6802
+    },
+    "docs/engine/research/cok-player-runtime-coverage-v1.json": {
+      "sha256": "0b493f03d5bc8afb202e05b64e80d13b5a881e8aa781b298130a4fd05b03b4cb",
+      "bytes": 52985
+    },
+    "docs/engine/research/cok-runtime-art-consumers-v1.json": {
+      "sha256": "d1adc9396a163a9859c30b5ce29819fe00c24cfb74fe0055fd76a8db281fec0c",
+      "bytes": 35967
+    },
+    "docs/engine/research/cok-runtime-art-coverage-v1.json": {
+      "sha256": "9ede192394cbce2d39939726362d52ffec76bbfd7de8f0c0e16ed2b21b79f139",
+      "bytes": 893746
+    },
+    "docs/engine/research/cok-runtime-art-consumers-v2.json": {
+      "sha256": "0f8a81e18ab4ac908d1bea3d7008b2e607374dd560e2fe58c9514e2d9b4af7a3",
+      "bytes": 4729
+    },
+    "docs/engine/research/cok-runtime-art-coverage-v2.json": {
+      "sha256": "f398ffba090b5c91c48ff2294c6d9769e292e8e66bdf121bc7bd9abe2aba91b8",
+      "bytes": 788418
+    }
+  },
+  "reviewedSourcePins": {
+    "apps/web/src/ui/cokPlayerAppearance.ts": "3404c2218a12b5cd63a2c04a536ee219ddbda7b5573f62d7eaecfaac239dbe06",
+    "apps/web/src/ui/create.ts": "3dd679f2334aae8c3d6d47aabc4c6cb07758e654f23dfed7f6ec561692913bf5",
+    "apps/web/src/ui/charSheet.ts": "2deaabeb425c60692bc11107585a90ec77c503cfdca9f0d95a096b38074a6d3b",
+    "apps/web/src/ui/combat.ts": "e755d05e77ae96c74e9778490c34f4ded37c01e98f4b602234669878585a8a4f",
+    "apps/web/scripts/bundle-cok-player-appearance.mjs": "04703eef3111581c5db051178566fb02525b1042152ca10b1f68bc963d40f744",
+    "apps/web/src/ui/cok-player-canonical-bindings.mjs": "37f4ca61b6d74bf86e6513853e84206cc8a6922bf4569c40bc7e62d3bf53e0b8",
+    "apps/web/src/ui/cokPlayerCanonicalBindings.json": "9c28b734012b46ba430f82a847009af9c812598ec0c4a7237dcfc058faed1b4c",
+    "tools/cok-player-canonical-bindings.mjs": "a62596c7d3b6fdc101f669f34b9d3c8355ebf4c6a9010679c826923fa3dec349",
+    "apps/web/test/cok-player-canonical-bindings.test.mjs": "95842a1ed66268e459894a53972781a2b2d64d8eebd9ac4c7a4a580fd6fdd6d0"
+  },
+  "dependencyChanges": {
+    "playerContractAddedSources": [
+      "apps/web/scripts/bundle-cok-player-appearance.mjs",
+      "apps/web/src/ui/cok-player-canonical-bindings.mjs",
+      "apps/web/src/ui/cokPlayerCanonicalBindings.json",
+      "apps/web/test/cok-player-canonical-bindings.test.mjs",
+      "tools/cok-player-canonical-bindings.mjs"
+    ],
+    "dependencyVariantIndexes": [],
+    "v1InputCount": 82,
+    "v1ChangedExistingInputs": [
+      "apps/web/src/ui/cokPlayerAppearance.ts"
+    ],
+    "v2ChangedInputs": [
+      "docs/engine/research/cok-runtime-art-consumers-v1.json",
+      "docs/engine/research/cok-runtime-art-coverage-v1.json"
+    ],
+    "reviewedBehavior": "The loader requires the exact canonical selector/variant/source/output binding before optional Restyle requests and preserves the pinned DOS-original plan on invalid canonical evidence. The packager verifies the projection before output mutation. Creator remains variants 0/1; sheet and combat remain variant 0. Their preceding local-folder lifecycle changes refresh pending/cached art without adding source variants."
+  },
+  "invariantProjections": {
+    "docs/engine/research/cok-player-runtime-coverage-v1.json": {
+      "excludedReviewedFields": [
+        "inputs"
+      ],
+      "beforeSha256": "9efb54390b38c02337a6ca67350488d819821c43ad2b38f120142005fdf50885",
+      "afterSha256": "9efb54390b38c02337a6ca67350488d819821c43ad2b38f120142005fdf50885"
+    },
+    "docs/engine/research/cok-runtime-art-coverage-v1.json": {
+      "excludedReviewedFields": [
+        "consumers",
+        "inputs"
+      ],
+      "beforeSha256": "cfee62c959600c04c97beffa133a2dde78104e81373e4af9bbb384f2e2b371e9",
+      "afterSha256": "cfee62c959600c04c97beffa133a2dde78104e81373e4af9bbb384f2e2b371e9"
+    },
+    "docs/engine/research/cok-runtime-art-coverage-v2.json": {
+      "excludedReviewedFields": [
+        "consumers",
+        "inputs"
+      ],
+      "beforeSha256": "1399b2e359200c572df0de35a30bc31e18bc7bca8ec1961d51dad1c688b8509c",
+      "afterSha256": "1399b2e359200c572df0de35a30bc31e18bc7bca8ec1961d51dad1c688b8509c"
+    }
+  },
+  "playerCounts": {
+    "appearanceSets": 4,
+    "acceptedTuples": 6,
+    "componentRows": 16,
+    "distinctPackageIdentities": 24,
+    "distinctSourceOutputPairs": 10,
+    "manifestDeclaredComponents": 16,
+    "staticConsumerBindings": 32,
+    "runtimeObservedComponents": 0,
+    "restyleAdmittedFrames": 4,
+    "restyleHeldFrames": 4,
+    "inventoryApprovedComponents": 12,
+    "inventoryUnapprovedComponents": 4,
+    "componentsWithIssues": 4,
+    "componentPackageSlotsMissing": 24,
+    "componentPackageSlotsHashMismatch": 0,
+    "runtimePackagePlanPaths": 20,
+    "runtimePackageSourceFilesPresent": 5,
+    "runtimePackageSourceFilesMissing": 15,
+    "runtimePackageSourceFilesHashMismatch": 0,
+    "heldRestyleOutputPaths": 4,
+    "heldRestylePathsPresentInPublicSource": 1
+  },
+  "runtimeCounts": {
+    "canonicalSourceIds": 403,
+    "mappingEntries": 371,
+    "outputPaths": 334,
+    "distinctOutputHashes": 324,
+    "usedRestyleRecords": 360,
+    "sourceFrameGroups": 2,
+    "presentationFrames": 11,
+    "frameComponentPlacements": 21,
+    "pictureSites": {
+      "dynamic": 1,
+      "total": 146,
+      "withConditionalSource": 26
+    },
+    "v1Combat": {
+      "physicalSites": 192,
+      "entrySiteRows": 221
+    },
+    "v2Combat": {
+      "physicalSites": 192,
+      "distinctRosterVariants": 267,
+      "entrySiteAssociations": 221,
+      "entryVariantAssociations": 323
+    }
+  },
+  "unchangedHistoricalEvidence": [
+    {
+      "path": "docs/engine/research/cok-runtime-art-combat-sites-v1.json",
+      "sha256": "31e25a4a7d81ca60361dd23b4e160be26a2c1af64fbdc9087cf55ff4324fde72",
+      "bytes": 79688
+    },
+    {
+      "path": "docs/engine/research/cok-runtime-art-combat-sites-v2.json",
+      "sha256": "53ba28b5dafd6ed882258431fead4b570138fb915413cc82d1ca6b7c6c9714ae",
+      "bytes": 95501
+    },
+    {
+      "path": "docs/engine/research/cok-runtime-coverage-contract-review-2026-11-04.json",
+      "sha256": "45974bf107ba7bbbbd41e2184ea52ffb0bd3418137dd58db95070697faee5013",
+      "bytes": 3959
+    }
+  ],
+  "budgets": {
+    "v1": {
+      "beforeBytes": 1006472,
+      "afterBytes": 1009401,
+      "growthBytes": 2929,
+      "ceilingBytes": 1048576,
+      "members": [
+        "docs/engine/research/cok-runtime-art-consumers-v1.json",
+        "docs/engine/research/cok-runtime-art-coverage-v1.json",
+        "docs/engine/research/cok-runtime-art-combat-sites-v1.json"
+      ]
+    },
+    "v2": {
+      "beforeBytes": 901625,
+      "afterBytes": 902799,
+      "growthBytes": 1174,
+      "ceilingBytes": 1048576,
+      "members": [
+        "docs/engine/research/cok-runtime-art-consumers-v2.json",
+        "docs/engine/research/cok-runtime-art-coverage-v2.json",
+        "docs/engine/research/cok-runtime-art-combat-sites-v2.json",
+        "docs/engine/research/cok-runtime-art-coverage-v2.schema.json"
+      ]
+    }
+  },
+  "verification": {
+    "canonicalProjectionCheck": "pass",
+    "playerReportWriteAndCheck": "pass",
+    "v1ReportWriteAndCheck": "pass",
+    "v2ReportWriteAndCheck": "pass",
+    "playerPythonTests": "10/10 pass",
+    "runtimeCoveragePythonTests": "19/19 pass",
+    "runtimeCoverageSchemasIncludingPlayer": "5/5 pass",
+    "webBridgeCoverageMetadataTests": "22/22 pass",
+    "focusedTextWhitespaceCheck": "pass"
+  },
+  "limitations": [
+    "Runtime observation and production packaging remain unverified.",
+    "The public player source-tree audit has 5 planned files with matching bytes, 15 missing and zero mismatches; the held CBODY_216_restyle.png remains present outside the runtime plan.",
+    "The four secondary body frames remain held; no Amiga player-icon mapping was added.",
+    "No game data, public image file, old combat receipt, historical review receipt, source/Restyle ID, mapping, frame admission or animation meaning was changed.",
+    "No build, Vite launch, browser execution, deployment, staging, commit or push was performed. Existing release holds remain in force."
+  ],
+  "reproductionCommands": [
+    "node tools/cok-player-canonical-bindings.mjs --check",
+    "python tools/cok_player_runtime_coverage.py --write",
+    "python tools/cok_player_runtime_coverage.py --check",
+    "python tools/cok_runtime_art_coverage.py --write",
+    "python tools/cok_runtime_art_coverage.py --check",
+    "python tools/cok_runtime_art_coverage.py --v2 --write",
+    "python tools/cok_runtime_art_coverage.py --v2 --check",
+    "python tools/test_cok_player_runtime_coverage.py",
+    "python tools/test_cok_runtime_art_coverage.py",
+    "node --test tools/test_cok_runtime_art_coverage_schema.mjs",
+    "node --test apps/web/test/cok-player-canonical-bindings.test.mjs apps/web/test/graphics-coverage.test.mjs apps/web/test/graphics-coverage-integration.test.mjs apps/web/test/public-graphics-metadata.test.mjs"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "cok-bigpic1-scene-review-v1",
+  "scope": "Amiga BIGPIC1.DAA block-frame gap rows from the 2026-11-10 gap review queue, against their location peers (same archive family and block number). Each outcome is a visual judgment from a contact sheet (bigpic1-sheet-1), not a metric.",
+  "reviewer": "Claude (visual review, 2026-11-10)",
+  "sameSceneCount": 2,
+  "pairCount": 2,
+  "pairs": [
+    {
+      "index": 0,
+      "gap": "cok/amiga/disk2/bigpic1.daa/block/114/frame/0",
+      "peer": "cok/dos-ega/disk1/bigpic1.dax/block/114/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "bd53531d9ae958f94ca1fb571e16350b3ce74000845f843f297f02747cb9fb30",
+      "peerPixelSha256": "a790826925a8de9fed65f705442ea429e1d230d14793c00939e2237830eda9f9",
+      "sizeGap": [
+        1216,
+        480
+      ],
+      "sizePeer": [
+        1216,
+        480
+      ],
+      "differingChannelValues": 815280,
+      "channelValues": 1751040
+    },
+    {
+      "index": 1,
+      "gap": "cok/amiga/disk2/bigpic1.daa/block/115/frame/0",
+      "peer": "cok/dos-ega/disk1/bigpic1.dax/block/115/frame/0",
+      "outcome": "same-scene",
+      "gapPixelSha256": "8603c7d51f72fcd8f0c40fbdd155112af1f70e24ba3484161d829c33393d6c9d",
+      "peerPixelSha256": "29ec6a4b1ffa4c77f12616ee11a3c34a8a2c9ce4cdf236e2ad4dc54b0faf12ff",
+      "sizeGap": [
+        1216,
+        480
+      ],
+      "sizePeer": [
+        1216,
+        480
+      ],
+      "differingChannelValues": 372512,
+      "channelValues": 1751040
+    }
+  ]
+}

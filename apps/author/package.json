@@ -1,0 +1,25 @@
+{
+  "name": "@goldbox/author",
+  "version": "0.1.0",
+  "description": "Gold Box / Greybox authoring shell — a FRUA-superset map editor over the @goldbox/engine ModulePackage model.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "vite",
+    "preview": "vite preview",
+    "build:app": "node scripts/build-app.mjs",
+    "e2e": "node test/e2e.mjs"
+  },
+  "dependencies": {
+    "@goldbox/engine": "workspace:*",
+    "@goldbox/ui-kit": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "puppeteer-core": "^25.1.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

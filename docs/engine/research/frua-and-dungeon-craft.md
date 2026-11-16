@@ -67,6 +67,13 @@ Global data shared across designs lives in the main `\frua` install:
 | Guided-tour steps per event | 24 (chainable) | FRUA FAQ [W] |
 | Save game slots | 10 (a–j) | `UAFILES.TXT` |
 
+> **Local evidence note (2026-11-16):** the 576-cell grid figure is enforced locally by
+> `packages/engine/src/module/frua/decode.ts` (`GRID_SLOT_BUDGET`). It bounds width×height, not a
+> square 24×24 shape: local HEIRS overland maps are 38×15. Retail DQK maps reach 784 cells, so
+> they do not fit a FRUA design file. See
+> [Krynn/FRUA map-capacity comparison](krynn-frua-map-capacity-port-comparison-2026-11-16.md)
+> for the sourced comparison.
+
 ### 1.3 Art Types and Pixel Dimensions [V: local hackdocs; W: FRUA FAQ]
 
 | Art Type | Pixel Dimensions | Format | Container |

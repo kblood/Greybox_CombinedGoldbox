@@ -5,11 +5,12 @@ This is a fresh-history share snapshot copied from `2eede9b8df6906448af25c120dcb
 ## Copy scope
 
 - Source: tracked files at the source repository's current `HEAD`; untracked and ignored files were not copied.
-- Copied: 2,880 project files, plus this review note, `LICENSE`, and `THIRD_PARTY_NOTICES.md`. Excluded: 1,530 tracked paths.
+- Initial copy: 2,880 project files, plus this review note, `LICENSE`, and `THIRD_PARTY_NOTICES.md`. Excluded: 1,530 tracked paths. The DQK/FRUA capacity comparison was added later as a documentation-only follow-up.
 - Excluded complete retail game directories: CoK, DoK, and DQK (1,321 tracked files).
 - Excluded `rust/cok-recomp/` (204 files) because it contains original-derived lifted code; also excluded `.claude/` tool-specific instructions, common binary/game/media extensions, and `apps/web/public/restyle/`.
 - Included these six research notes under the user's working assumption that they are safe enough to share: `decompilation-sources.md`, `cok-demo-decompile.md`, `decompile-dqk-ecl-dispatch.md`, `disasm-combat-cok.md`, `disasm-combat-dqk.md`, and `disasm-spells-krynn.md`. They contain a verbatim CoAB C# excerpt, game-derived byte sequences, or instruction-level disassembly. This records the user's risk decision; it is not a legal determination.
 - Source history was not copied; the draft keeps its separate fresh initial commit.
+- Follow-up added after publication: `docs/engine/research/krynn-frua-map-capacity-port-comparison-2026-11-16.md`, a technical comparison containing no game binaries, assets, or verbatim game text. The existing FRUA/Dungeon Craft note now links to it.
 
 ## License
 

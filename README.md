@@ -1,5 +1,10 @@
 # GoldBox / Greybox project
 
+This repository's original project software is licensed under [0BSD](LICENSE), subject to
+the scope limits in [Third-Party Notices](THIRD_PARTY_NOTICES.md). Third-party code,
+quoted/decompiled material, game-derived content and assets retain their own applicable
+rights and terms; the root license does not grant rights to redistribute those materials.
+
 This repository investigates SSI Gold Box games and develops three related but distinct
 runtime tracks. [AGENTS.md](AGENTS.md) is the agent startup entrypoint; project descriptions
 belong here and in the linked track documents, not in tool-specific instructions.

@@ -1,6 +1,6 @@
 # Share draft review status
 
-This is a local, fresh-history draft copied from `2eede9b8df6906448af25c120dcb4a1154376737`. It has no remote and is **not cleared for upload**.
+This is a fresh-history share snapshot copied from `2eede9b8df6906448af25c120dcb4a1154376737`. At the user's direction, it was published as the public repository [kblood/Greybox_CombinedGoldbox](https://github.com/kblood/Greybox_CombinedGoldbox) on 2026-11-16. Publication records the user's sharing decision; it is not a legal determination or a complete clearance review.
 
 ## Copy scope
 
@@ -16,12 +16,12 @@ This is a local, fresh-history draft copied from `2eede9b8df6906448af25c120dcb4a
 - The root `LICENSE` applies 0BSD only to original project software authored by contributors who have the right to license their contributions.
 - `THIRD_PARTY_NOTICES.md` explains that third-party works, quoted/decompiled material, and game-derived content are outside the root license and retain their own terms. This is a scope clarification, not a complete third-party inventory or legal clearance.
 
-## Still required before any GitHub upload
+## Remaining review limitations
 
 1. Review the remaining 279 files with machine-specific absolute paths in code, configuration, tests, and fenced command examples. Narrative Markdown prose was normalized in 102 files; avoid global replacement elsewhere because asset roots and provenance references need case-by-case handling.
 2. Review reverse-engineering documents and source for embedded copyrighted code, data tables, long verbatim text, or derived assets. Further notes may require similar treatment. This copy filter is not a legal clearance.
 3. Review remaining third-party code and dependency license obligations. The audit found study-only COAB/Dungeon Craft references and does not establish that all remaining source is distributable.
-4. Run a full secret scan before upload. A pattern scan found no high-confidence common credentials, but is not proof of absence.
-5. Recheck the final tree and Git history for disallowed assets before adding any GitHub remote.
+4. Complete a full secret scan and address any findings. An earlier pattern scan found no high-confidence common credentials, but is not proof of absence.
+5. Recheck the published tree and Git history for disallowed assets; remove or revise anything that should not remain public.
 
-Do not treat the existing private demo, current local source holdings, or this draft as permission to distribute copyrighted game material.
+The initial upload used one fresh-history `main` branch. The existing private demo, current local source holdings, and this public snapshot do not themselves grant permission to distribute copyrighted game material.
